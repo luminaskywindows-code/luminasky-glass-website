@@ -2,22 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Neutral UI variables for shadcn component primitives */
+    --background: #ffffff;
+    --foreground: #111827;
+    --card: #ffffff;
+    --card-foreground: #111827;
+    --popover: #ffffff;
+    --popover-foreground: #111827;
+    --muted: #f3f4f6;
+    --muted-foreground: #6b7280;
+    --border: #e5e7eb;
+    --input: #e5e7eb;
+    --ring: #0EA5E9;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --radius: 0.625rem;
   }
+
+  * {
+    box-sizing: border-box;
+    border-color: #e5e7eb;
+  }
+
+  body {
+    @apply bg-white text-gray-900 font-sans antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* shadcn component color utilities mapped from CSS vars */
+  .bg-background { background-color: var(--background); }
+  .bg-popover { background-color: var(--popover); }
+  .bg-card { background-color: var(--card); }
+  .bg-muted { background-color: var(--muted); }
+  .bg-destructive { background-color: var(--destructive); }
+  .text-foreground { color: var(--foreground); }
+  .text-popover-foreground { color: var(--popover-foreground); }
+  .text-card-foreground { color: var(--card-foreground); }
+  .text-muted-foreground { color: var(--muted-foreground); }
+  .text-destructive { color: var(--destructive); }
+  .border-input { border-color: var(--input); }
+  .border-border { border-color: var(--border); }
+  .ring-ring { --tw-ring-color: var(--ring); }
+  .focus-visible\:border-ring:focus-visible { border-color: var(--ring); }
+  .focus-visible\:ring-ring\/50:focus-visible { --tw-ring-color: color-mix(in srgb, var(--ring) 50%, transparent); }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2;
+  }
+  .btn-outline-white {
+    @apply inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-primary font-semibold px-6 py-3 rounded-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 active:scale-95;
+  }
+  .section-padding {
+    @apply py-16 px-4 md:px-8;
+  }
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
 }
 
 @layer utilities {
