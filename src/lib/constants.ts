@@ -72,28 +72,28 @@ export const SERVICES = [
 
 export const TESTIMONIALS = [
   {
-    name: "Michael T.",
-    location: "North York",
+    name: "Rick David",
+    location: "Local Guide · Google Review",
     rating: 5,
-    text: "Had foggy windows on three units replaced same-day. The technician was professional, tidy, and the results are crystal clear. Excellent work — highly recommend.",
+    text: "They came the next day and replaced the crank in short order. Their technicians were very polite, professional and FAST. All three repairs done for less money than any one of the windows would cost me to replace. I highly recommend Lumina Sky Windows. Call them and watch their MAJIC happen.",
   },
   {
-    name: "Sandra R.",
-    location: "Markham",
+    name: "Alvin Bruney",
+    location: "Google Review",
     rating: 5,
-    text: "Replaced our front door glass insert perfectly. Matched the style exactly and looks absolutely stunning. Much cheaper than I expected. Will use again.",
+    text: "They showed up on time, explained the problem and recommended a solution along with a repair cost. They did not try to upsell me on other services. The repair was done on time. There was no pressure or sales pitch. Just good service at a reasonable price. I'm very happy.",
   },
   {
-    name: "James K.",
-    location: "Mississauga",
+    name: "Swapnil Deoras",
+    location: "Local Guide · Google Review",
     rating: 5,
-    text: "Fixed my broken window crank in under an hour. Very affordable and fast — they even cleaned up after themselves. This is the company to call in the GTA.",
+    text: "Got the quote by sharing pictures and video of the crank which was not working. The team came same day and fixed window cranks. Awesome people. Would definitely recommend their services. Value for money.",
   },
   {
-    name: "Linda M.",
-    location: "Vaughan",
+    name: "William Potalivo",
+    location: "Stouffville, ON · Google Review",
     rating: 5,
-    text: "Got integrated blinds installed in our master bedroom. No more tangled cords, looks modern, and the privacy is perfect. Couldn't be happier!",
+    text: "Their communication was effective and efficient, their level of expertise was very high, and their workmanship flawless. Now that I am aware of their services, I will be hiring Lumina Sky Glass again in the near future to tackle other jobs.",
   },
 ];
 
