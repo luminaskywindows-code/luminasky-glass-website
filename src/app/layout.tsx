@@ -41,9 +41,12 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "/images/logo.png",
-    shortcut: "/images/logo.png",
-    apple: "/images/logo.png",
+    icon: [
+      { url: "/images/logo.png", type: "image/png", sizes: "32x32" },
+      { url: "/images/logo.png", type: "image/png", sizes: "16x16" },
+    ],
+    shortcut: { url: "/images/logo.png", type: "image/png" },
+    apple: { url: "/images/logo.png", type: "image/png" },
   },
   twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
@@ -58,8 +61,8 @@ export default function RootLayout({
   return (
     <html lang="en-CA" className={inter.variable}>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/images/logo.png" type="image/png" />
+        <link rel="icon" href="/images/logo.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/images/logo.png" type="image/png" sizes="16x16" />
         <link rel="apple-touch-icon" href="/images/logo.png" />
         <script
           type="application/ld+json"
