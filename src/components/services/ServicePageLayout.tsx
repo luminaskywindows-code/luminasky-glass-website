@@ -26,10 +26,11 @@ export function ServicePageLayout({
   service,
   breadcrumb,
 }: ServicePageLayoutProps) {
+  const servicePath = service.urlPath ?? `/${service.slug}`;
   const defaultBreadcrumb = [
     { name: "Home", url: "/" },
     { name: "Services", url: "/services" },
-    { name: service.title, url: `/services/${service.slug}` },
+    { name: service.title, url: servicePath },
   ];
 
   const crumbs = breadcrumb ?? defaultBreadcrumb;
@@ -47,7 +48,7 @@ export function ServicePageLayout({
             generateBreadcrumbSchema(crumbs),
             generateServiceSchema(
               service.title,
-              `/services/${service.slug}`,
+              servicePath,
               service.description[0]
             ),
             generateFAQSchema(service.faqs),

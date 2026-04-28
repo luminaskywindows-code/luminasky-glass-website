@@ -25,7 +25,7 @@ export const SERVICES = [
     icon: "cloud",
     description:
       "Seal failures cause condensation between panes. We replace the glass unit — not the whole window — saving you hundreds.",
-    href: "/services/foggy-windows",
+    href: "/foggy-windows",
     imageSrc: "/images/services/foggy-window-real.jpg",
   },
   {
@@ -35,7 +35,7 @@ export const SERVICES = [
     icon: "door-open",
     description:
       "Decorative, frosted, or clear glass inserts for all front door and sidelite styles. Boost curb appeal instantly.",
-    href: "/services/front-door-glass",
+    href: "/front-door-glass",
     imageSrc: "/images/services/foggy-leaded-glass.jpg",
   },
   {
@@ -45,7 +45,7 @@ export const SERVICES = [
     icon: "wrench",
     description:
       "Broken casement operators or crank handles repaired or replaced quickly. Restore smooth, effortless operation.",
-    href: "/services/window-cranks",
+    href: "/cranks",
     imageSrc: "/images/services/window-crank-door.jpg",
   },
   {
@@ -55,7 +55,7 @@ export const SERVICES = [
     icon: "shield",
     description:
       "Custom-fit screen and storm door installation and repair. Keep bugs out and fresh air in all season long.",
-    href: "/services/screen-storm-doors",
+    href: "/screen-storm-doors",
     imageSrc: "/images/services/storm-door-hardware.jpg",
   },
   {
@@ -65,7 +65,7 @@ export const SERVICES = [
     icon: "sun",
     description:
       "Professional skylight glass replacement, leak repair, and seal restoration — without a full tearout.",
-    href: "/services/skylights",
+    href: "/skylights",
     imageSrc: "/images/services/skylight-hero-clean.png",
   },
 ];

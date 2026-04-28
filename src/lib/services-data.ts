@@ -1,5 +1,7 @@
 export interface ServiceData {
   slug: string;
+  /** URL path for this service page (defaults to `/${slug}` if omitted) */
+  urlPath?: string;
   title: string;
   shortTitle?: string;
   heroHeadline: string;
@@ -286,6 +288,7 @@ export const FRONT_DOOR_GLASS: ServiceData = {
 
 export const WINDOW_CRANKS: ServiceData = {
   slug: "window-cranks",
+  urlPath: "/cranks",
   title: "Window Crank Repair",
   heroHeadline: "Fix Stiff, Broken, or Missing Window Cranks Fast",
   heroSubtext:
