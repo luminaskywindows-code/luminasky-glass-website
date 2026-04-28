@@ -40,6 +40,11 @@ export const metadata: Metadata = {
       },
     ],
   },
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
   twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
   alternates: { canonical: "https://luminasky.com" },

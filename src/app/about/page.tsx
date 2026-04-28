@@ -189,7 +189,7 @@ export default function AboutPage() {
               {[
                 { stat: "5,000+", label: "Windows Repaired", color: "bg-primary" },
                 { stat: "4.9★", label: "Average Rating", color: "bg-accent" },
-                { stat: "Since 2015", label: "Serving the GTA", color: "bg-primary" },
+                { stat: "Since 2024", label: "Serving the GTA", color: "bg-primary" },
                 { stat: "90%+", label: "First-Visit Fix Rate", color: "bg-accent" },
               ].map((item) => (
                 <div
