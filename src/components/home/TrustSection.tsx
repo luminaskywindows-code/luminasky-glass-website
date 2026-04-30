@@ -1,11 +1,11 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { CheckCircle2 } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 
 const CHECKPOINTS = [
-  "Repair just the glass — keep your existing frames",
+  "Repair just the glass - keep your existing frames",
   "Save 60–80% versus full window or door replacement",
   "Same-day service available across the GTA",
   "All work backed by our satisfaction guarantee",
@@ -21,7 +21,7 @@ export function TrustSection() {
       style={{ backgroundImage: "url('/images/bright-windows-section.png')" }}
       aria-labelledby="trust-heading"
     >
-      {/* Semi-transparent blue overlay — keeps text readable while window shows through */}
+      {/* Semi-transparent blue overlay - keeps text readable while window shows through */}
       <div className="absolute inset-0 bg-primary/75" aria-hidden="true" />
 
       <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
@@ -42,7 +42,7 @@ export function TrustSection() {
           </h2>
           <p className="text-blue-100 text-lg md:text-xl leading-relaxed mb-10 max-w-3xl mx-auto">
             Most homeowners think foggy windows or broken door glass means replacing the
-            entire window frame. In most cases, we can repair just the glass unit —
+            entire window frame. In most cases, we can repair just the glass unit -
             saving you thousands and keeping your home looking great.
           </p>
 

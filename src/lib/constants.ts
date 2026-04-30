@@ -1,4 +1,4 @@
-export const PHONE = "437-344-8490";
+﻿export const PHONE = "437-344-8490";
 export const PHONE_HREF = "tel:+14373448490";
 export const WHATSAPP_HREF =
   "https://wa.me/14373448490?text=Hi%2C%20I%27d%20like%20a%20free%20quote";
@@ -24,7 +24,7 @@ export const SERVICES = [
     shortTitle: "Foggy Windows",
     icon: "cloud",
     description:
-      "Seal failures cause condensation between panes. We replace the glass unit — not the whole window — saving you hundreds.",
+      "Seal failures cause condensation between panes. We replace the glass unit - not the whole window - saving you hundreds.",
     href: "/foggy-windows",
     imageSrc: "/images/services/foggy-window-real.jpg",
   },
@@ -64,7 +64,7 @@ export const SERVICES = [
     shortTitle: "Skylights",
     icon: "sun",
     description:
-      "Professional skylight glass replacement, leak repair, and seal restoration — without a full tearout.",
+      "Professional skylight glass replacement, leak repair, and seal restoration - without a full tearout.",
     href: "/skylights",
     imageSrc: "/images/services/skylight-hero-clean.png",
   },
@@ -104,7 +104,7 @@ export const FAQS_GENERAL = [
   },
   {
     q: "Do I need to replace the whole window frame?",
-    a: "In most cases, no. We replace only the glass unit (the IGU — insulated glass unit), leaving your existing frame intact. This saves 60–80% versus full window replacement.",
+    a: "In most cases, no. We replace only the glass unit (the IGU - insulated glass unit), leaving your existing frame intact. This saves 60–80% versus full window replacement.",
   },
   {
     q: "Are you licensed and insured in Ontario?",
@@ -116,10 +116,10 @@ export const FAQS_GENERAL = [
   },
   {
     q: "How much does glass repair cost?",
-    a: "Cost depends on the glass size and type. Foggy window unit replacements typically range from $150–$350 per unit — far less than full window replacement. We provide free quotes.",
+    a: "Cost depends on the glass size and type. Foggy window unit replacements typically range from $150–$350 per unit - far less than full window replacement. We provide free quotes.",
   },
   {
     q: "What areas do you serve?",
-    a: "We serve the full Greater Toronto Area (GTA). If you're in the GTA, we've got you covered — give us a call to confirm.",
+    a: "We serve the full Greater Toronto Area (GTA). If you're in the GTA, we've got you covered - give us a call to confirm.",
   },
 ];

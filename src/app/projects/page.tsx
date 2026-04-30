@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Phone } from "lucide-react";
 import { ProjectsGallery } from "@/components/projects/ProjectsGallery";
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "See real before and after photos of our glass repair and replacement projects across the GTA. Emergency repairs, window restoration, and door glass replacement.",
   openGraph: {
-    title: "LuminaSky Glass Projects — Real Before & After Results",
+    title: "LuminaSky Glass Projects - Real Before & After Results",
     description:
       "Browse our portfolio of completed glass repair and replacement projects across the Greater Toronto Area.",
     url: `${SITE_URL}/projects`,
@@ -36,7 +36,7 @@ export default function ProjectsPage() {
           </p>
           <p className="text-blue-200 max-w-2xl mx-auto leading-relaxed">
             Every photo below shows actual work completed by our team. From emergency
-            repairs to planned upgrades — see the quality and craftsmanship we deliver.
+            repairs to planned upgrades - see the quality and craftsmanship we deliver.
           </p>
         </div>
       </section>
@@ -55,7 +55,7 @@ export default function ProjectsPage() {
           </h2>
           <p className="text-gray-600 mb-8 leading-relaxed">
             Whether it&apos;s an emergency repair or a planned upgrade, we&apos;re here
-            to help. Contact us today — same-day service available
+            to help. Contact us today - same-day service available
             across the GTA.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">

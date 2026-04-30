@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone } from "lucide-react";
+﻿import { MapPin, Clock, Phone } from "lucide-react";
 import { PHONE_HREF, PHONE } from "@/lib/constants";
 
 export function ServiceAreaMap() {
@@ -18,7 +18,7 @@ export function ServiceAreaMap() {
           Proudly Serving the Greater Toronto Area
         </h2>
         <p className="text-gray-500 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          Wherever you are in the GTA, we can come to you — typically same-day
+          Wherever you are in the GTA, we can come to you - typically same-day
           or next-day. Emergency service available 7 days a week.
         </p>
 
@@ -29,7 +29,7 @@ export function ServiceAreaMap() {
             </div>
             <h3 className="font-bold text-gray-900">GTA-Wide Coverage</h3>
             <p className="text-sm text-gray-500 leading-relaxed">
-              We cover the full Greater Toronto Area — residential and commercial.
+              We cover the full Greater Toronto Area - residential and commercial.
             </p>
           </div>
           <div className="flex flex-col items-center gap-3 p-6 bg-blue-50 rounded-2xl border border-blue-100">

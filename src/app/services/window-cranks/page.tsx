@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { XCircle, CheckCircle2, Phone, Mail } from "lucide-react";
@@ -90,10 +90,10 @@ const REPAIR_ITEMS = [
 ];
 
 const FAILURE_CAUSES = [
-  "Forced opening while lock is engaged — strips internal gears",
-  "House settling or frame warping — misaligns the mechanism",
-  "Freeze-thaw climate — causes rust and corrosion",
-  "Lack of lubrication — gears seize from dirt and oxidation",
+  "Forced opening while lock is engaged - strips internal gears",
+  "House settling or frame warping - misaligns the mechanism",
+  "Freeze-thaw climate - causes rust and corrosion",
+  "Lack of lubrication - gears seize from dirt and oxidation",
   "Normal wear after 15–20 years of daily use",
 ];
 
@@ -123,7 +123,7 @@ const DIY_TIPS = [
 const FAQS = [
   {
     q: "How do I know which brand of hardware I have?",
-    a: "Look for a stamped logo on the crank handle or hinge. If you can't find it, text us a close-up photo and we'll identify it — usually within an hour.",
+    a: "Look for a stamped logo on the crank handle or hinge. If you can't find it, text us a close-up photo and we'll identify it - usually within an hour.",
   },
   {
     q: "Can I buy the part and install it myself?",
@@ -139,7 +139,7 @@ const FAQS = [
   },
   {
     q: "How long does a typical crank repair take?",
-    a: "Most repairs take 30 minutes or less on the first visit. If we have your part in stock — which is 90% of the time for AmesburyTruth hardware — we can often complete same-day.",
+    a: "Most repairs take 30 minutes or less on the first visit. If we have your part in stock - which is 90% of the time for AmesburyTruth hardware - we can often complete same-day.",
   },
   {
     q: "What if you can't identify my hardware from a photo?",
@@ -203,7 +203,7 @@ export default function WindowCranksPage() {
               </nav>
 
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-                Window Crank, Hinge &amp; Operator Repair —{" "}
+                Window Crank, Hinge &amp; Operator Repair -{" "}
                 <span className="text-accent-light">
                   GTA Casement &amp; Awning Specialists
                 </span>
@@ -211,7 +211,7 @@ export default function WindowCranksPage() {
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
                 A casement window with a crank that spins endlessly, a stiff
                 awning that takes both hands to close, or a window that
-                won&apos;t lock — these aren&apos;t &ldquo;replace the whole
+                won&apos;t lock - these aren&apos;t &ldquo;replace the whole
                 window&rdquo; problems. LuminaSky carries authentic{" "}
                 <strong className="text-white">AmesburyTruth</strong> and{" "}
                 <strong className="text-white">Roto</strong> operators, hinges,
@@ -285,7 +285,7 @@ export default function WindowCranksPage() {
               </div>
             </div>
 
-            {/* Mobile image — shown below signs on small screens */}
+            {/* Mobile image - shown below signs on small screens */}
             <div className="lg:hidden relative rounded-2xl overflow-hidden bg-gray-100 aspect-[4/3]">
               <Image
                 src="/images/services/window-crank-door.jpg"
@@ -306,7 +306,7 @@ export default function WindowCranksPage() {
               </h3>
               <p className="text-gray-600 leading-relaxed mb-4">
                 Full window replacement often requires interior trim removal,
-                drywall patching, and repainting — a major disruption to your
+                drywall patching, and repainting - a major disruption to your
                 home.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
@@ -315,7 +315,7 @@ export default function WindowCranksPage() {
                 and no damage to your walls or trim.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Your existing window is structurally sound — it just needs the
+                Your existing window is structurally sound - it just needs the
                 right replacement part and professional installation. We&apos;ll
                 always tell you honestly if the frame is too damaged and
                 replacement makes sense, but in{" "}
@@ -351,7 +351,7 @@ export default function WindowCranksPage() {
               Before &amp; After: Window Crank Repair
             </h2>
             <p className="text-gray-500 mt-3 leading-relaxed">
-              Real hardware from a recent GTA job — same mechanism, transformed in under 30 minutes.
+              Real hardware from a recent GTA job - same mechanism, transformed in under 30 minutes.
             </p>
           </div>
 
@@ -361,7 +361,7 @@ export default function WindowCranksPage() {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src="/images/services/crank-before.jpg"
-                  alt="Worn and rusty window crank mechanism before professional repair — stripped gears and corroded hardware"
+                  alt="Worn and rusty window crank mechanism before professional repair - stripped gears and corroded hardware"
                   fill
                   unoptimized
                   className="object-cover"
@@ -386,7 +386,7 @@ export default function WindowCranksPage() {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src="/images/services/crank-after.jpg"
-                  alt="Brand new authentic window crank operator installed by LuminaSky — smooth operation restored"
+                  alt="Brand new authentic window crank operator installed by LuminaSky - smooth operation restored"
                   fill
                   unoptimized
                   className="object-cover"
@@ -401,7 +401,7 @@ export default function WindowCranksPage() {
               <div className="p-6">
                 <h3 className="font-bold text-gray-900 mb-2">Authentic Replacement Hardware</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">
-                  Brand-new authentic operator installed and aligned. The window now opens, closes, and locks smoothly — no force required. Same-day repair, no mess, no wall damage.
+                  Brand-new authentic operator installed and aligned. The window now opens, closes, and locks smoothly - no force required. Same-day repair, no mess, no wall damage.
                 </p>
               </div>
             </div>
@@ -451,7 +451,7 @@ export default function WindowCranksPage() {
           <div className="bg-primary/5 border border-primary/15 rounded-2xl p-6 text-center max-w-2xl mx-auto">
             <p className="text-gray-700 leading-relaxed">
               <strong className="text-primary">Not sure which brand you have?</strong>{" "}
-              Send us a close-up photo of your crank handle and mechanism —
+              Send us a close-up photo of your crank handle and mechanism -
               we&apos;ll identify it within an hour.
             </p>
             <a
@@ -610,7 +610,7 @@ export default function WindowCranksPage() {
             </h2>
             <p className="text-gray-600 leading-relaxed mb-8 max-w-xl mx-auto">
               We&apos;ll identify the part within the hour and give you a
-              straight answer on cost and availability — no sales pitch, no
+              straight answer on cost and availability - no sales pitch, no
               surprise fees.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
@@ -641,7 +641,7 @@ export default function WindowCranksPage() {
 
       <CTABanner
         title="Ready to Fix Your Window Cranks?"
-        subtitle="Same-day service available across the GTA. We carry the parts — you don't wait."
+        subtitle="Same-day service available across the GTA. We carry the parts - you don't wait."
       />
     </>
   );

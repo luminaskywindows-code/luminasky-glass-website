@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Image from "next/image";
@@ -127,7 +127,7 @@ export function ProjectsGallery() {
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         {filtered.length === 0 ? (
           <p className="text-center text-gray-400 py-24 text-lg">
-            No projects in this category yet — check back soon!
+            No projects in this category yet - check back soon!
           </p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

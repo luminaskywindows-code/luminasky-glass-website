@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Phone, Mail, Clock, MessageCircle, Star } from "lucide-react";
 import { SOCIALS } from "@/components/shared/SocialLinks";
@@ -181,7 +181,7 @@ export default function ContactPage() {
               <h3 className="font-semibold text-gray-900 mb-3">Service Area</h3>
               <div className="rounded-xl overflow-hidden border border-gray-200 h-48">
                 <iframe
-                  title="LuminaSky Glass Service Area — Greater Toronto Area"
+                  title="LuminaSky Glass Service Area - Greater Toronto Area"
                   src="https://www.openstreetmap.org/export/embed.html?bbox=-79.9%2C43.5%2C-79.0%2C43.9&layer=mapnik"
                   width="100%"
                   height="100%"

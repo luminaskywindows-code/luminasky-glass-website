@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { EMAIL, EMAIL_HREF, PHONE, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | LuminaSky Glass",
   description:
-    "Privacy Policy for Lumina Sky Glass Services — how we collect, use, and protect your personal information.",
+    "Privacy Policy for Lumina Sky Glass Services - how we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPolicyPage() {

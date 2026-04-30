@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { Phone, CheckCircle2, Shield } from "lucide-react";
@@ -8,7 +8,7 @@ import { PHONE, PHONE_HREF } from "@/lib/constants";
 const TRUST_BADGES = [
   { icon: CheckCircle2, text: "Same-Day Service, 6 Days a Week" },
   { icon: Shield, text: "Licensed, Insured & WSIB-Registered Glaziers" },
-  { icon: CheckCircle2, text: "Upfront Pricing — No Surprise Fees" },
+  { icon: CheckCircle2, text: "Upfront Pricing - No Surprise Fees" },
   { icon: CheckCircle2, text: "1-Year Warranty" },
 ];
 
@@ -81,7 +81,7 @@ export function HeroSection() {
             >
               Glass Repair &amp; Window Service Across the GTA{" "}
               <span className="text-accent-light whitespace-nowrap">
-                — Done Right the First Time
+                - Done Right the First Time
               </span>
             </motion.h1>
 
@@ -101,7 +101,7 @@ export function HeroSection() {
               </span>
             </motion.p>
 
-            {/* Trust badges — 2-col grid, wider cards */}
+            {/* Trust badges - 2-col grid, wider cards */}
             <motion.div
               variants={item}
               className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-4xl"

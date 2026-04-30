@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Image from "next/image";
@@ -85,7 +85,7 @@ export function BeforeAfterSlider({
           AFTER
         </span>
 
-        {/* Invisible native range input — handles drag, touch, and keyboard */}
+        {/* Invisible native range input - handles drag, touch, and keyboard */}
         <input
           type="range"
           min={0}

@@ -1,4 +1,4 @@
-export type ProjectCategory = "all" | "doors" | "windows" | "hardware" | "skylights";
+﻿export type ProjectCategory = "all" | "doors" | "windows" | "hardware" | "skylights";
 
 export interface Project {
   id: string;
@@ -24,7 +24,7 @@ export const PROJECTS: Project[] = [
     // Note: file names were swapped at copy-time; src values below reflect actual contents
     beforeImage: {
       src: "/images/services/door-after-repaired.jpg",
-      alt: "Shattered commercial door glass after break-in — nighttime emergency",
+      alt: "Shattered commercial door glass after break-in - nighttime emergency",
     },
     afterImage: {
       src: "/images/services/door-before-broken.jpg",
@@ -43,11 +43,11 @@ export const PROJECTS: Project[] = [
     category: "hardware",
     beforeImage: {
       src: "/images/services/crank-before.jpg",
-      alt: "Old worn-out window crank mechanism — rusted and broken",
+      alt: "Old worn-out window crank mechanism - rusted and broken",
     },
     afterImage: {
       src: "/images/services/crank-after.jpg",
-      alt: "New AmesburyTruth window crank handle installed — smooth operation restored",
+      alt: "New AmesburyTruth window crank handle installed - smooth operation restored",
     },
     description:
       "Replaced worn-out crank mechanism with authentic AmesburyTruth hardware. Smooth, effortless operation restored same-day.",
@@ -61,10 +61,10 @@ export const PROJECTS: Project[] = [
     category: "skylights",
     showcaseImage: {
       src: "/images/skylight-before-after.png",
-      alt: "Skylight restoration — before, during, and after glass replacement by LuminaSky Glass",
+      alt: "Skylight restoration - before, during, and after glass replacement by LuminaSky Glass",
     },
     description:
-      "Complete skylight glass restoration — from dirty and damaged to crystal clear. Full panel replacement without a complete tearout.",
+      "Complete skylight glass restoration - from dirty and damaged to crystal clear. Full panel replacement without a complete tearout.",
     location: "Vaughan",
     serviceType: "Skylights",
   },

@@ -1,4 +1,4 @@
-export interface ServiceData {
+﻿export interface ServiceData {
   slug: string;
   /** URL path for this service page (defaults to `/${slug}` if omitted) */
   urlPath?: string;
@@ -28,46 +28,46 @@ export interface ServiceData {
 export const FOGGY_WINDOWS: ServiceData = {
   slug: "foggy-windows",
   title: "Foggy Window Repair",
-  heroHeadline: "Clear Up Foggy Windows — Without Replacing the Frame",
+  heroHeadline: "Clear Up Foggy Windows - Without Replacing the Frame",
   heroSubtext:
     "Condensation and cloudiness between glass panes means your window seal has failed. We replace just the glass unit, saving you up to 80% vs. full replacement.",
   heroImage: {
     src: "/images/services/foggy-window-real.jpg",
-    alt: "Real foggy window with condensation between panes — failed seal captured on-site",
+    alt: "Real foggy window with condensation between panes - failed seal captured on-site",
   },
   photos: [
     {
       src: "/images/services/foggy-leaded-glass.jpg",
-      alt: "Double front doors with leaded art deco glass showing haziness and fogging between the panes — seal failure",
-      caption: "Foggy/hazy leaded glass doors — the seal has broken and moisture is trapped inside the unit",
+      alt: "Double front doors with leaded art deco glass showing haziness and fogging between the panes - seal failure",
+      caption: "Foggy/hazy leaded glass doors - the seal has broken and moisture is trapped inside the unit",
     },
     {
       src: "/images/services/foggy-window-condensation.jpg",
       alt: "Interior view of double-pane windows with heavy condensation and water droplets trapped between panes",
-      caption: "Heavy condensation between panes — a clear sign the IGU seal has failed",
+      caption: "Heavy condensation between panes - a clear sign the IGU seal has failed",
     },
   ],
   description: [
-    "Foggy or cloudy windows happen when the hermetic seal around your insulated glass unit (IGU) breaks down. Moisture seeps between the panes, causing condensation, haze, and reduced insulation — making your home less comfortable and your heating bills higher.",
-    "LuminaSky Glass specializes in glass unit replacement — we remove the failed glass insert and install a new sealed unit, leaving your existing frame completely intact. In most cases, we can complete the repair in under an hour per window.",
+    "Foggy or cloudy windows happen when the hermetic seal around your insulated glass unit (IGU) breaks down. Moisture seeps between the panes, causing condensation, haze, and reduced insulation - making your home less comfortable and your heating bills higher.",
+    "LuminaSky Glass specializes in glass unit replacement - we remove the failed glass insert and install a new sealed unit, leaving your existing frame completely intact. In most cases, we can complete the repair in under an hour per window.",
     "We serve homeowners and property managers across the GTA, with same-day service available for common glass sizes. Every replacement comes with a warranty.",
   ],
   benefits: [
     "Save 60–80% versus replacing the entire window and frame",
     "Same-day service available for most standard sizes",
-    "Crystal-clear results — restores full visibility and insulation",
-    "No mess — we vacuum and clean up after every job",
+    "Crystal-clear results - restores full visibility and insulation",
+    "No mess - we vacuum and clean up after every job",
     "Warranty on all glass unit replacements",
     "Works with all window styles: casement, slider, fixed, bay",
   ],
   process: [
     {
       step: "Free Assessment",
-      desc: "We assess the fogging severity and measure the glass unit to confirm we can repair — not replace.",
+      desc: "We assess the fogging severity and measure the glass unit to confirm we can repair - not replace.",
     },
     {
       step: "Clear Quote",
-      desc: "You get a firm price upfront — no surprises. Most repairs cost $150–$350 per unit.",
+      desc: "You get a firm price upfront - no surprises. Most repairs cost $150–$350 per unit.",
     },
     {
       step: "Glass Removal",
@@ -119,15 +119,15 @@ export const INTEGRATED_BLINDS: ServiceData = {
   title: "Integrated Mini-Blinds",
   heroHeadline: "Cordless, Dust-Free Blinds Built Inside Your Glass",
   heroSubtext:
-    "Integrated between-glass blinds offer privacy on demand with no cords, no dust, and no maintenance — and they look stunning. Now available across the GTA.",
+    "Integrated between-glass blinds offer privacy on demand with no cords, no dust, and no maintenance - and they look stunning. Now available across the GTA.",
   description: [
-    "Integrated mini-blinds are sealed inside the glass unit itself — the blinds sit between two panes of glass and are controlled by a magnetic slider or dial on the frame edge. No cords, no cleaning, no tangling.",
-    "They're perfect for front doors, bathroom windows, patio doors, and anywhere you want privacy without sacrificing style. They're also a safety win for homes with young children — no dangling cord hazards.",
+    "Integrated mini-blinds are sealed inside the glass unit itself - the blinds sit between two panes of glass and are controlled by a magnetic slider or dial on the frame edge. No cords, no cleaning, no tangling.",
+    "They're perfect for front doors, bathroom windows, patio doors, and anywhere you want privacy without sacrificing style. They're also a safety win for homes with young children - no dangling cord hazards.",
     "LuminaSky Glass was among the first to offer this service in the Toronto area. We supply and install integrated blind glass units to fit virtually any window or door opening.",
   ],
   benefits: [
-    "Zero cords — completely child and pet safe",
-    "Never needs cleaning — blinds are sealed between panes",
+    "Zero cords - completely child and pet safe",
+    "Never needs cleaning - blinds are sealed between panes",
     "Perfect privacy control with a simple magnetic slider",
     "Works with any window or door frame",
     "Modern, sleek look that complements any home style",
@@ -148,7 +148,7 @@ export const INTEGRATED_BLINDS: ServiceData = {
     },
     {
       step: "Installation",
-      desc: "The new glass unit is installed, sealed, and tested — blinds slide smoothly from day one.",
+      desc: "The new glass unit is installed, sealed, and tested - blinds slide smoothly from day one.",
     },
     {
       step: "Demonstration",
@@ -158,7 +158,7 @@ export const INTEGRATED_BLINDS: ServiceData = {
   faqs: [
     {
       q: "How do integrated blinds work?",
-      a: "The blinds sit inside the sealed glass unit. A magnetic handle on the frame edge controls the blind position from the outside — tilt, raise, or lower without opening the glass.",
+      a: "The blinds sit inside the sealed glass unit. A magnetic handle on the frame edge controls the blind position from the outside - tilt, raise, or lower without opening the glass.",
     },
     {
       q: "Will they fit my existing window or door frame?",
@@ -184,7 +184,7 @@ export const FRONT_DOOR_GLASS: ServiceData = {
   title: "Front Door Glass Replacement",
   heroHeadline: "Transform Your Entrance with Beautiful New Door Glass",
   heroSubtext:
-    "Cracked, foggy, or outdated front door glass? We replace glass inserts and sidelite panels for all door styles — decorative, frosted, clear, and more.",
+    "Cracked, foggy, or outdated front door glass? We replace glass inserts and sidelite panels for all door styles - decorative, frosted, clear, and more.",
   heroImage: {
     src: "/images/services/foggy-leaded-glass.jpg",
     alt: "Double front doors with decorative iron scrollwork glass inserts installed by LuminaSky Glass",
@@ -198,17 +198,17 @@ export const FRONT_DOOR_GLASS: ServiceData = {
     {
       src: "/images/services/front-door-decorative-2.jpg",
       alt: "Double front doors with art deco leaded glass inserts featuring elegant arched design",
-      caption: "Art deco leaded glass inserts — full double door replacement",
+      caption: "Art deco leaded glass inserts - full double door replacement",
     },
   ],
   description: [
-    "Your front door is the first thing guests and potential buyers see. Cracked, foggy, or outdated glass inserts can make a home look neglected — and compromise security and insulation.",
+    "Your front door is the first thing guests and potential buyers see. Cracked, foggy, or outdated glass inserts can make a home look neglected - and compromise security and insulation.",
     "LuminaSky Glass replaces glass inserts in all types of front doors: single doors, double doors, doors with sidelites, and transom windows above the door. We carry decorative, frosted, privacy, and clear glass options.",
     "Our technicians work quickly and cleanly, and most replacements are completed in a single visit. Same-day service is available for urgent repairs.",
   ],
   benefits: [
     "Wide selection: decorative, frosted, clear, privacy, and patterned glass",
-    "Fits all door brands and styles — no door replacement needed",
+    "Fits all door brands and styles - no door replacement needed",
     "Improves curb appeal and first impressions immediately",
     "Restores energy efficiency and security",
     "Sidelites and transom windows also serviced",
@@ -247,7 +247,7 @@ export const FRONT_DOOR_GLASS: ServiceData = {
     },
     {
       q: "Is this safer than a full door replacement?",
-      a: "Glass replacement preserves your existing door frame and hardware — which is often the more secure and cost-effective option if the door structure is sound.",
+      a: "Glass replacement preserves your existing door frame and hardware - which is often the more secure and cost-effective option if the door structure is sound.",
     },
     {
       q: "How long does the job take?",
@@ -256,18 +256,18 @@ export const FRONT_DOOR_GLASS: ServiceData = {
   ],
   beforeAfterImages: {
     title: "Emergency Door Glass Replacement",
-    subtitle: "From break-in damage to fully restored security — same-day service available across the GTA.",
+    subtitle: "From break-in damage to fully restored security - same-day service available across the GTA.",
     before: {
       src: "/images/services/door-after-repaired.jpg",
-      alt: "Shattered commercial front door glass after break-in — glass everywhere, security compromised",
-      badge: "Before — Emergency Call",
+      alt: "Shattered commercial front door glass after break-in - glass everywhere, security compromised",
+      badge: "Before - Emergency Call",
       heading: "Shattered Glass After Break-In",
       caption: "Business called us at night for emergency board-up and glass replacement. Security compromised, glass everywhere, urgent response needed.",
     },
     after: {
       src: "/images/services/door-before-broken.jpg",
       alt: "Fully restored commercial front door with new tempered glass installed by LuminaSky Glass",
-      badge: "After — Fully Restored",
+      badge: "After - Fully Restored",
       heading: "New Tempered Glass, Security Restored",
       caption: "Same location, next day. Emergency board-up within 2 hours, permanent glass replacement installed the following morning. Business back to normal.",
     },
@@ -278,7 +278,7 @@ export const FRONT_DOOR_GLASS: ServiceData = {
   },
   metaTitle: "Front Door Glass Replacement Toronto | Door Glass GTA",
   metaDescription:
-    "Replace cracked or foggy front door glass inserts across the Greater Toronto Area. Decorative, frosted & clear glass. LuminaSky Glass — Call 437-344-8490.",
+    "Replace cracked or foggy front door glass inserts across the Greater Toronto Area. Decorative, frosted & clear glass. LuminaSky Glass - Call 437-344-8490.",
   relatedServices: [
     "foggy-windows",
     "window-cranks",
@@ -292,7 +292,7 @@ export const WINDOW_CRANKS: ServiceData = {
   title: "Window Crank Repair",
   heroHeadline: "Fix Stiff, Broken, or Missing Window Cranks Fast",
   heroSubtext:
-    "Casement and awning window cranks wear out over time. We repair or replace crank operators, handles, and espagnolette hardware — without replacing the window.",
+    "Casement and awning window cranks wear out over time. We repair or replace crank operators, handles, and espagnolette hardware - without replacing the window.",
   heroImage: {
     src: "/images/services/window-crank-door.jpg",
     alt: "Old worn window crank operator and espagnolette hardware removed for replacement",
@@ -300,14 +300,14 @@ export const WINDOW_CRANKS: ServiceData = {
   photos: [
     {
       src: "/images/services/window-crank-door.jpg",
-      alt: "Worn casement window crank operator and broken handle alongside old espagnolette bar — all replaced by LuminaSky",
-      caption: "Old worn operator, broken handle, and espagnolette bar — we replace all of it",
+      alt: "Worn casement window crank operator and broken handle alongside old espagnolette bar - all replaced by LuminaSky",
+      caption: "Old worn operator, broken handle, and espagnolette bar - we replace all of it",
     },
   ],
   description: [
-    "Casement and awning windows rely on a crank operator to open and close. Over time, the gear mechanism wears out, the handle snaps off, or the espagnolette locking bar stops engaging — leaving you with a window that won't open, close, or lock properly.",
+    "Casement and awning windows rely on a crank operator to open and close. Over time, the gear mechanism wears out, the handle snaps off, or the espagnolette locking bar stops engaging - leaving you with a window that won't open, close, or lock properly.",
     "LuminaSky Glass stocks a wide range of crank operators, handles, and hardware for all major window brands. In most cases we can repair or replace your window crank hardware in a single visit.",
-    "A properly functioning crank is also a security issue — a window that won't lock fully leaves your home vulnerable. Don't delay a repair.",
+    "A properly functioning crank is also a security issue - a window that won't lock fully leaves your home vulnerable. Don't delay a repair.",
   ],
   benefits: [
     "Restores smooth, effortless window operation",
@@ -341,15 +341,15 @@ export const WINDOW_CRANKS: ServiceData = {
   ],
   faqs: [
     {
-      q: "My window crank spins but the window doesn't move — what's wrong?",
-      a: "This usually means the gear inside the operator is stripped. The operator needs to be replaced — this is a straightforward repair we do routinely.",
+      q: "My window crank spins but the window doesn't move - what's wrong?",
+      a: "This usually means the gear inside the operator is stripped. The operator needs to be replaced - this is a straightforward repair we do routinely.",
     },
     {
       q: "Can you fix any brand of window?",
-      a: "We work with most major brands. If you know your window brand or model, let us know when you call — we'll confirm part availability.",
+      a: "We work with most major brands. If you know your window brand or model, let us know when you call - we'll confirm part availability.",
     },
     {
-      q: "My window won't lock fully after repair — is that fixable?",
+      q: "My window won't lock fully after repair - is that fixable?",
       a: "Yes. The espagnolette locking bar or the lock strike can be adjusted or replaced to restore full locking engagement.",
     },
     {
@@ -366,7 +366,7 @@ export const WINDOW_CRANKS: ServiceData = {
 export const SCREEN_STORM_DOORS: ServiceData = {
   slug: "screen-storm-doors",
   title: "Screen & Storm Doors",
-  heroHeadline: "Custom Screen & Storm Doors — Installed Right",
+  heroHeadline: "Custom Screen & Storm Doors - Installed Right",
   heroSubtext:
     "Keep bugs out, let fresh air in, and add a layer of weather protection. We supply and install custom-fit screen and storm doors for any entrance.",
   heroImage: {
@@ -376,8 +376,8 @@ export const SCREEN_STORM_DOORS: ServiceData = {
   photos: [
     {
       src: "/images/services/storm-door-hardware.jpg",
-      alt: "White aluminum-frame full-view storm door with gold lever handle — installed by LuminaSky Glass",
-      caption: "Full-view aluminum storm door — protects your entry while keeping natural light",
+      alt: "White aluminum-frame full-view storm door with gold lever handle - installed by LuminaSky Glass",
+      caption: "Full-view aluminum storm door - protects your entry while keeping natural light",
     },
   ],
   description: [
@@ -386,7 +386,7 @@ export const SCREEN_STORM_DOORS: ServiceData = {
     "Existing torn or damaged screen panels can also be re-screened at a fraction of the cost of a full door replacement.",
   ],
   benefits: [
-    "Custom sizing to fit any door opening — no gaps, no drafts",
+    "Custom sizing to fit any door opening - no gaps, no drafts",
     "Multiple finishes: white, bronze, black, mill aluminum",
     "Full-view storm doors, screen-only, and combination options",
     "Pet-resistant screening upgrade available",
@@ -422,7 +422,7 @@ export const SCREEN_STORM_DOORS: ServiceData = {
     },
     {
       q: "Do you install pet screen (heavy-duty screen)?",
-      a: "Yes. We offer pet-resistant screen upgrades — ideal for homes with dogs or cats.",
+      a: "Yes. We offer pet-resistant screen upgrades - ideal for homes with dogs or cats.",
     },
     {
       q: "What finishes are available?",
@@ -435,7 +435,7 @@ export const SCREEN_STORM_DOORS: ServiceData = {
   ],
   metaTitle: "Screen & Storm Door Installation Toronto | GTA",
   metaDescription:
-    "Custom screen and storm door supply and installation across the Greater Toronto Area. LuminaSky Glass — Call 437-344-8490.",
+    "Custom screen and storm door supply and installation across the Greater Toronto Area. LuminaSky Glass - Call 437-344-8490.",
   relatedServices: [
     "front-door-glass",
     "window-cranks",
@@ -446,21 +446,21 @@ export const SCREEN_STORM_DOORS: ServiceData = {
 export const GARAGE_DOORS: ServiceData = {
   slug: "garage-doors",
   title: "Garage Door Glass",
-  heroHeadline: "Garage Door Glass Panels — Replaced & Restored",
+  heroHeadline: "Garage Door Glass Panels - Replaced & Restored",
   heroSubtext:
     "Cracked or broken garage door glass panels replaced efficiently. We also install decorative window inserts to upgrade the look of any garage door.",
   description: [
-    "Garage door glass panels can crack from impact, extreme temperature swings, or just age. Replacing a single cracked panel is far more affordable than replacing the whole door — and we can usually match the existing glass style.",
+    "Garage door glass panels can crack from impact, extreme temperature swings, or just age. Replacing a single cracked panel is far more affordable than replacing the whole door - and we can usually match the existing glass style.",
     "We also offer decorative glass insert upgrades for existing garage doors. Adding arched, frosted, or clear glass inserts transforms a plain steel door into an attractive architectural feature.",
-    "We work with all major residential garage door brands and styles — single panel, raised panel, carriage-house, and more.",
+    "We work with all major residential garage door brands and styles - single panel, raised panel, carriage-house, and more.",
   ],
   benefits: [
-    "Single panel replacement — no need to replace the whole door",
+    "Single panel replacement - no need to replace the whole door",
     "Wide range of glass styles: clear, frosted, tinted, decorative",
     "Compatible with all major garage door brands and styles",
     "Decorative inserts available to upgrade any existing door",
     "Improves natural light inside your garage",
-    "Fast service — most jobs completed same-day",
+    "Fast service - most jobs completed same-day",
   ],
   process: [
     {
@@ -500,7 +500,7 @@ export const GARAGE_DOORS: ServiceData = {
   ],
   metaTitle: "Garage Door Glass Replacement Toronto | GTA",
   metaDescription:
-    "Cracked garage door glass panels replaced across the Greater Toronto Area. Decorative inserts also available. LuminaSky Glass — Call 437-344-8490.",
+    "Cracked garage door glass panels replaced across the Greater Toronto Area. Decorative inserts also available. LuminaSky Glass - Call 437-344-8490.",
   relatedServices: ["front-door-glass", "screen-storm-doors", "locksmith"],
 };
 
@@ -511,7 +511,7 @@ export const LOCKSMITH: ServiceData = {
   heroSubtext:
     "Locked out? Need new locks after a move? We provide professional locksmith services including lock changes, re-keying, and 24/7 emergency lockout assistance.",
   description: [
-    "LuminaSky Glass offers professional locksmith services as a natural extension of our door and glass work. Whether you've just moved in and want the locks changed, need re-keying after losing a key, or are locked out and need immediate help — we're available across the GTA.",
+    "LuminaSky Glass offers professional locksmith services as a natural extension of our door and glass work. Whether you've just moved in and want the locks changed, need re-keying after losing a key, or are locked out and need immediate help - we're available across the GTA.",
     "We install deadbolts, knob locks, lever handles, smart locks, and electronic keypad systems. We also repair damaged or difficult-to-turn locks without full replacement where possible.",
     "All our locksmith work is performed by experienced, background-checked technicians. Emergency lockout service is available 24 hours a day, 7 days a week.",
   ],
@@ -526,7 +526,7 @@ export const LOCKSMITH: ServiceData = {
   process: [
     {
       step: "Dispatch",
-      desc: "Call us and describe your situation — we dispatch the nearest available technician immediately.",
+      desc: "Call us and describe your situation - we dispatch the nearest available technician immediately.",
     },
     {
       step: "Arrival",
@@ -534,7 +534,7 @@ export const LOCKSMITH: ServiceData = {
     },
     {
       step: "Assessment",
-      desc: "We assess the lock situation — lockout, broken lock, or requested change/upgrade.",
+      desc: "We assess the lock situation - lockout, broken lock, or requested change/upgrade.",
     },
     {
       step: "Resolution",
@@ -552,7 +552,7 @@ export const LOCKSMITH: ServiceData = {
     },
     {
       q: "Is it cheaper to re-key than replace the lock?",
-      a: "Yes. Re-keying changes the internal pins so old keys no longer work — it's significantly cheaper than a full lock replacement and just as secure.",
+      a: "Yes. Re-keying changes the internal pins so old keys no longer work - it's significantly cheaper than a full lock replacement and just as secure.",
     },
     {
       q: "Can you install smart locks?",
@@ -569,7 +569,7 @@ export const LOCKSMITH: ServiceData = {
   ],
   metaTitle: "Locksmith Services Toronto | Emergency Lockout GTA",
   metaDescription:
-    "Professional locksmith services across the Greater Toronto Area. 24/7 emergency lockout, lock changes, re-keying. LuminaSky Glass — Call 437-344-8490.",
+    "Professional locksmith services across the Greater Toronto Area. 24/7 emergency lockout, lock changes, re-keying. LuminaSky Glass - Call 437-344-8490.",
   relatedServices: ["front-door-glass", "window-cranks", "screen-storm-doors"],
 };
 
@@ -577,25 +577,25 @@ export const SKYLIGHTS: ServiceData = {
   slug: "skylights",
   title: "Skylight Repair & Replacement",
   shortTitle: "Skylights",
-  heroHeadline: "Skylight Leaking or Foggy? We Fix It — No Full Replacement Needed",
+  heroHeadline: "Skylight Leaking or Foggy? We Fix It - No Full Replacement Needed",
   heroSubtext:
     "Cracked glass, failed seals, or persistent leaks around your skylight? LuminaSky Glass repairs and replaces skylight glass units across the GTA.",
   heroImage: {
     src: "/images/services/skylight-foggy-before.jpg",
-    alt: "Foggy skylight with heavy condensation between panes — failed seal causing fogging and reduced light",
+    alt: "Foggy skylight with heavy condensation between panes - failed seal causing fogging and reduced light",
   },
   description: [
-    "Skylights are a beautiful source of natural light — but when the glass seal fails, condensation appears between the panes, or the frame develops a leak, they become a headache. LuminaSky Glass specializes in skylight glass replacement and leak repair without requiring a full skylight tearout.",
-    "We replace the insulated glass unit (IGU) inside your existing skylight frame, restoring clarity and energy efficiency. For leaks caused by failed flashing or sealant, we diagnose and repair the source — not just patch the symptom.",
+    "Skylights are a beautiful source of natural light - but when the glass seal fails, condensation appears between the panes, or the frame develops a leak, they become a headache. LuminaSky Glass specializes in skylight glass replacement and leak repair without requiring a full skylight tearout.",
+    "We replace the insulated glass unit (IGU) inside your existing skylight frame, restoring clarity and energy efficiency. For leaks caused by failed flashing or sealant, we diagnose and repair the source - not just patch the symptom.",
     "We service all major skylight brands including Velux, Fakro, ODL, and custom installations. Whether it's a flat roof skylight, vaulted ceiling model, or a tubular daylight device, we have the experience to fix it right.",
   ],
   benefits: [
-    "Replace just the glass unit — keep the existing frame and flashing",
+    "Replace just the glass unit - keep the existing frame and flashing",
     "Eliminate condensation and fogging between panes",
     "Diagnose and repair leaks at the source",
-    "All major skylight brands serviced — Velux, Fakro, ODL, and more",
+    "All major skylight brands serviced - Velux, Fakro, ODL, and more",
     "Energy-efficient argon-filled, low-E replacement glass available",
-    "Roof-safe installation — fully insured for at-height work",
+    "Roof-safe installation - fully insured for at-height work",
   ],
   process: [
     {
@@ -604,7 +604,7 @@ export const SKYLIGHTS: ServiceData = {
     },
     {
       step: "Quote",
-      desc: "You receive a clear, itemized quote for glass replacement or leak repair — no surprises.",
+      desc: "You receive a clear, itemized quote for glass replacement or leak repair - no surprises.",
     },
     {
       step: "Glass Removal",
@@ -621,12 +621,12 @@ export const SKYLIGHTS: ServiceData = {
   ],
   faqs: [
     {
-      q: "My skylight is foggy — do I need to replace the whole unit?",
+      q: "My skylight is foggy - do I need to replace the whole unit?",
       a: "In most cases, no. Fogging between the panes means the glass seal has failed, but the frame is often fine. We replace just the glass insert (IGU), which is significantly cheaper.",
     },
     {
       q: "Can you fix a leaking skylight?",
-      a: "Yes. We diagnose whether the leak is from the glass seal, the frame, or the surrounding flashing — and repair the actual source rather than just applying a temporary patch.",
+      a: "Yes. We diagnose whether the leak is from the glass seal, the frame, or the surrounding flashing - and repair the actual source rather than just applying a temporary patch.",
     },
     {
       q: "Do you service Velux skylights?",
@@ -643,7 +643,7 @@ export const SKYLIGHTS: ServiceData = {
   ],
   showcaseImage: {
     src: "/images/skylight-before-after.png",
-    alt: "Skylight restoration process — Before: dirty and damaged, In Progress: technician working, After: fully restored and crystal clear",
+    alt: "Skylight restoration process - Before: dirty and damaged, In Progress: technician working, After: fully restored and crystal clear",
   },
   metaTitle: "Skylight Repair & Replacement Toronto | Glass Seal & Leak Fix GTA",
   metaDescription:

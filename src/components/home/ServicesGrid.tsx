@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion, useReducedMotion } from "framer-motion";
 import { SERVICES, PHONE_HREF } from "@/lib/constants";
@@ -17,7 +17,7 @@ export function ServicesGrid() {
         <SectionHeading
           eyebrow="What We Do"
           title="Complete Glass & Door Solutions"
-          subtitle="From foggy windows to front door glass — we fix it all across the Greater Toronto Area."
+          subtitle="From foggy windows to front door glass - we fix it all across the Greater Toronto Area."
           id="services-heading"
         />
 
@@ -55,7 +55,7 @@ export function ServicesGrid() {
           >
             Give us a call
           </a>{" "}
-          — we&apos;re happy to help.
+          - we&apos;re happy to help.
         </p>
       </div>
     </section>

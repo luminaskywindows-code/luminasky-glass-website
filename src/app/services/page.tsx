@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { ServiceCard } from "@/components/shared/ServiceCard";
@@ -8,7 +8,7 @@ import { SERVICES } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "All Services – Window & Door Glass Repair",
   description:
-    "Browse all LuminaSky Glass services: foggy window repair, integrated blinds, front door glass, window cranks, screen doors, garage door glass, and locksmith — all across the GTA.",
+    "Browse all LuminaSky Glass services: foggy window repair, integrated blinds, front door glass, window cranks, screen doors, garage door glass, and locksmith - all across the GTA.",
   alternates: { canonical: "/services" },
 };
 
@@ -45,7 +45,7 @@ export default function ServicesPage() {
           <SectionHeading
             eyebrow="What We Do"
             title="Expert Glass & Door Services"
-            subtitle="Every service performed by licensed, insured technicians — with a satisfaction guarantee."
+            subtitle="Every service performed by licensed, insured technicians - with a satisfaction guarantee."
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {SERVICES.map((service) => (

@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 import { CheckCircle2, Phone } from "lucide-react";
 import {
@@ -61,7 +61,7 @@ export function ServicePageLayout({
         className="relative bg-gradient-to-br from-primary via-blue-800 to-primary-700 py-20 px-4 md:px-8 overflow-hidden"
         aria-label={`${service.title} hero section`}
       >
-        {/* Background image — faint on desktop, hidden on mobile (image shown below instead) */}
+        {/* Background image - faint on desktop, hidden on mobile (image shown below instead) */}
         {service.heroImage && (
           <div className="absolute inset-0 hidden lg:block" aria-hidden="true">
             <Image
@@ -128,7 +128,7 @@ export function ServicePageLayout({
               </div>
             </div>
 
-            {/* Hero image — visible panel on all screen sizes */}
+            {/* Hero image - visible panel on all screen sizes */}
             {service.heroImage && (
               <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
                 <Image
@@ -398,7 +398,7 @@ export function ServicePageLayout({
                   className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors whitespace-nowrap shadow"
                 >
                   <Phone className="w-4 h-4" aria-hidden="true" />
-                  Call Now — 24/7
+                  Call Now - 24/7
                 </a>
               </div>
             )}
@@ -469,7 +469,7 @@ export function ServicePageLayout({
 
       <CTABanner
         title={`Ready to Fix Your ${service.shortTitle ?? service.title}?`}
-        subtitle="Call now — same-day service available across the GTA."
+        subtitle="Call now - same-day service available across the GTA."
       />
     </>
   );

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -25,9 +25,9 @@ import {
 } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "About LuminaSky — GTA's Repair-First Glass Specialists",
+  title: "About LuminaSky - GTA's Repair-First Glass Specialists",
   description:
-    "Learn about LuminaSky Glass — licensed glaziers serving the Greater Toronto Area. We believe in honest assessments and repair-first solutions for windows and doors.",
+    "Learn about LuminaSky Glass - licensed glaziers serving the Greater Toronto Area. We believe in honest assessments and repair-first solutions for windows and doors.",
   alternates: { canonical: "/about" },
 };
 
@@ -75,7 +75,7 @@ const STANDARDS = [
   },
   {
     title: "Site Left Cleaner Than We Found It",
-    desc: "Drop cloths go down on every job. Broken glass is disposed of safely — your home stays tidy.",
+    desc: "Drop cloths go down on every job. Broken glass is disposed of safely - your home stays tidy.",
   },
   {
     title: "First-Visit Fix Commitment",
@@ -94,7 +94,7 @@ const TEAM_PLACEHOLDERS = [
     experience: "12+ years experience",
     specialty: "IGU & Seal Repair",
     quote:
-      "I take pride in giving every homeowner a straight answer. If a repair will solve the problem, that's what I recommend — every time.",
+      "I take pride in giving every homeowner a straight answer. If a repair will solve the problem, that's what I recommend - every time.",
   },
   {
     name: "Team Member Name",
@@ -134,7 +134,7 @@ export default function AboutPage() {
             </ol>
           </nav>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-            About LuminaSky —{" "}
+            About LuminaSky -{" "}
             <span className="text-accent-light">
               GTA&apos;s Repair-First Glass Specialists
             </span>
@@ -172,7 +172,7 @@ export default function AboutPage() {
                 <p>
                   Over the years, we&apos;ve restored clarity to thousands of
                   windows across the GTA, repaired countless broken cranks and
-                  hinges, and replaced door glass inserts — always with the same
+                  hinges, and replaced door glass inserts - always with the same
                   philosophy: repair first, replace only when necessary.
                 </p>
                 <p>
@@ -223,13 +223,13 @@ export default function AboutPage() {
             <p className="text-gray-600 leading-relaxed text-base mb-4">
               Too many homeowners are told they need full window replacement when
               the real problem is a simple part or a failed seal. We exist to
-              give you the honest assessment and the cost-effective fix — not
+              give you the honest assessment and the cost-effective fix - not
               the most expensive sale.
             </p>
             <p className="text-gray-600 leading-relaxed text-base">
               Our goal is to save you money while delivering quality work that
               lasts. When a repair is the right answer, we&apos;ll tell you so.
-              When it isn&apos;t, we&apos;ll tell you that too — and explain
+              When it isn&apos;t, we&apos;ll tell you that too - and explain
               exactly why.
             </p>
           </div>
@@ -240,7 +240,7 @@ export default function AboutPage() {
       <div className="relative h-72 md:h-96 overflow-hidden" aria-hidden="true">
         <Image
           src="/images/hero-background.png"
-          alt="Modern interior windows — quality glass repair results"
+          alt="Modern interior windows - quality glass repair results"
           fill
           unoptimized
           className="object-cover object-center"
@@ -250,10 +250,10 @@ export default function AboutPage() {
           <blockquote className="text-center max-w-2xl">
             <p className="text-white text-xl md:text-2xl font-semibold leading-relaxed italic">
               &ldquo;Our goal is to save you money while delivering quality work
-              that lasts — every single time.&rdquo;
+              that lasts - every single time.&rdquo;
             </p>
             <cite className="text-blue-200 text-sm font-medium mt-3 block not-italic">
-              — The LuminaSky Team
+              - The LuminaSky Team
             </cite>
           </blockquote>
         </div>
@@ -313,7 +313,7 @@ export default function AboutPage() {
               Our Service Standards
             </h2>
             <p className="text-gray-500 text-lg">
-              Five commitments we make on every job — no exceptions.
+              Five commitments we make on every job - no exceptions.
             </p>
           </div>
 
@@ -393,7 +393,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   When a window can be fixed, fixing it is not just more
-                  affordable — it&apos;s better for the environment. Every
+                  affordable - it&apos;s better for the environment. Every
                   repair we complete is one less window frame in a landfill and
                   one less set of resources consumed to manufacture a new unit.
                 </p>
@@ -433,7 +433,7 @@ export default function AboutPage() {
               Meet Our Team
             </h2>
             <p className="text-sm text-gray-400 italic max-w-xl mx-auto mb-10">
-              Team photos coming soon — we believe in transparency and will be
+              Team photos coming soon - we believe in transparency and will be
               adding our team members&apos; photos and bios shortly.
             </p>
           </div>
@@ -519,7 +519,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-blue-100 text-lg mb-8 leading-relaxed">
             Tell us what&apos;s going on with your windows or doors. We&apos;ll
-            give you a straight answer — no pressure, no upsell.
+            give you a straight answer - no pressure, no upsell.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
 const schema = z.object({
@@ -25,11 +25,11 @@ export async function POST(req: NextRequest) {
         from: "LuminaSky Website <onboarding@resend.dev>",
         to: process.env.CONTACT_EMAIL || "Luminaskywindows@gmail.com",
         replyTo: data.email,
-        subject: `New Quote Request: ${data.service} — ${data.city} (${data.fullName})`,
+        subject: `New Quote Request: ${data.service} - ${data.city} (${data.fullName})`,
         html: `
           <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto">
             <div style="background:#1e3a8a;padding:20px 24px;border-radius:8px 8px 0 0">
-              <h2 style="color:white;margin:0;font-size:20px">New Quote Request — LuminaSky</h2>
+              <h2 style="color:white;margin:0;font-size:20px">New Quote Request - LuminaSky</h2>
             </div>
             <div style="background:#f0f9ff;padding:24px;border:1px solid #bae6fd;border-top:none;border-radius:0 0 8px 8px">
               <table style="border-collapse:collapse;width:100%">

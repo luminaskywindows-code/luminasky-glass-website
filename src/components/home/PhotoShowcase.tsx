@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
@@ -6,7 +6,7 @@ import { motion, useReducedMotion } from "framer-motion";
 const GALLERY_ITEMS = [
   {
     src: "/images/gallery/foggy-window.png",
-    alt: "Foggy window requiring repair — condensation between panes",
+    alt: "Foggy window requiring repair - condensation between panes",
     label: "Foggy window seal failure",
   },
   {
@@ -21,7 +21,7 @@ const GALLERY_ITEMS = [
   },
   {
     src: "/images/gallery/kitchen-window.png",
-    alt: "Kitchen window above sink — residential repair",
+    alt: "Kitchen window above sink - residential repair",
     label: "Kitchen window repair",
   },
 ];
@@ -48,7 +48,7 @@ export function PhotoShowcase() {
               From Problem to Perfect
             </h2>
             <p className="text-gray-500 text-lg mt-4 max-w-2xl mx-auto leading-relaxed">
-              We transform the way your home looks and feels — without the cost
+              We transform the way your home looks and feels - without the cost
               of full replacement.
             </p>
           </div>
@@ -64,7 +64,7 @@ export function PhotoShowcase() {
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md">
                 <Image
                   src="/images/gallery/foggy-window.png"
-                  alt="Foggy window with condensation between panes — seal failure requiring repair"
+                  alt="Foggy window with condensation between panes - seal failure requiring repair"
                   fill
                   unoptimized
                   className="object-cover"
@@ -76,7 +76,7 @@ export function PhotoShowcase() {
                     Before
                   </span>
                   <p className="text-white font-semibold text-sm leading-snug">
-                    Failed window seal — moisture trapped between panes
+                    Failed window seal - moisture trapped between panes
                   </p>
                 </div>
               </div>
@@ -108,7 +108,7 @@ export function PhotoShowcase() {
                     After
                   </span>
                   <p className="text-white font-semibold text-sm leading-snug">
-                    Crystal-clear glass — same frame, fraction of the cost
+                    Crystal-clear glass - same frame, fraction of the cost
                   </p>
                 </div>
               </div>

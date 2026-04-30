@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
@@ -37,7 +37,7 @@ export default function ServicesShowcasePage() {
           </h1>
           <p className="text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto">
             Complete glass and door solutions for homeowners across the Greater
-            Toronto Area — from foggy window repair to skylight replacement.
+            Toronto Area - from foggy window repair to skylight replacement.
           </p>
         </div>
       </section>
@@ -51,7 +51,7 @@ export default function ServicesShowcasePage() {
           <SectionHeading
             eyebrow="Complete Solutions"
             title="Every Glass & Door Service You Need"
-            subtitle="We replace or repair — saving you the cost of a full window or door replacement."
+            subtitle="We replace or repair - saving you the cost of a full window or door replacement."
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
@@ -90,7 +90,7 @@ export default function ServicesShowcasePage() {
         </div>
       </section>
 
-      <CTABanner title="Not Sure Which Service You Need? We'll Help." subtitle="Call for a free assessment — we'll diagnose and quote on the spot." />
+      <CTABanner title="Not Sure Which Service You Need? We'll Help." subtitle="Call for a free assessment - we'll diagnose and quote on the spot." />
     </>
   );
 }
