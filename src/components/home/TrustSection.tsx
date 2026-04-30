@@ -67,6 +67,9 @@ export function TrustSection() {
           <p className="mt-3 text-xs text-blue-300">
             Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: Free
           </p>
+          <p className="text-[10px] text-blue-300/70 italic mt-0.5">
+            *The $30 visit fee is credited toward your final payment if you proceed with the work
+          </p>
         </motion.div>
       </div>
     </section>

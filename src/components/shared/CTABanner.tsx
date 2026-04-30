@@ -37,6 +37,9 @@ export function CTABanner({
         <p className="mt-3 text-blue-200 text-xs">
           Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: Free
         </p>
+        <p className="text-[10px] text-blue-200/60 italic mt-0.5">
+          *The $30 visit fee is credited toward your final payment if you proceed with the work
+        </p>
         <p className="mt-4 text-blue-100 text-sm flex items-center justify-center gap-2">
           <Mail className="w-4 h-4 shrink-0" aria-hidden="true" />
           Or email us:{" "}

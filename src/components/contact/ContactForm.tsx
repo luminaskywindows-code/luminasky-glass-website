@@ -310,9 +310,14 @@ export function ContactForm() {
         )}
       </button>
 
-      <p className="text-center text-xs text-gray-400">
-        Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: Free
-      </p>
+      <div className="text-center">
+        <p className="text-xs text-gray-400">
+          Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: Free
+        </p>
+        <p className="text-[10px] text-gray-400 italic mt-0.5">
+          *The $30 visit fee is credited toward your final payment if you proceed with the work
+        </p>
+      </div>
     </form>
   );
 }
