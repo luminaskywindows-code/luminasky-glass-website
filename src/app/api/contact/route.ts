@@ -49,8 +49,7 @@ export async function POST(req: NextRequest) {
         `,
       });
     } else {
-      // Dev mode: log to console
-      console.log("Contact form submission (no RESEND_API_KEY configured):", data);
+      // Dev fallback: Resend not configured, EmailJS handles delivery client-side
     }
 
     return NextResponse.json({ success: true, message: "Message received" });
