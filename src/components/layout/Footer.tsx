@@ -36,7 +36,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-blue-200 text-sm leading-relaxed mb-6">
-              Professional window and door glass repair services across the
+              Professional glass and door repair services across the
               Greater Toronto Area. Fix, don&apos;t replace.
             </p>
             <div className="flex flex-col gap-2">

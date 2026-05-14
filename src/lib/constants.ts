@@ -20,8 +20,8 @@ export const SERVICE_AREAS = [
 export const SERVICES = [
   {
     slug: "foggy-windows",
-    title: "Foggy Window Repair",
-    shortTitle: "Foggy Windows",
+    title: "Foggy Glass Repair",
+    shortTitle: "Foggy Glass",
     icon: "cloud",
     description:
       "Seal failures cause condensation between panes. We replace the glass unit - not the whole window - saving you hundreds.",

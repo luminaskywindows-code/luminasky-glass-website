@@ -13,14 +13,14 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://luminasky.com"),
   title: {
     default:
-      "LuminaSky Glass | Window & Door Glass Repair – Greater Toronto Area",
+      "LuminaSky Glass | Glass & Door Repair – Greater Toronto Area",
     template: "%s | LuminaSky Glass",
   },
   description:
-    "Professional window and door glass repair services in the GTA. Foggy windows, door glass, integrated blinds, window cranks & more. Fast, licensed & insured. Call 437-344-8490.",
+    "Professional glass and door repair services in the GTA. Foggy glass, door glass, integrated blinds, window cranks & more. Fast, licensed & insured. Call 437-344-8490.",
   keywords: [
     "window glass repair toronto",
-    "foggy window repair GTA",
+    "foggy glass repair GTA",
     "door glass replacement",
     "window crank repair",
     "integrated blinds toronto",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "LuminaSky Glass – Window & Door Glass Repair in the GTA",
+        alt: "LuminaSky Glass – Glass & Door Repair in the GTA",
       },
     ],
   },

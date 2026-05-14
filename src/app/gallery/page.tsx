@@ -9,7 +9,7 @@ import { SERVICES } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Our Services – Glass & Door Solutions",
   description:
-    "LuminaSky Glass offers foggy window repair, front door glass, integrated blinds, skylights, garage door glass, screen & storm doors, window cranks, and locksmith services across the GTA.",
+    "LuminaSky Glass offers foggy glass repair, front door glass, integrated blinds, skylights, garage door glass, screen & storm doors, window cranks, and locksmith services across the GTA.",
   alternates: { canonical: "/gallery" },
 };
 
@@ -37,7 +37,7 @@ export default function ServicesShowcasePage() {
           </h1>
           <p className="text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto">
             Complete glass and door solutions for homeowners across the Greater
-            Toronto Area - from foggy window repair to skylight replacement.
+            Toronto Area - from foggy glass repair to skylight replacement.
           </p>
         </div>
       </section>

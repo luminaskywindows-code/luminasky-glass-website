@@ -56,6 +56,24 @@ export const PROJECTS: Project[] = [
     tags: ["Same-Day Service"],
   },
   {
+    id: "window-cleaning-1",
+    title: "Residential High-Rise Glass Cleaning",
+    category: "windows",
+    beforeImage: {
+      src: "/images/services/window-cleaning-before.jpg",
+      alt: "Dirty high-rise window with heavy streaks and grime obscuring the view",
+    },
+    afterImage: {
+      src: "/images/services/window-cleaning-after.jpg",
+      alt: "Spotless high-rise window with a crystal-clear view of the city skyline",
+    },
+    description:
+      "Interior glass restoration — removing built-up streaks and grime for a crystal-clear view of the city.",
+    location: "Toronto",
+    serviceType: "Windows",
+    tags: ["Interior Cleaning"],
+  },
+  {
     id: "skylight-1",
     title: "Skylight Glass Restoration",
     category: "skylights",

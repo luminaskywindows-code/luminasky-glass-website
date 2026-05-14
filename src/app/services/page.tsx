@@ -6,9 +6,9 @@ import { CTABanner } from "@/components/shared/CTABanner";
 import { SERVICES } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "All Services – Window & Door Glass Repair",
+  title: "All Services – Glass & Door Repair",
   description:
-    "Browse all LuminaSky Glass services: foggy window repair, integrated blinds, front door glass, window cranks, screen doors, garage door glass, and locksmith - all across the GTA.",
+    "Browse all LuminaSky Glass services: foggy glass repair, integrated blinds, front door glass, window cranks, screen doors, garage door glass, and locksmith - all across the GTA.",
   alternates: { canonical: "/services" },
 };
 
@@ -34,7 +34,7 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto">
-            Complete window and door glass solutions for the Greater Toronto
+            Complete glass and door solutions for the Greater Toronto
             Area. Fix, don&apos;t replace.
           </p>
         </div>

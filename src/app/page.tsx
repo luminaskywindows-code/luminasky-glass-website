@@ -9,9 +9,9 @@ import { SocialLinks } from "@/components/shared/SocialLinks";
 import { Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Window & Door Glass Repair in the Greater Toronto Area",
+  title: "Glass & Door Repair in the Greater Toronto Area",
   description:
-    "LuminaSky Glass repairs foggy windows, door glass, window cranks, integrated blinds & more across the GTA. Fast, affordable, licensed & insured. Call 437-344-8490.",
+    "LuminaSky Glass repairs foggy glass, door glass, window cranks, integrated blinds & more across the GTA. Fast, affordable, licensed & insured. Call 437-344-8490.",
   alternates: { canonical: "/" },
 };
 

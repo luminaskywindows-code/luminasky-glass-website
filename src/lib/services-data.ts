@@ -27,8 +27,8 @@
 
 export const FOGGY_WINDOWS: ServiceData = {
   slug: "foggy-windows",
-  title: "Foggy Window Repair",
-  heroHeadline: "Clear Up Foggy Windows - Without Replacing the Frame",
+  title: "Foggy Glass Repair",
+  heroHeadline: "Clear Up Foggy Glass - Without Replacing the Frame",
   heroSubtext:
     "Condensation and cloudiness between glass panes means your window seal has failed. We replace just the glass unit, saving you up to 80% vs. full replacement.",
   heroImage: {
@@ -104,7 +104,7 @@ export const FOGGY_WINDOWS: ServiceData = {
       a: "In most cases, yes. We carry a range of glass options including clear, privacy frosted, tinted, and decorative patterns.",
     },
   ],
-  metaTitle: "Foggy Window Repair Toronto | Glass Seal Replacement GTA",
+  metaTitle: "Foggy Glass Repair Toronto | Glass Seal Replacement GTA",
   metaDescription:
     "Foggy or cloudy windows? LuminaSky Glass repairs failed glass seals across the Greater Toronto Area. Save vs. full replacement. Call 437-344-8490.",
   relatedServices: [
