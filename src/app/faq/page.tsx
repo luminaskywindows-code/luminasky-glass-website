@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Phone, Mail } from "lucide-react";
 import { FAQ_CATEGORIES, ALL_FAQS } from "@/lib/faq-data";
 import { generateFAQSchema } from "@/lib/schema";
-import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF } from "@/lib/constants";
+import { PHONE, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "FAQ - Glass & Door Repair in the GTA",
@@ -81,7 +81,7 @@ export default function FAQPage() {
             Still have questions?
           </h2>
           <p className="text-blue-200 mb-8 text-lg">
-            We're happy to help. Reach out for a free quote or to discuss your
+            We&apos;re happy to help. Reach out for a free quote or to discuss your
             project.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
