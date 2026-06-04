@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/home/HeroSection";
 import { ServicesGrid } from "@/components/home/ServicesGrid";
 import { TrustSection } from "@/components/home/TrustSection";
 import { TestimonialsSection } from "@/components/home/TestimonialsSection";
+import { FAQSection } from "@/components/home/FAQSection";
 import { ServiceAreaMap } from "@/components/shared/ServiceAreaMap";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { SocialLinks } from "@/components/shared/SocialLinks";
@@ -22,6 +23,7 @@ export default function HomePage() {
       <ServicesGrid />
       <TrustSection />
       <TestimonialsSection />
+      <FAQSection />
 
       {/* Social strip */}
       <section className="py-10 px-4 bg-white border-t border-gray-100">
