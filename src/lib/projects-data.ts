@@ -9,6 +9,8 @@ export interface Project {
   afterImage?: { src: string; alt: string };
   /** Single showcase image (e.g. multi-panel strip) */
   showcaseImage?: { src: string; alt: string };
+  /** Media type for before/after — defaults to "image" */
+  mediaType?: "image" | "video";
   description: string;
   location?: string;
   serviceType: string;
@@ -17,6 +19,25 @@ export interface Project {
 }
 
 export const PROJECTS: Project[] = [
+  {
+    id: "foggy-glass-1",
+    title: "Foggy Glass Repair",
+    category: "windows",
+    mediaType: "video",
+    beforeImage: {
+      src: "/videos/foggy-glass-before.mp4",
+      alt: "Foggy double-pane window with condensation trapped between the glass",
+    },
+    afterImage: {
+      src: "/videos/foggy-glass-after.mp4",
+      alt: "Restored clear glass after sealed unit replacement by LuminaSky Glass",
+    },
+    description:
+      "Sealed glass unit replacement - cleared trapped condensation and restored a crystal-clear view without replacing the frame.",
+    location: "Toronto",
+    serviceType: "Windows",
+    tags: ["Foggy Glass"],
+  },
   {
     id: "emergency-door-1",
     title: "Emergency Commercial Door Repair",

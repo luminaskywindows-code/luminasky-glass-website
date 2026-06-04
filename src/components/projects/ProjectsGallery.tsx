@@ -1,44 +1,101 @@
-﻿"use client";
+"use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { MapPin, Zap } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { PROJECTS, PROJECT_CATEGORIES, type ProjectCategory, type Project } from "@/lib/projects-data";
 
+/* ── IntersectionObserver hook: play videos when card is >=50% visible ── */
+function useVisibilityPlayback(cardRef: React.RefObject<HTMLDivElement | null>, isVideo: boolean) {
+  const beforeRef = useRef<HTMLVideoElement>(null);
+  const afterRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (!isVideo || !cardRef.current) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          beforeRef.current?.play().catch(() => {});
+          afterRef.current?.play().catch(() => {});
+        } else {
+          beforeRef.current?.pause();
+          afterRef.current?.pause();
+        }
+      },
+      { threshold: 0.5 }
+    );
+
+    observer.observe(cardRef.current);
+    return () => observer.disconnect();
+  }, [isVideo, cardRef]);
+
+  return { beforeRef, afterRef };
+}
+
 function ProjectCard({ project }: { project: Project }) {
   const hasPair = project.beforeImage && project.afterImage;
+  const isVideo = project.mediaType === "video";
+  const cardRef = useRef<HTMLDivElement>(null);
+  const { beforeRef, afterRef } = useVisibilityPlayback(cardRef, isVideo);
 
   return (
-    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      {/* Images */}
+    <div ref={cardRef} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      {/* Media */}
       {hasPair ? (
         <div className="grid grid-cols-2">
           {/* Before */}
-          <div className="relative aspect-[4/3] bg-gray-200">
-            <Image
-              src={project.beforeImage!.src}
-              alt={project.beforeImage!.alt}
-              fill
-              unoptimized
-              className="object-cover"
-              sizes="(max-width: 768px) 50vw, (max-width: 1280px) 25vw, 20vw"
-            />
-            <span className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow">
+          <div className="relative aspect-[4/3] bg-gray-200 overflow-hidden">
+            {isVideo ? (
+              <video
+                ref={beforeRef}
+                src={project.beforeImage!.src}
+                muted
+                loop
+                playsInline
+                controls
+                preload="metadata"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+            ) : (
+              <Image
+                src={project.beforeImage!.src}
+                alt={project.beforeImage!.alt}
+                fill
+                unoptimized
+                className="object-cover"
+                sizes="(max-width: 768px) 50vw, (max-width: 1280px) 25vw, 20vw"
+              />
+            )}
+            <span className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow z-10">
               Before
             </span>
           </div>
           {/* After */}
-          <div className="relative aspect-[4/3] bg-gray-200">
-            <Image
-              src={project.afterImage!.src}
-              alt={project.afterImage!.alt}
-              fill
-              unoptimized
-              className="object-cover"
-              sizes="(max-width: 768px) 50vw, (max-width: 1280px) 25vw, 20vw"
-            />
-            <span className="absolute top-3 right-3 bg-green-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow">
+          <div className="relative aspect-[4/3] bg-gray-200 overflow-hidden">
+            {isVideo ? (
+              <video
+                ref={afterRef}
+                src={project.afterImage!.src}
+                muted
+                loop
+                playsInline
+                controls
+                preload="metadata"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+            ) : (
+              <Image
+                src={project.afterImage!.src}
+                alt={project.afterImage!.alt}
+                fill
+                unoptimized
+                className="object-cover"
+                sizes="(max-width: 768px) 50vw, (max-width: 1280px) 25vw, 20vw"
+              />
+            )}
+            <span className="absolute top-3 right-3 bg-green-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow z-10">
               After
             </span>
           </div>
