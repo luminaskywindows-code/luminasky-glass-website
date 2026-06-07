@@ -39,6 +39,24 @@ export const PROJECTS: Project[] = [
     tags: ["Foggy Glass"],
   },
   {
+    id: "front-door-glass-1",
+    title: "Custom Front Door Glass Replacement",
+    category: "doors",
+    beforeImage: {
+      src: "/images/services/front-door-glass-before.jpg",
+      alt: "Double front entry doors with traditional leaded glass inserts before replacement",
+    },
+    afterImage: {
+      src: "/images/services/front-door-glass-after.jpg",
+      alt: "Same front doors after upgrade to modern geometric iron glass inserts with frosted privacy glass",
+    },
+    description:
+      "Front door glass insert replacement — swapped dated leaded glass for a modern wrought iron geometric design with frosted privacy glass. Refreshed the entire entrance without replacing the doors.",
+    location: "Toronto",
+    serviceType: "Doors",
+    tags: ["Door Glass", "Glass Replacement"],
+  },
+  {
     id: "emergency-door-1",
     title: "Emergency Commercial Door Repair",
     category: "doors",
