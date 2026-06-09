@@ -2,8 +2,8 @@
 export const PHONE_HREF = "tel:+14373448490";
 export const WHATSAPP_HREF =
   "https://wa.me/14373448490?text=Hi%2C%20I%27d%20like%20a%20free%20quote";
-export const EMAIL = "Luminaskywindows@gmail.com";
-export const EMAIL_HREF = "mailto:Luminaskywindows@gmail.com";
+export const EMAIL = "Service@Luminasky.com";
+export const EMAIL_HREF = "mailto:service@luminasky.com";
 export const SITE_URL = "https://luminasky.com";
 export const COMPANY_NAME = "LuminaSky Glass";
 

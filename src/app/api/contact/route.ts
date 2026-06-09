@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
 
       await resend.emails.send({
         from: "LuminaSky Website <onboarding@resend.dev>",
-        to: process.env.CONTACT_EMAIL || "Luminaskywindows@gmail.com",
+        to: process.env.CONTACT_EMAIL || "service@luminasky.com",
         replyTo: data.email,
         subject: `New Quote Request: ${data.service} - ${data.city} (${data.fullName})`,
         html: `

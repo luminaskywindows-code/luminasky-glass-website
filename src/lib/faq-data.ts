@@ -73,7 +73,7 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
       },
       {
         q: "How do I get a quote for window or glass repair?",
-        a: "Call 437-344-8490, email Luminaskywindows@gmail.com, or fill out the contact form on the website. Most jobs can be quoted from photos. Larger or commercial projects may need a free on-site visit.",
+        a: "Call 437-344-8490, email Service@Luminasky.com, or fill out the contact form on the website. Most jobs can be quoted from photos. Larger or commercial projects may need a free on-site visit.",
       },
     ],
   },
