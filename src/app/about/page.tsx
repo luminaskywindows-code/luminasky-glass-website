@@ -52,7 +52,7 @@ const CREDENTIALS = [
   },
   {
     icon: Star,
-    title: "4.9★ Rating on Google & HomeStars",
+    title: "5.0★ Rating on Google & HomeStars",
     color: "text-yellow-600",
     bg: "bg-yellow-50",
   },
@@ -188,7 +188,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { stat: "5,000+", label: "Windows Repaired", color: "bg-primary" },
-                { stat: "4.9★", label: "Average Rating", color: "bg-accent" },
+                { stat: "5.0★", label: "Average Rating", color: "bg-accent" },
                 { stat: "Since 2024", label: "Serving the GTA", color: "bg-primary" },
                 { stat: "90%+", label: "First-Visit Fix Rate", color: "bg-accent" },
               ].map((item) => (
@@ -503,7 +503,7 @@ export default function AboutPage() {
           </div>
           <p className="mt-6 text-sm text-gray-400 flex items-center justify-center gap-1.5">
             <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" aria-hidden="true" />
-            Rated 4.9 / 5 on Google Reviews
+            Rated 5.0 / 5 on Google Reviews
           </p>
         </div>
       </section>

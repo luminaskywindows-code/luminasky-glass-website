@@ -14,7 +14,7 @@ const TRUST_BADGES = [
 
 const STATS = [
   { value: "5,000+", label: "Windows Restored" },
-  { value: "4.9★", label: "Google & HomeStars" },
+  { value: "5.0★", label: "Google & HomeStars" },
   { value: "2 hrs", label: "Emergency Response" },
   { value: "Since 2024", label: "Serving the GTA" },
 ];

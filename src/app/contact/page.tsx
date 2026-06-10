@@ -167,7 +167,7 @@ export default function ContactPage() {
                       {key === "google" && (
                         <p className="text-gray-400 text-xs flex items-center gap-1 mt-0.5">
                           <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" aria-hidden="true" />
-                          4.9 / 5 rating
+                          5.0 / 5 rating
                         </p>
                       )}
                     </div>

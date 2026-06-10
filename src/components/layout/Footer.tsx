@@ -142,7 +142,7 @@ export function Footer() {
                 className="mt-3 inline-flex items-center gap-1.5 text-xs text-blue-200 hover:text-white transition-colors"
               >
                 <Star className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400 shrink-0" aria-hidden="true" />
-                4.9 / 5 on Google Reviews
+                5.0 / 5 on Google Reviews
               </a>
             </div>
           </div>

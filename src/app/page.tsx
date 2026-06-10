@@ -30,7 +30,7 @@ export default function HomePage() {
         <div className="max-w-xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-4 text-center sm:text-left">
           <div className="flex items-center gap-1.5 text-sm text-gray-500 shrink-0">
             <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" aria-hidden="true" />
-            <span className="font-semibold text-gray-700">4.9★ on Google</span>
+            <span className="font-semibold text-gray-700">5.0★ on Google</span>
             <span className="hidden sm:inline">·</span>
           </div>
           <span className="text-sm text-gray-400">Find us on:</span>
