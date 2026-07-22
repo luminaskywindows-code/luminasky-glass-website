@@ -77,11 +77,15 @@ export function HeroSection() {
             {/* H1 */}
             <motion.h1
               variants={item}
-              className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-[1.1] tracking-tight max-w-4xl"
+              className="text-3xl sm:text-5xl md:text-6xl font-bold text-white leading-[1.1] tracking-tight max-w-4xl break-words"
             >
-              Glass Repair &amp; Window Service Across the GTA{" "}
-              <span className="text-accent-light whitespace-nowrap">
-                - Done Right the First Time
+              Glass Repair &amp; Window Service Across the GTA
+              <br className="hidden sm:block" />
+              <span className="block sm:inline mt-1 sm:mt-0">
+                <span className="hidden sm:inline">{" "}- </span>
+                <span className="text-accent-light">
+                  Done Right the First Time
+                </span>
               </span>
             </motion.h1>
 

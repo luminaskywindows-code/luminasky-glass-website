@@ -8,11 +8,11 @@ export function WhatsAppButton() {
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2">
-      {/* Tooltip */}
+      {/* Tooltip — auto-hides after 5s so it doesn't cover page content */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8, x: 10 }}
-        animate={{ opacity: 1, scale: 1, x: 0 }}
-        transition={{ delay: prefersReduced ? 0 : 3, duration: 0.3 }}
+        animate={{ opacity: [0, 1, 1, 0], scale: [0.8, 1, 1, 1], x: [10, 0, 0, 0] }}
+        transition={{ delay: prefersReduced ? 0 : 3, duration: 5, times: [0, 0.06, 0.85, 1] }}
         className="bg-white text-gray-800 text-xs font-medium px-3 py-1.5 rounded-lg shadow-lg border border-gray-100 pointer-events-none"
         aria-hidden="true"
       >
