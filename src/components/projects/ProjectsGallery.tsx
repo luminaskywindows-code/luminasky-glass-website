@@ -45,36 +45,33 @@ function SingleVideoCard({ project }: { project: Project }) {
 
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      {/* Video area */}
-      <div className="flex justify-center bg-gray-900">
-        <div
-          className="relative w-full max-w-[500px] bg-black cursor-pointer"
-          style={{ aspectRatio: "9/16" }}
-          onClick={!playing ? handlePlay : undefined}
-          role={!playing ? "button" : undefined}
-          tabIndex={!playing ? 0 : undefined}
-          aria-label={!playing ? `Play video: ${project.video!.alt}` : undefined}
-          onKeyDown={!playing ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); handlePlay(); } } : undefined}
-        >
-          <video
-            ref={videoRef}
-            src={playing ? project.video!.src : undefined}
-            poster={project.video!.poster}
-            muted
-            playsInline
-            controls={playing}
-            preload="none"
-            className="absolute inset-0 w-full h-full object-contain"
-            aria-label={project.video!.alt}
-          />
-          {!playing && (
-            <div className="absolute inset-0 flex items-center justify-center z-10">
-              <div className="w-16 h-16 rounded-full bg-black/50 flex items-center justify-center backdrop-blur-sm border border-white/20 transition-transform hover:scale-110">
-                <Play className="w-7 h-7 text-white ml-1" fill="white" aria-hidden="true" />
-              </div>
+      {/* Video area — height-constrained to match other project cards */}
+      <div
+        className="relative flex items-center justify-center bg-gray-900 max-h-[500px] sm:max-h-[400px] md:max-h-[360px] overflow-hidden cursor-pointer"
+        onClick={!playing ? handlePlay : undefined}
+        role={!playing ? "button" : undefined}
+        tabIndex={!playing ? 0 : undefined}
+        aria-label={!playing ? `Play video: ${project.video!.alt}` : undefined}
+        onKeyDown={!playing ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); handlePlay(); } } : undefined}
+      >
+        <video
+          ref={videoRef}
+          src={playing ? project.video!.src : undefined}
+          poster={project.video!.poster}
+          muted
+          playsInline
+          controls={playing}
+          preload="none"
+          className="w-auto h-full max-h-[500px] sm:max-h-[400px] md:max-h-[360px] object-contain"
+          aria-label={project.video!.alt}
+        />
+        {!playing && (
+          <div className="absolute inset-0 flex items-center justify-center z-10">
+            <div className="w-16 h-16 rounded-full bg-black/50 flex items-center justify-center backdrop-blur-sm border border-white/20 transition-transform hover:scale-110">
+              <Play className="w-7 h-7 text-white ml-1" fill="white" aria-hidden="true" />
             </div>
-          )}
-        </div>
+          </div>
+        )}
       </div>
 
       {/* Details */}
