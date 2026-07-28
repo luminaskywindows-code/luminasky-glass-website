@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import Image from "next/image";
-import { MapPin, Zap } from "lucide-react";
+import { MapPin, Zap, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { PROJECTS, PROJECT_CATEGORIES, type ProjectCategory, type Project } from "@/lib/projects-data";
 
@@ -34,11 +34,81 @@ function useVisibilityPlayback(cardRef: React.RefObject<HTMLDivElement | null>, 
   return { beforeRef, afterRef };
 }
 
+function SingleVideoCard({ project }: { project: Project }) {
+  const [playing, setPlaying] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const handlePlay = useCallback(() => {
+    setPlaying(true);
+    setTimeout(() => videoRef.current?.play().catch(() => {}), 0);
+  }, []);
+
+  return (
+    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      {/* Video area */}
+      <div className="flex justify-center bg-gray-900">
+        <div
+          className="relative w-full max-w-[500px] bg-black cursor-pointer"
+          style={{ aspectRatio: "9/16" }}
+          onClick={!playing ? handlePlay : undefined}
+          role={!playing ? "button" : undefined}
+          tabIndex={!playing ? 0 : undefined}
+          aria-label={!playing ? `Play video: ${project.video!.alt}` : undefined}
+          onKeyDown={!playing ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); handlePlay(); } } : undefined}
+        >
+          <video
+            ref={videoRef}
+            src={playing ? project.video!.src : undefined}
+            poster={project.video!.poster}
+            muted
+            playsInline
+            controls={playing}
+            preload="none"
+            className="absolute inset-0 w-full h-full object-contain"
+            aria-label={project.video!.alt}
+          />
+          {!playing && (
+            <div className="absolute inset-0 flex items-center justify-center z-10">
+              <div className="w-16 h-16 rounded-full bg-black/50 flex items-center justify-center backdrop-blur-sm border border-white/20 transition-transform hover:scale-110">
+                <Play className="w-7 h-7 text-white ml-1" fill="white" aria-hidden="true" />
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Details */}
+      <div className="p-5">
+        <div className="flex flex-wrap items-center gap-2 mb-3">
+          <span className="bg-blue-50 text-primary text-xs font-semibold px-3 py-1 rounded-full">
+            {project.serviceType}
+          </span>
+          {project.tags?.map(tag => (
+            <span key={tag} className="bg-gray-100 text-gray-600 text-xs font-medium px-3 py-1 rounded-full">
+              {tag}
+            </span>
+          ))}
+        </div>
+        <h2 className="font-bold text-gray-900 text-base mb-2">{project.title}</h2>
+        <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
+        {project.location && (
+          <div className="mt-3 flex items-center gap-1 text-gray-400 text-xs">
+            <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
+            {project.location}, GTA
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function ProjectCard({ project }: { project: Project }) {
   const hasPair = project.beforeImage && project.afterImage;
   const isVideo = project.mediaType === "video";
   const cardRef = useRef<HTMLDivElement>(null);
   const { beforeRef, afterRef } = useVisibilityPlayback(cardRef, isVideo);
+
+  if (project.mediaType === "single-video") return <SingleVideoCard project={project} />;
 
   return (
     <div ref={cardRef} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">

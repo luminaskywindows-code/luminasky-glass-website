@@ -10,7 +10,9 @@ export interface Project {
   /** Single showcase image (e.g. multi-panel strip) */
   showcaseImage?: { src: string; alt: string };
   /** Media type for before/after — defaults to "image" */
-  mediaType?: "image" | "video";
+  mediaType?: "image" | "video" | "single-video";
+  /** Single video with click-to-play (used with mediaType "single-video") */
+  video?: { src: string; poster: string; alt: string };
   description: string;
   location?: string;
   serviceType: string;
@@ -37,6 +39,22 @@ export const PROJECTS: Project[] = [
     location: "Toronto",
     serviceType: "Windows",
     tags: ["Foggy Glass"],
+  },
+  {
+    id: "glass-replacement-ajax",
+    title: "Glass Replacement - Ajax",
+    category: "windows",
+    mediaType: "single-video",
+    video: {
+      src: "/videos/glass-replacement-ajax.mp4",
+      poster: "/images/glass-replacement-ajax-poster.jpg",
+      alt: "Glass replacement project in Ajax — walkthrough of completed installation",
+    },
+    description:
+      "Full glass panel replacement — Ajax residence. Fresh install with a clean, precise finish.",
+    location: "Ajax",
+    serviceType: "Glass Replacement",
+    tags: ["Glass Replacement"],
   },
   {
     id: "front-door-glass-1",
