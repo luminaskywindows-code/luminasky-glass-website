@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
+import { SourceTracker } from "@/components/layout/SourceTracker";
 import { Toaster } from "@/components/ui/sonner";
 import { generateOrganizationSchema } from "@/lib/schema";
 
@@ -71,6 +72,7 @@ export default function RootLayout({
         <main id="main-content">{children}</main>
         <Footer />
         <WhatsAppButton />
+        <SourceTracker />
         <Toaster position="bottom-right" />
       </body>
     </html>

@@ -1,8 +1,27 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { SERVICES, SERVICE_AREAS } from "@/lib/constants";
+import { getSourceData, type SourceData } from "@/lib/source-tracking";
+
+const HEARD_OPTIONS = [
+  "Google search",
+  "Google Maps",
+  "Facebook",
+  "Instagram",
+  "Flyer in my mailbox",
+  "Referred by a friend or neighbour",
+  "Referred by a contractor, realtor or property manager",
+  "I've used LuminaSky before",
+  "Saw your van or a job in my area",
+  "Other",
+] as const;
+
+const REFERRAL_OPTIONS = new Set<string>([
+  "Referred by a friend or neighbour",
+  "Referred by a contractor, realtor or property manager",
+]);
 
 interface FormData {
   fullName: string;
@@ -12,6 +31,9 @@ interface FormData {
   city: string;
   message: string;
   contactMethod: "phone" | "email" | "whatsapp";
+  heardAbout: string;
+  referredBy: string;
+  heardAboutOther: string;
 }
 
 interface FormErrors {
@@ -21,6 +43,8 @@ interface FormErrors {
   service?: string;
   city?: string;
   message?: string;
+  heardAbout?: string;
+  heardAboutOther?: string;
 }
 
 const INITIAL: FormData = {
@@ -31,6 +55,9 @@ const INITIAL: FormData = {
   city: "",
   message: "",
   contactMethod: "phone",
+  heardAbout: "",
+  referredBy: "",
+  heardAboutOther: "",
 };
 
 export function ContactForm() {
@@ -38,13 +65,24 @@ export function ContactForm() {
   const [errors, setErrors] = useState<FormErrors>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<"success" | "error" | null>(null);
+  const [sourceData, setSourceData] = useState<SourceData | null>(null);
+
+  useEffect(() => {
+    setSourceData(getSourceData());
+  }, []);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-    // Clear error as user types
+    setFormData((prev) => {
+      const next = { ...prev, [name]: value };
+      if (name === "heardAbout") {
+        if (!REFERRAL_OPTIONS.has(value)) next.referredBy = "";
+        if (value !== "Other") next.heardAboutOther = "";
+      }
+      return next;
+    });
     if (errors[name as keyof FormErrors]) {
       setErrors((prev) => ({ ...prev, [name]: undefined }));
     }
@@ -66,6 +104,10 @@ export function ContactForm() {
     if (!formData.service) e.service = "Please select a service";
     if (!formData.city) e.city = "Please select your city";
     if (!formData.message.trim()) e.message = "Please describe your issue";
+    if (!formData.heardAbout) e.heardAbout = "Please select how you heard about us";
+    if (formData.heardAbout === "Other" && !formData.heardAboutOther.trim()) {
+      e.heardAboutOther = "Please tell us where you heard about us";
+    }
     return e;
   };
 
@@ -80,6 +122,21 @@ export function ContactForm() {
     setIsSubmitting(true);
     setSubmitStatus(null);
 
+    const sd = sourceData || getSourceData();
+
+    let heardAboutFull = formData.heardAbout;
+    if (formData.heardAbout === "Other" && formData.heardAboutOther) {
+      heardAboutFull = `Other: ${formData.heardAboutOther}`;
+    }
+
+    const referredByLine = REFERRAL_OPTIONS.has(formData.heardAbout) && formData.referredBy
+      ? formData.referredBy
+      : "";
+
+    const firstVisitFormatted = sd.first_visit_at
+      ? new Date(sd.first_visit_at).toLocaleDateString("en-CA", { timeZone: "America/Toronto" })
+      : "-";
+
     try {
       await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
@@ -92,6 +149,17 @@ export function ContactForm() {
           city: formData.city,
           contact_method: formData.contactMethod,
           message: formData.message,
+          heard_about: heardAboutFull,
+          referred_by: referredByLine,
+          source: sd.source || "unknown",
+          utm_source: sd.utm_source || "-",
+          utm_medium: sd.utm_medium || "-",
+          utm_campaign: sd.utm_campaign || "-",
+          gclid: sd.gclid || "-",
+          fbclid: sd.fbclid || "-",
+          referrer: sd.referrer || "direct",
+          landing_page: sd.landing_page || "-",
+          first_visit: firstVisitFormatted,
         },
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
@@ -132,6 +200,9 @@ export function ContactForm() {
       </div>
     );
   }
+
+  const showReferredBy = REFERRAL_OPTIONS.has(formData.heardAbout);
+  const showOtherInput = formData.heardAbout === "Other";
 
   return (
     <form onSubmit={handleSubmit} noValidate className="space-y-5" aria-label="Contact form">
@@ -263,6 +334,63 @@ export function ContactForm() {
         />
         {errors.message && <p className="text-red-600 text-xs mt-1">{errors.message}</p>}
       </div>
+
+      {/* How did you hear about us? */}
+      <div>
+        <label htmlFor="heardAbout" className="block text-sm font-semibold text-gray-700 mb-1.5">
+          How did you hear about us? *
+        </label>
+        <select
+          id="heardAbout"
+          name="heardAbout"
+          value={formData.heardAbout}
+          onChange={handleChange}
+          className={inputClass("heardAbout")}
+        >
+          <option value="">Please select</option>
+          {HEARD_OPTIONS.map((opt) => (
+            <option key={opt} value={opt}>{opt}</option>
+          ))}
+        </select>
+        {errors.heardAbout && <p className="text-red-600 text-xs mt-1">{errors.heardAbout}</p>}
+      </div>
+
+      {/* Conditional: Referred by */}
+      {showReferredBy && (
+        <div>
+          <label htmlFor="referredBy" className="block text-sm font-semibold text-gray-700 mb-1.5">
+            Who referred you? <span className="font-normal text-gray-400">(so we can thank them)</span>
+          </label>
+          <input
+            id="referredBy"
+            name="referredBy"
+            type="text"
+            value={formData.referredBy}
+            onChange={handleChange}
+            placeholder="e.g. Justin, JW Construction"
+            className="w-full px-4 py-3 border border-gray-300 bg-white rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900"
+          />
+        </div>
+      )}
+
+      {/* Conditional: Other */}
+      {showOtherInput && (
+        <div>
+          <label htmlFor="heardAboutOther" className="block text-sm font-semibold text-gray-700 mb-1.5">
+            Where did you hear about us? *
+          </label>
+          <input
+            id="heardAboutOther"
+            name="heardAboutOther"
+            type="text"
+            value={formData.heardAboutOther}
+            onChange={handleChange}
+            placeholder="e.g. Kijiji, HomeStars, a sign..."
+            className={inputClass("heardAboutOther")}
+          />
+          {errors.heardAboutOther && <p className="text-red-600 text-xs mt-1">{errors.heardAboutOther}</p>}
+        </div>
+      )}
 
       {/* Preferred contact */}
       <div>
