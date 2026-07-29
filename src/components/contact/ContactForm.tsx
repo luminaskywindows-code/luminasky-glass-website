@@ -367,7 +367,6 @@ export function ContactForm() {
             type="text"
             value={formData.referredBy}
             onChange={handleChange}
-            placeholder="e.g. Justin, JW Construction"
             className="w-full px-4 py-3 border border-gray-300 bg-white rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900"
           />
         </div>
