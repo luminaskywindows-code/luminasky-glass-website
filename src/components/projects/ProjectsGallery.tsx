@@ -34,6 +34,45 @@ function useVisibilityPlayback(cardRef: React.RefObject<HTMLDivElement | null>, 
   return { beforeRef, afterRef };
 }
 
+function SingleImageCard({ project }: { project: Project }) {
+  return (
+    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      {/* Image area — height-constrained to match other project cards */}
+      <div className="relative aspect-[4/3] max-h-[400px] sm:max-h-[360px] md:max-h-[340px] bg-gray-200 overflow-hidden">
+        <Image
+          src={project.image!.src}
+          alt={project.image!.alt}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 40vw"
+        />
+      </div>
+
+      {/* Details */}
+      <div className="p-5">
+        <div className="flex flex-wrap items-center gap-2 mb-3">
+          <span className="bg-blue-50 text-primary text-xs font-semibold px-3 py-1 rounded-full">
+            {project.serviceType}
+          </span>
+          {project.tags?.map(tag => (
+            <span key={tag} className="bg-gray-100 text-gray-600 text-xs font-medium px-3 py-1 rounded-full">
+              {tag}
+            </span>
+          ))}
+        </div>
+        <h2 className="font-bold text-gray-900 text-base mb-2">{project.title}</h2>
+        <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
+        {project.location && (
+          <div className="mt-3 flex items-center gap-1 text-gray-400 text-xs">
+            <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
+            {project.location}, GTA
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function SingleVideoCard({ project }: { project: Project }) {
   const [playing, setPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -105,6 +144,7 @@ function ProjectCard({ project }: { project: Project }) {
   const cardRef = useRef<HTMLDivElement>(null);
   const { beforeRef, afterRef } = useVisibilityPlayback(cardRef, isVideo);
 
+  if (project.mediaType === "single-image") return <SingleImageCard project={project} />;
   if (project.mediaType === "single-video") return <SingleVideoCard project={project} />;
 
   return (

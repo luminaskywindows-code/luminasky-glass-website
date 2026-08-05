@@ -10,9 +10,11 @@ export interface Project {
   /** Single showcase image (e.g. multi-panel strip) */
   showcaseImage?: { src: string; alt: string };
   /** Media type for before/after — defaults to "image" */
-  mediaType?: "image" | "video" | "single-video";
+  mediaType?: "image" | "video" | "single-video" | "single-image";
   /** Single video with click-to-play (used with mediaType "single-video") */
   video?: { src: string; poster: string; alt: string };
+  /** Single hero image (used with mediaType "single-image") */
+  image?: { src: string; alt: string };
   description: string;
   location?: string;
   serviceType: string;
@@ -39,6 +41,21 @@ export const PROJECTS: Project[] = [
     location: "Toronto",
     serviceType: "Windows",
     tags: ["Foggy Glass"],
+  },
+  {
+    id: "sunroom-caledon",
+    title: "Full Sunroom Glass Replacement - Caledon",
+    category: "windows",
+    mediaType: "single-image",
+    image: {
+      src: "/images/services/sunroom-caledon.jpg",
+      alt: "Caledon sunroom after full glass replacement — crystal-clear view of the garden and pool through four newly installed sealed glass units",
+    },
+    description:
+      "The customer reached out with foggy glass in all four windows of their sunroom — heavy condensation had built up between the panes, obscuring the beautiful view of the garden and pool. Our team replaced all four sealed units, restoring crystal-clear visibility without touching the original wood framing. The customer was delighted with the transformation.",
+    location: "Caledon",
+    serviceType: "Glass Replacement",
+    tags: ["Foggy Glass", "Glass Replacement"],
   },
   {
     id: "glass-replacement-ajax",
