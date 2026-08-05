@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
       "The customer reached out with foggy glass in all four windows of their sunroom — heavy condensation had built up between the panes, obscuring the beautiful view of the garden and pool. Our team replaced all four sealed units, restoring crystal-clear visibility without touching the original wood framing. The customer was delighted with the transformation.",
     location: "Caledon",
     serviceType: "Glass Replacement",
-    tags: ["Foggy Glass", "Glass Replacement"],
+    tags: ["Foggy Glass"],
   },
   {
     id: "glass-replacement-ajax",
