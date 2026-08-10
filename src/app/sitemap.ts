@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { SITE_URL, SERVICES } from "@/lib/constants";
+import { CITY_PAGES } from "@/lib/city-pages-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const servicePages = SERVICES.map((s) => ({
@@ -41,5 +42,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     ...servicePages,
+    {
+      url: `${SITE_URL}/areas-we-serve`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
+    ...CITY_PAGES.map((c) => ({
+      url: `${SITE_URL}/window-repair-${c.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
   ];
 }
