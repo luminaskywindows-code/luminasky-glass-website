@@ -272,7 +272,7 @@ export const FRONT_DOOR_GLASS: ServiceData = {
       caption: "Same location, next day. Emergency board-up within 2 hours, permanent glass replacement installed the following morning. Business back to normal.",
     },
     emergencyCTA: {
-      heading: "24/7 Emergency Response Available",
+      heading: "Available 24/7 — Any Day, Any Time",
       body: "We respond within 2 hours for emergency board-ups across the GTA. Permanent glass replacement scheduled for next-day installation.",
     },
   },
@@ -509,14 +509,14 @@ export const LOCKSMITH: ServiceData = {
   title: "Locksmith Services",
   heroHeadline: "Fast, Reliable Locksmith Services Across the GTA",
   heroSubtext:
-    "Locked out? Need new locks after a move? We provide professional locksmith services including lock changes, re-keying, and 24/7 emergency lockout assistance.",
+    "Locked out? Need new locks after a move? We provide professional locksmith services including lock changes, re-keying, and 24/7 lockout assistance.",
   description: [
     "LuminaSky Glass offers professional locksmith services as a natural extension of our door and glass work. Whether you've just moved in and want the locks changed, need re-keying after losing a key, or are locked out and need immediate help - we're available across the GTA.",
     "We install deadbolts, knob locks, lever handles, smart locks, and electronic keypad systems. We also repair damaged or difficult-to-turn locks without full replacement where possible.",
-    "All our locksmith work is performed by experienced, background-checked technicians. Emergency lockout service is available 24 hours a day, 7 days a week.",
+    "All our locksmith work is performed by experienced, background-checked technicians. Lockout service is available 24 hours a day, 7 days a week.",
   ],
   benefits: [
-    "24/7 emergency lockout service across the GTA",
+    "24/7 lockout service across the GTA",
     "Lock changes and re-keying for move-ins and key replacements",
     "Deadbolt installation and upgrades",
     "Smart lock and keypad installation",
@@ -569,7 +569,7 @@ export const LOCKSMITH: ServiceData = {
   ],
   metaTitle: "Locksmith Services Toronto | Emergency Lockout GTA",
   metaDescription:
-    "Professional locksmith services across the Greater Toronto Area. 24/7 emergency lockout, lock changes, re-keying. LuminaSky Glass - Call 437-344-8490.",
+    "Professional locksmith services across the Greater Toronto Area. 24/7 lockout, lock changes, re-keying. LuminaSky Glass - Call 437-344-8490.",
   relatedServices: ["front-door-glass", "window-cranks", "screen-storm-doors"],
 };
 

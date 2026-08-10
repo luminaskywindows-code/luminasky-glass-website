@@ -112,7 +112,7 @@ export const FAQS_GENERAL = [
   },
   {
     q: "Do you offer same-day service?",
-    a: "Yes, we offer same-day service for most repairs when you call before noon. Emergency service is available 24/7.",
+    a: "Yes, we offer same-day service for most repairs when you call before noon. We're available 24/7, any day of the week.",
   },
   {
     q: "How much does glass repair cost?",

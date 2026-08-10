@@ -134,10 +134,10 @@ export default function ContactPage() {
                       Hours
                     </p>
                     <p className="text-gray-900 font-semibold text-sm">
-                      Mon–Sat: 8:00am – 8:00pm
+                      Available 24/7
                     </p>
                     <p className="text-gray-500 text-sm">
-                      Sunday: Emergency calls only
+                      Any day, any time
                     </p>
                   </div>
                 </div>

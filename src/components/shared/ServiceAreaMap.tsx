@@ -19,7 +19,7 @@ export function ServiceAreaMap() {
         </h2>
         <p className="text-gray-500 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
           Wherever you are in the GTA, we can come to you - typically same-day
-          or next-day. Emergency service available 7 days a week.
+          or next-day. Available 24/7, any day of the week.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">

@@ -57,7 +57,7 @@ export function Navbar() {
             </span>
             <span className="hidden sm:flex items-center gap-1.5">
               <Zap className="w-3.5 h-3.5 text-accent-light" aria-hidden="true" />
-              24/7 Emergency Service
+              Available 24/7
             </span>
             <span className="hidden md:flex items-center gap-1.5">
               <Star className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" aria-hidden="true" />

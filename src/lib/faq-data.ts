@@ -52,7 +52,7 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
     items: [
       {
         q: "Do you offer emergency glass repair services in the GTA?",
-        a: "Yes. LuminaSky offers 24/7 emergency response for broken windows and doors across the GTA. We can secure your opening with a board-up and then return to install permanent replacement glass once it's ready.",
+        a: "Yes. LuminaSky is available 24 hours a day, 7 days a week for both emergency and scheduled repairs across the GTA. For emergencies, we can secure your opening with a board-up and then return to install permanent replacement glass once it's ready.",
       },
       {
         q: "What areas in the GTA do you service?",

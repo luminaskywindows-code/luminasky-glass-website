@@ -47,11 +47,11 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2 text-blue-200 text-xs">
                 <Zap className="w-4 h-4 text-accent-light shrink-0" aria-hidden="true" />
-                24/7 Emergency Service Available
+                Available 24/7 — Any Day, Any Time
               </div>
               <div className="flex items-center gap-2 text-blue-200 text-xs">
                 <Clock className="w-4 h-4 text-accent-light shrink-0" aria-hidden="true" />
-                Mon–Sat: 8am–8pm | Sun: Emergency Only
+                Open 24/7
               </div>
             </div>
           </div>
