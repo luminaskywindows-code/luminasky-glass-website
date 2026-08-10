@@ -30,8 +30,8 @@ export interface CityPageData {
     description: string;
     href: string;
   }[];
-  featuredProject: CityProject;
-  review: CityReview;
+  featuredProject?: CityProject;
+  review?: CityReview;
   closingCTA: string;
   faqs: { q: string; a: string }[];
 }

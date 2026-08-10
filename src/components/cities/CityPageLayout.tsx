@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin, Phone, MessageCircle, Star, ChevronRight, Wrench } from "lucide-react";
+import { MapPin, Phone, MessageCircle, Star, ChevronRight, Wrench, Clock, Shield, Truck } from "lucide-react";
 import { PHONE, PHONE_HREF, WHATSAPP_HREF, SITE_URL, COMPANY_NAME } from "@/lib/constants";
 import type { CityPageData } from "@/lib/city-pages-data";
 
@@ -150,7 +150,31 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
         </div>
       </section>
 
+      {/* Why Choose Us */}
+      <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+          Why {city.city} Homeowners Choose Us
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[
+            { icon: Clock, title: "Fast Response", desc: "Same-day or next-day service across " + city.city + ". Emergency calls answered within 2 hours." },
+            { icon: Wrench, title: "Repair, Not Replace", desc: "We fix the broken part — the glass, the crank, the seal — without tearing out your whole window or door." },
+            { icon: Shield, title: "1-Year Warranty", desc: "Every repair backed by our warranty. If it fails, we come back and fix it — no questions asked." },
+            { icon: Truck, title: "We Come to You", desc: "Fully mobile service. We bring everything we need to your door — no trips to a shop required." },
+          ].map((item) => (
+            <div key={item.title} className="text-center">
+              <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
+                <item.icon className="w-6 h-6 text-primary" aria-hidden="true" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-1">{item.title}</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Featured Project */}
+      {city.featuredProject && (
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
           Recent Work in {city.city}
@@ -235,8 +259,10 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           </div>
         </div>
       </section>
+      )}
 
       {/* Review */}
+      {city.review && (
       <section className="bg-blue-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8 text-center">
           <div className="flex items-center justify-center gap-1 mb-4">
@@ -251,6 +277,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           <p className="text-gray-500 text-sm">{city.review.service} · Google Review</p>
         </div>
       </section>
+      )}
 
       {/* Neighborhoods */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
