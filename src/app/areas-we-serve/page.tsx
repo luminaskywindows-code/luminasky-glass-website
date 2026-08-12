@@ -8,7 +8,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Areas We Serve | Window & Door Repair Across the GTA",
   description:
-    "LuminaSky Glass serves Vaughan, Thornhill, Richmond Hill, Markham, North York, Scarborough, and the entire GTA. Fast, affordable window and glass repair — available 24/7.",
+    "LuminaSky Glass serves Vaughan, Thornhill, Richmond Hill, Markham, North York, Scarborough, Aurora, Newmarket, King City & the entire GTA. Fast, affordable window and glass repair — available 24/7.",
   alternates: { canonical: "/areas-we-serve" },
 };
 
