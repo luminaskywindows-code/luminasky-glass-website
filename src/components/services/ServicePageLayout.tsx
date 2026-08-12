@@ -113,10 +113,10 @@ export function ServicePageLayout({
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
-                  href="/contact"
+                  href={service.heroCTA?.primaryHref ?? "/contact"}
                   className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
                 >
-                  Get Quote
+                  {service.heroCTA?.primary ?? "Get Quote"}
                 </Link>
                 <a
                   href={PHONE_HREF}
@@ -402,6 +402,23 @@ export function ServicePageLayout({
                 </a>
               </div>
             )}
+          </div>
+        </section>
+      )}
+
+      {/* Mid-page CTA */}
+      {service.midPageCTA && (
+        <section className="py-12 px-4 md:px-8 bg-blue-50">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-gray-700 text-lg leading-relaxed mb-6">
+              {service.midPageCTA.text}
+            </p>
+            <Link
+              href={service.midPageCTA.buttonHref}
+              className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all"
+            >
+              {service.midPageCTA.buttonLabel}
+            </Link>
           </div>
         </section>
       )}

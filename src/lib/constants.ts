@@ -68,6 +68,26 @@ export const SERVICES = [
     href: "/skylights",
     imageSrc: "/images/services/skylight-hero-clean.png",
   },
+  {
+    slug: "window-screens",
+    title: "Window & Door Screens",
+    shortTitle: "Window Screens",
+    icon: "grid-2x2",
+    description:
+      "Screen repair and replacement for windows, sliding patio doors and entry doors. Pet-resistant and solar mesh options available.",
+    href: "/window-screens",
+    imageSrc: "/images/services/window-screens-service.jpg",
+  },
+  {
+    slug: "window-replacement",
+    title: "Full Window Replacement",
+    shortTitle: "Window Replacement",
+    icon: "square",
+    description:
+      "Full window replacement when repair is no longer the answer. Fixed-price quotes, no pressure sales, one crew from measure to cleanup.",
+    href: "/window-replacement",
+    imageSrc: "/images/services/window-replacement-hero.jpg",
+  },
 ];
 
 export const TESTIMONIALS = [

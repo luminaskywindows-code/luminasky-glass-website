@@ -23,6 +23,8 @@
   metaTitle: string;
   metaDescription: string;
   relatedServices: string[];
+  heroCTA?: { primary: string; primaryHref: string };
+  midPageCTA?: { text: string; buttonLabel: string; buttonHref: string };
 }
 
 export const FOGGY_WINDOWS: ServiceData = {
@@ -651,6 +653,116 @@ export const SKYLIGHTS: ServiceData = {
   relatedServices: ["foggy-windows", "front-door-glass", "screen-storm-doors"],
 };
 
+export const WINDOW_SCREENS: ServiceData = {
+  slug: "window-screens",
+  title: "Window & Door Screens",
+  shortTitle: "Window Screens",
+  heroHeadline: "Window & Door Screen Repair and Replacement",
+  heroSubtext:
+    "A torn screen is a small problem that ruins a whole summer. Bugs get in, pets push through, and a bent frame stops the door from sliding. We repair and replace screens for windows, sliding patio doors and entry doors across the GTA.\n\nWe measure on site, so the screen fits the opening you actually have, not the one it was supposed to have.",
+  heroImage: {
+    src: "/images/services/window-screens-service.jpg",
+    alt: "Sliding patio door with screen door — Window & Door Screens service by LuminaSky",
+  },
+  description: [
+    "Whether your screen has a small tear, a bent frame, or has gone missing entirely, we handle it. We re-screen existing frames, build new ones to your exact measurements, and repair sliding patio door screens that have jumped their tracks or lost their rollers.",
+    "We carry multiple mesh options so you can choose what fits your situation — standard fiberglass for most homes, pet-resistant mesh for households with dogs and cats, solar mesh to cut heat on south-facing windows, and fine mesh for areas with smaller insects.",
+  ],
+  benefits: [
+    "We measure and install ourselves — no subcontractors in your home",
+    "Frame colour matched to your existing windows",
+    "One visit for the whole house instead of one screen at a time",
+    "Pet-resistant and solar mesh options available",
+    "Sliding patio door screen rollers and tracks repaired",
+  ],
+  process: [
+    { step: "Send a Photo", desc: "Text us a photo of the screen and the rough size on WhatsApp." },
+    { step: "Get a Quote", desc: "We reply with a price — no visit needed for most screen quotes." },
+    { step: "We Measure", desc: "On install day we measure on-site so the screen fits perfectly." },
+    { step: "Install", desc: "New mesh or frame installed on the spot. Clean up and done." },
+  ],
+  faqs: [
+    {
+      q: "Can you repair my screen or do I need a new one?",
+      a: "If the frame is straight and the corners are solid, we usually just replace the mesh. If the frame is bent, cracked or the corners have failed, a new frame costs less than repeated repairs.",
+    },
+    {
+      q: "Do I have to be home?",
+      a: "For most ground-floor screens, no. We can measure and install from outside if you leave the screens accessible.",
+    },
+    {
+      q: "Do you do apartment and condo screens?",
+      a: "Yes. We work with individual owners, condo boards and property managers across the GTA.",
+    },
+  ],
+  midPageCTA: {
+    text: "Send us a photo of the screen and the rough size, and we will give you a price. No visit needed for a quote.",
+    buttonLabel: "Get a Screen Quote",
+    buttonHref: "/contact",
+  },
+  metaTitle: "Window Screen Repair & Replacement in Vaughan, Thornhill & the GTA | LuminaSky",
+  metaDescription:
+    "Torn, bent or missing window screens? LuminaSky repairs and replaces window and patio door screens across Vaughan, Thornhill, Richmond Hill, Markham and North York.",
+  relatedServices: ["screen-storm-doors", "foggy-windows", "window-cranks"],
+};
+
+export const WINDOW_REPLACEMENT: ServiceData = {
+  slug: "window-replacement",
+  title: "Full Window Replacement",
+  shortTitle: "Window Replacement",
+  heroHeadline: "Full Window Replacement",
+  heroSubtext:
+    "Sometimes glass and hardware are not the answer. If the frame itself is rotted, warped or so old that parts no longer exist, replacing the window is the cheaper decision over the next ten years.\n\nWe are a repair company first, which means we will tell you when a repair is enough. When it is not, we handle the replacement from measurement to cleanup.",
+  heroImage: {
+    src: "/images/services/window-replacement-hero.jpg",
+    alt: "Full window replacement service by LuminaSky Glass in the GTA",
+  },
+  heroCTA: {
+    primary: "Book a Measurement",
+    primaryHref: "/contact",
+  },
+  description: [
+    "We replace windows when repair no longer makes financial sense — when the frame is rotted, warped, or so old that replacement parts are discontinued. Our focus on repair means we will always tell you honestly which option saves you more over the long run.",
+    "We handle the full job: measure, order, remove the old window, install the new one, finish the interior and exterior trim, and haul away the debris. One crew, one visit for the install, no subcontractors.",
+  ],
+  benefits: [
+    "Honest assessment — we quote both repair and replacement when both are realistic",
+    "A written fixed price, not a range",
+    "Family-run crew — the people who quote are the people who install",
+    "All window types: casement, hung, slider, fixed, bay, bow, basement",
+    "Old window removed, new one installed, trim finished, debris taken away",
+  ],
+  process: [
+    { step: "Book a Visit", desc: "We come to your home to measure and assess. No all-day sales presentation." },
+    { step: "Fixed Quote", desc: "You get a written, fixed price for the job — not a range or an estimate." },
+    { step: "Order & Schedule", desc: "We order your windows and book the install date that works for you." },
+    { step: "Install & Cleanup", desc: "We remove the old window, install the new one, finish the trim, and take the debris." },
+  ],
+  faqs: [
+    {
+      q: "When does replacement make sense over repair?",
+      a: "When the frame is rotted, cracked, or out of square. When the window will not open, close, or lock properly and parts are discontinued. When you feel a draft along the frame even with the window shut. When condensation and mould keep coming back on the frame itself.",
+    },
+    {
+      q: "What types of windows do you install?",
+      a: "Casement and awning, double and single hung, sliders, fixed and picture windows, bay and bow windows, and basement and egress windows.",
+    },
+    {
+      q: "Will you try to upsell me on a replacement?",
+      a: "No. Our business runs on repeat customers and referrals, so talking you into a project you do not need would cost us more than it makes us. We quote both repair and replacement when both are realistic and tell you honestly which we would choose.",
+    },
+  ],
+  midPageCTA: {
+    text: "Book a free on-site measurement and get a written, fixed-price quote.",
+    buttonLabel: "Book a Measurement",
+    buttonHref: "/contact",
+  },
+  metaTitle: "Window Replacement in Vaughan, Thornhill & the GTA | LuminaSky",
+  metaDescription:
+    "Full window replacement for GTA homes. LuminaSky replaces old, drafty and failing windows with a fixed quote and no pressure sales.",
+  relatedServices: ["foggy-windows", "window-cranks", "skylights"],
+};
+
 export const ALL_SERVICES_DATA: ServiceData[] = [
   FOGGY_WINDOWS,
   INTEGRATED_BLINDS,
@@ -660,4 +772,6 @@ export const ALL_SERVICES_DATA: ServiceData[] = [
   GARAGE_DOORS,
   LOCKSMITH,
   SKYLIGHTS,
+  WINDOW_SCREENS,
+  WINDOW_REPLACEMENT,
 ];
