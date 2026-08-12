@@ -714,8 +714,8 @@ export const WINDOW_REPLACEMENT: ServiceData = {
   heroSubtext:
     "Sometimes glass and hardware are not the answer. If the frame itself is rotted, warped or so old that parts no longer exist, replacing the window is the cheaper decision over the next ten years.\n\nWe are a repair company first, which means we will tell you when a repair is enough. When it is not, we handle the replacement from measurement to cleanup.",
   heroImage: {
-    src: "/images/services/window-replacement-hero.jpg",
-    alt: "Full window replacement service by LuminaSky Glass in the GTA",
+    src: "/images/services/window-replacement-service.jpg",
+    alt: "LuminaSky team member installing new window frame with professional flashing tape during full window replacement",
   },
   heroCTA: {
     primary: "Book a Measurement",

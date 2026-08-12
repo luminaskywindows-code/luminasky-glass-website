@@ -86,7 +86,7 @@ export const SERVICES = [
     description:
       "Full window replacement when repair is no longer the answer. Fixed-price quotes, no pressure sales, one crew from measure to cleanup.",
     href: "/window-replacement",
-    imageSrc: "/images/services/window-replacement-hero.jpg",
+    imageSrc: "/images/services/window-replacement-service.jpg",
   },
 ];
 
