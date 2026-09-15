@@ -314,11 +314,7 @@ export function HeroSection() {
             >
               {/* Eyebrow pill */}
               <motion.div variants={item}>
-                <span className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-blue-100 text-sm font-medium px-4 py-1.5 rounded-full backdrop-blur-sm">
-                  <span
-                    className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"
-                    aria-hidden="true"
-                  />
+                <span className="inline-flex items-center bg-white/10 border border-white/20 text-blue-100 text-sm font-medium px-4 py-1.5 rounded-full backdrop-blur-sm">
                   Toronto&apos;s Repair-First Glass Specialists
                 </span>
               </motion.div>
