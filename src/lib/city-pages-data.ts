@@ -981,6 +981,446 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
   },
+  {
+    slug: "toronto",
+    city: "Toronto",
+    region: "Toronto",
+    metaTitle:
+      "Window & Door Repair in Toronto | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Fast, affordable window and door repair across Toronto. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it — don't replace it.",
+    heroHeadline: "Window & Door Repair in Toronto",
+    heroSubtext:
+      "From century homes in Cabbagetown to condos along the Danforth — professional glass and window repair across all of Toronto. Repair first, replace only when necessary.",
+    intro: [
+      "Toronto homes come in every era — from century-old Cabbagetown row houses to mid-rise condos along the Danforth, post-war bungalows in the Beaches, and Edwardian semis in Roncesvalles. What they share is windows that eventually need attention. Foggy sealed units, jammed cranks, cracked door glass — we repair all of it without replacing what still works.",
+      "LuminaSky Glass serves homeowners and condo residents across Toronto with targeted repairs instead of costly full replacements. We replace the sealed glass unit, swap a worn crank operator, or install a new door glass insert — on-site, usually in a single visit. We handle high-rise units too, working with property managers and condo boards to get the job done with minimal disruption.",
+    ],
+    neighborhoods: [
+      "Downtown",
+      "Leslieville",
+      "Danforth",
+      "Riverdale",
+      "The Beaches",
+      "Cabbagetown",
+      "Roncesvalles",
+      "High Park",
+      "Bloor West Village",
+      "The Annex",
+      "Rosedale",
+      "Forest Hill",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Condensation between your window panes means a failed seal. We replace the insulated glass unit without removing the frame — keeping your home's character intact.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Cracked, broken, or scratched glass in windows, doors, sidelights, and patio enclosures. We source and install standard, tempered, and custom glass for Toronto homes and condos.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Casement and awning window cranks that won't turn or have stripped gears. We replace the operator mechanism so the window opens and locks properly again.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Cracked or dated decorative door glass replaced with a modern insert. We work with all standard entry door sizes and heritage door profiles.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "Storm door glass swaps, new screen doors, and retractable screen installations for Toronto houses and townhomes.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Foggy or leaking skylights repaired without a full roof tear-out. We replace the glass and re-seal the unit on all major skylight brands.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Need a window or door fixed in Toronto? Text us a photo on WhatsApp for a fast quote — or call us any time, day or night.",
+    faqs: [
+      {
+        q: "Do you work in condo buildings?",
+        a: "Yes. We handle condo window and door repairs across Toronto. If your building requires insurance documentation or management approval, we provide everything you need.",
+      },
+      {
+        q: "Do you cover all of Toronto?",
+        a: "Yes — Downtown, Leslieville, the Danforth, the Beaches, Cabbagetown, Roncesvalles, High Park, Bloor West Village, the Annex, and every neighbourhood in between. We also serve North York, Scarborough, and Etobicoke.",
+      },
+      {
+        q: "Can you work on older heritage windows?",
+        a: "Absolutely. Many Toronto homes have original wood-frame windows worth preserving. We replace the glass and repair hardware without altering the frame — keeping the look your home was built with.",
+      },
+      {
+        q: "Do I need to replace the whole window or just the glass?",
+        a: "If the frame and sash are structurally sound, replacing just the sealed glass unit restores clarity and insulation at a fraction of the cost of full window replacement.",
+      },
+    ],
+  },
+  {
+    slug: "mississauga",
+    city: "Mississauga",
+    region: "Peel Region",
+    metaTitle:
+      "Window & Door Repair in Mississauga | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Fast, affordable window and door repair across Mississauga. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it — don't replace it.",
+    heroHeadline: "Window & Door Repair in Mississauga",
+    heroSubtext:
+      "Serving Port Credit, Streetsville, Erin Mills, Meadowvale, and all of Mississauga with professional glass and window repair. Fix it — don't replace it.",
+    intro: [
+      "Mississauga is the GTA's second-largest city, and its housing stock stretches across every decade — from the established homes of Port Credit and Lorne Park to the sprawling 1980s and 90s subdivisions of Erin Mills, Meadowvale, and Churchill Meadows. Homes from that era are now hitting the 25- to 40-year mark, which is exactly when factory-sealed glass units start fogging up and crank operators begin to fail.",
+      "LuminaSky Glass helps Mississauga homeowners fix these problems without the cost and disruption of full window replacement. We replace only the failed component — the insulated glass unit, the crank mechanism, or the door lite — leaving your frames, trim, and siding untouched. One visit, one repair, and you're done.",
+    ],
+    neighborhoods: [
+      "Port Credit",
+      "Streetsville",
+      "Meadowvale",
+      "Erin Mills",
+      "Clarkson",
+      "Cooksville",
+      "Malton",
+      "Lorne Park",
+      "Applewood",
+      "Mineola",
+      "Sheridan",
+      "Churchill Meadows",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Moisture trapped between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site — your frame stays untouched.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Cracked, shattered, or scratched glass in windows, patio doors, and sidelights. We measure, source, and install replacement glass for Mississauga homes.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware — no need to swap the whole window.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Dated or damaged decorative door glass replaced with a modern insert. We carry common sizes and order custom lites for non-standard doors.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "Storm door glass swaps, new screen doors, and retractable screen installations for Mississauga homes and townhomes.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Foggy or leaking skylights fixed without a full roof tear-out. We replace the glass and re-seal the unit on all major skylight brands.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Dealing with foggy windows or broken door glass in Mississauga? Send us a photo on WhatsApp for a fast quote — or call any time.",
+    faqs: [
+      {
+        q: "How fast can you get to Mississauga?",
+        a: "We serve Mississauga regularly. Most appointments are scheduled for the same day or next day, and emergency calls get a response within 2 hours.",
+      },
+      {
+        q: "My windows are from the 1980s — can you still get parts?",
+        a: "Yes. We stock a wide range of crank operators, sealed units, and glass types compatible with the window brands installed in Mississauga's older subdivisions.",
+      },
+      {
+        q: "Do you serve all of Mississauga?",
+        a: "Yes — Port Credit, Streetsville, Meadowvale, Erin Mills, Clarkson, Cooksville, Lorne Park, Applewood, Churchill Meadows, and everywhere in between.",
+      },
+      {
+        q: "Is it cheaper to repair or replace a foggy window?",
+        a: "If the frame and sash are in good condition, repairing — replacing just the sealed glass unit — is significantly less expensive than full window replacement and restores full clarity and insulation.",
+      },
+    ],
+  },
+  {
+    slug: "etobicoke",
+    city: "Etobicoke",
+    region: "Toronto",
+    metaTitle:
+      "Window & Door Repair in Etobicoke | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Fast, affordable window and door repair across Etobicoke. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it — don't replace it.",
+    heroHeadline: "Window & Door Repair in Etobicoke",
+    heroSubtext:
+      "Professional glass and window repair across The Kingsway, Mimico, Long Branch, and all of Etobicoke. We fix it on-site — usually the same day you call.",
+    intro: [
+      "Etobicoke's established neighbourhoods — The Kingsway, Sunnylea, Alderwood, Thorncrest Village — are home to some of the GTA's most mature housing stock. Many of these homes still carry their original casement windows, crank operators, and decorative door glass from the 1950s through the 1980s. Along the lakeshore in Mimico, New Toronto, and Long Branch, a mix of older bungalows and newer condo developments brings its own set of window challenges.",
+      "LuminaSky Glass specializes in the kind of repair work Etobicoke homeowners need most: replacing sealed glass units that have fogged over, swapping out crank mechanisms that have seized or stripped, and installing new door glass inserts to replace dated or cracked originals. We repair the component that failed — not the whole window — saving you time, money, and the hassle of a full tearout.",
+    ],
+    neighborhoods: [
+      "The Kingsway",
+      "Mimico",
+      "New Toronto",
+      "Long Branch",
+      "Islington-City Centre",
+      "Humber Bay",
+      "Alderwood",
+      "Sunnylea",
+      "Princess Anne Manor",
+      "Markland Wood",
+      "Richview",
+      "Thorncrest Village",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Failed window seals let moisture in between panes, clouding your view. We replace the sealed unit without disturbing the frame — restoring clarity and insulation.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Broken or cracked window and door glass replaced on-site. We handle standard, tempered, and custom-sized glass for Etobicoke's diverse housing stock.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Etobicoke's older casement windows often have worn-out crank operators. We replace the mechanism with compatible hardware so the window opens and closes smoothly again.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Replace cracked or outdated decorative door glass with a clean, modern insert. We work with all standard entry door sizes and styles.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "Storm door glass replacement, new screen doors, and retractable screen installations for Etobicoke homes.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Leaking or fogged skylights repaired without opening the roof. We replace the glazing and re-seal the unit for all skylight brands.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Need window or door repair in Etobicoke? Text us a photo on WhatsApp for a fast quote — or call us any time, day or night.",
+    faqs: [
+      {
+        q: "How fast can you get to Etobicoke?",
+        a: "We're in the Etobicoke area regularly. Most appointments are same-day or next-day, and emergency calls get a 2-hour response.",
+      },
+      {
+        q: "My home has original 1960s windows — can you still repair them?",
+        a: "In many cases, yes. If the frames are sound, we can replace the glass and hardware. If the frames are too far gone, we'll tell you honestly and recommend replacement.",
+      },
+      {
+        q: "Do you cover all of Etobicoke?",
+        a: "Yes — The Kingsway, Mimico, New Toronto, Long Branch, Humber Bay, Alderwood, Sunnylea, Markland Wood, and every neighbourhood in between. We also serve downtown Toronto, Mississauga, and North York.",
+      },
+      {
+        q: "What's the advantage of repairing instead of replacing?",
+        a: "If your frame and sash are solid, replacing just the sealed glass unit or the crank mechanism costs a fraction of a full window replacement — and keeps the original look and trim of your home intact.",
+      },
+    ],
+  },
+  {
+    slug: "brampton",
+    city: "Brampton",
+    region: "Peel Region",
+    metaTitle:
+      "Window & Door Repair in Brampton | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Fast, affordable window and door repair across Brampton. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it — don't replace it.",
+    heroHeadline: "Window & Door Repair in Brampton",
+    heroSubtext:
+      "Serving Bramalea, Heart Lake, Mount Pleasant, Castlemore, and all of Brampton with fast, professional window and glass repair.",
+    intro: [
+      "Brampton is one of the GTA's fastest-growing cities, with a housing mix that ranges from established 1970s subdivisions in Bramalea and Heart Lake to newer developments in Castlemore, Fletcher's Meadow, and Vales of Castlemore. Whether your home is 10 years old or 40, windows and doors eventually need attention — foggy sealed units, broken crank mechanisms, and cracked door glass are problems we see across every Brampton neighbourhood.",
+      "LuminaSky Glass serves both homeowners and property managers across Brampton. We replace only the failed component — the insulated glass unit, the crank hardware, or the door insert — without tearing out the whole window or door frame. It's the practical, affordable approach, and we back every repair with a warranty.",
+    ],
+    neighborhoods: [
+      "Bramalea",
+      "Heart Lake",
+      "Mount Pleasant",
+      "Springdale",
+      "Fletcher's Meadow",
+      "Castlemore",
+      "Bram West",
+      "Downtown Brampton",
+      "Sandalwood",
+      "Vales of Castlemore",
+      "Snelgrove",
+      "Peel Village",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Cloudy windows with moisture between the panes? The factory seal has failed. We replace the insulated glass unit and leave the frame alone — clean and affordable.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Broken, cracked, or damaged glass in windows, patio doors, and sidelights. We source standard, tempered, and custom glass for residential and light commercial properties.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Casement and awning windows with worn-out or stripped cranks. We swap the operator mechanism so your window opens and seals correctly.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Replace cracked or outdated decorative glass in your entry door. We handle standard sizes and order custom lites for non-standard doors.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "New screen doors, storm door glass replacement, and retractable screen installations for Brampton homes and townhomes.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Foggy or leaking skylights repaired in place — glass replaced and unit re-sealed without opening the roof.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Window or door problem in Brampton? Snap a photo and send it to us on WhatsApp — we'll reply with a quote fast. Or just call.",
+    faqs: [
+      {
+        q: "Do you serve all of Brampton?",
+        a: "Yes — Bramalea, Heart Lake, Mount Pleasant, Springdale, Castlemore, Fletcher's Meadow, Downtown Brampton, and every corner of the city. We also cover nearby Mississauga, Caledon, and Vaughan.",
+      },
+      {
+        q: "Do you work with property managers and landlords?",
+        a: "Absolutely. We handle residential and light commercial window and door repairs across Brampton. We can provide quotes per unit for multi-property work and carry full insurance documentation.",
+      },
+      {
+        q: "My windows are builder-grade from the early 2000s — can you fix them?",
+        a: "Yes. Builder-grade windows from that era are prime candidates for sealed unit replacement. The frames are usually fine — it's the glass seal and crank hardware that fail first.",
+      },
+      {
+        q: "What areas near Brampton do you also cover?",
+        a: "We serve the full GTA — Mississauga, Caledon, Vaughan, Toronto, and beyond. All from one mobile team.",
+      },
+    ],
+  },
+  {
+    slug: "oakville",
+    city: "Oakville",
+    region: "Halton Region",
+    metaTitle:
+      "Window & Door Repair in Oakville | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Fast, affordable window and door repair across Oakville. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it — don't replace it.",
+    heroHeadline: "Window & Door Repair in Oakville",
+    heroSubtext:
+      "Quality glass and window repair for Oakville homeowners — from Old Oakville to Glen Abbey. Family-run, no pressure, honest recommendations.",
+    intro: [
+      "Oakville homeowners invest in their properties — and they expect tradespeople who take the same care. Whether you're in a lakeside home in Bronte, a family neighbourhood in Glen Abbey or River Oaks, or a newer build in Joshua Creek, your windows and doors are a big part of your home's comfort and curb appeal. When sealed units fog up, cranks stop turning, or door glass cracks, you want it fixed right — not oversold on a full replacement you don't need.",
+      "LuminaSky Glass is a family-run repair company that serves Oakville with a straightforward approach: we fix the part that's broken. If it's the sealed glass unit, we replace it. If it's the crank operator, we swap it. If it's the door insert, we install a new one. We'll always tell you honestly whether repair or replacement is the better call — and most of the time, repair is the answer.",
+    ],
+    neighborhoods: [
+      "Bronte",
+      "Kerr Village",
+      "Old Oakville",
+      "Glen Abbey",
+      "River Oaks",
+      "Iroquois Ridge",
+      "West Oak Trails",
+      "Joshua Creek",
+      "Palermo",
+      "Uptown Core",
+      "College Park",
+      "Falgarwood",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Condensation between your window panes signals a broken seal. We replace the insulated glass unit on-site, restoring your view and insulation without touching the frame.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Cracked, broken, or scratched glass in windows, sidelights, and patio doors. We source and install standard, tempered, and custom glass with care for your home's finish.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Casement and awning windows with seized or stripped cranks. We replace the operator mechanism with compatible hardware — no full window swap required.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Replace cracked or dated decorative glass in your front door with a clean, modern insert. We handle all standard entry door sizes and custom profiles.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "Storm door glass replacement, new screen doors, and retractable screen installations for Oakville homes.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Foggy or leaking skylights repaired in place. We replace the glass and re-seal the unit without opening up your roof.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Need window or door repair in Oakville? Text us a photo on WhatsApp for a fast quote — or call any time, day or night.",
+    faqs: [
+      {
+        q: "How soon can you get to Oakville?",
+        a: "We service Oakville regularly. Most appointments are same-day or next-day, and emergency calls get a 2-hour response.",
+      },
+      {
+        q: "Do you cover all of Oakville?",
+        a: "Yes — Bronte, Kerr Village, Old Oakville, Glen Abbey, River Oaks, Iroquois Ridge, West Oak Trails, Joshua Creek, Palermo, and every neighbourhood in between. We also serve Burlington, Mississauga, and Milton.",
+      },
+      {
+        q: "Will you tell me honestly if I need replacement instead of repair?",
+        a: "Always. We're a repair-first company, but if the frame is rotted, warped, or structurally compromised, we'll recommend replacement and explain why. No pressure, no upsell.",
+      },
+      {
+        q: "Can you match the glass type in my existing windows?",
+        a: "Yes — we source double-pane, triple-pane, Low-E, and argon-filled units to match your existing setup. Your replacement glass will perform the same or better than the original.",
+      },
+    ],
+  },
 ];
 
 export function getCityPageData(slug: string): CityPageData | undefined {

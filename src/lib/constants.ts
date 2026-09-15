@@ -15,6 +15,9 @@ export const SERVICE_AREAS = [
   "Markham",
   "Mississauga",
   "Richmond Hill",
+  "Etobicoke",
+  "Brampton",
+  "Oakville",
 ];
 
 export const SERVICES = [

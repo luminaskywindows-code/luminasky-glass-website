@@ -56,7 +56,7 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
       },
       {
         q: "What areas in the GTA do you service?",
-        a: "LuminaSky serves the entire Greater Toronto Area, including Toronto, Mississauga, Brampton, Vaughan, Markham, Richmond Hill, Oakville, Burlington, and surrounding municipalities. Get in touch to confirm availability for your specific location.",
+        a: "LuminaSky serves the entire Greater Toronto Area, including Toronto, Mississauga, Brampton, Vaughan, Markham, Richmond Hill, Oakville, Etobicoke, North York, Scarborough, Thornhill, Aurora, Newmarket, King City, Woodbridge, Maple, and surrounding municipalities. Get in touch to confirm availability for your specific location.",
       },
     ],
   },
