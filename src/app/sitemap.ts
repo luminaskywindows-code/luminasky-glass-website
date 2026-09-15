@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { SITE_URL, SERVICES } from "@/lib/constants";
 import { CITY_PAGES } from "@/lib/city-pages-data";
+import { FOGGY_GLASS_CITY_PAGES } from "@/lib/foggy-glass-city-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const servicePages = SERVICES.map((s) => ({
@@ -50,6 +51,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...CITY_PAGES.map((c) => ({
       url: `${SITE_URL}/window-repair-${c.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...FOGGY_GLASS_CITY_PAGES.map((c) => ({
+      url: `${SITE_URL}/foggy-glass-repair-${c.slug}`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,

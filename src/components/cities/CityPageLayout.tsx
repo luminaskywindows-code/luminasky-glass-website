@@ -93,7 +93,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           <div className="flex flex-wrap gap-4">
             <a
               href={PHONE_HREF}
-              className="inline-flex items-center gap-2 bg-white text-primary font-semibold px-6 py-3 rounded-lg shadow hover:bg-blue-50 transition-colors"
+              className="inline-flex items-center gap-2 bg-white text-primary font-semibold px-6 py-3 rounded-md shadow hover:bg-blue-50 transition-colors"
             >
               <Phone className="w-5 h-5" aria-hidden="true" />
               Call {PHONE}
@@ -102,7 +102,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
               href={WHATSAPP_HREF}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-green-600 transition-colors"
+              className="inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-6 py-3 rounded-md shadow hover:bg-green-600 transition-colors"
             >
               <MessageCircle className="w-5 h-5" aria-hidden="true" />
               Text Us a Photo
@@ -115,8 +115,15 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <div className="max-w-3xl">
           {city.intro.map((p, i) => (
-            <p key={i} className="text-gray-600 text-lg leading-relaxed mb-4 last:mb-0">{p}</p>
+            <p key={i} className="text-gray-600 text-lg leading-relaxed mb-4">{p}</p>
           ))}
+          <p className="text-primary text-base font-medium mt-6">
+            Looking for foggy glass repair specifically? See our dedicated{" "}
+            <Link href={`/foggy-glass-repair-${city.slug}`} className="underline hover:text-accent transition-colors">
+              Foggy Glass Repair in {city.city}
+            </Link>{" "}
+            page.
+          </p>
         </div>
       </section>
 
@@ -336,7 +343,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}
-              className="inline-flex items-center gap-2 bg-white text-primary font-semibold px-8 py-4 rounded-lg shadow-lg hover:bg-blue-50 transition-colors text-lg"
+              className="inline-flex items-center gap-2 bg-white text-primary font-semibold px-8 py-4 rounded-md shadow-lg hover:bg-blue-50 transition-colors text-lg"
             >
               <Phone className="w-5 h-5" aria-hidden="true" />
               Call {PHONE}
@@ -345,7 +352,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
               href={WHATSAPP_HREF}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:bg-green-600 transition-colors text-lg"
+              className="inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:bg-green-600 transition-colors text-lg"
             >
               <MessageCircle className="w-5 h-5" aria-hidden="true" />
               Text Us a Photo
