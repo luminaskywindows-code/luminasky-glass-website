@@ -43,6 +43,24 @@ export const PROJECTS: Project[] = [
     tags: ["Foggy Glass"],
   },
   {
+    id: "front-door-scarborough",
+    title: "Front Door Replacement in Scarborough",
+    category: "doors",
+    beforeImage: {
+      src: "/images/services/front-door-scarborough-before.jpg",
+      alt: "Dated cream double front doors with small decorative glass panels before replacement in Scarborough",
+    },
+    afterImage: {
+      src: "/images/services/front-door-scarborough-after.jpg",
+      alt: "New modern white front door with large decorative leaded glass insert after LuminaSky replacement in Scarborough",
+    },
+    description:
+      "Full front door replacement in Scarborough. Swapped outdated double doors for a modern single door with a custom decorative leaded glass insert. Refreshed the entire entrance and boosted curb appeal without touching the frame.",
+    location: "Scarborough",
+    serviceType: "Front Doors",
+    tags: ["Front Doors", "Glass Replacement"],
+  },
+  {
     id: "sunroom-caledon",
     title: "Full Sunroom Glass Replacement - Caledon",
     category: "windows",
