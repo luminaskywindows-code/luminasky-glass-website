@@ -1421,6 +1421,528 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
   },
+  {
+    slug: "burlington",
+    city: "Burlington",
+    region: "Halton Region",
+    metaTitle: "Window & Door Repair in Burlington | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Window and door repair in Burlington — foggy sealed units, broken cranks, glass replacement, door inserts across Roseland, Aldershot & Tyandaga. Available 24/7. Call 437-344-8490.",
+    heroHeadline: "Window & Door Repair in Burlington",
+    heroSubtext:
+      "Serving Roseland, Aldershot, Tyandaga, and all of Burlington with fast, professional glass and window repair. Fix it — don't replace it.",
+    intro: [
+      "Burlington offers a mix of housing that few GTA cities can match — heritage homes along the lakeshore in Roseland and LaSalle Park, established 1970s and 80s suburban streets in Tyandaga and Palmer, and newer family subdivisions in Alton Village and Orchard. Each generation of home brings its own window headaches. Older lakefront properties contend with original casement windows and decorative door glass past its prime. The mid-century suburbs are squarely in the fog zone — sealed glass units installed 30 to 40 years ago losing their seals in waves.",
+      "LuminaSky Glass serves Burlington homeowners with targeted repairs that skip the expense and disruption of full window replacement. We replace the sealed glass unit, swap a failing crank operator, or install a new door glass insert — on-site, usually in a single visit. Frames, trim, and siding stay untouched, and you save 60–80% compared to ripping everything out.",
+    ],
+    neighborhoods: [
+      "Aldershot",
+      "Downtown Burlington",
+      "Roseland",
+      "Tyandaga",
+      "Millcroft",
+      "Alton Village",
+      "Orchard",
+      "Headon Forest",
+      "Palmer",
+      "Dynes",
+      "Mountainside",
+      "LaSalle Park",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Condensation between your window panes means the seal has failed. We replace the insulated glass unit without disturbing the frame — restoring clarity and insulation.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Cracked, broken, or scratched glass in windows, patio doors, and sidelights. We source and install standard, tempered, and custom glass for Burlington homes.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Casement and awning window cranks that have seized or stripped. We swap the mechanism so your window opens and locks properly again.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Replace cracked or outdated decorative door glass with a clean, modern insert. We handle all standard entry door sizes and heritage door profiles.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "Storm door glass replacement, new screen doors, and retractable screen installations for Burlington properties.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Leaking or fogged skylights repaired without a full roof opening. We replace the glazing and re-seal the unit for all skylight brands.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Dealing with foggy glass or a broken window in Burlington? Send us a photo on WhatsApp and get a quote back fast — or call any time.",
+    faqs: [
+      {
+        q: "How fast can you get to Burlington?",
+        a: "We service Burlington and Halton Region regularly. Same-day and next-day appointments are common, and emergency calls get a 2-hour response.",
+      },
+      {
+        q: "Do you cover all of Burlington?",
+        a: "Yes — Aldershot, Downtown Burlington, Roseland, Tyandaga, Millcroft, Alton Village, and every neighbourhood in between. We also serve nearby Oakville, Hamilton, and Milton.",
+      },
+      {
+        q: "My lakefront home has large picture windows — can you repair them?",
+        a: "Absolutely. We handle oversized sealed glass units and picture windows regularly. We measure on-site and order custom-sized replacement panels.",
+      },
+      {
+        q: "Is it worth repairing older windows or should I replace them?",
+        a: "If the frames and sashes are solid, repairing — replacing just the sealed glass unit — is significantly cheaper and preserves the look of your home. We'll tell you honestly if replacement is the better call.",
+      },
+    ],
+  },
+  {
+    slug: "milton",
+    city: "Milton",
+    region: "Halton Region",
+    metaTitle: "Window & Door Repair in Milton | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Window and door repair in Milton — foggy sealed units, broken cranks, glass replacement across Beaty, Scott, Timberlea & Old Milton. Available 24/7. Call 437-344-8490.",
+    heroHeadline: "Window & Door Repair in Milton",
+    heroSubtext:
+      "Fast, affordable glass and window repair across Old Milton, Beaty, Scott, Timberlea, and all of Milton. Same-day service available.",
+    intro: [
+      "Milton has been one of Ontario's fastest-growing cities for over a decade, and its housing stock reflects that explosive expansion. Post-2000 subdivisions in Beaty, Coates, Scott, and Ford are filled with family homes whose builder-grade windows are now 15 to 20 years old — exactly the age when factory seals start failing, cranks strip, and door glass shows its wear. Closer to the Old Milton core, heritage homes along Main Street carry original wood-frame windows that need careful glass work and hardware repairs.",
+      "LuminaSky Glass brings repair-first service to Milton homeowners. Instead of quoting full window replacement, we diagnose the actual problem — a failed seal, a worn crank, a cracked door lite — and fix only that component. Your frames stay in place, the job is done in one visit, and you keep thousands in your pocket compared to a tearout.",
+    ],
+    neighborhoods: [
+      "Old Milton",
+      "Beaty",
+      "Coates",
+      "Scott",
+      "Ford",
+      "Willmott",
+      "Bowes",
+      "Harrison",
+      "Dempsey",
+      "Timberlea",
+      "Bronte Meadows",
+      "Clarke",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Moisture between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site — your frame stays untouched.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Cracked, broken, or damaged glass in windows, patio doors, and sidelights. We source standard, tempered, and custom glass for Milton homes.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware — no full window swap needed.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Dated or damaged decorative door glass replaced with a modern insert. We carry common sizes and order custom lites for non-standard doors.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "Storm door glass swaps, new screen doors, and retractable screen installations for Milton homes and townhomes.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Foggy or leaking skylights fixed without a full roof tear-out. We replace the glass and re-seal the unit on all major skylight brands.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Window or door problem in Milton? Snap a photo and send it to us on WhatsApp — we'll reply with a quote fast. Or just call.",
+    faqs: [
+      {
+        q: "How quickly can you get to Milton?",
+        a: "We service Milton and Halton Region regularly. Same-day and next-day appointments are typical, and emergency calls get a 2-hour response.",
+      },
+      {
+        q: "My home is from a newer Milton subdivision — can builder-grade windows be repaired?",
+        a: "Absolutely. Builder-grade windows from the 2000s and 2010s are prime candidates for sealed unit replacement. The vinyl frames are usually fine — it is the factory glass seal that fails first.",
+      },
+      {
+        q: "Do you cover all of Milton?",
+        a: "Yes — Old Milton, Beaty, Coates, Scott, Ford, Timberlea, Bronte Meadows, and every neighbourhood in between. We also serve nearby Oakville, Burlington, and Georgetown.",
+      },
+      {
+        q: "What does foggy window repair cost in Milton?",
+        a: "Most sealed unit replacements range from $150–$350 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
+      },
+    ],
+  },
+  {
+    slug: "ajax",
+    city: "Ajax",
+    region: "Durham Region",
+    metaTitle: "Window & Door Repair in Ajax | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Window and door repair in Ajax — foggy sealed units, broken cranks, glass replacement across Duffin Heights, Applecroft & Downtown Ajax. Available 24/7. Call 437-344-8490.",
+    heroHeadline: "Window & Door Repair in Ajax",
+    heroSubtext:
+      "Serving Applecroft, Duffin Heights, Central Ajax, and all of Ajax with fast, reliable glass and window repair. Fix it — don't replace it.",
+    intro: [
+      "Ajax sits on the eastern edge of the GTA, and its housing tells the story of two decades of steady suburban growth. The 1990s and 2000s brought waves of single-family homes and townhome complexes across Applecroft, Central Ajax, and Northeast Ajax — working-family neighbourhoods now hitting the 20- to 30-year mark where factory-sealed windows start to fog and crank operators wear thin. Newer builds in Duffin Heights push that timeline out, but even recent subdivisions aren't immune to early seal failures in builder-grade windows.",
+      "LuminaSky Glass serves Ajax homeowners who want their windows fixed, not oversold on a full replacement. We replace only the failed component — the insulated glass unit, the crank mechanism, or the door insert — on-site in a single visit. Your frames and trim stay put, and the repair costs a fraction of tearing the whole window out.",
+    ],
+    neighborhoods: [
+      "Downtown Ajax",
+      "Applecroft",
+      "Central Ajax",
+      "Northeast Ajax",
+      "Southeast Ajax",
+      "Duffin Heights",
+      "Riverside",
+      "Central West Ajax",
+      "Nottingham",
+      "Pickering Village",
+      "Audley",
+      "Salem",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Cloudy windows with moisture between the panes? The factory seal has failed. We replace the insulated glass unit and leave the frame alone — clean and affordable.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Broken, cracked, or damaged glass in windows, patio doors, and sidelights. We source standard, tempered, and custom glass for Ajax homes and townhomes.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Casement and awning windows with worn-out or stripped cranks. We swap the operator mechanism so your window opens and seals correctly.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Replace cracked or outdated decorative glass in your entry door. We handle standard sizes and order custom lites for non-standard doors.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "New screen doors, storm door glass replacement, and retractable screen installations for Ajax homes.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Foggy or leaking skylights repaired in place — glass replaced and unit re-sealed without opening the roof.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Need a window or door fixed in Ajax? Text us a photo on WhatsApp for a fast quote — or call us any time, day or night.",
+    faqs: [
+      {
+        q: "How fast can you get to Ajax?",
+        a: "We service Ajax and Durham Region regularly. Same-day and next-day appointments are typical, and emergency calls get a 2-hour response.",
+      },
+      {
+        q: "Do you serve all of Ajax?",
+        a: "Yes — Downtown Ajax, Applecroft, Duffin Heights, Central Ajax, Nottingham, Salem, and every neighbourhood in between. We also serve nearby Pickering, Whitby, and Scarborough.",
+      },
+      {
+        q: "Do you work on townhome complexes?",
+        a: "Absolutely. Townhome window repairs are a large part of our Ajax work. We handle individual units and can coordinate with property management for multi-unit projects.",
+      },
+      {
+        q: "Is repairing a foggy window worth it in Ajax?",
+        a: "If the frame and sash are in good condition, replacing just the sealed glass unit is significantly less expensive than full window replacement and restores full clarity and insulation.",
+      },
+    ],
+  },
+  {
+    slug: "pickering",
+    city: "Pickering",
+    region: "Durham Region",
+    metaTitle: "Window & Door Repair in Pickering | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Window and door repair in Pickering — foggy sealed units, broken cranks, glass replacement across Bay Ridges, Amberlea & Duffin Heights. Available 24/7. Call 437-344-8490.",
+    heroHeadline: "Window & Door Repair in Pickering",
+    heroSubtext:
+      "Professional glass and window repair for Bay Ridges, Amberlea, Brock Ridge, and all of Pickering. Same-day service available.",
+    intro: [
+      "Pickering stretches from Lake Ontario's waterfront at Bay Ridges north through established 1980s and 90s subdivisions in Amberlea, Liverpool, and Brock Ridge, all the way to rural properties in Whitevale. Waterfront homes contend with harsh lake-effect weather that accelerates seal failure in double-pane windows. Inland, the mature suburban housing stock is hitting the 30- to 40-year mark where foggy glass, seized cranks, and cracked door inserts become constant headaches.",
+      "LuminaSky Glass serves Pickering homeowners with a repair-first approach that saves time and money. We replace the sealed glass unit, swap a worn crank operator, or install new door glass — on-site, without removing your frames or disrupting your home. Most jobs are completed in a single visit, and you save 60–80% compared to full window replacement.",
+    ],
+    neighborhoods: [
+      "Amberlea",
+      "Bay Ridges",
+      "Brock Ridge",
+      "Highbush",
+      "Liverpool",
+      "Rosebank",
+      "Rougemount",
+      "Whitevale",
+      "West Shore",
+      "Duffin Heights",
+      "Woodlands",
+      "Village East",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Failed window seals let moisture in between panes, clouding your view. We replace the sealed unit without disturbing the frame — restoring clarity and insulation.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Broken or cracked window and door glass replaced on-site. We handle standard, tempered, and custom-sized glass for Pickering homes.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Casement and awning windows with seized or stripped cranks. We replace the operator mechanism with compatible hardware — no full window swap required.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Replace cracked or dated decorative glass in your front door with a clean, modern insert. We handle all standard entry door sizes.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "Storm door glass replacement, new screen doors, and retractable screen installations for Pickering properties.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Leaking or fogged skylights repaired without opening the roof. We replace the glazing and re-seal the unit for all skylight brands.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Need window or door repair in Pickering? Text us a photo on WhatsApp for a fast quote — or call us any time, day or night.",
+    faqs: [
+      {
+        q: "How soon can you get to Pickering?",
+        a: "We service Pickering and Durham Region regularly. Same-day and next-day appointments are available, and emergency calls get a 2-hour response.",
+      },
+      {
+        q: "Do you handle waterfront properties in Bay Ridges?",
+        a: "Yes. Waterfront homes with larger windows and exposure to lake-effect weather are a regular part of our work. We source durable replacement glass suited to the conditions.",
+      },
+      {
+        q: "Do you cover all of Pickering?",
+        a: "Yes — Amberlea, Bay Ridges, Brock Ridge, Liverpool, Highbush, Duffin Heights, and every neighbourhood in between. We also serve Ajax, Scarborough, and Markham.",
+      },
+      {
+        q: "Can you match the glass in my existing windows?",
+        a: "Yes — we source double-pane, triple-pane, Low-E, and argon-filled units to match your existing setup. Your replacement glass will perform the same or better than the original.",
+      },
+    ],
+  },
+  {
+    slug: "caledon",
+    city: "Caledon",
+    region: "Peel Region",
+    metaTitle: "Window & Door Repair in Caledon | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Window and door repair in Caledon — foggy sealed units, broken cranks, glass replacement across Bolton, Caledon East & Palgrave. Available 24/7. Call 437-344-8490.",
+    heroHeadline: "Window & Door Repair in Caledon",
+    heroSubtext:
+      "Serving Bolton, Caledon East, Palgrave, and all of Caledon with professional glass and window repair. Estate homes, country properties, and everything in between.",
+    intro: [
+      "Caledon is Peel Region's rural heart — a municipality of rolling hills, horse farms, and small-town villages spread across a vast area. Bolton serves as the commercial hub, with a mix of historic main-street buildings and newer residential developments. Caledon East, Palgrave, and Inglewood feature century homes alongside modern custom builds. Throughout the area, oversized picture windows on country properties, heritage glass in village homes, and builder-grade sealed units in Mayfield West subdivisions all eventually need repair.",
+      "LuminaSky Glass travels throughout Caledon to bring repair-first service to rural and village homeowners. We replace the sealed glass unit, swap a failing crank operator, or install new door glass — without tearing out your window frames. For estate homes with oversized or custom windows, we measure on-site and order panels sized to fit. One visit, one repair, and your windows are clear again.",
+    ],
+    neighborhoods: [
+      "Bolton",
+      "Caledon East",
+      "Palgrave",
+      "Alton",
+      "Cheltenham",
+      "Inglewood",
+      "Belfountain",
+      "Terra Cotta",
+      "Mono Mills",
+      "Caledon Village",
+      "Mayfield West",
+      "Southfields Village",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Condensation between your window panes signals a broken seal. We replace the insulated glass unit on-site, restoring your view and insulation without touching the frame.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Cracked, broken, or scratched glass in windows, sidelights, and patio doors. We handle standard and oversized panels for Caledon's larger custom homes.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Hard-to-reach casement and awning windows with failed cranks. We replace the operator mechanism so every window in your home opens properly.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Cracked or dated decorative glass in your front door replaced with a modern insert. We handle standard, oversized, and custom-shaped door glass.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "Storm door glass replacement, new screen doors, and retractable screen installations for Caledon properties.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Leaking or foggy skylights repaired in place — glass replaced and unit re-sealed without opening the roof. All skylight brands covered.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Need window or door repair in Caledon? Text us a photo on WhatsApp for a fast quote — or call us any time.",
+    faqs: [
+      {
+        q: "Do you travel to all of Caledon?",
+        a: "Yes — Bolton, Caledon East, Palgrave, Alton, Cheltenham, Inglewood, Belfountain, Terra Cotta, and the surrounding rural areas are all within our service zone.",
+      },
+      {
+        q: "Can you handle oversized picture windows on rural properties?",
+        a: "Absolutely. Country homes and estates with large picture windows or feature glass are a regular part of our work. We measure on-site and order custom-sized sealed units.",
+      },
+      {
+        q: "How soon can you get to Caledon?",
+        a: "We service Caledon regularly. Same-day and next-day appointments are available, and emergency calls get a 2-hour response.",
+      },
+      {
+        q: "What areas near Caledon do you also cover?",
+        a: "We serve the full surrounding area — Brampton, Orangeville, Bolton, Georgetown, and Vaughan are all in our regular service zone.",
+      },
+    ],
+  },
+  {
+    slug: "whitby",
+    city: "Whitby",
+    region: "Durham Region",
+    metaTitle: "Window & Door Repair in Whitby | Foggy Glass, Cranks & Seals | LuminaSky",
+    metaDescription:
+      "Window and door repair in Whitby — foggy sealed units, broken cranks, glass replacement across Brooklin, Pringle Creek & Port Whitby. Available 24/7. Call 437-344-8490.",
+    heroHeadline: "Window & Door Repair in Whitby",
+    heroSubtext:
+      "Reliable glass and window repair across Brooklin, Downtown Whitby, Port Whitby, and all of Whitby. We fix it on-site — usually the same day you call.",
+    intro: [
+      "Whitby bridges Durham Region's suburban communities with small-town Ontario charm. Brooklin to the north retains its heritage village character with century homes along Baldwin Street and newer family subdivisions surrounding it. Downtown Whitby and Port Whitby along the lakefront feature a mix of mature 1970s and 80s housing. Further north, Taunton North is filled with newer family builds from the 2010s. Across all of these areas, windows and doors eventually need attention — foggy sealed units, stripped cranks, and cracked door glass are problems we solve every week.",
+      "LuminaSky Glass helps Whitby homeowners get these issues fixed affordably. We replace only the component that's failed — the sealed glass unit, the crank operator, or the door insert — leaving your frames and trim untouched. Heritage Brooklin homes get glass-only repairs that preserve their character. Newer Taunton builds get quick seal replacements that skip the cost of a full window swap.",
+    ],
+    neighborhoods: [
+      "Downtown Whitby",
+      "Brooklin",
+      "Pringle Creek",
+      "Blue Grass Meadows",
+      "Rolling Acres",
+      "Williamsburg",
+      "Lynde Creek",
+      "Port Whitby",
+      "Taunton North",
+      "West Lynde",
+      "Otter Creek",
+      "Rossland",
+    ],
+    services: [
+      {
+        name: "Foggy Glass / Sealed Unit Replacement",
+        description:
+          "Moisture trapped between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site — your frame stays untouched.",
+        href: "/foggy-windows",
+      },
+      {
+        name: "Glass Replacement",
+        description:
+          "Cracked, shattered, or scratched glass in windows, patio doors, and sidelights. We measure, source, and install replacement glass for Whitby homes.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Window Crank & Operator Repair",
+        description:
+          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware — no need to swap the whole window.",
+        href: "/cranks",
+      },
+      {
+        name: "Front Door Glass Inserts",
+        description:
+          "Dated or damaged decorative door glass replaced with a modern insert. We carry common sizes and order custom lites for non-standard doors.",
+        href: "/front-door-glass",
+      },
+      {
+        name: "Screen & Storm Doors",
+        description:
+          "Storm door glass swaps, new screen doors, and retractable screen installations for Whitby homes and townhomes.",
+        href: "/screen-storm-doors",
+      },
+      {
+        name: "Skylight Repair",
+        description:
+          "Foggy or leaking skylights fixed without a full roof tear-out. We replace the glass and re-seal the unit on all major skylight brands.",
+        href: "/skylights",
+      },
+    ],
+    closingCTA:
+      "Dealing with foggy windows or broken door glass in Whitby? Send us a photo on WhatsApp for a fast quote — or call any time.",
+    faqs: [
+      {
+        q: "How fast can you get to Whitby?",
+        a: "We service Whitby and Durham Region regularly. Most appointments are scheduled for the same day or next day, and emergency calls get a response within 2 hours.",
+      },
+      {
+        q: "Do you serve both Brooklin and downtown Whitby?",
+        a: "Yes — Brooklin, Downtown Whitby, Port Whitby, Taunton North, and every neighbourhood in between. We also serve nearby Ajax, Oshawa, and Pickering.",
+      },
+      {
+        q: "Can you work on older heritage windows in Brooklin?",
+        a: "Absolutely. Heritage homes with original wood-frame windows are ideal candidates for glass-only repair. We replace the sealed unit while preserving the frame and the character of the home.",
+      },
+      {
+        q: "What does foggy window repair cost in Whitby?",
+        a: "Most sealed unit replacements range from $150–$350 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
+      },
+    ],
+  },
 ];
 
 export function getCityPageData(slug: string): CityPageData | undefined {

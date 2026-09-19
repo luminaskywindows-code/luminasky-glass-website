@@ -257,6 +257,96 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
       a: "Yes. Newmarket, East Gwillimbury, and the surrounding area are within our regular service zone. We also cover Aurora, King City, and the rest of northern York Region.",
     },
   },
+  {
+    slug: "burlington",
+    city: "Burlington",
+    region: "Halton Region",
+    metaTitle: "Foggy Glass Repair in Burlington | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Burlington — Roseland, Aldershot, Tyandaga, Alton Village. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Burlington's housing blends established lakefront heritage in Roseland and LaSalle Park with mid-century suburban streets in Tyandaga and Palmer and newer family subdivisions in Alton Village and Orchard. Older homes along the lake carry original sealed glass that has been fighting moisture for decades. The 1970s and 80s suburbs are hitting peak fog season — sealed units installed 30 to 40 years ago failing in clusters. LuminaSky replaces the clouded glass unit on-site, leaving Burlington homeowners' frames and trim untouched at a fraction of full window replacement cost.",
+    neighborhoods: getNeighborhoods("burlington"),
+    citySpecificFaq: {
+      q: "Do you service Burlington lakefront condos and heritage homes for foggy glass repair?",
+      a: "Yes. We handle lakefront heritage homes with original sealed glass and modern condo units alike. Whether the frame is original wood or newer vinyl, we replace the sealed glass unit to restore clarity.",
+    },
+  },
+  {
+    slug: "milton",
+    city: "Milton",
+    region: "Halton Region",
+    metaTitle: "Foggy Glass Repair in Milton | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Milton — Beaty, Coates, Scott, Old Milton. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Milton is one of Ontario's fastest-growing cities, and most of its housing is barely two decades old. Post-2000 subdivisions in Beaty, Coates, Scott, and Ford are packed with builder-grade windows now entering the 15- to 20-year fog zone — the age bracket where factory-installed seals begin to break down. Closer to the Old Milton core, heritage homes along Main Street carry older sealed units and wood frames that have long outlasted their original glass. LuminaSky replaces the failed sealed glass unit on-site in both cases — preserving frames, skipping the cost of full replacement, and getting Milton homeowners back to clear windows fast.",
+    neighborhoods: getNeighborhoods("milton"),
+    citySpecificFaq: {
+      q: "Do you handle foggy glass in newer Milton subdivisions with warranty concerns?",
+      a: "Yes. Builder-grade windows often fog up before homeowners expect. We replace the sealed glass unit regardless of whether the original manufacturer warranty has expired — our repair comes with its own warranty.",
+    },
+  },
+  {
+    slug: "ajax",
+    city: "Ajax",
+    region: "Durham Region",
+    metaTitle: "Foggy Glass Repair in Ajax | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Ajax — Applecroft, Duffin Heights, Central Ajax. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Ajax's housing is overwhelmingly suburban — 1990s and 2000s single-family homes and townhome complexes spread across Applecroft, Central Ajax, and Northeast Ajax that form the backbone of this working-family community. These homes are now 20 to 30 years old, which puts their factory-sealed windows squarely in the failure zone. Condensation between the panes, hazy views, and reduced insulation are becoming common complaints across Ajax neighbourhoods. LuminaSky swaps out the failed IGU on-site without removing the frame — a practical, affordable fix that skips the cost of ripping out and replacing the entire window.",
+    neighborhoods: getNeighborhoods("ajax"),
+    citySpecificFaq: {
+      q: "Do you service Ajax family homes and townhome complexes for foggy glass?",
+      a: "Yes. Townhome and single-family window repairs are a large part of our Ajax work. We handle individual homes and can coordinate with property management for multi-unit townhome projects.",
+    },
+  },
+  {
+    slug: "pickering",
+    city: "Pickering",
+    region: "Durham Region",
+    metaTitle: "Foggy Glass Repair in Pickering | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Pickering — Bay Ridges, Amberlea, Brock Ridge. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Pickering spans from the Lake Ontario waterfront at Bay Ridges and West Shore north through established 1980s and 90s subdivisions in Amberlea, Liverpool, and Brock Ridge to newer builds in Duffin Heights and rural estates in Whitevale. Waterfront properties face accelerated seal failure from lake-effect humidity and temperature swings. Inland, the mature suburban stock is hitting 30 to 40 years — the age where sealed glass units fog in waves. LuminaSky replaces the failed IGU on-site, keeping Pickering homeowners' frames intact and saving 60–80% versus full window replacement.",
+    neighborhoods: getNeighborhoods("pickering"),
+    citySpecificFaq: {
+      q: "Do you handle waterfront Pickering properties with oversized windows?",
+      a: "Yes. Bay Ridges and West Shore waterfront homes with larger windows and exposure to lake conditions are a regular part of our work. We order custom-sized sealed units built for durability.",
+    },
+  },
+  {
+    slug: "caledon",
+    city: "Caledon",
+    region: "Peel Region",
+    metaTitle: "Foggy Glass Repair in Caledon | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Caledon — Bolton, Caledon East, Palgrave, Mayfield West. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Caledon's rural landscape is dotted with estate properties, horse farms, and village homes whose oversized picture windows frame views of the Niagara Escarpment and rolling countryside. When those panoramic sealed glass units fog up, homeowners face steep replacement quotes driven by the sheer size of the glass. In Bolton and Mayfield West, newer subdivisions carry builder-grade windows hitting the 15-year fog mark. LuminaSky replaces only the sealed unit — even on extra-large picture windows and feature glass — keeping Caledon homeowners' custom frames and trim intact at a fraction of full replacement cost.",
+    neighborhoods: getNeighborhoods("caledon"),
+    citySpecificFaq: {
+      q: "Do you service rural Caledon estates with oversized picture windows?",
+      a: "Yes. Estate properties and country homes with large picture windows or feature glass are a regular part of our Caledon work. We measure on-site and order custom-sized sealed units to fit.",
+    },
+  },
+  {
+    slug: "whitby",
+    city: "Whitby",
+    region: "Durham Region",
+    metaTitle: "Foggy Glass Repair in Whitby | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Whitby — Brooklin, Pringle Creek, Port Whitby, Rolling Acres. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Whitby straddles two worlds — heritage village character in Brooklin with century homes along Baldwin Street, and Durham Region's suburban growth in Rolling Acres, Pringle Creek, and Taunton North. Brooklin's older wood-frame windows carry original sealed glass now decades past its lifespan. The 1980s and 90s subdivisions around Pringle Creek and Rolling Acres are in the peak fog zone, with factory seals breaking down on schedule. Even the newer Taunton North builds are not immune. LuminaSky replaces the sealed glass unit on-site — preserving Brooklin's heritage frames and saving Whitby's suburban homeowners the cost of unnecessary full window replacement.",
+    neighborhoods: getNeighborhoods("whitby"),
+    citySpecificFaq: {
+      q: "Do you handle heritage Brooklin homes and modern Whitby subdivisions?",
+      a: "Yes. Heritage homes with original wood-frame windows get glass-only repairs that preserve their character. Newer subdivision homes get quick sealed unit swaps that skip the cost of full replacement. We handle both regularly.",
+    },
+  },
 ];
 
 export function getFoggyGlassCityPageData(
