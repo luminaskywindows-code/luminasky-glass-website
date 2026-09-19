@@ -58,7 +58,7 @@ export const PROJECTS: Project[] = [
       "Full front door replacement in Scarborough. Swapped outdated double doors for a modern single door with a custom decorative leaded glass insert. Refreshed the entire entrance and boosted curb appeal without touching the frame.",
     location: "Scarborough",
     serviceType: "Front Doors",
-    tags: ["Front Doors", "Glass Replacement"],
+    tags: ["Glass Replacement"],
   },
   {
     id: "sunroom-caledon",
@@ -89,7 +89,7 @@ export const PROJECTS: Project[] = [
       "Full glass panel replacement — Ajax residence. Fresh install with a clean, precise finish.",
     location: "Ajax",
     serviceType: "Glass Replacement",
-    tags: ["Glass Replacement"],
+    tags: [],
   },
   {
     id: "front-door-glass-1",
