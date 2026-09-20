@@ -11,7 +11,7 @@ import { generateOrganizationSchema } from "@/lib/schema";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://luminasky.com"),
+  metadataBase: new URL("https://www.luminasky.com"),
   title: {
     default:
       "LuminaSky Glass | Glass & Door Repair – Greater Toronto Area",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_CA",
-    url: "https://luminasky.com",
+    url: "https://www.luminasky.com",
     siteName: "LuminaSky Glass",
     images: [
       {
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
-  alternates: { canonical: "https://luminasky.com" },
+  alternates: { canonical: "https://www.luminasky.com" },
 };
 
 export default function RootLayout({

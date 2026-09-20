@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://luminasky.com/sitemap.xml",
+    sitemap: "https://www.luminasky.com/sitemap.xml",
   };
 }
