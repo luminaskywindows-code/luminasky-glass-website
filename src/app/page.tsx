@@ -7,6 +7,7 @@ import { FAQSection } from "@/components/home/FAQSection";
 import { ServiceAreaMap } from "@/components/shared/ServiceAreaMap";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { WinterBanner } from "@/components/home/WinterBanner";
+import { HomepagePopup } from "@/components/home/HomepagePopup";
 import { SocialLinks } from "@/components/shared/SocialLinks";
 import { Star } from "lucide-react";
 
@@ -21,6 +22,7 @@ export default function HomePage() {
   return (
     <>
       <WinterBanner />
+      <HomepagePopup />
       <HeroSection />
       <ServicesGrid />
       <TrustSection />
