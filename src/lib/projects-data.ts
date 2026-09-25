@@ -61,6 +61,24 @@ export const PROJECTS: Project[] = [
     tags: ["Glass Replacement"],
   },
   {
+    id: "frosted-glass-orangeville",
+    title: "Frosted Glass Replacement in Orangeville",
+    category: "windows",
+    beforeImage: {
+      src: "/images/services/frosted-glass-orangeville-before.jpg",
+      alt: "Damaged frosted glass sliding window with visible mark on bottom pane before replacement in Orangeville",
+    },
+    afterImage: {
+      src: "/images/services/frosted-glass-orangeville-after.jpg",
+      alt: "New clean frosted glass sliding window after LuminaSky replacement in Orangeville",
+    },
+    description:
+      "Damaged frosted glass sliding window in Orangeville. Replaced only the failed glass pane while keeping the existing frame and hardware — a fraction of the cost of full window replacement.",
+    location: "Orangeville",
+    serviceType: "Glass Replacement",
+    tags: [],
+  },
+  {
     id: "sunroom-caledon",
     title: "Full Sunroom Glass Replacement - Caledon",
     category: "windows",
