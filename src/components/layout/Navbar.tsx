@@ -6,11 +6,11 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone, Mail, ChevronDown, Zap, Shield, Star, ChevronUp } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, SERVICES, COMPANY_NAME } from "@/lib/constants";
+import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, SERVICES, COMPANY_NAME, WINTER_READY_ENABLED } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { SocialLinks } from "@/components/shared/SocialLinks";
 
-const NAV_LINKS = [
+const BASE_NAV_LINKS = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/gallery", label: "Our Services" },
@@ -19,12 +19,22 @@ const NAV_LINKS = [
   { href: "/contact", label: "Contact" },
 ];
 
+const WINTER_LINK = { href: "/winter-ready", label: "Winter Ready" };
+
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [sheetOpen, setSheetOpen] = useState(false);
   const pathname = usePathname();
+
+  const NAV_LINKS = WINTER_READY_ENABLED
+    ? [
+        ...BASE_NAV_LINKS.slice(0, 3),
+        WINTER_LINK,
+        ...BASE_NAV_LINKS.slice(3),
+      ]
+    : BASE_NAV_LINKS;
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
@@ -125,9 +135,11 @@ export function Navbar() {
                 href={link.href}
                 className={cn(
                   "px-4 py-2 rounded-lg text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
-                  pathname === link.href
-                    ? "text-primary bg-primary-50 font-semibold"
-                    : "text-gray-600 hover:text-primary hover:bg-gray-50"
+                  link.href === "/winter-ready"
+                    ? "text-accent font-semibold bg-accent/10 hover:bg-accent/20"
+                    : pathname === link.href
+                      ? "text-primary bg-primary-50 font-semibold"
+                      : "text-gray-600 hover:text-primary hover:bg-gray-50"
                 )}
               >
                 {link.label}
@@ -195,7 +207,7 @@ export function Navbar() {
             </a>
             <Link
               href="/contact"
-              className="bg-accent hover:bg-accent-dark text-white text-sm font-semibold px-5 py-2.5 rounded-lg shadow-sm hover:shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95"
+              className="bg-accent hover:bg-accent-dark text-white text-sm font-semibold px-5 py-2.5 rounded-md shadow-sm hover:shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95"
             >
               Get Quote
             </Link>
@@ -241,9 +253,11 @@ export function Navbar() {
                     onClick={() => setSheetOpen(false)}
                     className={cn(
                       "block px-4 py-3 rounded-lg text-sm font-medium transition-colors",
-                      pathname === link.href
-                        ? "text-primary bg-primary-50 font-semibold"
-                        : "text-gray-700 hover:text-primary hover:bg-gray-50"
+                      link.href === "/winter-ready"
+                        ? "text-accent font-semibold bg-accent/10"
+                        : pathname === link.href
+                          ? "text-primary bg-primary-50 font-semibold"
+                          : "text-gray-700 hover:text-primary hover:bg-gray-50"
                     )}
                   >
                     {link.label}
@@ -295,7 +309,7 @@ export function Navbar() {
                 <div className="pt-4 border-t border-gray-100 flex flex-col gap-3">
                   <a
                     href={PHONE_HREF}
-                    className="flex items-center justify-center gap-2 bg-primary text-white font-semibold px-4 py-3 rounded-lg hover:bg-primary-700 transition-colors"
+                    className="flex items-center justify-center gap-2 bg-primary text-white font-semibold px-4 py-3 rounded-md hover:bg-primary-700 transition-colors"
                   >
                     <Phone className="w-4 h-4" aria-hidden="true" />
                     Call {PHONE}
@@ -303,7 +317,7 @@ export function Navbar() {
                   <Link
                     href="/contact"
                     onClick={() => setSheetOpen(false)}
-                    className="flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-4 py-3 rounded-lg transition-colors"
+                    className="flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-4 py-3 rounded-md transition-colors"
                   >
                     Get Quote
                   </Link>

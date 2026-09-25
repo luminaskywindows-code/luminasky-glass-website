@@ -1,9 +1,9 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { XCircle, CheckCircle2, Phone, Mail } from "lucide-react";
+import { XCircle, CheckCircle2, Phone, Mail, Snowflake } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
-import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF } from "@/lib/constants";
+import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, WINTER_READY_ENABLED } from "@/lib/constants";
 import {
   Accordion,
   AccordionContent,
@@ -223,13 +223,13 @@ export default function WindowCranksPage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+                  className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-md shadow-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
                 >
                   Book a Repair
                 </Link>
                 <a
                   href={PHONE_HREF}
-                  className="inline-flex items-center justify-center gap-2 border-2 border-white/60 text-white hover:bg-white hover:text-primary font-bold px-8 py-4 rounded-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white active:scale-95"
+                  className="inline-flex items-center justify-center gap-2 border-2 border-white/60 text-white hover:bg-white hover:text-primary font-bold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white active:scale-95"
                 >
                   <Phone className="w-5 h-5" aria-hidden="true" />
                   {PHONE}
@@ -616,13 +616,13 @@ export default function WindowCranksPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-xl shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95"
+                className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-md shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95"
               >
                 Contact Us
               </Link>
               <a
                 href={PHONE_HREF}
-                className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-8 py-4 rounded-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary active:scale-95"
+                className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary active:scale-95"
               >
                 <Phone className="w-5 h-5" aria-hidden="true" />
                 Call {PHONE}
@@ -638,6 +638,20 @@ export default function WindowCranksPage() {
           </div>
         </div>
       </section>
+
+      {WINTER_READY_ENABLED && (
+        <section className="bg-accent/5 border-t border-accent/10 py-6 px-4 md:px-8">
+          <div className="max-w-7xl mx-auto flex items-center justify-center gap-3 text-center">
+            <Snowflake className="w-5 h-5 text-accent shrink-0" aria-hidden="true" />
+            <p className="text-gray-700">
+              Getting ready for winter?{" "}
+              <Link href="/winter-ready?utm_source=cranks&utm_medium=cross-link" className="text-accent font-semibold hover:underline">
+                Book a $30 Winter Ready Inspection.
+              </Link>
+            </p>
+          </div>
+        </section>
+      )}
 
       <CTABanner
         title="Ready to Fix Your Window Cranks?"

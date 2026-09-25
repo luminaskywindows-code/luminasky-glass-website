@@ -7,6 +7,8 @@ export const EMAIL_HREF = "mailto:service@luminasky.com";
 export const SITE_URL = "https://www.luminasky.com";
 export const COMPANY_NAME = "LuminaSky Glass";
 
+export const WINTER_READY_ENABLED = true;
+
 export const SERVICE_AREAS = [
   "Toronto",
   "North York",

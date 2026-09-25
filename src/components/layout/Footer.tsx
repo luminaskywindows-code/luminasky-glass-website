@@ -8,10 +8,11 @@ import {
   EMAIL_HREF,
   SERVICES,
   COMPANY_NAME,
+  WINTER_READY_ENABLED,
 } from "@/lib/constants";
 import { SocialLinks } from "@/components/shared/SocialLinks";
 
-const QUICK_LINKS = [
+const BASE_QUICK_LINKS = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
   { href: "/services", label: "All Services" },
@@ -19,6 +20,10 @@ const QUICK_LINKS = [
   { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "Contact" },
 ];
+
+const QUICK_LINKS = WINTER_READY_ENABLED
+  ? [...BASE_QUICK_LINKS, { href: "/winter-ready", label: "Winter Ready" }]
+  : BASE_QUICK_LINKS;
 
 export function Footer() {
   return (

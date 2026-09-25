@@ -6,6 +6,7 @@ import { TestimonialsSection } from "@/components/home/TestimonialsSection";
 import { FAQSection } from "@/components/home/FAQSection";
 import { ServiceAreaMap } from "@/components/shared/ServiceAreaMap";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { WinterBanner } from "@/components/home/WinterBanner";
 import { SocialLinks } from "@/components/shared/SocialLinks";
 import { Star } from "lucide-react";
 
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+      <WinterBanner />
       <HeroSection />
       <ServicesGrid />
       <TrustSection />
