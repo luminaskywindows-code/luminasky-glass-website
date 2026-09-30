@@ -4,14 +4,23 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import emailjs from "@emailjs/browser";
 import { CheckCircle2, X } from "lucide-react";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
-import { PHONE, PHONE_HREF } from "@/lib/constants";
+import { PHONE, PHONE_HREF, WINTER_READY_ENABLED } from "@/lib/constants";
 
-const ISSUE_OPTIONS = [
+const GENERIC_ISSUE_OPTIONS = [
   "Foggy Glass Repair",
   "Broken Window",
   "Window Won't Close",
   "Door Glass",
   "Skylight Repair",
+  "Something Else",
+];
+
+const WINTER_ISSUE_OPTIONS = [
+  "Foggy Glass",
+  "Draft or Cold Room",
+  "Window Won't Close",
+  "Skylight Issue",
+  "Full Winter Check (not sure)",
   "Something Else",
 ];
 
@@ -50,6 +59,293 @@ interface FormErrors {
 
 const INITIAL: FormData = { name: "", phone: "", email: "", issue: "" };
 
+function CASLConsent() {
+  return (
+    <p className="text-xs text-gray-600 leading-relaxed mt-3">
+      By submitting, you consent to LuminaSky contacting you about your request. You can unsubscribe anytime. See our{" "}
+      <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a>.
+    </p>
+  );
+}
+
+function Spinner() {
+  return (
+    <svg
+      className="animate-spin h-5 w-5"
+      viewBox="0 0 24 24"
+      fill="none"
+      aria-hidden="true"
+    >
+      <circle
+        className="opacity-25"
+        cx="12"
+        cy="12"
+        r="10"
+        stroke="currentColor"
+        strokeWidth="4"
+      />
+      <path
+        className="opacity-75"
+        fill="currentColor"
+        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+      />
+    </svg>
+  );
+}
+
+function WinterReadyContent({
+  formData,
+  errors,
+  isSubmitting,
+  submitStatus,
+  inputClass,
+  handleChange,
+  handleSubmit,
+}: {
+  formData: FormData;
+  errors: FormErrors;
+  isSubmitting: boolean;
+  submitStatus: "success" | "error" | null;
+  inputClass: (field: keyof FormErrors) => string;
+  handleChange: (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => void;
+  handleSubmit: (e: React.FormEvent) => void;
+}) {
+  return (
+    <>
+      <div className="mb-2 sm:mb-4 pr-8">
+        <h2 className="text-lg sm:text-2xl font-bold text-gray-900 mb-1">
+          Get Ready for the Winter
+        </h2>
+        <p className="text-sm text-gray-500">
+          Book your $30 Winter Ready Inspection. Credited toward any work you book. No pressure quotes, honest recommendations.
+        </p>
+      </div>
+
+      <form
+        onSubmit={handleSubmit}
+        noValidate
+        className="space-y-2 sm:space-y-3"
+        aria-label="Winter Ready inspection form"
+      >
+        {submitStatus === "error" && (
+          <div
+            className="bg-red-50 border border-red-200 text-red-800 px-3 py-2 rounded-md text-sm"
+            role="alert"
+          >
+            Something went wrong. Please call{" "}
+            <a href={PHONE_HREF} className="font-semibold underline">
+              {PHONE}
+            </a>{" "}
+            or try again.
+          </div>
+        )}
+
+        <div>
+          <input
+            name="name"
+            type="text"
+            value={formData.name}
+            onChange={handleChange}
+            placeholder="Your name"
+            autoComplete="name"
+            className={inputClass("name")}
+          />
+          {errors.name && (
+            <p className="text-red-600 text-xs mt-1">{errors.name}</p>
+          )}
+        </div>
+
+        <div>
+          <input
+            name="phone"
+            type="tel"
+            value={formData.phone}
+            onChange={handleChange}
+            placeholder="437-XXX-XXXX"
+            autoComplete="tel"
+            className={inputClass("phone")}
+          />
+          {errors.phone && (
+            <p className="text-red-600 text-xs mt-1">{errors.phone}</p>
+          )}
+        </div>
+
+        <div>
+          <select
+            name="issue"
+            value={formData.issue}
+            onChange={handleChange}
+            className={inputClass("issue")}
+          >
+            <option value="">What&apos;s the issue?</option>
+            {WINTER_ISSUE_OPTIONS.map((opt) => (
+              <option key={opt} value={opt}>
+                {opt}
+              </option>
+            ))}
+          </select>
+          {errors.issue && (
+            <p className="text-red-600 text-xs mt-1">{errors.issue}</p>
+          )}
+        </div>
+
+        <button
+          type="submit"
+          disabled={isSubmitting}
+          className="w-full bg-primary hover:bg-primary/90 disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-bold py-2.5 sm:py-3 rounded-md shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2"
+        >
+          {isSubmitting ? (
+            <>
+              <Spinner />
+              Sending…
+            </>
+          ) : (
+            "Book My $30 Inspection"
+          )}
+        </button>
+
+        <CASLConsent />
+
+        <p className="text-[10px] text-gray-400 leading-relaxed text-center">
+          $30 credited toward any work you book. Photo quotes are free.
+        </p>
+      </form>
+    </>
+  );
+}
+
+function GenericQuoteContent({
+  formData,
+  errors,
+  isSubmitting,
+  submitStatus,
+  inputClass,
+  handleChange,
+  handleSubmit,
+}: {
+  formData: FormData;
+  errors: FormErrors;
+  isSubmitting: boolean;
+  submitStatus: "success" | "error" | null;
+  inputClass: (field: keyof FormErrors) => string;
+  handleChange: (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => void;
+  handleSubmit: (e: React.FormEvent) => void;
+}) {
+  return (
+    <>
+      <div className="mb-2 sm:mb-4 pr-8">
+        <h2 className="text-lg sm:text-2xl font-bold text-gray-900 mb-1">
+          Get Your Free Quote in Under 2 Minutes
+        </h2>
+        <p className="text-sm text-gray-500">
+          Send us your info and we&apos;ll call back with a real price. No visit required for most quotes.
+        </p>
+      </div>
+
+      <form
+        onSubmit={handleSubmit}
+        noValidate
+        className="space-y-2 sm:space-y-3"
+        aria-label="Lead capture form"
+      >
+        {submitStatus === "error" && (
+          <div
+            className="bg-red-50 border border-red-200 text-red-800 px-3 py-2 rounded-md text-sm"
+            role="alert"
+          >
+            Something went wrong. Please call{" "}
+            <a href={PHONE_HREF} className="font-semibold underline">
+              {PHONE}
+            </a>{" "}
+            or try again.
+          </div>
+        )}
+
+        <div>
+          <input
+            name="name"
+            type="text"
+            value={formData.name}
+            onChange={handleChange}
+            placeholder="Your name"
+            autoComplete="name"
+            className={inputClass("name")}
+          />
+          {errors.name && (
+            <p className="text-red-600 text-xs mt-1">{errors.name}</p>
+          )}
+        </div>
+
+        <div>
+          <input
+            name="phone"
+            type="tel"
+            value={formData.phone}
+            onChange={handleChange}
+            placeholder="437-XXX-XXXX"
+            autoComplete="tel"
+            className={inputClass("phone")}
+          />
+          {errors.phone && (
+            <p className="text-red-600 text-xs mt-1">{errors.phone}</p>
+          )}
+        </div>
+
+        <div>
+          <input
+            name="email"
+            type="email"
+            value={formData.email}
+            onChange={handleChange}
+            placeholder="you@email.com"
+            autoComplete="email"
+            className={inputClass("email")}
+          />
+          {errors.email && (
+            <p className="text-red-600 text-xs mt-1">{errors.email}</p>
+          )}
+        </div>
+
+        <div>
+          <select
+            name="issue"
+            value={formData.issue}
+            onChange={handleChange}
+            className={inputClass("issue")}
+          >
+            <option value="">What&apos;s the issue?</option>
+            {GENERIC_ISSUE_OPTIONS.map((opt) => (
+              <option key={opt} value={opt}>
+                {opt}
+              </option>
+            ))}
+          </select>
+          {errors.issue && (
+            <p className="text-red-600 text-xs mt-1">{errors.issue}</p>
+          )}
+        </div>
+
+        <button
+          type="submit"
+          disabled={isSubmitting}
+          className="w-full bg-primary hover:bg-primary/90 disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-bold py-2.5 sm:py-3 rounded-md shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2"
+        >
+          {isSubmitting ? (
+            <>
+              <Spinner />
+              Sending…
+            </>
+          ) : (
+            "Get My Free Quote"
+          )}
+        </button>
+
+        <CASLConsent />
+      </form>
+    </>
+  );
+}
+
 export function HomepagePopup() {
   const [open, setOpen] = useState(false);
   const [formData, setFormData] = useState<FormData>(INITIAL);
@@ -62,6 +358,8 @@ export function HomepagePopup() {
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
 
+  const isWinter = WINTER_READY_ENABLED;
+
   const closePopup = useCallback(() => {
     setOpen(false);
     document.body.style.overflow = "";
@@ -70,7 +368,7 @@ export function HomepagePopup() {
   useEffect(() => {
     if (storageGet("popup-form-submitted")) return;
     if (storageGet("popup-dismissed-session", true)) return;
-    if (typeof window !== "undefined" && window.innerWidth < 375) return;
+    if (typeof window !== "undefined" && window.innerWidth > 0 && window.innerWidth < 375) return;
 
     setSourceData(getSourceData());
 
@@ -167,10 +465,12 @@ export function HomepagePopup() {
     } else if (!/^[\d\s\-+()]{10,15}$/.test(formData.phone)) {
       e.phone = "Please enter a valid phone number";
     }
-    if (!formData.email.trim()) {
-      e.email = "Please enter your email";
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      e.email = "Please enter a valid email address";
+    if (!isWinter) {
+      if (!formData.email.trim()) {
+        e.email = "Please enter your email";
+      } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+        e.email = "Please enter a valid email address";
+      }
     }
     if (!formData.issue) e.issue = "Please select an issue";
     return e;
@@ -200,12 +500,14 @@ export function HomepagePopup() {
         {
           from_name: formData.name,
           phone: formData.phone,
-          email: formData.email,
+          email: isWinter ? "-" : formData.email,
           service: formData.issue,
           city: "-",
           contact_method: "phone",
-          message: "(Submitted via homepage popup)",
-          heard_about: "Homepage popup",
+          message: isWinter
+            ? "(Submitted via Winter Ready popup)"
+            : "(Submitted via homepage popup)",
+          heard_about: isWinter ? "Winter Ready popup" : "Homepage popup",
           referred_by: "",
           source: sd.source || "unknown",
           utm_source: sd.utm_source || "-",
@@ -238,12 +540,22 @@ export function HomepagePopup() {
       errors[field] ? "border-red-400 bg-red-50" : "border-gray-300 bg-white"
     }`;
 
+  const contentProps = {
+    formData,
+    errors,
+    isSubmitting,
+    submitStatus,
+    inputClass,
+    handleChange,
+    handleSubmit,
+  };
+
   return (
     <div
       className="fixed inset-0 z-[9999] flex items-center justify-center p-4"
       role="dialog"
       aria-modal="true"
-      aria-label="Get your free quote"
+      aria-label={isWinter ? "Winter Ready inspection" : "Get your free quote"}
     >
       <div
         className="absolute inset-0 bg-black/50"
@@ -274,142 +586,16 @@ export function HomepagePopup() {
             <h3 className="text-xl font-bold text-gray-900 mb-2">
               Thanks! We got it.
             </h3>
-            <p className="text-gray-600">Expect a call shortly.</p>
+            <p className="text-gray-600">
+              {isWinter
+                ? "We'll call you shortly to schedule your $30 Winter Ready Inspection."
+                : "Expect a call shortly."}
+            </p>
           </div>
+        ) : isWinter ? (
+          <WinterReadyContent {...contentProps} />
         ) : (
-          <>
-            <div className="mb-2 sm:mb-4 pr-8">
-              <h2 className="text-lg sm:text-2xl font-bold text-gray-900 mb-1">
-                Get Your Free Quote in Under 2 Minutes
-              </h2>
-              <p className="text-sm text-gray-500">
-                Send us your info and we&apos;ll call back with a real price. No
-                visit required for most quotes.
-              </p>
-            </div>
-
-            <form
-              onSubmit={handleSubmit}
-              noValidate
-              className="space-y-2 sm:space-y-3"
-              aria-label="Lead capture form"
-            >
-              {submitStatus === "error" && (
-                <div
-                  className="bg-red-50 border border-red-200 text-red-800 px-3 py-2 rounded-md text-sm"
-                  role="alert"
-                >
-                  Something went wrong. Please call{" "}
-                  <a href={PHONE_HREF} className="font-semibold underline">
-                    {PHONE}
-                  </a>{" "}
-                  or try again.
-                </div>
-              )}
-
-              <div>
-                <input
-                  name="name"
-                  type="text"
-                  value={formData.name}
-                  onChange={handleChange}
-                  placeholder="Your name"
-                  autoComplete="name"
-                  className={inputClass("name")}
-                />
-                {errors.name && (
-                  <p className="text-red-600 text-xs mt-1">{errors.name}</p>
-                )}
-              </div>
-
-              <div>
-                <input
-                  name="phone"
-                  type="tel"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  placeholder="437-XXX-XXXX"
-                  autoComplete="tel"
-                  className={inputClass("phone")}
-                />
-                {errors.phone && (
-                  <p className="text-red-600 text-xs mt-1">{errors.phone}</p>
-                )}
-              </div>
-
-              <div>
-                <input
-                  name="email"
-                  type="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  placeholder="you@email.com"
-                  autoComplete="email"
-                  className={inputClass("email")}
-                />
-                {errors.email && (
-                  <p className="text-red-600 text-xs mt-1">{errors.email}</p>
-                )}
-              </div>
-
-              <div>
-                <select
-                  name="issue"
-                  value={formData.issue}
-                  onChange={handleChange}
-                  className={inputClass("issue")}
-                >
-                  <option value="">What&apos;s the issue?</option>
-                  {ISSUE_OPTIONS.map((opt) => (
-                    <option key={opt} value={opt}>
-                      {opt}
-                    </option>
-                  ))}
-                </select>
-                {errors.issue && (
-                  <p className="text-red-600 text-xs mt-1">{errors.issue}</p>
-                )}
-              </div>
-
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className="w-full bg-primary hover:bg-primary/90 disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-bold py-2.5 sm:py-3 rounded-md shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2"
-              >
-                {isSubmitting ? (
-                  <>
-                    <svg
-                      className="animate-spin h-5 w-5"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      aria-hidden="true"
-                    >
-                      <circle
-                        className="opacity-25"
-                        cx="12"
-                        cy="12"
-                        r="10"
-                        stroke="currentColor"
-                        strokeWidth="4"
-                      />
-                      <path
-                        className="opacity-75"
-                        fill="currentColor"
-                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
-                      />
-                    </svg>
-                    Sending…
-                  </>
-                ) : (
-                  "Get My Free Quote"
-                )}
-              </button>
-
-              <p className="text-center text-xs text-gray-400">
-                We&apos;ll get back to you within business hours. No spam, ever.
-              </p>
-            </form>
-          </>
+          <GenericQuoteContent {...contentProps} />
         )}
       </div>
     </div>

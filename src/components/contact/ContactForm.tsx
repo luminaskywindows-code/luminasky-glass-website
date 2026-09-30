@@ -175,7 +175,7 @@ export function ContactForm() {
   };
 
   const inputClass = (field: keyof FormErrors) =>
-    `w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900 ${
+    `w-full px-4 py-3 border rounded-md focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900 ${
       errors[field] ? "border-red-400 bg-red-50" : "border-gray-300 bg-white"
     }`;
 
@@ -207,7 +207,7 @@ export function ContactForm() {
   return (
     <form onSubmit={handleSubmit} noValidate className="space-y-5" aria-label="Contact form">
       {submitStatus === "error" && (
-        <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg text-sm" role="alert">
+        <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-md text-sm" role="alert">
           Something went wrong. Please try again or call us at{" "}
           <a href="tel:+14373448490" className="font-semibold underline">437-344-8490</a>.
         </div>
@@ -367,7 +367,7 @@ export function ContactForm() {
             type="text"
             value={formData.referredBy}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 bg-white rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900"
+            className="w-full px-4 py-3 border border-gray-300 bg-white rounded-md focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900"
           />
         </div>
       )}
@@ -417,7 +417,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-accent hover:bg-accent-dark disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-semibold py-4 rounded-lg shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 text-base"
+        className="w-full bg-accent hover:bg-accent-dark disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-semibold py-4 rounded-md shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 text-base"
       >
         {isSubmitting ? (
           <>
@@ -445,6 +445,11 @@ export function ContactForm() {
           *The $30 visit fee is credited toward your final payment if you proceed with the work
         </p>
       </div>
+
+      <p className="text-xs text-gray-600 leading-relaxed mt-3">
+        By submitting this form, you consent to LuminaSky Glass contacting you by phone, text, or email regarding your service inquiry. You can unsubscribe from marketing communications at any time. See our{" "}
+        <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a> for details.
+      </p>
     </form>
   );
 }
