@@ -79,24 +79,6 @@ export const PROJECTS: Project[] = [
     tags: [],
   },
   {
-    id: "crank-repair-thornhill",
-    title: "Window Crank Repair in Thornhill",
-    category: "hardware",
-    beforeImage: {
-      src: "/images/services/crank-repair-before.jpg",
-      alt: "Worn window crank with rusted mechanism and moldy track before LuminaSky replacement",
-    },
-    afterImage: {
-      src: "/images/services/crank-repair-after.jpg",
-      alt: "New clean white window crank handle after LuminaSky repair",
-    },
-    description:
-      "Window crank replacement in Thornhill. Swapped worn BROWN operator handle for a fresh white replacement — restored smooth operation without touching the sash or frame. Fraction of the cost of a full window replacement.",
-    location: "Thornhill",
-    serviceType: "Window Cranks",
-    tags: [],
-  },
-  {
     id: "sunroom-caledon",
     title: "Full Sunroom Glass Replacement - Caledon",
     category: "windows",
