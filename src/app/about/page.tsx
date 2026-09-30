@@ -8,7 +8,6 @@ import {
   MapPin,
   CheckCircle2,
   Leaf,
-  User,
   Phone,
   Mail,
   ClipboardList,
@@ -87,32 +86,6 @@ const STANDARDS = [
   },
 ];
 
-const TEAM_PLACEHOLDERS = [
-  {
-    name: "Team Member Name",
-    role: "Lead Glazier",
-    experience: "12+ years experience",
-    specialty: "IGU & Seal Repair",
-    quote:
-      "I take pride in giving every homeowner a straight answer. If a repair will solve the problem, that's what I recommend - every time.",
-  },
-  {
-    name: "Team Member Name",
-    role: "Window Hardware Specialist",
-    experience: "8+ years experience",
-    specialty: "Cranks, Hinges & Locks",
-    quote:
-      "Most crank and hardware problems can be solved in under 30 minutes with the right part. We carry them so you don't have to wait.",
-  },
-  {
-    name: "Team Member Name",
-    role: "Door Glass Technician",
-    experience: "10+ years experience",
-    specialty: "Door Inserts & Decorative Glass",
-    quote:
-      "Replacing a door glass insert instead of the whole door saves the customer hundreds. That's the job I love doing.",
-  },
-];
 
 export default function AboutPage() {
   return (
@@ -419,55 +392,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Meet Our Team */}
-      <section className="py-20 px-4 md:px-8 bg-white" aria-labelledby="team-heading">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-4">
-            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-              The People Behind the Work
-            </span>
-            <h2
-              id="team-heading"
-              className="text-3xl md:text-4xl font-bold text-gray-900 mb-4"
-            >
-              Meet Our Team
-            </h2>
-            <p className="text-sm text-gray-400 italic max-w-xl mx-auto mb-10">
-              Team photos coming soon - we believe in transparency and will be
-              adding our team members&apos; photos and bios shortly.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {TEAM_PLACEHOLDERS.map((member, index) => (
-              <div
-                key={index}
-                className="bg-gray-50 border border-gray-100 rounded-2xl p-6 flex flex-col gap-4"
-              >
-                {/* Avatar placeholder */}
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                  <User className="w-8 h-8 text-primary/40" aria-hidden="true" />
-                </div>
-
-                <div className="text-center">
-                  <p className="font-bold text-gray-900">{member.name}</p>
-                  <p className="text-sm text-accent font-semibold">
-                    {member.role}
-                  </p>
-                  <p className="text-xs text-gray-400 mt-1">
-                    {member.experience} &middot; {member.specialty}
-                  </p>
-                </div>
-
-                <blockquote className="border-t border-gray-200 pt-4 text-sm text-gray-500 italic leading-relaxed text-center">
-                  &ldquo;{member.quote}&rdquo;
-                </blockquote>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Connect with us */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="social-heading">
         <div className="max-w-3xl mx-auto text-center">
@@ -524,14 +448,14 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-lg shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+              className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
             >
               <ClipboardList className="w-5 h-5" aria-hidden="true" />
               Contact Us Today
             </Link>
             <a
               href={PHONE_HREF}
-              className="inline-flex items-center justify-center gap-2 border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+              className="inline-flex items-center justify-center gap-2 border-2 border-white text-white font-semibold px-8 py-4 rounded-md hover:bg-white hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
               aria-label={`Call us at ${PHONE}`}
             >
               <Phone className="w-5 h-5" aria-hidden="true" />
