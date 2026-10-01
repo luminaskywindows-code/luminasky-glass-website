@@ -9,17 +9,24 @@ export const COMPANY_NAME = "LuminaSky Glass";
 
 export const WINTER_READY_ENABLED = true;
 
+export const INDEXNOW_KEY = "9a7b5b9906e245f1bf7ecb9f10d723a0";
+
 export const SERVICE_AREAS = [
   "Toronto",
   "North York",
   "Scarborough",
   "Vaughan",
+  "Thornhill",
   "Markham",
   "Mississauga",
   "Richmond Hill",
   "Etobicoke",
   "Brampton",
+  "Woodbridge",
+  "Aurora",
+  "Newmarket",
   "Oakville",
+  "Burlington",
 ];
 
 export const SERVICES = [
@@ -93,6 +100,56 @@ export const SERVICES = [
     href: "/window-replacement",
     imageSrc: "/images/services/window-replacement-service.jpg",
   },
+  {
+    slug: "casement-hinge-repair",
+    title: "Casement Window Hinge Repair",
+    shortTitle: "Hinge Repair",
+    icon: "wrench",
+    description:
+      "Worn or broken hinges make casement windows hard to open, close, or seal. We replace the hinge and restore smooth operation.",
+    href: "/casement-hinge-repair",
+    imageSrc: "/images/services/window-crank-door.jpg",
+  },
+  {
+    slug: "window-lock-repair",
+    title: "Window Lock & Handle Replacement",
+    shortTitle: "Lock & Handle",
+    icon: "lock",
+    description:
+      "Broken window locks and handles compromise security and ventilation. We match and replace hardware for any window brand.",
+    href: "/window-lock-repair",
+    imageSrc: "/images/services/window-crank-door.jpg",
+  },
+  {
+    slug: "sliding-door-repair",
+    title: "Sliding Patio Door Repair",
+    shortTitle: "Sliding Doors",
+    icon: "door-open",
+    description:
+      "Rollers, tracks, locks, and doors off track. We fix sliding patio doors so they glide smoothly and lock securely.",
+    href: "/sliding-door-repair",
+    imageSrc: "/images/services/storm-door-hardware.jpg",
+  },
+  {
+    slug: "condo-window-repair",
+    title: "Condo & High-Rise Window Repair",
+    shortTitle: "Condo Windows",
+    icon: "building",
+    description:
+      "Specialty crank operators, hinge systems, and sealed glass for condos and high-rise buildings. We work on any floor.",
+    href: "/condo-window-repair",
+    imageSrc: "/images/services/window-crank-door.jpg",
+  },
+  {
+    slug: "discontinued-hardware-repair",
+    title: "Old & Discontinued Window Hardware",
+    shortTitle: "Discontinued Parts",
+    icon: "search",
+    description:
+      "We repair windows we did not install. If your hardware is discontinued, we source compatible replacements or custom-fit alternatives.",
+    href: "/discontinued-hardware-repair",
+    imageSrc: "/images/services/crank-before.jpg",
+  },
 ];
 
 export const TESTIMONIALS = [
@@ -141,7 +198,7 @@ export const FAQS_GENERAL = [
   },
   {
     q: "How much does glass repair cost?",
-    a: "Cost depends on the glass size and type. Foggy window unit replacements typically range from $150–$350 per unit - far less than full window replacement. We provide free quotes.",
+    a: "Cost depends on the glass size, type, and accessibility. Send us a photo for a free quote, or book a $30 site visit that gets credited toward your repair. You always get a written price before any work starts.",
   },
   {
     q: "What areas do you serve?",
