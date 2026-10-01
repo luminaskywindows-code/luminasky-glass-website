@@ -169,6 +169,13 @@ export function Footer() {
             >
               Privacy Policy
             </Link>
+            <span aria-hidden="true">·</span>
+            <Link
+              href="/terms-of-service"
+              className="text-[10px] text-blue-400 hover:text-white underline underline-offset-2 transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-white rounded"
+            >
+              Terms of Service
+            </Link>
           </div>
         </div>
       </div>
