@@ -15,6 +15,7 @@ const BASE_NAV_LINKS = [
   { href: "/about", label: "About" },
   { href: "/gallery", label: "Our Services" },
   { href: "/projects", label: "Projects" },
+  { href: "/blog", label: "Blog" },
   { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "Contact" },
 ];

@@ -1,25 +1,29 @@
-import { PHONE, SITE_URL, SERVICE_AREAS, COMPANY_NAME } from "./constants";
+import { PHONE, SITE_URL, SERVICE_AREAS, COMPANY_NAME, EMAIL } from "./constants";
 
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "HomeAndConstructionBusiness",
     "@id": `${SITE_URL}/#organization`,
     name: COMPANY_NAME,
     url: SITE_URL,
     telephone: PHONE,
+    email: EMAIL,
     image: `${SITE_URL}/og-image.jpg`,
     logo: `${SITE_URL}/images/logo.png`,
     priceRange: "$$",
     currenciesAccepted: "CAD",
-    paymentAccepted: "Cash, Credit Card",
+    paymentAccepted: "Cash, Credit Card, E-Transfer",
     areaServed: SERVICE_AREAS.map((city) => ({
       "@type": "City",
       name: city,
     })),
     address: {
       "@type": "PostalAddress",
+      streetAddress: "120 Promenade Circle",
+      addressLocality: "Thornhill",
       addressRegion: "ON",
+      postalCode: "L4J 7W9",
       addressCountry: "CA",
     },
     openingHoursSpecification: [
@@ -38,13 +42,6 @@ export function generateOrganizationSchema() {
         closes: "23:59",
       },
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "5.0",
-      bestRating: "5",
-      worstRating: "1",
-      ratingCount: "47",
-    },
     sameAs: [],
   };
 }
@@ -77,6 +74,32 @@ export function generateBreadcrumbSchema(
       name: item.name,
       item: `${SITE_URL}${item.url}`,
     })),
+  };
+}
+
+export function generateArticleSchema(article: {
+  title: string;
+  description: string;
+  url: string;
+  publishedAt: string;
+  updatedAt?: string;
+  author: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.description,
+    url: `${SITE_URL}${article.url}`,
+    datePublished: article.publishedAt,
+    ...(article.updatedAt && { dateModified: article.updatedAt }),
+    author: {
+      "@type": "Organization",
+      name: article.author,
+      url: SITE_URL,
+    },
+    publisher: { "@id": `${SITE_URL}/#organization` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}${article.url}` },
   };
 }
 
