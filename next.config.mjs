@@ -44,6 +44,12 @@ const nextConfig = {
       { source: "/services/window-cranks",    destination: "/cranks",           permanent: true },
       { source: "/services/screen-storm-doors", destination: "/screen-storm-doors", permanent: true },
       { source: "/services/skylights",        destination: "/skylights",        permanent: true },
+      // Removed service pages → /services
+      { source: "/casement-hinge-repair",       destination: "/services", permanent: true },
+      { source: "/window-lock-repair",          destination: "/services", permanent: true },
+      { source: "/sliding-door-repair",         destination: "/services", permanent: true },
+      { source: "/condo-window-repair",         destination: "/services", permanent: true },
+      { source: "/discontinued-hardware-repair", destination: "/services", permanent: true },
     ];
   },
 };
