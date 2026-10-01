@@ -12,6 +12,14 @@ import {
 } from "@/lib/constants";
 import { SocialLinks } from "@/components/shared/SocialLinks";
 
+const UNPUBLISHED_SERVICE_SLUGS = new Set([
+  "casement-hinge-repair",
+  "window-lock-repair",
+  "sliding-door-repair",
+  "condo-window-repair",
+  "discontinued-hardware-repair",
+]);
+
 const BASE_QUICK_LINKS = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
@@ -86,7 +94,7 @@ export function Footer() {
               Our Services
             </h3>
             <ul className="flex flex-col gap-2">
-              {SERVICES.map((service) => (
+              {SERVICES.filter((s) => !UNPUBLISHED_SERVICE_SLUGS.has(s.slug)).map((service) => (
                 <li key={service.slug}>
                   <Link
                     href={service.href}
