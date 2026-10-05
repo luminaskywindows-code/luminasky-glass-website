@@ -129,13 +129,13 @@ export function Navbar() {
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden lg:flex items-center gap-0.5">
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "px-4 py-2 rounded-lg text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
+                  "px-3 py-2 rounded-lg text-[13px] font-medium whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
                   link.href === "/winter-ready"
                     ? "text-accent font-semibold bg-accent/10 hover:bg-accent/20"
                     : pathname === link.href
@@ -153,7 +153,7 @@ export function Navbar() {
                 onClick={() => setServicesOpen(!servicesOpen)}
                 onBlur={() => setTimeout(() => setServicesOpen(false), 150)}
                 className={cn(
-                  "flex items-center gap-1 px-4 py-2 rounded-lg text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
+                  "flex items-center gap-1 px-3 py-2 rounded-lg text-[13px] font-medium whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
                   pathname.startsWith("/services")
                     ? "text-primary bg-primary-50 font-semibold"
                     : "text-gray-600 hover:text-primary hover:bg-gray-50"
@@ -197,18 +197,18 @@ export function Navbar() {
           </div>
 
           {/* Desktop CTAs */}
-          <div className="hidden lg:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-2 shrink-0">
             <a
               href={PHONE_HREF}
-              className="flex items-center gap-2 text-sm font-semibold text-gray-700 hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-1 rounded"
+              className="flex items-center gap-2 text-[13px] font-semibold text-gray-700 hover:text-primary whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-1 rounded"
               aria-label={`Call us at ${PHONE}`}
             >
-              <Phone className="w-4 h-4" aria-hidden="true" />
-              {PHONE}
+              <Phone className="w-4 h-4 shrink-0" aria-hidden="true" />
+              <span className="hidden xl:inline">{PHONE}</span>
             </a>
             <Link
               href="/contact"
-              className="bg-accent hover:bg-accent-dark text-white text-sm font-semibold px-5 py-2.5 rounded-md shadow-sm hover:shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95"
+              className="bg-accent hover:bg-accent-dark text-white text-[13px] font-semibold px-4 py-2.5 rounded-md shadow-sm hover:shadow-md whitespace-nowrap transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95"
             >
               Get Quote
             </Link>

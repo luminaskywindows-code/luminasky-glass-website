@@ -178,8 +178,8 @@ export default function PropertyManagersPage() {
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/4" />
 
         <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-12 lg:py-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-start">
-            {/* Left: Copy */}
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_minmax(0,420px)] gap-8 lg:gap-8 items-start">
+            {/* Left: Copy + How it works */}
             <div className="lg:py-4">
               <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold leading-[1.15] mb-4 tracking-tight">
                 Your First Window Crank Repair Is Free
@@ -187,7 +187,7 @@ export default function PropertyManagersPage() {
               <p className="text-lg lg:text-xl font-semibold text-blue-100 mb-4">
                 Window, door and glass repair for condos and managed properties across the GTA
               </p>
-              <p className="text-blue-200 leading-relaxed mb-8 max-w-lg">
+              <p className="text-blue-200 leading-relaxed mb-6 max-w-lg">
                 Try us on one repair before you add us to your vendor list. One reliable vendor for all your buildings, fast response, clean documentation for the board.
               </p>
 
@@ -202,17 +202,39 @@ export default function PropertyManagersPage() {
                 ))}
               </div>
 
-              <div className="mt-8 flex items-center gap-2 text-blue-200">
+              <div className="mt-6 flex items-center gap-2 text-blue-200">
                 <Phone className="w-4 h-4 text-accent-light" aria-hidden="true" />
                 <span className="text-sm">Or call now:</span>
                 <a href={PHONE_HREF} className="font-semibold text-white hover:text-accent-light transition-colors">
                   {PHONE}
                 </a>
               </div>
+
+              {/* How it works - desktop only (mobile version below form) */}
+              <div className="hidden lg:block mt-8">
+                <p className="text-xs font-bold uppercase tracking-widest text-blue-300 mb-4">How it works</p>
+                <div className="flex flex-col gap-0">
+                  {[
+                    { icon: ClipboardList, label: "Fill out the form" },
+                    { icon: PhoneCall, label: "Dan calls you" },
+                    { icon: Star, label: "First repair is free, then you decide" },
+                  ].map((step, i) => (
+                    <div key={step.label} className="flex items-start gap-3">
+                      <div className="flex flex-col items-center">
+                        <div className="w-7 h-7 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
+                          <step.icon className="w-3.5 h-3.5 text-accent-light" aria-hidden="true" />
+                        </div>
+                        {i < 2 && <div className="w-px h-5 bg-blue-400/30" />}
+                      </div>
+                      <span className="text-sm text-blue-100 pt-1">{step.label}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
 
-            {/* Right: Form card + How it works strip */}
-            <div className="flex flex-col gap-5">
+            {/* Right: Form card */}
+            <div>
               {submitStatus === "success" ? (
                 <div className="bg-white rounded-2xl shadow-2xl p-8 text-center">
                   <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -392,26 +414,27 @@ export default function PropertyManagersPage() {
                 </form>
               )}
 
-              {/* How it works strip */}
-              <div className="flex items-center justify-between gap-2 px-3 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-                {[
-                  { icon: ClipboardList, label: "Fill out the form" },
-                  { icon: PhoneCall, label: "Dan calls you" },
-                  { icon: Star, label: "Free first repair" },
-                ].map((step, i) => (
-                  <div key={step.label} className="flex items-center gap-2 min-w-0">
-                    {i > 0 && (
-                      <ChevronRight className="w-3.5 h-3.5 text-blue-300/60 shrink-0 hidden sm:block" aria-hidden="true" />
-                    )}
-                    <div className="flex items-center gap-1.5 min-w-0">
-                      <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
-                        <step.icon className="w-3 h-3 text-accent-light" aria-hidden="true" />
-                      </div>
-                      <span className="text-xs font-medium text-blue-100 whitespace-nowrap">{step.label}</span>
+            </div>
+
+            {/* How it works - mobile only */}
+            <div className="lg:hidden col-span-1 flex items-center justify-between gap-2 px-3 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
+              {[
+                { icon: ClipboardList, label: "Fill out the form" },
+                { icon: PhoneCall, label: "Dan calls you" },
+                { icon: Star, label: "Free first repair" },
+              ].map((step, i) => (
+                <div key={step.label} className="flex items-center gap-2 min-w-0">
+                  {i > 0 && (
+                    <ChevronRight className="w-3.5 h-3.5 text-blue-300/60 shrink-0 hidden sm:block" aria-hidden="true" />
+                  )}
+                  <div className="flex items-center gap-1.5 min-w-0">
+                    <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
+                      <step.icon className="w-3 h-3 text-accent-light" aria-hidden="true" />
                     </div>
+                    <span className="text-xs font-medium text-blue-100 whitespace-nowrap">{step.label}</span>
                   </div>
-                ))}
-              </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
