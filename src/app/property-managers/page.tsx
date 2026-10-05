@@ -9,8 +9,6 @@ import { getSourceData, type SourceData } from "@/lib/source-tracking";
 // ─── Video embed URL (paste YouTube/Vimeo embed URL here) ───
 const VIDEO_EMBED_URL = "";
 
-// ─── EmailJS template for property manager leads ───
-const PM_TEMPLATE_ID = "template_pm_lead";
 
 const SERVICES_LIST = [
   { icon: Wrench, title: "Window Crank and Hardware Repair", desc: "Casement operators, handles, hinges, locks" },
@@ -128,24 +126,36 @@ export default function PropertyManagersPage() {
       ? new Date(sd.first_visit_at).toLocaleDateString("en-CA", { timeZone: "America/Toronto" })
       : "-";
 
+    const messageLines = [
+      "PROPERTY MANAGER LEAD",
+      `Company: ${formData.company}`,
+      formData.role ? `Role: ${formData.role}` : "",
+      formData.bestTime ? `Best time to call: ${formData.bestTime}` : "",
+      formData.buildingsCount ? `Buildings / units: ${formData.buildingsCount}` : "",
+      formData.cityArea ? `City / area: ${formData.cityArea}` : "",
+      formData.servicesNeeded.length > 0
+        ? `Services needed: ${formData.servicesNeeded.join(", ")}`
+        : "",
+      formData.message ? `Message: ${formData.message}` : "",
+    ].filter(Boolean).join("\n");
+
     try {
       await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-        PM_TEMPLATE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         {
-          from_name: formData.fullName,
-          company: formData.company,
-          role: formData.role || "Not specified",
+          from_name: `[Property Manager Lead] ${formData.fullName}`,
           phone: formData.phone,
           email: formData.email,
-          buildings_count: formData.buildingsCount || "Not specified",
-          city_area: formData.cityArea || "Not specified",
-          services_needed: formData.servicesNeeded.length > 0
+          service: formData.servicesNeeded.length > 0
             ? formData.servicesNeeded.join(", ")
-            : "Not specified",
-          message: formData.message || "No message",
-          best_time: formData.bestTime || "Any time",
-          source: sd.source || "unknown",
+            : "Property Management Inquiry",
+          city: formData.cityArea || "GTA",
+          contact_method: "phone",
+          message: messageLines,
+          heard_about: "Property Manager Landing Page",
+          referred_by: formData.company,
+          source: "property-managers-page",
           utm_source: sd.utm_source || "-",
           utm_medium: sd.utm_medium || "-",
           utm_campaign: sd.utm_campaign || "-",
