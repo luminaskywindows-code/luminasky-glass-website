@@ -13,7 +13,7 @@ import { SocialLinks } from "@/components/shared/SocialLinks";
 const BASE_NAV_LINKS = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
-  { href: "/gallery", label: "Our Services" },
+  { href: "/property-managers", label: "Property Managers" },
   { href: "/projects", label: "Projects" },
   { href: "/blog", label: "Blog" },
   { href: "/faq", label: "FAQ" },
