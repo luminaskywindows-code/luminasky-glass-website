@@ -347,6 +347,191 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
       a: "Yes. Heritage homes with original wood-frame windows get glass-only repairs that preserve their character. Newer subdivision homes get quick sealed unit swaps that skip the cost of full replacement. We handle both regularly.",
     },
   },
+  {
+    slug: "orangeville",
+    city: "Orangeville",
+    region: "Dufferin County",
+    metaTitle: "Foggy Glass Repair in Orangeville | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Orangeville — Mono Mills, Credit Meadows, Downtown Orangeville. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Orangeville is Dufferin County's commercial hub, blending century homes along Broadway with newer subdivisions in Credit Meadows and Island Lake. Downtown's original sash windows and the 1980s to 1990s casements found throughout surrounding neighbourhoods share the same problem: factory seals that have run out their lifespan, leaving condensation trapped between the panes. LuminaSky replaces only the sealed glass unit, keeping Orangeville homeowners' existing frames, trim, and hardware intact. Every unit is measured on-site, custom-made, then installed for a precise fit.",
+    neighborhoods: getNeighborhoods("orangeville"),
+    citySpecificFaq: {
+      q: "Can you replace foggy glass in older sash windows found in Downtown Orangeville?",
+      a: "Yes. We measure the sealed unit in its existing sash frame, order a custom replacement, and install it without disturbing the frame or hardware. Heritage-style windows keep their original look.",
+    },
+  },
+  {
+    slug: "oshawa",
+    city: "Oshawa",
+    region: "Durham Region",
+    metaTitle: "Foggy Glass Repair in Oshawa | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Oshawa — Downtown Oshawa, Windfields, Taunton, Kedron. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Oshawa is Durham Region's largest city, and its housing stock tells the story of decades of growth. Post-war bungalows with original 1970s and 1980s sealed units line the streets near the downtown core, while Windfields, Taunton, and Kedron showcase newer builds whose first-generation thermal panes are now reaching the fog stage. LuminaSky replaces the failed sealed glass unit on-site without removing the frame or disturbing the exterior cladding. Each unit is measured first, custom-made to spec, then installed for a clean, lasting seal.",
+    neighborhoods: getNeighborhoods("oshawa"),
+    citySpecificFaq: {
+      q: "Do you service Oshawa's older post-war bungalows with original sealed units?",
+      a: "Yes. Post-war bungalows are some of our most common calls in Oshawa. We remove the failed glass unit from the original frame, measure for a custom replacement, and install it the same way it came out.",
+    },
+  },
+  {
+    slug: "halton-hills",
+    city: "Halton Hills / Georgetown",
+    region: "Halton Region",
+    metaTitle:
+      "Foggy Glass Repair in Halton Hills | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Halton Hills — Georgetown, Acton, Glen Williams. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Halton Hills is a rural-suburban mix of large-lot homes, heritage villages, and newer subdivisions spread across Georgetown, Acton, and Glen Williams. Many properties feature wide picture windows that take full sun exposure throughout the day, accelerating the breakdown of factory seals. When fog appears between the panes, it means the sealed unit has failed. LuminaSky replaces only that sealed glass unit, keeping Halton Hills homeowners' frames and trim in place. Every piece of glass is measured on-site, custom-made, then installed for an exact fit.",
+    neighborhoods: getNeighborhoods("halton-hills"),
+    citySpecificFaq: {
+      q: "Why do large picture windows in Halton Hills fog up sooner?",
+      a: "Full sun exposure heats the sealed unit repeatedly throughout the day, expanding and contracting the seal until it fails. Larger panes hold more trapped moisture once that happens. We measure on-site and order a custom replacement that fits the existing frame.",
+    },
+  },
+  {
+    slug: "hamilton",
+    city: "Hamilton",
+    region: "Hamilton",
+    metaTitle: "Foggy Glass Repair in Hamilton | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Hamilton — Hamilton Mountain, Stoney Creek, Ancaster, Dundas, Westdale. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Hamilton is the largest city in our service area after Toronto, and its housing spans everything from century homes in Westdale and Durand to modern townhomes on the Mountain and along the Stoney Creek lakeshore. Older windows carry original sealed units well past their expected lifespan, while 1990s and 2000s builds in Ancaster and upper Stoney Creek are hitting the fog mark on schedule. LuminaSky replaces the sealed glass unit without touching the frame, sash, or hardware. Each unit is measured on-site, custom-made, then installed for a precise fit.",
+    neighborhoods: getNeighborhoods("hamilton"),
+    citySpecificFaq: {
+      q: "Do you handle both century homes and newer builds across Hamilton?",
+      a: "Yes. Century homes in Westdale and Durand get glass-only replacements that preserve the original frames. Newer subdivision homes on the Mountain and in Stoney Creek get quick sealed unit swaps. We handle both regularly across Hamilton.",
+    },
+  },
+  {
+    slug: "barrie",
+    city: "Barrie",
+    region: "Simcoe County",
+    metaTitle: "Foggy Glass Repair in Barrie | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Barrie — Allandale, East Bayfield, Downtown Barrie, Painswick. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Barrie sits on the western shore of Lake Simcoe, and that lakefront exposure means wind-driven moisture working against window seals year-round. From heritage homes in the Allandale Station neighbourhood to the subdivisions spreading through East Bayfield and Painswick, foggy sealed units are a familiar sight. Once the factory seal fails, moisture is trapped between the panes and no amount of cleaning will clear it. LuminaSky replaces only the sealed glass unit, leaving Barrie homeowners' existing frames and trim undisturbed. Every unit is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("barrie"),
+    citySpecificFaq: {
+      q: "Does Barrie's lakefront location cause windows to fog faster?",
+      a: "It can. Wind-driven moisture off Lake Simcoe puts extra stress on window seals, especially on lakeside and east-facing elevations. Once the seal fails, we replace the glass unit without touching the frame.",
+    },
+  },
+  {
+    slug: "innisfil",
+    city: "Innisfil",
+    region: "Simcoe County",
+    metaTitle: "Foggy Glass Repair in Innisfil | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Innisfil — Alcona, Lefroy, Big Bay Point, Innisfil Beach. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Innisfil is a growing lakeside town on the south shore of Lake Simcoe, where cottage conversions sit alongside newer subdivisions in Alcona, Lefroy, and Big Bay Point. Converted cottages often carry older sealed units that were never designed for year-round heating and cooling cycles, making them prime candidates for seal failure. Newer builds in Alcona's expanding subdivisions are reaching the age where first-generation thermal units start to fog. LuminaSky replaces the sealed glass unit without removing the frame. Each piece of glass is measured first, custom-made, then installed on-site.",
+    neighborhoods: getNeighborhoods("innisfil"),
+    citySpecificFaq: {
+      q: "Can you fix foggy glass in converted cottages around Innisfil Beach?",
+      a: "Yes. Cottage conversions are common in Innisfil. We measure the existing sealed unit, order a replacement built for year-round use, and install it into the same frame.",
+    },
+  },
+  {
+    slug: "stouffville",
+    city: "Stouffville",
+    region: "York Region",
+    metaTitle:
+      "Foggy Glass Repair in Stouffville | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Stouffville — Stouffville, Ballantrae, Bloomington, Vandorf. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Stouffville sits in a rural-suburban corridor north of Markham, where 1990s and 2000s subdivisions now need their first round of sealed glass replacements. Homes in Ballantrae, Bloomington, and Vandorf carry builder-grade windows whose factory seals have run their course after 15 to 25 years of Ontario's freeze-thaw cycles. When condensation appears between the panes, the sealed unit has failed. LuminaSky replaces only that unit, keeping the existing frame and hardware in place. Every piece of glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("stouffville"),
+    citySpecificFaq: {
+      q: "Are 1990s and 2000s homes in Stouffville due for sealed glass replacement?",
+      a: "Many are. Builder-grade sealed units from that era typically last 15 to 25 years. Once fog appears, the seal has failed and the unit needs replacing. We swap the glass without disturbing the frame.",
+    },
+  },
+  {
+    slug: "east-gwillimbury",
+    city: "East Gwillimbury",
+    region: "York Region",
+    metaTitle:
+      "Foggy Glass Repair in East Gwillimbury | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in East Gwillimbury — Sharon, Mount Albert, Queensville, Holland Landing. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "East Gwillimbury is a growing community between Newmarket and Georgina, where new subdivisions in Queensville and Holland Landing sit alongside older rural homes in Sharon and Mount Albert. Newer builds carry first-generation thermal units approaching the fog stage, while older farmhouses and village homes have sealed glass well past its expected lifespan. LuminaSky replaces only the failed sealed unit, keeping East Gwillimbury homeowners' frames and trim intact. Each unit is measured on-site, custom-made, then installed for an exact fit.",
+    neighborhoods: getNeighborhoods("east-gwillimbury"),
+    citySpecificFaq: {
+      q: "Do you service both new subdivisions and older rural homes in East Gwillimbury?",
+      a: "Yes. New subdivision homes in Queensville and Holland Landing get sealed unit replacements just like the older rural properties in Sharon and Mount Albert. We measure, order, and install regardless of the home's age.",
+    },
+  },
+  {
+    slug: "georgina",
+    city: "Georgina / Keswick",
+    region: "York Region",
+    metaTitle:
+      "Foggy Glass Repair in Georgina | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Georgina — Keswick, Sutton, Jackson's Point, Pefferlaw. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Georgina stretches along Lake Simcoe's south shore, where year-round homes and converted cottages in Keswick, Sutton, Jackson's Point, and Pefferlaw face constant lakeside moisture. That humidity accelerates seal failure, leaving condensation trapped between the panes. Converted seasonal properties are especially prone, as their original windows were not built for year-round heating cycles. LuminaSky replaces only the sealed glass unit without removing the frame. Every unit is measured on-site, custom-made, then installed for a lasting seal.",
+    neighborhoods: getNeighborhoods("georgina"),
+    citySpecificFaq: {
+      q: "Do converted cottages in Keswick and Sutton need special glass?",
+      a: "Not necessarily special glass, but they do need a properly sealed thermal unit rated for year-round use. We measure the existing frame, order a sealed unit built for full-season performance, and install it on-site.",
+    },
+  },
+  {
+    slug: "bradford",
+    city: "Bradford",
+    region: "Simcoe County",
+    metaTitle: "Foggy Glass Repair in Bradford | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Bradford — Bradford, Bond Head, Holland Marsh. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Bradford is a commuter town north of Newmarket that has grown rapidly over the past two decades. Newer subdivisions in Bradford and Bond Head carry builder-grade windows whose first-generation thermal units are now aging into the fog zone. The Holland Marsh area adds older rural properties with sealed glass well past its warranty period. LuminaSky replaces the failed sealed unit on-site without removing the frame or cladding. Each unit is measured first, custom-made to spec, then installed for a precise fit.",
+    neighborhoods: getNeighborhoods("bradford"),
+    citySpecificFaq: {
+      q: "Are newer Bradford subdivisions already showing foggy windows?",
+      a: "Yes. Builder-grade sealed units installed in the early 2000s are now 20-plus years old. Once condensation appears between the panes, the seal has failed and the glass unit needs replacing. We handle these regularly.",
+    },
+  },
+  {
+    slug: "clarington",
+    city: "Clarington / Bowmanville",
+    region: "Durham Region",
+    metaTitle:
+      "Foggy Glass Repair in Clarington | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Clarington — Bowmanville, Courtice, Newcastle, Orono. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Clarington is Durham Region's easternmost municipality, spanning the newer subdivisions of Courtice and Bowmanville and the older rural stock in Newcastle and Orono. Courtice and north Bowmanville builds from the 1990s and 2000s are hitting the fog mark as factory seals reach end of life. Newcastle and Orono's older homes carry sealed units well past their original warranty. LuminaSky replaces only the sealed glass unit, keeping Clarington homeowners' frames and hardware in place. Every piece of glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("clarington"),
+    citySpecificFaq: {
+      q: "Do you cover all of Clarington, including Newcastle and Orono?",
+      a: "Yes. We service Bowmanville, Courtice, Newcastle, and Orono. Rural and suburban homes alike get the same process: on-site measurement, custom-made sealed unit, and professional installation.",
+    },
+  },
+  {
+    slug: "uxbridge",
+    city: "Uxbridge",
+    region: "Durham Region",
+    metaTitle: "Foggy Glass Repair in Uxbridge | Seal Failure Fix | LuminaSky",
+    metaDescription:
+      "LuminaSky repairs foggy sealed glass units in Uxbridge — Uxbridge, Goodwood, Leaskdale, Siloam. Fix the seal without replacing the window. Free photo quote.",
+    intro:
+      "Known as the trail capital of Canada, Uxbridge pairs century homes along Brock Street with newer builds in Siloam and Goodwood. Downtown's heritage windows carry original sealed glass decades past its intended lifespan, while newer subdivisions are reaching the age where builder-grade thermal units start to fog. LuminaSky replaces the sealed glass unit without touching the frame, preserving Uxbridge's character homes and saving suburban homeowners unnecessary replacement costs. Each unit is measured on-site, custom-made, then installed for a precise fit.",
+    neighborhoods: getNeighborhoods("uxbridge"),
+    citySpecificFaq: {
+      q: "Can you replace foggy glass in Uxbridge's century homes without damaging the original frames?",
+      a: "Yes. We remove the failed sealed unit from the existing frame, measure for a custom replacement, and install the new glass without disturbing the frame, trim, or hardware. The original character stays intact.",
+    },
+  },
 ];
 
 export function getFoggyGlassCityPageData(
