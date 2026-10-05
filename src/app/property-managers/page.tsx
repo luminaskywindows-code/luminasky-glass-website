@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
-import { Phone, Mail, Wrench, Droplets, DoorOpen, Paintbrush, Wind, Sun, CheckCircle2, ClipboardList, PhoneCall, Star, Check } from "lucide-react";
+import { Phone, Mail, Wrench, Droplets, DoorOpen, Paintbrush, Wind, Sun, CheckCircle2, ClipboardList, PhoneCall, Star, Check, ChevronRight } from "lucide-react";
 import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
@@ -211,8 +211,8 @@ export default function PropertyManagersPage() {
               </div>
             </div>
 
-            {/* Right: Form card */}
-            <div>
+            {/* Right: Form card + How it works strip */}
+            <div className="flex flex-col gap-5">
               {submitStatus === "success" ? (
                 <div className="bg-white rounded-2xl shadow-2xl p-8 text-center">
                   <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -391,6 +391,27 @@ export default function PropertyManagersPage() {
                   </p>
                 </form>
               )}
+
+              {/* How it works strip */}
+              <div className="flex items-center justify-between gap-2 px-3 py-3 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
+                {[
+                  { icon: ClipboardList, label: "Fill out the form" },
+                  { icon: PhoneCall, label: "Dan calls you" },
+                  { icon: Star, label: "Free first repair" },
+                ].map((step, i) => (
+                  <div key={step.label} className="flex items-center gap-2 min-w-0">
+                    {i > 0 && (
+                      <ChevronRight className="w-3.5 h-3.5 text-blue-300/60 shrink-0 hidden sm:block" aria-hidden="true" />
+                    )}
+                    <div className="flex items-center gap-1.5 min-w-0">
+                      <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
+                        <step.icon className="w-3 h-3 text-accent-light" aria-hidden="true" />
+                      </div>
+                      <span className="text-xs font-medium text-blue-100 whitespace-nowrap">{step.label}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -457,41 +478,6 @@ export default function PropertyManagersPage() {
                 <p className="text-gray-700">{point}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── How It Works ── */}
-      <section className="section-padding bg-white">
-        <div className="container-max max-w-3xl">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-12">
-            How It Works
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              { icon: ClipboardList, step: "1", title: "Fill Out the Form", desc: "Tell us about your properties and what you need." },
-              { icon: PhoneCall, step: "2", title: "Dan Calls You", desc: "We learn about your buildings and discuss how we can help." },
-              { icon: Star, step: "3", title: "Free First Repair", desc: "We do the first crank repair free, then you decide." },
-            ].map((item) => (
-              <div key={item.step} className="text-center">
-                <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4">
-                  <item.icon className="w-7 h-7 text-accent" aria-hidden="true" />
-                </div>
-                <div className="text-xs font-bold text-accent uppercase tracking-widest mb-1">
-                  Step {item.step}
-                </div>
-                <h3 className="font-bold text-gray-900 mb-1">{item.title}</h3>
-                <p className="text-gray-500 text-sm">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-10">
-            <a
-              href="#form"
-              className="btn-primary text-base px-8 py-3.5"
-            >
-              Claim My Free Repair
-            </a>
           </div>
         </div>
       </section>
