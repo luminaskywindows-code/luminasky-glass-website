@@ -2,13 +2,12 @@
 
 import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
-import { Phone, Mail, Wrench, Droplets, DoorOpen, Paintbrush, Wind, Sun, CheckCircle2, ClipboardList, PhoneCall, Star } from "lucide-react";
+import { Phone, Mail, Wrench, Droplets, DoorOpen, Paintbrush, Wind, Sun, CheckCircle2, ClipboardList, PhoneCall, Star, Check } from "lucide-react";
 import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
 // ─── Video embed URL (paste YouTube/Vimeo embed URL here) ───
 const VIDEO_EMBED_URL = "";
-
 
 const SERVICES_LIST = [
   { icon: Wrench, title: "Window Crank and Hardware Repair", desc: "Casement operators, handles, hinges, locks" },
@@ -29,15 +28,18 @@ const ROLE_OPTIONS = [
 
 const TIME_OPTIONS = ["Morning", "Afternoon", "Evening"] as const;
 
+const TRUST_POINTS = [
+  "Written quotes for board approval",
+  "Invoices ready for your A/P process",
+  "Multi-building and full block projects",
+] as const;
+
 interface FormData {
   fullName: string;
   company: string;
   role: string;
   phone: string;
   email: string;
-  buildingsCount: string;
-  cityArea: string;
-  servicesNeeded: string[];
   message: string;
   bestTime: string;
 }
@@ -55,9 +57,6 @@ const INITIAL: FormData = {
   role: "",
   phone: "",
   email: "",
-  buildingsCount: "",
-  cityArea: "",
-  servicesNeeded: [],
   message: "",
   bestTime: "",
 };
@@ -81,15 +80,6 @@ export default function PropertyManagersPage() {
     if (errors[name as keyof FormErrors]) {
       setErrors((prev) => ({ ...prev, [name]: undefined }));
     }
-  };
-
-  const handleCheckbox = (service: string) => {
-    setFormData((prev) => ({
-      ...prev,
-      servicesNeeded: prev.servicesNeeded.includes(service)
-        ? prev.servicesNeeded.filter((s) => s !== service)
-        : [...prev.servicesNeeded, service],
-    }));
   };
 
   const validate = (): FormErrors => {
@@ -131,11 +121,6 @@ export default function PropertyManagersPage() {
       `Company: ${formData.company}`,
       formData.role ? `Role: ${formData.role}` : "",
       formData.bestTime ? `Best time to call: ${formData.bestTime}` : "",
-      formData.buildingsCount ? `Buildings / units: ${formData.buildingsCount}` : "",
-      formData.cityArea ? `City / area: ${formData.cityArea}` : "",
-      formData.servicesNeeded.length > 0
-        ? `Services needed: ${formData.servicesNeeded.join(", ")}`
-        : "",
       formData.message ? `Message: ${formData.message}` : "",
     ].filter(Boolean).join("\n");
 
@@ -147,10 +132,8 @@ export default function PropertyManagersPage() {
           from_name: `[Property Manager Lead] ${formData.fullName}`,
           phone: formData.phone,
           email: formData.email,
-          service: formData.servicesNeeded.length > 0
-            ? formData.servicesNeeded.join(", ")
-            : "Property Management Inquiry",
-          city: formData.cityArea || "GTA",
+          service: "Property Management Inquiry",
+          city: "GTA",
           contact_method: "phone",
           message: messageLines,
           heard_about: "Property Manager Landing Page",
@@ -179,40 +162,236 @@ export default function PropertyManagersPage() {
   };
 
   const inputClass = (field: keyof FormErrors) =>
-    `w-full px-4 py-3 border rounded-md focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900 ${
-      errors[field] ? "border-red-400 bg-red-50" : "border-gray-300 bg-white"
+    `w-full px-4 py-3.5 border-2 rounded-lg focus:ring-2 focus:ring-accent/40 focus:border-accent transition-all text-gray-900 text-sm ${
+      errors[field] ? "border-red-400 bg-red-50" : "border-gray-200 bg-white hover:border-gray-300"
     }`;
+
+  const baseInputClass =
+    "w-full px-4 py-3.5 border-2 border-gray-200 bg-white hover:border-gray-300 rounded-lg focus:ring-2 focus:ring-accent/40 focus:border-accent transition-all text-gray-900 text-sm";
 
   return (
     <>
-      {/* ── Hero ── */}
-      <section className="bg-primary text-white py-20 px-4 md:px-8">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6 text-balance">
-            Window, Door and Glass Repair for Condos and Managed Properties
-          </h1>
-          <p className="text-lg sm:text-xl text-blue-100 mb-6 max-w-2xl mx-auto">
-            One reliable vendor for repairs across all your buildings. Fast response, clean documentation for the board.
-          </p>
-          <div className="bg-accent/20 border border-accent/40 rounded-xl px-6 py-4 inline-block mb-8">
-            <p className="text-lg sm:text-xl font-semibold text-white">
-              Your first window crank repair is free. Try us before you add us to your vendor list.
-            </p>
-          </div>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href="#form"
-              className="btn-primary text-lg px-8 py-4"
-            >
-              Request a Call Back
-            </a>
-            <a
-              href={PHONE_HREF}
-              className="flex items-center gap-2 text-blue-100 hover:text-white text-lg transition-colors"
-            >
-              <Phone className="w-5 h-5" aria-hidden="true" />
-              {PHONE}
-            </a>
+      {/* ── Hero with Form ── */}
+      <section id="form" className="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-[#162d6e] text-white scroll-mt-8">
+        <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: "radial-gradient(circle at 20% 50%, rgba(14,165,233,0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(56,189,248,0.3) 0%, transparent 40%), radial-gradient(circle at 60% 80%, rgba(14,165,233,0.2) 0%, transparent 45%)" }} />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/4" />
+
+        <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-12 lg:py-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-start">
+            {/* Left: Copy */}
+            <div className="lg:py-4">
+              <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold leading-[1.15] mb-4 tracking-tight">
+                Your First Window Crank Repair Is Free
+              </h1>
+              <p className="text-lg lg:text-xl font-semibold text-blue-100 mb-4">
+                Window, door and glass repair for condos and managed properties across the GTA
+              </p>
+              <p className="text-blue-200 leading-relaxed mb-8 max-w-lg">
+                Try us on one repair before you add us to your vendor list. One reliable vendor for all your buildings, fast response, clean documentation for the board.
+              </p>
+
+              <div className="flex flex-col sm:flex-row lg:flex-col gap-3">
+                {TRUST_POINTS.map((point) => (
+                  <div key={point} className="flex items-center gap-2.5">
+                    <div className="w-5 h-5 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
+                      <Check className="w-3 h-3 text-accent-light" aria-hidden="true" />
+                    </div>
+                    <span className="text-sm text-blue-100">{point}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-8 flex items-center gap-2 text-blue-200">
+                <Phone className="w-4 h-4 text-accent-light" aria-hidden="true" />
+                <span className="text-sm">Or call now:</span>
+                <a href={PHONE_HREF} className="font-semibold text-white hover:text-accent-light transition-colors">
+                  {PHONE}
+                </a>
+              </div>
+            </div>
+
+            {/* Right: Form card */}
+            <div>
+              {submitStatus === "success" ? (
+                <div className="bg-white rounded-2xl shadow-2xl p-8 text-center">
+                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Thanks. Dan will call you within one business day.</h3>
+                  <p className="text-gray-600">
+                    If it&apos;s urgent, call us directly at{" "}
+                    <a href={PHONE_HREF} className="font-semibold text-accent hover:underline">{PHONE}</a>.
+                  </p>
+                </div>
+              ) : (
+                <form
+                  onSubmit={handleSubmit}
+                  noValidate
+                  className="bg-white rounded-2xl shadow-2xl p-6 sm:p-7 space-y-4"
+                  aria-label="Property manager contact form"
+                >
+                  <div className="text-center mb-1">
+                    <h2 className="text-xl font-bold text-gray-900">Claim Your Free Repair</h2>
+                    <p className="text-gray-500 text-sm mt-1">Dan will call you within one business day.</p>
+                  </div>
+
+                  {submitStatus === "error" && (
+                    <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg text-sm" role="alert">
+                      Something went wrong. Please try again or call us at{" "}
+                      <a href={PHONE_HREF} className="font-semibold underline">{PHONE}</a>.
+                    </div>
+                  )}
+
+                  {/* Name */}
+                  <div>
+                    <label htmlFor="fullName" className="block text-sm font-semibold text-gray-700 mb-1">
+                      Full Name <span className="text-red-400">*</span>
+                    </label>
+                    <input
+                      id="fullName"
+                      name="fullName"
+                      type="text"
+                      value={formData.fullName}
+                      onChange={handleChange}
+                      autoComplete="name"
+                      className={inputClass("fullName")}
+                    />
+                    {errors.fullName && <p className="text-red-600 text-xs mt-1">{errors.fullName}</p>}
+                  </div>
+
+                  {/* Company */}
+                  <div>
+                    <label htmlFor="company" className="block text-sm font-semibold text-gray-700 mb-1">
+                      Company / Management Company <span className="text-red-400">*</span>
+                    </label>
+                    <input
+                      id="company"
+                      name="company"
+                      type="text"
+                      value={formData.company}
+                      onChange={handleChange}
+                      autoComplete="organization"
+                      className={inputClass("company")}
+                    />
+                    {errors.company && <p className="text-red-600 text-xs mt-1">{errors.company}</p>}
+                  </div>
+
+                  {/* Role + Best Time (side by side on desktop) */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label htmlFor="role" className="block text-sm font-semibold text-gray-700 mb-1">
+                        Your Role
+                      </label>
+                      <select
+                        id="role"
+                        name="role"
+                        value={formData.role}
+                        onChange={handleChange}
+                        className={baseInputClass}
+                      >
+                        <option value="">Select role</option>
+                        {ROLE_OPTIONS.map((r) => (
+                          <option key={r} value={r}>{r}</option>
+                        ))}
+                      </select>
+                    </div>
+                    <div>
+                      <label htmlFor="bestTime" className="block text-sm font-semibold text-gray-700 mb-1">
+                        Best Time to Call
+                      </label>
+                      <select
+                        id="bestTime"
+                        name="bestTime"
+                        value={formData.bestTime}
+                        onChange={handleChange}
+                        className={baseInputClass}
+                      >
+                        <option value="">Any time</option>
+                        {TIME_OPTIONS.map((t) => (
+                          <option key={t} value={t}>{t}</option>
+                        ))}
+                      </select>
+                    </div>
+                  </div>
+
+                  {/* Phone + Email (side by side on desktop) */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-1">
+                        Phone <span className="text-red-400">*</span>
+                      </label>
+                      <input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        autoComplete="tel"
+                        className={inputClass("phone")}
+                      />
+                      {errors.phone && <p className="text-red-600 text-xs mt-1">{errors.phone}</p>}
+                    </div>
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-1">
+                        Email <span className="text-red-400">*</span>
+                      </label>
+                      <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        autoComplete="email"
+                        className={inputClass("email")}
+                      />
+                      {errors.email && <p className="text-red-600 text-xs mt-1">{errors.email}</p>}
+                    </div>
+                  </div>
+
+                  {/* Message */}
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-1">
+                      Message
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      value={formData.message}
+                      onChange={handleChange}
+                      rows={3}
+                      placeholder="Tell us about your buildings or any specific needs..."
+                      className={`${baseInputClass} resize-none`}
+                    />
+                  </div>
+
+                  {/* Submit */}
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full bg-accent hover:bg-accent-dark disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-bold py-4 rounded-lg shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 text-base"
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                        </svg>
+                        Sending...
+                      </>
+                    ) : (
+                      "Claim My Free Repair"
+                    )}
+                  </button>
+
+                  <p className="text-xs text-gray-400 text-center">
+                    No obligation. We never share your information.
+                  </p>
+                </form>
+              )}
+            </div>
           </div>
         </div>
       </section>
@@ -306,241 +485,14 @@ export default function PropertyManagersPage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* ── Form ── */}
-      <section id="form" className="section-padding bg-gray-50 scroll-mt-8">
-        <div className="container-max max-w-2xl">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-3">
-            Request a Call Back
-          </h2>
-          <p className="text-center text-gray-500 mb-8">
-            Fill out the form below and Dan will call you within one business day.
-          </p>
-
-          {submitStatus === "success" ? (
-            <div className="bg-green-50 border border-green-200 rounded-2xl p-10 text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Thanks. Dan will call you within one business day.</h3>
-              <p className="text-gray-600">
-                If it&apos;s urgent, call us directly at{" "}
-                <a href={PHONE_HREF} className="font-semibold text-accent hover:underline">{PHONE}</a>.
-              </p>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} noValidate className="space-y-5 bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100" aria-label="Property manager contact form">
-              {submitStatus === "error" && (
-                <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-md text-sm" role="alert">
-                  Something went wrong. Please try again or call us at{" "}
-                  <a href={PHONE_HREF} className="font-semibold underline">{PHONE}</a>.
-                </div>
-              )}
-
-              {/* Name + Company */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                <div>
-                  <label htmlFor="fullName" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                    Full Name *
-                  </label>
-                  <input
-                    id="fullName"
-                    name="fullName"
-                    type="text"
-                    value={formData.fullName}
-                    onChange={handleChange}
-                    autoComplete="name"
-                    className={inputClass("fullName")}
-                  />
-                  {errors.fullName && <p className="text-red-600 text-xs mt-1">{errors.fullName}</p>}
-                </div>
-                <div>
-                  <label htmlFor="company" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                    Company / Management Company *
-                  </label>
-                  <input
-                    id="company"
-                    name="company"
-                    type="text"
-                    value={formData.company}
-                    onChange={handleChange}
-                    autoComplete="organization"
-                    className={inputClass("company")}
-                  />
-                  {errors.company && <p className="text-red-600 text-xs mt-1">{errors.company}</p>}
-                </div>
-              </div>
-
-              {/* Role */}
-              <div>
-                <label htmlFor="role" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                  Your Role
-                </label>
-                <select
-                  id="role"
-                  name="role"
-                  value={formData.role}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 bg-white rounded-md focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900"
-                >
-                  <option value="">Select your role</option>
-                  {ROLE_OPTIONS.map((r) => (
-                    <option key={r} value={r}>{r}</option>
-                  ))}
-                </select>
-              </div>
-
-              {/* Phone + Email */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                    Phone *
-                  </label>
-                  <input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    autoComplete="tel"
-                    className={inputClass("phone")}
-                  />
-                  {errors.phone && <p className="text-red-600 text-xs mt-1">{errors.phone}</p>}
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                    Email *
-                  </label>
-                  <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    autoComplete="email"
-                    className={inputClass("email")}
-                  />
-                  {errors.email && <p className="text-red-600 text-xs mt-1">{errors.email}</p>}
-                </div>
-              </div>
-
-              {/* Buildings + City */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                <div>
-                  <label htmlFor="buildingsCount" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                    Number of Buildings or Units Managed
-                  </label>
-                  <input
-                    id="buildingsCount"
-                    name="buildingsCount"
-                    type="text"
-                    value={formData.buildingsCount}
-                    onChange={handleChange}
-                    placeholder="e.g. 3 buildings, 200 units"
-                    className="w-full px-4 py-3 border border-gray-300 bg-white rounded-md focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="cityArea" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                    City / Area of the Properties
-                  </label>
-                  <input
-                    id="cityArea"
-                    name="cityArea"
-                    type="text"
-                    value={formData.cityArea}
-                    onChange={handleChange}
-                    placeholder="e.g. North York, Markham"
-                    className="w-full px-4 py-3 border border-gray-300 bg-white rounded-md focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900"
-                  />
-                </div>
-              </div>
-
-              {/* Services checkboxes */}
-              <div>
-                <p className="block text-sm font-semibold text-gray-700 mb-2">
-                  What do you need help with?
-                </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                  {SERVICES_LIST.map((s) => (
-                    <label key={s.title} className="flex items-center gap-2 cursor-pointer text-sm text-gray-700 p-2 rounded hover:bg-gray-50 transition-colors">
-                      <input
-                        type="checkbox"
-                        checked={formData.servicesNeeded.includes(s.title)}
-                        onChange={() => handleCheckbox(s.title)}
-                        className="w-4 h-4 rounded border-gray-300 text-accent accent-accent focus:ring-accent"
-                      />
-                      {s.title}
-                    </label>
-                  ))}
-                </div>
-              </div>
-
-              {/* Message */}
-              <div>
-                <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows={3}
-                  placeholder="Tell us about your properties or any specific needs..."
-                  className="w-full px-4 py-3 border border-gray-300 bg-white rounded-md focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900 resize-none"
-                />
-              </div>
-
-              {/* Best time to call */}
-              <div>
-                <p className="block text-sm font-semibold text-gray-700 mb-2">Best Time to Call</p>
-                <div className="flex flex-wrap gap-4">
-                  {TIME_OPTIONS.map((time) => (
-                    <label key={time} className="flex items-center gap-2 cursor-pointer">
-                      <input
-                        type="radio"
-                        name="bestTime"
-                        value={time}
-                        checked={formData.bestTime === time}
-                        onChange={handleChange}
-                        className="w-4 h-4 text-accent accent-accent focus:ring-accent"
-                      />
-                      <span className="text-gray-700 text-sm">{time}</span>
-                    </label>
-                  ))}
-                </div>
-              </div>
-
-              {/* Submit */}
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className="w-full bg-accent hover:bg-accent-dark disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-semibold py-4 rounded-md shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 text-base"
-              >
-                {isSubmitting ? (
-                  <>
-                    <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-                    </svg>
-                    Sending...
-                  </>
-                ) : (
-                  "Request a Call Back"
-                )}
-              </button>
-
-              <p className="text-xs text-gray-500 leading-relaxed text-center">
-                By submitting this form, you consent to LuminaSky Glass contacting you by phone or email regarding your inquiry. See our{" "}
-                <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a>.
-              </p>
-            </form>
-          )}
+          <div className="text-center mt-10">
+            <a
+              href="#form"
+              className="btn-primary text-base px-8 py-3.5"
+            >
+              Claim My Free Repair
+            </a>
+          </div>
         </div>
       </section>
 
