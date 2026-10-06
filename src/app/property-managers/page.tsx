@@ -185,12 +185,13 @@ export default function PropertyManagersPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-blue-950/65 via-blue-900/45 to-blue-900/25" aria-hidden="true" />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-12 lg:py-16">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-8 lg:py-10">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_minmax(0,420px)] gap-8 lg:gap-8 items-start">
             {/* Left: Copy + How it works */}
             <div className="lg:py-4">
               <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold leading-[1.15] mb-4 tracking-tight">
-                Your First Window Crank Repair Is Free
+                Your First Window Crank Repair Is{" "}
+                <span className="text-accent-light text-[1.4em] italic">Free</span>
               </h1>
               <p className="text-lg lg:text-xl font-semibold text-blue-100 mb-4">
                 Window, door and glass repair for condos and managed properties across the GTA
