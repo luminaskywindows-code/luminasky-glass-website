@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import emailjs from "@emailjs/browser";
 import { Phone, Mail, Wrench, Droplets, DoorOpen, Paintbrush, Wind, Sun, CheckCircle2, ClipboardList, PhoneCall, Star, Check, ChevronRight } from "lucide-react";
 import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF } from "@/lib/constants";
@@ -172,12 +173,19 @@ export default function PropertyManagersPage() {
   return (
     <>
       {/* ── Hero with Form ── */}
-      <section id="form" className="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-[#162d6e] text-white scroll-mt-8">
-        <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: "radial-gradient(circle at 20% 50%, rgba(14,165,233,0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(56,189,248,0.3) 0%, transparent 40%), radial-gradient(circle at 60% 80%, rgba(14,165,233,0.2) 0%, transparent 45%)" }} />
-        <div className="absolute top-0 right-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/4" />
+      <section id="form" className="relative overflow-hidden text-white scroll-mt-8">
+        <Image
+          src="/images/hero/property-managers-hero.png"
+          alt=""
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+          aria-hidden="true"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-950/65 via-blue-900/45 to-blue-900/25" aria-hidden="true" />
 
-        <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-12 lg:py-16">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-12 lg:py-16">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_minmax(0,420px)] gap-8 lg:gap-8 items-start">
             {/* Left: Copy + How it works */}
             <div className="lg:py-4">
