@@ -330,7 +330,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Walk through your home with this list. For most people, the inspection takes about 20 minutes. Make a note of anything that feels off: a draft, a sticky handle, fog between panes, a lock that does not latch.</p>
 
-<p>If everything checks out, you are set for winter. If you find one or two issues, getting them fixed now is straightforward. Most hardware repairs are same-day. Glass replacements typically take one to two weeks from measurement to installation.</p>
+<p>If everything checks out, you are set for winter. If you find one or two issues, getting them fixed now is straightforward. Most hardware repairs are same-day. Glass replacements typically take one to two weeks from measurement to installation. See our guide on <a href="/blog/replace-window-glass-in-winter">replacing window glass in winter</a>.</p>
 
 <p>For anything on this list, we can help. Book a $30 site visit and a technician will inspect the problem, explain your options, and give you a written quote. That $30 gets credited toward whatever work you decide to do.</p>
 
@@ -436,7 +436,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="can-you-replace-glass-in-winter">Can You Replace Glass in Winter?</h2>
 
-<p>Yes. Because the new glass is made to measure before installation day, the opening is only exposed for a short time while each unit is swapped.</p>
+<p>Yes. Because the new glass is made to measure before installation day, the opening is only exposed for a short time while each unit is swapped. We cover this in detail in our guide on <a href="/blog/replace-window-glass-in-winter">replacing window glass in winter</a>.</p>
 
 <p>For a full pre-winter check of your windows, doors, skylights and hardware, see our <a href="/blog/winter-window-checklist-gta">winter window checklist for GTA homes</a>.</p>
 
@@ -471,6 +471,151 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>If you cannot tell whether your condensation is on the surface or between the panes, a quick site visit will give you a clear answer. A technician inspects the window, identifies whether the seal has failed, and gives you a written quote if work is needed.</p>
 
 <p>Book a $30 site visit. That fee gets credited toward whatever work you decide to do.</p>
+
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
+`,
+  },
+  {
+    slug: "replace-window-glass-in-winter",
+    title: "Can You Replace Window Glass in Winter? A Guide for GTA Homeowners",
+    metaTitle:
+      "Can You Replace Window Glass in Winter? | LuminaSky Glass",
+    metaDescription:
+      "Yes, foggy and broken window glass can be replaced in winter. Here's how cold-weather glass replacement works, how long it takes and how to prepare.",
+    excerpt:
+      "Yes. Foggy sealed units, cracked panes, and broken glass can all be replaced during winter. The process is designed so your home stays warm throughout. Here is how it works.",
+    publishedAt: "2026-10-07",
+    author: "Dan, LuminaSky Glass",
+    readingTime: 6,
+    tags: ["winter", "glass replacement", "foggy glass", "broken glass", "sealed unit"],
+    sections: [
+      { id: "short-answer", title: "The Short Answer" },
+      { id: "how-winter-glass-replacement-works", title: "How Winter Glass Replacement Works" },
+      { id: "what-about-the-cold-air", title: "What About the Cold Air?" },
+      { id: "types-of-glass-replaced-in-winter", title: "Types of Glass Replaced in Winter" },
+      { id: "does-cold-weather-affect-the-seal", title: "Does Cold Weather Affect the Seal?" },
+      { id: "how-long-does-it-take", title: "How Long Does It Take?" },
+      { id: "how-to-prepare-your-home", title: "How to Prepare Your Home" },
+      { id: "other-winter-repairs", title: "Other Winter Repairs We Do" },
+      { id: "faq", title: "Common Questions" },
+      { id: "dont-wait", title: "Don't Wait Until Spring" },
+    ],
+    content: `
+<p>Yes. Foggy sealed units, cracked panes, and broken glass can all be replaced during winter. The process is designed so your home stays warm throughout. Here is how it works.</p>
+
+<h2 id="short-answer">The Short Answer</h2>
+
+<p>Window glass replacement can be done year-round, including through the coldest months of a GTA winter. The reason is simple: the new glass is manufactured and ready before the technician arrives. On installation day, the old unit comes out and the new one goes in. The opening is exposed for minutes, not hours.</p>
+
+<p>This applies to <a href="/foggy-windows">foggy sealed units</a>, cracked panes, broken glass, and most other glass-related repairs. If the frame is intact, the glass can be swapped without removing the window from the wall.</p>
+
+<h2 id="how-winter-glass-replacement-works">How Winter Glass Replacement Works</h2>
+
+<p>The process has two stages, separated by a manufacturing period:</p>
+
+<p><strong>Stage 1: Measurement.</strong> A technician visits your home, inspects the window, and takes precise measurements of the glass opening. This visit also confirms whether the frame is in good condition and whether any hardware needs attention. The $30 site visit fee covers this assessment, and it gets credited toward the final cost if you proceed.</p>
+
+<p><strong>Stage 2: Installation.</strong> Once the new sealed unit is manufactured to your exact dimensions, the technician returns to install it. The old glass is removed, the new unit is set into the frame, and the glazing is sealed. For a standard window, installation takes 20 to 40 minutes per unit.</p>
+
+<p>The gap between measurement and installation is typically one to two weeks, depending on the glass type, size, and any special coatings like low-E or tinted glass.</p>
+
+<h2 id="what-about-the-cold-air">What About the Cold Air?</h2>
+
+<p>This is the question homeowners ask most. The concern is understandable: nobody wants a window-sized hole in their wall when it is minus 15 outside.</p>
+
+<p>In practice, the exposure time is very short. The technician prepares everything before removing the old glass. The new unit is standing by, ready to go in. The swap itself takes a few minutes per pane. For most jobs, the room temperature barely changes.</p>
+
+<p>If you are replacing multiple windows in the same home, the technician works one window at a time, finishing each before starting the next. Your home is never left with more than one opening exposed.</p>
+
+<h2 id="types-of-glass-replaced-in-winter">Types of Glass Replaced in Winter</h2>
+
+<p>Nearly every type of residential glass can be replaced in cold weather:</p>
+
+<ul>
+  <li><strong>Foggy sealed units (IGUs):</strong> the most common winter job. Failed seals let moisture in, and the fog is most visible in winter because of the temperature difference. See our page on <a href="/foggy-windows">foggy window repair</a>.</li>
+  <li><strong>Cracked or broken panes:</strong> whether from impact, thermal stress, or a failed seal that let moisture freeze and expand.</li>
+  <li><strong><a href="/front-door-glass">Front door glass</a>:</strong> decorative and sidelite panels can be replaced without removing the door.</li>
+  <li><strong><a href="/skylights">Skylight glass</a>:</strong> skylights take heavy abuse from snow and ice, and their seals tend to fail faster than vertical windows.</li>
+  <li><strong><a href="/screen-storm-doors">Storm door glass</a>:</strong> cracked or foggy storm door panels are replaced the same way.</li>
+</ul>
+
+<h2 id="does-cold-weather-affect-the-seal">Does Cold Weather Affect the Seal?</h2>
+
+<p>Modern glazing sealants are formulated to cure in a wide range of temperatures. Professional-grade silicone and polyurethane sealants bond properly in cold conditions. The sealed unit itself is manufactured in a climate-controlled facility regardless of the season, so the insulating gas fill and edge seal are identical to what you would get in summer.</p>
+
+<p>The only weather condition that may delay installation is extreme wind or heavy precipitation, because moisture on the frame surface can interfere with sealant adhesion. Light snow and normal winter cold are not a problem.</p>
+
+<h2 id="how-long-does-it-take">How Long Does It Take?</h2>
+
+<p>From first call to finished installation, expect two to three weeks:</p>
+
+<ul>
+  <li><strong>Measurement visit:</strong> usually scheduled within a few days of your call.</li>
+  <li><strong>Manufacturing:</strong> one to two weeks for standard sealed units. Specialty glass (oversized, shaped, tinted, or triple-pane) may take slightly longer.</li>
+  <li><strong>Installation:</strong> 20 to 40 minutes per window on site. Most homes with one to three windows are done in under two hours.</li>
+</ul>
+
+<p>If you have a broken window that is letting cold air or water in right now, let us know when you call. We can often arrange a temporary seal or board-up until the new glass arrives.</p>
+
+<h2 id="how-to-prepare-your-home">How to Prepare Your Home</h2>
+
+<p>There is not much to do, but a few things help the process go smoothly:</p>
+
+<ul>
+  <li>Clear the area around the window. Move furniture, curtains, and anything fragile away from the work zone.</li>
+  <li>Keep the room warm. The technician will work quickly, but starting from a warm room means any brief cold air exposure has less impact.</li>
+  <li>Make sure the technician can access the window from inside. If the window is above a counter or bathtub, clear the surface.</li>
+  <li>If the window is on an upper floor, let us know in advance so the crew brings the right equipment.</li>
+</ul>
+
+<h2 id="other-winter-repairs">Other Winter Repairs We Do</h2>
+
+<p>Glass replacement is not the only repair that can be done in cold weather. These are also common winter calls:</p>
+
+<ul>
+  <li><a href="/cranks">Window crank and hardware repair</a>: a broken crank means a window that does not close, which means drafts. Most window hardware repairs are completed on the same day, on the first visit.</li>
+  <li>Weatherstripping replacement: restores the seal around your window sash without replacing any glass or hardware.</li>
+  <li><a href="/skylights">Skylight seal and glass repair</a>: skylights are exposed to snow, ice, and freeze-thaw cycles that accelerate seal failure.</li>
+  <li><a href="/screen-storm-doors">Storm door glass and screen doors</a>: swap a cracked storm door panel or install the glass insert for winter.</li>
+</ul>
+
+<p>Not sure if your foggy glass is from a failed seal or just normal condensation? See our guide on <a href="/blog/window-condensation-in-winter">window condensation in winter</a>. For a full pre-winter check of everything on your windows, doors, and skylights, see our <a href="/blog/winter-window-checklist-gta">winter window checklist for GTA homes</a>.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<p><strong>Will my house get cold during installation?</strong></p>
+<p>Briefly. The opening is exposed for only a few minutes per window. Most homeowners do not notice a meaningful temperature change in the room.</p>
+
+<p><strong>Can you replace glass when it is snowing?</strong></p>
+<p>Light snow is fine. Heavy snow or ice storms may require rescheduling to ensure proper sealant adhesion and safe working conditions.</p>
+
+<p><strong>Is winter glass replacement more expensive?</strong></p>
+<p>No. The cost is the same year-round. The glass is manufactured the same way regardless of season.</p>
+
+<p><strong>What if my window is broken right now and letting in cold air?</strong></p>
+<p>Call us and let us know it is urgent. We can arrange a temporary seal or board-up within a day or two while the new glass is being made.</p>
+
+<p><strong>Do I need to replace the whole window?</strong></p>
+<p>Almost never. If the frame is in good condition, only the glass unit needs to be replaced. The frame stays, the trim stays, and the cost is a fraction of full window replacement.</p>
+
+<p><strong>Where do you do winter glass replacement?</strong></p>
+<p>We serve the entire GTA, including:</p>
+<ul>
+  <li><a href="/window-repair-vaughan">Window repair in Vaughan</a></li>
+  <li><a href="/window-repair-thornhill">Window repair in Thornhill</a></li>
+  <li><a href="/window-repair-richmond-hill">Window repair in Richmond Hill</a></li>
+  <li><a href="/window-repair-markham">Window repair in Markham</a></li>
+  <li><a href="/window-repair-aurora">Window repair in Aurora</a></li>
+  <li><a href="/window-repair-newmarket">Window repair in Newmarket</a></li>
+</ul>
+
+<h2 id="dont-wait">Don't Wait Until Spring</h2>
+
+<p>A foggy or broken window is not just a cosmetic issue. It is costing you heat every day it stays unrepaired. The longer you wait, the more energy you lose and the higher the chance of secondary damage from moisture getting into the frame.</p>
+
+<p>Winter is actually one of the best times to deal with window glass problems, because the symptoms are most visible and the motivation is immediate. You can see the fog, feel the draft, and measure the difference once the new glass is in.</p>
+
+<p>Book a $30 site visit and a technician will inspect the problem, explain your options, and give you a written quote. That $30 gets credited toward whatever work you decide to do.</p>
 
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
 `,
