@@ -222,6 +222,121 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a> to book your assessment.</p>
 `,
   },
+  {
+    slug: "winter-window-checklist-gta",
+    title: "Winter Window Checklist for GTA Homes: 10 Things to Check Before the First Freeze",
+    metaTitle:
+      "Winter Window Checklist for GTA Homes | LuminaSky Glass",
+    metaDescription:
+      "Before the cold sets in, check these 10 things on your windows, doors and skylights. A simple winter checklist for Vaughan, Thornhill and GTA homeowners.",
+    excerpt:
+      "Ontario winters are hard on windows. A 20-minute walk around your home now can prevent drafts, water damage, and emergency calls in January. Here are 10 things every GTA homeowner should check before the temperature drops.",
+    publishedAt: "2026-10-07",
+    author: "LuminaSky Glass",
+    readingTime: 7,
+    tags: ["winter", "window maintenance", "foggy glass", "window cranks", "drafts"],
+    sections: [
+      { id: "why-check-now", title: "Why Check Your Windows Now?" },
+      { id: "condensation-between-panes", title: "1. Condensation Between the Panes" },
+      { id: "drafts-around-frames", title: "2. Drafts Around the Frame" },
+      { id: "crank-handles", title: "3. Crank Handles That Spin or Stick" },
+      { id: "locks-that-dont-latch", title: "4. Locks That Don't Latch" },
+      { id: "weatherstripping", title: "5. Worn or Missing Weatherstripping" },
+      { id: "cracked-glass", title: "6. Cracked or Chipped Glass" },
+      { id: "sliding-doors", title: "7. Sliding Doors That Drag" },
+      { id: "skylights", title: "8. Skylights: Leaks and Condensation" },
+      { id: "storm-doors-and-screens", title: "9. Storm Doors and Screens" },
+      { id: "balcony-doors", title: "10. Balcony Door Seals" },
+      { id: "what-to-do-next", title: "What to Do Next" },
+    ],
+    content: `
+<p>Ontario winters are hard on windows. Temperatures swing from mild fall days to deep freezes overnight, and that cycle puts stress on every seal, hinge, and pane in your home. A 20-minute walk around your house now can prevent drafts, water damage, and emergency calls in January.</p>
+
+<p>This checklist covers the 10 most common issues we see every fall in Vaughan, Thornhill, Richmond Hill, and across the GTA. Most are easy to spot. Some you can feel with your hand. All of them are cheaper to fix before winter than during it.</p>
+
+<h2 id="why-check-now">Why Check Your Windows Now?</h2>
+
+<p>Cold air finds every gap. A small draft you barely notice in October becomes a steady stream of cold air by December. Moisture that seeps through a failed seal freezes, expands, and can crack the glass or warp the frame. And once snow is on the ground, scheduling a repair takes longer and costs more.</p>
+
+<p>Catching problems now means you have time to get them fixed while the weather is still cooperative. Most window hardware repairs are completed on the same day, on the first visit. Glass replacements require a measurement visit first, since sealed units are custom-made to fit your exact opening.</p>
+
+<h2 id="condensation-between-panes">1. Condensation Between the Panes</h2>
+
+<p>If you see fog, moisture, or a milky haze trapped between the two layers of glass, the sealed unit has failed. The insulating gas has escaped and outside air has gotten in. Wiping the glass does not help because the moisture is inside the unit.</p>
+
+<p>This is the single most common window issue in the GTA, especially in homes built between 2000 and 2015. The good news: you almost never need to replace the whole window. The <a href="/foggy-windows">sealed glass unit can be replaced</a> on its own. The frame stays, the trim stays, and the job typically takes under an hour once the new glass arrives.</p>
+
+<p>Check every window in your home, including basement windows. Pay extra attention to south-facing and west-facing glass, which takes the most sun exposure and tends to fail first.</p>
+
+<h2 id="drafts-around-frames">2. Drafts Around the Frame</h2>
+
+<p>Hold your hand along the edges of each window on a cool day. If you feel air movement, something is not sealing properly. Common culprits include worn weatherstripping, a lock that no longer pulls the sash tight, or old caulking that has cracked and separated from the frame.</p>
+
+<p>Small drafts add up fast. A few leaky windows can increase your heating bill noticeably and make certain rooms uncomfortable all winter. In many cases, replacing the weatherstripping or adjusting the hardware is all it takes to restore the seal.</p>
+
+<h2 id="crank-handles">3. Crank Handles That Spin or Stick</h2>
+
+<p>Casement and awning windows use a crank operator to open and close. Over time, the gears wear down. You will notice the handle spinning without moving the sash, or the window not closing all the way. A window that does not close flush is a window that leaks air and water.</p>
+
+<p>This is a <a href="/cranks">window hardware repair</a>, not a window replacement. The operator mechanism is a replaceable part. Most window hardware repairs are completed on the same day, on the first visit.</p>
+
+<p>Test every crank in your home. Open the window, close it, and make sure it pulls tight against the frame with no gaps.</p>
+
+<h2 id="locks-that-dont-latch">4. Locks That Don't Latch</h2>
+
+<p>Window locks do more than keep intruders out. They pull the sash tight against the weatherstripping, creating the air seal your window depends on. A lock that does not engage, or one that closes but feels loose, means the sash is not compressing the seal properly.</p>
+
+<p>Try every lock. If it does not click firmly into place, or if you can still wiggle the sash after locking, the lock mechanism likely needs replacing. Like cranks, this is a hardware repair that can usually be done in a single visit.</p>
+
+<h2 id="weatherstripping">5. Worn or Missing Weatherstripping</h2>
+
+<p>Weatherstripping is the rubber or foam gasket that runs along the edges of your window sash. It compresses when the window closes to create a tight seal. After years of opening and closing, it flattens, cracks, or pulls away from the frame entirely.</p>
+
+<p>Look at the stripping around each window. If it is cracked, compressed flat, torn, or missing in sections, it needs to be replaced. This is one of the most affordable fixes and makes an immediate difference in comfort and energy efficiency.</p>
+
+<h2 id="cracked-glass">6. Cracked or Chipped Glass</h2>
+
+<p>A small crack might seem harmless, but temperature changes cause glass to expand and contract. A chip that survives September can spider across the pane during the first hard freeze. Once a crack reaches the edge of the glass, the pane can fail completely.</p>
+
+<p>If you have any cracked or chipped glass, get it assessed before winter. Glass is measured first, custom-made, then installed. Starting the process now means your new glass arrives before the cold does.</p>
+
+<h2 id="sliding-doors">7. Sliding Doors That Drag</h2>
+
+<p>Sliding patio doors ride on rollers along a bottom track. Over time, the rollers wear out and the door starts dragging. A door that does not slide smoothly is a door that does not close tightly, and that means drafts along the entire bottom edge.</p>
+
+<p>Test your sliding doors. They should glide easily with one hand. If you need to lift, jerk, or force the door, the rollers or track likely need attention. Also check the latch. It should pull the door snug against the frame when locked.</p>
+
+<h2 id="skylights">8. Skylights: Leaks and Condensation</h2>
+
+<p><a href="/skylights">Skylights</a> take more abuse than any other window in your home. They sit at an angle, collecting rain, snow, ice, and direct sun. The seals around skylights fail faster than vertical windows, and leaks can go unnoticed until water stains appear on the ceiling below.</p>
+
+<p>Look at the interior frame of each skylight. Any discolouration, bubbling paint, or soft drywall is a sign of water getting in. From outside, check that the flashing around the skylight is intact and that no caulking has pulled away.</p>
+
+<p>Condensation inside a skylight follows the same rules as any window. If the fog is between the panes, the sealed unit has failed and needs replacing.</p>
+
+<h2 id="storm-doors-and-screens">9. Storm Doors and Screens</h2>
+
+<p>If you have <a href="/screen-storm-doors">storm doors</a>, fall is the time to swap the screen panel for the glass insert. A storm door with a glass panel adds a layer of insulation to your entry door and cuts drafts significantly.</p>
+
+<p>Check the door closer, the latch, and the weatherstripping around the frame. A storm door that does not close fully or that has gaps around the edges is not doing its job. Also inspect <a href="/window-screens">window screens</a> and decide whether to remove and store them for winter. Screens left on through winter collect ice and can get damaged.</p>
+
+<h2 id="balcony-doors">10. Balcony Door Seals</h2>
+
+<p>If you live in a condo or townhouse, check the seal around your balcony door. Balcony doors are exposed to wind on upper floors and often develop drafts along the bottom or the hinge side. The weatherstripping compresses faster on doors that get opened and closed frequently.</p>
+
+<p>Close the door and run your hand along all four edges. Any air movement means the seal needs attention. Also check that the door handle pulls the door tight when locked. A loose multi-point lock is a common source of cold air in high-rise units.</p>
+
+<h2 id="what-to-do-next">What to Do Next</h2>
+
+<p>Walk through your home with this list. For most people, the inspection takes about 20 minutes. Make a note of anything that feels off: a draft, a sticky handle, fog between panes, a lock that does not latch.</p>
+
+<p>If everything checks out, you are set for winter. If you find one or two issues, getting them fixed now is straightforward. Most hardware repairs are same-day. Glass replacements typically take one to two weeks from measurement to installation.</p>
+
+<p>For anything on this list, we can help. Book a $30 site visit and a technician will inspect the problem, explain your options, and give you a written quote. That $30 gets credited toward whatever work you decide to do.</p>
+
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a> to get your windows winter-ready.</p>
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
