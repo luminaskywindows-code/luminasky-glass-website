@@ -312,7 +312,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Look at the interior frame of each skylight. Any discolouration, bubbling paint, or soft drywall is a sign of water getting in. From outside, check that the flashing around the skylight is intact and that no caulking has pulled away.</p>
 
-<p>Condensation inside a skylight follows the same rules as any window. If the fog is between the panes, the sealed unit has failed and needs replacing.</p>
+<p>Condensation inside a skylight follows the same rules as any window. If the fog is between the panes, the sealed unit has failed and needs replacing. Our post on <a href="/blog/skylights-in-winter-leaks-ice-dams-condensation">skylights in winter</a> explains how to tell a leak from condensation.</p>
 
 <h2 id="storm-doors-and-screens">9. Storm Doors and Screens</h2>
 
@@ -616,6 +616,173 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Winter is actually one of the best times to deal with window glass problems, because the symptoms are most visible and the motivation is immediate. You can see the fog, feel the draft, and measure the difference once the new glass is in.</p>
 
 <p>Book a $30 site visit and a technician will inspect the problem, explain your options, and give you a written quote. That $30 gets credited toward whatever work you decide to do.</p>
+
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
+`,
+  },
+  {
+    slug: "skylights-in-winter-leaks-ice-dams-condensation",
+    title: "Skylights in Winter: Leaks, Ice Dams and Condensation Explained",
+    metaTitle:
+      "Skylights in Winter: Leaks, Ice Dams and Condensation | LuminaSky Glass",
+    metaDescription:
+      "Water dripping from your skylight in winter? Learn how to tell condensation from a real leak, how ice dams affect skylights, and when to repair or replace.",
+    excerpt:
+      "Water around your skylight in winter can mean condensation, a failed seal, a flashing leak, or ice dam backup. Each has a different cause and a different fix. This guide helps you figure out which one you are dealing with.",
+    publishedAt: "2026-10-07",
+    author: "Dan, LuminaSky Glass",
+    readingTime: 6,
+    tags: ["winter", "skylights", "skylight leak", "ice dams", "condensation"],
+    sections: [
+      { id: "why-skylights-struggle", title: "Why Skylights Struggle in Winter" },
+      { id: "condensation-vs-leak", title: "Condensation vs. a Real Leak" },
+      { id: "skylight-condensation", title: "Skylight Condensation" },
+      { id: "fogged-skylight-glass", title: "Fogged Skylight Glass" },
+      { id: "flashing-leaks", title: "Flashing Leaks" },
+      { id: "ice-dams", title: "Ice Dams and Skylights" },
+      { id: "when-to-repair-vs-replace", title: "When to Repair vs. Replace a Skylight" },
+      { id: "what-you-can-do-now", title: "What You Can Do Now" },
+      { id: "faq", title: "Common Questions" },
+      { id: "worried", title: "Worried About Your Skylight?" },
+    ],
+    content: `
+<p>Water around your skylight in winter can mean condensation, a failed seal, a flashing leak, or ice dam backup. Each has a different cause and a different fix. This guide helps you figure out which one you are dealing with.</p>
+
+<h2 id="why-skylights-struggle">Why Skylights Struggle in Winter</h2>
+
+<p><a href="/skylights">Skylights</a> sit at an angle on your roof, which means they collect everything vertical windows avoid: rain pools, snow loads, ice buildup, and direct UV at steep angles. The seals, flashing, and glass all take more abuse than any other window in the house.</p>
+
+<p>In winter, the problems multiply. Warm air rises to the ceiling where the skylight sits, creating the biggest temperature difference in the home. Snow melts on the glass, refreezes at the edges, and puts pressure on every joint. Condensation forms on the coldest surface in the room, which is almost always the skylight.</p>
+
+<p>The result: skylights are the window most likely to show water problems in winter, and homeowners often cannot tell whether the water is condensation, a seal failure, or a genuine roof leak.</p>
+
+<h2 id="condensation-vs-leak">Condensation vs. a Real Leak</h2>
+
+<p>The fastest way to tell the difference:</p>
+
+<ul>
+  <li><strong>Condensation</strong> appears as a fine mist, small droplets, or frost on the interior surface of the glass. You can wipe it with a cloth. It tends to appear in the morning and clear up as the room warms.</li>
+  <li><strong>A leak</strong> produces running water, drips, or stains that appear on the frame, the drywall around the skylight, or the ceiling below. It gets worse during rain, snowmelt, or freeze-thaw cycles.</li>
+  <li><strong>A failed seal</strong> shows fog or haze trapped between the panes that you cannot wipe from either side. This looks like condensation but is inside the glass unit itself.</li>
+</ul>
+
+<p>Each of these has a different fix. Treating one as another wastes time and money.</p>
+
+<h2 id="skylight-condensation">Skylight Condensation</h2>
+
+<p>Warm, humid indoor air rises to the ceiling and hits the cold skylight glass. Water droplets form on the surface. This is normal physics, not a defect.</p>
+
+<p>Skylight condensation is most common in:</p>
+
+<ul>
+  <li>Kitchens and bathrooms, where cooking and showering add moisture to the air.</li>
+  <li>Bedrooms, especially with the door closed overnight.</li>
+  <li>New or recently renovated homes that are more airtight than older ones.</li>
+</ul>
+
+<p>What helps:</p>
+
+<ul>
+  <li>Run exhaust fans during and after cooking or showering.</li>
+  <li>Open a window briefly each day to exchange humid air for dry outdoor air.</li>
+  <li>Use a dehumidifier if condensation appears on multiple skylights or windows.</li>
+  <li>If your skylight has a built-in vent, open it when the weather allows.</li>
+</ul>
+
+<p>For a deeper explanation of the three types of window condensation, see our guide on <a href="/blog/window-condensation-in-winter">window condensation in winter</a>.</p>
+
+<h2 id="fogged-skylight-glass">Fogged Skylight Glass</h2>
+
+<p>If the fog is between the two panes of glass, not on the interior surface, the sealed unit has failed. The insulating gas has escaped and outside moisture has gotten in. No amount of ventilation will fix this because the problem is inside the glass unit.</p>
+
+<p>The sealed glass unit can be replaced without replacing the entire skylight frame, as long as the frame is still in good condition. Glass is measured first, custom-made to the exact opening, then installed. If you decide to replace a fogged skylight unit, we explain the cold-weather process in our guide on <a href="/blog/replace-window-glass-in-winter">replacing window glass in winter</a>.</p>
+
+<p>Skylight seals tend to fail earlier than vertical window seals because of the angle of exposure. South-facing skylights fail first.</p>
+
+<h2 id="flashing-leaks">Flashing Leaks</h2>
+
+<p>Flashing is the metal or rubber membrane that seals the joint between the skylight frame and the roof. Over time, flashing can lift, crack, or separate from the frame, especially after years of thermal expansion and contraction.</p>
+
+<p>Signs of a flashing leak:</p>
+
+<ul>
+  <li>Water stains or drips appearing on the drywall around the skylight, not on the glass itself.</li>
+  <li>Water that appears during or shortly after rain, or during snowmelt.</li>
+  <li>Discolouration, soft spots, or bubbling paint on the ceiling near the skylight.</li>
+</ul>
+
+<p>Flashing leaks are a roofing issue at the junction point. In some cases, the flashing can be resealed. In others, the flashing kit needs to be replaced entirely. If the skylight frame itself is damaged or warped from prolonged water exposure, the entire unit may need replacing.</p>
+
+<h2 id="ice-dams">Ice Dams and Skylights</h2>
+
+<p>An ice dam forms when heat escaping through the roof melts snow from underneath. The meltwater runs down to the eaves, where it refreezes into a ridge of ice. Water pools behind the dam and can back up under shingles and around skylight flashing.</p>
+
+<p>Skylights are especially vulnerable because:</p>
+
+<ul>
+  <li>They create a warm spot on the roof surface, accelerating snowmelt directly around the frame.</li>
+  <li>The flashing joint is a natural weak point where backed-up water can penetrate.</li>
+  <li>Ice forming around the skylight frame puts mechanical pressure on the seal.</li>
+</ul>
+
+<p>Short-term, you can carefully remove snow from around the skylight with a roof rake (never use a shovel or ice pick on the glass). Long-term, ice dams are usually an insulation and ventilation problem in the attic. Improving attic insulation reduces heat loss through the roof and prevents the melt-refreeze cycle that creates dams.</p>
+
+<h2 id="when-to-repair-vs-replace">When to Repair vs. Replace a Skylight</h2>
+
+<p><strong>Repair makes sense when:</strong></p>
+
+<ul>
+  <li>The glass unit has fogged but the frame is solid. Replace the sealed unit only.</li>
+  <li>The flashing has separated but the frame and glass are fine. Reseal or replace the flashing.</li>
+  <li>Condensation is the issue. Improve ventilation, no parts needed.</li>
+  <li>A single component has failed (handle, hinge, seal) but the rest is intact.</li>
+</ul>
+
+<p><strong>Replacement makes sense when:</strong></p>
+
+<ul>
+  <li>The frame is warped, rotted, or water-damaged.</li>
+  <li>Multiple components have failed at once (glass, seal, flashing, hardware).</li>
+  <li>The skylight is 25+ years old and showing several of the problems above.</li>
+  <li>You want to upgrade to a more energy-efficient unit with better low-E coating or triple-pane glass.</li>
+</ul>
+
+<h2 id="what-you-can-do-now">What You Can Do Now</h2>
+
+<p>Before winter sets in, do a quick skylight inspection:</p>
+
+<ul>
+  <li>From inside, look at the glass. Any fog between the panes means a failed seal.</li>
+  <li>Check the drywall and paint around the skylight frame. Stains, bubbling, or soft spots mean water has been getting in.</li>
+  <li>From outside (if safely accessible), check that the flashing sits flat against the roof and the skylight frame with no gaps or lifted edges.</li>
+  <li>Clear any debris from around the skylight. Leaves and branches trap moisture and accelerate seal breakdown.</li>
+  <li>If your skylight has a crank or handle, test it. A skylight that does not close fully will leak.</li>
+</ul>
+
+<p>For a full pre-winter check of your windows, doors and skylights together, see our <a href="/blog/winter-window-checklist-gta">winter window checklist for GTA homes</a>.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<p><strong>My skylight drips every morning but stops by noon. Is it leaking?</strong></p>
+<p>Probably not. That pattern is typical of condensation. Warm air rises overnight, moisture collects on the cold glass, and it drips as it accumulates. It clears when the sun warms the glass. Try improving ventilation in the room.</p>
+
+<p><strong>There is frost on the inside of my skylight. Is that normal?</strong></p>
+<p>It can be, especially on very cold nights in rooms with higher humidity. Frost on the interior surface is condensation that froze. It melts and drips as the room warms. If frost appears between the panes, the seal has failed.</p>
+
+<p><strong>Can a skylight leak be fixed without replacing the whole unit?</strong></p>
+<p>Often, yes. If the leak is from flashing failure and the frame and glass are fine, resealing or replacing the flashing kit is the fix. If the glass unit has fogged, only the sealed unit needs replacing. Full skylight replacement is only needed when the frame itself is compromised.</p>
+
+<p><strong>How much snow on a skylight is too much?</strong></p>
+<p>Skylights are engineered to handle normal snow loads. But if snow is piling up around the frame and not sliding off, clearing it with a roof rake reduces the risk of ice dam formation and pressure on the seal. Never walk on or near a skylight to clear snow.</p>
+
+<p><strong>My skylight is 20 years old. Should I replace it before winter?</strong></p>
+<p>Not necessarily. If the glass is clear, the frame is solid, the flashing is intact, and it opens and closes properly, it may have years of life left. A $30 site visit can tell you exactly what condition it is in and whether any preventive work is worth doing now.</p>
+
+<h2 id="worried">Worried About Your Skylight?</h2>
+
+<p>If you are seeing water, fog, frost, or stains around your skylight, a quick inspection will tell you exactly what is going on. A technician checks the glass, the seal, the flashing, and the frame, then gives you a clear answer and a written quote if work is needed.</p>
+
+<p>Book a $30 site visit. That fee gets credited toward whatever work you decide to do.</p>
 
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
 `,
