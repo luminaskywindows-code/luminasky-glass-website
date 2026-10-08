@@ -262,7 +262,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="condensation-between-panes">1. Condensation Between the Panes</h2>
 
-<p>If you see fog, moisture, or a milky haze trapped between the two layers of glass, the sealed unit has failed. The insulating gas has escaped and outside air has gotten in. Wiping the glass does not help because the moisture is inside the unit.</p>
+<p>If you see fog, moisture, or a milky haze trapped between the two layers of glass, the sealed unit has failed. The insulating gas has escaped and outside air has gotten in. Wiping the glass does not help because the moisture is inside the unit. If you're not sure whether the fog is between the panes or just surface condensation on cold glass, see our guide on <a href="/blog/window-condensation-in-winter">window condensation in winter</a>.</p>
 
 <p>This is the single most common window issue in the GTA, especially in homes built between 2000 and 2015. The good news: you almost never need to replace the whole window. The <a href="/foggy-windows">sealed glass unit can be replaced</a> on its own. The frame stays, the trim stays, and the job typically takes under an hour once the new glass arrives.</p>
 
@@ -335,6 +335,144 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>For anything on this list, we can help. Book a $30 site visit and a technician will inspect the problem, explain your options, and give you a written quote. That $30 gets credited toward whatever work you decide to do.</p>
 
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a> to get your windows winter-ready.</p>
+`,
+  },
+  {
+    slug: "window-condensation-in-winter",
+    title: "Window Condensation in Winter: Normal, or a Failed Seal?",
+    metaTitle:
+      "Window Condensation in Winter: Normal or Failed Seal? | LuminaSky Glass",
+    metaDescription:
+      "Water on your windows in winter? Learn what condensation inside, outside and between the panes means, and when a foggy window needs a new sealed glass unit.",
+    excerpt:
+      "Water on your windows when the temperature drops does not always mean something is wrong. But sometimes it does. The difference depends on where the moisture is: inside the room, outside on the glass, or trapped between the panes.",
+    publishedAt: "2026-10-07",
+    author: "Dan, LuminaSky Glass",
+    readingTime: 5,
+    tags: ["winter", "condensation", "foggy glass", "sealed unit", "IGU"],
+    sections: [
+      { id: "why-windows-sweat", title: "Why Windows Sweat in Winter" },
+      { id: "condensation-on-the-inside", title: "Condensation on the Inside Surface" },
+      { id: "condensation-on-the-outside", title: "Condensation on the Outside Surface" },
+      { id: "condensation-between-the-panes", title: "Condensation Between the Panes" },
+      { id: "how-sealed-units-fail", title: "How Sealed Units Fail" },
+      { id: "can-a-foggy-window-be-repaired", title: "Can a Foggy Window Be Repaired?" },
+      { id: "can-you-replace-glass-in-winter", title: "Can You Replace Glass in Winter?" },
+      { id: "faq", title: "Common Questions" },
+      { id: "not-sure", title: "Not Sure What You're Looking At?" },
+    ],
+    content: `
+<p>Water on your windows when the temperature drops does not always mean something is wrong. But sometimes it does. The difference depends on where the moisture is: inside the room, outside on the glass, or trapped between the panes.</p>
+
+<p>Each type of condensation has a different cause and a different fix. This guide explains all three so you can tell what is normal, what is not, and when you need a professional.</p>
+
+<h2 id="why-windows-sweat">Why Windows Sweat in Winter</h2>
+
+<p>Condensation forms when warm, moist air hits a cold surface. In winter, your window glass is the coldest surface in the room. When indoor humidity is high enough, water droplets collect on the glass the same way they form on a cold drink in summer.</p>
+
+<p>This is basic physics, not a defect. But the location of the moisture tells you whether the window is working as designed or whether something has failed.</p>
+
+<h2 id="condensation-on-the-inside">Condensation on the Inside Surface</h2>
+
+<p>If water forms on the interior surface of the glass, the side you can touch from inside your home, the window is doing its job. The glass is cold, the indoor air is humid, and the moisture lands on the coldest available surface.</p>
+
+<p>This is most common in kitchens, bathrooms, and bedrooms. Cooking, showering, and even breathing raise indoor humidity. New homes and recently renovated homes tend to be more airtight, which traps more moisture inside.</p>
+
+<p>What to do about it:</p>
+
+<ul>
+  <li>Run exhaust fans in kitchens and bathrooms during and after cooking or showering.</li>
+  <li>Open a window briefly to exchange humid indoor air for dry outdoor air.</li>
+  <li>Use a dehumidifier if the problem is widespread.</li>
+  <li>Make sure your dryer vents to the outside, not into the house.</li>
+</ul>
+
+<p>If interior condensation only appears on one or two windows while the rest stay dry, those windows may have a weaker thermal seal than the others. It does not necessarily mean they are broken, but it is worth watching.</p>
+
+<h2 id="condensation-on-the-outside">Condensation on the Outside Surface</h2>
+
+<p>Moisture on the exterior surface of the glass, the side facing your yard, is actually a sign that your window is working well. It means the outer pane is staying cool because the insulating gas between the panes is preventing heat from transferring through.</p>
+
+<p>Exterior condensation usually appears on cool, clear mornings and burns off once the sun hits the glass. It is most common on high-performance windows with low-E coatings. No action is needed.</p>
+
+<h2 id="condensation-between-the-panes">Condensation Between the Panes</h2>
+
+<p>This is the one that matters. If you see fog, haze, or moisture trapped between the two layers of glass, and you cannot wipe it away from either side, the sealed unit has failed.</p>
+
+<p>Modern windows use two or three panes of glass separated by a spacer and sealed at the edges. The gap between the panes is filled with argon or air to provide insulation. When the perimeter seal breaks down, that insulating gas escapes and outside air gets in, bringing moisture with it.</p>
+
+<p>A failed seal means:</p>
+
+<ul>
+  <li>The window has lost its insulating value. You are now looking through two single panes instead of one insulated unit.</li>
+  <li>The fog will get worse over time, not better. Some days it may look clear, but the seal is permanently broken.</li>
+  <li>Energy costs go up because the window is no longer blocking heat transfer the way it was designed to.</li>
+</ul>
+
+<p>This is the most common window problem in the GTA. If your home was built between 2000 and 2015, check every window. South-facing and west-facing glass tends to fail first because of repeated sun exposure.</p>
+
+<h2 id="how-sealed-units-fail">How Sealed Units Fail</h2>
+
+<p>The sealant around the edge of a sealed glass unit is designed to last 15 to 25 years. Over time, UV exposure, temperature cycling, and moisture break it down. Once the seal cracks or separates from the spacer, the unit is compromised.</p>
+
+<p>Common reasons seals fail earlier than expected:</p>
+
+<ul>
+  <li>Direct, prolonged sun exposure, especially on south and west elevations.</li>
+  <li>Poor original manufacturing or installation.</li>
+  <li>Dark-coloured window frames that absorb more heat.</li>
+  <li>Pressure washing or cleaning chemicals applied directly to the seal edge.</li>
+</ul>
+
+<p>Once the seal is broken, there is no way to reseal it from the outside. The glass unit needs to be replaced.</p>
+
+<h2 id="can-a-foggy-window-be-repaired">Can a Foggy Window Be Repaired?</h2>
+
+<p>The sealed glass unit can be replaced without replacing the entire window. The frame stays. The trim stays. Only the glass is swapped out.</p>
+
+<p>A technician measures the exact opening, orders a new sealed unit made to those dimensions, and installs it once the glass arrives. The process is called a <a href="/foggy-windows">sealed unit replacement</a>, and it is a fraction of the cost of a full window replacement.</p>
+
+<p>Glass is measured first, custom-made, then installed. From measurement to installation, expect one to two weeks depending on the glass type and size.</p>
+
+<h2 id="can-you-replace-glass-in-winter">Can You Replace Glass in Winter?</h2>
+
+<p>Yes. Because the new glass is made to measure before installation day, the opening is only exposed for a short time while each unit is swapped.</p>
+
+<p>For a full pre-winter check of your windows, doors, skylights and hardware, see our <a href="/blog/winter-window-checklist-gta">winter window checklist for GTA homes</a>.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<p><strong>My windows fog up every morning but clear by noon. Is the seal broken?</strong></p>
+<p>Probably not. If the moisture is on the inside surface and you can wipe it with a cloth, that is interior condensation caused by humidity. Reduce indoor moisture with exhaust fans and ventilation.</p>
+
+<p><strong>The fog is between the panes but it comes and goes. Does that mean the seal is fine?</strong></p>
+<p>No. A failed seal lets moisture in and out depending on temperature and humidity. The fog disappearing temporarily does not mean the seal has recovered. Once broken, it stays broken.</p>
+
+<p><strong>Can I just drill a hole to let the moisture out?</strong></p>
+<p>Some companies offer this as a service, but it removes the insulating gas permanently and does not restore the seal. The window ends up with two uninsulated single panes. Replacing the sealed unit is the proper fix.</p>
+
+<p><strong>Do I need to replace the whole window?</strong></p>
+<p>Almost never. If the frame is in good condition, only the sealed glass unit needs replacing. See our <a href="/foggy-windows">foggy window repair</a> page for details.</p>
+
+<p><strong>Where can I get foggy glass repaired near me?</strong></p>
+<p>We serve the entire GTA. Here are some of the areas we cover:</p>
+<ul>
+  <li><a href="/foggy-glass-repair-vaughan">Foggy glass repair in Vaughan</a></li>
+  <li><a href="/foggy-glass-repair-thornhill">Foggy glass repair in Thornhill</a></li>
+  <li><a href="/foggy-glass-repair-richmond-hill">Foggy glass repair in Richmond Hill</a></li>
+  <li><a href="/foggy-glass-repair-markham">Foggy glass repair in Markham</a></li>
+  <li><a href="/foggy-glass-repair-aurora">Foggy glass repair in Aurora</a></li>
+  <li><a href="/foggy-glass-repair-newmarket">Foggy glass repair in Newmarket</a></li>
+  <li><a href="/foggy-glass-repair-north-york">Foggy glass repair in North York</a></li>
+</ul>
+
+<h2 id="not-sure">Not Sure What You're Looking At?</h2>
+
+<p>If you cannot tell whether your condensation is on the surface or between the panes, a quick site visit will give you a clear answer. A technician inspects the window, identifies whether the seal has failed, and gives you a written quote if work is needed.</p>
+
+<p>Book a $30 site visit. That fee gets credited toward whatever work you decide to do.</p>
+
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
 `,
   },
 ];
