@@ -3,9 +3,10 @@ import Link from "next/link";
 import { EMAIL, EMAIL_HREF, PHONE, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | LuminaSky Glass",
+  title: "Privacy Policy",
   description:
     "Privacy Policy for LuminaSky Glass Services — how we collect, use, and protect your personal information in compliance with PIPEDA and Ontario privacy laws.",
+  alternates: { canonical: "/privacy-policy" },
 };
 
 export default function PrivacyPolicyPage() {
@@ -121,7 +122,25 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">4. Sharing Your Information</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">4. Text Messages (SMS)</h2>
+            <p className="mb-3">
+              We only send text messages to people who have opted in through our website or by
+              requesting text communication directly. You may receive appointment confirmations,
+              service updates, or occasional offers and seasonal reminders depending on the
+              consent you provided.
+            </p>
+            <p className="mb-3">
+              We will never sell or share your phone number with third parties for their
+              marketing purposes.
+            </p>
+            <p>
+              You can stop receiving text messages at any time by replying STOP to any message.
+              Reply HELP for assistance. Message frequency varies. Message and data rates may apply.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">5. Sharing Your Information</h2>
             <p className="mb-4 font-semibold text-gray-900">
               We do not sell, rent, or trade your personal information.
             </p>
@@ -145,7 +164,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">5. Data Storage &amp; Security</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">6. Data Storage &amp; Security</h2>
             <p className="mb-4">
               Your personal information is stored securely in encrypted email systems and password-protected
               business tools. Only authorized LuminaSky staff who need the information to serve you have access.
@@ -162,7 +181,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">6. How Long We Keep Your Information</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">7. How Long We Keep Your Information</h2>
             <p className="mb-3">
               We retain your information for as long as needed to fulfill the purpose it was collected for,
               and to comply with Canadian legal requirements:
@@ -173,11 +192,11 @@ export default function PrivacyPolicyPage() {
               <li><strong>Marketing consent records:</strong> for the duration of the consent, plus 3 years for CASL record-keeping</li>
               <li><strong>Website analytics data:</strong> up to 26 months (Google Analytics default)</li>
             </ul>
-            <p>You may request earlier deletion of your information at any time (see Section 8 below).</p>
+            <p>You may request earlier deletion of your information at any time (see Section 9 below).</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">7. Cookies and Tracking Technologies</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">8. Cookies and Tracking Technologies</h2>
             <p className="mb-3">
               Our website uses cookies and similar technologies (localStorage, sessionStorage) for the
               following purposes:
@@ -195,7 +214,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">8. Your Rights Under PIPEDA</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">9. Your Rights Under PIPEDA</h2>
             <p className="mb-3">You have the right to:</p>
             <ul className="list-disc pl-6 space-y-1 mb-4">
               <li><strong>Access:</strong> Request a copy of the personal information we hold about you</li>
@@ -242,7 +261,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">9. Children&apos;s Privacy</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">10. Children&apos;s Privacy</h2>
             <p>
               Our services are intended for homeowners and business owners aged 18 and over. We do not
               knowingly collect personal information from children under 18. If you believe a child has
@@ -251,7 +270,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">10. Changes to This Policy</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">11. Changes to This Policy</h2>
             <p className="mb-4">
               We may update this Privacy Policy from time to time. When we do, we will update the
               &ldquo;Last Updated&rdquo; date at the top of the page. For significant changes, we may
@@ -261,7 +280,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">11. Contact Us</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">12. Contact Us</h2>
             <p className="mb-3">
               If you have any questions, concerns, or requests regarding this Privacy Policy or your
               personal information, please contact:

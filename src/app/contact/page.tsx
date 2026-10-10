@@ -14,7 +14,7 @@ import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, WHATSAPP_HREF, FAQS_GENERAL } fro
 export const metadata: Metadata = {
   title: "Contact Us – Get a Quote",
   description:
-    "Contact LuminaSky Glass for a window or door glass repair quote. Call 437-344-8490 or send a message. Proudly serving the Greater Toronto Area.",
+    "Contact LuminaSky Glass Services for a window or door glass repair quote. Call 437-344-8490 or send a message. Proudly serving the Greater Toronto Area.",
   alternates: { canonical: "/contact" },
 };
 
@@ -181,7 +181,7 @@ export default function ContactPage() {
               <h3 className="font-semibold text-gray-900 mb-3">Service Area</h3>
               <div className="rounded-xl overflow-hidden border border-gray-200 h-48">
                 <iframe
-                  title="LuminaSky Glass Service Area - Greater Toronto Area"
+                  title="LuminaSky Glass Services - Greater Toronto Area"
                   src="https://www.openstreetmap.org/export/embed.html?bbox=-79.9%2C43.5%2C-79.0%2C43.9&layer=mapnik"
                   width="100%"
                   height="100%"

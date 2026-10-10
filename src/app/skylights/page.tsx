@@ -21,7 +21,7 @@ export default function SkylightsPage() {
             <Snowflake className="w-5 h-5 text-accent shrink-0" aria-hidden="true" />
             <p className="text-gray-700">
               Getting ready for winter?{" "}
-              <Link href="/winter-ready?utm_source=skylights&utm_medium=cross-link" className="text-accent font-semibold hover:underline">
+              <Link href="/winter-ready" className="text-accent font-semibold hover:underline">
                 Book a $30 Winter Ready Inspection.
               </Link>
             </p>

@@ -7,9 +7,9 @@ import { SectionHeading } from "@/components/shared/SectionHeading";
 import { SERVICES } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Our Services – Glass & Door Solutions",
+  title: "Project Gallery",
   description:
-    "LuminaSky Glass offers foggy glass repair, front door glass, integrated blinds, skylights, garage door glass, screen & storm doors, window cranks, and locksmith services across the GTA.",
+    "Browse photos of completed window and glass repairs by LuminaSky Glass Services. Foggy glass, door glass, skylights, window cranks, and more across the GTA.",
   alternates: { canonical: "/gallery" },
 };
 

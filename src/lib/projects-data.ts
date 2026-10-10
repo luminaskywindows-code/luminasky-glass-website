@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
     },
     afterImage: {
       src: "/videos/foggy-glass-after.mp4",
-      alt: "Restored clear glass after sealed unit replacement by LuminaSky Glass",
+      alt: "Restored clear glass after sealed unit replacement by LuminaSky Glass Services",
     },
     description:
       "Sealed glass unit replacement - cleared trapped condensation and restored a crystal-clear view without replacing the frame.",
@@ -138,7 +138,7 @@ export const PROJECTS: Project[] = [
     },
     afterImage: {
       src: "/images/services/door-before-broken.jpg",
-      alt: "Fully restored commercial door with new tempered glass installed by LuminaSky Glass",
+      alt: "Fully restored commercial door with new tempered glass installed by LuminaSky Glass Services",
     },
     description:
       "Emergency commercial door glass replacement after break-in. Responded within 2 hours, completed next day.",
@@ -189,7 +189,7 @@ export const PROJECTS: Project[] = [
     category: "skylights",
     showcaseImage: {
       src: "/images/skylight-before-after.png",
-      alt: "Skylight restoration - before, during, and after glass replacement by LuminaSky Glass",
+      alt: "Skylight restoration - before, during, and after glass replacement by LuminaSky Glass Services",
     },
     description:
       "Complete skylight glass restoration - from dirty and damaged to crystal clear. Full panel replacement without a complete tearout.",

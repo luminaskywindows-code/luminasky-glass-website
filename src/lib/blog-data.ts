@@ -18,14 +18,13 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "window-repair-vs-replacement-toronto",
     title: "Window Repair vs Replacement: Which One Do You Actually Need?",
-    metaTitle:
-      "Window Repair vs Replacement in Toronto | LuminaSky Glass Guide",
+    metaTitle: "Window Repair vs Replacement in Toronto",
     metaDescription:
       "Not every broken window needs replacing. Learn when repair saves you money, when replacement is the smarter move, and how to tell the difference. Toronto homeowner guide.",
     excerpt:
       "A cracked seal, a stuck crank, condensation between the panes. Your first instinct might be to replace the whole window. But in many cases, a targeted repair costs a fraction of the price and solves the problem completely.",
     publishedAt: "2026-10-01",
-    author: "LuminaSky Glass",
+    author: "LuminaSky Glass Services",
     readingTime: 12,
     tags: ["window repair", "window replacement", "toronto", "homeowner guide"],
     sections: [
@@ -225,14 +224,13 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "winter-window-checklist-gta",
     title: "Winter Window Checklist for GTA Homes: 10 Things to Check Before the First Freeze",
-    metaTitle:
-      "Winter Window Checklist for GTA Homes | LuminaSky Glass",
+    metaTitle: "Winter Window Checklist for GTA Homes",
     metaDescription:
       "Before the cold sets in, check these 10 things on your windows, doors and skylights. A simple winter checklist for Vaughan, Thornhill and GTA homeowners.",
     excerpt:
       "Ontario winters are hard on windows. A 20-minute walk around your home now can prevent drafts, water damage, and emergency calls in January. Here are 10 things every GTA homeowner should check before the temperature drops.",
     publishedAt: "2026-10-07",
-    author: "LuminaSky Glass",
+    author: "LuminaSky Glass Services",
     readingTime: 7,
     tags: ["winter", "window maintenance", "foggy glass", "window cranks", "drafts"],
     sections: [
@@ -340,14 +338,13 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "window-condensation-in-winter",
     title: "Window Condensation in Winter: Normal, or a Failed Seal?",
-    metaTitle:
-      "Window Condensation in Winter: Normal or Failed Seal? | LuminaSky Glass",
+    metaTitle: "Window Condensation in Winter: Normal or Failed Seal?",
     metaDescription:
       "Water on your windows in winter? Learn what condensation inside, outside and between the panes means, and when a foggy window needs a new sealed glass unit.",
     excerpt:
       "Water on your windows when the temperature drops does not always mean something is wrong. But sometimes it does. The difference depends on where the moisture is: inside the room, outside on the glass, or trapped between the panes.",
     publishedAt: "2026-10-07",
-    author: "Dan, LuminaSky Glass",
+    author: "Dan, LuminaSky Glass Services",
     readingTime: 5,
     tags: ["winter", "condensation", "foggy glass", "sealed unit", "IGU"],
     sections: [
@@ -478,14 +475,13 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "replace-window-glass-in-winter",
     title: "Can You Replace Window Glass in Winter? A Guide for GTA Homeowners",
-    metaTitle:
-      "Can You Replace Window Glass in Winter? | LuminaSky Glass",
+    metaTitle: "Can You Replace Window Glass in Winter?",
     metaDescription:
       "Yes, foggy and broken window glass can be replaced in winter. Here's how cold-weather glass replacement works, how long it takes and how to prepare.",
     excerpt:
       "Yes. Foggy sealed units, cracked panes, and broken glass can all be replaced during winter. The process is designed so your home stays warm throughout. Here is how it works.",
     publishedAt: "2026-10-07",
-    author: "Dan, LuminaSky Glass",
+    author: "Dan, LuminaSky Glass Services",
     readingTime: 6,
     tags: ["winter", "glass replacement", "foggy glass", "broken glass", "sealed unit"],
     sections: [
@@ -623,14 +619,13 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "skylights-in-winter-leaks-ice-dams-condensation",
     title: "Skylights in Winter: Leaks, Ice Dams and Condensation Explained",
-    metaTitle:
-      "Skylights in Winter: Leaks, Ice Dams and Condensation | LuminaSky Glass",
+    metaTitle: "Skylights in Winter: Leaks, Ice Dams and Condensation",
     metaDescription:
       "Water dripping from your skylight in winter? Learn how to tell condensation from a real leak, how ice dams affect skylights, and when to repair or replace.",
     excerpt:
       "Water around your skylight in winter can mean condensation, a failed seal, a flashing leak, or ice dam backup. Each has a different cause and a different fix. This guide helps you figure out which one you are dealing with.",
     publishedAt: "2026-10-07",
-    author: "Dan, LuminaSky Glass",
+    author: "Dan, LuminaSky Glass Services",
     readingTime: 6,
     tags: ["winter", "skylights", "skylight leak", "ice dams", "condensation"],
     sections: [

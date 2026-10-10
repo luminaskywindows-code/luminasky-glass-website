@@ -114,13 +114,13 @@ export function ServicePageLayout({
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href={service.heroCTA?.primaryHref ?? "/contact"}
-                  className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+                  className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
                 >
                   {service.heroCTA?.primary ?? "Get Quote"}
                 </Link>
                 <a
                   href={PHONE_HREF}
-                  className="inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+                  className="inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
                 >
                   <Phone className="w-5 h-5" aria-hidden="true" />
                   Call Now
@@ -395,7 +395,7 @@ export function ServicePageLayout({
                 </div>
                 <a
                   href={PHONE_HREF}
-                  className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors whitespace-nowrap shadow"
+                  className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-md transition-colors whitespace-nowrap shadow"
                 >
                   <Phone className="w-4 h-4" aria-hidden="true" />
                   Call Now - 24/7
@@ -415,7 +415,7 @@ export function ServicePageLayout({
             </p>
             <Link
               href={service.midPageCTA.buttonHref}
-              className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all"
+              className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all"
             >
               {service.midPageCTA.buttonLabel}
             </Link>

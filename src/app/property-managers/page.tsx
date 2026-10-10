@@ -456,7 +456,7 @@ export default function PropertyManagersPage() {
             <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
               <iframe
                 src={VIDEO_EMBED_URL}
-                title="LuminaSky Glass - Property Manager Services"
+                title="LuminaSky Glass Services - Property Manager Services"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="w-full h-full"
@@ -517,7 +517,7 @@ export default function PropertyManagersPage() {
       {/* ── Footer Contact Block ── */}
       <section className="bg-primary text-white py-10 px-4 md:px-8">
         <div className="container-max flex flex-col sm:flex-row items-center justify-center gap-6 text-center sm:text-left">
-          <span className="font-bold text-lg">LuminaSky Glass</span>
+          <span className="font-bold text-lg">LuminaSky Glass Services</span>
           <span className="hidden sm:inline text-blue-400" aria-hidden="true">|</span>
           <a href={PHONE_HREF} className="flex items-center gap-2 text-blue-100 hover:text-white transition-colors">
             <Phone className="w-4 h-4" aria-hidden="true" />

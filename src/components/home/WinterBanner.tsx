@@ -39,7 +39,7 @@ export function WinterBanner() {
         <span>
           Winter is coming.{" "}
           <Link
-            href="/winter-ready?utm_source=homepage-banner"
+            href="/winter-ready"
             className="underline underline-offset-2 font-semibold hover:text-blue-100 transition-colors"
           >
             Book a $30 Winter Ready Inspection &rarr;

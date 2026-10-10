@@ -18,9 +18,9 @@ const SEAL_FAILURE_SIGNS = [
 ];
 
 const COST_CONTENT = [
-  "Foggy glass repair in the GTA typically runs $300 to $650 for a standard sealed glass unit. Larger units, high-rise access, or specialty shapes can push $650 to $1,500. High-performance glass with Low-E coating and argon fill adds roughly 15–20 percent.",
+  "Every window is different, so we quote from photos. Send us a photo and we'll give you a price, usually the same day.",
   "Every quote we give is all-in: measurement, glass, installation, cleanup, and warranty. No $99 bait pricing that balloons on the invoice.",
-  "Send us a few photos and rough dimensions — we quote most jobs from photos alone, no visit required.",
+  "Send us a few photos and rough dimensions. No visit required for most quotes.",
 ];
 
 const UNIVERSAL_FAQS = [
@@ -195,7 +195,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
             Neighborhoods We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            We repair foggy sealed glass units across all neighborhoods in {city.city}. Same-day or next-day service available throughout:
+            We repair foggy sealed glass units across all neighborhoods in {city.city}. Serving the entire area:
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (

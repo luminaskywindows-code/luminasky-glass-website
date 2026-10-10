@@ -18,7 +18,7 @@ export function PhoneButton({
   showIcon = true,
 }: PhoneButtonProps) {
   const base =
-    "inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95";
+    "inline-flex items-center justify-center font-semibold rounded-md transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95";
 
   const variants = {
     primary:

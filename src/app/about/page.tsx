@@ -24,9 +24,9 @@ import {
 } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "About LuminaSky - GTA's Repair-First Glass Specialists",
+  title: "About Us",
   description:
-    "Learn about LuminaSky Glass - licensed glaziers serving the Greater Toronto Area. We believe in honest assessments and repair-first solutions for windows and doors.",
+    "Learn about LuminaSky Glass Services. Licensed glaziers serving the Greater Toronto Area. We believe in honest assessments and repair-first solutions for windows and doors.",
   alternates: { canonical: "/about" },
 };
 
@@ -406,7 +406,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-gray-500 mb-8 leading-relaxed">
             Follow our work, see recent projects, and read what GTA homeowners
-            are saying about LuminaSky Glass.
+            are saying about LuminaSky Glass Services.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             {SOCIALS.map(({ key, label, href, Icon }) => (

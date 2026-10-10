@@ -8,7 +8,7 @@ import { CTABanner } from "@/components/shared/CTABanner";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Window repair tips, homeowner guides, and expert advice from LuminaSky Glass. Learn when to repair, when to replace, and how to maintain your windows.",
+    "Window repair tips, homeowner guides, and expert advice from LuminaSky Glass Services. Learn when to repair, when to replace, and how to maintain your windows.",
   alternates: {
     canonical: `${SITE_URL}/blog`,
   },

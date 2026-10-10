@@ -5,11 +5,12 @@ import { ProjectsGallery } from "@/components/projects/ProjectsGallery";
 import { PHONE, PHONE_HREF, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Our Projects | Before & After Gallery | LuminaSky Glass",
+  title: "Before & After Gallery",
   description:
     "See real before and after photos of our glass repair and replacement projects across the GTA. Emergency repairs, window restoration, and door glass replacement.",
+  alternates: { canonical: "/projects" },
   openGraph: {
-    title: "LuminaSky Glass Projects - Real Before & After Results",
+    title: "LuminaSky Glass Services Projects",
     description:
       "Browse our portfolio of completed glass repair and replacement projects across the Greater Toronto Area.",
     url: `${SITE_URL}/projects`,
@@ -61,13 +62,13 @@ export default function ProjectsPage() {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-lg shadow hover:shadow-md transition-all active:scale-95"
+              className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow hover:shadow-md transition-all active:scale-95"
             >
               Contact Us
             </Link>
             <a
               href={PHONE_HREF}
-              className="inline-flex items-center justify-center gap-2 bg-white text-primary border-2 border-primary font-semibold px-8 py-4 rounded-lg hover:bg-blue-50 transition-all active:scale-95"
+              className="inline-flex items-center justify-center gap-2 bg-white text-primary border-2 border-primary font-semibold px-8 py-4 rounded-md hover:bg-blue-50 transition-all active:scale-95"
             >
               <Phone className="w-5 h-5" aria-hidden="true" />
               Call {PHONE}

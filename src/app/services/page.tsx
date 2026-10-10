@@ -6,9 +6,9 @@ import { CTABanner } from "@/components/shared/CTABanner";
 import { SERVICES } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "All Services – Glass & Door Repair",
+  title: "All Services",
   description:
-    "Browse all LuminaSky Glass services: foggy glass repair, integrated blinds, front door glass, window cranks, screen doors, garage door glass, and locksmith - all across the GTA.",
+    "Browse all LuminaSky Glass Services offerings: foggy glass repair, front door glass, window cranks, screen doors, skylights, window screens & more across the GTA.",
   alternates: { canonical: "/services" },
 };
 

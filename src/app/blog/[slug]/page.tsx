@@ -19,7 +19,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
 
   return {
-    title: post.metaTitle,
+    title:
+      post.metaTitle.length + 27 > 70
+        ? { absolute: post.metaTitle }
+        : post.metaTitle,
     description: post.metaDescription,
     alternates: {
       canonical: `${SITE_URL}/blog/${post.slug}`,

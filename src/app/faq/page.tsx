@@ -6,7 +6,7 @@ import { generateFAQSchema } from "@/lib/schema";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "FAQ - Glass & Door Repair in the GTA",
+  title: "FAQ",
   description:
     "Common questions about foggy glass repair, window crank fixes, patio door glass, emergency service, and glass repair across Toronto and the GTA. Get answers from LuminaSky.",
   alternates: { canonical: "/faq" },
@@ -87,14 +87,14 @@ export default function FAQPage() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href={PHONE_HREF}
-              className="inline-flex items-center gap-2 bg-accent hover:bg-accent/90 text-white font-semibold px-6 py-3 rounded-full transition-colors"
+              className="inline-flex items-center gap-2 bg-accent hover:bg-accent/90 text-white font-semibold px-6 py-3 rounded-md transition-colors"
             >
               <Phone className="w-4 h-4" aria-hidden="true" />
               Call {PHONE}
             </Link>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-full transition-colors border border-white/20"
+              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-md transition-colors border border-white/20"
             >
               <Mail className="w-4 h-4" aria-hidden="true" />
               Contact Us

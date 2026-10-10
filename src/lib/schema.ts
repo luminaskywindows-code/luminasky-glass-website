@@ -1,29 +1,40 @@
-import { PHONE, SITE_URL, SERVICE_AREAS, COMPANY_NAME, EMAIL } from "./constants";
+import { SITE_URL, SERVICE_AREAS, COMPANY_NAME, EMAIL, PHONE } from "./constants";
 
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
+    "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
     "@id": `${SITE_URL}/#organization`,
     name: COMPANY_NAME,
     url: SITE_URL,
-    telephone: PHONE,
+    telephone: `+1-${PHONE}`,
     email: EMAIL,
     image: `${SITE_URL}/og-image.jpg`,
     logo: `${SITE_URL}/images/logo.png`,
     priceRange: "$$",
     currenciesAccepted: "CAD",
     paymentAccepted: "Cash, Credit Card, E-Transfer",
-    areaServed: SERVICE_AREAS.map((city) => ({
+    areaServed: [
+      "Vaughan",
+      "Woodbridge",
+      "Maple",
+      "Thornhill",
+      "Richmond Hill",
+      "Markham",
+      "Aurora",
+      "Newmarket",
+      "North York",
+      "Toronto",
+      "Brampton",
+      "Mississauga",
+    ].map((city) => ({
       "@type": "City",
       name: city,
     })),
     address: {
       "@type": "PostalAddress",
-      streetAddress: "120 Promenade Circle",
       addressLocality: "Thornhill",
       addressRegion: "ON",
-      postalCode: "L4J 7W9",
       addressCountry: "CA",
     },
     openingHoursSpecification: [
@@ -42,7 +53,10 @@ export function generateOrganizationSchema() {
         closes: "23:59",
       },
     ],
-    sameAs: [],
+    sameAs: [
+      "https://www.facebook.com/LuminaSkyGlassServices",
+      "https://www.instagram.com/lumina_sky_glass/",
+    ],
   };
 }
 

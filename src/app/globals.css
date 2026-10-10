@@ -54,10 +54,10 @@
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2;
+    @apply inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-md transition-all duration-200 shadow-md hover:shadow-lg active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2;
   }
   .btn-outline-white {
-    @apply inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-primary font-semibold px-6 py-3 rounded-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 active:scale-95;
+    @apply inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-primary font-semibold px-6 py-3 rounded-md transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 active:scale-95;
   }
   .section-padding {
     @apply py-16 px-4 md:px-8;

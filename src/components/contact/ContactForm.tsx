@@ -34,6 +34,8 @@ interface FormData {
   heardAbout: string;
   referredBy: string;
   heardAboutOther: string;
+  smsAppointments: boolean;
+  smsOffers: boolean;
 }
 
 interface FormErrors {
@@ -58,6 +60,8 @@ const INITIAL: FormData = {
   heardAbout: "",
   referredBy: "",
   heardAboutOther: "",
+  smsAppointments: false,
+  smsOffers: false,
 };
 
 export function ContactForm() {
@@ -74,9 +78,10 @@ export function ContactForm() {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
   ) => {
-    const { name, value } = e.target;
+    const { name, value, type } = e.target;
+    const checked = (e.target as HTMLInputElement).checked;
     setFormData((prev) => {
-      const next = { ...prev, [name]: value };
+      const next = { ...prev, [name]: type === "checkbox" ? checked : value };
       if (name === "heardAbout") {
         if (!REFERRAL_OPTIONS.has(value)) next.referredBy = "";
         if (value !== "Other") next.heardAboutOther = "";
@@ -133,6 +138,11 @@ export function ContactForm() {
       ? formData.referredBy
       : "";
 
+    const smsConsent = [
+      formData.smsAppointments ? "SMS: Appointments & updates" : "",
+      formData.smsOffers ? "SMS: Offers & reminders" : "",
+    ].filter(Boolean).join(", ") || "No SMS consent";
+
     const firstVisitFormatted = sd.first_visit_at
       ? new Date(sd.first_visit_at).toLocaleDateString("en-CA", { timeZone: "America/Toronto" })
       : "-";
@@ -148,7 +158,7 @@ export function ContactForm() {
           service: formData.service,
           city: formData.city,
           contact_method: formData.contactMethod,
-          message: formData.message,
+          message: `${formData.message}\n\n--- SMS Consent ---\n${smsConsent}`,
           heard_about: heardAboutFull,
           referred_by: referredByLine,
           source: sd.source || "unknown",
@@ -250,6 +260,37 @@ export function ContactForm() {
         </div>
       </div>
 
+      {/* SMS Consent */}
+      <div className="space-y-2">
+        <label className="flex items-start gap-2.5 cursor-pointer">
+          <input
+            type="checkbox"
+            name="smsAppointments"
+            checked={formData.smsAppointments}
+            onChange={handleChange}
+            className="w-4 h-4 mt-0.5 accent-accent shrink-0"
+          />
+          <span className="text-sm text-gray-700">
+            Text me about my appointment and service updates from LuminaSky Glass Services.
+          </span>
+        </label>
+        <label className="flex items-start gap-2.5 cursor-pointer">
+          <input
+            type="checkbox"
+            name="smsOffers"
+            checked={formData.smsOffers}
+            onChange={handleChange}
+            className="w-4 h-4 mt-0.5 accent-accent shrink-0"
+          />
+          <span className="text-sm text-gray-700">
+            Text me occasional offers and seasonal reminders.
+          </span>
+        </label>
+        <p className="text-[11px] text-gray-400 leading-relaxed pl-6">
+          Message frequency varies. Message and data rates may apply. Reply STOP to cancel or HELP for help. Your mobile information will not be sold or shared with third parties.
+        </p>
+      </div>
+
       {/* Email */}
       <div>
         <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-1.5">
@@ -309,9 +350,6 @@ export function ContactForm() {
                 {city}
               </option>
             ))}
-            <option value="Brampton">Brampton</option>
-            <option value="Etobicoke">Etobicoke</option>
-            <option value="Oakville">Oakville</option>
             <option value="Other GTA">Other GTA Area</option>
           </select>
           {errors.city && <p className="text-red-600 text-xs mt-1">{errors.city}</p>}
@@ -447,7 +485,7 @@ export function ContactForm() {
       </div>
 
       <p className="text-xs text-gray-600 leading-relaxed mt-3">
-        By submitting this form, you consent to LuminaSky Glass contacting you by phone, text, or email regarding your service inquiry. You can unsubscribe from marketing communications at any time. See our{" "}
+        By submitting this form, you consent to LuminaSky Glass Services contacting you by phone, text, or email regarding your service inquiry. You can unsubscribe from marketing communications at any time. See our{" "}
         <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a> for details.
       </p>
     </form>

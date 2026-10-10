@@ -17,7 +17,7 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Window Crank, Hinge & Operator Repair Toronto | GTA Casement Specialists",
+  title: "Window Crank & Operator Repair Toronto",
   description:
     "Broken window crank or stuck casement? LuminaSky stocks AmesburyTruth, Roto & more. Most repairs in 30 minutes, same-day across the Greater Toronto Area. Call 437-344-8490.",
   alternates: { canonical: "/cranks" },
@@ -645,7 +645,7 @@ export default function WindowCranksPage() {
             <Snowflake className="w-5 h-5 text-accent shrink-0" aria-hidden="true" />
             <p className="text-gray-700">
               Getting ready for winter?{" "}
-              <Link href="/winter-ready?utm_source=cranks&utm_medium=cross-link" className="text-accent font-semibold hover:underline">
+              <Link href="/winter-ready" className="text-accent font-semibold hover:underline">
                 Book a $30 Winter Ready Inspection.
               </Link>
             </p>

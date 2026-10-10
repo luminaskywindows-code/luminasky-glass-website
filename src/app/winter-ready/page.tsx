@@ -38,7 +38,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Winter Ready Window Check - $30 Inspection | LuminaSky Glass GTA",
+    "Winter Ready Window Check",
   description:
     "Fogged glass, drafts, a window that will not close, or a cold room? Book a $30 Winter Ready Inspection across the GTA. Credited toward any work you book. Call 437-344-8490.",
   alternates: { canonical: "/winter-ready" },
@@ -242,7 +242,7 @@ export default function WinterReadyPage() {
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             <Link
-              href="/contact?utm_source=winter-ready&utm_medium=hero"
+              href="/contact"
               className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all active:scale-95"
             >
               Book Your $30 Inspection
@@ -422,7 +422,7 @@ export default function WinterReadyPage() {
           </div>
 
           <Link
-            href="/contact?utm_source=winter-ready&utm_medium=trust-section"
+            href="/contact"
             className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all active:scale-95"
           >
             Book Your $30 Inspection
@@ -563,7 +563,7 @@ export default function WinterReadyPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
             <Link
-              href="/contact?utm_source=winter-ready&utm_medium=final-cta"
+              href="/contact"
               className="inline-flex items-center justify-center gap-2 bg-white text-primary font-semibold px-8 py-4 rounded-md shadow-md hover:bg-gray-50 transition-colors active:scale-95"
             >
               Book Your $30 Winter Ready Inspection

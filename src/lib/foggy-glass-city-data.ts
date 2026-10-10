@@ -21,7 +21,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "toronto",
     city: "Toronto",
     region: "Toronto",
-    metaTitle: "Foggy Glass Repair in Toronto | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Toronto",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Toronto — Cabbagetown, the Danforth, the Beaches and beyond. Fix the seal failure without replacing the whole window. Free photo quote.",
     intro:
@@ -36,7 +36,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "mississauga",
     city: "Mississauga",
     region: "Peel Region",
-    metaTitle: "Foggy Glass Repair in Mississauga | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Mississauga",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Mississauga — Erin Mills, Port Credit, Meadowvale and more. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -51,7 +51,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "vaughan",
     city: "Vaughan",
     region: "York Region",
-    metaTitle: "Foggy Glass Repair in Vaughan | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Vaughan",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Vaughan — Woodbridge, Maple, Kleinburg, Concord. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -66,7 +66,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "thornhill",
     city: "Thornhill",
     region: "York Region",
-    metaTitle: "Foggy Glass Repair in Thornhill | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Thornhill",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Thornhill — Royal Orchard, Thornlea, Beverley Glen. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -81,7 +81,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "richmond-hill",
     city: "Richmond Hill",
     region: "York Region",
-    metaTitle: "Foggy Glass Repair in Richmond Hill | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Richmond Hill",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Richmond Hill — Oak Ridges, Bayview Hill, Mill Pond. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -96,7 +96,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "markham",
     city: "Markham",
     region: "York Region",
-    metaTitle: "Foggy Glass Repair in Markham | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Markham",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Markham — Unionville, Cornell, Milliken, Berczy Village. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -111,7 +111,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "north-york",
     city: "North York",
     region: "Toronto",
-    metaTitle: "Foggy Glass Repair in North York | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in North York",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in North York — Willowdale, Don Mills, Bayview Village. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -126,7 +126,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "scarborough",
     city: "Scarborough",
     region: "Toronto",
-    metaTitle: "Foggy Glass Repair in Scarborough | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Scarborough",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Scarborough — Agincourt, Birch Cliff, Guildwood, Malvern. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -141,7 +141,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "etobicoke",
     city: "Etobicoke",
     region: "Toronto",
-    metaTitle: "Foggy Glass Repair in Etobicoke | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Etobicoke",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Etobicoke — The Kingsway, Mimico, Long Branch, Sunnylea. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -156,7 +156,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "brampton",
     city: "Brampton",
     region: "Peel Region",
-    metaTitle: "Foggy Glass Repair in Brampton | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Brampton",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Brampton — Bramalea, Heart Lake, Castlemore, Mount Pleasant. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -171,7 +171,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "oakville",
     city: "Oakville",
     region: "Halton Region",
-    metaTitle: "Foggy Glass Repair in Oakville | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Oakville",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Oakville — Old Oakville, Glen Abbey, Bronte, River Oaks. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -186,7 +186,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "aurora",
     city: "Aurora",
     region: "York Region",
-    metaTitle: "Foggy Glass Repair in Aurora | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Aurora",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Aurora — Aurora Village, Bayview Wellington, Hills of St Andrew. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -201,7 +201,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "woodbridge",
     city: "Woodbridge",
     region: "Vaughan",
-    metaTitle: "Foggy Glass Repair in Woodbridge | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Woodbridge",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Woodbridge — Sonoma Heights, Vellore Village, Islington Woods. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -216,7 +216,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "maple",
     city: "Maple",
     region: "Vaughan",
-    metaTitle: "Foggy Glass Repair in Maple | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Maple",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Maple — Eagle Hills, Mackenzie Ridge, Sabatini. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -231,7 +231,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "king-city",
     city: "King City",
     region: "York Region",
-    metaTitle: "Foggy Glass Repair in King City | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in King City",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in King City — Kingscross Estates, Nobleton, Kettleby. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -246,7 +246,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "newmarket",
     city: "Newmarket",
     region: "York Region",
-    metaTitle: "Foggy Glass Repair in Newmarket | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Newmarket",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Newmarket — Stonehaven, Glenway, Summerhill Estates. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -261,7 +261,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "burlington",
     city: "Burlington",
     region: "Halton Region",
-    metaTitle: "Foggy Glass Repair in Burlington | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Burlington",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Burlington — Roseland, Aldershot, Tyandaga, Alton Village. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -276,7 +276,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "milton",
     city: "Milton",
     region: "Halton Region",
-    metaTitle: "Foggy Glass Repair in Milton | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Milton",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Milton — Beaty, Coates, Scott, Old Milton. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -291,7 +291,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "ajax",
     city: "Ajax",
     region: "Durham Region",
-    metaTitle: "Foggy Glass Repair in Ajax | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Ajax",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Ajax — Applecroft, Duffin Heights, Central Ajax. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -306,7 +306,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "pickering",
     city: "Pickering",
     region: "Durham Region",
-    metaTitle: "Foggy Glass Repair in Pickering | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Pickering",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Pickering — Bay Ridges, Amberlea, Brock Ridge. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -321,7 +321,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "caledon",
     city: "Caledon",
     region: "Peel Region",
-    metaTitle: "Foggy Glass Repair in Caledon | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Caledon",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Caledon — Bolton, Caledon East, Palgrave, Mayfield West. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -336,7 +336,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "whitby",
     city: "Whitby",
     region: "Durham Region",
-    metaTitle: "Foggy Glass Repair in Whitby | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Whitby",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Whitby — Brooklin, Pringle Creek, Port Whitby, Rolling Acres. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -351,7 +351,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "orangeville",
     city: "Orangeville",
     region: "Dufferin County",
-    metaTitle: "Foggy Glass Repair in Orangeville | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Orangeville",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Orangeville — Mono Mills, Credit Meadows, Downtown Orangeville. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -366,7 +366,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "oshawa",
     city: "Oshawa",
     region: "Durham Region",
-    metaTitle: "Foggy Glass Repair in Oshawa | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Oshawa",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Oshawa — Downtown Oshawa, Windfields, Taunton, Kedron. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -382,7 +382,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     city: "Halton Hills / Georgetown",
     region: "Halton Region",
     metaTitle:
-      "Foggy Glass Repair in Halton Hills | Seal Failure Fix | LuminaSky",
+      "Foggy Glass Repair in Halton Hills",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Halton Hills — Georgetown, Acton, Glen Williams. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -397,7 +397,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "hamilton",
     city: "Hamilton",
     region: "Hamilton",
-    metaTitle: "Foggy Glass Repair in Hamilton | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Hamilton",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Hamilton — Hamilton Mountain, Stoney Creek, Ancaster, Dundas, Westdale. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -412,7 +412,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "barrie",
     city: "Barrie",
     region: "Simcoe County",
-    metaTitle: "Foggy Glass Repair in Barrie | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Barrie",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Barrie — Allandale, East Bayfield, Downtown Barrie, Painswick. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -427,7 +427,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "innisfil",
     city: "Innisfil",
     region: "Simcoe County",
-    metaTitle: "Foggy Glass Repair in Innisfil | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Innisfil",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Innisfil — Alcona, Lefroy, Big Bay Point, Innisfil Beach. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -443,7 +443,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     city: "Stouffville",
     region: "York Region",
     metaTitle:
-      "Foggy Glass Repair in Stouffville | Seal Failure Fix | LuminaSky",
+      "Foggy Glass Repair in Stouffville",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Stouffville — Stouffville, Ballantrae, Bloomington, Vandorf. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -459,7 +459,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     city: "East Gwillimbury",
     region: "York Region",
     metaTitle:
-      "Foggy Glass Repair in East Gwillimbury | Seal Failure Fix | LuminaSky",
+      "Foggy Glass Repair in East Gwillimbury",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in East Gwillimbury — Sharon, Mount Albert, Queensville, Holland Landing. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -475,7 +475,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     city: "Georgina / Keswick",
     region: "York Region",
     metaTitle:
-      "Foggy Glass Repair in Georgina | Seal Failure Fix | LuminaSky",
+      "Foggy Glass Repair in Georgina",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Georgina — Keswick, Sutton, Jackson's Point, Pefferlaw. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -490,7 +490,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "bradford",
     city: "Bradford",
     region: "Simcoe County",
-    metaTitle: "Foggy Glass Repair in Bradford | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Bradford",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Bradford — Bradford, Bond Head, Holland Marsh. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -506,7 +506,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     city: "Clarington / Bowmanville",
     region: "Durham Region",
     metaTitle:
-      "Foggy Glass Repair in Clarington | Seal Failure Fix | LuminaSky",
+      "Foggy Glass Repair in Clarington",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Clarington — Bowmanville, Courtice, Newcastle, Orono. Fix the seal without replacing the window. Free photo quote.",
     intro:
@@ -521,7 +521,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     slug: "uxbridge",
     city: "Uxbridge",
     region: "Durham Region",
-    metaTitle: "Foggy Glass Repair in Uxbridge | Seal Failure Fix | LuminaSky",
+    metaTitle: "Foggy Glass Repair in Uxbridge",
     metaDescription:
       "LuminaSky repairs foggy sealed glass units in Uxbridge — Uxbridge, Goodwood, Leaskdale, Siloam. Fix the seal without replacing the window. Free photo quote.",
     intro:

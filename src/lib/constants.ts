@@ -5,28 +5,34 @@ export const WHATSAPP_HREF =
 export const EMAIL = "Service@Luminasky.com";
 export const EMAIL_HREF = "mailto:service@luminasky.com";
 export const SITE_URL = "https://www.luminasky.com";
-export const COMPANY_NAME = "LuminaSky Glass";
+export const COMPANY_NAME = "LuminaSky Glass Services";
 
 export const WINTER_READY_ENABLED = true;
 
 export const INDEXNOW_KEY = "9a7b5b9906e245f1bf7ecb9f10d723a0";
 
 export const SERVICE_AREAS = [
-  "Toronto",
-  "North York",
-  "Scarborough",
-  "Vaughan",
-  "Thornhill",
+  "Ajax",
+  "Aurora",
+  "Brampton",
+  "Burlington",
+  "Concord",
+  "Etobicoke",
+  "King City",
+  "Maple",
   "Markham",
   "Mississauga",
-  "Richmond Hill",
-  "Etobicoke",
-  "Brampton",
-  "Woodbridge",
-  "Aurora",
   "Newmarket",
+  "North York",
   "Oakville",
-  "Burlington",
+  "Pickering",
+  "Richmond Hill",
+  "Scarborough",
+  "Stouffville",
+  "Thornhill",
+  "Toronto",
+  "Vaughan",
+  "Woodbridge",
 ];
 
 export const SERVICES = [
@@ -132,7 +138,7 @@ export const TESTIMONIALS = [
 export const FAQS_GENERAL = [
   {
     q: "How long does foggy window repair take?",
-    a: "Most foggy window repairs take 30–60 minutes per unit. We carry common glass sizes in stock, so same-day service is available in many cases.",
+    a: "Installation takes 30 to 60 minutes per unit. Glass is measured first, custom-made, then installed, typically 5 to 15 business days from measurement to completion.",
   },
   {
     q: "Do I need to replace the whole window frame?",
@@ -140,7 +146,7 @@ export const FAQS_GENERAL = [
   },
   {
     q: "Are you licensed and insured in Ontario?",
-    a: "Yes. LuminaSky Glass is fully licensed and insured to operate in Ontario. We carry liability insurance on every job.",
+    a: "Yes. LuminaSky Glass Services is fully licensed and insured to operate in Ontario. We carry liability insurance on every job.",
   },
   {
     q: "Do you offer same-day service?",

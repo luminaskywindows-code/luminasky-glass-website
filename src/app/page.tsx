@@ -8,13 +8,16 @@ import { ServiceAreaMap } from "@/components/shared/ServiceAreaMap";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { WinterBanner } from "@/components/home/WinterBanner";
 import { HomepagePopup } from "@/components/home/HomepagePopup";
+import { TrustStrip } from "@/components/home/TrustStrip";
 import { SocialLinks } from "@/components/shared/SocialLinks";
 import { Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Glass & Door Repair in the Greater Toronto Area",
+  title: {
+    absolute: "Glass & Door Repair in the GTA | LuminaSky Glass Services",
+  },
   description:
-    "LuminaSky Glass repairs foggy glass, door glass, window cranks, integrated blinds & more across the GTA. Fast, affordable, licensed & insured. Call 437-344-8490.",
+    "LuminaSky Glass Services repairs foggy glass, door glass, window cranks, skylights & more across the GTA. Fast, affordable, licensed & insured. Call 437-344-8490.",
   alternates: { canonical: "/" },
 };
 
@@ -24,6 +27,7 @@ export default function HomePage() {
       <WinterBanner />
       <HomepagePopup />
       <HeroSection />
+      <TrustStrip />
       <ServicesGrid />
       <TrustSection />
       <TestimonialsSection />

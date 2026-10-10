@@ -21,7 +21,7 @@ export function CTABanner({
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href={PHONE_HREF}
-            className="inline-flex items-center justify-center gap-2 bg-white text-primary font-semibold px-8 py-4 rounded-lg shadow-md hover:bg-gray-50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-accent active:scale-95"
+            className="inline-flex items-center justify-center gap-2 bg-white text-primary font-semibold px-8 py-4 rounded-md shadow-md hover:bg-gray-50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-accent active:scale-95"
             aria-label={`Call us at ${PHONE}`}
           >
             <Phone className="w-5 h-5" aria-hidden="true" />
@@ -29,7 +29,7 @@ export function CTABanner({
           </a>
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center gap-2 border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-accent active:scale-95"
+            className="inline-flex items-center justify-center gap-2 border-2 border-white text-white font-semibold px-8 py-4 rounded-md hover:bg-white hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-accent active:scale-95"
           >
             Contact Us
           </Link>
