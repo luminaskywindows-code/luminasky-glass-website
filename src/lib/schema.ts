@@ -1,41 +1,43 @@
-import { SITE_URL, SERVICE_AREAS, COMPANY_NAME, EMAIL, PHONE } from "./constants";
+import { SITE_URL, SERVICE_AREAS, COMPANY_NAME, EMAIL } from "./constants";
+
+const PHONE_E164 = "+1-437-344-8490";
+const BUSINESS_ID = `${SITE_URL}/#business`;
 
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
-    "@id": `${SITE_URL}/#organization`,
+    "@id": BUSINESS_ID,
     name: COMPANY_NAME,
+    description:
+      "Professional glass and door repair services in the Greater Toronto Area. Foggy glass, front door glass, window cranks, skylights and more.",
     url: SITE_URL,
-    telephone: `+1-${PHONE}`,
+    telephone: PHONE_E164,
     email: EMAIL,
     image: `${SITE_URL}/og-image.jpg`,
-    logo: `${SITE_URL}/images/logo.png`,
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/images/logo.png`,
+    },
     priceRange: "$$",
     currenciesAccepted: "CAD",
     paymentAccepted: "Cash, Credit Card, E-Transfer",
-    areaServed: [
-      "Vaughan",
-      "Woodbridge",
-      "Maple",
-      "Thornhill",
-      "Richmond Hill",
-      "Markham",
-      "Aurora",
-      "Newmarket",
-      "North York",
-      "Toronto",
-      "Brampton",
-      "Mississauga",
-    ].map((city) => ({
+    areaServed: SERVICE_AREAS.map((city) => ({
       "@type": "City",
       name: city,
     })),
     address: {
       "@type": "PostalAddress",
+      streetAddress: "120 Promenade Circle",
       addressLocality: "Thornhill",
       addressRegion: "ON",
+      postalCode: "L4J 7W9",
       addressCountry: "CA",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 43.8088,
+      longitude: -79.4525,
     },
     openingHoursSpecification: [
       {
@@ -68,11 +70,31 @@ export function generateServiceSchema(
   return {
     "@context": "https://schema.org",
     "@type": "Service",
+    name: serviceName,
     serviceType: serviceName,
-    provider: { "@id": `${SITE_URL}/#organization` },
+    provider: { "@id": BUSINESS_ID },
     url: `${SITE_URL}${serviceUrl}`,
     description,
     areaServed: SERVICE_AREAS.map((city) => ({ "@type": "City", name: city })),
+  };
+}
+
+export function generateCityServiceSchema(opts: {
+  name: string;
+  serviceType: string;
+  url: string;
+  description: string;
+  city: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: opts.name,
+    serviceType: opts.serviceType,
+    provider: { "@id": BUSINESS_ID },
+    url: `${SITE_URL}${opts.url}`,
+    description: opts.description,
+    areaServed: { "@type": "City", name: opts.city },
   };
 }
 
@@ -98,6 +120,7 @@ export function generateArticleSchema(article: {
   publishedAt: string;
   updatedAt?: string;
   author: string;
+  image?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -105,6 +128,7 @@ export function generateArticleSchema(article: {
     headline: article.title,
     description: article.description,
     url: `${SITE_URL}${article.url}`,
+    image: article.image ?? `${SITE_URL}/og-image.jpg`,
     datePublished: article.publishedAt,
     ...(article.updatedAt && { dateModified: article.updatedAt }),
     author: {
@@ -112,7 +136,7 @@ export function generateArticleSchema(article: {
       name: article.author,
       url: SITE_URL,
     },
-    publisher: { "@id": `${SITE_URL}/#organization` },
+    publisher: { "@id": BUSINESS_ID },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}${article.url}` },
   };
 }

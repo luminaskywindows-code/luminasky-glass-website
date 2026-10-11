@@ -1,75 +1,35 @@
 import Image from "next/image";
 import Link from "next/link";
 import { MapPin, Phone, MessageCircle, Star, ChevronRight, Wrench, Clock, Shield, Truck } from "lucide-react";
-import { PHONE, PHONE_HREF, WHATSAPP_HREF, SITE_URL, COMPANY_NAME } from "@/lib/constants";
+import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "@/lib/constants";
+import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import type { CityPageData } from "@/lib/city-pages-data";
-
-function generateCitySchema(city: CityPageData) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `${SITE_URL}/#organization`,
-    name: COMPANY_NAME,
-    url: SITE_URL,
-    telephone: PHONE,
-    areaServed: {
-      "@type": "City",
-      name: city.city,
-      containedInPlace: {
-        "@type": "AdministrativeArea",
-        name: city.region,
-      },
-    },
-    makesOffer: city.services.map((s) => ({
-      "@type": "Offer",
-      itemOffered: {
-        "@type": "Service",
-        name: s.name,
-        url: `${SITE_URL}${s.href}`,
-      },
-    })),
-  };
-}
-
-function generateCityBreadcrumbSchema(city: CityPageData) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Areas We Serve", item: `${SITE_URL}/areas-we-serve` },
-      { "@type": "ListItem", position: 3, name: city.city, item: `${SITE_URL}/window-repair-${city.slug}` },
-    ],
-  };
-}
-
-function generateCityFAQSchema(faqs: { q: string; a: string }[]) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.q,
-      acceptedAnswer: { "@type": "Answer", text: faq.a },
-    })),
-  };
-}
 
 export function CityPageLayout({ city }: { city: CityPageData }) {
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateCitySchema(city)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateCityServiceSchema({
+          name: `Window & Door Repair in ${city.city}`,
+          serviceType: "Window and Door Repair",
+          url: `/window-repair-${city.slug}`,
+          description: `Professional window and door repair services in ${city.city}. Foggy glass, door glass, window cranks and more.`,
+          city: city.city,
+        })) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateCityBreadcrumbSchema(city)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateBreadcrumbSchema([
+          { name: "Home", url: "/" },
+          { name: "Areas We Serve", url: "/areas-we-serve" },
+          { name: city.city, url: `/window-repair-${city.slug}` },
+        ])) }}
       />
       {city.faqs.length > 0 && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(generateCityFAQSchema(city.faqs)) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(city.faqs)) }}
         />
       )}
 

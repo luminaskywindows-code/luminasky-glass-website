@@ -51,6 +51,7 @@ export default async function BlogPostPage({ params }: Props) {
     publishedAt: post.publishedAt,
     updatedAt: post.updatedAt,
     author: post.author,
+    image: post.coverImage,
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { MapPin, Phone, MessageCircle, ChevronRight, Droplets, Thermometer, Eye, CloudRain, AlertTriangle } from "lucide-react";
-import { PHONE, PHONE_HREF, WHATSAPP_HREF, SITE_URL, COMPANY_NAME } from "@/lib/constants";
+import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "@/lib/constants";
+import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import type { FoggyGlassCityPageData } from "@/lib/foggy-glass-city-data";
 
 const SEAL_FAILURE_EXPLANATION = [
@@ -38,58 +39,22 @@ function generateSchemas(city: FoggyGlassCityPageData) {
   const pageUrl = `/foggy-glass-repair-${city.slug}`;
   const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
 
-  const localBusiness = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `${SITE_URL}/#organization`,
-    name: COMPANY_NAME,
-    url: SITE_URL,
-    telephone: PHONE,
-    areaServed: {
-      "@type": "City",
-      name: city.city,
-      containedInPlace: {
-        "@type": "AdministrativeArea",
-        name: city.region,
-      },
-    },
-  };
-
-  const service = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    serviceType: "Foggy Glass Repair",
-    provider: { "@id": `${SITE_URL}/#organization` },
-    url: `${SITE_URL}${pageUrl}`,
-    description: `Foggy glass repair and sealed unit replacement in ${city.city}. LuminaSky replaces failed IGUs without full window replacement.`,
-    areaServed: {
-      "@type": "City",
-      name: city.city,
-    },
-  };
-
-  const breadcrumb = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Services", item: `${SITE_URL}/services` },
-      { "@type": "ListItem", position: 3, name: "Foggy Glass Repair", item: `${SITE_URL}/foggy-windows` },
-      { "@type": "ListItem", position: 4, name: city.city, item: `${SITE_URL}${pageUrl}` },
-    ],
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: allFaqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.q,
-      acceptedAnswer: { "@type": "Answer", text: faq.a },
-    })),
-  };
-
-  return [localBusiness, service, breadcrumb, faqSchema];
+  return [
+    generateCityServiceSchema({
+      name: `Foggy Glass Repair in ${city.city}`,
+      serviceType: "Foggy Glass Repair",
+      url: pageUrl,
+      description: `Foggy glass repair and sealed unit replacement in ${city.city}. LuminaSky replaces failed IGUs without full window replacement.`,
+      city: city.city,
+    }),
+    generateBreadcrumbSchema([
+      { name: "Home", url: "/" },
+      { name: "Services", url: "/services" },
+      { name: "Foggy Glass Repair", url: "/foggy-windows" },
+      { name: city.city, url: pageUrl },
+    ]),
+    generateFAQSchema(allFaqs),
+  ];
 }
 
 export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageData }) {
