@@ -33,7 +33,7 @@ export async function POST(req: NextRequest) {
         from: "LuminaSky Website <onboarding@resend.dev>",
         to: process.env.CONTACT_EMAIL || "service@luminasky.com",
         replyTo: data.email,
-        subject: `New Quote Request [${sourceLabel}]: ${data.service} — ${data.city} (${data.fullName})`,
+        subject: `New Quote Request [${sourceLabel}]: ${data.service}, ${data.city} (${data.fullName})`,
         html: `
           <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto">
             <div style="background:#1e3a8a;padding:20px 24px;border-radius:8px 8px 0 0">

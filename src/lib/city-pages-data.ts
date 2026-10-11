@@ -46,10 +46,10 @@ export const CITY_PAGES: CityPageData[] = [
       "LuminaSky Glass Services serves Vaughan for foggy window repair, glass replacement, door glass, window cranks & more. Available 24/7. Call 437-344-8490 for a fast quote.",
     heroHeadline: "Window & Door Repair in Vaughan",
     heroSubtext:
-      "Fast, affordable glass and door repair across Woodbridge, Maple, Kleinburg, Concord, and all of Vaughan. Fix it — don't replace it.",
+      "Fast, affordable glass and door repair across Woodbridge, Maple, Kleinburg, Concord, and all of Vaughan. Fix it. Don't replace it.",
     intro: [
-      "Vaughan homeowners know the value of keeping their homes in top shape — and windows are no exception. Whether you're in a newer build in Vellore Village or a mature home in Woodbridge, sealed glass units fail over time. Condensation between panes, broken cranks, and cracked door glass are problems we solve every week across Vaughan.",
-      "LuminaSky Glass Services specializes in repair, not replacement. That means we fix the part that's broken — the glass unit, the crank mechanism, the door insert — without tearing out your entire window or door frame. It's faster, less disruptive, and typically costs 60–80% less than full replacement.",
+      "Vaughan homeowners know the value of keeping their homes in top shape, and windows are no exception. Whether you're in a newer build in Vellore Village or a mature home in Woodbridge, sealed glass units fail over time. Condensation between panes, broken cranks, and cracked door glass are problems we solve every week across Vaughan.",
+      "LuminaSky Glass Services specializes in repair, not replacement. That means we fix the part that's broken (the glass unit, the crank mechanism, the door insert) without tearing out your entire window or door frame. It's faster, less disruptive, and typically costs 60–80% less than full replacement.",
     ],
     neighborhoods: [
       "Woodbridge",
@@ -102,17 +102,17 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     featuredProject: {
-      title: "Foggy Glass Repair — Vaughan",
+      title: "Foggy Glass Repair, Vaughan",
       description:
-        "This Vaughan homeowner had multiple windows with failed seals — heavy condensation had built up between the panes, blocking the view and reducing insulation. We replaced the sealed glass units in under an hour per window, restoring crystal-clear visibility without replacing the frames.",
+        "This Vaughan homeowner had multiple windows with failed seals. Heavy condensation had built up between the panes, blocking the view and reducing insulation. We replaced the sealed glass units in under an hour per window, restoring crystal-clear visibility without replacing the frames.",
       mediaType: "video",
       beforeVideo: {
         src: "/videos/foggy-glass-before.mp4",
-        alt: "Foggy double-pane window with condensation trapped between the glass — Vaughan home before repair",
+        alt: "Foggy double-pane window with condensation trapped between the glass, Vaughan home before repair",
       },
       afterVideo: {
         src: "/videos/foggy-glass-after.mp4",
-        alt: "Restored clear glass after sealed unit replacement by LuminaSky Glass Services — Vaughan home after repair",
+        alt: "Restored clear glass after sealed unit replacement by LuminaSky Glass Services, Vaughan home after repair",
       },
     },
     review: {
@@ -121,7 +121,7 @@ export const CITY_PAGES: CityPageData[] = [
       service: "Window Crank Repair",
     },
     closingCTA:
-      "Need a window or door fixed in Vaughan? Text us a photo of the problem and get a fast quote — or call any time, day or night.",
+      "Need a window or door fixed in Vaughan? Text us a photo of the problem and get a fast quote, or call any time, day or night.",
     faqs: [
       {
         q: "How fast can you get to Vaughan?",
@@ -129,7 +129,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Do you work in all parts of Vaughan?",
-        a: "Yes — Woodbridge, Maple, Kleinburg, Concord, Vellore Village, and everywhere in between. We also cover neighbouring areas like Richmond Hill and Thornhill.",
+        a: "Yes. Woodbridge, Maple, Kleinburg, Concord, Vellore Village, and everywhere in between. We also cover neighbouring areas like Richmond Hill and Thornhill.",
       },
       {
         q: "Do I really need to replace only the glass, not the whole window?",
@@ -137,7 +137,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does foggy window repair cost in Vaughan?",
-        a: "Most sealed unit replacements range from $150–$350 per window depending on size and glass type. We provide free quotes — send us a photo for a fast estimate.",
+        a: "Most sealed unit replacements range from $150–$350 per window depending on size and glass type. We provide free quotes. Send us a photo for a fast estimate.",
       },
     ],
   },
@@ -147,13 +147,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in Thornhill",
     metaDescription:
-      "LuminaSky Glass Services provides fast window and door repair in Thornhill — foggy glass, broken cranks, door inserts & more. Available 24/7. Call 437-344-8490.",
+      "LuminaSky Glass Services provides fast window and door repair in Thornhill: foggy glass, broken cranks, door inserts & more. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Thornhill",
     heroSubtext:
-      "Reliable glass and window repair for Thornhill homeowners — from Royal Orchard to Thornlea. We fix it on-site, usually the same day.",
+      "Reliable glass and window repair for Thornhill homeowners, from Royal Orchard to Thornlea. We fix it on-site, usually the same day.",
     intro: [
-      "Thornhill sits at the crossroads of Vaughan and Markham, and its housing stock reflects that mix — mid-century brick bungalows along Centre Street, estate homes in Royal Orchard, and modern townhomes near Promenade Mall. Whatever the age of your home, windows and doors wear out. Failed seals cause fog between panes, old crank mechanisms seize up, and door glass cracks from settling or impact.",
-      "We handle all of it without the cost and hassle of full window replacement. LuminaSky Glass Services replaces only the component that failed — the sealed glass unit, the operator hardware, or the door lite — so your frames, trim, and siding stay untouched. Most jobs are done in a single visit, and you save 60–80% compared to ripping everything out and starting over.",
+      "Thornhill sits at the crossroads of Vaughan and Markham, and its housing stock reflects that mix: mid-century brick bungalows along Centre Street, estate homes in Royal Orchard, and modern townhomes near Promenade Mall. Whatever the age of your home, windows and doors wear out. Failed seals cause fog between panes, old crank mechanisms seize up, and door glass cracks from settling or impact.",
+      "We handle all of it without the cost and hassle of full window replacement. LuminaSky Glass Services replaces only the component that failed (the sealed glass unit, the operator hardware, or the door lite), so your frames, trim, and siding stay untouched. Most jobs are done in a single visit, and you save 60–80% compared to ripping everything out and starting over.",
     ],
     neighborhoods: [
       "Thornlea",
@@ -183,7 +183,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Window Crank & Operator Repair",
         description:
-          "Stuck casement or awning window? We replace worn-out crank operators with compatible hardware — no need to swap the entire window.",
+          "Stuck casement or awning window? We replace worn-out crank operators with compatible hardware. No need to swap the entire window.",
         href: "/cranks",
       },
       {
@@ -206,23 +206,23 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Dealing with a foggy window or broken glass in Thornhill? Send us a photo on WhatsApp for a fast quote — or call us any time.",
+      "Dealing with a foggy window or broken glass in Thornhill? Send us a photo on WhatsApp for a fast quote, or call us any time.",
     faqs: [
       {
         q: "How quickly can you come to Thornhill?",
         a: "We're in the Thornhill area almost every day. Most appointments are same-day or next-day, and emergencies get a 2-hour response.",
       },
       {
-        q: "My home is older — can you still get parts for the windows?",
+        q: "My home is older. Can you still get parts for the windows?",
         a: "Yes. We stock a wide range of crank operators, sealed units, and glass types that fit older casement and slider windows common in Thornhill's mature neighbourhoods.",
       },
       {
         q: "Is it worth repairing a foggy window or should I replace the whole thing?",
-        a: "If the frame and sash are solid, replacing only the sealed glass unit is the smart move — it costs a fraction of full replacement and restores insulation and clarity.",
+        a: "If the frame and sash are solid, replacing only the sealed glass unit is the smart move. It costs a fraction of full replacement and restores insulation and clarity.",
       },
       {
         q: "Do you cover both the Vaughan and Markham sides of Thornhill?",
-        a: "Absolutely. We serve all of Thornhill regardless of municipal boundary — plus neighbouring areas like Richmond Hill, Vaughan, and Markham.",
+        a: "Absolutely. We serve all of Thornhill regardless of municipal boundary, plus neighbouring areas like Richmond Hill, Vaughan, and Markham.",
       },
     ],
   },
@@ -232,13 +232,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in Richmond Hill",
     metaDescription:
-      "Window repair in Richmond Hill — foggy sealed units, cracked glass, broken cranks, door glass inserts. Fast mobile service, available 24/7. Call 437-344-8490.",
+      "Window repair in Richmond Hill: foggy sealed units, cracked glass, broken cranks, door glass inserts. Fast mobile service, available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Richmond Hill",
     heroSubtext:
       "Serving Oak Ridges, Mill Pond, Bayview Hill, and all of Richmond Hill with fast, affordable glass and window repair. No full replacements needed.",
     intro: [
       "Richmond Hill has grown rapidly over the past two decades, and even relatively new homes are starting to show their age around the windows. In Oak Ridges and Jefferson, sealed units installed during the building boom of the 2000s are now fogging up as their seals fail. Older homes near the historic village core along Yonge Street often have casement windows with worn-out cranks or single-pane glass that's long overdue for an upgrade.",
-      "LuminaSky Glass Services gets these problems fixed without the disruption of full window replacement. We replace only what's broken — the insulated glass unit, the crank hardware, the door lite — keeping your existing frames and trim in place. It's the faster, more affordable solution, and we back every repair with a warranty.",
+      "LuminaSky Glass Services gets these problems fixed without the disruption of full window replacement. We replace only what's broken (the insulated glass unit, the crank hardware, the door lite), keeping your existing frames and trim in place. It's the faster, more affordable solution, and we back every repair with a warranty.",
     ],
     neighborhoods: [
       "Oak Ridges",
@@ -256,7 +256,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Failed window seals let moisture in between panes, clouding your view. We replace the sealed unit without disturbing the frame — fast turnaround available.",
+          "Failed window seals let moisture in between panes, clouding your view. We replace the sealed unit without disturbing the frame. Fast turnaround available.",
         href: "/foggy-windows",
       },
       {
@@ -291,11 +291,11 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Got a window or door problem in Richmond Hill? Text us a photo and we'll send you a quote — or call us any time, day or night.",
+      "Got a window or door problem in Richmond Hill? Text us a photo and we'll send you a quote, or call us any time, day or night.",
     faqs: [
       {
         q: "How soon can you get to Richmond Hill?",
-        a: "We service Richmond Hill regularly — same-day and next-day appointments are typical. Emergency calls are answered within 2 hours.",
+        a: "We service Richmond Hill regularly. Same-day and next-day appointments are typical. Emergency calls are answered within 2 hours.",
       },
       {
         q: "My windows are only 10–15 years old but already foggy. Is that normal?",
@@ -307,7 +307,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What areas near Richmond Hill do you also cover?",
-        a: "We serve the entire surrounding area — Thornhill, Vaughan, Markham, Aurora, Newmarket, and King City are all in our regular service zone.",
+        a: "We serve the entire surrounding area: Thornhill, Vaughan, Markham, Aurora, Newmarket, and King City are all in our regular service zone.",
       },
     ],
   },
@@ -320,10 +320,10 @@ export const CITY_PAGES: CityPageData[] = [
       "LuminaSky Glass Services repairs foggy windows, broken cranks, cracked glass & door inserts across Markham. Mobile service, available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Markham",
     heroSubtext:
-      "From Unionville heritage homes to new builds in Cornell — fast, reliable glass and window repair across all of Markham.",
+      "From Unionville heritage homes to new builds in Cornell. Fast, reliable glass and window repair across all of Markham.",
     intro: [
-      "Markham is one of the GTA's most diverse cities, and its housing stock is just as varied — century homes along Main Street Unionville, townhouse complexes in Milliken, sprawling new subdivisions in Cornell and Cathedraltown, and everything in between. Each style brings its own window challenges. Older wooden frames need glass upgrades. Newer vinyl casements develop seal failures and crank problems as they age past the 10-year mark.",
-      "LuminaSky Glass Services handles it all with targeted repairs instead of costly full replacements. We swap out the failed sealed glass unit, replace a stripped crank operator, or install a new door glass insert — on-site, usually in a single visit. Your frames stay, your trim stays, and your wallet thanks you.",
+      "Markham is one of the GTA's most diverse cities, and its housing stock is just as varied: century homes along Main Street Unionville, townhouse complexes in Milliken, sprawling new subdivisions in Cornell and Cathedraltown, and everything in between. Each style brings its own window challenges. Older wooden frames need glass upgrades. Newer vinyl casements develop seal failures and crank problems as they age past the 10-year mark.",
+      "LuminaSky Glass Services handles it all with targeted repairs instead of costly full replacements. We swap out the failed sealed glass unit, replace a stripped crank operator, or install a new door glass insert. On-site, usually in a single visit. Your frames stay, your trim stays, and your wallet thanks you.",
     ],
     neighborhoods: [
       "Unionville",
@@ -341,7 +341,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Condensation between panes is a dead seal. We replace the insulated glass unit on-site — your frame and hardware stay in place.",
+          "Condensation between panes is a dead seal. We replace the insulated glass unit on-site. Your frame and hardware stay in place.",
         href: "/foggy-windows",
       },
       {
@@ -376,11 +376,11 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Window or door issue in Markham? Snap a photo and text it to us on WhatsApp — we'll reply with a quote fast. Or just call.",
+      "Window or door issue in Markham? Snap a photo and text it to us on WhatsApp. We'll reply with a quote fast. Or just call.",
     faqs: [
       {
         q: "Do you serve all of Markham?",
-        a: "Yes — Unionville, Milliken, Cornell, Berczy Village, Cathedraltown, Markham Village, and every neighbourhood in between. We also cover nearby Stouffville and Scarborough.",
+        a: "Yes. Unionville, Milliken, Cornell, Berczy Village, Cathedraltown, Markham Village, and every neighbourhood in between. We also cover nearby Stouffville and Scarborough.",
       },
       {
         q: "Can you repair windows in newer subdivisions like Cornell or Cathedraltown?",
@@ -402,13 +402,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Toronto",
     metaTitle: "Window & Door Repair in North York",
     metaDescription:
-      "Fast window and door repair in North York — foggy glass, sealed units, broken cranks, door inserts. Available 24/7 across Willowdale, Don Mills & more. Call 437-344-8490.",
+      "Fast window and door repair in North York: foggy glass, sealed units, broken cranks, door inserts. Available 24/7 across Willowdale, Don Mills & more. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in North York",
     heroSubtext:
       "Professional glass and window repair across Willowdale, Don Mills, Bayview Village, York Mills, and all of North York. Same-day service available.",
     intro: [
       "North York's mix of post-war bungalows, 1980s split-levels, and modern condo towers means there's no shortage of window and door problems to solve. In Willowdale and Don Mills, decades-old casement windows have cranks that no longer turn and sealed units clouded with condensation. Along the Yonge corridor, condo owners deal with scratched balcony glass and failing patio door seals. In established pockets like York Mills and Bayview Village, original builder-grade windows are well past their prime.",
-      "LuminaSky Glass Services fixes these issues at a fraction of the cost of full window replacement. We come to your home, diagnose the problem, and repair or replace only the failed component — the glass unit, the operator, or the door insert. No demolition, no reframing, no multi-week wait for a factory order.",
+      "LuminaSky Glass Services fixes these issues at a fraction of the cost of full window replacement. We come to your home, diagnose the problem, and repair or replace only the failed component: the glass unit, the operator, or the door insert. No demolition, no reframing, no multi-week wait for a factory order.",
     ],
     neighborhoods: [
       "Willowdale",
@@ -426,7 +426,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Cloudy double-pane windows mean the seal between the glass has broken down. We replace the sealed unit without removing the frame — quick and clean.",
+          "Cloudy double-pane windows mean the seal between the glass has broken down. We replace the sealed unit without removing the frame. Quick and clean.",
         href: "/foggy-windows",
       },
       {
@@ -438,7 +438,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Window Crank & Operator Repair",
         description:
-          "Casement and awning windows that won't open or close? We replace the crank mechanism with compatible parts — no full window swap needed.",
+          "Casement and awning windows that won't open or close? We replace the crank mechanism with compatible parts, no full window swap needed.",
         href: "/cranks",
       },
       {
@@ -456,12 +456,12 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Skylight Repair",
         description:
-          "Condensation-filled or leaking skylights repaired in place — glass replaced and unit re-sealed without opening the roof.",
+          "Condensation-filled or leaking skylights repaired in place: glass replaced and unit re-sealed without opening the roof.",
         href: "/skylights",
       },
     ],
     closingCTA:
-      "Need glass or window repair in North York? Text us a photo of the problem on WhatsApp and get a quote back fast — or call any time.",
+      "Need glass or window repair in North York? Text us a photo of the problem on WhatsApp and get a quote back fast, or call any time.",
     faqs: [
       {
         q: "How fast can you get to North York?",
@@ -472,12 +472,12 @@ export const CITY_PAGES: CityPageData[] = [
         a: "Yes, we do condo window and door repairs. If your building requires insurance or a management company approval, we can provide the documentation you need.",
       },
       {
-        q: "My windows are original from the 1970s — can you still fix them?",
+        q: "My windows are original from the 1970s. Can you still fix them?",
         a: "In many cases, yes. If the frames are sound, we can replace the glass and hardware. If the frames are too far gone, we'll tell you honestly and recommend replacement.",
       },
       {
         q: "What areas near North York do you also cover?",
-        a: "We serve the entire GTA — Thornhill, Richmond Hill, Scarborough, Etobicoke, downtown Toronto, and more. All from one mobile team.",
+        a: "We serve the entire GTA: Thornhill, Richmond Hill, Scarborough, Etobicoke, downtown Toronto, and more. All from one mobile team.",
       },
     ],
   },
@@ -487,13 +487,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Toronto",
     metaTitle: "Window & Door Repair in Scarborough",
     metaDescription:
-      "LuminaSky Glass Services provides fast window and door repair across Scarborough — foggy glass, sealed units, broken cranks, door inserts & more. Available 24/7. Call 437-344-8490.",
+      "LuminaSky Glass Services provides fast window and door repair across Scarborough: foggy glass, sealed units, broken cranks, door inserts & more. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Scarborough",
     heroSubtext:
-      "Affordable glass and window repair from Agincourt to Birch Cliff — serving all of Scarborough with same-day mobile service.",
+      "Affordable glass and window repair from Agincourt to Birch Cliff, serving all of Scarborough with same-day mobile service.",
     intro: [
-      "Scarborough's housing is as diverse as its communities. Post-war bungalows in Birch Cliff and Guildwood sit alongside 1970s and 80s side-splits in Bendale, high-rise clusters in Malvern, and detached homes across Agincourt. Many of these properties still have their original windows — and after 25 to 40 years, the sealed glass units have fogged over, the crank operators have seized, and the door glass inserts are scratched or cracked.",
-      "LuminaSky Glass Services brings repair-first thinking to Scarborough homeowners. Instead of quoting you for a full window tearout, we replace only the failed component — the insulated glass unit, the crank mechanism, or the door lite. Your frames and trim stay put, the job is done in one visit, and you save significantly compared to full replacement.",
+      "Scarborough's housing is as diverse as its communities. Post-war bungalows in Birch Cliff and Guildwood sit alongside 1970s and 80s side-splits in Bendale, high-rise clusters in Malvern, and detached homes across Agincourt. Many of these properties still have their original windows, and after 25 to 40 years, the sealed glass units have fogged over, the crank operators have seized, and the door glass inserts are scratched or cracked.",
+      "LuminaSky Glass Services brings repair-first thinking to Scarborough homeowners. Instead of quoting you for a full window tearout, we replace only the failed component: the insulated glass unit, the crank mechanism, or the door lite. Your frames and trim stay put, the job is done in one visit, and you save significantly compared to full replacement.",
     ],
     neighborhoods: [
       "Agincourt",
@@ -511,7 +511,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Moisture trapped between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site — your frame stays untouched.",
+          "Moisture trapped between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site. Your frame stays untouched.",
         href: "/foggy-windows",
       },
       {
@@ -523,7 +523,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Window Crank & Operator Repair",
         description:
-          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware — no need to swap the whole window.",
+          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware. No need to swap the whole window.",
         href: "/cranks",
       },
       {
@@ -546,23 +546,23 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need a window or door fixed in Scarborough? Text us a photo on WhatsApp for a quick quote — or call any time, day or night.",
+      "Need a window or door fixed in Scarborough? Text us a photo on WhatsApp for a quick quote, or call any time, day or night.",
     faqs: [
       {
         q: "How quickly can you get to Scarborough?",
-        a: "We serve Scarborough regularly — same-day and next-day appointments are typical. Emergency calls get a 2-hour response.",
+        a: "We serve Scarborough regularly. Same-day and next-day appointments are typical. Emergency calls get a 2-hour response.",
       },
       {
-        q: "My house is from the 1970s — can you still get replacement parts?",
+        q: "My house is from the 1970s. Can you still get replacement parts?",
         a: "Yes. We carry a wide inventory of crank operators, sealed units, and glass types compatible with the window brands common in Scarborough's older neighbourhoods.",
       },
       {
         q: "Is repairing a foggy window worth it, or should I replace the whole window?",
-        a: "If the frame and sash are structurally sound, replacing just the sealed glass unit is the smart call — it restores clarity and insulation at a fraction of full replacement cost.",
+        a: "If the frame and sash are structurally sound, replacing just the sealed glass unit is the smart call. It restores clarity and insulation at a fraction of full replacement cost.",
       },
       {
         q: "Do you cover all of Scarborough?",
-        a: "Yes — Agincourt, Guildwood, Birch Cliff, Malvern, Bendale, West Hill, and everywhere in between. We also serve neighbouring areas like Markham, Pickering, and North York.",
+        a: "Yes. Agincourt, Guildwood, Birch Cliff, Malvern, Bendale, West Hill, and everywhere in between. We also serve neighbouring areas like Markham, Pickering, and North York.",
       },
     ],
   },
@@ -572,13 +572,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in Aurora",
     metaDescription:
-      "Window and door repair in Aurora — foggy sealed units, broken cranks, glass replacement, door inserts. Fast mobile service, available 24/7. Call 437-344-8490.",
+      "Window and door repair in Aurora: foggy sealed units, broken cranks, glass replacement, door inserts. Fast mobile service, available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Aurora",
     heroSubtext:
-      "Serving Aurora Village, Bayview Wellington, and all of Aurora with professional glass and window repair. Fix it — don't replace it.",
+      "Serving Aurora Village, Bayview Wellington, and all of Aurora with professional glass and window repair. Fix it. Don't replace it.",
     intro: [
-      "Aurora blends small-town charm with modern suburban growth. Heritage homes near Yonge Street and Wellington have original wood-frame windows that need glass upgrades and hardware repairs. Meanwhile, the subdivisions that grew through the 1990s and 2000s — Bayview Wellington, Hills of St Andrew, Aurora Highlands — are hitting the age where factory-sealed glass units fog up and casement crank operators start to fail.",
-      "LuminaSky Glass Services serves Aurora with a repair-first approach. We replace the sealed glass unit, swap a broken crank operator, or install a new door glass insert — without removing your entire window or door frame. It's faster, cleaner, and typically saves you 60–80% compared to full replacement.",
+      "Aurora blends small-town charm with modern suburban growth. Heritage homes near Yonge Street and Wellington have original wood-frame windows that need glass upgrades and hardware repairs. Meanwhile, the subdivisions that grew through the 1990s and 2000s (Bayview Wellington, Hills of St Andrew, Aurora Highlands) are hitting the age where factory-sealed glass units fog up and casement crank operators start to fail.",
+      "LuminaSky Glass Services serves Aurora with a repair-first approach. We replace the sealed glass unit, swap a broken crank operator, or install a new door glass insert, without removing your entire window or door frame. It's faster, cleaner, and typically saves you 60–80% compared to full replacement.",
     ],
     neighborhoods: [
       "Aurora Village",
@@ -594,7 +594,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Condensation between your window panes signals a broken seal. We replace the insulated glass unit without disturbing the frame — restoring your view and insulation.",
+          "Condensation between your window panes signals a broken seal. We replace the insulated glass unit without disturbing the frame, restoring your view and insulation.",
         href: "/foggy-windows",
       },
       {
@@ -629,15 +629,15 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Dealing with foggy glass or a broken window in Aurora? Send us a photo on WhatsApp and get a quote back fast — or call any time.",
+      "Dealing with foggy glass or a broken window in Aurora? Send us a photo on WhatsApp and get a quote back fast, or call any time.",
     faqs: [
       {
         q: "How fast can you get to Aurora?",
         a: "We service Aurora and the surrounding York Region regularly. Same-day and next-day appointments are common, and emergency calls get a 2-hour response.",
       },
       {
-        q: "My windows are builder-grade from the early 2000s — can you fix them?",
-        a: "Absolutely. Builder-grade windows from that era are prime candidates for sealed unit replacement. The frames are usually fine — it's the glass seal that fails first.",
+        q: "My windows are builder-grade from the early 2000s. Can you fix them?",
+        a: "Absolutely. Builder-grade windows from that era are prime candidates for sealed unit replacement. The frames are usually fine. It's the glass seal that fails first.",
       },
       {
         q: "What does foggy window repair cost in Aurora?",
@@ -645,7 +645,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Do you also serve Newmarket and King City?",
-        a: "Yes — we cover Newmarket, King City, Richmond Hill, and the entire northern York Region from our mobile service team.",
+        a: "Yes. We cover Newmarket, King City, Richmond Hill, and the entire northern York Region from our mobile service team.",
       },
     ],
   },
@@ -658,10 +658,10 @@ export const CITY_PAGES: CityPageData[] = [
       "LuminaSky Glass Services repairs foggy windows, broken cranks, cracked glass & door inserts across Woodbridge. Available 24/7. Call 437-344-8490 for a fast quote.",
     heroHeadline: "Window & Door Repair in Woodbridge",
     heroSubtext:
-      "From Sonoma Heights to Islington Woods — fast, professional window and glass repair for Woodbridge homeowners. Repair, not replace.",
+      "From Sonoma Heights to Islington Woods, fast, professional window and glass repair for Woodbridge homeowners. Repair, not replace.",
     intro: [
       "Woodbridge is one of Vaughan's most established communities, and its homes reflect decades of building. Custom-built estate homes along Islington Avenue sit next to family-friendly subdivisions in Sonoma Heights and Vellore Village, while older properties near the village core along Woodbridge Avenue still carry their original windows. These homes all share one thing in common: windows and doors that eventually need attention.",
-      "LuminaSky Glass Services is Woodbridge's go-to for glass and window repair. We don't sell you a full window replacement when all you need is a new sealed glass unit or a replacement crank operator. Our approach is simple — fix the component that failed, leave everything else alone, and save you time and money in the process.",
+      "LuminaSky Glass Services is Woodbridge's go-to for glass and window repair. We don't sell you a full window replacement when all you need is a new sealed glass unit or a replacement crank operator. Our approach is simple: fix the component that failed, leave everything else alone, and save you time and money in the process.",
     ],
     neighborhoods: [
       "Sonoma Heights",
@@ -712,19 +712,19 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Have a foggy window or broken door glass in Woodbridge? Text us a photo on WhatsApp for a fast quote — or call us any time, day or night.",
+      "Have a foggy window or broken door glass in Woodbridge? Text us a photo on WhatsApp for a fast quote, or call us any time, day or night.",
     faqs: [
       {
         q: "How fast can you get to Woodbridge?",
         a: "We're in the Woodbridge and Vaughan area daily. Same-day service is often available, and emergency calls get a 2-hour response.",
       },
       {
-        q: "My home has custom oversized windows — can you still repair them?",
+        q: "My home has custom oversized windows. Can you still repair them?",
         a: "Yes. We order custom-sized sealed glass units and tempered panels to fit non-standard windows. Turnaround depends on the size, but we'll give you a clear timeline upfront.",
       },
       {
         q: "Do you serve both Woodbridge and the rest of Vaughan?",
-        a: "Absolutely — Woodbridge, Maple, Kleinburg, Concord, and all of Vaughan are in our core service area. We also cover neighbouring Richmond Hill, King City, and Brampton.",
+        a: "Absolutely. Woodbridge, Maple, Kleinburg, Concord, and all of Vaughan are in our core service area. We also cover neighbouring Richmond Hill, King City, and Brampton.",
       },
       {
         q: "What's the difference between replacing the glass unit and replacing the whole window?",
@@ -738,13 +738,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Vaughan",
     metaTitle: "Window & Door Repair in Maple",
     metaDescription:
-      "Fast window and door repair in Maple — foggy glass, sealed units, broken cranks, door inserts. Mobile service, available 24/7. Call 437-344-8490.",
+      "Fast window and door repair in Maple: foggy glass, sealed units, broken cranks, door inserts. Mobile service, available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Maple",
     heroSubtext:
-      "Reliable glass and window repair across Maple Village, Eagle Hills, and all of Maple. We fix it on-site — usually the same day you call.",
+      "Reliable glass and window repair across Maple Village, Eagle Hills, and all of Maple. We fix it on-site, usually the same day you call.",
     intro: [
-      "Maple has transformed from a quiet village north of the city into one of Vaughan's fastest-growing communities. Subdivisions in Eagle Hills, Mackenzie Ridge, and Sabatini are filled with family homes built from the late 1990s through the 2010s — homes now old enough that their factory-sealed windows are developing condensation between panes and their crank hardware is wearing out. Closer to the historic Maple Village core, older properties face similar issues with aging glass and hardware.",
-      "LuminaSky Glass Services helps Maple homeowners fix these problems affordably. We replace the failed sealed glass unit or the worn-out crank operator — not the entire window. Your frames stay in place, there's no mess from demolition, and the repair is done in a single visit. It's the practical, cost-effective way to keep your home comfortable and looking sharp.",
+      "Maple has transformed from a quiet village north of the city into one of Vaughan's fastest-growing communities. Subdivisions in Eagle Hills, Mackenzie Ridge, and Sabatini are filled with family homes built from the late 1990s through the 2010s, homes now old enough that their factory-sealed windows are developing condensation between panes and their crank hardware is wearing out. Closer to the historic Maple Village core, older properties face similar issues with aging glass and hardware.",
+      "LuminaSky Glass Services helps Maple homeowners fix these problems affordably. We replace the failed sealed glass unit or the worn-out crank operator, not the entire window. Your frames stay in place, there's no mess from demolition, and the repair is done in a single visit. It's the practical, cost-effective way to keep your home comfortable and looking sharp.",
     ],
     neighborhoods: [
       "Maple Village",
@@ -760,7 +760,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Cloudy windows with condensation between the panes? The seal has failed. We replace the glass unit without removing the frame — clean and fast.",
+          "Cloudy windows with condensation between the panes? The seal has failed. We replace the glass unit without removing the frame. Clean and fast.",
         href: "/foggy-windows",
       },
       {
@@ -772,7 +772,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Window Crank & Operator Repair",
         description:
-          "Casement and awning windows that stick or won't close? We replace the crank mechanism with OEM-compatible parts — no full window swap required.",
+          "Casement and awning windows that stick or won't close? We replace the crank mechanism with OEM-compatible parts, no full window swap required.",
         href: "/cranks",
       },
       {
@@ -795,11 +795,11 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Window or door problem in Maple? Snap a photo and send it to us on WhatsApp — we'll reply with a quote fast. Or just call.",
+      "Window or door problem in Maple? Snap a photo and send it to us on WhatsApp. We'll reply with a quote fast. Or just call.",
     faqs: [
       {
         q: "Do you serve all of Maple?",
-        a: "Yes — Maple Village, Eagle Hills, Cold Creek, Sabatini, Mackenzie Ridge, and every corner of Maple. We also cover nearby Woodbridge, King City, and Richmond Hill.",
+        a: "Yes. Maple Village, Eagle Hills, Cold Creek, Sabatini, Mackenzie Ridge, and every corner of Maple. We also cover nearby Woodbridge, King City, and Richmond Hill.",
       },
       {
         q: "My windows are only 12–15 years old but fogging up. Is that normal?",
@@ -811,7 +811,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Can you match the existing glass type in my windows?",
-        a: "Yes — we source double-pane, triple-pane, Low-E, and argon-filled units to match your existing setup. Your replacement glass will perform the same or better than the original.",
+        a: "Yes. We source double-pane, triple-pane, Low-E, and argon-filled units to match your existing setup. Your replacement glass will perform the same or better than the original.",
       },
     ],
   },
@@ -821,13 +821,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in King City",
     metaDescription:
-      "Window and glass repair in King City — foggy sealed units, broken cranks, door glass inserts. Serving King City, Nobleton & area. Available 24/7. Call 437-344-8490.",
+      "Window and glass repair in King City: foggy sealed units, broken cranks, door glass inserts. Serving King City, Nobleton & area. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in King City",
     heroSubtext:
       "Professional glass and window repair for King City, Nobleton, and the surrounding area. Estate homes, hobby farms, and everything in between.",
     intro: [
-      "King City and the Township of King are known for large-lot estates, horse properties, and rural acreages set among rolling hills north of Vaughan. Many of these homes are custom-built with oversized windows, decorative door glass, and skylights that offer panoramic views of the countryside. When those sealed glass units fog up, when a crank operator fails on a hard-to-reach casement, or when a front door insert cracks — homeowners need a repair company that comes to them.",
-      "LuminaSky Glass Services makes house calls across King City, Nobleton, and the surrounding area. We replace only the component that failed — the sealed glass unit, the crank hardware, the door lite — so you keep your custom frames and trim intact. No factory orders, no weeks of waiting, and no unnecessary expense.",
+      "King City and the Township of King are known for large-lot estates, horse properties, and rural acreages set among rolling hills north of Vaughan. Many of these homes are custom-built with oversized windows, decorative door glass, and skylights that offer panoramic views of the countryside. When those sealed glass units fog up, when a crank operator fails on a hard-to-reach casement, or when a front door insert cracks, homeowners need a repair company that comes to them.",
+      "LuminaSky Glass Services makes house calls across King City, Nobleton, and the surrounding area. We replace only the component that failed (the sealed glass unit, the crank hardware, the door lite), so you keep your custom frames and trim intact. No factory orders, no weeks of waiting, and no unnecessary expense.",
     ],
     neighborhoods: [
       "King City proper",
@@ -843,7 +843,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Failed seals cause condensation between window panes. We replace the insulated glass unit without removing the frame — restoring clarity and insulation.",
+          "Failed seals cause condensation between window panes. We replace the insulated glass unit without removing the frame, restoring clarity and insulation.",
         href: "/foggy-windows",
       },
       {
@@ -873,16 +873,16 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Skylight Repair",
         description:
-          "Leaking or foggy skylights repaired in place — glass replaced and unit re-sealed without opening the roof. All skylight brands covered.",
+          "Leaking or foggy skylights repaired in place: glass replaced and unit re-sealed without opening the roof. All skylight brands covered.",
         href: "/skylights",
       },
     ],
     closingCTA:
-      "Need window or door repair in King City or Nobleton? Text us a photo on WhatsApp for a fast quote — or call us any time.",
+      "Need window or door repair in King City or Nobleton? Text us a photo on WhatsApp for a fast quote, or call us any time.",
     faqs: [
       {
         q: "Do you travel to King City and Nobleton?",
-        a: "Yes — King City, Nobleton, Kettleby, and the surrounding Township of King are all within our regular service area. We also cover Aurora, Newmarket, and Vaughan.",
+        a: "Yes. King City, Nobleton, Kettleby, and the surrounding Township of King are all within our regular service area. We also cover Aurora, Newmarket, and Vaughan.",
       },
       {
         q: "Can you handle oversized windows common in estate homes?",
@@ -894,7 +894,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Is it worth repairing windows on a rural property or should I replace them?",
-        a: "If the frames are solid, repair is almost always the better value — especially for custom or oversized windows where replacement costs are high. We'll inspect and give you an honest recommendation.",
+        a: "If the frames are solid, repair is almost always the better value, especially for custom or oversized windows where replacement costs are high. We'll inspect and give you an honest recommendation.",
       },
     ],
   },
@@ -909,8 +909,8 @@ export const CITY_PAGES: CityPageData[] = [
     heroSubtext:
       "Fast, affordable glass and window repair across Stonehaven, Summerhill Estates, Glenway, and all of Newmarket. Same-day service available.",
     intro: [
-      "Newmarket sits at the northern edge of York Region's suburban belt, and its housing tells the story of decades of steady growth. The historic downtown along Main Street has century-old homes with wood-frame windows that need careful glass work. The subdivisions built through the 1980s and 90s — Stonehaven, Glenway, Woodland Hill — have reached the age where sealed glass units fail and crank mechanisms wear out. Even the newer builds in Summerhill Estates and Armitage aren't immune to early seal failures in builder-grade windows.",
-      "LuminaSky Glass Services serves Newmarket with targeted repairs that skip the cost and disruption of full window replacement. We replace the sealed glass unit, swap a broken crank operator, or install a new door glass insert — all on-site, usually in a single visit. Your existing frames and trim stay in place, and the repair costs a fraction of tearing everything out.",
+      "Newmarket sits at the northern edge of York Region's suburban belt, and its housing tells the story of decades of steady growth. The historic downtown along Main Street has century-old homes with wood-frame windows that need careful glass work. The subdivisions built through the 1980s and 90s (Stonehaven, Glenway, Woodland Hill) have reached the age where sealed glass units fail and crank mechanisms wear out. Even the newer builds in Summerhill Estates and Armitage aren't immune to early seal failures in builder-grade windows.",
+      "LuminaSky Glass Services serves Newmarket with targeted repairs that skip the cost and disruption of full window replacement. We replace the sealed glass unit, swap a broken crank operator, or install a new door glass insert. All on-site, usually in a single visit. Your existing frames and trim stay in place, and the repair costs a fraction of tearing everything out.",
     ],
     neighborhoods: [
       "Stonehaven",
@@ -926,7 +926,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Moisture between your window panes means the factory seal has broken. We replace the insulated glass unit and leave the frame alone — quick and affordable.",
+          "Moisture between your window panes means the factory seal has broken. We replace the insulated glass unit and leave the frame alone, quick and affordable.",
         href: "/foggy-windows",
       },
       {
@@ -961,7 +961,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Got a window or door issue in Newmarket? Text us a photo on WhatsApp and we'll send you a quote — or call us any time, day or night.",
+      "Got a window or door issue in Newmarket? Text us a photo on WhatsApp and we'll send you a quote, or call us any time, day or night.",
     faqs: [
       {
         q: "How quickly can you get to Newmarket?",
@@ -969,11 +969,11 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Do you cover all of Newmarket?",
-        a: "Yes — Stonehaven, Summerhill Estates, Glenway, Woodland Hill, Armitage, and every neighbourhood in between. We also serve nearby Aurora, King City, and East Gwillimbury.",
+        a: "Yes. Stonehaven, Summerhill Estates, Glenway, Woodland Hill, Armitage, and every neighbourhood in between. We also serve nearby Aurora, King City, and East Gwillimbury.",
       },
       {
         q: "My windows are builder-grade from the 1990s. Can you fix them?",
-        a: "Yes — builder-grade windows from that era are our bread and butter. The frames are usually still solid; it's the sealed glass units and crank hardware that fail first. We replace those components affordably.",
+        a: "Yes. Builder-grade windows from that era are our bread and butter. The frames are usually still solid; it's the sealed glass units and crank hardware that fail first. We replace those components affordably.",
       },
       {
         q: "What does a typical foggy window repair cost?",
@@ -988,13 +988,13 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Toronto",
     metaDescription:
-      "Fast, affordable window and door repair across Toronto. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it — don't replace it.",
+      "Fast, affordable window and door repair across Toronto. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it. Don't replace it.",
     heroHeadline: "Window & Door Repair in Toronto",
     heroSubtext:
-      "From century homes in Cabbagetown to condos along the Danforth — professional glass and window repair across all of Toronto. Repair first, replace only when necessary.",
+      "From century homes in Cabbagetown to condos along the Danforth, professional glass and window repair across all of Toronto. Repair first, replace only when necessary.",
     intro: [
-      "Toronto homes come in every era — from century-old Cabbagetown row houses to mid-rise condos along the Danforth, post-war bungalows in the Beaches, and Edwardian semis in Roncesvalles. What they share is windows that eventually need attention. Foggy sealed units, jammed cranks, cracked door glass — we repair all of it without replacing what still works.",
-      "LuminaSky Glass Services serves homeowners and condo residents across Toronto with targeted repairs instead of costly full replacements. We replace the sealed glass unit, swap a worn crank operator, or install a new door glass insert — on-site, usually in a single visit. We handle high-rise units too, working with property managers and condo boards to get the job done with minimal disruption.",
+      "Toronto homes come in every era: from century-old Cabbagetown row houses to mid-rise condos along the Danforth, post-war bungalows in the Beaches, and Edwardian semis in Roncesvalles. What they share is windows that eventually need attention. Foggy sealed units, jammed cranks, cracked door glass: we repair all of it without replacing what still works.",
+      "LuminaSky Glass Services serves homeowners and condo residents across Toronto with targeted repairs instead of costly full replacements. We replace the sealed glass unit, swap a worn crank operator, or install a new door glass insert. On-site, usually in a single visit. We handle high-rise units too, working with property managers and condo boards to get the job done with minimal disruption.",
     ],
     neighborhoods: [
       "Downtown",
@@ -1014,7 +1014,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Condensation between your window panes means a failed seal. We replace the insulated glass unit without removing the frame — keeping your home's character intact.",
+          "Condensation between your window panes means a failed seal. We replace the insulated glass unit without removing the frame, keeping your home's character intact.",
         href: "/foggy-windows",
       },
       {
@@ -1049,7 +1049,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need a window or door fixed in Toronto? Text us a photo on WhatsApp for a fast quote — or call us any time, day or night.",
+      "Need a window or door fixed in Toronto? Text us a photo on WhatsApp for a fast quote, or call us any time, day or night.",
     faqs: [
       {
         q: "Do you work in condo buildings?",
@@ -1057,11 +1057,11 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Do you cover all of Toronto?",
-        a: "Yes — Downtown, Leslieville, the Danforth, the Beaches, Cabbagetown, Roncesvalles, High Park, Bloor West Village, the Annex, and every neighbourhood in between. We also serve North York, Scarborough, and Etobicoke.",
+        a: "Yes. Downtown, Leslieville, the Danforth, the Beaches, Cabbagetown, Roncesvalles, High Park, Bloor West Village, the Annex, and every neighbourhood in between. We also serve North York, Scarborough, and Etobicoke.",
       },
       {
         q: "Can you work on older heritage windows?",
-        a: "Absolutely. Many Toronto homes have original wood-frame windows worth preserving. We replace the glass and repair hardware without altering the frame — keeping the look your home was built with.",
+        a: "Absolutely. Many Toronto homes have original wood-frame windows worth preserving. We replace the glass and repair hardware without altering the frame, keeping the look your home was built with.",
       },
       {
         q: "Do I need to replace the whole window or just the glass?",
@@ -1076,13 +1076,13 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Mississauga",
     metaDescription:
-      "Fast, affordable window and door repair across Mississauga. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it — don't replace it.",
+      "Fast, affordable window and door repair across Mississauga. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it. Don't replace it.",
     heroHeadline: "Window & Door Repair in Mississauga",
     heroSubtext:
-      "Serving Port Credit, Streetsville, Erin Mills, Meadowvale, and all of Mississauga with professional glass and window repair. Fix it — don't replace it.",
+      "Serving Port Credit, Streetsville, Erin Mills, Meadowvale, and all of Mississauga with professional glass and window repair. Fix it. Don't replace it.",
     intro: [
-      "Mississauga is the GTA's second-largest city, and its housing stock stretches across every decade — from the established homes of Port Credit and Lorne Park to the sprawling 1980s and 90s subdivisions of Erin Mills, Meadowvale, and Churchill Meadows. Homes from that era are now hitting the 25- to 40-year mark, which is exactly when factory-sealed glass units start fogging up and crank operators begin to fail.",
-      "LuminaSky Glass Services helps Mississauga homeowners fix these problems without the cost and disruption of full window replacement. We replace only the failed component — the insulated glass unit, the crank mechanism, or the door lite — leaving your frames, trim, and siding untouched. One visit, one repair, and you're done.",
+      "Mississauga is the GTA's second-largest city, and its housing stock stretches across every decade: from the established homes of Port Credit and Lorne Park to the sprawling 1980s and 90s subdivisions of Erin Mills, Meadowvale, and Churchill Meadows. Homes from that era are now hitting the 25- to 40-year mark, which is exactly when factory-sealed glass units start fogging up and crank operators begin to fail.",
+      "LuminaSky Glass Services helps Mississauga homeowners fix these problems without the cost and disruption of full window replacement. We replace only the failed component (the insulated glass unit, the crank mechanism, or the door lite), leaving your frames, trim, and siding untouched. One visit, one repair, and you're done.",
     ],
     neighborhoods: [
       "Port Credit",
@@ -1102,7 +1102,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Moisture trapped between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site — your frame stays untouched.",
+          "Moisture trapped between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site. Your frame stays untouched.",
         href: "/foggy-windows",
       },
       {
@@ -1114,7 +1114,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Window Crank & Operator Repair",
         description:
-          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware — no need to swap the whole window.",
+          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware. No need to swap the whole window.",
         href: "/cranks",
       },
       {
@@ -1137,23 +1137,23 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Dealing with foggy windows or broken door glass in Mississauga? Send us a photo on WhatsApp for a fast quote — or call any time.",
+      "Dealing with foggy windows or broken door glass in Mississauga? Send us a photo on WhatsApp for a fast quote, or call any time.",
     faqs: [
       {
         q: "How fast can you get to Mississauga?",
         a: "We serve Mississauga regularly. Most appointments are scheduled for the same day or next day, and emergency calls get a response within 2 hours.",
       },
       {
-        q: "My windows are from the 1980s — can you still get parts?",
+        q: "My windows are from the 1980s. Can you still get parts?",
         a: "Yes. We stock a wide range of crank operators, sealed units, and glass types compatible with the window brands installed in Mississauga's older subdivisions.",
       },
       {
         q: "Do you serve all of Mississauga?",
-        a: "Yes — Port Credit, Streetsville, Meadowvale, Erin Mills, Clarkson, Cooksville, Lorne Park, Applewood, Churchill Meadows, and everywhere in between.",
+        a: "Yes. Port Credit, Streetsville, Meadowvale, Erin Mills, Clarkson, Cooksville, Lorne Park, Applewood, Churchill Meadows, and everywhere in between.",
       },
       {
         q: "Is it cheaper to repair or replace a foggy window?",
-        a: "If the frame and sash are in good condition, repairing — replacing just the sealed glass unit — is significantly less expensive than full window replacement and restores full clarity and insulation.",
+        a: "If the frame and sash are in good condition, repairing (replacing just the sealed glass unit) is significantly less expensive than full window replacement and restores full clarity and insulation.",
       },
     ],
   },
@@ -1164,13 +1164,13 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Etobicoke",
     metaDescription:
-      "Fast, affordable window and door repair across Etobicoke. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it — don't replace it.",
+      "Fast, affordable window and door repair across Etobicoke. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it. Don't replace it.",
     heroHeadline: "Window & Door Repair in Etobicoke",
     heroSubtext:
-      "Professional glass and window repair across The Kingsway, Mimico, Long Branch, and all of Etobicoke. We fix it on-site — usually the same day you call.",
+      "Professional glass and window repair across The Kingsway, Mimico, Long Branch, and all of Etobicoke. We fix it on-site, usually the same day you call.",
     intro: [
-      "Etobicoke's established neighbourhoods — The Kingsway, Sunnylea, Alderwood, Thorncrest Village — are home to some of the GTA's most mature housing stock. Many of these homes still carry their original casement windows, crank operators, and decorative door glass from the 1950s through the 1980s. Along the lakeshore in Mimico, New Toronto, and Long Branch, a mix of older bungalows and newer condo developments brings its own set of window challenges.",
-      "LuminaSky Glass Services specializes in the kind of repair work Etobicoke homeowners need most: replacing sealed glass units that have fogged over, swapping out crank mechanisms that have seized or stripped, and installing new door glass inserts to replace dated or cracked originals. We repair the component that failed — not the whole window — saving you time, money, and the hassle of a full tearout.",
+      "Etobicoke's established neighbourhoods (The Kingsway, Sunnylea, Alderwood, Thorncrest Village) are home to some of the GTA's most mature housing stock. Many of these homes still carry their original casement windows, crank operators, and decorative door glass from the 1950s through the 1980s. Along the lakeshore in Mimico, New Toronto, and Long Branch, a mix of older bungalows and newer condo developments brings its own set of window challenges.",
+      "LuminaSky Glass Services specializes in the kind of repair work Etobicoke homeowners need most: replacing sealed glass units that have fogged over, swapping out crank mechanisms that have seized or stripped, and installing new door glass inserts to replace dated or cracked originals. We repair the component that failed, not the whole window, saving you time, money, and the hassle of a full tearout.",
     ],
     neighborhoods: [
       "The Kingsway",
@@ -1190,7 +1190,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Failed window seals let moisture in between panes, clouding your view. We replace the sealed unit without disturbing the frame — restoring clarity and insulation.",
+          "Failed window seals let moisture in between panes, clouding your view. We replace the sealed unit without disturbing the frame, restoring clarity and insulation.",
         href: "/foggy-windows",
       },
       {
@@ -1225,23 +1225,23 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need window or door repair in Etobicoke? Text us a photo on WhatsApp for a fast quote — or call us any time, day or night.",
+      "Need window or door repair in Etobicoke? Text us a photo on WhatsApp for a fast quote, or call us any time, day or night.",
     faqs: [
       {
         q: "How fast can you get to Etobicoke?",
         a: "We're in the Etobicoke area regularly. Most appointments are same-day or next-day, and emergency calls get a 2-hour response.",
       },
       {
-        q: "My home has original 1960s windows — can you still repair them?",
+        q: "My home has original 1960s windows. Can you still repair them?",
         a: "In many cases, yes. If the frames are sound, we can replace the glass and hardware. If the frames are too far gone, we'll tell you honestly and recommend replacement.",
       },
       {
         q: "Do you cover all of Etobicoke?",
-        a: "Yes — The Kingsway, Mimico, New Toronto, Long Branch, Humber Bay, Alderwood, Sunnylea, Markland Wood, and every neighbourhood in between. We also serve downtown Toronto, Mississauga, and North York.",
+        a: "Yes. The Kingsway, Mimico, New Toronto, Long Branch, Humber Bay, Alderwood, Sunnylea, Markland Wood, and every neighbourhood in between. We also serve downtown Toronto, Mississauga, and North York.",
       },
       {
         q: "What's the advantage of repairing instead of replacing?",
-        a: "If your frame and sash are solid, replacing just the sealed glass unit or the crank mechanism costs a fraction of a full window replacement — and keeps the original look and trim of your home intact.",
+        a: "If your frame and sash are solid, replacing just the sealed glass unit or the crank mechanism costs a fraction of a full window replacement, and keeps the original look and trim of your home intact.",
       },
     ],
   },
@@ -1252,13 +1252,13 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Brampton",
     metaDescription:
-      "Fast, affordable window and door repair across Brampton. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it — don't replace it.",
+      "Fast, affordable window and door repair across Brampton. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it. Don't replace it.",
     heroHeadline: "Window & Door Repair in Brampton",
     heroSubtext:
       "Serving Bramalea, Heart Lake, Mount Pleasant, Castlemore, and all of Brampton with fast, professional window and glass repair.",
     intro: [
-      "Brampton is one of the GTA's fastest-growing cities, with a housing mix that ranges from established 1970s subdivisions in Bramalea and Heart Lake to newer developments in Castlemore, Fletcher's Meadow, and Vales of Castlemore. Whether your home is 10 years old or 40, windows and doors eventually need attention — foggy sealed units, broken crank mechanisms, and cracked door glass are problems we see across every Brampton neighbourhood.",
-      "LuminaSky Glass Services serves both homeowners and property managers across Brampton. We replace only the failed component — the insulated glass unit, the crank hardware, or the door insert — without tearing out the whole window or door frame. It's the practical, affordable approach, and we back every repair with a warranty.",
+      "Brampton is one of the GTA's fastest-growing cities, with a housing mix that ranges from established 1970s subdivisions in Bramalea and Heart Lake to newer developments in Castlemore, Fletcher's Meadow, and Vales of Castlemore. Whether your home is 10 years old or 40, windows and doors eventually need attention: foggy sealed units, broken crank mechanisms, and cracked door glass are problems we see across every Brampton neighbourhood.",
+      "LuminaSky Glass Services serves both homeowners and property managers across Brampton. We replace only the failed component (the insulated glass unit, the crank hardware, or the door insert) without tearing out the whole window or door frame. It's the practical, affordable approach, and we back every repair with a warranty.",
     ],
     neighborhoods: [
       "Bramalea",
@@ -1278,7 +1278,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Cloudy windows with moisture between the panes? The factory seal has failed. We replace the insulated glass unit and leave the frame alone — clean and affordable.",
+          "Cloudy windows with moisture between the panes? The factory seal has failed. We replace the insulated glass unit and leave the frame alone, clean and affordable.",
         href: "/foggy-windows",
       },
       {
@@ -1308,28 +1308,28 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Skylight Repair",
         description:
-          "Foggy or leaking skylights repaired in place — glass replaced and unit re-sealed without opening the roof.",
+          "Foggy or leaking skylights repaired in place: glass replaced and unit re-sealed without opening the roof.",
         href: "/skylights",
       },
     ],
     closingCTA:
-      "Window or door problem in Brampton? Snap a photo and send it to us on WhatsApp — we'll reply with a quote fast. Or just call.",
+      "Window or door problem in Brampton? Snap a photo and send it to us on WhatsApp. We'll reply with a quote fast. Or just call.",
     faqs: [
       {
         q: "Do you serve all of Brampton?",
-        a: "Yes — Bramalea, Heart Lake, Mount Pleasant, Springdale, Castlemore, Fletcher's Meadow, Downtown Brampton, and every corner of the city. We also cover nearby Mississauga, Caledon, and Vaughan.",
+        a: "Yes. Bramalea, Heart Lake, Mount Pleasant, Springdale, Castlemore, Fletcher's Meadow, Downtown Brampton, and every corner of the city. We also cover nearby Mississauga, Caledon, and Vaughan.",
       },
       {
         q: "Do you work with property managers and landlords?",
         a: "Absolutely. We handle residential and light commercial window and door repairs across Brampton. We can provide quotes per unit for multi-property work and carry full insurance documentation.",
       },
       {
-        q: "My windows are builder-grade from the early 2000s — can you fix them?",
-        a: "Yes. Builder-grade windows from that era are prime candidates for sealed unit replacement. The frames are usually fine — it's the glass seal and crank hardware that fail first.",
+        q: "My windows are builder-grade from the early 2000s. Can you fix them?",
+        a: "Yes. Builder-grade windows from that era are prime candidates for sealed unit replacement. The frames are usually fine. It's the glass seal and crank hardware that fail first.",
       },
       {
         q: "What areas near Brampton do you also cover?",
-        a: "We serve the full GTA — Mississauga, Caledon, Vaughan, Toronto, and beyond. All from one mobile team.",
+        a: "We serve the full GTA: Mississauga, Caledon, Vaughan, Toronto, and beyond. All from one mobile team.",
       },
     ],
   },
@@ -1340,13 +1340,13 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Oakville",
     metaDescription:
-      "Fast, affordable window and door repair across Oakville. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it — don't replace it.",
+      "Fast, affordable window and door repair across Oakville. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it. Don't replace it.",
     heroHeadline: "Window & Door Repair in Oakville",
     heroSubtext:
-      "Quality glass and window repair for Oakville homeowners — from Old Oakville to Glen Abbey. Family-run, no pressure, honest recommendations.",
+      "Quality glass and window repair for Oakville homeowners, from Old Oakville to Glen Abbey. Family-run, no pressure, honest recommendations.",
     intro: [
-      "Oakville homeowners invest in their properties — and they expect tradespeople who take the same care. Whether you're in a lakeside home in Bronte, a family neighbourhood in Glen Abbey or River Oaks, or a newer build in Joshua Creek, your windows and doors are a big part of your home's comfort and curb appeal. When sealed units fog up, cranks stop turning, or door glass cracks, you want it fixed right — not oversold on a full replacement you don't need.",
-      "LuminaSky Glass Services is a family-run repair company that serves Oakville with a straightforward approach: we fix the part that's broken. If it's the sealed glass unit, we replace it. If it's the crank operator, we swap it. If it's the door insert, we install a new one. We'll always tell you honestly whether repair or replacement is the better call — and most of the time, repair is the answer.",
+      "Oakville homeowners invest in their properties, and they expect tradespeople who take the same care. Whether you're in a lakeside home in Bronte, a family neighbourhood in Glen Abbey or River Oaks, or a newer build in Joshua Creek, your windows and doors are a big part of your home's comfort and curb appeal. When sealed units fog up, cranks stop turning, or door glass cracks, you want it fixed right, not oversold on a full replacement you don't need.",
+      "LuminaSky Glass Services is a family-run repair company that serves Oakville with a straightforward approach: we fix the part that's broken. If it's the sealed glass unit, we replace it. If it's the crank operator, we swap it. If it's the door insert, we install a new one. We'll always tell you honestly whether repair or replacement is the better call, and most of the time, repair is the answer.",
     ],
     neighborhoods: [
       "Bronte",
@@ -1378,7 +1378,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Window Crank & Operator Repair",
         description:
-          "Casement and awning windows with seized or stripped cranks. We replace the operator mechanism with compatible hardware — no full window swap required.",
+          "Casement and awning windows with seized or stripped cranks. We replace the operator mechanism with compatible hardware. No full window swap required.",
         href: "/cranks",
       },
       {
@@ -1401,7 +1401,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need window or door repair in Oakville? Text us a photo on WhatsApp for a fast quote — or call any time, day or night.",
+      "Need window or door repair in Oakville? Text us a photo on WhatsApp for a fast quote, or call any time, day or night.",
     faqs: [
       {
         q: "How soon can you get to Oakville?",
@@ -1409,7 +1409,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Do you cover all of Oakville?",
-        a: "Yes — Bronte, Kerr Village, Old Oakville, Glen Abbey, River Oaks, Iroquois Ridge, West Oak Trails, Joshua Creek, Palermo, and every neighbourhood in between. We also serve Burlington, Mississauga, and Milton.",
+        a: "Yes. Bronte, Kerr Village, Old Oakville, Glen Abbey, River Oaks, Iroquois Ridge, West Oak Trails, Joshua Creek, Palermo, and every neighbourhood in between. We also serve Burlington, Mississauga, and Milton.",
       },
       {
         q: "Will you tell me honestly if I need replacement instead of repair?",
@@ -1417,7 +1417,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Can you match the glass type in my existing windows?",
-        a: "Yes — we source double-pane, triple-pane, Low-E, and argon-filled units to match your existing setup. Your replacement glass will perform the same or better than the original.",
+        a: "Yes. We source double-pane, triple-pane, Low-E, and argon-filled units to match your existing setup. Your replacement glass will perform the same or better than the original.",
       },
     ],
   },
@@ -1427,13 +1427,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Halton Region",
     metaTitle: "Window & Door Repair in Burlington",
     metaDescription:
-      "Window and door repair in Burlington — foggy sealed units, broken cranks, glass replacement, door inserts across Roseland, Aldershot & Tyandaga. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Burlington: foggy sealed units, broken cranks, glass replacement, door inserts across Roseland, Aldershot & Tyandaga. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Burlington",
     heroSubtext:
-      "Serving Roseland, Aldershot, Tyandaga, and all of Burlington with fast, professional glass and window repair. Fix it — don't replace it.",
+      "Serving Roseland, Aldershot, Tyandaga, and all of Burlington with fast, professional glass and window repair. Fix it. Don't replace it.",
     intro: [
-      "Burlington offers a mix of housing that few GTA cities can match — heritage homes along the lakeshore in Roseland and LaSalle Park, established 1970s and 80s suburban streets in Tyandaga and Palmer, and newer family subdivisions in Alton Village and Orchard. Each generation of home brings its own window headaches. Older lakefront properties contend with original casement windows and decorative door glass past its prime. The mid-century suburbs are squarely in the fog zone — sealed glass units installed 30 to 40 years ago losing their seals in waves.",
-      "LuminaSky Glass Services serves Burlington homeowners with targeted repairs that skip the expense and disruption of full window replacement. We replace the sealed glass unit, swap a failing crank operator, or install a new door glass insert — on-site, usually in a single visit. Frames, trim, and siding stay untouched, and you save 60–80% compared to ripping everything out.",
+      "Burlington offers a mix of housing that few GTA cities can match: heritage homes along the lakeshore in Roseland and LaSalle Park, established 1970s and 80s suburban streets in Tyandaga and Palmer, and newer family subdivisions in Alton Village and Orchard. Each generation of home brings its own window headaches. Older lakefront properties contend with original casement windows and decorative door glass past its prime. The mid-century suburbs are squarely in the fog zone: sealed glass units installed 30 to 40 years ago losing their seals in waves.",
+      "LuminaSky Glass Services serves Burlington homeowners with targeted repairs that skip the expense and disruption of full window replacement. We replace the sealed glass unit, swap a failing crank operator, or install a new door glass insert. On-site, usually in a single visit. Frames, trim, and siding stay untouched, and you save 60–80% compared to ripping everything out.",
     ],
     neighborhoods: [
       "Aldershot",
@@ -1453,7 +1453,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Condensation between your window panes means the seal has failed. We replace the insulated glass unit without disturbing the frame — restoring clarity and insulation.",
+          "Condensation between your window panes means the seal has failed. We replace the insulated glass unit without disturbing the frame, restoring clarity and insulation.",
         href: "/foggy-windows",
       },
       {
@@ -1488,7 +1488,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Dealing with foggy glass or a broken window in Burlington? Send us a photo on WhatsApp and get a quote back fast — or call any time.",
+      "Dealing with foggy glass or a broken window in Burlington? Send us a photo on WhatsApp and get a quote back fast, or call any time.",
     faqs: [
       {
         q: "How fast can you get to Burlington?",
@@ -1496,15 +1496,15 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Do you cover all of Burlington?",
-        a: "Yes — Aldershot, Downtown Burlington, Roseland, Tyandaga, Millcroft, Alton Village, and every neighbourhood in between. We also serve nearby Oakville, Hamilton, and Milton.",
+        a: "Yes. Aldershot, Downtown Burlington, Roseland, Tyandaga, Millcroft, Alton Village, and every neighbourhood in between. We also serve nearby Oakville, Hamilton, and Milton.",
       },
       {
-        q: "My lakefront home has large picture windows — can you repair them?",
+        q: "My lakefront home has large picture windows. Can you repair them?",
         a: "Absolutely. We handle oversized sealed glass units and picture windows regularly. We measure on-site and order custom-sized replacement panels.",
       },
       {
         q: "Is it worth repairing older windows or should I replace them?",
-        a: "If the frames and sashes are solid, repairing — replacing just the sealed glass unit — is significantly cheaper and preserves the look of your home. We'll tell you honestly if replacement is the better call.",
+        a: "If the frames and sashes are solid, repairing (replacing just the sealed glass unit) is significantly cheaper and preserves the look of your home. We'll tell you honestly if replacement is the better call.",
       },
     ],
   },
@@ -1514,13 +1514,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Halton Region",
     metaTitle: "Window & Door Repair in Milton",
     metaDescription:
-      "Window and door repair in Milton — foggy sealed units, broken cranks, glass replacement across Beaty, Scott, Timberlea & Old Milton. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Milton: foggy sealed units, broken cranks, glass replacement across Beaty, Scott, Timberlea & Old Milton. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Milton",
     heroSubtext:
       "Fast, affordable glass and window repair across Old Milton, Beaty, Scott, Timberlea, and all of Milton. Same-day service available.",
     intro: [
-      "Milton has been one of Ontario's fastest-growing cities for over a decade, and its housing stock reflects that explosive expansion. Post-2000 subdivisions in Beaty, Coates, Scott, and Ford are filled with family homes whose builder-grade windows are now 15 to 20 years old — exactly the age when factory seals start failing, cranks strip, and door glass shows its wear. Closer to the Old Milton core, heritage homes along Main Street carry original wood-frame windows that need careful glass work and hardware repairs.",
-      "LuminaSky Glass Services brings repair-first service to Milton homeowners. Instead of quoting full window replacement, we diagnose the actual problem — a failed seal, a worn crank, a cracked door lite — and fix only that component. Your frames stay in place, the job is done in one visit, and you keep thousands in your pocket compared to a tearout.",
+      "Milton has been one of Ontario's fastest-growing cities for over a decade, and its housing stock reflects that explosive expansion. Post-2000 subdivisions in Beaty, Coates, Scott, and Ford are filled with family homes whose builder-grade windows are now 15 to 20 years old, exactly the age when factory seals start failing, cranks strip, and door glass shows its wear. Closer to the Old Milton core, heritage homes along Main Street carry original wood-frame windows that need careful glass work and hardware repairs.",
+      "LuminaSky Glass Services brings repair-first service to Milton homeowners. Instead of quoting full window replacement, we diagnose the actual problem (a failed seal, a worn crank, a cracked door lite) and fix only that component. Your frames stay in place, the job is done in one visit, and you keep thousands in your pocket compared to a tearout.",
     ],
     neighborhoods: [
       "Old Milton",
@@ -1540,7 +1540,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Moisture between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site — your frame stays untouched.",
+          "Moisture between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site. Your frame stays untouched.",
         href: "/foggy-windows",
       },
       {
@@ -1552,7 +1552,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Window Crank & Operator Repair",
         description:
-          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware — no full window swap needed.",
+          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware. No full window swap needed.",
         href: "/cranks",
       },
       {
@@ -1575,19 +1575,19 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Window or door problem in Milton? Snap a photo and send it to us on WhatsApp — we'll reply with a quote fast. Or just call.",
+      "Window or door problem in Milton? Snap a photo and send it to us on WhatsApp. We'll reply with a quote fast. Or just call.",
     faqs: [
       {
         q: "How quickly can you get to Milton?",
         a: "We service Milton and Halton Region regularly. Same-day and next-day appointments are typical, and emergency calls get a 2-hour response.",
       },
       {
-        q: "My home is from a newer Milton subdivision — can builder-grade windows be repaired?",
-        a: "Absolutely. Builder-grade windows from the 2000s and 2010s are prime candidates for sealed unit replacement. The vinyl frames are usually fine — it is the factory glass seal that fails first.",
+        q: "My home is from a newer Milton subdivision. Can builder-grade windows be repaired?",
+        a: "Absolutely. Builder-grade windows from the 2000s and 2010s are prime candidates for sealed unit replacement. The vinyl frames are usually fine. It is the factory glass seal that fails first.",
       },
       {
         q: "Do you cover all of Milton?",
-        a: "Yes — Old Milton, Beaty, Coates, Scott, Ford, Timberlea, Bronte Meadows, and every neighbourhood in between. We also serve nearby Oakville, Burlington, and Georgetown.",
+        a: "Yes. Old Milton, Beaty, Coates, Scott, Ford, Timberlea, Bronte Meadows, and every neighbourhood in between. We also serve nearby Oakville, Burlington, and Georgetown.",
       },
       {
         q: "What does foggy window repair cost in Milton?",
@@ -1601,13 +1601,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window & Door Repair in Ajax",
     metaDescription:
-      "Window and door repair in Ajax — foggy sealed units, broken cranks, glass replacement across Duffin Heights, Applecroft & Downtown Ajax. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Ajax: foggy sealed units, broken cranks, glass replacement across Duffin Heights, Applecroft & Downtown Ajax. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Ajax",
     heroSubtext:
-      "Serving Applecroft, Duffin Heights, Central Ajax, and all of Ajax with fast, reliable glass and window repair. Fix it — don't replace it.",
+      "Serving Applecroft, Duffin Heights, Central Ajax, and all of Ajax with fast, reliable glass and window repair. Fix it. Don't replace it.",
     intro: [
-      "Ajax sits on the eastern edge of the GTA, and its housing tells the story of two decades of steady suburban growth. The 1990s and 2000s brought waves of single-family homes and townhome complexes across Applecroft, Central Ajax, and Northeast Ajax — working-family neighbourhoods now hitting the 20- to 30-year mark where factory-sealed windows start to fog and crank operators wear thin. Newer builds in Duffin Heights push that timeline out, but even recent subdivisions aren't immune to early seal failures in builder-grade windows.",
-      "LuminaSky Glass Services serves Ajax homeowners who want their windows fixed, not oversold on a full replacement. We replace only the failed component — the insulated glass unit, the crank mechanism, or the door insert — on-site in a single visit. Your frames and trim stay put, and the repair costs a fraction of tearing the whole window out.",
+      "Ajax sits on the eastern edge of the GTA, and its housing tells the story of two decades of steady suburban growth. The 1990s and 2000s brought waves of single-family homes and townhome complexes across Applecroft, Central Ajax, and Northeast Ajax, working-family neighbourhoods now hitting the 20- to 30-year mark where factory-sealed windows start to fog and crank operators wear thin. Newer builds in Duffin Heights push that timeline out, but even recent subdivisions aren't immune to early seal failures in builder-grade windows.",
+      "LuminaSky Glass Services serves Ajax homeowners who want their windows fixed, not oversold on a full replacement. We replace only the failed component (the insulated glass unit, the crank mechanism, or the door insert), on-site in a single visit. Your frames and trim stay put, and the repair costs a fraction of tearing the whole window out.",
     ],
     neighborhoods: [
       "Downtown Ajax",
@@ -1627,7 +1627,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Cloudy windows with moisture between the panes? The factory seal has failed. We replace the insulated glass unit and leave the frame alone — clean and affordable.",
+          "Cloudy windows with moisture between the panes? The factory seal has failed. We replace the insulated glass unit and leave the frame alone, clean and affordable.",
         href: "/foggy-windows",
       },
       {
@@ -1657,12 +1657,12 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Skylight Repair",
         description:
-          "Foggy or leaking skylights repaired in place — glass replaced and unit re-sealed without opening the roof.",
+          "Foggy or leaking skylights repaired in place: glass replaced and unit re-sealed without opening the roof.",
         href: "/skylights",
       },
     ],
     closingCTA:
-      "Need a window or door fixed in Ajax? Text us a photo on WhatsApp for a fast quote — or call us any time, day or night.",
+      "Need a window or door fixed in Ajax? Text us a photo on WhatsApp for a fast quote, or call us any time, day or night.",
     faqs: [
       {
         q: "How fast can you get to Ajax?",
@@ -1670,7 +1670,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Do you serve all of Ajax?",
-        a: "Yes — Downtown Ajax, Applecroft, Duffin Heights, Central Ajax, Nottingham, Salem, and every neighbourhood in between. We also serve nearby Pickering, Whitby, and Scarborough.",
+        a: "Yes. Downtown Ajax, Applecroft, Duffin Heights, Central Ajax, Nottingham, Salem, and every neighbourhood in between. We also serve nearby Pickering, Whitby, and Scarborough.",
       },
       {
         q: "Do you work on townhome complexes?",
@@ -1688,13 +1688,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window & Door Repair in Pickering",
     metaDescription:
-      "Window and door repair in Pickering — foggy sealed units, broken cranks, glass replacement across Bay Ridges, Amberlea & Duffin Heights. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Pickering: foggy sealed units, broken cranks, glass replacement across Bay Ridges, Amberlea & Duffin Heights. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Pickering",
     heroSubtext:
       "Professional glass and window repair for Bay Ridges, Amberlea, Brock Ridge, and all of Pickering. Same-day service available.",
     intro: [
       "Pickering stretches from Lake Ontario's waterfront at Bay Ridges north through established 1980s and 90s subdivisions in Amberlea, Liverpool, and Brock Ridge, all the way to rural properties in Whitevale. Waterfront homes contend with harsh lake-effect weather that accelerates seal failure in double-pane windows. Inland, the mature suburban housing stock is hitting the 30- to 40-year mark where foggy glass, seized cranks, and cracked door inserts become constant headaches.",
-      "LuminaSky Glass Services serves Pickering homeowners with a repair-first approach that saves time and money. We replace the sealed glass unit, swap a worn crank operator, or install new door glass — on-site, without removing your frames or disrupting your home. Most jobs are completed in a single visit, and you save 60–80% compared to full window replacement.",
+      "LuminaSky Glass Services serves Pickering homeowners with a repair-first approach that saves time and money. We replace the sealed glass unit, swap a worn crank operator, or install new door glass. On-site, without removing your frames or disrupting your home. Most jobs are completed in a single visit, and you save 60–80% compared to full window replacement.",
     ],
     neighborhoods: [
       "Amberlea",
@@ -1714,7 +1714,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Failed window seals let moisture in between panes, clouding your view. We replace the sealed unit without disturbing the frame — restoring clarity and insulation.",
+          "Failed window seals let moisture in between panes, clouding your view. We replace the sealed unit without disturbing the frame, restoring clarity and insulation.",
         href: "/foggy-windows",
       },
       {
@@ -1726,7 +1726,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Window Crank & Operator Repair",
         description:
-          "Casement and awning windows with seized or stripped cranks. We replace the operator mechanism with compatible hardware — no full window swap required.",
+          "Casement and awning windows with seized or stripped cranks. We replace the operator mechanism with compatible hardware. No full window swap required.",
         href: "/cranks",
       },
       {
@@ -1749,7 +1749,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need window or door repair in Pickering? Text us a photo on WhatsApp for a fast quote — or call us any time, day or night.",
+      "Need window or door repair in Pickering? Text us a photo on WhatsApp for a fast quote, or call us any time, day or night.",
     faqs: [
       {
         q: "How soon can you get to Pickering?",
@@ -1761,11 +1761,11 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Do you cover all of Pickering?",
-        a: "Yes — Amberlea, Bay Ridges, Brock Ridge, Liverpool, Highbush, Duffin Heights, and every neighbourhood in between. We also serve Ajax, Scarborough, and Markham.",
+        a: "Yes. Amberlea, Bay Ridges, Brock Ridge, Liverpool, Highbush, Duffin Heights, and every neighbourhood in between. We also serve Ajax, Scarborough, and Markham.",
       },
       {
         q: "Can you match the glass in my existing windows?",
-        a: "Yes — we source double-pane, triple-pane, Low-E, and argon-filled units to match your existing setup. Your replacement glass will perform the same or better than the original.",
+        a: "Yes. We source double-pane, triple-pane, Low-E, and argon-filled units to match your existing setup. Your replacement glass will perform the same or better than the original.",
       },
     ],
   },
@@ -1775,13 +1775,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Peel Region",
     metaTitle: "Window & Door Repair in Caledon",
     metaDescription:
-      "Window and door repair in Caledon — foggy sealed units, broken cranks, glass replacement across Bolton, Caledon East & Palgrave. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Caledon: foggy sealed units, broken cranks, glass replacement across Bolton, Caledon East & Palgrave. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Caledon",
     heroSubtext:
       "Serving Bolton, Caledon East, Palgrave, and all of Caledon with professional glass and window repair. Estate homes, country properties, and everything in between.",
     intro: [
-      "Caledon is Peel Region's rural heart — a municipality of rolling hills, horse farms, and small-town villages spread across a vast area. Bolton serves as the commercial hub, with a mix of historic main-street buildings and newer residential developments. Caledon East, Palgrave, and Inglewood feature century homes alongside modern custom builds. Throughout the area, oversized picture windows on country properties, heritage glass in village homes, and builder-grade sealed units in Mayfield West subdivisions all eventually need repair.",
-      "LuminaSky Glass Services travels throughout Caledon to bring repair-first service to rural and village homeowners. We replace the sealed glass unit, swap a failing crank operator, or install new door glass — without tearing out your window frames. For estate homes with oversized or custom windows, we measure on-site and order panels sized to fit. One visit, one repair, and your windows are clear again.",
+      "Caledon is Peel Region's rural heart: a municipality of rolling hills, horse farms, and small-town villages spread across a vast area. Bolton serves as the commercial hub, with a mix of historic main-street buildings and newer residential developments. Caledon East, Palgrave, and Inglewood feature century homes alongside modern custom builds. Throughout the area, oversized picture windows on country properties, heritage glass in village homes, and builder-grade sealed units in Mayfield West subdivisions all eventually need repair.",
+      "LuminaSky Glass Services travels throughout Caledon to bring repair-first service to rural and village homeowners. We replace the sealed glass unit, swap a failing crank operator, or install new door glass, without tearing out your window frames. For estate homes with oversized or custom windows, we measure on-site and order panels sized to fit. One visit, one repair, and your windows are clear again.",
     ],
     neighborhoods: [
       "Bolton",
@@ -1831,16 +1831,16 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Skylight Repair",
         description:
-          "Leaking or foggy skylights repaired in place — glass replaced and unit re-sealed without opening the roof. All skylight brands covered.",
+          "Leaking or foggy skylights repaired in place. Glass replaced and unit re-sealed without opening the roof. All skylight brands covered.",
         href: "/skylights",
       },
     ],
     closingCTA:
-      "Need window or door repair in Caledon? Text us a photo on WhatsApp for a fast quote — or call us any time.",
+      "Need window or door repair in Caledon? Text us a photo on WhatsApp for a fast quote, or call us any time.",
     faqs: [
       {
         q: "Do you travel to all of Caledon?",
-        a: "Yes — Bolton, Caledon East, Palgrave, Alton, Cheltenham, Inglewood, Belfountain, Terra Cotta, and the surrounding rural areas are all within our service zone.",
+        a: "Yes. Bolton, Caledon East, Palgrave, Alton, Cheltenham, Inglewood, Belfountain, Terra Cotta, and the surrounding rural areas are all within our service zone.",
       },
       {
         q: "Can you handle oversized picture windows on rural properties?",
@@ -1852,7 +1852,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What areas near Caledon do you also cover?",
-        a: "We serve the full surrounding area — Brampton, Orangeville, Bolton, Georgetown, and Vaughan are all in our regular service zone.",
+        a: "We serve the full surrounding area: Brampton, Orangeville, Bolton, Georgetown, and Vaughan are all in our regular service zone.",
       },
     ],
   },
@@ -1862,13 +1862,13 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window & Door Repair in Whitby",
     metaDescription:
-      "Window and door repair in Whitby — foggy sealed units, broken cranks, glass replacement across Brooklin, Pringle Creek & Port Whitby. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Whitby: foggy sealed units, broken cranks, glass replacement across Brooklin, Pringle Creek & Port Whitby. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Whitby",
     heroSubtext:
-      "Reliable glass and window repair across Brooklin, Downtown Whitby, Port Whitby, and all of Whitby. We fix it on-site — usually the same day you call.",
+      "Reliable glass and window repair across Brooklin, Downtown Whitby, Port Whitby, and all of Whitby. We fix it on-site, usually the same day you call.",
     intro: [
-      "Whitby bridges Durham Region's suburban communities with small-town Ontario charm. Brooklin to the north retains its heritage village character with century homes along Baldwin Street and newer family subdivisions surrounding it. Downtown Whitby and Port Whitby along the lakefront feature a mix of mature 1970s and 80s housing. Further north, Taunton North is filled with newer family builds from the 2010s. Across all of these areas, windows and doors eventually need attention — foggy sealed units, stripped cranks, and cracked door glass are problems we solve every week.",
-      "LuminaSky Glass Services helps Whitby homeowners get these issues fixed affordably. We replace only the component that's failed — the sealed glass unit, the crank operator, or the door insert — leaving your frames and trim untouched. Heritage Brooklin homes get glass-only repairs that preserve their character. Newer Taunton builds get quick seal replacements that skip the cost of a full window swap.",
+      "Whitby bridges Durham Region's suburban communities with small-town Ontario charm. Brooklin to the north retains its heritage village character with century homes along Baldwin Street and newer family subdivisions surrounding it. Downtown Whitby and Port Whitby along the lakefront feature a mix of mature 1970s and 80s housing. Further north, Taunton North is filled with newer family builds from the 2010s. Across all of these areas, windows and doors eventually need attention: foggy sealed units, stripped cranks, and cracked door glass are problems we solve every week.",
+      "LuminaSky Glass Services helps Whitby homeowners get these issues fixed affordably. We replace only the component that's failed (the sealed glass unit, the crank operator, or the door insert), leaving your frames and trim untouched. Heritage Brooklin homes get glass-only repairs that preserve their character. Newer Taunton builds get quick seal replacements that skip the cost of a full window swap.",
     ],
     neighborhoods: [
       "Downtown Whitby",
@@ -1888,7 +1888,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Foggy Glass / Sealed Unit Replacement",
         description:
-          "Moisture trapped between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site — your frame stays untouched.",
+          "Moisture trapped between your double-pane glass means the seal has failed. We replace the insulated glass unit on-site. Your frame stays untouched.",
         href: "/foggy-windows",
       },
       {
@@ -1900,7 +1900,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Window Crank & Operator Repair",
         description:
-          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware — no need to swap the whole window.",
+          "Casement and awning windows that won't budge? We replace the worn-out crank operator with compatible hardware. No need to swap the whole window.",
         href: "/cranks",
       },
       {
@@ -1923,7 +1923,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Dealing with foggy windows or broken door glass in Whitby? Send us a photo on WhatsApp for a fast quote — or call any time.",
+      "Dealing with foggy windows or broken door glass in Whitby? Send us a photo on WhatsApp for a fast quote, or call any time.",
     faqs: [
       {
         q: "How fast can you get to Whitby?",
@@ -1931,7 +1931,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "Do you serve both Brooklin and downtown Whitby?",
-        a: "Yes — Brooklin, Downtown Whitby, Port Whitby, Taunton North, and every neighbourhood in between. We also serve nearby Ajax, Oshawa, and Pickering.",
+        a: "Yes. Brooklin, Downtown Whitby, Port Whitby, Taunton North, and every neighbourhood in between. We also serve nearby Ajax, Oshawa, and Pickering.",
       },
       {
         q: "Can you work on older heritage windows in Brooklin?",
@@ -1950,7 +1950,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Orangeville",
     metaDescription:
-      "Window and door repair in Orangeville — foggy sealed units, broken cranks, glass replacement across Mono Mills, Hockley Valley & Credit Meadows. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Orangeville, foggy sealed units, broken cranks, glass replacement across Mono Mills, Hockley Valley & Credit Meadows. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Orangeville",
     heroSubtext:
       "Reliable glass and window repair across Orangeville, Mono Mills, Hockley Valley, and all of Dufferin County. Repair first, replace only when necessary.",
@@ -2034,7 +2034,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Oshawa",
     metaDescription:
-      "Window and door repair in Oshawa — foggy sealed units, broken cranks, glass replacement across Downtown Oshawa, Windfields & Taunton. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Oshawa, foggy sealed units, broken cranks, glass replacement across Downtown Oshawa, Windfields & Taunton. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Oshawa",
     heroSubtext:
       "Professional glass and window repair across Oshawa, from Downtown to Windfields. We fix what's broken without replacing the whole window.",
@@ -2125,7 +2125,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Halton Hills",
     metaDescription:
-      "Window and door repair in Halton Hills — foggy sealed units, broken cranks, glass replacement across Georgetown, Acton & Glen Williams. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Halton Hills, foggy sealed units, broken cranks, glass replacement across Georgetown, Acton & Glen Williams. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Halton Hills",
     heroSubtext:
       "Expert glass and window repair in Georgetown, Acton, Glen Williams, and across Halton Hills. Restore your windows instead of replacing them.",
@@ -2210,7 +2210,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Hamilton",
     metaDescription:
-      "Window and door repair in Hamilton — foggy sealed units, broken cranks, glass replacement across Stoney Creek, Ancaster & Dundas. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Hamilton, foggy sealed units, broken cranks, glass replacement across Stoney Creek, Ancaster & Dundas. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Hamilton",
     heroSubtext:
       "Comprehensive glass and window repair across Hamilton, Stoney Creek, Ancaster, Dundas, and Waterdown. Fix the problem, keep the frame.",
@@ -2301,7 +2301,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Barrie",
     metaDescription:
-      "Window and door repair in Barrie — foggy sealed units, broken cranks, glass replacement across Allandale, Painswick & Downtown Barrie. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Barrie, foggy sealed units, broken cranks, glass replacement across Allandale, Painswick & Downtown Barrie. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Barrie",
     heroSubtext:
       "Trusted glass and window repair in Barrie, from Allandale to Painswick. Lakefront or subdivision, we fix it right.",
@@ -2389,13 +2389,13 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Innisfil",
     metaDescription:
-      "Window and door repair in Innisfil — foggy sealed units, broken cranks, glass replacement across Alcona, Lefroy & Belle Ewart. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Innisfil, foggy sealed units, broken cranks, glass replacement across Alcona, Lefroy & Belle Ewart. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Innisfil",
     heroSubtext:
       "Glass and window repair across Innisfil, from Alcona's new builds to Cookstown's established homes. We repair, you save.",
     intro: [
       "Innisfil is one of the fastest-growing towns on Lake Simcoe's shores. Cottage conversions along the waterfront and newer subdivisions in Alcona have created a mix of housing where window problems range from failed seals on older cottage glass to stiff cranks on recently built casement windows. Both are straightforward repairs.",
-      "LuminaSky Glass Services works with Innisfil homeowners to fix the specific part that has failed. We replace the fogged glass unit, swap out a broken crank, or install a new door glass insert, all without removing the surrounding frame. It is the practical approach for a community where homes are relatively new and frames are still in excellent condition.",
+      "LuminaSky Glass Services works with Innisfil homeowners to fix the specific part that has failed. We replace the fogged glass unit, swap out a broken crank, or install a new door glass insert. All without removing the surrounding frame. It is the practical approach for a community where homes are relatively new and frames are still in excellent condition.",
     ],
     neighborhoods: [
       "Alcona",
@@ -2474,7 +2474,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Stouffville",
     metaDescription:
-      "Window and door repair in Stouffville — foggy sealed units, broken cranks, glass replacement across Ballantrae, Bloomington & Gormley. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Stouffville, foggy sealed units, broken cranks, glass replacement across Ballantrae, Bloomington & Gormley. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Stouffville",
     heroSubtext:
       "Dependable glass and window repair in Stouffville, Ballantrae, and across York Region's northeast. Repair the window, keep the frame.",
@@ -2560,7 +2560,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in East Gwillimbury",
     metaDescription:
-      "Window and door repair in East Gwillimbury — foggy sealed units, broken cranks, glass replacement across Sharon, Mount Albert & Queensville. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in East Gwillimbury, foggy sealed units, broken cranks, glass replacement across Sharon, Mount Albert & Queensville. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in East Gwillimbury",
     heroSubtext:
       "Glass and window repair for Sharon, Mount Albert, Queensville, and all of East Gwillimbury. Targeted repairs that save your frame and your budget.",
@@ -2644,13 +2644,13 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Georgina",
     metaDescription:
-      "Window and door repair in Georgina — foggy sealed units, broken cranks, glass replacement across Keswick, Sutton & Jackson's Point. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Georgina, foggy sealed units, broken cranks, glass replacement across Keswick, Sutton & Jackson's Point. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Georgina",
     heroSubtext:
       "Professional glass and window repair in Keswick, Sutton, and across Georgina. Lakeside homes and year-round residences served.",
     intro: [
       "Georgina stretches along Lake Simcoe's south shore, home to a mix of year-round residences in Keswick and converted cottages in Sutton, Jackson's Point, and the beach communities. Both types are prone to sealed unit failure driven by lake moisture. The constant humidity cycle stresses spacer seals in double-pane windows and causes fogging sooner than in drier inland locations.",
-      "LuminaSky Glass Services provides targeted window and door repair to Georgina homeowners. We replace the failed glass unit, repair a stiff or broken crank, or install new door glass, all without removing the existing frame. For a lakeside community where many homes are relatively compact, minimizing disruption matters.",
+      "LuminaSky Glass Services provides targeted window and door repair to Georgina homeowners. We replace the failed glass unit, repair a stiff or broken crank, or install new door glass. All without removing the existing frame. For a lakeside community where many homes are relatively compact, minimizing disruption matters.",
     ],
     neighborhoods: [
       "Keswick",
@@ -2729,13 +2729,13 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Bradford",
     metaDescription:
-      "Window and door repair in Bradford — foggy sealed units, broken cranks, glass replacement across Bond Head, Newton Robinson & Holland Marsh. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Bradford, foggy sealed units, broken cranks, glass replacement across Bond Head, Newton Robinson & Holland Marsh. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Bradford",
     heroSubtext:
       "Fast glass and window repair in Bradford, Bond Head, and the surrounding Simcoe County communities. Fix the glass, keep the frame.",
     intro: [
       "Bradford is a commuter town north of Newmarket along Highway 400, where newer subdivisions in the town core have been growing steadily for two decades. Many of these homes are now reaching the stage where their first-generation thermal sealed units are developing fog between the panes, a sign that the spacer seal has failed.",
-      "LuminaSky Glass Services provides efficient, targeted repairs for Bradford homeowners. We replace the failed insulated glass unit, swap out a worn crank, or install new door glass, all while keeping the original frame in place. For homes with solid, relatively new frames, this is the most practical and cost-effective solution.",
+      "LuminaSky Glass Services provides efficient, targeted repairs for Bradford homeowners. We replace the failed insulated glass unit, swap out a worn crank, or install new door glass. All while keeping the original frame in place. For homes with solid, relatively new frames, this is the most practical and cost-effective solution.",
     ],
     neighborhoods: [
       "Bradford",
@@ -2811,7 +2811,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Clarington",
     metaDescription:
-      "Window and door repair in Clarington — foggy sealed units, broken cranks, glass replacement across Bowmanville, Courtice & Newcastle. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Clarington, foggy sealed units, broken cranks, glass replacement across Bowmanville, Courtice & Newcastle. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Clarington",
     heroSubtext:
       "Trusted glass and window repair across Bowmanville, Courtice, Newcastle, and all of Clarington. We repair the problem without replacing the frame.",
@@ -2898,7 +2898,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Uxbridge",
     metaDescription:
-      "Window and door repair in Uxbridge — foggy sealed units, broken cranks, glass replacement across Goodwood, Leaskdale & Siloam. Available 24/7. Call 437-344-8490.",
+      "Window and door repair in Uxbridge, foggy sealed units, broken cranks, glass replacement across Goodwood, Leaskdale & Siloam. Available 24/7. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Uxbridge",
     heroSubtext:
       "Glass and window repair for Uxbridge, Goodwood, Leaskdale, and the surrounding Durham countryside. Preserve your windows, skip the full replacement.",

@@ -9,7 +9,7 @@ export interface Project {
   afterImage?: { src: string; alt: string };
   /** Single showcase image (e.g. multi-panel strip) */
   showcaseImage?: { src: string; alt: string };
-  /** Media type for before/after — defaults to "image" */
+  /** Media type for before/after, defaults to "image" */
   mediaType?: "image" | "video" | "single-video" | "single-image";
   /** Single video with click-to-play (used with mediaType "single-video") */
   video?: { src: string; poster: string; alt: string };
@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
       alt: "New clean frosted glass sliding window after LuminaSky replacement in Orangeville",
     },
     description:
-      "Damaged frosted glass sliding window in Orangeville. Replaced only the failed glass pane while keeping the existing frame and hardware — a fraction of the cost of full window replacement.",
+      "Damaged frosted glass sliding window in Orangeville. Replaced only the failed glass pane while keeping the existing frame and hardware. A fraction of the cost of full window replacement.",
     location: "Orangeville",
     serviceType: "Glass Replacement",
     tags: [],
@@ -85,10 +85,10 @@ export const PROJECTS: Project[] = [
     mediaType: "single-image",
     image: {
       src: "/images/services/sunroom-caledon.jpg",
-      alt: "Caledon sunroom after full glass replacement — crystal-clear view of the garden and pool through four newly installed sealed glass units",
+      alt: "Caledon sunroom after full glass replacement, crystal-clear view of the garden and pool through four newly installed sealed glass units",
     },
     description:
-      "The customer reached out with foggy glass in all four windows of their sunroom — heavy condensation had built up between the panes, obscuring the beautiful view of the garden and pool. Our team replaced all four sealed units, restoring crystal-clear visibility without touching the original wood framing. The customer was delighted with the transformation.",
+      "The customer reached out with foggy glass in all four windows of their sunroom. Heavy condensation had built up between the panes, obscuring the beautiful view of the garden and pool. Our team replaced all four sealed units, restoring crystal-clear visibility without touching the original wood framing. The customer was delighted with the transformation.",
     location: "Caledon",
     serviceType: "Glass Replacement",
     tags: ["Foggy Glass"],
@@ -101,10 +101,10 @@ export const PROJECTS: Project[] = [
     video: {
       src: "/videos/glass-replacement-ajax.mp4",
       poster: "/images/glass-replacement-ajax-poster.jpg",
-      alt: "Glass replacement project in Ajax — walkthrough of completed installation",
+      alt: "Glass replacement project in Ajax, walkthrough of completed installation",
     },
     description:
-      "Full glass panel replacement — Ajax residence. Fresh install with a clean, precise finish.",
+      "Full glass panel replacement, Ajax residence. Fresh install with a clean, precise finish.",
     location: "Ajax",
     serviceType: "Glass Replacement",
     tags: [],
@@ -122,7 +122,7 @@ export const PROJECTS: Project[] = [
       alt: "Same front doors after upgrade to modern geometric iron glass inserts with frosted privacy glass",
     },
     description:
-      "Front door glass insert replacement — swapped dated leaded glass for a modern wrought iron geometric design with frosted privacy glass. Refreshed the entire entrance without replacing the doors.",
+      "Front door glass insert replacement: swapped dated leaded glass for a modern wrought iron geometric design with frosted privacy glass. Refreshed the entire entrance without replacing the doors.",
     location: "Toronto",
     serviceType: "Doors",
     tags: ["Door Glass", "Glass Replacement"],
@@ -178,7 +178,7 @@ export const PROJECTS: Project[] = [
       alt: "Spotless high-rise window with a crystal-clear view of the city skyline",
     },
     description:
-      "Interior glass restoration — removing built-up streaks and grime for a crystal-clear view of the city.",
+      "Interior glass restoration: removing built-up streaks and grime for a crystal-clear view of the city.",
     location: "Toronto",
     serviceType: "Windows",
     tags: ["Interior Cleaning"],

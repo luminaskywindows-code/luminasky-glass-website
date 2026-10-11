@@ -5,8 +5,8 @@ import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema 
 import type { FoggyGlassCityPageData } from "@/lib/foggy-glass-city-data";
 
 const SEAL_FAILURE_EXPLANATION = [
-  "A sealed glass unit — the industry calls it an IGU, insulated glass unit — is two or three panes of glass separated by a spacer bar and sealed at the perimeter. The space between is filled with argon or krypton gas and desiccant beads that absorb moisture.",
-  "When that seal breaks down: argon gas escapes, outside air seeps in bringing moisture, and the desiccant saturates. Once saturated, condensation forms between the panes — the familiar 'foggy window' look. From that point, the fog will never clear on its own.",
+  "A sealed glass unit (the industry calls it an IGU, insulated glass unit) is two or three panes of glass separated by a spacer bar and sealed at the perimeter. The space between is filled with argon or krypton gas and desiccant beads that absorb moisture.",
+  "When that seal breaks down: argon gas escapes, outside air seeps in bringing moisture, and the desiccant saturates. Once saturated, condensation forms between the panes: the familiar 'foggy window' look. From that point, the fog will never clear on its own.",
   "The frame, sash, and hardware are usually still fine. Only the sealed glass unit needs replacing. That's why we can restore a foggy window for 60–80% less than a full window replacement.",
 ];
 
@@ -31,7 +31,7 @@ const UNIVERSAL_FAQS = [
   },
   {
     q: "How long does foggy glass repair take?",
-    a: "The on-site work is usually quick — far less disruption than a full window replacement. After measurements are confirmed, the replacement glass unit needs to be ordered. We'll give you a clear timeline based on your specific glass once we've assessed it.",
+    a: "The on-site work is usually quick. Far less disruption than a full window replacement. After measurements are confirmed, the replacement glass unit needs to be ordered. We'll give you a clear timeline based on your specific glass once we've assessed it.",
   },
 ];
 
@@ -194,7 +194,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-            FAQ — Foggy Glass Repair in {city.city}
+            FAQ: Foggy Glass Repair in {city.city}
           </h2>
           <div className="space-y-4">
             {allFaqs.map((faq, i) => (
@@ -220,7 +220,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
             Get a Free Quote for Foggy Glass Repair in {city.city}
           </h2>
           <p className="text-blue-100 text-lg mb-8 leading-relaxed">
-            Send us a few photos and rough measurements — we quote most jobs from photos alone. No visit required, no obligation, no pressure.
+            Send us a few photos and rough measurements. We quote most jobs from photos alone. No visit required, no obligation, no pressure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

@@ -81,7 +81,7 @@ export function initSourceTracking(): void {
     const fresh: StoredSource = { first: current, last: current, expires };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(fresh));
   } catch {
-    // localStorage unavailable — tracking degrades gracefully
+    // localStorage unavailable, tracking degrades gracefully
   }
 }
 

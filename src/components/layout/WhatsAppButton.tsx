@@ -8,7 +8,7 @@ export function WhatsAppButton() {
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2">
-      {/* Tooltip — auto-hides after 5s so it doesn't cover page content */}
+      {/* Tooltip, auto-hides after 5s so it doesn't cover page content */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8, x: 10 }}
         animate={{ opacity: [0, 1, 1, 0], scale: [0.8, 1, 1, 1], x: [10, 0, 0, 0] }}

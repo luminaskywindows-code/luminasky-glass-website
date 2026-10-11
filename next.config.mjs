@@ -43,7 +43,9 @@ const nextConfig = {
       { source: "/services/front-door-glass", destination: "/front-door-glass", permanent: true },
       { source: "/services/window-cranks",    destination: "/cranks",           permanent: true },
       { source: "/services/screen-storm-doors", destination: "/screen-storm-doors", permanent: true },
-      { source: "/services/skylights",        destination: "/skylights",        permanent: true },
+      { source: "/services/skylights",          destination: "/skylights",          permanent: true },
+      { source: "/services/window-screens",    destination: "/window-screens",    permanent: true },
+      { source: "/services/window-replacement", destination: "/window-replacement", permanent: true },
       // Discontinued services → /services
       { source: "/services/locksmith",          destination: "/services", permanent: true },
       { source: "/services/garage-door-glass",  destination: "/services", permanent: true },

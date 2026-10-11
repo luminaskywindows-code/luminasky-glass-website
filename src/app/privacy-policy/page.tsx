@@ -5,7 +5,7 @@ import { EMAIL, EMAIL_HREF, PHONE, PHONE_HREF } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy Policy for LuminaSky Glass Services — how we collect, use, and protect your personal information in compliance with PIPEDA and Ontario privacy laws.",
+    "Privacy Policy for LuminaSky Glass Services: how we collect, use, and protect your personal information in compliance with PIPEDA and Ontario privacy laws.",
   alternates: { canonical: "/privacy-policy" },
 };
 
@@ -149,12 +149,12 @@ export default function PrivacyPolicyPage() {
               business, and only to the extent necessary:
             </p>
             <ul className="list-disc pl-6 space-y-2 mb-4">
-              <li><strong>EmailJS</strong> — receives contact form submissions and forwards them to our email</li>
-              <li><strong>Vercel</strong> — hosts our website and processes traffic data</li>
-              <li><strong>Google</strong> — Google Analytics (site usage), Google Business Profile (reviews and inquiries), Google Ads (advertising performance)</li>
-              <li><strong>Meta (Facebook/Instagram)</strong> — Facebook Pixel (ad performance and retargeting) when running ads</li>
-              <li><strong>Our accountant, bookkeeper, and payment processors</strong> — for invoicing, tax records, and payment processing</li>
-              <li><strong>Legal or government authorities</strong> — only when required by law (court order, subpoena, tax audit)</li>
+              <li><strong>EmailJS</strong>: receives contact form submissions and forwards them to our email</li>
+              <li><strong>Vercel</strong>: hosts our website and processes traffic data</li>
+              <li><strong>Google</strong>: Google Analytics (site usage), Google Business Profile (reviews and inquiries), Google Ads (advertising performance)</li>
+              <li><strong>Meta (Facebook/Instagram)</strong>: Facebook Pixel (ad performance and retargeting) when running ads</li>
+              <li><strong>Our accountant, bookkeeper, and payment processors</strong>: for invoicing, tax records, and payment processing</li>
+              <li><strong>Legal or government authorities</strong>: only when required by law (court order, subpoena, tax audit)</li>
             </ul>
             <p>
               All third-party providers we use have their own privacy policies. Some of them (Google, Meta,

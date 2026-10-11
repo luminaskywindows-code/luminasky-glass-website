@@ -132,7 +132,7 @@ export function HeroLeadForm() {
     <section className="bg-gray-50 border-b border-gray-200">
       <div className="max-w-6xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
-          {/* Left column — pitch + trust markers */}
+          {/* Left column, pitch + trust markers */}
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
               Get Your Free Quote
@@ -144,7 +144,7 @@ export function HeroLeadForm() {
             <ul className="space-y-4" aria-label="Trust markers">
               {[
                 "No obligation, no pressure",
-                "Available 24/7 — any day, any time",
+                "Available 24/7, any day, any time",
                 "5-Star rated across the GTA",
                 "Licensed & insured in Ontario",
               ].map((text) => (
@@ -166,7 +166,7 @@ export function HeroLeadForm() {
             </div>
           </div>
 
-          {/* Right column — the form */}
+          {/* Right column, the form */}
           <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 md:p-8">
             {submitStatus === "success" ? (
               <div className="text-center py-6">

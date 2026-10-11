@@ -125,9 +125,9 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             { icon: Clock, title: "Fast Response", desc: "Same-day or next-day service across " + city.city + ". Emergency calls answered within 2 hours." },
-            { icon: Wrench, title: "Repair, Not Replace", desc: "We fix the broken part — the glass, the crank, the seal — without tearing out your whole window or door." },
-            { icon: Shield, title: "1-Year Warranty", desc: "Every repair backed by our warranty. If it fails, we come back and fix it — no questions asked." },
-            { icon: Truck, title: "We Come to You", desc: "Fully mobile service. We bring everything we need to your door — no trips to a shop required." },
+            { icon: Wrench, title: "Repair, Not Replace", desc: "We fix the broken part (the glass, the crank, the seal) without tearing out your whole window or door." },
+            { icon: Shield, title: "1-Year Warranty", desc: "Every repair backed by our warranty. If it fails, we come back and fix it. No questions asked." },
+            { icon: Truck, title: "We Come to You", desc: "Fully mobile service. We bring everything we need to your door. No trips to a shop required." },
           ].map((item) => (
             <div key={item.title} className="text-center">
               <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
@@ -273,7 +273,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
         <section className="bg-gray-50 py-12 md:py-16">
           <div className="max-w-3xl mx-auto px-4 md:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-              Frequently Asked Questions — {city.city}
+              Frequently Asked Questions: {city.city}
             </h2>
             <div className="space-y-4">
               {city.faqs.map((faq, i) => (

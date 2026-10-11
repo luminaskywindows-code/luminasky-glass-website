@@ -37,7 +37,7 @@ function useVisibilityPlayback(cardRef: React.RefObject<HTMLDivElement | null>, 
 function SingleImageCard({ project }: { project: Project }) {
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      {/* Image area — height-constrained to match other project cards */}
+      {/* Image area, height-constrained to match other project cards */}
       <div className="relative aspect-[4/3] bg-gray-200 overflow-hidden">
         <Image
           src={project.image!.src}
@@ -84,7 +84,7 @@ function SingleVideoCard({ project }: { project: Project }) {
 
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      {/* Video area — height-constrained to match other project cards */}
+      {/* Video area, height-constrained to match other project cards */}
       <div
         className="relative flex items-center justify-center bg-gray-900 max-h-[500px] sm:max-h-[400px] md:max-h-[360px] overflow-hidden cursor-pointer"
         onClick={!playing ? handlePlay : undefined}

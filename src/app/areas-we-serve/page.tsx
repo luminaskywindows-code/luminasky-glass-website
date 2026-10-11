@@ -8,7 +8,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Areas We Serve in the GTA",
   description:
-    "LuminaSky Glass Services serves Toronto, Mississauga, Etobicoke, Brampton, Oakville, Vaughan, Thornhill, Richmond Hill, Markham, North York, Scarborough, Aurora, Newmarket, King City & the entire GTA. Fast, affordable window and glass repair — available 24/7.",
+    "LuminaSky Glass Services serves Toronto, Mississauga, Etobicoke, Brampton, Oakville, Vaughan, Thornhill, Richmond Hill, Markham, North York, Scarborough, Aurora, Newmarket, King City & the entire GTA. Fast, affordable window and glass repair. Available 24/7.",
   alternates: { canonical: "/areas-we-serve" },
 };
 
@@ -81,7 +81,7 @@ export default function AreasWeServePage() {
             Don&apos;t See Your City?
           </h2>
           <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-            We serve the entire GTA and surrounding areas. Call or text us — if we can get to you,
+            We serve the entire GTA and surrounding areas. Call or text us. If we can get to you,
             we will.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
