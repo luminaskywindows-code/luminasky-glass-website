@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { MapPin, Phone, MessageCircle, Star, ChevronRight, Wrench, Clock, Shield, Truck } from "lucide-react";
-import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "@/lib/constants";
+import { PHONE, PHONE_HREF } from "@/lib/constants";
+import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import type { CityPageData } from "@/lib/city-pages-data";
 
@@ -58,15 +59,12 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
               <Phone className="w-5 h-5" aria-hidden="true" />
               Call {PHONE}
             </a>
-            <a
-              href={WHATSAPP_HREF}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-6 py-3 rounded-md shadow hover:bg-green-600 transition-colors"
+            <WhatsAppLink
+              className="inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-6 py-3 rounded-md shadow hover:bg-green-600 transition-colors cursor-pointer"
             >
               <MessageCircle className="w-5 h-5" aria-hidden="true" />
               Text Us a Photo
-            </a>
+            </WhatsAppLink>
           </div>
         </div>
       </section>
@@ -308,15 +306,12 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
               <Phone className="w-5 h-5" aria-hidden="true" />
               Call {PHONE}
             </a>
-            <a
-              href={WHATSAPP_HREF}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:bg-green-600 transition-colors text-lg"
+            <WhatsAppLink
+              className="inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:bg-green-600 transition-colors text-lg cursor-pointer"
             >
               <MessageCircle className="w-5 h-5" aria-hidden="true" />
               Text Us a Photo
-            </a>
+            </WhatsAppLink>
           </div>
         </div>
       </section>

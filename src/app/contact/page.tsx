@@ -9,7 +9,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { ContactForm } from "@/components/contact/ContactForm";
-import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, WHATSAPP_HREF, FAQS_GENERAL } from "@/lib/constants";
+import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, FAQS_GENERAL } from "@/lib/constants";
+import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 
 export const metadata: Metadata = {
   title: "Contact Us – Get a Quote",
@@ -87,12 +88,8 @@ export default function ContactPage() {
                   </div>
                 </a>
 
-                <a
-                  href={WHATSAPP_HREF}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 rounded-xl hover:bg-gray-50 border border-gray-200 transition-colors group"
-                  aria-label="Chat on WhatsApp"
+                <WhatsAppLink
+                  className="flex items-center gap-4 p-4 rounded-xl hover:bg-gray-50 border border-gray-200 transition-colors group cursor-pointer text-left"
                 >
                   <div
                     className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
@@ -108,7 +105,7 @@ export default function ContactPage() {
                       Chat with us instantly
                     </p>
                   </div>
-                </a>
+                </WhatsAppLink>
 
                 <a
                   href={EMAIL_HREF}

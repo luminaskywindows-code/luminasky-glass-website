@@ -368,15 +368,15 @@ export function HeroSection() {
                   <Phone className="w-4 h-4" aria-hidden="true" />
                   Call Now: {PHONE}
                 </a>
-                <a
-                  href={WHATSAPP_HREF}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-white/70 hover:text-white font-medium transition-colors"
+                <button
+                  type="button"
+                  onClick={() => window.open(WHATSAPP_HREF, "_blank", "noopener,noreferrer")}
+                  className="inline-flex items-center gap-2 text-white/70 hover:text-white font-medium transition-colors cursor-pointer"
+                  aria-label="Chat on WhatsApp"
                 >
                   <MessageCircle className="w-4 h-4" aria-hidden="true" />
                   Send us a photo on WhatsApp
-                </a>
+                </button>
               </motion.div>
             </motion.div>
 

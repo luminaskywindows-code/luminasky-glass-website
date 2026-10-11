@@ -19,10 +19,10 @@ import {
 import {
   PHONE,
   PHONE_HREF,
-  WHATSAPP_HREF,
   TESTIMONIALS,
 } from "@/lib/constants";
 import { SectionHeading } from "@/components/shared/SectionHeading";
+import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { TestimonialCard } from "@/components/shared/TestimonialCard";
 import {
   Accordion,
@@ -254,12 +254,11 @@ export default function WinterReadyPage() {
               <Phone className="w-5 h-5" aria-hidden="true" />
               Call {PHONE}
             </a>
-            <a
-              href={WHATSAPP_HREF}
-              className="inline-flex items-center justify-center gap-2 border-2 border-green-400 text-green-300 font-semibold px-8 py-4 rounded-md hover:bg-green-400 hover:text-white transition-colors active:scale-95"
+            <WhatsAppLink
+              className="inline-flex items-center justify-center gap-2 border-2 border-green-400 text-green-300 font-semibold px-8 py-4 rounded-md hover:bg-green-400 hover:text-white transition-colors active:scale-95 cursor-pointer"
             >
               Send a photo on WhatsApp
-            </a>
+            </WhatsAppLink>
           </div>
 
           {/* Trust strip */}
@@ -319,12 +318,11 @@ export default function WinterReadyPage() {
           <p className="text-gray-600 text-center mt-8 max-w-2xl mx-auto">
             $30 for the visit, and it comes off your total if you book any
             of the work. Prefer a price first? Send us a photo on{" "}
-            <a
-              href={WHATSAPP_HREF}
-              className="text-accent font-semibold hover:underline"
+            <WhatsAppLink
+              className="text-accent font-semibold hover:underline cursor-pointer"
             >
               WhatsApp
-            </a>{" "}
+            </WhatsAppLink>{" "}
             and we will quote it free.
           </p>
         </div>
@@ -575,12 +573,11 @@ export default function WinterReadyPage() {
               <Phone className="w-5 h-5" aria-hidden="true" />
               Call {PHONE}
             </a>
-            <a
-              href={WHATSAPP_HREF}
-              className="inline-flex items-center justify-center gap-2 border-2 border-green-400 text-green-300 font-semibold px-8 py-4 rounded-md hover:bg-green-400 hover:text-white transition-colors active:scale-95"
+            <WhatsAppLink
+              className="inline-flex items-center justify-center gap-2 border-2 border-green-400 text-green-300 font-semibold px-8 py-4 rounded-md hover:bg-green-400 hover:text-white transition-colors active:scale-95 cursor-pointer"
             >
               Send a photo on WhatsApp
-            </a>
+            </WhatsAppLink>
           </div>
 
           <p className="text-blue-200 text-xs">
