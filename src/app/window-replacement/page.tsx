@@ -287,7 +287,8 @@ export default function WindowReplacementPage() {
             Vinyl Windows Built for Ontario Winters
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Most of the windows we install are vinyl windows, custom-made to the
+            Toronto homeowners need energy efficient windows that can handle long,
+            cold winters. Most of the windows we install are vinyl windows, custom-made to the
             exact window size of your opening. Vinyl doesn&apos;t rot, doesn&apos;t need
             painting, and insulates well. We offer double pane glass with low-E
             coating and argon gas fill for better energy efficiency. Energy Star
