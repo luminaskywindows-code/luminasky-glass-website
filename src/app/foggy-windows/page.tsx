@@ -101,7 +101,7 @@ const FAQS = [
     a: "Not from the old problem. You get a brand new sealed unit with a new seal, new gas fill and new desiccant. It's a permanent fix, not a temporary one, and it's covered by our written warranty.",
   },
   {
-    q: "How long does foggy window repair take?",
+    q: "How long does the repair take?",
     a: "Typically 5 to 15 business days from measurement to installation, because each unit is custom-made. Installation takes under an hour per window.",
   },
   {
@@ -121,8 +121,8 @@ const FAQS = [
     a: "Defogging can make the glass look clearer for a while, but the seal stays broken and the insulating gas is gone. A new sealed unit fixes the actual problem.",
   },
   {
-    q: "Do you do foggy window repair outside Toronto?",
-    a: "Yes. We work across the GTA, including Vaughan, Thornhill, Richmond Hill, Markham, Mississauga, Brampton and Oakville. See the city links below.",
+    q: "Do you work outside Toronto?",
+    a: "Yes. We serve the entire GTA, including Vaughan, Thornhill, Richmond Hill, Markham, Mississauga, Brampton and Oakville. See the city links below.",
   },
 ];
 
@@ -262,7 +262,7 @@ export default function FoggyWindowsPage() {
           </h2>
           <div className="space-y-4 text-gray-600 leading-relaxed">
             <p>
-              Most windows in GTA homes are double pane or triple pane. Two or
+              Most windows in GTA homes use double glazing or triple glazing (double or triple pane). Two or
               three panes of glass are sealed together into one insulated glass
               unit. The space between the panes is gas filled, usually with
               argon, and a desiccant inside the spacer absorbs moisture.
@@ -275,7 +275,7 @@ export default function FoggyWindowsPage() {
               mineral stains on the inside of the glass.
             </p>
             <p>
-              Foggy windows also lose insulation. You&apos;ll often feel the glass
+              Windows with a failed seal also lose insulation. You&apos;ll often feel the glass
               is colder in winter than the windows around it.
             </p>
           </div>
@@ -531,7 +531,7 @@ export default function FoggyWindowsPage() {
         </div>
       </section>
 
-      {/* Foggy Window Repair Cost */}
+      {/* Sealed Unit Replacement Cost */}
       <section
         className="py-16 px-4 md:px-8 bg-gray-50"
         aria-labelledby="cost-heading"
@@ -541,7 +541,7 @@ export default function FoggyWindowsPage() {
             id="cost-heading"
             className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
           >
-            Foggy Window Repair Cost
+            Sealed Unit Replacement Cost
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
             The price depends on:
@@ -633,7 +633,7 @@ export default function FoggyWindowsPage() {
       )}
 
       <CTABanner
-        title="Ready to Fix Your Foggy Windows?"
+        title="Ready for Clear Windows Again?"
         subtitle="Call now: same-day quotes available across the GTA."
       />
 
