@@ -366,6 +366,17 @@ export default function FrontDoorGlassPage() {
                 and complete.
               </p>
             </div>
+            <div className="bg-white rounded-2xl border border-gray-100 p-6">
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Commercial door glass
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Storefronts, office entrances and building lobby doors. We
+                replace commercial door glass with tempered safety glass, and we
+                offer 24/7 emergency board-up and glass repair and replacement
+                services after a break-in or accident.
+              </p>
+            </div>
           </div>
         </div>
       </section>
