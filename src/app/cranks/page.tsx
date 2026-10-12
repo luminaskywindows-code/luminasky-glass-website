@@ -11,7 +11,7 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Window Crank & Operator Repair Toronto",
+  title: "Window Crank Repair Toronto & Hinge Repair",
   description:
     "Broken window crank or stuck casement? LuminaSky stocks AmesburyTruth, Roto & more. Most repairs in 30 minutes, same-day across the Greater Toronto Area. Call 437-344-8490.",
   alternates: { canonical: "/cranks" },
@@ -201,10 +201,7 @@ export default function WindowCranksPage() {
               </nav>
 
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-                Window Crank, Hinge &amp; Operator Repair -{" "}
-                <span className="text-accent-light">
-                  GTA Casement &amp; Awning Specialists
-                </span>
+                Window Crank Repair Toronto: Operators, Hinges &amp; Casement Cranks
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
                 A casement window with a crank that spins endlessly, a stiff
@@ -328,7 +325,9 @@ export default function WindowCranksPage() {
                 operator replacement fixes it. When the window sags, drags or
                 won&apos;t close tight, the hinges are worn, and window hinge
                 repair or replacement solves it. Either way, you keep your
-                window.
+                window. If the crank arm itself is broken or worn out, casement
+                window crank replacement takes a few minutes and uses compatible
+                hardware for your window.
               </p>
               <div className="mt-6 grid grid-cols-2 gap-4">
                 {[
