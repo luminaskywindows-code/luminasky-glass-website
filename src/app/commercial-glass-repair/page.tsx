@@ -44,7 +44,7 @@ const BEFORE_AFTER = {
 const COMMERCIAL_TYPES = [
   {
     title: "Storefront glass replacement",
-    text: "Storefront windows and display windows for shops, restaurants and offices. We replace broken, cracked or foggy storefront glass with tempered safety glass.",
+    text: "Storefront windows and display windows for shops, restaurants and offices. We replace broken, cracked or foggy storefront glass with tempered safety glass. For chips, cracks and failed seals, storefront glass repair is often possible without replacing the whole pane.",
   },
   {
     title: "Commercial door glass",
@@ -246,7 +246,7 @@ export default function CommercialGlassRepairPage() {
               id="emergency-heading"
               className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
             >
-              Emergency Glass Repair, 24/7
+              Emergency Glass Repair Toronto, 24/7
             </h2>
             <p className="text-gray-600 leading-relaxed">
               A broken storefront window can&apos;t wait until Monday. It leaves
@@ -376,7 +376,7 @@ export default function CommercialGlassRepairPage() {
         </div>
       </section>
 
-      {/* Emergency Board-Up */}
+      {/* Board Up Service Toronto */}
       <section
         className="py-16 px-4 md:px-8 bg-white"
         aria-labelledby="boardup-heading"
@@ -386,10 +386,11 @@ export default function CommercialGlassRepairPage() {
             id="boardup-heading"
             className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
           >
-            Emergency Board-Up
+            Board Up Service Toronto
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            After a break-in, vandalism or an accident, the first step is to
+            Our emergency board up services are available 24/7 across Toronto
+            and the GTA. After a break-in, vandalism or an accident, the first step is to
             secure the property. Our own crew boards up the opening, cleans up
             the broken glass, and measures for the permanent replacement in the
             same visit. You&apos;re secure the same night.
@@ -494,7 +495,8 @@ export default function CommercialGlassRepairPage() {
                 )}
               </span>
             ))}
-            .
+            . From emergency service at night to planned window glass repair,
+            one call covers it.
           </p>
         </div>
       </section>
