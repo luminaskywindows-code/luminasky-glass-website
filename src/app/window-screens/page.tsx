@@ -82,7 +82,7 @@ const BREADCRUMBS = [
 ];
 
 export const metadata: Metadata = {
-  title: "Window Screen Repair & Replacement Toronto",
+  title: "Window Screen Repair Toronto & Replacement",
   description:
     "Torn, bent or missing window screens? LuminaSky repairs and replaces window and patio door screens across Vaughan, Thornhill, Richmond Hill, Markham and North York.",
   alternates: { canonical: "/window-screens" },
@@ -157,7 +157,7 @@ export default function WindowScreensPage() {
                 </ol>
               </nav>
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-                Window &amp; Door Screen Repair and Replacement
+                Window Screen Repair Toronto &amp; Custom Window Screens
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-4 max-w-2xl">
                 A torn screen is a small problem that ruins a whole summer. Bugs
@@ -238,8 +238,8 @@ export default function WindowScreensPage() {
             When the frame is broken or the screen is missing, we make a new
             one. Window screen replacement means a new screen custom-made to
             the exact size of your window, so it fits snug with no gaps for
-            bugs to get through. We make screens for casement, slider and hung
-            windows.
+            bugs to get through. We make custom window screens for casement, slider
+            and hung windows, plus screens for sliding patio doors.
           </p>
         </div>
       </section>
