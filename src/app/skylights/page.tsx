@@ -84,6 +84,7 @@ const SKYLIGHT_TYPES = [
   "Flat roof skylights",
   "Skylights in vaulted and cathedral ceilings",
   "Tubular skylights (sun tunnels)",
+  "Dome skylights (supply and install, including building a new curb)",
   "Velux, Fakro, ODL and custom skylights",
 ];
 
