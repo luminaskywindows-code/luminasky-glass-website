@@ -85,7 +85,7 @@ const WHAT_WE_REPLACE = [
 
 const COST_FACTORS = [
   "The size of each glass unit",
-  "Single or double pane, and the glass thickness",
+  "The glass thickness and the size of the gap between the panes",
   "Glass type: clear, low-E, frosted, tinted or tempered",
   "How many windows you're fixing",
   "Access (ground floor or upper floors)",
