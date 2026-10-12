@@ -564,7 +564,7 @@ export default function SkylightsPage() {
                 Skylight work means working at height on your roof. Our skylight
                 installers are fully insured for at-height work, and we protect
                 your roof and interior while we work. Every repair finishes with
-                a leak test before we leave. Working with an insured skylight
+                a leak test, so your skylight stays leak free. Working with an insured skylight
                 contractor protects you if anything goes wrong on the job.
               </p>
             </div>
