@@ -635,7 +635,15 @@ export default function FrontDoorGlassPage() {
             Broken glass after a break-in or an accident can&apos;t wait. We&apos;re
             available 24/7 for emergency glass repair across the GTA. We board
             up the opening to secure your home or business, then install the
-            permanent replacement glass.
+            permanent replacement glass. Commercial glass emergency? See
+            our{" "}
+            <Link
+              href="/commercial-glass-repair"
+              className="text-primary hover:underline font-semibold"
+            >
+              commercial glass repair service
+            </Link>
+            .
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">

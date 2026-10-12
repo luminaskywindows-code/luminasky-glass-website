@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import emailjs from "@emailjs/browser";
-import { Phone, Mail, Wrench, Droplets, DoorOpen, Paintbrush, Wind, Sun, CheckCircle2, ClipboardList, PhoneCall, Star, Check, ChevronRight } from "lucide-react";
+import { Phone, Mail, Wrench, Droplets, DoorOpen, Paintbrush, Wind, Sun, Building2, CheckCircle2, ClipboardList, PhoneCall, Star, Check, ChevronRight } from "lucide-react";
 import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
@@ -17,6 +18,7 @@ const SERVICES_LIST = [
   { icon: Paintbrush, title: "Exterior Caulking and Resealing", desc: "Weatherproofing, draft elimination, block projects" },
   { icon: Wind, title: "Screens, Weatherstripping, Drafts", desc: "Screen repair, replacement, draft sealing" },
   { icon: Sun, title: "Skylights", desc: "Glass replacement, leak repair, seal restoration" },
+  { icon: Building2, title: "Commercial Glass Repair", desc: "Storefronts, lobbies, 24/7 emergency board-up", href: "/commercial-glass-repair" },
 ] as const;
 
 const ROLE_OPTIONS = [
@@ -473,20 +475,29 @@ export default function PropertyManagersPage() {
             What We Handle
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {SERVICES_LIST.map((service) => (
-              <div
-                key={service.title}
-                className="flex items-start gap-4 p-5 rounded-xl border border-gray-100 hover:border-accent/30 hover:shadow-md transition-all"
-              >
-                <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center shrink-0">
-                  <service.icon className="w-5 h-5 text-accent" aria-hidden="true" />
+            {SERVICES_LIST.map((service) => {
+              const inner = (
+                <>
+                  <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center shrink-0">
+                    <service.icon className="w-5 h-5 text-accent" aria-hidden="true" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 text-sm">{service.title}</h3>
+                    <p className="text-gray-500 text-sm mt-0.5">{service.desc}</p>
+                  </div>
+                </>
+              );
+              const cls = "flex items-start gap-4 p-5 rounded-xl border border-gray-100 hover:border-accent/30 hover:shadow-md transition-all";
+              return "href" in service && service.href ? (
+                <Link key={service.title} href={service.href} className={cls}>
+                  {inner}
+                </Link>
+              ) : (
+                <div key={service.title} className={cls}>
+                  {inner}
                 </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 text-sm">{service.title}</h3>
-                  <p className="text-gray-500 text-sm mt-0.5">{service.desc}</p>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

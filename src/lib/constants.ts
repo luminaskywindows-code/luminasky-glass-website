@@ -119,6 +119,16 @@ export const SERVICES = [
     href: "/window-replacement",
     imageSrc: "/images/services/window-replacement-service.jpg",
   },
+  {
+    slug: "commercial-glass-repair",
+    title: "Commercial Glass Repair",
+    shortTitle: "Commercial Glass",
+    icon: "building-2",
+    description:
+      "24/7 commercial glass repair: storefront glass replacement, commercial door glass, emergency board-up across Toronto and the GTA.",
+    href: "/commercial-glass-repair",
+    imageSrc: "/images/services/door-after-repaired.jpg",
+  },
 ];
 
 export const TESTIMONIALS = [

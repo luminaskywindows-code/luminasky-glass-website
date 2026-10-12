@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Cloud, Layers, DoorOpen, Wrench, Shield, Warehouse, Key, Sun } from "lucide-react";
+import { ArrowRight, Cloud, Layers, DoorOpen, Wrench, Shield, Warehouse, Key, Sun, Grid2x2, Square, Building2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -12,6 +12,9 @@ const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
   warehouse: Warehouse,
   key: Key,
   sun: Sun,
+  "grid-2x2": Grid2x2,
+  square: Square,
+  "building-2": Building2,
 };
 
 interface ServiceCardProps {
