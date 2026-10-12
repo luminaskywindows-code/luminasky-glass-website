@@ -74,7 +74,7 @@ const PROBLEMS = [
   },
   {
     title: "Full skylight replacement",
-    text: "When the frame itself is damaged or rotting, we replace the whole skylight. We'll tell you honestly whether a glass replacement, a leak repair, or a full replacement makes sense for your skylight.",
+    text: "When the frame itself is damaged or rotting, we replace the whole skylight, glass and frame. We'll tell you honestly whether a glass replacement, a leak repair, or a full replacement makes sense for your skylight.",
   },
 ];
 
@@ -304,9 +304,9 @@ export default function SkylightsPage() {
                 mess of a full skylight replacement.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                We work on homes and businesses across Toronto and the GTA. We
-                service all major skylight brands, including Velux, Fakro and ODL,
-                as well as custom skylights.
+                We&apos;re a Toronto skylight repair team working on homes and
+                businesses across the GTA. We service all major skylight brands,
+                including Velux, Fakro and ODL, as well as custom skylights.
               </p>
             </div>
           </div>
@@ -560,10 +560,11 @@ export default function SkylightsPage() {
                 Safe, Insured Roof Work
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                Skylight work means working at height on your roof. Our team is
-                fully insured for at-height work, and we protect your roof and
-                interior while we work. Every repair finishes with a leak test
-                before we leave.
+                Skylight work means working at height on your roof. Our skylight
+                installers are fully insured for at-height work, and we protect
+                your roof and interior while we work. Every repair finishes with
+                a leak test before we leave. Working with an insured skylight
+                contractor protects you if anything goes wrong on the job.
               </p>
             </div>
           </div>
@@ -583,7 +584,7 @@ export default function SkylightsPage() {
             Areas We Serve
           </h2>
           <p className="text-gray-500 mb-6 max-w-3xl">
-            We provide skylight repair across Toronto and the GTA, including:
+            Skylight repair Mississauga to Markham, and everywhere across Toronto and the GTA:
           </p>
           <div className="flex flex-wrap gap-2">
             {AREA_CITIES.map((city) => (
