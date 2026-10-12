@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import emailjs from "@emailjs/browser";
 import { SERVICES, SERVICE_AREAS } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
@@ -148,6 +147,7 @@ export function ContactForm() {
       : "-";
 
     try {
+      const emailjs = (await import("@emailjs/browser")).default;
       await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,

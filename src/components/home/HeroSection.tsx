@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, MessageCircle } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
-import emailjs from "@emailjs/browser";
 import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
@@ -95,6 +95,7 @@ function HeroFormCard() {
       : "-";
 
     try {
+      const emailjs = (await import("@emailjs/browser")).default;
       await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
@@ -290,13 +291,16 @@ export function HeroSection() {
       <section
         className="relative overflow-hidden"
         aria-label="Hero section"
-        style={{
-          backgroundImage: "url('/images/hero-background.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
       >
+        {/* Background image via next/image for optimized loading */}
+        <Image
+          src="/images/hero-background.png"
+          alt=""
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
         {/* Dark overlay for text readability */}
         <div
           className="absolute inset-0"

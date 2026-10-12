@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import emailjs from "@emailjs/browser";
 import { CheckCircle2, X } from "lucide-react";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 import { PHONE, PHONE_HREF, WINTER_READY_ENABLED } from "@/lib/constants";
@@ -494,6 +493,7 @@ export function HomepagePopup() {
       : "-";
 
     try {
+      const emailjs = (await import("@emailjs/browser")).default;
       await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
