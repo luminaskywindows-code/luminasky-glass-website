@@ -1,15 +1,9 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { XCircle, CheckCircle2, Phone, Mail, Snowflake } from "lucide-react";
+import { XCircle, CheckCircle2, Phone, Mail, Snowflake, ChevronRight } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, WINTER_READY_ENABLED } from "@/lib/constants";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import {
   generateBreadcrumbSchema,
   generateServiceSchema,
@@ -144,6 +138,10 @@ const FAQS = [
   {
     q: "What if you can't identify my hardware from a photo?",
     a: "In rare cases with very old or discontinued hardware, we'll bring our parts catalogue on the visit and measure on-site. We've sourced hardware for windows going back 30+ years.",
+  },
+  {
+    q: "Do you do window hinge repair?",
+    a: "Yes. Worn or bent hinges make casement windows sag, stick or leak air. We replace the hinges with compatible hardware so the window opens smoothly and seals tight again.",
   },
 ];
 
@@ -321,6 +319,16 @@ export default function WindowCranksPage() {
                 replacement makes sense, but in{" "}
                 <strong className="text-gray-900">90% of cases</strong>, a
                 simple hardware fix solves the problem.
+              </p>
+              <p className="text-gray-600 leading-relaxed mt-4">
+                Casement windows rely on three parts: the crank handle, the
+                operator (the gearbox the handle turns) and the hinges that let
+                the sash swing. When the handle spins but the window
+                doesn&apos;t move, the operator is usually stripped, and window
+                operator replacement fixes it. When the window sags, drags or
+                won&apos;t close tight, the hinges are worn, and window hinge
+                repair or replacement solves it. Either way, you keep your
+                window.
               </p>
               <div className="mt-6 grid grid-cols-2 gap-4">
                 {[
@@ -582,22 +590,25 @@ export default function WindowCranksPage() {
               Frequently Asked Questions
             </h2>
           </div>
-          <Accordion className="space-y-3">
+          <div className="space-y-3">
             {FAQS.map((faq, i) => (
-              <AccordionItem
+              <details
                 key={i}
-                value={`faq-${i}`}
-                className="bg-white border border-gray-100 rounded-xl px-4 shadow-sm"
+                className="bg-white rounded-xl border border-gray-100 overflow-hidden group shadow-sm"
               >
-                <AccordionTrigger className="text-left font-semibold text-gray-900 hover:text-primary hover:no-underline py-4">
+                <summary className="flex items-center justify-between px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:text-primary transition-colors list-none [&::-webkit-details-marker]:hidden">
                   {faq.q}
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-600 leading-relaxed pb-4">
+                  <ChevronRight
+                    className="w-5 h-5 text-gray-400 group-open:rotate-90 transition-transform shrink-0 ml-4"
+                    aria-hidden="true"
+                  />
+                </summary>
+                <div className="px-6 pb-4 text-gray-600 leading-relaxed">
                   {faq.a}
-                </AccordionContent>
-              </AccordionItem>
+                </div>
+              </details>
             ))}
-          </Accordion>
+          </div>
         </div>
       </section>
 
@@ -611,7 +622,14 @@ export default function WindowCranksPage() {
             <p className="text-gray-600 leading-relaxed mb-8 max-w-xl mx-auto">
               We&apos;ll identify the part within the hour and give you a
               straight answer on cost and availability - no sales pitch, no
-              surprise fees.
+              surprise fees. Window hardware repair is part of our full{" "}
+              <Link
+                href="/window-repair-toronto"
+                className="text-primary font-semibold hover:underline"
+              >
+                window repair
+              </Link>{" "}
+              service across the GTA.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
               <Link
