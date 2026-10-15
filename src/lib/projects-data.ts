@@ -24,24 +24,6 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
-    id: "skylight-replacement-richmond-hill",
-    title: "Skylight Dome Replacement",
-    category: "skylights",
-    beforeImage: {
-      src: "/images/services/skylight-richmond-hill-before.jpg",
-      alt: "Old foggy acrylic skylight dome on a Richmond Hill roof before replacement",
-    },
-    afterImage: {
-      src: "/images/services/skylight-richmond-hill-after.jpg",
-      alt: "New clear acrylic skylight dome installed on a Richmond Hill roof",
-    },
-    description:
-      "An older acrylic skylight dome in Richmond Hill had become cloudy, scratched and foggy after years of UV exposure. We removed the discoloured dome and installed a new clear dome with fresh sealing, restoring full natural light to the room below. The frame and curb stayed in place, saving the homeowner the cost of a full skylight replacement.",
-    location: "Richmond Hill",
-    serviceType: "Skylight Replacement",
-    tags: [],
-  },
-  {
     id: "foggy-glass-1",
     title: "Foggy Glass Repair",
     category: "windows",
