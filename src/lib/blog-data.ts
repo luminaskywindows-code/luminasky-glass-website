@@ -278,7 +278,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>This is a <a href="/cranks">window hardware repair</a>, not a window replacement. The operator mechanism is a replaceable part. Most window hardware repairs are completed on the same day, on the first visit.</p>
 
-<p>Test every crank in your home. Open the window, close it, and make sure it pulls tight against the frame with no gaps.</p>
+<p>Test every crank in your home. Open the window, close it, and make sure it pulls tight against the frame with no gaps. For a full breakdown of which crank part failed and how, see our guide on <a href="/blog/window-crank-repair-toronto">window crank repair in Toronto</a>.</p>
 
 <h2 id="locks-that-dont-latch">4. Locks That Don't Latch</h2>
 
@@ -406,7 +406,7 @@ export const BLOG_POSTS: BlogPost[] = [
   <li>Energy costs go up because the window is no longer blocking heat transfer the way it was designed to.</li>
 </ul>
 
-<p>This is the most common window problem in the GTA. If your home was built between 2000 and 2015, check every window. South-facing and west-facing glass tends to fail first because of repeated sun exposure.</p>
+<p>This is the most common window problem in the GTA. If your home was built between 2000 and 2015, check every window. South-facing and west-facing glass tends to fail first because of repeated sun exposure. For a deeper look at why this happens, see our guide on <a href="/blog/why-windows-fog-between-panes">why windows fog up between the panes</a>.</p>
 
 <h2 id="how-sealed-units-fail">How Sealed Units Fail</h2>
 
@@ -780,6 +780,453 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Book a $30 site visit. That fee gets credited toward whatever work you decide to do.</p>
 
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
+`,
+  },
+  {
+    slug: "window-crank-repair-toronto",
+    title: "Why Your Window Crank Broke, and What Actually Needs Fixing",
+    metaTitle: "Window Crank Repair in Toronto",
+    metaDescription:
+      "The handle spins or won't turn. Here's what actually failed inside a casement window crank, how to tell which part broke, and why repair almost always beats replacement.",
+    excerpt:
+      "You turn the handle and nothing happens. Or it spins freely without moving the window. Crank failure is the single most common window repair we are called out for across the GTA, and almost every homeowner asks the same thing: does this mean I need a new window? Almost never.",
+    publishedAt: "2026-10-18",
+    author: "Dan, LuminaSky Glass Services",
+    readingTime: 4,
+    tags: ["window crank", "casement window", "hardware", "repair"],
+    sections: [
+      { id: "what-is-actually-inside-a-casement-window", title: "What Is Actually Inside a Casement Window" },
+      { id: "how-to-tell-which-one-failed", title: "How to Tell Which One Failed" },
+      { id: "why-it-is-worth-repairing", title: "Why It Is Worth Repairing" },
+      { id: "why-doing-several-at-once-makes-sense", title: "Why Doing Several at Once Makes Sense" },
+      { id: "can-you-fix-it-yourself", title: "Can You Fix It Yourself?" },
+      { id: "before-winter-specifically", title: "Before Winter Specifically" },
+    ],
+    content: `
+<p>You turn the handle and nothing happens. Or it spins freely without moving the window. Or it moves, grinding, and stops halfway. Crank failure is the single most common window repair we are called out for across the GTA, and almost every homeowner who calls asks the same thing first: does this mean I need a new window?</p>
+
+<p>Almost never.</p>
+
+<h2 id="what-is-actually-inside-a-casement-window">What Is Actually Inside a Casement Window</h2>
+
+<p>A casement window, the kind that swings out like a door, is operated by three separate parts that people tend to lump together as "the crank."</p>
+
+<p>The <strong>handle</strong> is the part you touch. It is the simplest part, and it is almost never the real problem.</p>
+
+<p>The <strong>operator</strong> is the gearbox behind the handle, bolted inside the frame. It contains a worm gear that converts your turning into a push along an arm. This is what usually fails. The gear teeth wear down, strip, or the housing cracks.</p>
+
+<p>The <strong>hinges</strong>, sometimes called hinge arms or the track, carry the weight of the sash as it swings. When these wear or bend, the window gets heavy and stiff, and that extra load is what kills the operator in the first place.</p>
+
+<h2 id="how-to-tell-which-one-failed">How to Tell Which One Failed</h2>
+
+<p><strong>The handle spins freely with no resistance.</strong> The gear inside the operator has stripped. The operator needs replacing.</p>
+
+<p><strong>The handle turns but feels gritty and the window crawls.</strong> Worn gear teeth, or the hinges are binding and overloading the operator. Both need looking at, because replacing only the operator on bad hinges means you will be calling again next year.</p>
+
+<p><strong>The handle will not turn at all.</strong> Usually a seized operator, or a hinge arm that has come off its track. Do not force it. Forcing a seized operator is how a repair becomes a replacement.</p>
+
+<p><strong>The window opens but will not pull tight against the seal.</strong> That is usually a lock or keeper problem, not the crank at all, and it is the simplest of the three to fix.</p>
+
+<h2 id="why-it-is-worth-repairing">Why It Is Worth Repairing</h2>
+
+<p>The window itself is fine. The glass is fine, the frame is fine, the seal is fine. What failed is a gearbox the size of your palm. Replacing the whole window because of it is like replacing a car because the window winder broke.</p>
+
+<p>There is one exception worth being honest about. If the frame itself is rotted or out of square, the hardware will keep failing no matter how many times it is replaced, because the window is no longer carrying its own weight properly. We will tell you that on site if we see it.</p>
+
+<h2 id="why-doing-several-at-once-makes-sense">Why Doing Several at Once Makes Sense</h2>
+
+<p>Almost everything in a repair visit is travel and setup. Once a technician is at your home with parts on the truck, the second and third window take far less time than the first.</p>
+
+<p>If you have one window that is clearly broken and two more that feel stiff, it is worth doing all three in one visit rather than calling again in six months. Windows in the same house were installed at the same time and tend to wear out on the same schedule.</p>
+
+<h2 id="can-you-fix-it-yourself">Can You Fix It Yourself?</h2>
+
+<p>Sometimes. The difficulty is not the labour, it is getting the right part. Casement operators are not universal. They vary by manufacturer, by model year, by handing, and by the shape of the arm. The common outcome of a do-it-yourself crank repair is a part that arrives in a week, does not fit, and a window that is now half disassembled going into a cold weekend.</p>
+
+<p>If you want to try, take the operator off, photograph both sides including any stamped numbers, and bring it to a hardware supplier rather than ordering by eye.</p>
+
+<h2 id="before-winter-specifically">Before Winter Specifically</h2>
+
+<p>A window that does not pull tight against its seal leaks heat all winter. <a href="/cranks">The crank, the hinges and the lock</a> are the three parts that control that seal. All three are small repairs compared with what a bad seal costs you over four months of heating.</p>
+
+<p>For a full pre-winter check of your windows, see our <a href="/blog/winter-window-checklist-gta">winter window checklist for GTA homes</a>.</p>
+
+<p>Not sure which part failed? Send us a photo of the handle and the open window on WhatsApp and we will tell you what we are looking at. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
+`,
+  },
+  {
+    slug: "condo-window-repair-who-pays-ontario",
+    title: "Who Pays for Window Repairs in a Condo: the Unit Owner or the Corporation?",
+    metaTitle: "Who Pays for Condo Window Repairs in Ontario?",
+    metaDescription:
+      "Window broken in your Ontario condo? Here's how to figure out in ten minutes whether the unit owner or the corporation pays, and what to do when it's unclear.",
+    excerpt:
+      "The glass in your condo has gone cloudy, or the crank has stopped working, and you are not sure whether to call a repair company or call the property manager. Here is how to find your answer quickly.",
+    publishedAt: "2026-10-18",
+    author: "Dan, LuminaSky Glass Services",
+    readingTime: 4,
+    tags: ["condo", "property management", "ontario", "responsibility"],
+    sections: [
+      { id: "the-general-shape-of-it-in-ontario", title: "The General Shape of It in Ontario" },
+      { id: "how-to-find-out-in-ten-minutes", title: "How to Find Out in Ten Minutes" },
+      { id: "where-it-gets-tricky", title: "Where It Gets Tricky" },
+      { id: "a-note-for-boards-and-property-managers", title: "A Note for Boards and Property Managers" },
+      { id: "if-it-turns-out-to-be-yours", title: "If It Turns Out to Be Yours" },
+    ],
+    content: `
+<p>The glass in your condo has gone cloudy, or the crank has stopped working, and you are not sure whether to call a repair company or call the property manager. It is one of the most common questions we get from condo residents across the GTA, and the honest answer is that it depends on documents specific to your building.</p>
+
+<p>Here is how to find your answer quickly.</p>
+
+<h2 id="the-general-shape-of-it-in-ontario">The General Shape of It in Ontario</h2>
+
+<p>Ontario condominiums are governed by the Condominium Act and, more importantly for this question, by each corporation's own <strong>declaration</strong>. The declaration is the founding document that defines what is a unit, what is common element, and what is exclusive-use common element.</p>
+
+<p>Windows usually fall into one of three categories, and which one decides who pays.</p>
+
+<p><strong>Common element.</strong> The corporation is responsible for repair and maintenance, funded through condo fees or the reserve fund. This is common in older high-rises where the whole facade is treated as one system.</p>
+
+<p><strong>Exclusive-use common element.</strong> This is the middle ground, and where most of the confusion lives. The window belongs to the building, but only your unit uses it. Declarations often split the duty here: the corporation handles the structure and the glass, the owner handles day to day maintenance, or some similar division. The exact wording matters.</p>
+
+<p><strong>Part of the unit.</strong> The owner is responsible. More common in townhouse-style condominiums and some newer stacked developments.</p>
+
+<p>There is no single rule that covers every building in Ontario. This is general information, not legal advice, and your declaration governs.</p>
+
+<h2 id="how-to-find-out-in-ten-minutes">How to Find Out in Ten Minutes</h2>
+
+<p><strong>Read your declaration and your status certificate.</strong> Search the document for "window" and for "exclusive use." The answer is usually within a few lines of that phrase.</p>
+
+<p><strong>Email the property manager and ask directly.</strong> A short, specific question gets a fast answer: "Is the glass in unit 1204 a common element, exclusive-use common element, or part of the unit under our declaration?"</p>
+
+<p><strong>Ask whether there is a standing vendor.</strong> Many corporations already have a glass contractor they work with. If so, going through them is faster than arranging your own.</p>
+
+<h2 id="where-it-gets-tricky">Where It Gets Tricky</h2>
+
+<p><strong>Failed sealed units.</strong> A window that has fogged between the panes has failed as a component rather than been damaged. Corporations often handle these even in buildings where owners handle the hardware.</p>
+
+<p><strong>Hardware.</strong> Cranks, hinges, locks and rollers are frequently treated as owner responsibility even where the glass is not, because they are wear items used by the occupant.</p>
+
+<p><strong>Damage from inside the unit.</strong> If a window broke because of something that happened in your unit, expect to pay for it regardless of what the declaration says about maintenance.</p>
+
+<p><strong>Timing.</strong> Even where the corporation is responsible, the work has to fit their schedule and budget. Owners sometimes choose to pay for a faster repair themselves. If you do, get written permission first, because unapproved work on a common element can be reversed at your expense.</p>
+
+<h2 id="a-note-for-boards-and-property-managers">A Note for Boards and Property Managers</h2>
+
+<p>The pattern we see most often in GTA buildings is a backlog of small glass and hardware issues, each one feeling too minor to schedule, until collectively they are a long and expensive list.</p>
+
+<p>Handling them in batches costs dramatically less than one at a time, because most of the cost in any service visit is getting a technician on site. A morning spent across eight units is not eight visits.</p>
+
+<p>We work with <a href="/property-managers">condo boards and property management companies</a> across the GTA on exactly this kind of batched work: sealed unit replacement, hardware repairs across multiple units, and glass for common areas and entrances.</p>
+
+<h2 id="if-it-turns-out-to-be-yours">If It Turns Out to Be Yours</h2>
+
+<p>If responsibility lands with you as the owner, the repair is usually smaller than you expect. A <a href="/foggy-windows">fogged sealed unit is replaced without touching the frame</a>. A failed crank is a part, not a window.</p>
+
+<p>Send us a photo on WhatsApp and we will tell you what you are dealing with. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
+`,
+  },
+  {
+    slug: "why-windows-fog-between-panes",
+    title: "Why Windows Fog Up Between the Panes, and Why Cleaning Never Works",
+    metaTitle: "Why Windows Fog Between the Panes",
+    metaDescription:
+      "The haze between your window panes isn't dirt and you can't reach it. Here's what's actually happening inside a failed sealed glass unit, and what the repair involves.",
+    excerpt:
+      "You have cleaned it twice. You have cleaned it from the outside. The haze is still there. It is not dirt, and you are not going to reach it. Here is what is actually happening inside that window.",
+    publishedAt: "2026-10-18",
+    author: "Dan, LuminaSky Glass Services",
+    readingTime: 4,
+    tags: ["foggy glass", "sealed unit", "IGU", "repair"],
+    sections: [
+      { id: "what-a-modern-window-is-made-of", title: "What a Modern Window Is Made Of" },
+      { id: "what-fails", title: "What Fails" },
+      { id: "what-makes-it-happen-sooner", title: "What Makes It Happen Sooner" },
+      { id: "why-it-costs-you-more-than-appearance", title: "Why It Costs You More Than Appearance" },
+      { id: "what-the-repair-actually-involves", title: "What the Repair Actually Involves" },
+      { id: "when-replacing-the-glass-is-not-the-answer", title: "When Replacing the Glass Is Not the Answer" },
+      { id: "how-to-check-your-own-house-this-week", title: "How to Check Your Own House This Week" },
+    ],
+    content: `
+<p>You have cleaned it twice. You have cleaned it from the outside. The haze is still there, and in certain light it looks like a film that will not come off.</p>
+
+<p>It is not dirt, and you are not going to reach it. Here is what is actually happening inside that window.</p>
+
+<h2 id="what-a-modern-window-is-made-of">What a Modern Window Is Made Of</h2>
+
+<p>The glass in your window is not one sheet. It is a <strong>sealed unit</strong>: two panes of glass, sometimes three, held apart by a spacer around the edge, with the gap filled with gas and the whole perimeter sealed shut.</p>
+
+<p>The glass is not what insulates. The trapped gas layer is. The glass is there to hold the gas still.</p>
+
+<p>Along the edge of that unit sits a sealant, and inside the spacer sits a desiccant, a drying agent whose job is to absorb the small amount of moisture sealed in at the factory so the inside surfaces stay clear.</p>
+
+<h2 id="what-fails">What Fails</h2>
+
+<p>Over years of expansion and contraction, every day, summer and winter, the edge seal eventually gives way. Once it does, two things happen at once.</p>
+
+<p>The gas escapes, so the unit stops insulating the way it was built to. And outside air starts moving in and out, carrying moisture. The desiccant absorbs what it can until it is saturated, and after that the moisture has nowhere to go. It condenses on the inner surfaces of the glass, where nothing can reach it.</p>
+
+<p>That is the haze. It is on the inside faces of two panes that are sealed together, which is why no amount of cleaning will touch it, and why it cannot be dried out.</p>
+
+<h2 id="what-makes-it-happen-sooner">What Makes It Happen Sooner</h2>
+
+<p><strong>Direct sun.</strong> South and west facing windows cook all afternoon and fail earlier than north facing ones in the same house.</p>
+
+<p><strong>Big temperature swings.</strong> Ontario is hard on sealed units. A thirty degree summer day and a minus twenty winter night work the seal in both directions every year.</p>
+
+<p><strong>Age.</strong> Sealed units have a service life. Most windows in a GTA home were installed at the same time, which is why they tend to start fogging within a few years of each other.</p>
+
+<p><strong>Installation.</strong> A unit that was handled badly or installed under stress fails early.</p>
+
+<h2 id="why-it-costs-you-more-than-appearance">Why It Costs You More Than Appearance</h2>
+
+<p>People tend to treat fogging as a cosmetic problem and live with it for years. It is not cosmetic.</p>
+
+<p>A failed sealed unit has lost the gas layer that did the insulating. That window is now performing closer to a single sheet of glass than to the double pane you paid for. In January, that is heat leaving the house through the window all day and all night.</p>
+
+<p>It is also the reason that room always feels colder than the rest of the house, and the reason there is sometimes condensation on the room side of that window in winter when no other window in the house has it.</p>
+
+<h2 id="what-the-repair-actually-involves">What the Repair Actually Involves</h2>
+
+<p>This is where most people are relieved. The frame is not the problem. The sash is not the problem. The hardware is not the problem.</p>
+
+<p>The <a href="/foggy-windows">sealed unit is removed from the existing frame</a> and a new one goes in. Your window stays where it is. From inside the room, nothing changes except that you can see through it again.</p>
+
+<p>The new unit has to be made to the exact dimensions of the old one, so there is an ordering period between the measurement and the install. That is normal and it applies to every company.</p>
+
+<h2 id="when-replacing-the-glass-is-not-the-answer">When Replacing the Glass Is Not the Answer</h2>
+
+<p>We would rather tell you this up front than on site.</p>
+
+<p>Replacing just the glass is the wrong call if the frame is rotted, warped, or no longer square; if the window is a very old single pane with no sealed unit to replace; if you are already planning to renovate that wall; or if you want a different window altogether, a different size or a different opening style.</p>
+
+<p>In those cases you are better off replacing the window, and glass alone would be money spent twice.</p>
+
+<h2 id="how-to-check-your-own-house-this-week">How to Check Your Own House This Week</h2>
+
+<p>Walk the house on a bright day and look at each window at an angle rather than straight on. Seal failure shows up far more clearly off-angle, and in its early stages it looks like a faint smear near one corner rather than full fog.</p>
+
+<p>Finding it early does not change the repair. It does mean you stop paying to heat the outdoors sooner.</p>
+
+<p>If you want to understand which glass spec to put back in, see our guide on <a href="/blog/double-vs-triple-pane-low-e-argon">double, triple, Low-E and argon</a>. For the winter picture of this problem, see our guide on <a href="/blog/window-condensation-in-winter">window condensation in winter</a>.</p>
+
+<p>Send us a photo on WhatsApp and we will tell you whether you are looking at a failed seal. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
+`,
+  },
+  {
+    slug: "storefront-glass-emergency-board-up",
+    title: "Your Storefront Glass Broke After Hours. Here Is What to Do Tonight",
+    metaTitle: "Storefront Glass Emergency Board-Up Toronto",
+    metaDescription:
+      "Broken commercial storefront glass at midnight? Here's the step-by-step order of operations for business owners in Toronto and the GTA, from safety to insurance to permanent glass.",
+    excerpt:
+      "A break-in, a vehicle in the entrance, or a pane that finally let go. If you are a business owner reading this at eleven at night, here is the order of operations.",
+    publishedAt: "2026-10-18",
+    author: "Dan, LuminaSky Glass Services",
+    readingTime: 4,
+    tags: ["storefront", "commercial", "emergency", "board-up", "break-in"],
+    sections: [
+      { id: "people-first-then-the-site", title: "1. People First, Then the Site" },
+      { id: "call-the-police-if-it-was-a-break-in", title: "2. Call the Police If It Was a Break-In" },
+      { id: "photograph-everything-before-you-touch-it", title: "3. Photograph Everything Before You Touch It" },
+      { id: "get-it-boarded-up", title: "4. Get It Boarded Up" },
+      { id: "call-your-insurer-in-the-morning-not-tonight", title: "5. Call Your Insurer in the Morning, Not Tonight" },
+      { id: "understand-what-glass-has-to-go-back-in", title: "6. Understand What Glass Has to Go Back In" },
+      { id: "watch-for-frame-damage", title: "7. Watch for Frame Damage" },
+      { id: "worth-doing-before-anything-breaks", title: "Worth Doing Before Anything Breaks" },
+    ],
+    content: `
+<p>A break-in, a vehicle in the entrance, or a pane that finally let go. If you are a business owner reading this at eleven at night, here is the order of operations.</p>
+
+<h2 id="people-first-then-the-site">1. People First, Then the Site</h2>
+
+<p>Keep everyone away from the opening. Tempered safety glass breaks into small pieces, but the frame will still have shards held in it, and a partly broken pane can let go later without warning. If a pane is cracked but still standing, do not lean anything against it and do not try to push it out.</p>
+
+<h2 id="call-the-police-if-it-was-a-break-in">2. Call the Police If It Was a Break-In</h2>
+
+<p>Get a report number. Your insurer will ask for it.</p>
+
+<h2 id="photograph-everything-before-you-touch-it">3. Photograph Everything Before You Touch It</h2>
+
+<p>Wide shots and close ups. The glass, the frame, the surrounding area, any damage inside. Do this before cleanup, because once it is swept you cannot go back. Insurers assess from photographs far more often than from site visits.</p>
+
+<h2 id="get-it-boarded-up">4. Get It Boarded Up</h2>
+
+<p>This is the step people delay, and it is the expensive one to delay.</p>
+
+<p>An open storefront overnight is an invitation. Most commercial policies also carry a duty on you to take reasonable steps to prevent further loss, so if a second incident happens through an opening you left unsecured, that conversation with your insurer goes badly.</p>
+
+<p>A proper board-up is cut to fit, fastened to the frame, and sealed well enough to keep weather out. In winter that matters more than people think: an open front with the heat running will empty a space's temperature in an hour, and in an older building that can put pipes at risk.</p>
+
+<p>We keep plywood stocked specifically so board-ups do not have to wait for suppliers to open in the morning. We board up across the GTA 24/7.</p>
+
+<h2 id="call-your-insurer-in-the-morning-not-tonight">5. Call Your Insurer in the Morning, Not Tonight</h2>
+
+<p>Unless your policy requires immediate notice, there is nothing a midnight call achieves that a nine o'clock call does not. Have ready: the police report number, your photographs, the approximate dimensions of the glass, and the board-up invoice.</p>
+
+<h2 id="understand-what-glass-has-to-go-back-in">6. Understand What Glass Has to Go Back In</h2>
+
+<p>This is where business owners get surprised, so it is worth knowing before the quote arrives.</p>
+
+<p>Commercial entrance and storefront glass is not the same as residential glass. Glass in doors, in panels beside doors, and in large areas at floor level is generally required to be safety glass, which in practice means tempered.</p>
+
+<p>Tempered glass cannot be cut to size after it is made. It is manufactured to exact dimensions and then heat treated, which is what gives it its strength. That means it has to be ordered, and it will not be same day.</p>
+
+<p>That gap between the board-up and the permanent glass is normal, and it is exactly why the board-up has to be done properly rather than quickly.</p>
+
+<h2 id="watch-for-frame-damage">7. Watch for Frame Damage</h2>
+
+<p>Frame damage is the variable that moves a job from straightforward to significant. A vehicle into an entrance almost always bends the frame, and a bent frame has to be repaired or replaced before new glass will sit correctly. Glass installed into a distorted frame sits under stress and does not last.</p>
+
+<p>If the door still operates but feels different, say so when you call. It changes what we bring.</p>
+
+<h2 id="worth-doing-before-anything-breaks">Worth Doing Before Anything Breaks</h2>
+
+<p>Photograph and measure your storefront glass now, while it is intact, and keep it with your insurance documents. When a pane breaks at midnight, having the dimensions already written down takes a day off the order.</p>
+
+<p>Broken glass now? Call <a href="tel:+14373448490">437-344-8490</a>. We board up across the <a href="/contact">GTA</a>, any hour.</p>
+`,
+  },
+  {
+    slug: "double-vs-triple-pane-low-e-argon",
+    title: "Double, Triple, Low-E and Argon: What You Are Actually Paying For",
+    metaTitle: "Double vs Triple Pane, Low-E and Argon Explained",
+    metaDescription:
+      "Comparing window glass quotes? Here's what double-pane, triple-pane, Low-E coatings and argon fill each actually do in an Ontario winter, and which upgrades are worth it.",
+    excerpt:
+      "When you get a quote for new glass, you are handed a list of options with names that sound technical and no explanation of what any of them do. Here is what each one does in an Ontario winter, and which ones are worth paying for.",
+    publishedAt: "2026-10-18",
+    author: "Dan, LuminaSky Glass Services",
+    readingTime: 4,
+    tags: ["glass", "double pane", "triple pane", "Low-E", "argon", "spec"],
+    sections: [
+      { id: "panes-double-or-triple", title: "Panes: Double or Triple" },
+      { id: "low-e-coating", title: "Low-E Coating" },
+      { id: "argon-fill", title: "Argon Fill" },
+      { id: "the-part-that-actually-decides-how-long-it-lasts", title: "The Part That Actually Decides How Long It Lasts" },
+      { id: "tempered-laminated-and-obscure", title: "Tempered, Laminated and Obscure" },
+      { id: "what-we-would-specify-for-a-typical-gta-home", title: "What We Would Specify for a Typical GTA Home" },
+    ],
+    content: `
+<p>When you get a quote for new glass, you are handed a list of options with names that sound technical and no explanation of what any of them do. Here is what each one does in an Ontario winter, and which ones are worth paying for.</p>
+
+<h2 id="panes-double-or-triple">Panes: Double or Triple</h2>
+
+<p>A sealed unit is two or three panes of glass separated by a spacer, with the gaps filled with gas and sealed at the edge. The insulating work is done by the gas layers, not by the glass.</p>
+
+<p><strong>Double pane</strong> is the standard across most GTA housing. Two panes, one gas layer.</p>
+
+<p><strong>Triple pane</strong> adds a third pane and a second gas layer. It insulates better, cuts outside noise noticeably, and is heavier and more expensive. The weight matters more than people expect. A heavier sash is harder on hinges and operators, and not every existing frame is built to carry it.</p>
+
+<p>Our honest read for most Toronto area homes: triple pane makes clear sense on north facing walls, on large expanses of glass, on anything facing a busy road where noise is the real complaint, and in new construction where the frames are specified for it. For a one-off replacement of a fogged unit in an existing frame, double pane with a good coating gets you most of the benefit.</p>
+
+<h2 id="low-e-coating">Low-E Coating</h2>
+
+<p>Low-E is a microscopically thin metallic coating on one of the glass surfaces. It is close to invisible. What it does is let visible light through while reflecting heat back toward the side it came from.</p>
+
+<p>In winter it reflects your indoor heat back inside instead of letting it radiate out through the glass. In summer it reflects solar heat back outside. In a climate that demands both, it is the most cost effective glass upgrade available.</p>
+
+<p>If you make one upgrade, make it this one.</p>
+
+<h2 id="argon-fill">Argon Fill</h2>
+
+<p>Argon is a harmless, colourless gas, denser than air, used to fill the space between panes. Because it transfers heat less readily than air does, it improves the insulating value of the unit for very little extra.</p>
+
+<p>It is usually bundled with Low-E and priced together, and it is worth having.</p>
+
+<p>The common worry is that argon leaks out over time. A small amount does escape slowly through any sealed unit, but that slow loss is not what decides when a window fails. What decides that is the edge seal, which brings us to the part nobody quotes you on.</p>
+
+<h2 id="the-part-that-actually-decides-how-long-it-lasts">The Part That Actually Decides How Long It Lasts</h2>
+
+<p>Every sealed unit eventually fails at the edge seal. That is what causes the <a href="/blog/why-windows-fog-between-panes">fogging you see in older windows</a>. How long it takes depends on the quality of the spacer and the sealant, how much direct sun the unit takes, and how well it was installed.</p>
+
+<p>This is why a cheaper unit that fails in eight years is not cheaper than a better one that lasts twenty.</p>
+
+<p>When you are comparing two quotes with very different numbers, ask what the warranty covers on seal failure specifically, not just on breakage. That answer tells you more about the product than the spec sheet does.</p>
+
+<h2 id="tempered-laminated-and-obscure">Tempered, Laminated and Obscure</h2>
+
+<p><strong>Tempered</strong> is safety glass, required in certain locations: in and beside doors, at low heights, near stairs, and in bathrooms. It breaks into small blunt pieces instead of shards. It cannot be cut after manufacture, so it must be ordered to exact size.</p>
+
+<p><strong>Laminated</strong> has a plastic interlayer that holds the glass together when it breaks. It is used for security and noise reduction, and it blocks almost all UV.</p>
+
+<p><strong>Frosted or obscure</strong> is for privacy, most often bathrooms. It is a surface treatment or a pattern, not an insulating change.</p>
+
+<h2 id="what-we-would-specify-for-a-typical-gta-home">What We Would Specify for a Typical GTA Home</h2>
+
+<p>Double pane, Low-E, argon filled, in a quality sealed unit from a supplier who stands behind the seal. Tempered where it is required. Triple pane where noise, or a very large north facing expanse, justifies it.</p>
+
+<p>That is not the most expensive option on any quote sheet, and that is the point. The upgrades that matter most are not the ones that cost the most.</p>
+
+<p><a href="/foggy-windows">Replacing a fogged unit</a> and not sure what to specify? Send us a photo and the rough dimensions on WhatsApp and we will tell you what is in there now and what we would put back. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
+`,
+  },
+  {
+    slug: "sliding-patio-door-wont-slide",
+    title: "Patio Door That Will Not Slide: Rollers, Tracks, and What Is Really Wrong",
+    metaTitle: "Patio Door Won't Slide: Rollers, Tracks, Repair",
+    metaDescription:
+      "Patio door jamming or dragging? Here's the three-stage failure (dirty track, worn rollers, dropped panel), what you can fix yourself, and when replacement actually matters.",
+    excerpt:
+      "You put your shoulder into it and it moves in jerks. Or it comes off its line halfway and jams. Sliding patio doors are among the heaviest moving parts in a house, and when they go wrong the instinct is to assume the whole door is finished. It usually is not.",
+    publishedAt: "2026-10-18",
+    author: "Dan, LuminaSky Glass Services",
+    readingTime: 4,
+    tags: ["patio door", "sliding door", "rollers", "track", "repair"],
+    sections: [
+      { id: "what-is-carrying-the-weight", title: "What Is Carrying the Weight" },
+      { id: "what-to-try-yourself-first", title: "What to Try Yourself First" },
+      { id: "what-replacement-involves", title: "What Replacement Involves" },
+      { id: "when-the-door-really-does-need-replacing", title: "When the Door Really Does Need Replacing" },
+      { id: "before-winter", title: "Before Winter" },
+    ],
+    content: `
+<p>You put your shoulder into it and it moves in jerks. Or it comes off its line halfway and jams. Or it slides but will not lock any more.</p>
+
+<p>Sliding patio doors are among the heaviest moving parts in a house, and when they go wrong the instinct is to assume the whole door is finished. It usually is not. The glass and the frame outlast the moving parts by decades.</p>
+
+<h2 id="what-is-carrying-the-weight">What Is Carrying the Weight</h2>
+
+<p>A sliding door panel sits on <strong>rollers</strong>, small wheels in housings at the bottom of the panel, which run along a <strong>track</strong> set into the sill. The rollers are adjustable for height, which is how the panel is squared up so it meets the lock and compresses the weatherstripping properly.</p>
+
+<p>Three things go wrong, and they go wrong in sequence.</p>
+
+<p><strong>The track fills with grit.</strong> Sand, salt, pet hair, whatever comes in off the deck. The rollers grind through it instead of rolling over it.</p>
+
+<p><strong>The rollers wear out.</strong> Running through grit flattens them, seizes the bearings, or cracks the housing. Now the panel is dragging on its housings rather than rolling.</p>
+
+<p><strong>The panel sits wrong.</strong> With worn rollers, the panel drops. Now it does not meet the lock keeper, does not compress the weatherstripping, and lets air in all winter.</p>
+
+<p>Most people call at stage three, having lived through stages one and two for a couple of years.</p>
+
+<h2 id="what-to-try-yourself-first">What to Try Yourself First</h2>
+
+<p><strong>Clean the track properly.</strong> Vacuum it out, scrub it with a stiff brush and soapy water, then dry it. Do not grease it. Grease collects more grit and makes the problem worse six months later. If you lubricate at all, use a dry silicone spray.</p>
+
+<p><strong>Check the adjustment screws.</strong> There is usually a small screw at each end of the bottom edge of the panel, sometimes behind a plug. Turning them raises and lowers that corner. If the panel is dragging, a small lift on both sides sometimes buys another season. Go a quarter turn at a time and test as you go.</p>
+
+<p><strong>Look at the track itself.</strong> If the metal lip the rollers run on is dented or folded over, no amount of new rollers will fix it. The track has to be repaired or capped.</p>
+
+<p>If cleaning and adjustment do not do it, the rollers are worn out and they need replacing.</p>
+
+<h2 id="what-replacement-involves">What Replacement Involves</h2>
+
+<p>The panel has to come out of the opening to reach the rollers, which is what makes this a two person job. A standard sliding patio door panel is heavy, mostly glass, and awkward. Dropping one is both dangerous and expensive.</p>
+
+<p>Once it is out, the old rollers come off, new ones go on, the track is cleaned or capped, the panel goes back in, and it is adjusted until it meets the lock and seals at the top and bottom.</p>
+
+<p>As with most of our work, doing two doors on one visit is far more efficient than two separate visits.</p>
+
+<h2 id="when-the-door-really-does-need-replacing">When the Door Really Does Need Replacing</h2>
+
+<p>The frame is rotted or out of square. The track is integral to the frame and badly damaged along its length. The glass is fogged <strong>and</strong> the hardware is finished <strong>and</strong> the door is old, at which point you are replacing everything piece by piece anyway. Or it is a very old single pane unit.</p>
+
+<h2 id="before-winter">Before Winter</h2>
+
+<p>A patio door is one of the largest openings in the house, and the <a href="/blog/winter-window-checklist-gta">weatherstripping only works when the panel sits where it should</a>.</p>
+
+<p>If the lock has become hard to engage, that is the panel telling you it has dropped. A door that does not lock properly is a door that is not sealed, which makes it a heating question and a security question at the same time. It is a small fix now and a bigger one after another winter of being forced.</p>
+
+<p>Not sure if it is rollers or track? Send a photo of the bottom track and the panel edge on WhatsApp and we will tell you what we are looking at. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
 `,
   },
 ];
