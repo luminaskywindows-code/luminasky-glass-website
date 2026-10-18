@@ -124,18 +124,18 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-3">4. Text Messages (SMS)</h2>
             <p className="mb-3">
-              We only send text messages to people who have opted in through our website or by
-              requesting text communication directly. You may receive appointment confirmations,
-              service updates, or occasional offers and seasonal reminders depending on the
-              consent you provided.
+              If you check a box on our forms, LuminaSky Glass Services may send you text messages
+              about your appointment and service updates, and, if you choose, occasional offers and
+              seasonal reminders. Message frequency varies. Message and data rates may apply. You can
+              reply STOP at any time to stop receiving messages, or HELP for help. You can also
+              contact us at{" "}
+              <a href={PHONE_HREF} className="text-primary hover:underline">{PHONE}</a> or{" "}
+              <a href={EMAIL_HREF} className="text-primary hover:underline">{EMAIL}</a>.
             </p>
             <p className="mb-3">
-              We will never sell or share your phone number with third parties for their
-              marketing purposes.
-            </p>
-            <p>
-              You can stop receiving text messages at any time by replying STOP to any message.
-              Reply HELP for assistance. Message frequency varies. Message and data rates may apply.
+              No mobile information will be shared with third parties or affiliates for marketing or
+              promotional purposes. Text messaging originator opt-in data and consent will not be
+              shared with any third parties.
             </p>
           </section>
 

@@ -381,7 +381,25 @@ export default function TermsOfServicePage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">17. Dispute Resolution</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">17. SMS Terms</h2>
+            <p className="mb-3">
+              LuminaSky Glass Services offers text messages about appointments, service updates,
+              and, for those who opt in, occasional offers and seasonal reminders. Message frequency
+              varies, typically no more than 2 marketing messages per month. Message and data rates
+              may apply. Reply STOP to cancel at any time. After you send STOP, you will receive one
+              final message confirming you are unsubscribed. Reply HELP for help, or contact us
+              at{" "}
+              <a href={PHONE_HREF} className="text-primary hover:underline">{PHONE}</a> or{" "}
+              <a href={EMAIL_HREF} className="text-primary hover:underline">{EMAIL}</a>.
+            </p>
+            <p className="mb-3">
+              Carriers are not liable for delayed or undelivered messages. Consent to receive
+              marketing texts is not a condition of purchase.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">18. Dispute Resolution</h2>
             <p className="mb-4">
               Before pursuing any legal action, we encourage you to contact us directly at{" "}
               <a href={EMAIL_HREF} className="text-primary hover:underline">
@@ -401,7 +419,7 @@ export default function TermsOfServicePage() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-3">
-              18. Governing Law and Jurisdiction
+              19. Governing Law and Jurisdiction
             </h2>
             <p>
               These Terms are governed by the laws of the Province of Ontario and the federal laws of Canada
@@ -411,7 +429,7 @@ export default function TermsOfServicePage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">19. Changes to These Terms</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">20. Changes to These Terms</h2>
             <p>
               We may update these Terms from time to time. The &ldquo;Last Updated&rdquo; date at the top
               will reflect the most recent revision. Significant changes will be posted on this page. By
@@ -421,7 +439,7 @@ export default function TermsOfServicePage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">20. Contact Us</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">21. Contact Us</h2>
             <p className="mb-3">Questions about these Terms? Contact us:</p>
             <p className="font-semibold text-gray-900">LuminaSky Glass Services</p>
             <p>

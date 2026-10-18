@@ -485,7 +485,7 @@ export function ContactForm() {
       </div>
 
       <p className="text-xs text-gray-600 leading-relaxed mt-3">
-        By submitting this form, you consent to LuminaSky Glass Services contacting you by phone, text, or email regarding your service inquiry. You can unsubscribe from marketing communications at any time. See our{" "}
+        By submitting this form, you consent to LuminaSky Glass Services contacting you by phone or email regarding your service inquiry. We will only text you if you check a box above. You can unsubscribe at any time. See our{" "}
         <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a> for details.
       </p>
     </form>

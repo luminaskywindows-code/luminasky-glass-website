@@ -45,6 +45,8 @@ interface FormData {
   email: string;
   message: string;
   bestTime: string;
+  smsAppointments: boolean;
+  smsOffers: boolean;
 }
 
 interface FormErrors {
@@ -62,6 +64,8 @@ const INITIAL: FormData = {
   email: "",
   message: "",
   bestTime: "",
+  smsAppointments: false,
+  smsOffers: false,
 };
 
 export default function PropertyManagersPage() {
@@ -78,8 +82,9 @@ export default function PropertyManagersPage() {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
   ) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    const { name, value, type } = e.target;
+    const checked = (e.target as HTMLInputElement).checked;
+    setFormData((prev) => ({ ...prev, [name]: type === "checkbox" ? checked : value }));
     if (errors[name as keyof FormErrors]) {
       setErrors((prev) => ({ ...prev, [name]: undefined }));
     }
@@ -119,13 +124,18 @@ export default function PropertyManagersPage() {
       ? new Date(sd.first_visit_at).toLocaleDateString("en-CA", { timeZone: "America/Toronto" })
       : "-";
 
+    const smsConsent = [
+      formData.smsAppointments ? "SMS: Appointments & updates" : "",
+      formData.smsOffers ? "SMS: Offers & reminders" : "",
+    ].filter(Boolean).join(", ") || "No SMS consent";
+
     const messageLines = [
       "PROPERTY MANAGER LEAD",
       `Company: ${formData.company}`,
       formData.role ? `Role: ${formData.role}` : "",
       formData.bestTime ? `Best time to call: ${formData.bestTime}` : "",
       formData.message ? `Message: ${formData.message}` : "",
-    ].filter(Boolean).join("\n");
+    ].filter(Boolean).join("\n") + `\n\n--- SMS Consent ---\n${smsConsent}`;
 
     try {
       await emailjs.send(
@@ -384,6 +394,37 @@ export default function PropertyManagersPage() {
                     </div>
                   </div>
 
+                  {/* SMS Consent */}
+                  <div className="space-y-2">
+                    <label className="flex items-start gap-2.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        name="smsAppointments"
+                        checked={formData.smsAppointments}
+                        onChange={handleChange}
+                        className="w-4 h-4 mt-0.5 accent-accent shrink-0"
+                      />
+                      <span className="text-sm text-gray-700">
+                        Text me about my appointment and service updates from LuminaSky Glass Services.
+                      </span>
+                    </label>
+                    <label className="flex items-start gap-2.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        name="smsOffers"
+                        checked={formData.smsOffers}
+                        onChange={handleChange}
+                        className="w-4 h-4 mt-0.5 accent-accent shrink-0"
+                      />
+                      <span className="text-sm text-gray-700">
+                        Text me occasional offers and seasonal reminders.
+                      </span>
+                    </label>
+                    <p className="text-[11px] text-gray-400 leading-relaxed pl-6">
+                      Message frequency varies. Message and data rates may apply. Reply STOP to cancel or HELP for help. Your mobile information will not be sold or shared with third parties.
+                    </p>
+                  </div>
+
                   {/* Message */}
                   <div>
                     <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-1">
@@ -421,6 +462,11 @@ export default function PropertyManagersPage() {
 
                   <p className="text-xs text-gray-400 text-center">
                     No obligation. We never share your information.
+                  </p>
+
+                  <p className="text-xs text-gray-600 leading-relaxed mt-1">
+                    By submitting this form, you consent to LuminaSky Glass Services contacting you by phone or email regarding your service inquiry. We will only text you if you check a box above. You can unsubscribe at any time. See our{" "}
+                    <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a> for details.
                   </p>
                 </form>
               )}

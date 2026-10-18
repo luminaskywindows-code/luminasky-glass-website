@@ -47,6 +47,8 @@ interface FormData {
   phone: string;
   email: string;
   issue: string;
+  smsAppointments: boolean;
+  smsOffers: boolean;
 }
 
 interface FormErrors {
@@ -56,13 +58,13 @@ interface FormErrors {
   issue?: string;
 }
 
-const INITIAL: FormData = { name: "", phone: "", email: "", issue: "" };
+const INITIAL: FormData = { name: "", phone: "", email: "", issue: "", smsAppointments: false, smsOffers: false };
 
 function CASLConsent() {
   return (
     <p className="text-xs text-gray-600 leading-relaxed mt-3">
-      By submitting, you consent to LuminaSky contacting you about your request. You can unsubscribe anytime. See our{" "}
-      <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a>.
+      By submitting this form, you consent to LuminaSky Glass Services contacting you by phone or email regarding your service inquiry. We will only text you if you check a box above. You can unsubscribe at any time. See our{" "}
+      <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a> for details.
     </p>
   );
 }
@@ -167,6 +169,37 @@ function WinterReadyContent({
           {errors.phone && (
             <p className="text-red-600 text-xs mt-1">{errors.phone}</p>
           )}
+        </div>
+
+        {/* SMS Consent */}
+        <div className="space-y-1.5">
+          <label className="flex items-start gap-2 cursor-pointer">
+            <input
+              type="checkbox"
+              name="smsAppointments"
+              checked={formData.smsAppointments}
+              onChange={handleChange}
+              className="w-4 h-4 mt-0.5 accent-accent shrink-0"
+            />
+            <span className="text-xs text-gray-700">
+              Text me about my appointment and service updates from LuminaSky Glass Services.
+            </span>
+          </label>
+          <label className="flex items-start gap-2 cursor-pointer">
+            <input
+              type="checkbox"
+              name="smsOffers"
+              checked={formData.smsOffers}
+              onChange={handleChange}
+              className="w-4 h-4 mt-0.5 accent-accent shrink-0"
+            />
+            <span className="text-xs text-gray-700">
+              Text me occasional offers and seasonal reminders.
+            </span>
+          </label>
+          <p className="text-[10px] text-gray-400 leading-relaxed pl-6">
+            Message frequency varies. Message and data rates may apply. Reply STOP to cancel or HELP for help. Your mobile information will not be sold or shared with third parties.
+          </p>
         </div>
 
         <div>
@@ -288,6 +321,37 @@ function GenericQuoteContent({
           {errors.phone && (
             <p className="text-red-600 text-xs mt-1">{errors.phone}</p>
           )}
+        </div>
+
+        {/* SMS Consent */}
+        <div className="space-y-1.5">
+          <label className="flex items-start gap-2 cursor-pointer">
+            <input
+              type="checkbox"
+              name="smsAppointments"
+              checked={formData.smsAppointments}
+              onChange={handleChange}
+              className="w-4 h-4 mt-0.5 accent-accent shrink-0"
+            />
+            <span className="text-xs text-gray-700">
+              Text me about my appointment and service updates from LuminaSky Glass Services.
+            </span>
+          </label>
+          <label className="flex items-start gap-2 cursor-pointer">
+            <input
+              type="checkbox"
+              name="smsOffers"
+              checked={formData.smsOffers}
+              onChange={handleChange}
+              className="w-4 h-4 mt-0.5 accent-accent shrink-0"
+            />
+            <span className="text-xs text-gray-700">
+              Text me occasional offers and seasonal reminders.
+            </span>
+          </label>
+          <p className="text-[10px] text-gray-400 leading-relaxed pl-6">
+            Message frequency varies. Message and data rates may apply. Reply STOP to cancel or HELP for help. Your mobile information will not be sold or shared with third parties.
+          </p>
         </div>
 
         <div>
@@ -450,8 +514,9 @@ export function HomepagePopup() {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    const { name, value, type } = e.target;
+    const checked = (e.target as HTMLInputElement).checked;
+    setFormData((prev) => ({ ...prev, [name]: type === "checkbox" ? checked : value }));
     if (errors[name as keyof FormErrors])
       setErrors((prev) => ({ ...prev, [name]: undefined }));
   };
@@ -492,6 +557,11 @@ export function HomepagePopup() {
         })
       : "-";
 
+    const smsConsent = [
+      formData.smsAppointments ? "SMS: Appointments & updates" : "",
+      formData.smsOffers ? "SMS: Offers & reminders" : "",
+    ].filter(Boolean).join(", ") || "No SMS consent";
+
     try {
       const emailjs = (await import("@emailjs/browser")).default;
       await emailjs.send(
@@ -504,9 +574,9 @@ export function HomepagePopup() {
           service: formData.issue,
           city: "-",
           contact_method: "phone",
-          message: isWinter
+          message: `${isWinter
             ? "(Submitted via Winter Ready popup)"
-            : "(Submitted via homepage popup)",
+            : "(Submitted via homepage popup)"}\n\n--- SMS Consent ---\n${smsConsent}`,
           heard_about: isWinter ? "Winter Ready popup" : "Homepage popup",
           referred_by: "",
           source: sd.source || "unknown",

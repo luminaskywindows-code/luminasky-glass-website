@@ -30,6 +30,8 @@ interface HeroFormData {
   phone: string;
   service: string;
   message: string;
+  smsAppointments: boolean;
+  smsOffers: boolean;
 }
 
 interface HeroFormErrors {
@@ -43,6 +45,8 @@ const INITIAL: HeroFormData = {
   phone: "",
   service: "",
   message: "",
+  smsAppointments: false,
+  smsOffers: false,
 };
 
 function HeroFormCard() {
@@ -59,8 +63,9 @@ function HeroFormCard() {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
   ) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    const { name, value, type } = e.target;
+    const checked = (e.target as HTMLInputElement).checked;
+    setFormData((prev) => ({ ...prev, [name]: type === "checkbox" ? checked : value }));
     if (errors[name as keyof HeroFormErrors]) {
       setErrors((prev) => ({ ...prev, [name]: undefined }));
     }
@@ -94,6 +99,11 @@ function HeroFormCard() {
       ? new Date(sd.first_visit_at).toLocaleDateString("en-CA", { timeZone: "America/Toronto" })
       : "-";
 
+    const smsConsent = [
+      formData.smsAppointments ? "SMS: Appointments & updates" : "",
+      formData.smsOffers ? "SMS: Offers & reminders" : "",
+    ].filter(Boolean).join(", ") || "No SMS consent";
+
     try {
       const emailjs = (await import("@emailjs/browser")).default;
       await emailjs.send(
@@ -106,7 +116,7 @@ function HeroFormCard() {
           service: formData.service,
           city: "-",
           contact_method: "phone",
-          message: formData.message || "(No description provided)",
+          message: `${formData.message || "(No description provided)"}\n\n--- SMS Consent ---\n${smsConsent}`,
           heard_about: "Hero form",
           referred_by: "",
           source: sd.source || "unknown",
@@ -204,6 +214,37 @@ function HeroFormCard() {
           {errors.phone && <p className="text-red-600 text-xs mt-1">{errors.phone}</p>}
         </div>
 
+        {/* SMS Consent */}
+        <div className="space-y-2">
+          <label className="flex items-start gap-2.5 cursor-pointer">
+            <input
+              type="checkbox"
+              name="smsAppointments"
+              checked={formData.smsAppointments}
+              onChange={handleChange}
+              className="w-4 h-4 mt-0.5 accent-accent shrink-0"
+            />
+            <span className="text-sm text-gray-700">
+              Text me about my appointment and service updates from LuminaSky Glass Services.
+            </span>
+          </label>
+          <label className="flex items-start gap-2.5 cursor-pointer">
+            <input
+              type="checkbox"
+              name="smsOffers"
+              checked={formData.smsOffers}
+              onChange={handleChange}
+              className="w-4 h-4 mt-0.5 accent-accent shrink-0"
+            />
+            <span className="text-sm text-gray-700">
+              Text me occasional offers and seasonal reminders.
+            </span>
+          </label>
+          <p className="text-[11px] text-gray-400 leading-relaxed pl-6">
+            Message frequency varies. Message and data rates may apply. Reply STOP to cancel or HELP for help. Your mobile information will not be sold or shared with third parties.
+          </p>
+        </div>
+
         {/* Service */}
         <div>
           <label htmlFor="hero-service" className="block text-sm font-semibold text-gray-700 mb-1.5">
@@ -260,7 +301,7 @@ function HeroFormCard() {
         </button>
 
         <p className="text-xs text-gray-600 leading-relaxed mt-3">
-          By submitting this form, you consent to LuminaSky Glass Services contacting you by phone, text, or email regarding your service inquiry. You can unsubscribe from marketing communications at any time. See our{" "}
+          By submitting this form, you consent to LuminaSky Glass Services contacting you by phone or email regarding your service inquiry. We will only text you if you check a box above. You can unsubscribe at any time. See our{" "}
           <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a> for details.
         </p>
       </form>
