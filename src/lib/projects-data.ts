@@ -46,7 +46,7 @@ export const PROJECTS: Project[] = [
       "Replaced two damaged acrylic skylight domes at a North York property in a single visit. Both original domes had cracked and were letting in water and losing insulation. We removed both damaged units, prepped the frames and curbs, and installed brand new clear domes with fresh sealing. Natural light fully restored to both rooms below.",
     location: "North York",
     serviceType: "Skylight Replacement",
-    tags: ["Same-Day Service"],
+    tags: [],
   },
   {
     id: "front-door-glass-replacement-video",
