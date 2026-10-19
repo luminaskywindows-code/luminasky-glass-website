@@ -10,11 +10,13 @@ export interface Project {
   /** Single showcase image (e.g. multi-panel strip) */
   showcaseImage?: { src: string; alt: string };
   /** Media type for before/after, defaults to "image" */
-  mediaType?: "image" | "video" | "single-video" | "single-image";
+  mediaType?: "image" | "video" | "single-video" | "single-image" | "youtube-short";
   /** Single video with click-to-play (used with mediaType "single-video") */
   video?: { src: string; poster: string; alt: string };
   /** Single hero image (used with mediaType "single-image") */
   image?: { src: string; alt: string };
+  /** YouTube video ID (used with mediaType "youtube-short") */
+  youtubeId?: string;
   description: string;
   location?: string;
   serviceType: string;
@@ -23,6 +25,30 @@ export interface Project {
 }
 
 export const PROJECTS: Project[] = [
+  {
+    id: "front-door-glass-replacement-video",
+    title: "Front Door Glass Replacement Walkthrough",
+    category: "doors",
+    mediaType: "youtube-short",
+    youtubeId: "zjcjoSpsz3A",
+    description:
+      "Watch a complete front door glass insert replacement from start to finish. Removal of the old glass, prep, install of the new sealed unit, and final cleanup, in one visit.",
+    location: "Toronto",
+    serviceType: "Front Doors",
+    tags: ["Video"],
+  },
+  {
+    id: "full-window-replacement-video",
+    title: "Full Window Replacement Walkthrough",
+    category: "windows",
+    mediaType: "youtube-short",
+    youtubeId: "3d920rntHYw",
+    description:
+      "A full window replacement from removal of the old window to install of the new one. Clean install, no mess, same-day completion.",
+    location: "Toronto",
+    serviceType: "Windows",
+    tags: ["Video"],
+  },
   {
     id: "skylight-replacement-richmond-hill",
     title: "Skylight Dome Replacement",

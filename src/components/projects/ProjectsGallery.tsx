@@ -5,6 +5,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { MapPin, Zap, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { PROJECTS, PROJECT_CATEGORIES, type ProjectCategory, type Project } from "@/lib/projects-data";
+import InlineVideoPlayer from "@/components/video/InlineVideoPlayer";
 
 /* ── IntersectionObserver hook: play videos when card is >=50% visible ── */
 function useVisibilityPlayback(cardRef: React.RefObject<HTMLDivElement | null>, isVideo: boolean) {
@@ -123,12 +124,30 @@ function SingleVideoCard({ project }: { project: Project }) {
   );
 }
 
+function YouTubeShortCard({ project }: { project: Project }) {
+  return (
+    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <div className="flex justify-center bg-black">
+        <div className="w-full max-w-sm">
+          <InlineVideoPlayer
+            videoId={project.youtubeId!}
+            isShort={true}
+            title={project.title}
+          />
+        </div>
+      </div>
+      <ProjectDetails project={project} />
+    </div>
+  );
+}
+
 function ProjectCard({ project }: { project: Project }) {
   const hasPair = project.beforeImage && project.afterImage;
   const isVideo = project.mediaType === "video";
   const cardRef = useRef<HTMLDivElement>(null);
   const { beforeRef, afterRef } = useVisibilityPlayback(cardRef, isVideo);
 
+  if (project.mediaType === "youtube-short") return <YouTubeShortCard project={project} />;
   if (project.mediaType === "single-image") return <SingleImageCard project={project} />;
   if (project.mediaType === "single-video") return <SingleVideoCard project={project} />;
 
