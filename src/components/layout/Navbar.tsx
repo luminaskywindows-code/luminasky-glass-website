@@ -15,8 +15,6 @@ const BASE_NAV_LINKS = [
   { href: "/about", label: "About" },
   { href: "/property-managers", label: "Property Managers" },
   { href: "/projects", label: "Projects" },
-  { href: "/blog", label: "Blog" },
-  { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "Contact" },
 ];
 
