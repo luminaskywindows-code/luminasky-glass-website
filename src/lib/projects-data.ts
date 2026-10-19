@@ -10,13 +10,15 @@ export interface Project {
   /** Single showcase image (e.g. multi-panel strip) */
   showcaseImage?: { src: string; alt: string };
   /** Media type for before/after, defaults to "image" */
-  mediaType?: "image" | "video" | "single-video" | "single-image" | "youtube-short";
+  mediaType?: "image" | "video" | "single-video" | "single-image" | "youtube-short" | "multi-image";
   /** Single video with click-to-play (used with mediaType "single-video") */
   video?: { src: string; poster: string; alt: string };
   /** Single hero image (used with mediaType "single-image") */
   image?: { src: string; alt: string };
   /** YouTube video ID (used with mediaType "youtube-short") */
   youtubeId?: string;
+  /** Multiple images stacked vertically (used with mediaType "multi-image") */
+  images?: { src: string; alt: string }[];
   description: string;
   location?: string;
   serviceType: string;
@@ -25,6 +27,27 @@ export interface Project {
 }
 
 export const PROJECTS: Project[] = [
+  {
+    id: "dual-skylight-replacement-north-york",
+    title: "Dual Skylight Dome Replacement",
+    category: "skylights",
+    mediaType: "multi-image",
+    images: [
+      {
+        src: "/images/services/skylight-north-york-1.jpg",
+        alt: "First skylight dome replacement at a North York property: cracked dome with blue tape, close-up of damage, and brand new clear dome installed",
+      },
+      {
+        src: "/images/services/skylight-north-york-2.jpg",
+        alt: "Second skylight dome replacement at the same North York property: shattered dome removed, interior view of clear sky through new dome, and finished install on the roof",
+      },
+    ],
+    description:
+      "Replaced two damaged acrylic skylight domes at a North York property in a single visit. Both original domes had cracked and were letting in water and losing insulation. We removed both damaged units, prepped the frames and curbs, and installed brand new clear domes with fresh sealing. Natural light fully restored to both rooms below.",
+    location: "North York",
+    serviceType: "Skylight Replacement",
+    tags: ["Same-Day Service"],
+  },
   {
     id: "front-door-glass-replacement-video",
     title: "Front Door Glass Replacement Walkthrough",

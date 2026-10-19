@@ -124,6 +124,28 @@ function SingleVideoCard({ project }: { project: Project }) {
   );
 }
 
+function MultiImageCard({ project }: { project: Project }) {
+  return (
+    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <div className="flex flex-col">
+        {project.images!.map((img, i) => (
+          <div key={i} className="relative bg-gray-200 overflow-hidden">
+            {i > 0 && <div className="h-1 bg-white" />}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={img.src}
+              alt={img.alt}
+              className="w-full h-auto block max-h-[400px] object-contain bg-gray-100"
+              loading="lazy"
+            />
+          </div>
+        ))}
+      </div>
+      <ProjectDetails project={project} />
+    </div>
+  );
+}
+
 function YouTubeShortCard({ project }: { project: Project }) {
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
@@ -147,6 +169,7 @@ function ProjectCard({ project }: { project: Project }) {
   const cardRef = useRef<HTMLDivElement>(null);
   const { beforeRef, afterRef } = useVisibilityPlayback(cardRef, isVideo);
 
+  if (project.mediaType === "multi-image") return <MultiImageCard project={project} />;
   if (project.mediaType === "youtube-short") return <YouTubeShortCard project={project} />;
   if (project.mediaType === "single-image") return <SingleImageCard project={project} />;
   if (project.mediaType === "single-video") return <SingleVideoCard project={project} />;
