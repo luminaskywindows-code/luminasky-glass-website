@@ -243,7 +243,7 @@ export function ProjectsGallery() {
       </div>
 
       {/* Masonry gallery */}
-      <section className="max-w-7xl mx-auto px-4 md:px-8 py-12">
+      <section className="max-w-5xl mx-auto px-4 md:px-8 py-12">
         {filtered.length === 0 ? (
           <p className="text-center text-gray-400 py-24 text-lg">
             No projects in this category yet - check back soon!
