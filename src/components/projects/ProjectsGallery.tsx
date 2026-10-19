@@ -136,7 +136,7 @@ function ProjectCard({ project }: { project: Project }) {
     <div ref={cardRef} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
       {/* Media */}
       {hasPair ? (
-        <div className="grid grid-cols-2">
+        <div className="flex flex-col">
           {/* Before */}
           <div className="relative bg-gray-200 overflow-hidden">
             {isVideo ? (
@@ -148,14 +148,14 @@ function ProjectCard({ project }: { project: Project }) {
                 playsInline
                 controls
                 preload="metadata"
-                className="w-full h-full object-cover"
+                className="w-full h-auto block"
               />
             ) : (
               /* eslint-disable-next-line @next/next/no-img-element */
               <img
                 src={project.beforeImage!.src}
                 alt={project.beforeImage!.alt}
-                className="w-full h-auto"
+                className="w-full h-auto block"
                 loading="lazy"
               />
             )}
@@ -163,6 +163,7 @@ function ProjectCard({ project }: { project: Project }) {
               Before
             </span>
           </div>
+          <div className="h-1 bg-white" />
           {/* After */}
           <div className="relative bg-gray-200 overflow-hidden">
             {isVideo ? (
@@ -174,18 +175,18 @@ function ProjectCard({ project }: { project: Project }) {
                 playsInline
                 controls
                 preload="metadata"
-                className="w-full h-full object-cover"
+                className="w-full h-auto block"
               />
             ) : (
               /* eslint-disable-next-line @next/next/no-img-element */
               <img
                 src={project.afterImage!.src}
                 alt={project.afterImage!.alt}
-                className="w-full h-auto"
+                className="w-full h-auto block"
                 loading="lazy"
               />
             )}
-            <span className="absolute top-3 right-3 bg-green-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow z-10">
+            <span className="absolute top-3 left-3 bg-green-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow z-10">
               After
             </span>
           </div>
@@ -248,7 +249,7 @@ export function ProjectsGallery() {
             No projects in this category yet - check back soon!
           </p>
         ) : (
-          <div className="columns-1 md:columns-2 lg:columns-3 gap-6 [column-fill:balance]">
+          <div className="columns-1 md:columns-2 gap-8">
             {filtered.map((project) => (
               <div key={project.id} className="break-inside-avoid mb-6">
                 <ProjectCard project={project} />
