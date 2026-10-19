@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
-import Image from "next/image";
+
 import { MapPin, Zap, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { PROJECTS, PROJECT_CATEGORIES, type ProjectCategory, type Project } from "@/lib/projects-data";
@@ -34,41 +34,48 @@ function useVisibilityPlayback(cardRef: React.RefObject<HTMLDivElement | null>, 
   return { beforeRef, afterRef };
 }
 
+function ProjectDetails({ project }: { project: Project }) {
+  return (
+    <div className="p-5">
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        <span className="bg-blue-50 text-primary text-xs font-semibold px-3 py-1 rounded-full">
+          {project.serviceType}
+        </span>
+        {project.emergency && (
+          <span className="flex items-center gap-1 bg-red-50 text-red-700 text-xs font-semibold px-3 py-1 rounded-full">
+            <Zap className="w-3 h-3" aria-hidden="true" />
+            Emergency
+          </span>
+        )}
+        {project.tags?.filter(t => t !== "Emergency Service").map(tag => (
+          <span key={tag} className="bg-gray-100 text-gray-600 text-xs font-medium px-3 py-1 rounded-full">
+            {tag}
+          </span>
+        ))}
+      </div>
+      <h2 className="font-bold text-gray-900 text-base mb-2">{project.title}</h2>
+      <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
+      {project.location && (
+        <div className="mt-3 flex items-center gap-1 text-gray-400 text-xs">
+          <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
+          {project.location}, GTA
+        </div>
+      )}
+    </div>
+  );
+}
+
 function SingleImageCard({ project }: { project: Project }) {
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      {/* Image area, height-constrained to match other project cards */}
-      <div className="relative aspect-[4/3] bg-gray-200 overflow-hidden">
-        <Image
-          src={project.image!.src}
-          alt={project.image!.alt}
-          fill
-          className="object-cover"
-          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 40vw"
-        />
-      </div>
-
-      {/* Details */}
-      <div className="p-5">
-        <div className="flex flex-wrap items-center gap-2 mb-3">
-          <span className="bg-blue-50 text-primary text-xs font-semibold px-3 py-1 rounded-full">
-            {project.serviceType}
-          </span>
-          {project.tags?.map(tag => (
-            <span key={tag} className="bg-gray-100 text-gray-600 text-xs font-medium px-3 py-1 rounded-full">
-              {tag}
-            </span>
-          ))}
-        </div>
-        <h2 className="font-bold text-gray-900 text-base mb-2">{project.title}</h2>
-        <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
-        {project.location && (
-          <div className="mt-3 flex items-center gap-1 text-gray-400 text-xs">
-            <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
-            {project.location}, GTA
-          </div>
-        )}
-      </div>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={project.image!.src}
+        alt={project.image!.alt}
+        className="w-full h-auto"
+        loading="lazy"
+      />
+      <ProjectDetails project={project} />
     </div>
   );
 }
@@ -84,9 +91,8 @@ function SingleVideoCard({ project }: { project: Project }) {
 
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      {/* Video area, height-constrained to match other project cards */}
       <div
-        className="relative flex items-center justify-center bg-gray-900 max-h-[500px] sm:max-h-[400px] md:max-h-[360px] overflow-hidden cursor-pointer"
+        className="relative bg-gray-900 overflow-hidden cursor-pointer"
         onClick={!playing ? handlePlay : undefined}
         role={!playing ? "button" : undefined}
         tabIndex={!playing ? 0 : undefined}
@@ -101,7 +107,7 @@ function SingleVideoCard({ project }: { project: Project }) {
           playsInline
           controls={playing}
           preload="none"
-          className="w-auto h-full max-h-[500px] sm:max-h-[400px] md:max-h-[360px] object-contain"
+          className="w-full h-auto max-h-[500px] object-contain mx-auto"
           aria-label={project.video!.alt}
         />
         {!playing && (
@@ -112,28 +118,7 @@ function SingleVideoCard({ project }: { project: Project }) {
           </div>
         )}
       </div>
-
-      {/* Details */}
-      <div className="p-5">
-        <div className="flex flex-wrap items-center gap-2 mb-3">
-          <span className="bg-blue-50 text-primary text-xs font-semibold px-3 py-1 rounded-full">
-            {project.serviceType}
-          </span>
-          {project.tags?.map(tag => (
-            <span key={tag} className="bg-gray-100 text-gray-600 text-xs font-medium px-3 py-1 rounded-full">
-              {tag}
-            </span>
-          ))}
-        </div>
-        <h2 className="font-bold text-gray-900 text-base mb-2">{project.title}</h2>
-        <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
-        {project.location && (
-          <div className="mt-3 flex items-center gap-1 text-gray-400 text-xs">
-            <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
-            {project.location}, GTA
-          </div>
-        )}
-      </div>
+      <ProjectDetails project={project} />
     </div>
   );
 }
@@ -153,7 +138,7 @@ function ProjectCard({ project }: { project: Project }) {
       {hasPair ? (
         <div className="grid grid-cols-2">
           {/* Before */}
-          <div className="relative aspect-[4/3] bg-gray-200 overflow-hidden">
+          <div className="relative bg-gray-200 overflow-hidden">
             {isVideo ? (
               <video
                 ref={beforeRef}
@@ -163,16 +148,15 @@ function ProjectCard({ project }: { project: Project }) {
                 playsInline
                 controls
                 preload="metadata"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="w-full h-full object-cover"
               />
             ) : (
-              <Image
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img
                 src={project.beforeImage!.src}
                 alt={project.beforeImage!.alt}
-                fill
-                unoptimized
-                className="object-cover"
-                sizes="(max-width: 768px) 50vw, (max-width: 1280px) 25vw, 20vw"
+                className="w-full h-auto"
+                loading="lazy"
               />
             )}
             <span className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow z-10">
@@ -180,7 +164,7 @@ function ProjectCard({ project }: { project: Project }) {
             </span>
           </div>
           {/* After */}
-          <div className="relative aspect-[4/3] bg-gray-200 overflow-hidden">
+          <div className="relative bg-gray-200 overflow-hidden">
             {isVideo ? (
               <video
                 ref={afterRef}
@@ -190,16 +174,15 @@ function ProjectCard({ project }: { project: Project }) {
                 playsInline
                 controls
                 preload="metadata"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="w-full h-full object-cover"
               />
             ) : (
-              <Image
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img
                 src={project.afterImage!.src}
                 alt={project.afterImage!.alt}
-                fill
-                unoptimized
-                className="object-cover"
-                sizes="(max-width: 768px) 50vw, (max-width: 1280px) 25vw, 20vw"
+                className="w-full h-auto"
+                loading="lazy"
               />
             )}
             <span className="absolute top-3 right-3 bg-green-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow z-10">
@@ -208,14 +191,13 @@ function ProjectCard({ project }: { project: Project }) {
           </div>
         </div>
       ) : project.showcaseImage ? (
-        <div className="relative aspect-[16/7] bg-gray-200">
-          <Image
+        <div className="relative bg-gray-200">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src={project.showcaseImage.src}
             alt={project.showcaseImage.alt}
-            fill
-            unoptimized
-            className="object-cover object-center"
-            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 40vw"
+            className="w-full h-auto"
+            loading="lazy"
           />
           <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow">
             Before → After
@@ -223,35 +205,7 @@ function ProjectCard({ project }: { project: Project }) {
         </div>
       ) : null}
 
-      {/* Details */}
-      <div className="p-5">
-        <div className="flex flex-wrap items-center gap-2 mb-3">
-          <span className="bg-blue-50 text-primary text-xs font-semibold px-3 py-1 rounded-full">
-            {project.serviceType}
-          </span>
-          {project.emergency && (
-            <span className="flex items-center gap-1 bg-red-50 text-red-700 text-xs font-semibold px-3 py-1 rounded-full">
-              <Zap className="w-3 h-3" aria-hidden="true" />
-              Emergency
-            </span>
-          )}
-          {project.tags?.filter(t => t !== "Emergency Service").map(tag => (
-            <span key={tag} className="bg-gray-100 text-gray-600 text-xs font-medium px-3 py-1 rounded-full">
-              {tag}
-            </span>
-          ))}
-        </div>
-
-        <h2 className="font-bold text-gray-900 text-base mb-2">{project.title}</h2>
-        <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
-
-        {project.location && (
-          <div className="mt-3 flex items-center gap-1 text-gray-400 text-xs">
-            <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
-            {project.location}, GTA
-          </div>
-        )}
-      </div>
+      <ProjectDetails project={project} />
     </div>
   );
 }
@@ -287,16 +241,18 @@ export function ProjectsGallery() {
         </div>
       </div>
 
-      {/* Grid */}
+      {/* Masonry gallery */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         {filtered.length === 0 ? (
           <p className="text-center text-gray-400 py-24 text-lg">
             No projects in this category yet - check back soon!
           </p>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="columns-1 md:columns-2 lg:columns-3 gap-6 [column-fill:balance]">
             {filtered.map((project) => (
-              <ProjectCard key={project.id} project={project} />
+              <div key={project.id} className="break-inside-avoid mb-6">
+                <ProjectCard project={project} />
+              </div>
             ))}
           </div>
         )}
