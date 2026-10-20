@@ -18,6 +18,7 @@ const BASE_QUICK_LINKS = [
   { href: "/services", label: "All Services" },
   { href: "/gallery", label: "Gallery" },
   { href: "/faq", label: "FAQ" },
+  { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];
 
