@@ -122,7 +122,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { icon: Clock, title: "Fast Response", desc: "Same-day or next-day service across " + city.city + ". Emergency calls answered within 2 hours." },
+            { icon: Clock, title: "Fast Response", desc: "Same-day or next-day service across " + city.city + ". Emergency calls answered 24/7." },
             { icon: Wrench, title: "Repair, Not Replace", desc: "We fix the broken part (the glass, the crank, the seal) without tearing out your whole window or door." },
             { icon: Shield, title: "1-Year Warranty", desc: "Every repair backed by our warranty. If it fails, we come back and fix it. No questions asked." },
             { icon: Truck, title: "We Come to You", desc: "Fully mobile service. We bring everything we need to your door. No trips to a shop required." },

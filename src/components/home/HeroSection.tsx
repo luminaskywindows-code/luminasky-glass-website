@@ -388,7 +388,7 @@ export function HeroSection() {
                 LuminaSky restores clarity to foggy windows, replaces cracked
                 glass, and repairs jammed cranks for homes and businesses across
                 the Greater Toronto Area. Our repair-first approach saves you{" "}
-                <span className="text-white font-semibold">60–80%</span> vs.
+                <span className="text-white font-semibold">50–70%</span> vs.
                 full window replacement.
               </motion.p>
 

@@ -55,7 +55,7 @@ export const FOGGY_WINDOWS: ServiceData = {
     "We serve homeowners and property managers across the GTA. Glass is measured first, custom-made, then installed, typically within 5 to 15 business days. Every replacement comes with a warranty.",
   ],
   benefits: [
-    "Save 60–80% versus replacing the entire window and frame",
+    "Save 50–70% versus replacing the entire window and frame",
     "Fast turnaround: measured, made and installed within days",
     "Crystal-clear results - restores full visibility and insulation",
     "No mess - we vacuum and clean up after every job",
@@ -207,11 +207,11 @@ export const FRONT_DOOR_GLASS: ServiceData = {
       alt: "Fully restored commercial front door with new tempered glass installed by LuminaSky Glass Services",
       badge: "After - Fully Restored",
       heading: "New Tempered Glass, Security Restored",
-      caption: "Same location, next day. Emergency board-up within 2 hours, permanent glass replacement installed the following morning. Business back to normal.",
+      caption: "Same location, next day. Fast board-up, day or night. Permanent glass replacement installed the following morning. Business back to normal.",
     },
     emergencyCTA: {
       heading: "Available 24/7, Any Day, Any Time",
-      body: "We respond within 2 hours for emergency board-ups across the GTA. Permanent glass replacement scheduled for next-day installation.",
+      body: "We respond fast, 24/7, for emergency board-ups across the GTA. Permanent glass replacement scheduled for next-day installation.",
     },
   },
   metaTitle: "Front Door Glass Replacement Toronto",

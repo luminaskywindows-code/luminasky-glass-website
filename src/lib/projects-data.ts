@@ -225,7 +225,7 @@ export const PROJECTS: Project[] = [
       alt: "Fully restored commercial door with new tempered glass installed by LuminaSky Glass Services",
     },
     description:
-      "Emergency commercial door glass replacement after break-in. Responded within 2 hours, completed next day.",
+      "Emergency commercial door glass replacement after break-in. Fast board-up, completed next day.",
     location: "Toronto",
     serviceType: "Front Doors",
     emergency: true,

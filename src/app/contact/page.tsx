@@ -42,7 +42,7 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-xl text-blue-100 leading-relaxed">
-            Describe your issue and we&apos;ll get back to you within 2 hours.
+            Describe your issue and we&apos;ll get back to you fast.
             Or call us now for immediate assistance.
           </p>
           <p className="mt-3 text-sm text-blue-300">

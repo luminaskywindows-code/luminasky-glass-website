@@ -38,7 +38,7 @@ export function ServiceAreaMap() {
             </div>
             <h3 className="font-bold text-gray-900">Same-Day Available</h3>
             <p className="text-sm text-gray-500 leading-relaxed">
-              Call before noon for same-day service. Emergency response within 2 hours.
+              Call before noon for same-day service. 24/7 emergency response.
             </p>
           </div>
           <div className="flex flex-col items-center gap-3 p-6 bg-blue-50 rounded-2xl border border-blue-100">

@@ -199,7 +199,7 @@ export function ContactForm() {
         </div>
         <h3 className="text-xl font-bold text-gray-900 mb-2">Message Received!</h3>
         <p className="text-gray-600 mb-6">
-          Thank you for reaching out. We&apos;ll be in touch within 2 hours.
+          Thank you for reaching out. We&apos;ll be in touch shortly.
         </p>
         <button
           onClick={() => setSubmitStatus(null)}

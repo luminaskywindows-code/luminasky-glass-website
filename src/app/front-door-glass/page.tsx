@@ -84,7 +84,7 @@ const BEFORE_AFTER = {
     badge: "After: Fully Restored",
     heading: "New Tempered Glass, Security Restored",
     caption:
-      "Same location, next day. Emergency board-up within 2 hours, permanent glass replacement installed the following morning. Business back to normal.",
+      "Same location, next day. Fast board-up, day or night. Permanent glass replacement installed the following morning. Business back to normal.",
   },
 };
 
@@ -720,7 +720,7 @@ export default function FrontDoorGlassPage() {
                 Available 24/7, Any Day, Any Time
               </h3>
               <p className="text-gray-600 text-sm">
-                We respond within 2 hours for emergency board-ups across the
+                We respond fast, 24/7, for emergency board-ups across the
                 GTA. Permanent glass replacement scheduled for next-day
                 installation.
               </p>

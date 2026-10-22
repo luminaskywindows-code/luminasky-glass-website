@@ -43,7 +43,7 @@ const PHOTOS = [
 ];
 
 const BENEFITS = [
-  "Save 60-80% versus replacing the entire window and frame",
+  "Save 50-70% versus replacing the entire window and frame",
   "Fast turnaround: measured, custom-made and installed, typically within 5 to 15 business days",
   "Crystal-clear results: restores full visibility and insulation",
   "No mess: we vacuum and clean up after every job",
@@ -137,7 +137,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Foggy Window Repair Toronto",
   description:
-    "Foggy windows? We replace the sealed glass unit and keep your frame. Foggy window repair across Toronto and the GTA, 60-80% less than a new window. Free photo quote.",
+    "Foggy windows? We replace the sealed glass unit and keep your frame. Foggy window repair across Toronto and the GTA, 50-70% less than a new window. Free photo quote.",
   alternates: { canonical: "/foggy-windows" },
 };
 
@@ -157,7 +157,7 @@ export default function FoggyWindowsPage() {
             generateServiceSchema(
               "Foggy Window Repair",
               "/foggy-windows",
-              "LuminaSky Glass Services replaces failed sealed glass units across Toronto and the GTA, saving homeowners 60-80% versus full window replacement."
+              "LuminaSky Glass Services replaces failed sealed glass units across Toronto and the GTA, saving homeowners 50-70% versus full window replacement."
             ),
             generateFAQSchema(FAQS),
           ]),
@@ -215,7 +215,7 @@ export default function FoggyWindowsPage() {
               <p className="text-xl text-blue-100 leading-relaxed mb-8 max-w-2xl">
                 Fog or condensation between the panes means the window seal has
                 failed. We replace just the sealed glass unit and keep your
-                frame, for 60-80% less than a new window.
+                frame, for 50-70% less than a new window.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -559,7 +559,7 @@ export default function FoggyWindowsPage() {
           </ul>
           <p className="text-gray-600 leading-relaxed">
             Send us a photo of your window and we&apos;ll give you a free quote,
-            usually the same day. Most homeowners save 60-80% compared to full
+            usually the same day. Most homeowners save 50-70% compared to full
             window replacement.
           </p>
         </div>

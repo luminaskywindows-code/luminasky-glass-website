@@ -37,7 +37,7 @@ const BEFORE_AFTER = {
     badge: "After: Fully Restored",
     heading: "New Tempered Glass, Security Restored",
     caption:
-      "Same location, next day. Emergency board-up within 2 hours, permanent glass replacement installed the following morning. Business back to normal.",
+      "Same location, next day. Fast board-up, day or night. Permanent glass replacement installed the following morning. Business back to normal.",
   },
 };
 
@@ -63,7 +63,7 @@ const PROCESS = [
   },
   {
     step: "Secure",
-    desc: "We board up within 2 hours and clean up the broken glass.",
+    desc: "Fast board-up, day or night. We clean up the broken glass.",
   },
   {
     step: "Measure",
@@ -93,7 +93,7 @@ const AREA_CITIES: { name: string; slug: string | null }[] = [
 const FAQS = [
   {
     q: "Do you offer emergency glass repair at night and on weekends?",
-    a: "Yes. We're available 24/7, including nights, weekends and holidays. We respond within 2 hours to board up and secure your business.",
+    a: "Yes. We're available 24/7, including nights, weekends and holidays. We respond fast, 24/7, to board up and secure your business.",
   },
   {
     q: "How fast can you replace a broken storefront window?",
@@ -201,7 +201,7 @@ export default function CommercialGlassRepairPage() {
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8 max-w-2xl">
                 Broken storefront window or shattered glass door? We board up
-                within 2 hours, any time, and install the permanent glass fast,
+                fast, day or night, and install the permanent glass quickly,
                 so your business gets back to normal.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -251,7 +251,7 @@ export default function CommercialGlassRepairPage() {
             <p className="text-gray-600 leading-relaxed">
               A broken storefront window can&apos;t wait until Monday. It leaves
               your business open to the weather, theft and liability. We&apos;re
-              available 24/7, any day, any time. We respond within 2 hours to
+              available 24/7, any day, any time. We respond fast to
               board up and secure the opening, then schedule the permanent glass
               replacement as fast as possible.
             </p>
