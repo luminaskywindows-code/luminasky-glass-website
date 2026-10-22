@@ -54,6 +54,10 @@ const COMMERCIAL_TYPES = [
     title: "Office and lobby glass",
     text: "Glass doors, sidelites and partitions in office buildings and building lobbies.",
   },
+  {
+    title: "Commercial skylights",
+    text: "Pyramid skylights, flat skylights and glass towers in condos, offices and retail spaces. We replace failed glass units and repair leaks.",
+  },
 ];
 
 const PROCESS = [
@@ -335,7 +339,17 @@ export default function CommercialGlassRepairPage() {
                 <h3 className="font-bold text-gray-900 text-lg mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">{item.text}</p>
+                <p className="text-gray-600 leading-relaxed">
+                  {item.text}
+                  {item.title === "Commercial skylights" && (
+                    <>
+                      {" "}
+                      <Link href="/skylights" className="text-primary font-semibold hover:underline">
+                        Skylight repair &rarr;
+                      </Link>
+                    </>
+                  )}
+                </p>
               </div>
             ))}
             {/* Condo buildings */}

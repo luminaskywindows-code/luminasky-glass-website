@@ -81,6 +81,7 @@ const WHAT_WE_REPLACE = [
   "Patio door glass",
   "Leaded and decorative glass in doors and sidelites (see front door glass)",
   "Frosted, tinted and patterned glass",
+  "Skylight glass (see skylight repair)",
 ];
 
 const COST_FACTORS = [
@@ -360,6 +361,17 @@ export default function FoggyWindowsPage() {
                         className="text-primary hover:underline"
                       >
                         front door glass
+                      </Link>
+                      )
+                    </>
+                  ) : item.includes("skylight repair") ? (
+                    <>
+                      Skylight glass (see{" "}
+                      <Link
+                        href="/skylights"
+                        className="text-primary hover:underline"
+                      >
+                        skylight repair
                       </Link>
                       )
                     </>
