@@ -137,7 +137,6 @@ export const SERVICES = [
     description:
       "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Written price before work.",
     href: "/glass-replacement",
-    imageSrc: "/images/services/foggy-window-real.jpg",
   },
   {
     slug: "emergency-glass-repair",
@@ -147,7 +146,6 @@ export const SERVICES = [
     description:
       "24/7 emergency glass repair and board-up for homes and businesses. No after-hours surcharge. Call 437-344-8490.",
     href: "/emergency-glass-repair",
-    imageSrc: "/images/services/door-after-repaired.jpg",
   },
   {
     slug: "patio-door-repair",
@@ -157,7 +155,6 @@ export const SERVICES = [
     description:
       "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass.",
     href: "/patio-door-repair",
-    imageSrc: "/images/services/foggy-window-real.jpg",
   },
 ];
 
