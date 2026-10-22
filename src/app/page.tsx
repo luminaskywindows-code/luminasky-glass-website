@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     absolute: "Glass & Window Repair Toronto - Fix Don't Replace | LuminaSky Glass Services",
   },
   description:
-    "LuminaSky Glass Services repairs foggy glass, door glass, window cranks, skylights & more across the GTA. Fast, affordable, licensed & insured. Call 437-344-8490.",
+    "Toronto's glass and window repair specialist. We fix foggy glass, cracked panes, broken cranks and more. Fix don't replace. Free photo quote. 437-344-8490",
   alternates: { canonical: "/" },
 };
 

@@ -60,12 +60,12 @@ const FAQS = [
 ];
 
 export const metadata: Metadata = {
-  title: "Patio & Sliding Door Repair Toronto | Rollers, Glass",
+  title: { absolute: "Patio Door Repair Toronto | LuminaSky Glass Services" },
   description:
     "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass, with no new door needed. Free photo quote.",
   alternates: { canonical: "/patio-door-repair" },
   openGraph: {
-    title: "Patio & Sliding Door Repair Toronto | Rollers, Glass",
+    title: "Patio Door Repair Toronto | LuminaSky Glass Services",
     description:
       "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass, with no new door needed. Free photo quote.",
     url: "/patio-door-repair",

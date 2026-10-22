@@ -210,7 +210,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How quickly can you come to Thornhill?",
-        a: "We're in the Thornhill area almost every day. Most appointments are same-day or next-day, and emergencies get a 2-hour response.",
+        a: "We're in the Thornhill area almost every day. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "My home is older. Can you still get parts for the windows?",
@@ -550,7 +550,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How quickly can you get to Scarborough?",
-        a: "We serve Scarborough regularly. Same-day and next-day appointments are typical. Emergency calls get a 2-hour response.",
+        a: "We serve Scarborough regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "My house is from the 1970s. Can you still get replacement parts?",
@@ -633,7 +633,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How fast can you get to Aurora?",
-        a: "We service Aurora and the surrounding York Region regularly. Same-day and next-day appointments are common, and emergency calls get a 2-hour response.",
+        a: "We service Aurora and the surrounding York Region regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "My windows are builder-grade from the early 2000s. Can you fix them?",
@@ -716,7 +716,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How fast can you get to Woodbridge?",
-        a: "We're in the Woodbridge and Vaughan area daily. Same-day service is often available, and emergency calls get a 2-hour response.",
+        a: "We're in the Woodbridge and Vaughan area daily. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "My home has custom oversized windows. Can you still repair them?",
@@ -890,7 +890,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "How soon can you get to King City?",
-        a: "We service the King City area regularly. Same-day and next-day appointments are available, and emergency calls get a 2-hour response.",
+        a: "We service the King City area regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "Is it worth repairing windows on a rural property or should I replace them?",
@@ -965,7 +965,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How quickly can you get to Newmarket?",
-        a: "We service Newmarket and northern York Region regularly. Same-day and next-day appointments are typical, and emergency calls get a 2-hour response.",
+        a: "We service Newmarket and northern York Region regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "Do you cover all of Newmarket?",
@@ -1229,7 +1229,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How fast can you get to Etobicoke?",
-        a: "We're in the Etobicoke area regularly. Most appointments are same-day or next-day, and emergency calls get a 2-hour response.",
+        a: "We're in the Etobicoke area regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "My home has original 1960s windows. Can you still repair them?",
@@ -1405,7 +1405,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How soon can you get to Oakville?",
-        a: "We service Oakville regularly. Most appointments are same-day or next-day, and emergency calls get a 2-hour response.",
+        a: "We service Oakville regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "Do you cover all of Oakville?",
@@ -1492,7 +1492,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How fast can you get to Burlington?",
-        a: "We service Burlington and Halton Region regularly. Same-day and next-day appointments are common, and emergency calls get a 2-hour response.",
+        a: "We service Burlington and Halton Region regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "Do you cover all of Burlington?",
@@ -1579,7 +1579,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How quickly can you get to Milton?",
-        a: "We service Milton and Halton Region regularly. Same-day and next-day appointments are typical, and emergency calls get a 2-hour response.",
+        a: "We service Milton and Halton Region regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "My home is from a newer Milton subdivision. Can builder-grade windows be repaired?",
@@ -1666,7 +1666,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How fast can you get to Ajax?",
-        a: "We service Ajax and Durham Region regularly. Same-day and next-day appointments are typical, and emergency calls get a 2-hour response.",
+        a: "We service Ajax and Durham Region regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "Do you serve all of Ajax?",
@@ -1753,7 +1753,7 @@ export const CITY_PAGES: CityPageData[] = [
     faqs: [
       {
         q: "How soon can you get to Pickering?",
-        a: "We service Pickering and Durham Region regularly. Same-day and next-day appointments are available, and emergency calls get a 2-hour response.",
+        a: "We service Pickering and Durham Region regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "Do you handle waterfront properties in Bay Ridges?",
@@ -1848,7 +1848,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "How soon can you get to Caledon?",
-        a: "We service Caledon regularly. Same-day and next-day appointments are available, and emergency calls get a 2-hour response.",
+        a: "We service Caledon regularly. We're available 24/7 for emergency calls, including nights, weekends and holidays. We dispatch crews as soon as we hang up and give you a realistic ETA based on your location. For non-emergency repairs, same-day service is often available.",
       },
       {
         q: "What areas near Caledon do you also cover?",

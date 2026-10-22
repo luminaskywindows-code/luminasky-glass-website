@@ -63,25 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     })),
     {
-      url: `${SITE_URL}/glass-replacement`,
-      lastModified: new Date("2026-10-22"),
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/emergency-glass-repair`,
-      lastModified: new Date("2026-10-22"),
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-    },
-    {
       url: `${SITE_URL}/window-repair-cost`,
-      lastModified: new Date("2026-10-22"),
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/patio-door-repair`,
       lastModified: new Date("2026-10-22"),
       changeFrequency: "monthly" as const,
       priority: 0.8,
