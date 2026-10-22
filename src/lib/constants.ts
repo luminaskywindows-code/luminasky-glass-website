@@ -129,6 +129,36 @@ export const SERVICES = [
     href: "/commercial-glass-repair",
     imageSrc: "/images/services/door-after-repaired.jpg",
   },
+  {
+    slug: "glass-replacement",
+    title: "Glass Replacement",
+    shortTitle: "Glass Replacement",
+    icon: "layers",
+    description:
+      "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Written price before work.",
+    href: "/glass-replacement",
+    imageSrc: "/images/services/foggy-window-real.jpg",
+  },
+  {
+    slug: "emergency-glass-repair",
+    title: "Emergency Glass Repair",
+    shortTitle: "Emergency Glass",
+    icon: "siren",
+    description:
+      "24/7 emergency glass repair and board-up for homes and businesses. No after-hours surcharge. Call 437-344-8490.",
+    href: "/emergency-glass-repair",
+    imageSrc: "/images/services/door-after-repaired.jpg",
+  },
+  {
+    slug: "patio-door-repair",
+    title: "Patio Door Repair",
+    shortTitle: "Patio Doors",
+    icon: "door-open",
+    description:
+      "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass.",
+    href: "/patio-door-repair",
+    imageSrc: "/images/services/foggy-window-real.jpg",
+  },
 ];
 
 export const TESTIMONIALS = [

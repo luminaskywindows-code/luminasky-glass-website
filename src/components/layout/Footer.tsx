@@ -20,6 +20,7 @@ const BASE_QUICK_LINKS = [
   { href: "/faq", label: "FAQ" },
   { href: "/blog", label: "Blog" },
   { href: "/warranty", label: "Warranty" },
+  { href: "/insurance-claims", label: "Insurance Claims" },
   { href: "/contact", label: "Contact" },
 ];
 
