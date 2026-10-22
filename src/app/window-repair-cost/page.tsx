@@ -91,7 +91,7 @@ export default function WindowRepairCostPage() {
               dateModified: "2026-10-22",
               author: {
                 "@type": "Person",
-                name: "Dvir",
+                name: "Dan",
               },
               publisher: { "@id": `${SITE_URL}/#business` },
               mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/window-repair-cost` },

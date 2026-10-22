@@ -24,7 +24,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "A cracked seal, a stuck crank, condensation between the panes. Your first instinct might be to replace the whole window. But in many cases, a targeted repair costs a fraction of the price and solves the problem completely.",
     publishedAt: "2026-10-01",
-    author: "LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 12,
     tags: ["window repair", "window replacement", "toronto", "homeowner guide"],
     sections: [
@@ -230,7 +230,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Ontario winters are hard on windows. A 20-minute walk around your home now can prevent drafts, water damage, and emergency calls in January. Here are 10 things every GTA homeowner should check before the temperature drops.",
     publishedAt: "2026-10-07",
-    author: "LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 7,
     tags: ["winter", "window maintenance", "foggy glass", "window cranks", "drafts"],
     sections: [
@@ -344,7 +344,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Water on your windows when the temperature drops does not always mean something is wrong. But sometimes it does. The difference depends on where the moisture is: inside the room, outside on the glass, or trapped between the panes.",
     publishedAt: "2026-10-07",
-    author: "Dan, LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 5,
     tags: ["winter", "condensation", "foggy glass", "sealed unit", "IGU"],
     sections: [
@@ -481,7 +481,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Yes. Foggy sealed units, cracked panes, and broken glass can all be replaced during winter. The process is designed so your home stays warm throughout. Here is how it works.",
     publishedAt: "2026-10-07",
-    author: "Dan, LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 6,
     tags: ["winter", "glass replacement", "foggy glass", "broken glass", "sealed unit"],
     sections: [
@@ -625,7 +625,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Water around your skylight in winter can mean condensation, a failed seal, a flashing leak, or ice dam backup. Each has a different cause and a different fix. This guide helps you figure out which one you are dealing with.",
     publishedAt: "2026-10-07",
-    author: "Dan, LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 6,
     tags: ["winter", "skylights", "skylight leak", "ice dams", "condensation"],
     sections: [
@@ -791,7 +791,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "You turn the handle and nothing happens. Or it spins freely without moving the window. Crank failure is the single most common window repair we are called out for across the GTA, and almost every homeowner asks the same thing: does this mean I need a new window? Almost never.",
     publishedAt: "2026-10-18",
-    author: "Dan, LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 4,
     tags: ["window crank", "casement window", "hardware", "repair"],
     sections: [
@@ -863,7 +863,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "The glass in your condo has gone cloudy, or the crank has stopped working, and you are not sure whether to call a repair company or call the property manager. Here is how to find your answer quickly.",
     publishedAt: "2026-10-18",
-    author: "Dan, LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 4,
     tags: ["condo", "property management", "ontario", "responsibility"],
     sections: [
@@ -934,7 +934,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "You have cleaned it twice. You have cleaned it from the outside. The haze is still there. It is not dirt, and you are not going to reach it. Here is what is actually happening inside that window.",
     publishedAt: "2026-10-18",
-    author: "Dan, LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 4,
     tags: ["foggy glass", "sealed unit", "IGU", "repair"],
     sections: [
@@ -1021,7 +1021,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "A break-in, a vehicle in the entrance, or a pane that finally let go. If you are a business owner reading this at eleven at night, here is the order of operations.",
     publishedAt: "2026-10-18",
-    author: "Dan, LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 4,
     tags: ["storefront", "commercial", "emergency", "board-up", "break-in"],
     sections: [
@@ -1095,7 +1095,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "When you get a quote for new glass, you are handed a list of options with names that sound technical and no explanation of what any of them do. Here is what each one does in an Ontario winter, and which ones are worth paying for.",
     publishedAt: "2026-10-18",
-    author: "Dan, LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 4,
     tags: ["glass", "double pane", "triple pane", "Low-E", "argon", "spec"],
     sections: [
@@ -1169,7 +1169,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "You put your shoulder into it and it moves in jerks. Or it comes off its line halfway and jams. Sliding patio doors are among the heaviest moving parts in a house, and when they go wrong the instinct is to assume the whole door is finished. It usually is not.",
     publishedAt: "2026-10-18",
-    author: "Dan, LuminaSky Glass Services",
+    author: "Dan",
     readingTime: 4,
     tags: ["patio door", "sliding door", "rollers", "track", "repair"],
     sections: [

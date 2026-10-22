@@ -131,11 +131,17 @@ export function generateArticleSchema(article: {
     datePublished: article.publishedAt,
     ...(article.updatedAt && { dateModified: article.updatedAt }),
     author: {
-      "@type": "Organization",
+      "@type": "Person",
       name: article.author,
-      url: SITE_URL,
     },
-    publisher: { "@id": BUSINESS_ID },
+    publisher: {
+      "@type": "Organization",
+      name: "LuminaSky Glass Services",
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/logo.png`,
+      },
+    },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}${article.url}` },
   };
 }

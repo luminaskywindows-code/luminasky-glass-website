@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: {
     default:
       "Glass & Window Repair Toronto - Fix Don't Replace | LuminaSky Glass Services",
-    template: "%s | LuminaSky Glass Services",
+    template: "%s | LuminaSky",
   },
   description:
     "Professional glass and door repair services in the GTA. Foggy glass, door glass, window cranks, skylights & more. Fast, licensed & insured. Call 437-344-8490.",
@@ -54,6 +54,17 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(generateOrganizationSchema()),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "LuminaSky Glass Services",
+              url: "https://www.luminasky.com",
+            }),
           }}
         />
       </head>
