@@ -51,7 +51,7 @@ const CREDENTIALS = [
   },
   {
     icon: Star,
-    title: "5.0★ Rating on Google & HomeStars",
+    title: "Top-Rated on Google & HomeStars",
     color: "text-yellow-600",
     bg: "bg-yellow-50",
   },
@@ -143,10 +143,10 @@ export default function AboutPage() {
                   would solve their problem.
                 </p>
                 <p>
-                  Over the years, we&apos;ve restored clarity to thousands of
-                  windows across the GTA, repaired countless broken cranks and
-                  hinges, and replaced door glass inserts - always with the same
-                  philosophy: repair first, replace only when necessary.
+                  Serving GTA homeowners since 2024, we restore clarity to foggy
+                  windows, repair broken cranks and hinges, and replace door
+                  glass inserts - always with the same philosophy: repair first,
+                  replace only when necessary.
                 </p>
                 <p>
                   Today, our team of licensed glaziers serves homes and
@@ -160,8 +160,7 @@ export default function AboutPage() {
             {/* Stats panel */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { stat: "5,000+", label: "Windows Repaired", color: "bg-primary" },
-                { stat: "5.0★", label: "Average Rating", color: "bg-accent" },
+                { stat: "Top-Rated", label: "Google & HomeStars", color: "bg-accent" },
                 { stat: "Since 2024", label: "Serving the GTA", color: "bg-primary" },
                 { stat: "90%+", label: "First-Visit Fix Rate", color: "bg-accent" },
               ].map((item) => (
