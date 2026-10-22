@@ -20,7 +20,7 @@ const SERVICE_OPTIONS = [
 
 const STATS = [
   { value: "5.0★", label: "Google & HomeStars" },
-  { value: "2 hrs", label: "Emergency Response" },
+  { value: "24/7", label: "Emergency Response" },
   { value: "Since 2024", label: "Serving the GTA" },
 ];
 
