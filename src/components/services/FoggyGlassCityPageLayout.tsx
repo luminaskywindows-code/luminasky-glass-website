@@ -117,6 +117,18 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
         </div>
       </section>
 
+      {/* City-Specific Content */}
+      {city.uniqueContent && (
+        <section className="bg-gray-50 py-12 md:py-16">
+          <div className="max-w-3xl mx-auto px-4 md:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+              Foggy Glass in {city.city}: What Local Homeowners Should Know
+            </h2>
+            <p className="text-gray-600 text-lg leading-relaxed">{city.uniqueContent}</p>
+          </div>
+        </section>
+      )}
+
       {/* Section 1: How Sealed Glass Unit Failure Works */}
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
