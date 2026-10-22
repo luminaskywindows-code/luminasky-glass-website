@@ -19,7 +19,6 @@ const SERVICE_OPTIONS = [
 ];
 
 const STATS = [
-  { value: "5,000+", label: "Windows Restored" },
   { value: "5.0★", label: "Google & HomeStars" },
   { value: "2 hrs", label: "Emergency Response" },
   { value: "Since 2024", label: "Serving the GTA" },
@@ -460,7 +459,7 @@ export function HeroSection() {
         aria-label="Company statistics"
       >
         <div className="max-w-5xl mx-auto px-4 md:px-8 py-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-0 lg:divide-x lg:divide-gray-200">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-0 lg:divide-x lg:divide-gray-200">
             {STATS.map(({ value, label }) => (
               <div
                 key={label}
