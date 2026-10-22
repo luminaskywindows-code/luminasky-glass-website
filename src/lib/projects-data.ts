@@ -28,6 +28,23 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    id: "skylight-replacement-brampton",
+    title: "Skylight Dome Replacement",
+    category: "skylights",
+    mediaType: "multi-image",
+    images: [
+      {
+        src: "/images/services/skylight-brampton.jpg",
+        alt: "Skylight dome replacement at a Brampton home: deteriorated old dome removed and new clear acrylic dome installed with fresh sealing",
+      },
+    ],
+    description:
+      "Replaced an aged acrylic skylight dome at a Brampton home. The old skylight had deteriorated over years of sun and weather exposure. We removed the damaged unit, prepped the frame and curb, and installed a new clear dome with fresh sealing. Natural light fully restored.",
+    location: "Brampton",
+    serviceType: "Skylight Replacement",
+    tags: [],
+  },
+  {
     id: "dual-skylight-replacement-north-york",
     title: "Dual Skylight Dome Replacement",
     category: "skylights",
