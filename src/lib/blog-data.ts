@@ -338,7 +338,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "window-condensation-in-winter",
     title: "Window Condensation in Winter: Normal, or a Failed Seal?",
-    metaTitle: "Window Condensation in Winter: Normal or Failed Seal?",
+    metaTitle: "Window Condensation in Winter: Causes + Fixes",
     metaDescription:
       "Water on your windows in winter? Learn what condensation inside, outside and between the panes means, and when a foggy window needs a new sealed glass unit.",
     excerpt:
@@ -619,7 +619,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "skylights-in-winter-leaks-ice-dams-condensation",
     title: "Skylights in Winter: Leaks, Ice Dams and Condensation Explained",
-    metaTitle: "Skylights in Winter: Leaks, Ice Dams and Condensation",
+    metaTitle: "Skylights in Winter: Leaks and Condensation",
     metaDescription:
       "Water dripping from your skylight in winter? Learn how to tell condensation from a real leak, how ice dams affect skylights, and when to repair or replace.",
     excerpt:
@@ -1089,7 +1089,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "double-vs-triple-pane-low-e-argon",
     title: "Double, Triple, Low-E and Argon: What You Are Actually Paying For",
-    metaTitle: "Double vs Triple Pane, Low-E and Argon Explained",
+    metaTitle: "Double vs Triple Pane Glass Explained",
     metaDescription:
       "Comparing window glass quotes? Here's what double-pane, triple-pane, Low-E coatings and argon fill each actually do in an Ontario winter, and which upgrades are worth it.",
     excerpt:
@@ -1163,7 +1163,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "sliding-patio-door-wont-slide",
     title: "Patio Door That Will Not Slide: Rollers, Tracks, and What Is Really Wrong",
-    metaTitle: "Patio Door Won't Slide: Rollers, Tracks, Repair",
+    metaTitle: "Patio Door Won't Slide: How to Fix It",
     metaDescription:
       "Patio door jamming or dragging? Here's the three-stage failure (dirty track, worn rollers, dropped panel), what you can fix yourself, and when replacement actually matters.",
     excerpt:

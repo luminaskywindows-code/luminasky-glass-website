@@ -62,15 +62,17 @@ export default function ServicesShowcasePage() {
                 className="group flex flex-col rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg hover:border-accent transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 {/* Image */}
-                <div className="relative aspect-[4/3] bg-gray-100 overflow-hidden">
-                  <Image
-                    src={service.imageSrc ?? "/images/services/placeholder.jpg"}
-                    alt={service.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  />
-                </div>
+                {service.imageSrc && (
+                  <div className="relative aspect-[4/3] bg-gray-100 overflow-hidden">
+                    <Image
+                      src={service.imageSrc}
+                      alt={service.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    />
+                  </div>
+                )}
 
                 {/* Content */}
                 <div className="flex flex-col flex-1 p-5">
