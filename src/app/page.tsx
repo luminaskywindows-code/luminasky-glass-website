@@ -14,7 +14,7 @@ import { Star } from "lucide-react";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Glass & Door Repair in the GTA | LuminaSky Glass Services",
+    absolute: "Window & Glass Repair Toronto & GTA | LuminaSky Glass Services",
   },
   description:
     "LuminaSky Glass Services repairs foggy glass, door glass, window cranks, skylights & more across the GTA. Fast, affordable, licensed & insured. Call 437-344-8490.",

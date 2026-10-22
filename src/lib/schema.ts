@@ -28,7 +28,6 @@ export function generateOrganizationSchema() {
     })),
     address: {
       "@type": "PostalAddress",
-      streetAddress: "120 Promenade Circle",
       addressLocality: "Thornhill",
       addressRegion: "ON",
       postalCode: "L4J 7W9",

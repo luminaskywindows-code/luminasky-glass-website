@@ -30,7 +30,7 @@ export function Footer() {
   return (
     <footer className="bg-primary text-white" aria-label="Site footer">
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Col 1: Brand */}
           <div>
             <Link href="/" className="inline-block mb-4">
@@ -100,7 +100,47 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Col 4: Contact */}
+          {/* Col 4: Service Areas */}
+          <div>
+            <h3 className="font-semibold text-sm uppercase tracking-widest text-blue-200 mb-4">
+              Service Areas
+            </h3>
+            <ul className="flex flex-col gap-2">
+              {[
+                { href: "/window-repair-toronto", label: "Toronto" },
+                { href: "/window-repair-vaughan", label: "Vaughan" },
+                { href: "/window-repair-mississauga", label: "Mississauga" },
+                { href: "/window-repair-markham", label: "Markham" },
+                { href: "/window-repair-richmond-hill", label: "Richmond Hill" },
+                { href: "/window-repair-brampton", label: "Brampton" },
+                { href: "/window-repair-oakville", label: "Oakville" },
+                { href: "/window-repair-burlington", label: "Burlington" },
+                { href: "/window-repair-north-york", label: "North York" },
+                { href: "/window-repair-scarborough", label: "Scarborough" },
+                { href: "/window-repair-thornhill", label: "Thornhill" },
+                { href: "/window-repair-woodbridge", label: "Woodbridge" },
+              ].map((city) => (
+                <li key={city.href}>
+                  <Link
+                    href={city.href}
+                    className="text-blue-100 hover:text-white text-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-white rounded"
+                  >
+                    {city.label}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link
+                  href="/areas-we-serve"
+                  className="text-accent-light hover:text-white text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-white rounded"
+                >
+                  View All &rarr;
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Col 5: Contact */}
           <div>
             <h3 className="font-semibold text-sm uppercase tracking-widest text-blue-200 mb-4">
               Contact Us
