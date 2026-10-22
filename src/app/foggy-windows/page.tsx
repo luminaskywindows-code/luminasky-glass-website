@@ -29,16 +29,16 @@ const HERO_IMAGE = {
 
 const PHOTOS = [
   {
-    src: "/images/services/foggy-leaded-glass.jpg",
-    alt: "Double front doors with leaded art deco glass showing haziness and fogging between the panes, seal failure",
+    src: "/images/services/foggy-glass-before.jpg",
+    alt: "Foggy double-pane window with hazy sealed unit blocking the street view, before repair",
     caption:
-      "Foggy/hazy leaded glass doors: the seal has broken and moisture is trapped inside the unit",
+      "Before: Foggy window with trapped condensation blocking the view",
   },
   {
-    src: "/images/services/foggy-window-condensation.jpg",
-    alt: "Interior view of double-pane windows with heavy condensation and water droplets trapped between panes",
+    src: "/images/services/foggy-glass-after.jpg",
+    alt: "Crystal-clear window after sealed glass unit replacement, sharp view of houses and street",
     caption:
-      "Heavy condensation between panes: a clear sign the IGU seal has failed",
+      "After: Sealed glass unit replaced, crystal-clear view restored without changing the frame",
   },
 ];
 
