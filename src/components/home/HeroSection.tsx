@@ -377,7 +377,7 @@ export function HeroSection() {
                 variants={item}
                 className="text-accent-light text-xl md:text-2xl font-semibold"
               >
-                Done Right the First Time
+                Fix Don&apos;t Replace
               </motion.p>
 
               {/* Body paragraph */}
@@ -385,11 +385,12 @@ export function HeroSection() {
                 variants={item}
                 className="text-blue-100 text-base md:text-lg leading-relaxed max-w-xl lg:max-w-none"
               >
-                LuminaSky restores clarity to foggy windows, replaces cracked
-                glass, and repairs jammed cranks for homes and businesses across
-                the Greater Toronto Area. Our repair-first approach saves you{" "}
+                LuminaSky is Toronto&apos;s glass repair and window repair
+                specialist. We restore clarity to foggy windows, replace cracked
+                glass, and repair jammed cranks for homes and businesses across
+                the Greater Toronto Area. Save{" "}
                 <span className="text-white font-semibold">50–70%</span> vs.
-                full window replacement.
+                a full window replacement.
               </motion.p>
 
               {/* Primary CTA */}
