@@ -369,7 +369,7 @@ export function HeroSection() {
                 variants={item}
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold text-white leading-[1.1] tracking-tight"
               >
-                Glass Repair &amp; Window Service Across the GTA
+                Glass &amp; Window Repair In Toronto
               </motion.h1>
 
               {/* Accent sub-headline */}
