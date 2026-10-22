@@ -1,6 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
+const escapeHtml = (s: string): string =>
+  s.replace(/&/g, '&amp;')
+   .replace(/</g, '&lt;')
+   .replace(/>/g, '&gt;')
+   .replace(/"/g, '&quot;')
+   .replace(/'/g, '&#39;');
+
+const stripUnsafe = (s: string): string => s.replace(/[<>"']/g, '');
+
 const schema = z.object({
   fullName: z.string().min(2),
   phone: z.string().regex(/^[\d\s\-\+\(\)]{10,15}$/),
@@ -33,7 +42,7 @@ export async function POST(req: NextRequest) {
         from: "LuminaSky Website <onboarding@resend.dev>",
         to: process.env.CONTACT_EMAIL || "service@luminasky.com",
         replyTo: data.email,
-        subject: `New Quote Request [${sourceLabel}]: ${data.service}, ${data.city} (${data.fullName})`,
+        subject: `New Quote Request [${stripUnsafe(sourceLabel)}]: ${stripUnsafe(data.service)}, ${stripUnsafe(data.city)} (${stripUnsafe(data.fullName)})`,
         html: `
           <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto">
             <div style="background:#1e3a8a;padding:20px 24px;border-radius:8px 8px 0 0">
@@ -41,25 +50,25 @@ export async function POST(req: NextRequest) {
             </div>
             <div style="background:#f0f9ff;padding:24px;border:1px solid #bae6fd;border-top:none;border-radius:0 0 8px 8px">
               <table style="border-collapse:collapse;width:100%">
-                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600;width:40%">Name</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${data.fullName}</td></tr>
-                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Phone</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${data.phone}</td></tr>
-                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Email</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${data.email}</td></tr>
-                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Service</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${data.service}</td></tr>
-                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">City</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${data.city}</td></tr>
-                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Contact Via</td><td style="padding:8px 12px;border:1px solid #e5e7eb;text-transform:capitalize">${data.contactMethod}</td></tr>
-                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Message</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${data.message}</td></tr>
-                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Heard about us</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${data.heardAbout || "-"}</td></tr>
-                ${data.referredBy ? `<tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Referred by</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${data.referredBy}</td></tr>` : ""}
+                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600;width:40%">Name</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${escapeHtml(data.fullName)}</td></tr>
+                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Phone</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${escapeHtml(data.phone)}</td></tr>
+                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Email</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${escapeHtml(data.email)}</td></tr>
+                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Service</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${escapeHtml(data.service)}</td></tr>
+                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">City</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${escapeHtml(data.city)}</td></tr>
+                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Contact Via</td><td style="padding:8px 12px;border:1px solid #e5e7eb;text-transform:capitalize">${escapeHtml(data.contactMethod)}</td></tr>
+                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Message</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${escapeHtml(data.message)}</td></tr>
+                <tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Heard about us</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${escapeHtml(data.heardAbout || "-")}</td></tr>
+                ${data.referredBy ? `<tr><td style="padding:8px 12px;background:#f9fafb;border:1px solid #e5e7eb;font-weight:600">Referred by</td><td style="padding:8px 12px;border:1px solid #e5e7eb">${escapeHtml(data.referredBy)}</td></tr>` : ""}
               </table>
 
               <div style="margin-top:20px;padding:16px;background:#f3f4f6;border-radius:6px;border:1px solid #e5e7eb">
                 <p style="margin:0 0 8px;font-weight:600;font-size:13px;color:#374151">Source (automatic)</p>
                 <table style="border-collapse:collapse;width:100%;font-size:13px;color:#6b7280">
-                  <tr><td style="padding:3px 0;width:40%">Source</td><td>${sourceLabel}</td></tr>
-                  <tr><td style="padding:3px 0">Campaign</td><td>${data.utm_campaign}</td></tr>
-                  <tr><td style="padding:3px 0">Landing page</td><td>${data.landing_page}</td></tr>
-                  <tr><td style="padding:3px 0">Referrer</td><td>${data.referrer}</td></tr>
-                  <tr><td style="padding:3px 0">First visit</td><td>${data.first_visit}</td></tr>
+                  <tr><td style="padding:3px 0;width:40%">Source</td><td>${escapeHtml(sourceLabel)}</td></tr>
+                  <tr><td style="padding:3px 0">Campaign</td><td>${escapeHtml(data.utm_campaign)}</td></tr>
+                  <tr><td style="padding:3px 0">Landing page</td><td>${escapeHtml(data.landing_page)}</td></tr>
+                  <tr><td style="padding:3px 0">Referrer</td><td>${escapeHtml(data.referrer)}</td></tr>
+                  <tr><td style="padding:3px 0">First visit</td><td>${escapeHtml(data.first_visit)}</td></tr>
                 </table>
               </div>
 
