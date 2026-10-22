@@ -27,15 +27,15 @@ const HERO_IMAGE = {
   alt: "Real foggy window with condensation between panes, failed seal captured on-site",
 };
 
-const PHOTOS = [
+const VIDEOS = [
   {
-    src: "/images/services/foggy-glass-before.jpg",
+    src: "/videos/foggy-glass-before.mp4",
     alt: "Foggy double-pane window with hazy sealed unit blocking the street view, before repair",
     caption:
       "Before: Foggy window with trapped condensation blocking the view",
   },
   {
-    src: "/images/services/foggy-glass-after.jpg",
+    src: "/videos/foggy-glass-after.mp4",
     alt: "Crystal-clear window after sealed glass unit replacement, sharp view of houses and street",
     caption:
       "After: Sealed glass unit replaced, crystal-clear view restored without changing the frame",
@@ -387,24 +387,27 @@ export default function FoggyWindowsPage() {
               id="photos-heading"
               className="text-3xl font-bold text-gray-900"
             >
-              Real Project Photos
+              Real Project Video
             </h2>
           </div>
           <div className="grid gap-6 grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto">
-            {PHOTOS.map((photo, i) => (
+            {VIDEOS.map((video, i) => (
               <figure key={i} className="flex flex-col gap-2">
                 <div className="relative rounded-xl overflow-hidden bg-gray-200 aspect-[4/3]">
-                  <Image
-                    src={photo.src}
-                    alt={photo.alt}
-                    fill
-                    className="object-cover hover:scale-105 transition-transform duration-500"
-                    sizes="(max-width: 768px) 100vw, 50vw"
+                  <video
+                    src={video.src}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="metadata"
+                    aria-label={video.alt}
+                    className="absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
-                {photo.caption && (
+                {video.caption && (
                   <figcaption className="text-sm text-gray-500 text-center">
-                    {photo.caption}
+                    {video.caption}
                   </figcaption>
                 )}
               </figure>
