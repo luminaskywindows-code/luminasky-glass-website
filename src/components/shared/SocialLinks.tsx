@@ -16,7 +16,7 @@ export const SOCIALS = [
   {
     key: "instagram",
     label: "See our work on Instagram",
-    href: "https://www.instagram.com/lumina_sky_glass/",
+    href: "https://www.instagram.com/luminasky_service/",
     Icon: InstagramIcon,
   },
 ];
