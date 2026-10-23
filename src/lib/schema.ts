@@ -56,7 +56,7 @@ export function generateOrganizationSchema() {
     ],
     sameAs: [
       "https://www.facebook.com/LuminaSkyGlassServices",
-      "https://www.instagram.com/luminasky_service/",
+      "https://www.instagram.com/luminasky_glass_services/",
     ],
   };
 }
