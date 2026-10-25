@@ -385,12 +385,7 @@ export function HeroSection() {
                 variants={item}
                 className="text-blue-100 text-base md:text-lg leading-relaxed max-w-xl lg:max-w-none"
               >
-                LuminaSky is Toronto&apos;s glass repair and window repair
-                specialist. We restore clarity to foggy windows, replace cracked
-                glass, and repair jammed cranks for homes and businesses across
-                the Greater Toronto Area. Save{" "}
-                <span className="text-white font-semibold">50–70%</span> vs.
-                a full window replacement.
+                <strong>LuminaSky Glass Services</strong> repairs windows and glass across 34 cities in the Greater Toronto Area. We serve homeowners and property managers with 24/7 emergency board-up, warranties up to 3 years on sealed glass units and 2 years on parts and labour, and same-week measurement appointments.
               </motion.p>
 
               {/* Primary CTA */}

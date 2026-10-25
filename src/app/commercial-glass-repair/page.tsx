@@ -204,9 +204,7 @@ export default function CommercialGlassRepairPage() {
                 Commercial Glass Repair Toronto: Storefront &amp; Office Glass
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8 max-w-2xl">
-                Broken storefront window or shattered glass door? We board up
-                fast, day or night, and install the permanent glass quickly,
-                so your business gets back to normal.
+                <strong>LuminaSky Glass Services provides commercial glass repair across the GTA for storefronts, office buildings, condo buildings, and retail spaces, with 24/7 emergency board-up guaranteed within 2 hours.</strong> We stock plywood in advance for after-hours jobs, handle insurance documentation, and work with property managers on volume pricing. Services include storefront windows, office glass, decorative door glass, and sealed unit replacement.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a

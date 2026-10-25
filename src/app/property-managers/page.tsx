@@ -206,10 +206,10 @@ export default function PropertyManagersPage() {
                 <span className="text-accent-light text-[1.4em] italic">Free</span>
               </h1>
               <p className="text-lg lg:text-xl font-semibold text-blue-100 mb-4">
-                Window, door and glass repair for condos and managed properties across the GTA
+                <strong>LuminaSky Glass Services works with property managers and condo boards across the GTA on volume pricing, insurance documentation, and 24/7 emergency board-up for storm damage, vandalism, and break-ins.</strong>
               </p>
               <p className="text-blue-200 leading-relaxed mb-6 max-w-lg">
-                Try us on one repair before you add us to your vendor list. One reliable vendor for all your buildings, fast response, clean documentation for the board.
+                We offer a free building walkthrough and assessment with no obligation. We&apos;ve been working with Maple Ridge Community Management since June 2026. Request a walkthrough at 437-344-8490 or service@luminasky.com.
               </p>
 
               <div className="flex flex-col sm:flex-row lg:flex-col gap-3">

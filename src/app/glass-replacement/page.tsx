@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { CheckCircle2, Phone, ChevronRight } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { PHONE_HREF } from "@/lib/constants";
@@ -164,27 +165,40 @@ export default function GlassReplacementPage() {
             </ol>
           </nav>
 
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-              Broken or Cracked Window Glass Replacement in Toronto
-            </h1>
-            <p className="text-xl text-blue-100 leading-relaxed mb-8">
-              A cracked pane doesn&apos;t mean a new window. In most cases we replace only the broken glass, either a single pane or the full sealed unit, and your frame, sash and trim stay exactly where they are. You get a written price before we start and a warranty on the new glass when we&apos;re done.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
-              >
-                Send a Photo for a Free Quote
-              </Link>
-              <a
-                href={PHONE_HREF}
-                className="inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
-              >
-                <Phone className="w-5 h-5" aria-hidden="true" />
-                Call 437-344-8490
-              </a>
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div>
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                Broken or Cracked Window Glass Replacement in Toronto
+              </h1>
+              <p className="text-xl text-blue-100 leading-relaxed mb-8">
+                <strong>Glass replacement at LuminaSky is faster and 40-60% cheaper than full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, and we service residential and commercial properties across the GTA.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+                >
+                  Send a Photo for a Free Quote
+                </Link>
+                <a
+                  href={PHONE_HREF}
+                  className="inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+                >
+                  <Phone className="w-5 h-5" aria-hidden="true" />
+                  Call 437-344-8490
+                </a>
+              </div>
+            </div>
+
+            <div className="relative aspect-[4/3] max-h-[420px] rounded-xl overflow-hidden shadow-xl">
+              <Image
+                src="/images/services/cracked-window-before.png"
+                alt="Cracked window glass needing replacement in Toronto"
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
           </div>
         </div>
