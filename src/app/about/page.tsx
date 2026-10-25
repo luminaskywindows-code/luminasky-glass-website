@@ -45,7 +45,7 @@ const CREDENTIALS = [
   },
   {
     icon: BadgeCheck,
-    title: "1-Year Warranty on Materials",
+    title: "2-Year Warranty on Parts & Labour",
     color: "text-accent",
     bg: "bg-accent/10",
   },

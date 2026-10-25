@@ -76,15 +76,15 @@ const PROCESS_STEPS = [
   {
     step: "5",
     title: "You get a warranty on the invoice",
-    desc: "Installation workmanship is covered for 1 year, and new sealed units for 3 years against fogging and seal failure.",
+    desc: "New sealed units carry a 5-year warranty against seal failure. The first 2 years include parts and labour. Years 3-5 cover the glass unit only.",
   },
 ];
 
 const TRUST_POINTS = [
   "Licensed & insured in Ontario",
   "Written price before work",
-  "1-year workmanship warranty",
-  "3-year seal warranty on new units",
+  "2-year workmanship warranty",
+  "5-year seal warranty on new units",
 ];
 
 const FAQS = [
@@ -110,19 +110,19 @@ const FAQS = [
   },
   {
     q: "Is the new glass under warranty?",
-    a: "Yes. Installation workmanship is covered for 1 year, and new sealed units for 3 years against fogging and seal failure. Glass broken later by impact isn’t covered. The warranty is printed on your invoice.",
+    a: "Yes. New sealed units carry a 5-year warranty against seal failure. The first 2 years include both parts and labour. In years 3-5, we provide the replacement glass at no cost and you pay only for installation labour. Glass breakage is not covered. The warranty is printed on your invoice.",
   },
 ];
 
 export const metadata: Metadata = {
   title: { absolute: "Glass Replacement Toronto | LuminaSky Glass Services" },
   description:
-    "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Free photo quote, written price, 1-year workmanship warranty.",
+    "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Free photo quote, written price, 2-year workmanship warranty.",
   alternates: { canonical: "/glass-replacement" },
   openGraph: {
     title: "Glass Replacement Toronto | LuminaSky Glass Services",
     description:
-      "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Free photo quote, written price, 1-year workmanship warranty.",
+      "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Free photo quote, written price, 2-year workmanship warranty.",
     url: "/glass-replacement",
   },
 };
@@ -171,7 +171,7 @@ export default function GlassReplacementPage() {
                 Broken or Cracked Window Glass Replacement in Toronto
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
-                <strong>Glass replacement at LuminaSky is faster and 40-60% cheaper than full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, and we service residential and commercial properties across the GTA.
+                <strong>Glass replacement at LuminaSky is faster and 40-60% cheaper than full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, we offer a 5-year warranty against seal failure (first 2 years include labour), and we service residential and commercial properties across the GTA.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link

@@ -7,7 +7,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Warranty Coverage",
   description:
-    "LuminaSky Glass Services warranty: 1-year workmanship, 3-year sealed glass units, 1-year hardware. Clear coverage, honest numbers, no fine print.",
+    "LuminaSky Glass Services warranty: 2-year parts and labour, 5-year sealed glass units against seal failure, 2-year hardware. Clear coverage, honest numbers, no fine print.",
   alternates: { canonical: "/warranty" },
 };
 
@@ -86,8 +86,8 @@ export default function WarrantyPage() {
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
                 All installation and labour is covered by a{" "}
-                <strong className="text-gray-900">1-year workmanship warranty</strong>.
-                If an installation defect appears within 12 months, we come back
+                <strong className="text-gray-900">2-year workmanship warranty</strong>.
+                If an installation defect appears within 24 months, we come back
                 and fix it at no charge.
               </p>
               <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
@@ -96,7 +96,7 @@ export default function WarrantyPage() {
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  1 Year on All Installation and Labour
+                  2 Years on All Installation and Labour
                 </p>
               </div>
             </div>
@@ -115,10 +115,9 @@ export default function WarrantyPage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 Sealed glass units are covered by a{" "}
                 <strong className="text-gray-900">
-                  3-year manufacturer warranty against fogging and seal failure
+                  5-year warranty against fogging and seal failure
                 </strong>
-                . If condensation appears between the panes within that period,
-                we replace the unit. This is a pass-through manufacturer warranty.
+                . During the first 2 years, we cover both parts and labour at no cost. In years 3-5, we provide the replacement glass unit at no cost and you pay only for the installation labour. Glass breakage is not covered under warranty.
               </p>
               <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
                 <Shield
@@ -126,7 +125,7 @@ export default function WarrantyPage() {
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  3 Years Against Fogging and Seal Failure
+                  5 Years Against Fogging and Seal Failure
                 </p>
               </div>
             </div>
@@ -145,9 +144,9 @@ export default function WarrantyPage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 All window hardware we supply and install is covered by a{" "}
                 <strong className="text-gray-900">
-                  1-year warranty against manufacturer defects
+                  2-year warranty on parts and labour
                 </strong>
-                . If a part fails under normal use within 12 months, we replace
+                . If a part fails under normal use within 24 months, we replace
                 it at no charge.
               </p>
               <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
@@ -156,7 +155,7 @@ export default function WarrantyPage() {
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  1 Year Against Manufacturer Defects
+                  2 Years on Parts and Labour
                 </p>
               </div>
             </div>
