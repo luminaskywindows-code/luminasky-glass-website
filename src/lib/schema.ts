@@ -61,12 +61,65 @@ export function generateOrganizationSchema() {
   };
 }
 
+const PRICE_DISCLAIMER =
+  "Prices based on average GTA jobs. Actual price may vary after on-site assessment, depending on size, accessibility, and specific project requirements. Call 437-344-8490 for exact quote.";
+
+const STANDARD_HOURS = {
+  "@type": "OpeningHoursSpecification" as const,
+  dayOfWeek: [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ],
+  opens: "07:00",
+  closes: "21:00",
+};
+
+const EMERGENCY_HOURS = {
+  "@type": "OpeningHoursSpecification" as const,
+  dayOfWeek: [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ],
+  opens: "00:00",
+  closes: "23:59",
+};
+
+const CONTACT_CHANNELS = [
+  { "@type": "ServiceChannel", serviceUrl: "tel:+14373448490", name: "Phone" },
+  {
+    "@type": "ServiceChannel",
+    serviceUrl: "https://wa.me/14373448490",
+    name: "WhatsApp",
+  },
+  {
+    "@type": "ServiceChannel",
+    serviceUrl: `mailto:${EMAIL}`,
+    name: "Email",
+  },
+];
+
 export function generateServiceSchema(
   serviceName: string,
   serviceUrl: string,
-  description: string
+  description: string,
+  pricing?: {
+    minPrice: number;
+    maxPrice: number;
+    priceDescription: string;
+    is24x7?: boolean;
+  }
 ) {
-  return {
+  const base: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Service",
     name: serviceName,
@@ -76,6 +129,20 @@ export function generateServiceSchema(
     description,
     areaServed: SERVICE_AREAS.map((city) => ({ "@type": "City", name: city })),
   };
+
+  if (pricing) {
+    base.offers = {
+      "@type": "AggregateOffer",
+      priceCurrency: "CAD",
+      lowPrice: pricing.minPrice,
+      highPrice: pricing.maxPrice,
+      description: `${pricing.priceDescription} ${PRICE_DISCLAIMER}`,
+    };
+    base.hoursAvailable = pricing.is24x7 ? EMERGENCY_HOURS : STANDARD_HOURS;
+    base.availableChannel = CONTACT_CHANNELS;
+  }
+
+  return base;
 }
 
 export function generateCityServiceSchema(opts: {

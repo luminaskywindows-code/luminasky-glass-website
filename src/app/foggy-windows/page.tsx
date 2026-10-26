@@ -158,7 +158,8 @@ export default function FoggyWindowsPage() {
             generateServiceSchema(
               "Foggy Window Repair",
               "/foggy-windows",
-              "LuminaSky Glass Services replaces failed sealed glass units across Toronto and the GTA, at a fraction of the cost of full window replacement."
+              "LuminaSky Glass Services replaces failed sealed glass units across Toronto and the GTA, at a fraction of the cost of full window replacement.",
+              { minPrice: 300, maxPrice: 1400, priceDescription: "Glass replacement per sealed unit, varies by size and location." }
             ),
             generateFAQSchema(FAQS),
           ]),

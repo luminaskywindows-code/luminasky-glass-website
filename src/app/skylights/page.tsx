@@ -198,7 +198,8 @@ export default function SkylightsPage() {
             generateServiceSchema(
               "Skylight Repair",
               "/skylights",
-              "Skylight leak repair, skylight glass replacement, flashing repair and full skylight replacement across Toronto and the GTA. All brands serviced."
+              "Skylight leak repair, skylight glass replacement, flashing repair and full skylight replacement across Toronto and the GTA. All brands serviced.",
+              { minPrice: 650, maxPrice: 3500, priceDescription: "Skylight glass replacement, accessibility and size dependent." }
             ),
             generateFAQSchema(FAQS),
           ]),

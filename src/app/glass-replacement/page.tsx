@@ -138,7 +138,8 @@ export default function GlassReplacementPage() {
             generateServiceSchema(
               "Window Glass Replacement",
               "/glass-replacement",
-              "LuminaSky Glass Services replaces broken and cracked window glass across Toronto and the GTA, keeping your existing frame."
+              "LuminaSky Glass Services replaces broken and cracked window glass across Toronto and the GTA, keeping your existing frame.",
+              { minPrice: 300, maxPrice: 1400, priceDescription: "Glass replacement per sealed unit, varies by size and location." }
             ),
             generateFAQSchema(FAQS),
           ]),

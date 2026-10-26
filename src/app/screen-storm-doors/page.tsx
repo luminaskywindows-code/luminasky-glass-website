@@ -133,7 +133,8 @@ export default function ScreenStormDoorsPage() {
             generateServiceSchema(
               "Screen & Storm Door Installation",
               "/screen-storm-doors",
-              "LuminaSky Glass Services supplies and installs screen doors and storm doors across Toronto and the GTA."
+              "LuminaSky Glass Services supplies and installs screen doors and storm doors across Toronto and the GTA.",
+              { minPrice: 150, maxPrice: 650, priceDescription: "Storm door glass or screen repair." }
             ),
             generateFAQSchema(FAQS),
           ]),

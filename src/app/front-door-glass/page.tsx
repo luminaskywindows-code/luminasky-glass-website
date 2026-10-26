@@ -180,7 +180,8 @@ export default function FrontDoorGlassPage() {
             generateServiceSchema(
               "Front Door Glass Replacement",
               "/front-door-glass",
-              "LuminaSky Glass Services replaces front door glass inserts in entry doors across Toronto and the GTA."
+              "LuminaSky Glass Services replaces front door glass inserts in entry doors across Toronto and the GTA.",
+              { minPrice: 450, maxPrice: 1200, priceDescription: "Front door glass panel replacement, standard residential sizes." }
             ),
             generateFAQSchema(FAQS),
           ]),

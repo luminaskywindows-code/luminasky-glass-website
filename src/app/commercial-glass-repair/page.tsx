@@ -148,7 +148,8 @@ export default function CommercialGlassRepairPage() {
             generateServiceSchema(
               "Commercial Glass Repair",
               "/commercial-glass-repair",
-              "LuminaSky Glass Services provides 24/7 commercial glass repair across Toronto and the GTA, including storefront glass replacement, commercial door glass and emergency board-up."
+              "LuminaSky Glass Services provides 24/7 commercial glass repair across Toronto and the GTA, including storefront glass replacement, commercial door glass and emergency board-up.",
+              { minPrice: 500, maxPrice: 10000, priceDescription: "Commercial glass projects, quote per project based on scope." }
             ),
             generateFAQSchema(FAQS),
           ]),

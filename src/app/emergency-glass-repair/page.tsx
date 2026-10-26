@@ -6,6 +6,7 @@ import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import {
   generateBreadcrumbSchema,
   generateFAQSchema,
+  generateServiceSchema,
 } from "@/lib/schema";
 
 const BREADCRUMBS = [
@@ -94,21 +95,12 @@ export default function EmergencyGlassRepairPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([
             generateBreadcrumbSchema(BREADCRUMBS),
-            {
-              "@context": "https://schema.org",
-              "@type": "Service",
-              name: "Emergency Glass Repair",
-              serviceType: "Emergency Glass Repair",
-              provider: { "@id": "https://www.luminasky.com/#business" },
-              url: "https://www.luminasky.com/emergency-glass-repair",
-              description: "24/7 emergency glass repair and board-up service across Toronto and the GTA.",
-              hoursAvailable: {
-                "@type": "OpeningHoursSpecification",
-                dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                opens: "00:00",
-                closes: "23:59",
-              },
-            },
+            generateServiceSchema(
+              "Emergency Glass Repair",
+              "/emergency-glass-repair",
+              "24/7 emergency glass repair and board-up service across Toronto and the GTA.",
+              { minPrice: 300, maxPrice: 1500, priceDescription: "24/7 emergency glass replacement, surcharge for after-hours and weekends.", is24x7: true }
+            ),
             generateFAQSchema(FAQS),
           ]),
         }}

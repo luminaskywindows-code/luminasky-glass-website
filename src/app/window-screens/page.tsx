@@ -104,7 +104,8 @@ export default function WindowScreensPage() {
             generateServiceSchema(
               "Window Screen Repair & Replacement",
               "/window-screens",
-              "LuminaSky Glass Services repairs and replaces window and patio door screens across Toronto and the GTA."
+              "LuminaSky Glass Services repairs and replaces window and patio door screens across Toronto and the GTA.",
+              { minPrice: 75, maxPrice: 250, priceDescription: "Per screen, standard window sizes." }
             ),
             generateFAQSchema(FAQS),
           ]),

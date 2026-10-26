@@ -163,7 +163,8 @@ export default function WindowCranksPage() {
             generateServiceSchema(
               "Window Crank & Operator Repair",
               "/cranks",
-              "Mobile repair service for casement and awning window cranks, operators, hinges, and locks across the GTA."
+              "Mobile repair service for casement and awning window cranks, operators, hinges, and locks across the GTA.",
+              { minPrice: 150, maxPrice: 450, priceDescription: "Per crank/handle replacement, parts and labour." }
             ),
             generateFAQSchema(FAQS),
           ]),
