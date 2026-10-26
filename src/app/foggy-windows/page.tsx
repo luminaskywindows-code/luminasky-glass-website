@@ -111,7 +111,7 @@ const FAQS = [
   },
   {
     q: "Do you warranty the repair?",
-    a: "Yes. All glass unit replacements come with a written warranty against seal failure.",
+    a: "Yes. All glass unit replacements come with a transferable Lifetime Warranty against seal failure on sealed glass units.",
   },
   {
     q: "Can you match my existing glass type (frosted, tinted, etc.)?",
@@ -214,7 +214,7 @@ export default function FoggyWindowsPage() {
                 Foggy Window Repair Toronto: Sealed Unit Replacement
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8 max-w-2xl">
-                <strong>Foggy windows happen when the seal between the glass panes fails, letting moisture inside the sealed unit.</strong> The fix is replacing the glass unit only, not the whole window. At LuminaSky, foggy window repair is 40-60% cheaper than full window replacement, carries a 5-year warranty against seal failure (first 2 years include labour), and takes 1 to 2 weeks from the free measurement visit. We service all 34 cities across the GTA with same-week measurement appointments.
+                <strong>Foggy windows happen when the seal between the glass panes fails, letting moisture inside the sealed unit.</strong> The fix is replacing the glass unit only, not the whole window. At LuminaSky, foggy window repair is 40-60% cheaper than full window replacement, carries a transferable Lifetime Warranty against seal failure (first 2 years include labour), and takes 1 to 2 weeks from the free measurement visit. We service all 34 cities across the GTA with same-week measurement appointments.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link

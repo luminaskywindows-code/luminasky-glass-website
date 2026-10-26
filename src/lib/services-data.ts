@@ -99,7 +99,7 @@ export const FOGGY_WINDOWS: ServiceData = {
     },
     {
       q: "Do you warranty the repair?",
-      a: "Yes. All glass unit replacements come with a written warranty against seal failure.",
+      a: "Yes. All glass unit replacements come with a transferable Lifetime Warranty against seal failure on sealed glass units.",
     },
     {
       q: "Can you match my existing glass type (frosted, tinted, etc.)?",

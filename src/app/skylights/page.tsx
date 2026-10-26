@@ -157,7 +157,7 @@ const FAQS = [
   },
   {
     q: "What's the warranty on skylight repair?",
-    a: "All skylight repairs come with a 2-year workmanship warranty. New sealed glass units carry a 5-year warranty against seal failure.",
+    a: "All skylight repairs come with a 2-year workmanship warranty. New sealed glass units carry a transferable Lifetime Warranty against seal failure.",
   },
   {
     q: "My skylight is old. Should I repair or replace it?",
@@ -335,7 +335,7 @@ export default function SkylightsPage() {
               Building code requires tempered safety glass in skylights. We measure the existing unit, order a new tempered sealed unit made to size, and install it once it arrives, typically 5-15 business days depending on glass type and dimensions. You can upgrade to low-E coated or argon-filled glass at the same time for better energy performance.
             </p>
             <p>
-              New sealed glass units carry a 5-year warranty against seal failure, plus our 2-year workmanship warranty on installation.{" "}
+              New sealed glass units carry a transferable Lifetime Warranty against seal failure, plus our 2-year workmanship warranty on installation.{" "}
               <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">Learn more about glass replacement &rarr;</Link>
             </p>
           </div>

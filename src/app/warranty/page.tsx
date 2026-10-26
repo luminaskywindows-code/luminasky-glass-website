@@ -7,7 +7,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Warranty Coverage",
   description:
-    "LuminaSky Glass Services warranty: 2-year parts and labour, 5-year sealed glass units against seal failure, 2-year hardware. Clear coverage, honest numbers, no fine print.",
+    "LuminaSky Glass Services warranty: transferable Lifetime Warranty on sealed glass units against seal failure, 2-year parts and labour on hardware. Clear coverage, honest numbers, no fine print.",
   alternates: { canonical: "/warranty" },
 };
 
@@ -115,9 +115,9 @@ export default function WarrantyPage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 Sealed glass units are covered by a{" "}
                 <strong className="text-gray-900">
-                  5-year warranty against fogging and seal failure
+                  transferable Lifetime Warranty against seal failure
                 </strong>
-                . During the first 2 years, we cover both parts and labour at no cost. In years 3-5, we provide the replacement glass unit at no cost and you pay only for the installation labour. Glass breakage is not covered under warranty.
+                . During the first 2 years, we cover both parts and labour at no cost. From year 3 onward, we provide the replacement glass unit at no cost and you pay only for installation. Glass breakage is not covered under warranty.
               </p>
               <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
                 <Shield
@@ -125,7 +125,7 @@ export default function WarrantyPage() {
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  5 Years Against Fogging and Seal Failure
+                  Lifetime Warranty Against Seal Failure
                 </p>
               </div>
             </div>

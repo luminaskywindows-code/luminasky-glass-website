@@ -385,7 +385,7 @@ export function HeroSection() {
                 variants={item}
                 className="text-blue-100 text-base md:text-lg leading-relaxed max-w-xl lg:max-w-none"
               >
-                <strong>LuminaSky Glass Services</strong> repairs windows and glass across 34 cities in the Greater Toronto Area. We serve homeowners and property managers with 24/7 emergency board-up, a 5-year sealed unit warranty against seal failure, 2-year warranty on parts and labour, and same-week measurement appointments.
+                <strong>LuminaSky Glass Services</strong> repairs windows and glass across 34 cities in the Greater Toronto Area. We serve homeowners and property managers with 24/7 emergency board-up, a transferable Lifetime Warranty against seal failure on sealed glass units, 2-year warranty on parts and labour, and same-week measurement appointments.
               </motion.p>
 
               {/* Primary CTA */}

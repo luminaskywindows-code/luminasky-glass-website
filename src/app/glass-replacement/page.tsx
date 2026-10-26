@@ -76,7 +76,7 @@ const PROCESS_STEPS = [
   {
     step: "5",
     title: "You get a warranty on the invoice",
-    desc: "New sealed units carry a 5-year warranty against seal failure. The first 2 years include parts and labour. Years 3-5 cover the glass unit only.",
+    desc: "New sealed units carry a transferable Lifetime Warranty against seal failure. The first 2 years include parts and labour. From year 3 onward, we cover the glass unit at no cost.",
   },
 ];
 
@@ -84,7 +84,7 @@ const TRUST_POINTS = [
   "Licensed & insured in Ontario",
   "Written price before work",
   "2-year workmanship warranty",
-  "5-year seal warranty on new units",
+  "Lifetime Warranty on sealed glass units",
 ];
 
 const FAQS = [
@@ -110,7 +110,7 @@ const FAQS = [
   },
   {
     q: "Is the new glass under warranty?",
-    a: "Yes. New sealed units carry a 5-year warranty against seal failure. The first 2 years include both parts and labour. In years 3-5, we provide the replacement glass at no cost and you pay only for installation labour. Glass breakage is not covered. The warranty is printed on your invoice.",
+    a: "Yes. New sealed units carry a transferable Lifetime Warranty against seal failure. The first 2 years include both parts and labour. From year 3 onward, we provide the replacement glass at no cost and you pay only for installation. Glass breakage is not covered. The warranty is printed on your invoice.",
   },
 ];
 
@@ -171,7 +171,7 @@ export default function GlassReplacementPage() {
                 Broken or Cracked Window Glass Replacement in Toronto
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
-                <strong>Glass replacement at LuminaSky is faster and 40-60% cheaper than full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, we offer a 5-year warranty against seal failure (first 2 years include labour), and we service residential and commercial properties across the GTA.
+                <strong>Glass replacement at LuminaSky is faster and 40-60% cheaper than full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, we offer a transferable Lifetime Warranty against seal failure on sealed glass units (first 2 years include labour), and we service residential and commercial properties across the GTA.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link

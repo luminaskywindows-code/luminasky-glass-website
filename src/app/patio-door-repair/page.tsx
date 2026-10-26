@@ -197,7 +197,7 @@ export default function PatioDoorRepairPage() {
             Patio Door Glass Replacement
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Building code requires tempered safety glass in patio doors. We measure the panel, have a new tempered sealed unit made (5-15 business days, depending on glass type and size), and install it in your existing panel. You can upgrade to Low-E or argon-filled glass at the same time. New sealed units carry a 5-year warranty against seal failure, with the first 2 years including parts and labour.
+            Building code requires tempered safety glass in patio doors. We measure the panel, have a new tempered sealed unit made (5-15 business days, depending on glass type and size), and install it in your existing panel. You can upgrade to Low-E or argon-filled glass at the same time. New sealed units carry a transferable Lifetime Warranty against seal failure, with the first 2 years including parts and labour.
           </p>
         </div>
       </section>
