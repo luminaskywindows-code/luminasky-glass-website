@@ -204,7 +204,7 @@ export default function CommercialGlassRepairPage() {
                 Commercial Glass Repair Toronto: Storefront &amp; Office Glass
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8 max-w-2xl">
-                <strong>LuminaSky Glass Services provides commercial glass repair across the GTA for storefronts, office buildings, condo buildings, and retail spaces, with 24/7 emergency board-up guaranteed within 2 hours.</strong> We stock plywood in advance for after-hours jobs, handle insurance documentation, and work with property managers on volume pricing. Services include storefront windows, office glass, decorative door glass, and sealed unit replacement.
+                <strong>LuminaSky Glass Services provides commercial glass repair across the GTA for storefronts, office buildings, condo buildings, and retail spaces, with 24/7 emergency board-up, typically within 2 hours.</strong> We stock plywood in advance for after-hours jobs, handle insurance documentation, and work with property managers on volume pricing. Services include storefront windows, office glass, decorative door glass, and sealed unit replacement.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
@@ -429,7 +429,8 @@ export default function CommercialGlassRepairPage() {
           <p className="text-gray-600 leading-relaxed">
             Commercial doors and storefronts need safety glass. We install
             tempered glass, and laminated glass is available on request for
-            extra security.
+            extra security. For a breakdown of what affects pricing, see our{" "}
+            <Link href="/window-repair-cost" className="text-primary font-semibold hover:underline">window repair cost guide</Link>.
           </p>
         </div>
       </section>

@@ -296,6 +296,19 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
         </section>
       )}
 
+      {/* Cost guide link */}
+      <section className="max-w-7xl mx-auto px-4 md:px-8 py-8">
+        <div className="bg-gray-50 rounded-xl border border-gray-200 p-6 flex flex-col sm:flex-row items-center gap-4">
+          <div className="flex-1">
+            <p className="font-semibold text-gray-900">Want to know what affects repair pricing?</p>
+            <p className="text-gray-500 text-sm mt-1">Our guide covers the factors that determine your quote: glass type, size, accessibility and more.</p>
+          </div>
+          <Link href="/window-repair-cost" className="shrink-0 inline-flex items-center gap-1 text-primary font-semibold text-sm hover:underline">
+            Window repair cost guide <ChevronRight className="w-4 h-4" aria-hidden="true" />
+          </Link>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-primary text-white py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8 text-center">

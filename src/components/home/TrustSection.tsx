@@ -6,7 +6,7 @@ import { motion, useReducedMotion } from "framer-motion";
 
 const CHECKPOINTS = [
   "Repair just the glass - keep your existing frames",
-  "Save 50–70% versus full window or door replacement",
+  "A fraction of the cost of full window or door replacement",
   "Same-day service available across the GTA",
   "All work backed by our satisfaction guarantee",
   "Licensed & insured in Ontario",
@@ -18,7 +18,7 @@ export function TrustSection() {
   return (
     <section
       className="relative py-20 px-4 md:px-8 bg-cover bg-center overflow-hidden"
-      style={{ backgroundImage: "url('/images/bright-windows-section.png')" }}
+      style={{ backgroundImage: "url('/images/bright-windows-section.webp')" }}
       aria-labelledby="trust-heading"
     >
       {/* Semi-transparent blue overlay - keeps text readable while window shows through */}

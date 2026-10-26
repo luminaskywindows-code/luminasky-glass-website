@@ -55,7 +55,7 @@ export const FOGGY_WINDOWS: ServiceData = {
     "We serve homeowners and property managers across the GTA. Glass is measured first, custom-made, then installed, typically within 5 to 15 business days. Every replacement comes with a warranty.",
   ],
   benefits: [
-    "Save 50–70% versus replacing the entire window and frame",
+    "A fraction of the cost of replacing the entire window and frame",
     "Fast turnaround: measured, made and installed within days",
     "Crystal-clear results - restores full visibility and insulation",
     "No mess - we vacuum and clean up after every job",

@@ -49,7 +49,7 @@ export const CITY_PAGES: CityPageData[] = [
       "Fast, affordable glass and door repair across Woodbridge, Maple, Kleinburg, Concord, and all of Vaughan. Fix it. Don't replace it.",
     intro: [
       "Vaughan homeowners know the value of keeping their homes in top shape, and windows are no exception. Whether you're in a newer build in Vellore Village or a mature home in Woodbridge, sealed glass units fail over time. Condensation between panes, broken cranks, and cracked door glass are problems we solve every week across Vaughan.",
-      "LuminaSky Glass Services specializes in repair, not replacement. That means we fix the part that's broken (the glass unit, the crank mechanism, the door insert) without tearing out your entire window or door frame. It's faster, less disruptive, and typically costs 50–70% less than full replacement.",
+      "LuminaSky Glass Services specializes in repair, not replacement. That means we fix the part that's broken (the glass unit, the crank mechanism, the door insert) without tearing out your entire window or door frame. It's faster, less disruptive, and costs a fraction of full replacement.",
     ],
     neighborhoods: [
       "Woodbridge",
@@ -153,7 +153,7 @@ export const CITY_PAGES: CityPageData[] = [
       "Reliable glass and window repair for Thornhill homeowners, from Royal Orchard to Thornlea. We fix it on-site, usually the same day.",
     intro: [
       "Thornhill sits at the crossroads of Vaughan and Markham, and its housing stock reflects that mix: mid-century brick bungalows along Centre Street, estate homes in Royal Orchard, and modern townhomes near Promenade Mall. Whatever the age of your home, windows and doors wear out. Failed seals cause fog between panes, old crank mechanisms seize up, and door glass cracks from settling or impact.",
-      "We handle all of it without the cost and hassle of full window replacement. LuminaSky Glass Services replaces only the component that failed (the sealed glass unit, the operator hardware, or the door lite), so your frames, trim, and siding stay untouched. Most jobs are done in a single visit, and you save 50–70% compared to ripping everything out and starting over.",
+      "We handle all of it without the cost and hassle of full window replacement. LuminaSky Glass Services replaces only the component that failed (the sealed glass unit, the operator hardware, or the door lite), so your frames, trim, and siding stay untouched. Most jobs are done in a single visit, and you pay a fraction of the cost of ripping everything out and starting over.",
     ],
     neighborhoods: [
       "Thornlea",
@@ -578,7 +578,7 @@ export const CITY_PAGES: CityPageData[] = [
       "Serving Aurora Village, Bayview Wellington, and all of Aurora with professional glass and window repair. Fix it. Don't replace it.",
     intro: [
       "Aurora blends small-town charm with modern suburban growth. Heritage homes near Yonge Street and Wellington have original wood-frame windows that need glass upgrades and hardware repairs. Meanwhile, the subdivisions that grew through the 1990s and 2000s (Bayview Wellington, Hills of St Andrew, Aurora Highlands) are hitting the age where factory-sealed glass units fog up and casement crank operators start to fail.",
-      "LuminaSky Glass Services serves Aurora with a repair-first approach. We replace the sealed glass unit, swap a broken crank operator, or install a new door glass insert, without removing your entire window or door frame. It's faster, cleaner, and typically saves you 50–70% compared to full replacement.",
+      "LuminaSky Glass Services serves Aurora with a repair-first approach. We replace the sealed glass unit, swap a broken crank operator, or install a new door glass insert, without removing your entire window or door frame. It's faster, cleaner, and costs a fraction of full replacement.",
     ],
     neighborhoods: [
       "Aurora Village",
@@ -1433,7 +1433,7 @@ export const CITY_PAGES: CityPageData[] = [
       "Serving Roseland, Aldershot, Tyandaga, and all of Burlington with fast, professional glass and window repair. Fix it. Don't replace it.",
     intro: [
       "Burlington offers a mix of housing that few GTA cities can match: heritage homes along the lakeshore in Roseland and LaSalle Park, established 1970s and 80s suburban streets in Tyandaga and Palmer, and newer family subdivisions in Alton Village and Orchard. Each generation of home brings its own window headaches. Older lakefront properties contend with original casement windows and decorative door glass past its prime. The mid-century suburbs are squarely in the fog zone: sealed glass units installed 30 to 40 years ago losing their seals in waves.",
-      "LuminaSky Glass Services serves Burlington homeowners with targeted repairs that skip the expense and disruption of full window replacement. We replace the sealed glass unit, swap a failing crank operator, or install a new door glass insert. On-site, usually in a single visit. Frames, trim, and siding stay untouched, and you save 50–70% compared to ripping everything out.",
+      "LuminaSky Glass Services serves Burlington homeowners with targeted repairs that skip the expense and disruption of full window replacement. We replace the sealed glass unit, swap a failing crank operator, or install a new door glass insert. On-site, usually in a single visit. Frames, trim, and siding stay untouched, and you pay a fraction of the cost of ripping everything out.",
     ],
     neighborhoods: [
       "Aldershot",
@@ -1694,7 +1694,7 @@ export const CITY_PAGES: CityPageData[] = [
       "Professional glass and window repair for Bay Ridges, Amberlea, Brock Ridge, and all of Pickering. Same-day service available.",
     intro: [
       "Pickering stretches from Lake Ontario's waterfront at Bay Ridges north through established 1980s and 90s subdivisions in Amberlea, Liverpool, and Brock Ridge, all the way to rural properties in Whitevale. Waterfront homes contend with harsh lake-effect weather that accelerates seal failure in double-pane windows. Inland, the mature suburban housing stock is hitting the 30- to 40-year mark where foggy glass, seized cranks, and cracked door inserts become constant headaches.",
-      "LuminaSky Glass Services serves Pickering homeowners with a repair-first approach that saves time and money. We replace the sealed glass unit, swap a worn crank operator, or install new door glass. On-site, without removing your frames or disrupting your home. Most jobs are completed in a single visit, and you save 50–70% compared to full window replacement.",
+      "LuminaSky Glass Services serves Pickering homeowners with a repair-first approach that saves time and money. We replace the sealed glass unit, swap a worn crank operator, or install new door glass. On-site, without removing your frames or disrupting your home. Most jobs are completed in a single visit, and you pay a fraction of the cost of full window replacement.",
     ],
     neighborhoods: [
       "Amberlea",

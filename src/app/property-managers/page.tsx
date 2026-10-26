@@ -206,7 +206,7 @@ export default function PropertyManagersPage() {
                 <span className="text-accent-light text-[1.4em] italic">Free</span>
               </h1>
               <p className="text-lg lg:text-xl font-semibold text-blue-100 mb-4">
-                <strong>LuminaSky Glass Services works with property managers and condo boards across the GTA on volume pricing, insurance documentation, and 24/7 emergency board-up for storm damage, vandalism, and break-ins.</strong> See our <Link href="/glass-replacement-cost-report-2026" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">2026 GTA Cost Report</Link> for market pricing by window size.
+                <strong>LuminaSky Glass Services works with property managers and condo boards across the GTA on volume pricing, insurance documentation, and 24/7 emergency board-up for storm damage, vandalism, and break-ins.</strong> See our <Link href="/glass-replacement-cost-report-2026" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">2026 GTA Cost Report</Link> for market pricing by window size, or our <Link href="/window-repair-cost" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">window repair cost guide</Link> for what drives pricing.
               </p>
               <p className="text-blue-200 leading-relaxed mb-6 max-w-lg">
                 We offer a free building walkthrough and assessment with no obligation. We&apos;ve been working with Maple Ridge Community Management since June 2026. Request a walkthrough at 437-344-8490 or service@luminasky.com.

@@ -192,7 +192,7 @@ export const FAQS_GENERAL = [
   },
   {
     q: "Do I need to replace the whole window frame?",
-    a: "In most cases, no. We replace only the glass unit (the IGU - insulated glass unit), leaving your existing frame intact. This saves 50–70% versus full window replacement.",
+    a: "In most cases, no. We replace only the glass unit (the IGU - insulated glass unit), leaving your existing frame intact. This costs a fraction of full window replacement.",
   },
   {
     q: "Are you licensed and insured in Ontario?",

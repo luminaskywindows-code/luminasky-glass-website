@@ -82,7 +82,7 @@ const RED_FLAGS = [
 const COST_TIPS = [
   "Request quotes for multiple units at once. Volume discounts can save 10–15%.",
   "Ask about seasonal timing. Spring and summer often have shorter lead times.",
-  "Keep your frame if possible. Glass-only replacement is 40–60% cheaper than full window replacement.",
+  "Keep your frame if possible. Glass-only replacement costs a fraction of full window replacement.",
   "Compare TOTAL quotes, not just per-square-foot prices. Hidden surcharges inflate finals.",
   "Check for current warranty on existing glass. Some original installations have 10–20 year manufacturer warranties still active.",
   "Bundle with other services. If you need caulking, hardware or screen repair, bundling can save on service call fees.",
@@ -101,7 +101,7 @@ const LUMINASKY_ADVANTAGES = [
 const FAQS = [
   {
     q: "What's the difference between glass replacement and window replacement?",
-    a: "Glass replacement (what this report covers) replaces only the sealed glass unit while keeping your existing frame. It's 40–60% cheaper than full window replacement and takes 1–2 weeks instead of 4–8 weeks.",
+    a: "Glass replacement (what this report covers) replaces only the sealed glass unit while keeping your existing frame. It costs a fraction of full window replacement and takes 1–2 weeks instead of 4–8 weeks.",
   },
   {
     q: "How long should a sealed glass unit last?",

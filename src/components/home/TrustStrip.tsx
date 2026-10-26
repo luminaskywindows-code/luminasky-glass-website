@@ -13,7 +13,7 @@ import {
 const TRUST_ITEMS = [
   {
     icon: Award,
-    label: "Lifetime Warranty on Glass",
+    label: "Lifetime Warranty on Glass* (from Nov 1, 2026)",
     href: "/lifetime-warranty",
     highlight: true,
   },

@@ -384,7 +384,7 @@ export default function WinterReadyPage() {
       <section
         className="relative py-20 px-4 md:px-8 bg-cover bg-center overflow-hidden"
         style={{
-          backgroundImage: "url('/images/bright-windows-section.png')",
+          backgroundImage: "url('/images/bright-windows-section.webp')",
         }}
         aria-labelledby="winter-trust-heading"
       >

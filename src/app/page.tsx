@@ -15,7 +15,7 @@ import { Star } from "lucide-react";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Glass & Window Repair Toronto - Fix it. Don't replace it. | LuminaSky Glass Services",
+    absolute: "Window & Glass Repair Toronto - Fix, Don't Replace | LuminaSky",
   },
   description:
     "Toronto's glass and window repair specialist. We fix foggy glass, cracked panes, broken cranks and more. Fix don't replace. Free photo quote. 437-344-8490",

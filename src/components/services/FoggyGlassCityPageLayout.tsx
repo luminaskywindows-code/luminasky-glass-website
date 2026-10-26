@@ -8,7 +8,7 @@ import type { FoggyGlassCityPageData } from "@/lib/foggy-glass-city-data";
 const SEAL_FAILURE_EXPLANATION = [
   "A sealed glass unit (the industry calls it an IGU, insulated glass unit) is two or three panes of glass separated by a spacer bar and sealed at the perimeter. The space between is filled with argon or krypton gas and desiccant beads that absorb moisture.",
   "When that seal breaks down: argon gas escapes, outside air seeps in bringing moisture, and the desiccant saturates. Once saturated, condensation forms between the panes: the familiar 'foggy window' look. From that point, the fog will never clear on its own.",
-  "The frame, sash, and hardware are usually still fine. Only the sealed glass unit needs replacing. That's why we can restore a foggy window for 50–70% less than a full window replacement.",
+  "The frame, sash, and hardware are usually still fine. Only the sealed glass unit needs replacing. That's why we can restore a foggy window at a fraction of the cost of full window replacement.",
 ];
 
 const SEAL_FAILURE_SIGNS = [
@@ -202,6 +202,10 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
               {p}
             </p>
           ))}
+          <p className="text-gray-600 text-lg leading-relaxed mt-4">
+            For a full breakdown of what drives repair pricing, see our{" "}
+            <Link href="/window-repair-cost" className="text-primary font-semibold hover:underline">window repair cost guide</Link>.
+          </p>
         </div>
       </section>
 
