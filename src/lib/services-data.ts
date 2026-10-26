@@ -99,7 +99,7 @@ export const FOGGY_WINDOWS: ServiceData = {
     },
     {
       q: "Do you warranty the repair?",
-      a: "Yes. All glass unit replacements come with a transferable Lifetime Warranty against seal failure on sealed glass units.",
+      a: "Yes. All glass unit replacements come with a 5-year warranty against seal failure on sealed glass units.",
     },
     {
       q: "Can you match my existing glass type (frosted, tinted, etc.)?",
@@ -216,7 +216,7 @@ export const FRONT_DOOR_GLASS: ServiceData = {
   },
   metaTitle: "Front Door Glass Replacement Toronto",
   metaDescription:
-    "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. Lifetime Warranty. Call 437-344-8490.",
+    "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 5-Year Warranty. Call 437-344-8490.",
   relatedServices: [
     "foggy-windows",
     "window-cranks",

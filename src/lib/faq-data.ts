@@ -93,7 +93,7 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
     items: [
       {
         q: "What does your warranty cover?",
-        a: "Sealed glass units carry a transferable Lifetime Warranty against seal failure. The first 2 years include parts and labour at no cost. From year 3 onward, we provide the replacement glass at no cost and you pay only for installation. Window hardware repairs are covered for 2 years on parts and labour. Glass breakage is not covered. Full details are printed on your invoice.",
+        a: "Sealed glass units carry a 5-year warranty against seal failure (fogging). All repair work carries a 2-year warranty on parts and labour. Glass breakage is not covered. Full details are printed on your invoice.",
       },
       {
         q: "What happens if something breaks during the repair?",
@@ -105,11 +105,11 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
       },
       {
         q: "Do you offer warranties on glass repair?",
-        a: "Yes. Sealed glass units carry a transferable Lifetime Warranty against seal failure. The first 2 years include both parts and labour. From year 3 onward, the replacement glass is provided at no cost and you pay only for installation. Window hardware repairs are warranted for 2 years on parts and labour. Glass breakage is not covered.",
+        a: "Yes. Sealed glass units carry a 5-year warranty against seal failure. All repair work carries a 2-year warranty on parts and labour. Glass breakage is not covered.",
       },
       {
-        q: "What does your Lifetime Warranty cover?",
-        a: "Our transferable Lifetime Warranty applies to sealed glass units against seal failure (fogging). During the first 2 years, we cover both parts and labour at no cost to you. From year 3 onward, we provide the replacement glass unit at no cost and you pay only for installation. Glass breakage is not covered under warranty.",
+        q: "What does your warranty cover?",
+        a: "Our 5-year warranty covers sealed glass units against seal failure (fogging, condensation between the panes). All repair work carries a 2-year warranty on parts and labour. Glass breakage is not covered under warranty.",
       },
     ],
   },

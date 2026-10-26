@@ -1,15 +1,15 @@
 export const HOMEPAGE_SCHEMA_FAQS = [
   {
-    q: "Does LuminaSky offer a Lifetime Warranty on windows?",
-    a: "Yes. LuminaSky backs every sealed glass unit we install with a Lifetime Warranty against seal failure, effective November 1, 2026. For installations before this date, the warranty in effect at the time of install applies (typically 3-year or 5-year). Call 437-344-8490 with your invoice date to confirm your coverage.",
+    q: "Does LuminaSky offer a warranty on windows?",
+    a: "Yes. Sealed glass units carry a 5-year warranty against seal failure. All repair work (hardware, screens, mechanisms) is covered by a 2-year warranty on parts and labour. Call 437-344-8490 for details.",
   },
   {
-    q: "What does the LuminaSky Lifetime Warranty cover?",
-    a: "The Lifetime Warranty covers seal failure (fogging) on sealed glass units we installed. Years 0-2: free replacement glass plus free installation labour. Years 3 and beyond: free replacement glass, customer pays installation labour. Hardware repairs, screens, and glass breakage are covered under our standard 2-year warranty.",
+    q: "What does the LuminaSky warranty cover?",
+    a: "Sealed glass units are warranted for 5 years against seal failure (fogging, condensation between panes). All repair work carries a 2-year warranty on parts and labour. Glass breakage from impact or accidental damage is not covered.",
   },
   {
-    q: "Can the Lifetime Warranty transfer to a new owner if I sell my property?",
-    a: "Yes. The Lifetime Warranty stays with the property. If you sell, it passes to the new owner, as long as they have the original LuminaSky invoice or invoice number. Pass the invoice to the buyer when you sell.",
+    q: "How do I file a warranty claim?",
+    a: "Call 437-344-8490 or email service@luminasky.com with your invoice number and a description of the issue. We will schedule a site visit to assess and resolve the problem.",
   },
   {
     q: "How much does glass replacement cost in the Greater Toronto Area?",

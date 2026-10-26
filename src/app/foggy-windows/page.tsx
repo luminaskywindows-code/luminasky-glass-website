@@ -111,7 +111,7 @@ const FAQS = [
   },
   {
     q: "Do you warranty the repair?",
-    a: "Yes. All glass unit replacements come with a transferable Lifetime Warranty against seal failure on sealed glass units.",
+    a: "Yes. All glass unit replacements come with a 5-year warranty against seal failure. All repair work carries a 2-year warranty on parts and labour.",
   },
   {
     q: "Can you match my existing glass type (frosted, tinted, etc.)?",
@@ -138,7 +138,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Foggy Window Repair Toronto",
   description:
-    "Foggy windows? We replace the sealed glass unit and keep your frame. A fraction of full replacement cost. Lifetime Warranty. Call 437-344-8490.",
+    "Foggy windows? We replace the sealed glass unit and keep your frame. A fraction of full replacement cost. 5-Year Warranty. Call 437-344-8490.",
   alternates: { canonical: "/foggy-windows" },
 };
 
@@ -215,7 +215,7 @@ export default function FoggyWindowsPage() {
                 Foggy Window Repair Toronto: Sealed Unit Replacement
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8 max-w-2xl">
-                <strong>Foggy windows happen when the seal between the glass panes fails, letting moisture inside the sealed unit.</strong> The fix is replacing the glass unit only, not the whole window. At LuminaSky, foggy window repair costs a fraction of full window replacement, carries a transferable Lifetime Warranty against seal failure (first 2 years include labour), and takes 1 to 2 weeks from the free measurement visit. We service all 34 cities across the GTA with same-week measurement appointments.
+                <strong>Foggy windows happen when the seal between the glass panes fails, letting moisture inside the sealed unit.</strong> The fix is replacing the glass unit only, not the whole window. At LuminaSky, foggy window repair costs a fraction of full window replacement, carries a 5-year warranty against seal failure, plus a 2-year warranty on parts and labour, and takes 1 to 2 weeks from the free measurement visit. We service all 34 cities across the GTA with same-week measurement appointments.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -232,9 +232,9 @@ export default function FoggyWindowsPage() {
                   Call Now
                 </a>
               </div>
-              <Link href="/lifetime-warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
+              <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
                 <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-                Transferable Lifetime Warranty on sealed glass
+                5-Year Warranty on sealed glass
               </Link>
             </div>
 

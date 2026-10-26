@@ -76,7 +76,7 @@ const PROCESS_STEPS = [
   {
     step: "5",
     title: "You get a warranty on the invoice",
-    desc: "New sealed units carry a transferable Lifetime Warranty against seal failure. The first 2 years include parts and labour. From year 3 onward, we cover the glass unit at no cost.",
+    desc: "New sealed units carry a 5-year warranty against seal failure. All repair work carries a 2-year warranty on parts and labour.",
   },
 ];
 
@@ -84,7 +84,7 @@ const TRUST_POINTS = [
   "Licensed & insured in Ontario",
   "Written price before work",
   "2-year workmanship warranty",
-  "Lifetime Warranty on sealed glass units",
+  "5-Year Warranty on sealed glass units",
 ];
 
 const FAQS = [
@@ -110,19 +110,19 @@ const FAQS = [
   },
   {
     q: "Is the new glass under warranty?",
-    a: "Yes. New sealed units carry a transferable Lifetime Warranty against seal failure. The first 2 years include both parts and labour. From year 3 onward, we provide the replacement glass at no cost and you pay only for installation. Glass breakage is not covered. The warranty is printed on your invoice.",
+    a: "Yes. New sealed units carry a 5-year warranty against seal failure (fogging and condensation between the panes). All repair work carries a 2-year warranty on parts and labour. Glass breakage is not covered.",
   },
 ];
 
 export const metadata: Metadata = {
   title: { absolute: "Glass Replacement Toronto | LuminaSky Glass Services" },
   description:
-    "Cracked or broken window glass? We replace the sealed unit and keep your frame. Lifetime Warranty on glass. Free photo quote. Call 437-344-8490.",
+    "Cracked or broken window glass? We replace the sealed unit and keep your frame. 5-Year Warranty on glass. Free photo quote. Call 437-344-8490.",
   alternates: { canonical: "/glass-replacement" },
   openGraph: {
     title: "Glass Replacement Toronto | LuminaSky Glass Services",
     description:
-      "Cracked or broken window glass? We replace the sealed unit and keep your frame. Lifetime Warranty on glass. Free photo quote. Call 437-344-8490.",
+      "Cracked or broken window glass? We replace the sealed unit and keep your frame. 5-Year Warranty on glass. Free photo quote. Call 437-344-8490.",
     url: "/glass-replacement",
   },
 };
@@ -172,7 +172,7 @@ export default function GlassReplacementPage() {
                 Broken or Cracked Window Glass Replacement in Toronto
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
-                <strong>Glass replacement at LuminaSky costs a fraction of full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, we offer a transferable Lifetime Warranty against seal failure on sealed glass units (first 2 years include labour), and we service residential and commercial properties across the GTA. See our <Link href="/glass-replacement-cost-report-2026" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">2026 GTA Cost Report</Link> for market pricing.
+                <strong>Glass replacement at LuminaSky costs a fraction of full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, we offer a 5-year warranty against seal failure on sealed glass units, plus a 2-year warranty on parts and labour for all repair work, and we service residential and commercial properties across the GTA. See our <Link href="/glass-replacement-cost-report-2026" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">2026 GTA Cost Report</Link> for market pricing.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -189,9 +189,9 @@ export default function GlassReplacementPage() {
                   Call 437-344-8490
                 </a>
               </div>
-              <Link href="/lifetime-warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
+              <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
                 <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-                Transferable Lifetime Warranty on sealed glass
+                5-Year Warranty on sealed glass
               </Link>
             </div>
 

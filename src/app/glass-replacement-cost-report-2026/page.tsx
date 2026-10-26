@@ -146,7 +146,7 @@ const COST_TIPS = [
 ];
 
 const LUMINASKY_ADVANTAGES = [
-  { icon: Award, text: "Lifetime Warranty on sealed glass units (industry standard: 3–5 years)", href: "/lifetime-warranty", highlight: true },
+  { icon: Award, text: "5-Year Warranty on sealed glass units", href: "/warranty", highlight: true },
   { icon: Clock, text: "Serving 34 GTA cities with same-week measurement", href: "/areas-we-serve", highlight: false },
   { icon: Shield, text: "24/7 emergency board-up", href: "/emergency-glass-repair", highlight: false },
   { icon: ShieldCheck, text: "$2M liability insurance with certificate available", href: null, highlight: false },
@@ -173,8 +173,8 @@ const FAQS = [
     a: "The prices shown include supply, installation and measurement. They do not include HST. Specialty features like Low-E coating, tempered glass or decorative patterns add to the base price.",
   },
   {
-    q: "Why does LuminaSky offer a Lifetime Warranty when industry standard is 3–5 years?",
-    a: "Our Lifetime Warranty is part of our commitment to long-term customer relationships. Years 0–2 include full coverage (free glass and installation). From year 3 onward, replacement glass is free; customer pays only for installation and a standard service call.",
+    q: "What warranty does LuminaSky offer on sealed glass?",
+    a: "Every sealed glass unit we install carries a 5-year warranty against seal failure. All repair work carries a 2-year warranty on parts and labour. Glass breakage is not covered.",
   },
 ];
 

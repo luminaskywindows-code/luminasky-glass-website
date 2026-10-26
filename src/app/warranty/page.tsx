@@ -7,7 +7,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Warranty Coverage",
   description:
-    "Transferable Lifetime Warranty on sealed glass units against seal failure. 2-year parts and labour on hardware. Clear terms, no fine print.",
+    "5-year warranty on sealed glass units against seal failure. 2-year parts and labour on all repairs. Clear terms, no fine print.",
   alternates: { canonical: "/warranty" },
 };
 
@@ -115,19 +115,19 @@ export default function WarrantyPage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 Sealed glass units are covered by a{" "}
                 <strong className="text-gray-900">
-                  transferable Lifetime Warranty against seal failure
+                  5-year warranty against seal failure
                 </strong>
-                . During the first 2 years, we cover both parts and labour at no cost. From year 3 onward, we provide the replacement glass unit at no cost and you pay only for installation. Glass breakage is not covered under warranty.
+                . If the seal fails within 5 years of installation (fogging, condensation between the panes), we replace the glass unit at no cost, including parts and labour. Glass breakage is not covered under warranty.
               </p>
-              <Link href="/lifetime-warranty" className="flex items-center gap-3 bg-primary/5 rounded-xl p-4 hover:bg-primary/10 transition-colors">
+              <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
                 <Shield
                   className="w-6 h-6 text-primary shrink-0"
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  Lifetime Warranty Against Seal Failure &rarr; Full details
+                  5 Years on Sealed Glass Against Seal Failure
                 </p>
-              </Link>
+              </div>
             </div>
 
             {/* Hardware */}

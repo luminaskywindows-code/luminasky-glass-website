@@ -66,10 +66,10 @@ const CREDENTIALS = [
   },
   {
     icon: ShieldCheck,
-    title: "Transferable Lifetime Warranty on Sealed Glass",
+    title: "5-Year Warranty on Sealed Glass",
     color: "text-sky-600",
     bg: "bg-sky-100",
-    href: "/lifetime-warranty",
+    href: "/warranty",
     highlight: true,
   },
 ];

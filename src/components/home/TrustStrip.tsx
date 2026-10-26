@@ -13,8 +13,8 @@ import {
 const TRUST_ITEMS = [
   {
     icon: Award,
-    label: "Lifetime Warranty on Glass* (from Nov 1, 2026)",
-    href: "/lifetime-warranty",
+    label: "5-Year Seal Warranty + 2-Year Parts & Labour",
+    href: "/warranty",
     highlight: true,
   },
   {

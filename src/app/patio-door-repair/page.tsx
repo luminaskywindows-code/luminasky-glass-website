@@ -133,9 +133,9 @@ export default function PatioDoorRepairPage() {
                 Call 437-344-8490
               </a>
             </div>
-            <Link href="/lifetime-warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
+            <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
               <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-              Transferable Lifetime Warranty on sealed glass
+              5-Year Warranty on sealed glass
             </Link>
           </div>
         </div>
@@ -202,7 +202,7 @@ export default function PatioDoorRepairPage() {
             Patio Door Glass Replacement
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Building code requires tempered safety glass in patio doors. We measure the panel, have a new tempered sealed unit made (5-15 business days, depending on glass type and size), and install it in your existing panel. You can upgrade to Low-E or argon-filled glass at the same time. New sealed units carry a transferable Lifetime Warranty against seal failure, with the first 2 years including parts and labour.
+            Building code requires tempered safety glass in patio doors. We measure the panel, have a new tempered sealed unit made (5-15 business days, depending on glass type and size), and install it in your existing panel. You can upgrade to Low-E or argon-filled glass at the same time. New sealed units carry a 5-year warranty against seal failure. All repair work carries a 2-year warranty on parts and labour.
           </p>
         </div>
       </section>

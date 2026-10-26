@@ -87,12 +87,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${SITE_URL}/lifetime-warranty`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.9,
-    },
-    {
       url: `${SITE_URL}/glass-replacement-cost-report-2026`,
       lastModified: new Date("2026-10-26"),
       changeFrequency: "monthly" as const,

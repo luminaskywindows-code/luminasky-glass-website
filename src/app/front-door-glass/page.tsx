@@ -160,7 +160,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Front Door Glass Replacement Toronto",
   description:
-    "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. Lifetime Warranty. Call 437-344-8490.",
+    "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 5-Year Warranty. Call 437-344-8490.",
   alternates: { canonical: "/front-door-glass" },
 };
 
@@ -256,9 +256,9 @@ export default function FrontDoorGlassPage() {
                   Call Now
                 </a>
               </div>
-              <Link href="/lifetime-warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
+              <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
                 <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-                Transferable Lifetime Warranty on sealed glass
+                5-Year Warranty on sealed glass
               </Link>
             </div>
 

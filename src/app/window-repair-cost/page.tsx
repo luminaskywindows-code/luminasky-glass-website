@@ -240,7 +240,7 @@ export default function WindowRepairCostPage() {
             Foggy Window Repair Cost
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Fog between the panes means the sealed unit has failed. Cleaning or &ldquo;defogging&rdquo; can&apos;t reach inside the unit, so the lasting fix is a new sealed unit in your existing frame. It costs a fraction of a new window, because the frame, trim and interior finish stay in place, and new units carry a transferable Lifetime Warranty against seal failure.{" "}
+            Fog between the panes means the sealed unit has failed. Cleaning or &ldquo;defogging&rdquo; can&apos;t reach inside the unit, so the lasting fix is a new sealed unit in your existing frame. It costs a fraction of a new window, because the frame, trim and interior finish stay in place, and new units carry a 5-year warranty against seal failure.{" "}
             <Link href="/foggy-windows" className="text-primary font-semibold hover:underline">Foggy glass repair</Link>
             {" | "}
             <Link href="/blog/why-windows-fog-between-panes" className="text-primary font-semibold hover:underline">Why windows fog between panes</Link>

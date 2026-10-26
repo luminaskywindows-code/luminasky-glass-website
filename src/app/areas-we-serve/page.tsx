@@ -9,7 +9,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Areas We Serve in the GTA",
   description:
-    "Window and glass repair across 34 GTA cities. Toronto, Vaughan, Mississauga, Markham and more. Lifetime Warranty on glass. Call 437-344-8490.",
+    "Window and glass repair across 34 GTA cities. Toronto, Vaughan, Mississauga, Markham and more. 5-Year Warranty on glass. Call 437-344-8490.",
   alternates: { canonical: "/areas-we-serve" },
 };
 

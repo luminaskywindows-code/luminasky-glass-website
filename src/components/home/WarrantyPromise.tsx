@@ -2,9 +2,9 @@ import Link from "next/link";
 import { ShieldCheck, CheckCircle2 } from "lucide-react";
 
 const POINTS = [
-  "Lifetime warranty against seal failure on every sealed glass unit we install",
-  "Free glass and installation for the first 2 years",
-  "Transferable: stays with the property if you sell (keep your invoice for the new owner)",
+  "5-year warranty against seal failure on every sealed glass unit we install",
+  "2-year warranty on parts and labour for all repair work",
+  "Clear terms, no fine print, no hidden conditions",
 ];
 
 export function WarrantyPromise() {
@@ -15,7 +15,7 @@ export function WarrantyPromise() {
           Our Promise
         </span>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10">
-          Glass That&apos;s Covered for Life
+          Glass That&apos;s Covered
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
           {POINTS.map((point) => (
@@ -34,15 +34,12 @@ export function WarrantyPromise() {
           ))}
         </div>
         <Link
-          href="/lifetime-warranty"
+          href="/warranty"
           className="inline-flex items-center gap-2 bg-primary hover:bg-primary-700 text-white font-semibold px-8 py-4 rounded-md shadow-sm hover:shadow-md transition-all"
         >
           <ShieldCheck className="w-5 h-5" aria-hidden="true" />
           See the full warranty
         </Link>
-        <p className="text-gray-400 text-xs mt-4">
-          Sealed glass units installed Nov 1, 2026 and later.
-        </p>
       </div>
     </section>
   );

@@ -157,7 +157,7 @@ const FAQS = [
   },
   {
     q: "What's the warranty on skylight repair?",
-    a: "All skylight repairs come with a 2-year workmanship warranty. New sealed glass units carry a transferable Lifetime Warranty against seal failure.",
+    a: "All skylight repairs come with a 2-year warranty on parts and labour. New sealed glass units carry a 5-year warranty against seal failure.",
   },
   {
     q: "My skylight is old. Should I repair or replace it?",
@@ -269,9 +269,9 @@ export default function SkylightsPage() {
                 Call 437-344-8490
               </a>
             </div>
-            <Link href="/lifetime-warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
+            <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
               <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-              Transferable Lifetime Warranty on sealed glass
+              5-Year Warranty on sealed glass
             </Link>
           </div>
         </div>
@@ -340,7 +340,7 @@ export default function SkylightsPage() {
               Building code requires tempered safety glass in skylights. We measure the existing unit, order a new tempered sealed unit made to size, and install it once it arrives, typically 5-15 business days depending on glass type and dimensions. You can upgrade to low-E coated or argon-filled glass at the same time for better energy performance.
             </p>
             <p>
-              New sealed glass units carry a transferable Lifetime Warranty against seal failure, plus our 2-year workmanship warranty on installation.{" "}
+              New sealed glass units carry a 5-year warranty against seal failure, plus our 2-year warranty on parts and labour.{" "}
               <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">Learn more about glass replacement &rarr;</Link>
             </p>
           </div>
