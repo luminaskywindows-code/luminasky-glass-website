@@ -20,7 +20,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Window Repair vs Replacement: Which One Do You Actually Need?",
     metaTitle: "Window Repair vs Replacement in Toronto",
     metaDescription:
-      "Not every broken window needs replacing. Learn when repair saves you money, when replacement is the smarter move, and how to tell the difference. Toronto homeowner guide.",
+      "Not every broken window needs replacing. Learn when repair saves money, when replacement makes sense, and how to tell the difference.",
     excerpt:
       "A cracked seal, a stuck crank, condensation between the panes. Your first instinct might be to replace the whole window. But in many cases, a targeted repair costs a fraction of the price and solves the problem completely.",
     publishedAt: "2026-10-01",
@@ -621,7 +621,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Skylights in Winter: Leaks, Ice Dams and Condensation Explained",
     metaTitle: "Skylights in Winter: Leaks and Condensation",
     metaDescription:
-      "Water dripping from your skylight in winter? Learn how to tell condensation from a real leak, how ice dams affect skylights, and when to repair or replace.",
+      "Water dripping from your skylight? Learn how to tell condensation from a real leak, how ice dams affect skylights and when to repair or replace.",
     excerpt:
       "Water around your skylight in winter can mean condensation, a failed seal, a flashing leak, or ice dam backup. Each has a different cause and a different fix. This guide helps you figure out which one you are dealing with.",
     publishedAt: "2026-10-07",
@@ -787,7 +787,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Why Your Window Crank Broke, and What Actually Needs Fixing",
     metaTitle: "Window Crank Repair in Toronto",
     metaDescription:
-      "The handle spins or won't turn. Here's what actually failed inside a casement window crank, how to tell which part broke, and why repair almost always beats replacement.",
+      "The handle spins or won't turn. What actually failed inside your casement window crank, how to tell which part broke, and why repair beats replacement.",
     excerpt:
       "You turn the handle and nothing happens. Or it spins freely without moving the window. Crank failure is the single most common window repair we are called out for across the GTA, and almost every homeowner asks the same thing: does this mean I need a new window? Almost never.",
     publishedAt: "2026-10-18",
@@ -859,7 +859,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Who Pays for Window Repairs in a Condo: the Unit Owner or the Corporation?",
     metaTitle: "Who Pays for Condo Window Repairs in Ontario?",
     metaDescription:
-      "Window broken in your Ontario condo? Here's how to figure out in ten minutes whether the unit owner or the corporation pays, and what to do when it's unclear.",
+      "Window broken in your Ontario condo? Here is how to figure out whether the unit owner or the corporation pays, and what to do when it is unclear.",
     excerpt:
       "The glass in your condo has gone cloudy, or the crank has stopped working, and you are not sure whether to call a repair company or call the property manager. Here is how to find your answer quickly.",
     publishedAt: "2026-10-18",
@@ -930,7 +930,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Why Windows Fog Up Between the Panes, and Why Cleaning Never Works",
     metaTitle: "Why Windows Fog Between the Panes",
     metaDescription:
-      "The haze between your window panes isn't dirt and you can't reach it. Here's what's actually happening inside a failed sealed glass unit, and what the repair involves.",
+      "The haze between your window panes is not dirt. Here is what happens inside a failed sealed glass unit and what the repair actually involves.",
     excerpt:
       "You have cleaned it twice. You have cleaned it from the outside. The haze is still there. It is not dirt, and you are not going to reach it. Here is what is actually happening inside that window.",
     publishedAt: "2026-10-18",
@@ -1017,7 +1017,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Your Storefront Glass Broke After Hours. Here Is What to Do Tonight",
     metaTitle: "Storefront Glass Emergency Board-Up Toronto",
     metaDescription:
-      "Broken commercial storefront glass at midnight? Here's the step-by-step order of operations for business owners in Toronto and the GTA, from safety to insurance to permanent glass.",
+      "Broken storefront glass after hours? Step-by-step guide for GTA business owners: safety, board-up, insurance and permanent glass replacement.",
     excerpt:
       "A break-in, a vehicle in the entrance, or a pane that finally let go. If you are a business owner reading this at eleven at night, here is the order of operations.",
     publishedAt: "2026-10-18",
@@ -1091,7 +1091,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Double, Triple, Low-E and Argon: What You Are Actually Paying For",
     metaTitle: "Double vs Triple Pane Glass Explained",
     metaDescription:
-      "Comparing window glass quotes? Here's what double-pane, triple-pane, Low-E coatings and argon fill each actually do in an Ontario winter, and which upgrades are worth it.",
+      "Comparing window glass quotes? What double-pane, triple-pane, Low-E and argon fill actually do in an Ontario winter and which upgrades are worth it.",
     excerpt:
       "When you get a quote for new glass, you are handed a list of options with names that sound technical and no explanation of what any of them do. Here is what each one does in an Ontario winter, and which ones are worth paying for.",
     publishedAt: "2026-10-18",
@@ -1165,7 +1165,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Patio Door That Will Not Slide: Rollers, Tracks, and What Is Really Wrong",
     metaTitle: "Patio Door Won't Slide: How to Fix It",
     metaDescription:
-      "Patio door jamming or dragging? Here's the three-stage failure (dirty track, worn rollers, dropped panel), what you can fix yourself, and when replacement actually matters.",
+      "Patio door jamming or dragging? The three-stage failure: dirty track, worn rollers, dropped panel. What to fix yourself and when to call a pro.",
     excerpt:
       "You put your shoulder into it and it moves in jerks. Or it comes off its line halfway and jams. Sliding patio doors are among the heaviest moving parts in a house, and when they go wrong the instinct is to assume the whole door is finished. It usually is not.",
     publishedAt: "2026-10-18",

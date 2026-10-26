@@ -8,7 +8,7 @@ import { SERVICES } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "All Services",
   description:
-    "Browse all LuminaSky Glass Services offerings: foggy glass repair, front door glass, window cranks, screen doors, skylights, window screens & more across the GTA.",
+    "All LuminaSky services: foggy glass, front door glass, window cranks, screen doors, skylights, screens and more across the GTA.",
   alternates: { canonical: "/services" },
 };
 

@@ -138,7 +138,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Foggy Window Repair Toronto",
   description:
-    "Foggy windows? We replace the sealed glass unit and keep your frame. Foggy window repair across Toronto and the GTA, a fraction of the cost of a new window. Free photo quote.",
+    "Foggy windows? We replace the sealed glass unit and keep your frame. A fraction of full replacement cost. Lifetime Warranty. Call 437-344-8490.",
   alternates: { canonical: "/foggy-windows" },
 };
 

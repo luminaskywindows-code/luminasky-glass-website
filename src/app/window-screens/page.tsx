@@ -84,7 +84,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Window Screen Repair Toronto & Replacement",
   description:
-    "Torn, bent or missing window screens? LuminaSky repairs and replaces window and patio door screens across Vaughan, Thornhill, Richmond Hill, Markham and North York.",
+    "Torn, bent or missing window screens? LuminaSky repairs and replaces window and patio door screens across the GTA. Call 437-344-8490.",
   alternates: { canonical: "/window-screens" },
 };
 

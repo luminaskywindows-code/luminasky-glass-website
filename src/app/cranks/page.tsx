@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = {
   title: "Window Crank Repair Toronto & Hinge Repair",
   description:
-    "Broken window crank or stuck casement? LuminaSky stocks AmesburyTruth, Roto & more. Most repairs in 30 minutes, same-day across the Greater Toronto Area. Call 437-344-8490.",
+    "Broken window crank or stuck casement? LuminaSky stocks AmesburyTruth, Roto and more. Same-day repair across the GTA. Call 437-344-8490.",
   alternates: { canonical: "/cranks" },
 };
 

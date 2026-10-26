@@ -9,7 +9,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Areas We Serve in the GTA",
   description:
-    "LuminaSky Glass Services serves Toronto, Mississauga, Etobicoke, Brampton, Oakville, Vaughan, Thornhill, Richmond Hill, Markham, North York, Scarborough, Aurora, Newmarket, King City & the entire GTA. Fast, affordable window and glass repair. Available 24/7.",
+    "Window and glass repair across 34 GTA cities. Toronto, Vaughan, Mississauga, Markham and more. Lifetime Warranty on glass. Call 437-344-8490.",
   alternates: { canonical: "/areas-we-serve" },
 };
 

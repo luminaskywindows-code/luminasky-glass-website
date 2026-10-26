@@ -160,7 +160,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Front Door Glass Replacement Toronto",
   description:
-    "Replace cracked or foggy front door glass inserts across the Greater Toronto Area. Decorative, frosted & clear glass. LuminaSky Glass Services: Call 437-344-8490.",
+    "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. Lifetime Warranty. Call 437-344-8490.",
   alternates: { canonical: "/front-door-glass" },
 };
 

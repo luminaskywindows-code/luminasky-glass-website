@@ -7,7 +7,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Warranty Coverage",
   description:
-    "LuminaSky Glass Services warranty: transferable Lifetime Warranty on sealed glass units against seal failure, 2-year parts and labour on hardware. Clear coverage, honest numbers, no fine print.",
+    "Transferable Lifetime Warranty on sealed glass units against seal failure. 2-year parts and labour on hardware. Clear terms, no fine print.",
   alternates: { canonical: "/warranty" },
 };
 

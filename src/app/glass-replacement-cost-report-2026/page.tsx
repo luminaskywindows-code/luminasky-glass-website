@@ -213,7 +213,7 @@ function generateReportSchema() {
     "@type": "Report",
     headline: "GTA Glass Replacement Cost Report 2026",
     description:
-      "Complete guide to sealed glass unit replacement costs across the Greater Toronto Area in 2026. Market pricing survey, cost factors, hidden fees to avoid, and what to expect.",
+      "What does glass replacement cost in Toronto in 2026? GTA pricing data, cost factors, hidden fees to avoid and tips to save. Updated October 2026.",
     url: `${SITE_URL}/glass-replacement-cost-report-2026`,
     datePublished: "2026-10-26",
     author: {
@@ -245,7 +245,7 @@ function generateReportSchema() {
 export const metadata: Metadata = {
   title: "GTA Glass Replacement Cost Report 2026",
   description:
-    "Complete guide to sealed glass unit replacement costs across the Greater Toronto Area in 2026. Market pricing survey, cost factors, hidden fees to avoid, and what to expect.",
+    "What does glass replacement cost in Toronto in 2026? GTA pricing data, cost factors, hidden fees to avoid and tips to save. Updated October 2026.",
   alternates: { canonical: "/glass-replacement-cost-report-2026" },
 };
 

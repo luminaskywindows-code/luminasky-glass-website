@@ -24,7 +24,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Foggy Glass Repair in Toronto",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Toronto: Cabbagetown, the Danforth, the Beaches and beyond. Fix the seal failure without replacing the whole window. Free photo quote.",
+      "Foggy window repair in Toronto, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Toronto's housing stock spans more than a century, from pre-war brick row houses in Cabbagetown and Riverdale to mid-century bungalows in the Beaches and modern mid-rise condos along the Danforth. What they all share is windows that eventually fog up. LuminaSky replaces the failed sealed glass unit without touching the frame, sash, or hardware, at a fraction of the cost of full window replacement.",
     uniqueContent:
@@ -41,7 +41,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Foggy Glass Repair in Mississauga",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Mississauga: Erin Mills, Port Credit, Meadowvale and more. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Mississauga, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Mississauga's massive inventory of 1970s through 1990s subdivisions (Erin Mills, Meadowvale, Churchill Meadows) puts thousands of homes squarely in the prime window-fog age bracket. Sealed glass units installed 25 to 40 years ago are failing in waves across the city. LuminaSky swaps out the clouded IGU on-site, leaving the frame and hardware untouched, so Mississauga homeowners restore clarity at a fraction of full window replacement cost.",
     uniqueContent:
@@ -58,7 +58,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Foggy Glass Repair in Vaughan",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Vaughan: Woodbridge, Maple, Kleinburg, Concord. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Vaughan, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Vaughan's housing runs the full spectrum: mature custom estates along Islington in Woodbridge, mid-2000s family homes in Vellore Village, and newer VMC condos near the subway. Sealed glass units in Vaughan homes of all ages eventually lose their seal and fog over. LuminaSky replaces only the failed glass unit, keeping your existing frames and trim intact, so Vaughan homeowners pay a fraction of the cost of tearing the whole window out.",
     uniqueContent:
@@ -75,7 +75,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Foggy Glass Repair in Thornhill",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Thornhill: Royal Orchard, Thornlea, Beverley Glen. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Thornhill, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Thornhill straddles the Vaughan-Markham border, and its housing reflects that dual character: established mid-century brick bungalows along Centre Street, large estate homes in Royal Orchard, and modern townhomes near the Promenade. Many of these homes carry original double-pane windows now well past their seal lifespan. LuminaSky restores foggy windows across Thornhill by replacing only the sealed glass unit, leaving frames and trim untouched.",
     uniqueContent:
@@ -92,7 +92,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Foggy Glass Repair in Richmond Hill",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Richmond Hill: Oak Ridges, Bayview Hill, Mill Pond. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Richmond Hill, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Richmond Hill's rapid growth over the past two decades means even relatively new homes are showing seal failures. In Oak Ridges and Jefferson, sealed units installed during the 2000s building boom are now fogging up on schedule. Along the mature Bayview corridor, larger estate windows with premium Low-E glass are losing their argon fill. LuminaSky replaces the failed glass unit on-site, no frame removal, no disruption to your landscaping or interior trim.",
     uniqueContent:
@@ -109,7 +109,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Foggy Glass Repair in Markham",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Markham: Unionville, Cornell, Milliken, Berczy Village. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Markham, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Markham's diversity extends to its housing: century homes along Main Street Unionville, townhouse complexes in Milliken, and sprawling new subdivisions in Cornell and Cathedraltown. Each generation of window eventually fogs. Unionville's older wooden frames need careful glass sizing; Cornell's builder-grade vinyl units are hitting the 15-year mark where seals start to fail. LuminaSky handles both, replacing only the sealed glass unit while preserving the frame and hardware.",
     uniqueContent:
@@ -126,7 +126,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Foggy Glass Repair in North York",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in North York: Willowdale, Don Mills, Bayview Village. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in North York, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "North York packs three distinct housing eras into one district. Post-war bungalows in Don Mills and Bayview Village carry original sealed units from the 1960s and 70s. The 1980s split-levels along Finch have double-pane glass now well past warranty. And along the Yonge corridor, condo towers with floor-to-ceiling glazing face seal failures at scale. LuminaSky serves all three, replacing the failed IGU on-site while the frame, sash, and balcony hardware stay in place.",
     uniqueContent:
@@ -143,7 +143,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Foggy Glass Repair in Scarborough",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Scarborough: Agincourt, Birch Cliff, Guildwood, Malvern. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Scarborough, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Scarborough's post-war bungalows in Birch Cliff and Guildwood, 1970s and 80s side-splits across Bendale, and high-rise clusters in Malvern represent decades of sealed glass units reaching end of life at the same time. Many Scarborough homeowners are quoted full window replacement when all they need is a new glass unit. LuminaSky replaces just the sealed IGU, keeping your existing frames, trim, and brick mould intact, at a fraction of the cost.",
     uniqueContent:
@@ -160,7 +160,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Foggy Glass Repair in Etobicoke",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Etobicoke: The Kingsway, Mimico, Long Branch, Sunnylea. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Etobicoke, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Etobicoke's established neighbourhoods (The Kingsway, Sunnylea, Alderwood, Thorncrest Village) contain some of the GTA's most mature housing stock, with original casement windows from the 1950s through 1980s. Along the lakeshore in Mimico and Long Branch, a wave of newer condo developments adds modern sealed units to the mix. Both old and new eventually fog. LuminaSky replaces the failed glass unit in place, preserving the character of heritage homes and the clean lines of modern builds alike.",
     uniqueContent:
@@ -177,7 +177,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Foggy Glass Repair in Brampton",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Brampton: Bramalea, Heart Lake, Castlemore, Mount Pleasant. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Brampton, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Brampton's housing boom from the 1990s through the 2010s means thousands of single-family homes and townhomes are now entering the window-fog zone: the 15- to 25-year mark where factory sealed units start failing. From established Bramalea subdivisions to newer builds in Castlemore and Fletcher's Meadow, foggy windows are becoming a common complaint. LuminaSky replaces the sealed glass unit on-site, so Brampton homeowners restore their view without the cost of ripping out the entire window.",
     uniqueContent:
@@ -194,7 +194,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Foggy Glass Repair in Oakville",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Oakville: Old Oakville, Glen Abbey, Bronte, River Oaks. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Oakville, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Oakville homeowners invest in their properties, and windows are a big part of that investment. Heritage homes in Old Oakville and Bronte carry original sealed glass now decades past its lifespan. In Glen Abbey and River Oaks, builder-grade units from the 1990s are fogging up as the perimeter seals break down. Newer estates in Joshua Creek are not immune either, even premium glass eventually fails. LuminaSky replaces the sealed unit while keeping your frames and trim intact, restoring clarity at a fraction of full replacement cost.",
     uniqueContent:
@@ -211,7 +211,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Foggy Glass Repair in Aurora",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Aurora: Aurora Village, Bayview Wellington, Hills of St Andrew. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Aurora, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Aurora's mix of established Aurora Village homes and newer Bayview Wellington subdivisions means sealed glass units of all ages are failing. Heritage homes near Yonge and Wellington have older wooden frames with glass long overdue for replacement, while the subdivisions built through the 1990s and 2000s are hitting the mark where factory seals give out. LuminaSky restores clarity to foggy windows across Aurora without full window replacement. The same repair-first approach that has saved GTA homeowners thousands.",
     uniqueContent:
@@ -228,7 +228,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Foggy Glass Repair in Woodbridge",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Woodbridge: Sonoma Heights, Vellore Village, Islington Woods. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Woodbridge, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Woodbridge is one of Vaughan's most established communities, and its mature housing stock shows it around the windows. Custom-built homes along Islington in Sonoma Heights often have oversized sealed units that are expensive to replace entirely. Family homes in Vellore Village, built in the early 2000s, are now past the 20-year mark where builder-grade seals fail. LuminaSky replaces only the clouded glass unit, no frame removal, no siding damage, no multi-week wait.",
     uniqueContent:
@@ -245,7 +245,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Foggy Glass Repair in Maple",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Maple: Eagle Hills, Mackenzie Ridge, Sabatini. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Maple, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Maple's growth from a quiet village into one of Vaughan's busiest communities happened fast, and the homes built during that boom are now old enough to show it. Subdivisions in Eagle Hills, Mackenzie Ridge, and Sabatini are filled with post-2000 family homes whose factory-sealed windows are developing condensation between the panes right on schedule. LuminaSky replaces the failed sealed glass unit on-site, leaving the vinyl frames and hardware untouched. No tearout, no reframing, and far less cost than starting from scratch.",
     uniqueContent:
@@ -262,7 +262,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Foggy Glass Repair in King City",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in King City: Kingscross Estates, Nobleton, Kettleby. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in King City, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "King City and the Township of King are known for large-lot estates, horse properties, and rural acreages with panoramic windows that frame the countryside. When those oversized sealed glass units fog up, homeowners face steep replacement quotes because of the sheer size of the glass. LuminaSky replaces only the sealed unit, even on extra-large picture windows and feature glass, keeping your custom frames and trim intact and saving substantially on what would otherwise be a five-figure replacement project.",
     uniqueContent:
@@ -279,7 +279,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Foggy Glass Repair in Newmarket",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Newmarket: Stonehaven, Glenway, Summerhill Estates. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Newmarket, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Newmarket sits at the northern edge of York Region's suburban belt with housing that tells a story of steady growth. The historic downtown along Main Street has century-old homes with wood-frame windows that benefit from modern glass upgrades. The 1980s and 90s subdivisions of Stonehaven, Glenway, and Woodland Hill have hit the age where factory seals fail en masse. Even newer builds in Summerhill Estates are not immune to early seal breakdown in builder-grade windows. LuminaSky handles all of it, replacing the sealed glass unit on-site without disturbing your frames.",
     uniqueContent:
@@ -296,7 +296,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Foggy Glass Repair in Burlington",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Burlington: Roseland, Aldershot, Tyandaga, Alton Village. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Burlington, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Burlington's housing blends established lakefront heritage in Roseland and LaSalle Park with mid-century suburban streets in Tyandaga and Palmer and newer family subdivisions in Alton Village and Orchard. Older homes along the lake carry original sealed glass that has been fighting moisture for decades. The 1970s and 80s suburbs are hitting peak fog season, sealed units installed 30 to 40 years ago failing in clusters. LuminaSky replaces the clouded glass unit on-site, leaving Burlington homeowners' frames and trim untouched at a fraction of full window replacement cost.",
     uniqueContent:
@@ -313,7 +313,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Foggy Glass Repair in Milton",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Milton: Beaty, Coates, Scott, Old Milton. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Milton, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Milton is one of Ontario's fastest-growing cities, and most of its housing is barely two decades old. Post-2000 subdivisions in Beaty, Coates, Scott, and Ford are packed with builder-grade windows now entering the 15- to 20-year fog zone: the age bracket where factory-installed seals begin to break down. Closer to the Old Milton core, heritage homes along Main Street carry older sealed units and wood frames that have long outlasted their original glass. LuminaSky replaces the failed sealed glass unit on-site in both cases, preserving frames, skipping the cost of full replacement, and getting Milton homeowners back to clear windows fast.",
     uniqueContent:
@@ -330,7 +330,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Foggy Glass Repair in Ajax",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Ajax: Applecroft, Duffin Heights, Central Ajax. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Ajax, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Ajax's housing is overwhelmingly suburban: 1990s and 2000s single-family homes and townhome complexes spread across Applecroft, Central Ajax, and Northeast Ajax that form the backbone of this working-family community. These homes are now 20 to 30 years old, which puts their factory-sealed windows squarely in the failure zone. Condensation between the panes, hazy views, and reduced insulation are becoming common complaints across Ajax neighbourhoods. LuminaSky swaps out the failed IGU on-site without removing the frame, a practical, affordable fix that skips the cost of ripping out and replacing the entire window.",
     uniqueContent:
@@ -347,7 +347,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Foggy Glass Repair in Pickering",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Pickering: Bay Ridges, Amberlea, Brock Ridge. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Pickering, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Pickering spans from the Lake Ontario waterfront at Bay Ridges and West Shore north through established 1980s and 90s subdivisions in Amberlea, Liverpool, and Brock Ridge to newer builds in Duffin Heights and rural estates in Whitevale. Waterfront properties face accelerated seal failure from lake-effect humidity and temperature swings. Inland, the mature suburban stock is hitting 30 to 40 years: the age where sealed glass units fog in waves. LuminaSky replaces the failed IGU on-site, keeping Pickering homeowners' frames intact and at a fraction of the cost of full window replacement.",
     uniqueContent:
@@ -364,7 +364,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Foggy Glass Repair in Caledon",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Caledon: Bolton, Caledon East, Palgrave, Mayfield West. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Caledon, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Caledon's rural landscape is dotted with estate properties, horse farms, and village homes whose oversized picture windows frame views of the Niagara Escarpment and rolling countryside. When those panoramic sealed glass units fog up, homeowners face steep replacement quotes driven by the sheer size of the glass. In Bolton and Mayfield West, newer subdivisions carry builder-grade windows hitting the 15-year fog mark. LuminaSky replaces only the sealed unit, even on extra-large picture windows and feature glass, keeping Caledon homeowners' custom frames and trim intact at a fraction of full replacement cost.",
     uniqueContent:
@@ -381,7 +381,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Foggy Glass Repair in Whitby",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Whitby: Brooklin, Pringle Creek, Port Whitby, Rolling Acres. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Whitby, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Whitby straddles two worlds: heritage village character in Brooklin with century homes along Baldwin Street, and Durham Region's suburban growth in Rolling Acres, Pringle Creek, and Taunton North. Brooklin's older wood-frame windows carry original sealed glass now decades past its lifespan. The 1980s and 90s subdivisions around Pringle Creek and Rolling Acres are in the peak fog zone, with factory seals breaking down on schedule. Even the newer Taunton North builds are not immune. LuminaSky replaces the sealed glass unit on-site, preserving Brooklin's heritage frames and saving Whitby's suburban homeowners the cost of unnecessary full window replacement.",
     uniqueContent:
@@ -398,7 +398,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Dufferin County",
     metaTitle: "Foggy Glass Repair in Orangeville",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Orangeville: Mono Mills, Credit Meadows, Downtown Orangeville. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Orangeville, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Orangeville is Dufferin County's commercial hub, blending century homes along Broadway with newer subdivisions in Credit Meadows and Island Lake. Downtown's original sash windows and the 1980s to 1990s casements found throughout surrounding neighbourhoods share the same problem: factory seals that have run out their lifespan, leaving condensation trapped between the panes. LuminaSky replaces only the sealed glass unit, keeping Orangeville homeowners' existing frames, trim, and hardware intact. Every unit is measured on-site, custom-made, then installed for a precise fit.",
     uniqueContent:
@@ -415,7 +415,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Foggy Glass Repair in Oshawa",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Oshawa: Downtown Oshawa, Windfields, Taunton, Kedron. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Oshawa, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Oshawa is Durham Region's largest city, and its housing stock tells the story of decades of growth. Post-war bungalows with original 1970s and 1980s sealed units line the streets near the downtown core, while Windfields, Taunton, and Kedron showcase newer builds whose first-generation thermal panes are now reaching the fog stage. LuminaSky replaces the failed sealed glass unit on-site without removing the frame or disturbing the exterior cladding. Each unit is measured first, custom-made to spec, then installed for a clean, lasting seal.",
     uniqueContent:
@@ -433,7 +433,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     metaTitle:
       "Foggy Glass Repair in Halton Hills",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Halton Hills: Georgetown, Acton, Glen Williams. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Halton Hills, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Halton Hills is a rural-suburban mix of large-lot homes, heritage villages, and newer subdivisions spread across Georgetown, Acton, and Glen Williams. Many properties feature wide picture windows that take full sun exposure throughout the day, accelerating the breakdown of factory seals. When fog appears between the panes, it means the sealed unit has failed. LuminaSky replaces only that sealed glass unit, keeping Halton Hills homeowners' frames and trim in place. Every piece of glass is measured on-site, custom-made, then installed for an exact fit.",
     uniqueContent:
@@ -450,7 +450,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Hamilton",
     metaTitle: "Foggy Glass Repair in Hamilton",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Hamilton: Hamilton Mountain, Stoney Creek, Ancaster, Dundas, Westdale. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Hamilton, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Hamilton is the largest city in our service area after Toronto, and its housing spans everything from century homes in Westdale and Durand to modern townhomes on the Mountain and along the Stoney Creek lakeshore. Older windows carry original sealed units well past their expected lifespan, while 1990s and 2000s builds in Ancaster and upper Stoney Creek are hitting the fog mark on schedule. LuminaSky replaces the sealed glass unit without touching the frame, sash, or hardware. Each unit is measured on-site, custom-made, then installed for a precise fit.",
     uniqueContent:
@@ -467,7 +467,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Foggy Glass Repair in Barrie",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Barrie: Allandale, East Bayfield, Downtown Barrie, Painswick. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Barrie, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Barrie sits on the western shore of Lake Simcoe, and that lakefront exposure means wind-driven moisture working against window seals year-round. From heritage homes in the Allandale Station neighbourhood to the subdivisions spreading through East Bayfield and Painswick, foggy sealed units are a familiar sight. Once the factory seal fails, moisture is trapped between the panes and no amount of cleaning will clear it. LuminaSky replaces only the sealed glass unit, leaving Barrie homeowners' existing frames and trim undisturbed. Every unit is measured on-site, custom-made, then installed.",
     uniqueContent:
@@ -484,7 +484,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Foggy Glass Repair in Innisfil",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Innisfil: Alcona, Lefroy, Big Bay Point, Innisfil Beach. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Innisfil, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Innisfil is a growing lakeside town on the south shore of Lake Simcoe, where cottage conversions sit alongside newer subdivisions in Alcona, Lefroy, and Big Bay Point. Converted cottages often carry older sealed units that were never designed for year-round heating and cooling cycles, making them prime candidates for seal failure. Newer builds in Alcona's expanding subdivisions are reaching the age where first-generation thermal units start to fog. LuminaSky replaces the sealed glass unit without removing the frame. Each piece of glass is measured first, custom-made, then installed on-site.",
     uniqueContent:
@@ -502,7 +502,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     metaTitle:
       "Foggy Glass Repair in Stouffville",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Stouffville: Stouffville, Ballantrae, Bloomington, Vandorf. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Stouffville, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Stouffville sits in a rural-suburban corridor north of Markham, where 1990s and 2000s subdivisions now need their first round of sealed glass replacements. Homes in Ballantrae, Bloomington, and Vandorf carry builder-grade windows whose factory seals have run their course after 15 to 25 years of Ontario's freeze-thaw cycles. When condensation appears between the panes, the sealed unit has failed. LuminaSky replaces only that unit, keeping the existing frame and hardware in place. Every piece of glass is measured on-site, custom-made, then installed.",
     uniqueContent:
@@ -520,7 +520,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     metaTitle:
       "Foggy Glass Repair in East Gwillimbury",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in East Gwillimbury: Sharon, Mount Albert, Queensville, Holland Landing. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in East Gwillimbury, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "East Gwillimbury is a growing community between Newmarket and Georgina, where new subdivisions in Queensville and Holland Landing sit alongside older rural homes in Sharon and Mount Albert. Newer builds carry first-generation thermal units approaching the fog stage, while older farmhouses and village homes have sealed glass well past its expected lifespan. LuminaSky replaces only the failed sealed unit, keeping East Gwillimbury homeowners' frames and trim intact. Each unit is measured on-site, custom-made, then installed for an exact fit.",
     uniqueContent:
@@ -538,7 +538,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     metaTitle:
       "Foggy Glass Repair in Georgina",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Georgina: Keswick, Sutton, Jackson's Point, Pefferlaw. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Georgina, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Georgina stretches along Lake Simcoe's south shore, where year-round homes and converted cottages in Keswick, Sutton, Jackson's Point, and Pefferlaw face constant lakeside moisture. That humidity accelerates seal failure, leaving condensation trapped between the panes. Converted seasonal properties are especially prone, as their original windows were not built for year-round heating cycles. LuminaSky replaces only the sealed glass unit without removing the frame. Every unit is measured on-site, custom-made, then installed for a lasting seal.",
     uniqueContent:
@@ -555,7 +555,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Foggy Glass Repair in Bradford",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Bradford: Bradford, Bond Head, Holland Marsh. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Bradford, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Bradford is a commuter town north of Newmarket that has grown rapidly over the past two decades. Newer subdivisions in Bradford and Bond Head carry builder-grade windows whose first-generation thermal units are now aging into the fog zone. The Holland Marsh area adds older rural properties with sealed glass well past its warranty period. LuminaSky replaces the failed sealed unit on-site without removing the frame or cladding. Each unit is measured first, custom-made to spec, then installed for a precise fit.",
     uniqueContent:
@@ -573,7 +573,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     metaTitle:
       "Foggy Glass Repair in Clarington",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Clarington: Bowmanville, Courtice, Newcastle, Orono. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Clarington, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Clarington is Durham Region's easternmost municipality, spanning the newer subdivisions of Courtice and Bowmanville and the older rural stock in Newcastle and Orono. Courtice and north Bowmanville builds from the 1990s and 2000s are hitting the fog mark as factory seals reach end of life. Newcastle and Orono's older homes carry sealed units well past their original warranty. LuminaSky replaces only the sealed glass unit, keeping Clarington homeowners' frames and hardware in place. Every piece of glass is measured on-site, custom-made, then installed.",
     uniqueContent:
@@ -590,7 +590,7 @@ export const FOGGY_GLASS_CITY_PAGES: FoggyGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Foggy Glass Repair in Uxbridge",
     metaDescription:
-      "LuminaSky repairs foggy sealed glass units in Uxbridge: Uxbridge, Goodwood, Leaskdale, Siloam. Fix the seal without replacing the window. Free photo quote.",
+      "Foggy window repair in Uxbridge, GTA. Replace just the sealed glass unit, not the whole window. Lifetime Warranty. Call 437-344-8490.",
     intro:
       "Known as the trail capital of Canada, Uxbridge pairs century homes along Brock Street with newer builds in Siloam and Goodwood. Downtown's heritage windows carry original sealed glass decades past its intended lifespan, while newer subdivisions are reaching the age where builder-grade thermal units start to fog. LuminaSky replaces the sealed glass unit without touching the frame, preserving Uxbridge's character homes and saving suburban homeowners unnecessary replacement costs. Each unit is measured on-site, custom-made, then installed for a precise fit.",
     uniqueContent:

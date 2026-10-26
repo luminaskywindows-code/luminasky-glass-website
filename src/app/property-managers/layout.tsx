@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Window and Glass Repair for Property Managers",
   description:
-    "One vendor for window, door and glass repairs across all your managed properties. Free first crank repair. Fast response, clean documentation for the board. Serving the GTA.",
+    "One vendor for window, door and glass repairs across your managed properties. Fast response, clean documentation for the board. Serving the GTA.",
   openGraph: {
     title: "Window and Glass Repair for Property Managers",
     description:

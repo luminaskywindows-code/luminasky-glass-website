@@ -27,7 +27,7 @@ import {
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about LuminaSky Glass Services. Licensed glaziers serving the Greater Toronto Area. We believe in honest assessments and repair-first solutions for windows and doors.",
+    "About LuminaSky Glass Services. Licensed glaziers serving the GTA. Honest assessments and repair-first solutions for windows and doors.",
   alternates: { canonical: "/about" },
 };
 

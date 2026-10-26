@@ -216,7 +216,7 @@ export const FRONT_DOOR_GLASS: ServiceData = {
   },
   metaTitle: "Front Door Glass Replacement Toronto",
   metaDescription:
-    "Replace cracked or foggy front door glass inserts across the Greater Toronto Area. Decorative, frosted & clear glass. LuminaSky Glass Services - Call 437-344-8490.",
+    "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. Lifetime Warranty. Call 437-344-8490.",
   relatedServices: [
     "foggy-windows",
     "window-cranks",
@@ -456,7 +456,7 @@ export const SKYLIGHTS: ServiceData = {
   },
   metaTitle: "Skylight Repair & Replacement Toronto",
   metaDescription:
-    "Foggy or leaking skylight? LuminaSky Glass Services repairs and replaces skylight glass units across Toronto and the GTA. All brands serviced. Call 437-344-8490.",
+    "Foggy or leaking skylight? LuminaSky repairs and replaces skylight glass units across the GTA. All brands serviced. Call 437-344-8490.",
   relatedServices: ["foggy-windows", "front-door-glass", "screen-storm-doors"],
 };
 
@@ -509,7 +509,7 @@ export const WINDOW_SCREENS: ServiceData = {
   },
   metaTitle: "Window Screen Repair & Replacement Toronto",
   metaDescription:
-    "Torn, bent or missing window screens? LuminaSky repairs and replaces window and patio door screens across Vaughan, Thornhill, Richmond Hill, Markham and North York.",
+    "Torn, bent or missing window screens? LuminaSky repairs and replaces window and patio door screens across the GTA. Call 437-344-8490.",
   relatedServices: ["screen-storm-doors", "foggy-windows", "window-cranks"],
 };
 

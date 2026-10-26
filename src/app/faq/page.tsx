@@ -8,7 +8,7 @@ import { PHONE, PHONE_HREF } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "FAQ",
   description:
-    "Common questions about foggy glass repair, window crank fixes, patio door glass, emergency service, and glass repair across Toronto and the GTA. Get answers from LuminaSky.",
+    "Common questions about foggy glass repair, window cranks, patio doors, emergency service and glass repair across the GTA. Answers from LuminaSky.",
   alternates: { canonical: "/faq" },
 };
 

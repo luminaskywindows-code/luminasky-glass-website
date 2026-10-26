@@ -44,12 +44,12 @@ const FAQS = [
 export const metadata: Metadata = {
   title: { absolute: "Lifetime Warranty on Sealed Glass Units | LuminaSky Glass Services" },
   description:
-    "LuminaSky backs every sealed glass unit with a Lifetime Warranty against seal failure. Years 0-2: full coverage. Years 3+: replacement glass covered, you pay labour only.",
+    "Lifetime Warranty on every sealed glass unit against seal failure. Years 0-2: full coverage. Year 3+: replacement glass covered, you pay labour only.",
   alternates: { canonical: "/lifetime-warranty" },
   openGraph: {
     title: "Lifetime Warranty on Sealed Glass Units | LuminaSky Glass Services",
     description:
-      "LuminaSky backs every sealed glass unit with a Lifetime Warranty against seal failure. Years 0-2: full coverage. Years 3+: replacement glass covered, you pay labour only.",
+      "Lifetime Warranty on every sealed glass unit against seal failure. Years 0-2: full coverage. Year 3+: replacement glass covered, you pay labour only.",
     url: "/lifetime-warranty",
   },
 };

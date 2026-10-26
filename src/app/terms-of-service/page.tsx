@@ -5,7 +5,7 @@ import { EMAIL, EMAIL_HREF, PHONE, PHONE_HREF, SITE_URL } from "@/lib/constants"
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "Terms of Service for LuminaSky Glass Services. Learn about quotes, warranty, scheduling, payment terms, and customer responsibilities for our window and glass repair services across the GTA.",
+    "Terms of Service for LuminaSky Glass Services. Quotes, warranty, scheduling, payment terms and customer responsibilities for GTA glass repair.",
   alternates: {
     canonical: `${SITE_URL}/terms-of-service`,
   },

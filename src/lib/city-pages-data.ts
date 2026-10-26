@@ -43,7 +43,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in Vaughan",
     metaDescription:
-      "LuminaSky Glass Services serves Vaughan for foggy window repair, glass replacement, door glass, window cranks & more. Available 24/7. Call 437-344-8490 for a fast quote.",
+      "Window repair in Vaughan, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Vaughan",
     heroSubtext:
       "Fast, affordable glass and door repair across Woodbridge, Maple, Kleinburg, Concord, and all of Vaughan. Fix it. Don't replace it.",
@@ -147,7 +147,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in Thornhill",
     metaDescription:
-      "LuminaSky Glass Services provides fast window and door repair in Thornhill: foggy glass, broken cranks, door inserts & more. Available 24/7. Call 437-344-8490.",
+      "Window repair in Thornhill, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Thornhill",
     heroSubtext:
       "Reliable glass and window repair for Thornhill homeowners, from Royal Orchard to Thornlea. We fix it on-site, usually the same day.",
@@ -232,7 +232,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in Richmond Hill",
     metaDescription:
-      "Window repair in Richmond Hill: foggy sealed units, cracked glass, broken cranks, door glass inserts. Fast mobile service, available 24/7. Call 437-344-8490.",
+      "Window repair in Richmond Hill, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Richmond Hill",
     heroSubtext:
       "Serving Oak Ridges, Mill Pond, Bayview Hill, and all of Richmond Hill with fast, affordable glass and window repair. No full replacements needed.",
@@ -317,7 +317,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in Markham",
     metaDescription:
-      "LuminaSky Glass Services repairs foggy windows, broken cranks, cracked glass & door inserts across Markham. Mobile service, available 24/7. Call 437-344-8490.",
+      "Window repair in Markham, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Markham",
     heroSubtext:
       "From Unionville heritage homes to new builds in Cornell. Fast, reliable glass and window repair across all of Markham.",
@@ -402,7 +402,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Toronto",
     metaTitle: "Window & Door Repair in North York",
     metaDescription:
-      "Fast window and door repair in North York: foggy glass, sealed units, broken cranks, door inserts. Available 24/7 across Willowdale, Don Mills & more. Call 437-344-8490.",
+      "Window repair in North York, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in North York",
     heroSubtext:
       "Professional glass and window repair across Willowdale, Don Mills, Bayview Village, York Mills, and all of North York. Same-day service available.",
@@ -487,7 +487,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Toronto",
     metaTitle: "Window & Door Repair in Scarborough",
     metaDescription:
-      "LuminaSky Glass Services provides fast window and door repair across Scarborough: foggy glass, sealed units, broken cranks, door inserts & more. Available 24/7. Call 437-344-8490.",
+      "Window repair in Scarborough, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Scarborough",
     heroSubtext:
       "Affordable glass and window repair from Agincourt to Birch Cliff, serving all of Scarborough with same-day mobile service.",
@@ -572,7 +572,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in Aurora",
     metaDescription:
-      "Window and door repair in Aurora: foggy sealed units, broken cranks, glass replacement, door inserts. Fast mobile service, available 24/7. Call 437-344-8490.",
+      "Window repair in Aurora, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Aurora",
     heroSubtext:
       "Serving Aurora Village, Bayview Wellington, and all of Aurora with professional glass and window repair. Fix it. Don't replace it.",
@@ -655,7 +655,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Vaughan",
     metaTitle: "Window & Door Repair in Woodbridge",
     metaDescription:
-      "LuminaSky Glass Services repairs foggy windows, broken cranks, cracked glass & door inserts across Woodbridge. Available 24/7. Call 437-344-8490 for a fast quote.",
+      "Window repair in Woodbridge, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Woodbridge",
     heroSubtext:
       "From Sonoma Heights to Islington Woods, fast, professional window and glass repair for Woodbridge homeowners. Repair, not replace.",
@@ -738,7 +738,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Vaughan",
     metaTitle: "Window & Door Repair in Maple",
     metaDescription:
-      "Fast window and door repair in Maple: foggy glass, sealed units, broken cranks, door inserts. Mobile service, available 24/7. Call 437-344-8490.",
+      "Window repair in Maple, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Maple",
     heroSubtext:
       "Reliable glass and window repair across Maple Village, Eagle Hills, and all of Maple. We fix it on-site, usually the same day you call.",
@@ -821,7 +821,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in King City",
     metaDescription:
-      "Window and glass repair in King City: foggy sealed units, broken cranks, door glass inserts. Serving King City, Nobleton & area. Available 24/7. Call 437-344-8490.",
+      "Window repair in King City, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in King City",
     heroSubtext:
       "Professional glass and window repair for King City, Nobleton, and the surrounding area. Estate homes, hobby farms, and everything in between.",
@@ -904,7 +904,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Door Repair in Newmarket",
     metaDescription:
-      "LuminaSky Glass Services serves Newmarket for foggy window repair, glass replacement, door glass & cranks. Available 24/7. Call 437-344-8490 for a fast quote.",
+      "Window repair in Newmarket, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Newmarket",
     heroSubtext:
       "Fast, affordable glass and window repair across Stonehaven, Summerhill Estates, Glenway, and all of Newmarket. Same-day service available.",
@@ -988,7 +988,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Toronto",
     metaDescription:
-      "Fast, affordable window and door repair across Toronto. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it. Don't replace it.",
+      "Window repair in Toronto, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Toronto",
     heroSubtext:
       "From century homes in Cabbagetown to condos along the Danforth, professional glass and window repair across all of Toronto. Repair first, replace only when necessary.",
@@ -1076,7 +1076,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Mississauga",
     metaDescription:
-      "Fast, affordable window and door repair across Mississauga. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it. Don't replace it.",
+      "Window repair in Mississauga, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Mississauga",
     heroSubtext:
       "Serving Port Credit, Streetsville, Erin Mills, Meadowvale, and all of Mississauga with professional glass and window repair. Fix it. Don't replace it.",
@@ -1164,7 +1164,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Etobicoke",
     metaDescription:
-      "Fast, affordable window and door repair across Etobicoke. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it. Don't replace it.",
+      "Window repair in Etobicoke, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Etobicoke",
     heroSubtext:
       "Professional glass and window repair across The Kingsway, Mimico, Long Branch, and all of Etobicoke. We fix it on-site, usually the same day you call.",
@@ -1252,7 +1252,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Brampton",
     metaDescription:
-      "Fast, affordable window and door repair across Brampton. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it. Don't replace it.",
+      "Window repair in Brampton, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Brampton",
     heroSubtext:
       "Serving Bramalea, Heart Lake, Mount Pleasant, Castlemore, and all of Brampton with fast, professional window and glass repair.",
@@ -1340,7 +1340,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Oakville",
     metaDescription:
-      "Fast, affordable window and door repair across Oakville. LuminaSky replaces sealed glass units, fixes cranks and hardware, and repairs door glass. Available 24/7 across the GTA. Fix it. Don't replace it.",
+      "Window repair in Oakville, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Oakville",
     heroSubtext:
       "Quality glass and window repair for Oakville homeowners, from Old Oakville to Glen Abbey. Family-run, no pressure, honest recommendations.",
@@ -1427,7 +1427,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Halton Region",
     metaTitle: "Window & Door Repair in Burlington",
     metaDescription:
-      "Window and door repair in Burlington: foggy sealed units, broken cranks, glass replacement, door inserts across Roseland, Aldershot & Tyandaga. Available 24/7. Call 437-344-8490.",
+      "Window repair in Burlington, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Burlington",
     heroSubtext:
       "Serving Roseland, Aldershot, Tyandaga, and all of Burlington with fast, professional glass and window repair. Fix it. Don't replace it.",
@@ -1514,7 +1514,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Halton Region",
     metaTitle: "Window & Door Repair in Milton",
     metaDescription:
-      "Window and door repair in Milton: foggy sealed units, broken cranks, glass replacement across Beaty, Scott, Timberlea & Old Milton. Available 24/7. Call 437-344-8490.",
+      "Window repair in Milton, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Milton",
     heroSubtext:
       "Fast, affordable glass and window repair across Old Milton, Beaty, Scott, Timberlea, and all of Milton. Same-day service available.",
@@ -1601,7 +1601,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window & Door Repair in Ajax",
     metaDescription:
-      "Window and door repair in Ajax: foggy sealed units, broken cranks, glass replacement across Duffin Heights, Applecroft & Downtown Ajax. Available 24/7. Call 437-344-8490.",
+      "Window repair in Ajax, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Ajax",
     heroSubtext:
       "Serving Applecroft, Duffin Heights, Central Ajax, and all of Ajax with fast, reliable glass and window repair. Fix it. Don't replace it.",
@@ -1688,7 +1688,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window & Door Repair in Pickering",
     metaDescription:
-      "Window and door repair in Pickering: foggy sealed units, broken cranks, glass replacement across Bay Ridges, Amberlea & Duffin Heights. Available 24/7. Call 437-344-8490.",
+      "Window repair in Pickering, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Pickering",
     heroSubtext:
       "Professional glass and window repair for Bay Ridges, Amberlea, Brock Ridge, and all of Pickering. Same-day service available.",
@@ -1775,7 +1775,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Peel Region",
     metaTitle: "Window & Door Repair in Caledon",
     metaDescription:
-      "Window and door repair in Caledon: foggy sealed units, broken cranks, glass replacement across Bolton, Caledon East & Palgrave. Available 24/7. Call 437-344-8490.",
+      "Window repair in Caledon, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Caledon",
     heroSubtext:
       "Serving Bolton, Caledon East, Palgrave, and all of Caledon with professional glass and window repair. Estate homes, country properties, and everything in between.",
@@ -1862,7 +1862,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window & Door Repair in Whitby",
     metaDescription:
-      "Window and door repair in Whitby: foggy sealed units, broken cranks, glass replacement across Brooklin, Pringle Creek & Port Whitby. Available 24/7. Call 437-344-8490.",
+      "Window repair in Whitby, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Whitby",
     heroSubtext:
       "Reliable glass and window repair across Brooklin, Downtown Whitby, Port Whitby, and all of Whitby. We fix it on-site, usually the same day you call.",
@@ -1950,7 +1950,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Orangeville",
     metaDescription:
-      "Window and door repair in Orangeville, foggy sealed units, broken cranks, glass replacement across Mono Mills, Hockley Valley & Credit Meadows. Available 24/7. Call 437-344-8490.",
+      "Window repair in Orangeville, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Orangeville",
     heroSubtext:
       "Reliable glass and window repair across Orangeville, Mono Mills, Hockley Valley, and all of Dufferin County. Repair first, replace only when necessary.",
@@ -2034,7 +2034,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Oshawa",
     metaDescription:
-      "Window and door repair in Oshawa, foggy sealed units, broken cranks, glass replacement across Downtown Oshawa, Windfields & Taunton. Available 24/7. Call 437-344-8490.",
+      "Window repair in Oshawa, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Oshawa",
     heroSubtext:
       "Professional glass and window repair across Oshawa, from Downtown to Windfields. We fix what's broken without replacing the whole window.",
@@ -2125,7 +2125,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Halton Hills",
     metaDescription:
-      "Window and door repair in Halton Hills, foggy sealed units, broken cranks, glass replacement across Georgetown, Acton & Glen Williams. Available 24/7. Call 437-344-8490.",
+      "Window repair in Halton Hills, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Halton Hills",
     heroSubtext:
       "Expert glass and window repair in Georgetown, Acton, Glen Williams, and across Halton Hills. Restore your windows instead of replacing them.",
@@ -2210,7 +2210,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Hamilton",
     metaDescription:
-      "Window and door repair in Hamilton, foggy sealed units, broken cranks, glass replacement across Stoney Creek, Ancaster & Dundas. Available 24/7. Call 437-344-8490.",
+      "Window repair in Hamilton, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Hamilton",
     heroSubtext:
       "Comprehensive glass and window repair across Hamilton, Stoney Creek, Ancaster, Dundas, and Waterdown. Fix the problem, keep the frame.",
@@ -2301,7 +2301,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Barrie",
     metaDescription:
-      "Window and door repair in Barrie, foggy sealed units, broken cranks, glass replacement across Allandale, Painswick & Downtown Barrie. Available 24/7. Call 437-344-8490.",
+      "Window repair in Barrie, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Barrie",
     heroSubtext:
       "Trusted glass and window repair in Barrie, from Allandale to Painswick. Lakefront or subdivision, we fix it right.",
@@ -2389,7 +2389,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Innisfil",
     metaDescription:
-      "Window and door repair in Innisfil, foggy sealed units, broken cranks, glass replacement across Alcona, Lefroy & Belle Ewart. Available 24/7. Call 437-344-8490.",
+      "Window repair in Innisfil, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Innisfil",
     heroSubtext:
       "Glass and window repair across Innisfil, from Alcona's new builds to Cookstown's established homes. We repair, you save.",
@@ -2474,7 +2474,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Stouffville",
     metaDescription:
-      "Window and door repair in Stouffville, foggy sealed units, broken cranks, glass replacement across Ballantrae, Bloomington & Gormley. Available 24/7. Call 437-344-8490.",
+      "Window repair in Stouffville, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Stouffville",
     heroSubtext:
       "Dependable glass and window repair in Stouffville, Ballantrae, and across York Region's northeast. Repair the window, keep the frame.",
@@ -2560,7 +2560,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in East Gwillimbury",
     metaDescription:
-      "Window and door repair in East Gwillimbury, foggy sealed units, broken cranks, glass replacement across Sharon, Mount Albert & Queensville. Available 24/7. Call 437-344-8490.",
+      "Window repair in East Gwillimbury, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in East Gwillimbury",
     heroSubtext:
       "Glass and window repair for Sharon, Mount Albert, Queensville, and all of East Gwillimbury. Targeted repairs that save your frame and your budget.",
@@ -2644,7 +2644,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Georgina",
     metaDescription:
-      "Window and door repair in Georgina, foggy sealed units, broken cranks, glass replacement across Keswick, Sutton & Jackson's Point. Available 24/7. Call 437-344-8490.",
+      "Window repair in Georgina, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Georgina",
     heroSubtext:
       "Professional glass and window repair in Keswick, Sutton, and across Georgina. Lakeside homes and year-round residences served.",
@@ -2729,7 +2729,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Bradford",
     metaDescription:
-      "Window and door repair in Bradford, foggy sealed units, broken cranks, glass replacement across Bond Head, Newton Robinson & Holland Marsh. Available 24/7. Call 437-344-8490.",
+      "Window repair in Bradford, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Bradford",
     heroSubtext:
       "Fast glass and window repair in Bradford, Bond Head, and the surrounding Simcoe County communities. Fix the glass, keep the frame.",
@@ -2811,7 +2811,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Clarington",
     metaDescription:
-      "Window and door repair in Clarington, foggy sealed units, broken cranks, glass replacement across Bowmanville, Courtice & Newcastle. Available 24/7. Call 437-344-8490.",
+      "Window repair in Clarington, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Clarington",
     heroSubtext:
       "Trusted glass and window repair across Bowmanville, Courtice, Newcastle, and all of Clarington. We repair the problem without replacing the frame.",
@@ -2898,7 +2898,7 @@ export const CITY_PAGES: CityPageData[] = [
     metaTitle:
       "Window & Door Repair in Uxbridge",
     metaDescription:
-      "Window and door repair in Uxbridge, foggy sealed units, broken cranks, glass replacement across Goodwood, Leaskdale & Siloam. Available 24/7. Call 437-344-8490.",
+      "Window repair in Uxbridge, GTA. Foggy glass, broken cranks, patio doors. Same-week measurement. Lifetime Warranty on glass. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Uxbridge",
     heroSubtext:
       "Glass and window repair for Uxbridge, Goodwood, Leaskdale, and the surrounding Durham countryside. Preserve your windows, skip the full replacement.",
