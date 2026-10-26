@@ -127,7 +127,7 @@ const HIDDEN_COSTS = [
 const RED_FLAGS = [
   "Won't give you a written quote",
   "Can't name their glass supplier (should know who makes their IGUs)",
-  "Offer \"lifetime warranty\" without clear written terms",
+  "Make big warranty promises without clear written terms",
   "Pressure you to decide same-day",
   "Only accept cash (CRA/HST compliance concern)",
   "Don't carry $2M liability insurance",
