@@ -133,6 +133,8 @@ export function generateArticleSchema(article: {
     author: {
       "@type": "Person",
       name: article.author,
+      jobTitle: "Lead Glass Specialist",
+      url: `${SITE_URL}/about`,
     },
     publisher: {
       "@type": "Organization",

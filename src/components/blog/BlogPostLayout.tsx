@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { Calendar, Clock, ChevronDown, ChevronUp, ArrowLeft } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { AuthorBioBox } from "@/components/blog/AuthorBioBox";
 import type { BlogPost } from "@/lib/blog-data";
 import { cn } from "@/lib/utils";
 
@@ -175,8 +176,13 @@ export function BlogPostLayout({ post }: { post: BlogPost }) {
           </aside>
         </div>
 
+        {/* Author Bio */}
+        <div className="mt-12 pt-8 border-t border-gray-200 max-w-3xl">
+          <AuthorBioBox />
+        </div>
+
         {/* Back to blog */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
+        <div className="mt-8 pt-8 border-t border-gray-200">
           <Link
             href="/blog"
             className="inline-flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-primary transition-colors"

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getBlogPost, getAllBlogSlugs } from "@/lib/blog-data";
 import { SITE_URL } from "@/lib/constants";
 import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { PERSON_SCHEMA } from "@/lib/author-data";
 import { BlogPostLayout } from "@/components/blog/BlogPostLayout";
 
 interface Props {
@@ -72,6 +73,12 @@ export default async function BlogPostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(PERSON_SCHEMA),
         }}
       />
       <BlogPostLayout post={post} />
