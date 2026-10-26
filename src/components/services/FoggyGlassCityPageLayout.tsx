@@ -2,6 +2,7 @@ import Link from "next/link";
 import { MapPin, Phone, MessageCircle, ChevronRight, Droplets, Thermometer, Eye, CloudRain, AlertTriangle, Shield } from "lucide-react";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
+import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import type { FoggyGlassCityPageData } from "@/lib/foggy-glass-city-data";
 
@@ -86,9 +87,9 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
             Foggy Glass Repair in {city.city}
           </h1>
 
-          <Link href="/lifetime-warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2">
+          <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2">
             <Shield className="w-4 h-4" aria-hidden="true" />
-            <span>Backed by our <strong>Lifetime Warranty</strong> on sealed glass units</span>
+            <span>Backed by our <strong>5-Year Warranty</strong> on sealed glass units</span>
           </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">
@@ -121,6 +122,9 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
           <p className="text-gray-600 text-lg leading-relaxed">{city.intro}</p>
         </div>
       </section>
+
+      {/* Local City Content */}
+      <LocalCityContent citySlug={city.slug} type="foggy-windows" />
 
       {/* City-Specific Content */}
       {city.uniqueContent && (
@@ -241,7 +245,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">
             Send us a few photos and rough measurements. We quote most jobs from photos alone. No visit required, no obligation, no pressure.
           </p>
-          <p className="text-blue-300 text-xs mb-8">*Lifetime Warranty applies to sealed glass units installed November 1, 2026 and later. Hardware repairs covered under separate 2-year warranty.</p>
+          <p className="text-blue-300 text-xs mb-8">5-year warranty on sealed glass units against seal failure. 2-year warranty on all repair work (parts and labour).</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}
