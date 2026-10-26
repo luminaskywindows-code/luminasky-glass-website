@@ -8,10 +8,28 @@ import {
   ChevronRight,
   ShieldCheck,
   Lightbulb,
+  Ruler,
+  Layers,
+  ArrowUpFromLine,
+  Package,
+  Sparkles,
+  Snowflake,
+  Home,
+  Maximize2,
+  PiggyBank,
+  Award,
+  Heart,
+  Eye,
+  HandCoins,
+  Shield,
+  Clock,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { PHONE, PHONE_HREF, SITE_URL } from "@/lib/constants";
 import { generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
+import { ReportTOC } from "@/components/report/ReportTOC";
+import { AccordionFAQ } from "@/components/report/AccordionFAQ";
+import { ScrollProgress } from "@/components/report/ScrollProgress";
 
 const BREADCRUMBS = [
   { name: "Home", url: "/" },
@@ -20,11 +38,11 @@ const BREADCRUMBS = [
 ];
 
 const PRICING_TABLE = [
-  { category: "Small", dimensions: '24"×36" to 30"×40"', area: "Up to 10 sq ft", range: "$300–$650" },
-  { category: "Medium", dimensions: '36"×48" to 48"×60"', area: "10–20 sq ft", range: "$500–$950" },
-  { category: "Large", dimensions: '48"×72" to 60"×72"', area: "20–30 sq ft", range: "$850–$1,400" },
-  { category: "Picture Window", dimensions: '72"×80"+', area: "30+ sq ft", range: "$1,200+" },
-  { category: "Oversized / Specialty", dimensions: "Custom shapes, 50+ sq ft, 3rd floor+", area: "Custom", range: "Custom quote" },
+  { category: "Small", dimensions: '24"x36" to 30"x40"', area: "Up to 10 sq ft", range: "$300–$650", color: "bg-emerald-100 text-emerald-800", badge: null },
+  { category: "Medium", dimensions: '36"x48" to 48"x60"', area: "10–20 sq ft", range: "$500–$950", color: "bg-blue-100 text-blue-800", badge: "Most Common" },
+  { category: "Large", dimensions: '48"x72" to 60"x72"', area: "20–30 sq ft", range: "$850–$1,400", color: "bg-purple-100 text-purple-800", badge: null },
+  { category: "Picture Window", dimensions: '72"x80"+', area: "30+ sq ft", range: "$1,200+", color: "bg-amber-100 text-amber-800", badge: null },
+  { category: "Oversized / Specialty", dimensions: "Custom shapes, 50+ sq ft, 3rd floor+", area: "Custom", range: "Custom quote", color: "bg-gray-100 text-gray-700", badge: null },
 ];
 
 const GLASS_TYPES = [
@@ -34,6 +52,45 @@ const GLASS_TYPES = [
   { type: "Tempered (safety glass)", note: "Add 25–35%" },
   { type: "Frosted / Obscure", note: "Add 10–15%" },
   { type: "Triple pane", note: "Add 20–25%" },
+];
+
+const FACTORS = [
+  {
+    icon: Ruler,
+    title: "Window Size",
+    subtitle: "Biggest factor",
+    desc: "Larger glass means more material and careful handling. A small bedroom window needs one technician; a picture window requires two.",
+  },
+  {
+    icon: Layers,
+    title: "Glass Type",
+    subtitle: "Coating and panes",
+    desc: "Low-E, argon fill, tempered, frosted, or triple pane each add to the base price. Standard clear is the baseline.",
+  },
+  {
+    icon: ArrowUpFromLine,
+    title: "Accessibility",
+    subtitle: "Floor and reach",
+    desc: "Ground and second floor are standard. Third floor or higher, or requiring a lift, adds 25–40%.",
+  },
+  {
+    icon: Package,
+    title: "Quantity",
+    subtitle: "Volume discount",
+    desc: "3–4 units: 3–5% off. 5–9 units: 5–8% off. 10+ units: 8–12% off. Property managers can negotiate standing rates.",
+  },
+  {
+    icon: Sparkles,
+    title: "Specialty Features",
+    subtitle: "Custom work",
+    desc: "Grills between panes add $40–$75. Custom shapes (arched, circular) and decorative glass require custom quotes.",
+  },
+  {
+    icon: Snowflake,
+    title: "Season",
+    subtitle: "Winter demand",
+    desc: "October to March sees higher demand for foggy window repair. Expect 1–2 week longer lead times during peak winter weeks.",
+  },
 ];
 
 const HIDDEN_COSTS = [
@@ -89,13 +146,13 @@ const COST_TIPS = [
 ];
 
 const LUMINASKY_ADVANTAGES = [
-  { text: "Lifetime Warranty on sealed glass units (industry standard: 3–5 years)", href: "/lifetime-warranty" },
-  { text: "Serving 34 GTA cities with same-week measurement", href: "/areas-we-serve" },
-  { text: "24/7 emergency board-up", href: "/emergency-glass-repair" },
-  { text: "$2M liability insurance with certificate available", href: null },
-  { text: "Family-owned business: personal service, not corporate", href: "/about" },
-  { text: "Transparent pricing: all surcharges disclosed upfront", href: null },
-  { text: "Manufacturer relationships: we buy direct, pass savings to you", href: null },
+  { icon: Award, text: "Lifetime Warranty on sealed glass units (industry standard: 3–5 years)", href: "/lifetime-warranty", highlight: true },
+  { icon: Clock, text: "Serving 34 GTA cities with same-week measurement", href: "/areas-we-serve", highlight: false },
+  { icon: Shield, text: "24/7 emergency board-up", href: "/emergency-glass-repair", highlight: false },
+  { icon: ShieldCheck, text: "$2M liability insurance with certificate available", href: null, highlight: false },
+  { icon: Heart, text: "Family-owned business: personal service, not corporate", href: "/about", highlight: false },
+  { icon: Eye, text: "Transparent pricing: all surcharges disclosed upfront", href: null, highlight: false },
+  { icon: HandCoins, text: "Manufacturer relationships: we buy direct, pass savings to you", href: null, highlight: false },
 ];
 
 const FAQS = [
@@ -135,6 +192,19 @@ const NOT_INCLUDED = [
   "Repair of damaged window frames (separate quote)",
   "Repainting around the window (customer responsibility)",
   "Interior trim damage from installation (should be noted beforehand)",
+];
+
+const TOC_SECTIONS = [
+  { id: "introduction", label: "Introduction" },
+  { id: "pricing-heading", label: "Cost Table" },
+  { id: "factors-heading", label: "6 Price Factors" },
+  { id: "includes-heading", label: "What's Included" },
+  { id: "hidden-costs-heading", label: "Hidden Costs" },
+  { id: "red-flags-heading", label: "Red Flags" },
+  { id: "tips-heading", label: "Cost-Saving Tips" },
+  { id: "advantage-heading", label: "LuminaSky Advantage" },
+  { id: "methodology-heading", label: "Methodology" },
+  { id: "faq-heading", label: "FAQ" },
 ];
 
 function generateReportSchema() {
@@ -194,9 +264,11 @@ export default function GlassReplacementCostReportPage() {
         }}
       />
 
+      <ScrollProgress />
+
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-primary via-blue-800 to-primary-700 py-16 px-4 md:px-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-2 text-sm text-blue-200 flex-wrap">
               {BREADCRUMBS.map((crumb, index) => (
@@ -216,313 +288,351 @@ export default function GlassReplacementCostReportPage() {
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
             GTA Glass Replacement Cost Report 2026
           </h1>
-          <p className="text-blue-200 text-sm">
+          <p className="text-blue-200 text-sm mb-10">
             Published October 2026 &middot; Next update: January 2027
           </p>
-        </div>
-      </section>
 
-      {/* Introduction */}
-      <section className="py-12 px-4 md:px-8 bg-white">
-        <div className="max-w-4xl mx-auto prose prose-gray max-w-none">
-          <p className="text-lg text-gray-700 leading-relaxed">
-            In 2026, glass replacement costs across the Greater Toronto Area range from $300 for a small bedroom window to $1,500+ for a picture window. This report breaks down what GTA homeowners and property managers can expect to pay for sealed glass unit replacement, based on publicly available quotes from GTA glass companies and LuminaSky&apos;s internal records from 2026.
-          </p>
-          <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-            <p className="text-sm text-blue-800 font-medium">
-              This report covers glass-only replacement (replacing just the sealed glass unit while keeping your existing window frame). Full <Link href="/window-replacement" className="text-primary font-semibold hover:underline">window replacement</Link> is a different service and is not covered here.
-            </p>
+          {/* KPI Stats Row */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-5 text-center">
+              <Home className="w-6 h-6 text-accent-light mx-auto mb-2" aria-hidden="true" />
+              <p className="text-3xl font-bold text-white">$300</p>
+              <p className="text-blue-200 text-sm mt-1">Starting price for small windows</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-5 text-center">
+              <Maximize2 className="w-6 h-6 text-accent-light mx-auto mb-2" aria-hidden="true" />
+              <p className="text-3xl font-bold text-white">$1,500+</p>
+              <p className="text-blue-200 text-sm mt-1">Picture window range</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-5 text-center">
+              <PiggyBank className="w-6 h-6 text-accent-light mx-auto mb-2" aria-hidden="true" />
+              <p className="text-3xl font-bold text-white">A Fraction</p>
+              <p className="text-blue-200 text-sm mt-1">Of full window replacement cost</p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Pricing Table */}
-      <section className="py-12 px-4 md:px-8 bg-gray-50" aria-labelledby="pricing-heading">
-        <div className="max-w-4xl mx-auto">
-          <h2 id="pricing-heading" className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            GTA Glass Replacement Cost Table
-          </h2>
-          <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
-            <table className="w-full text-left">
-              <thead>
-                <tr className="bg-primary text-white text-sm">
-                  <th className="px-4 py-3 font-semibold">Size Category</th>
-                  <th className="px-4 py-3 font-semibold hidden sm:table-cell">Typical Dimensions</th>
-                  <th className="px-4 py-3 font-semibold hidden md:table-cell">Area</th>
-                  <th className="px-4 py-3 font-semibold text-right">GTA Price Range</th>
-                </tr>
-              </thead>
-              <tbody>
-                {PRICING_TABLE.map((row, i) => (
-                  <tr key={row.category} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                    <td className="px-4 py-3 font-semibold text-gray-900 text-sm">{row.category}</td>
-                    <td className="px-4 py-3 text-gray-600 text-sm hidden sm:table-cell">{row.dimensions}</td>
-                    <td className="px-4 py-3 text-gray-600 text-sm hidden md:table-cell">{row.area}</td>
-                    <td className="px-4 py-3 font-bold text-primary text-sm text-right">{row.range}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-xs text-gray-500 mt-3">
-            Prices include supply + installation + measurement visit. Prices before HST. Pricing varies by glass type, accessibility and location.
-          </p>
-        </div>
-      </section>
+      {/* Main Content with TOC */}
+      <div className="relative max-w-7xl mx-auto">
+        {/* Sticky TOC (desktop only) */}
+        <ReportTOC sections={TOC_SECTIONS} />
 
-      {/* 6 Factors That Affect Your Price */}
-      <section className="py-12 px-4 md:px-8 bg-white" aria-labelledby="factors-heading">
-        <div className="max-w-4xl mx-auto">
-          <h2 id="factors-heading" className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-            6 Factors That Affect Your Price
-          </h2>
+        {/* Content Column */}
+        <div className="lg:ml-64">
+          {/* Introduction */}
+          <section id="introduction" className="py-12 px-4 md:px-8 bg-white scroll-mt-20">
+            <div className="max-w-4xl mx-auto">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                In 2026, glass replacement costs across the Greater Toronto Area range from $300 for a small bedroom window to $1,500+ for a picture window. This report breaks down what GTA homeowners and property managers can expect to pay for sealed glass unit replacement, based on publicly available quotes from GTA glass companies and LuminaSky&apos;s internal records from 2026.
+              </p>
+              <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                <p className="text-sm text-blue-800 font-medium">
+                  This report covers glass-only replacement (replacing just the sealed glass unit while keeping your existing window frame). Full <Link href="/window-replacement" className="text-primary font-semibold hover:underline">window replacement</Link> is a different service and is not covered here.
+                </p>
+              </div>
+            </div>
+          </section>
 
-          {/* 1. Window Size */}
-          <div className="mb-8">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">1. Window Size (biggest factor)</h3>
-            <p className="text-gray-600 leading-relaxed">
-              Larger glass means more material and more careful handling. Prices scale roughly with square footage. A small bedroom window can be carried and installed by one technician; a picture window requires two.
-            </p>
-          </div>
-
-          {/* 2. Glass Type */}
-          <div className="mb-8">
-            <h3 className="text-xl font-bold text-gray-900 mb-3">2. Glass Type</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {GLASS_TYPES.map((g) => (
-                <div key={g.type} className="flex items-start gap-2 bg-gray-50 rounded-lg p-3 border border-gray-100">
-                  <ChevronRight className="w-4 h-4 text-primary shrink-0 mt-0.5" aria-hidden="true" />
-                  <div>
-                    <span className="font-semibold text-gray-900 text-sm">{g.type}</span>
-                    <span className="text-gray-500 text-sm"> &mdash; {g.note}</span>
+          {/* Pricing Table */}
+          <section id="pricing-heading" className="py-12 px-4 md:px-8 bg-gray-50 scroll-mt-20" aria-labelledby="pricing-label">
+            <div className="max-w-4xl mx-auto">
+              <h2 id="pricing-label" className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+                GTA Glass Replacement Cost Table
+              </h2>
+              <div className="space-y-3">
+                {PRICING_TABLE.map((row) => (
+                  <div
+                    key={row.category}
+                    className="bg-white rounded-xl border border-gray-200 p-4 md:p-5 hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6"
+                  >
+                    <div className="flex items-center gap-3 sm:w-44 shrink-0">
+                      <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-bold ${row.color}`}>
+                        {row.category}
+                      </span>
+                      {row.badge && (
+                        <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-primary text-white uppercase tracking-wide">
+                          {row.badge}
+                        </span>
+                      )}
+                    </div>
+                    <div className="flex-1 text-sm text-gray-600">
+                      <span className="hidden sm:inline">{row.dimensions}</span>
+                      <span className="hidden md:inline text-gray-400 mx-2">|</span>
+                      <span className="hidden md:inline">{row.area}</span>
+                    </div>
+                    <div className="text-xl md:text-2xl font-bold text-primary sm:text-right sm:w-40 shrink-0">
+                      {row.range}
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
+              <p className="text-xs text-gray-500 mt-4">
+                Prices include supply + installation + measurement visit. Prices before HST. Pricing varies by glass type, accessibility and location.
+              </p>
+            </div>
+          </section>
+
+          {/* CTA after price table */}
+          <div className="py-8 px-4 md:px-8 bg-white">
+            <div className="max-w-4xl mx-auto bg-gradient-to-r from-blue-50 to-sky-50 border border-blue-200 rounded-xl p-6 flex flex-col sm:flex-row items-center gap-4">
+              <div className="flex-1 text-center sm:text-left">
+                <p className="font-bold text-gray-900">See exact pricing for your window</p>
+                <p className="text-sm text-gray-600 mt-1">Free quotes based on photos, or $30 site visit (credited toward your repair).</p>
+              </div>
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center bg-primary hover:bg-primary/90 text-white font-semibold px-6 py-3 rounded-md shadow-sm hover:shadow transition-all active:scale-95 whitespace-nowrap"
+              >
+                Get Free Quote
+              </Link>
             </div>
           </div>
 
-          {/* 3. Accessibility */}
-          <div className="mb-8">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">3. Accessibility</h3>
-            <ul className="space-y-1 text-gray-600 text-sm">
-              <li>Ground floor: Standard pricing</li>
-              <li>Second floor: Usually standard</li>
-              <li>Third floor+ or requires lift: Add 25&ndash;40%</li>
-            </ul>
-          </div>
-
-          {/* 4. Quantity */}
-          <div className="mb-8">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">4. Quantity (Volume Discount)</h3>
-            <p className="text-gray-600 leading-relaxed mb-2">
-              Most GTA companies offer discounts for multiple units:
-            </p>
-            <ul className="space-y-1 text-gray-600 text-sm">
-              <li>3&ndash;4 units: 3&ndash;5% off</li>
-              <li>5&ndash;9 units: 5&ndash;8% off</li>
-              <li>10+ units: 8&ndash;12% off</li>
-            </ul>
-            <p className="text-gray-500 text-sm mt-2">
-              <Link href="/property-managers" className="text-primary font-semibold hover:underline">Property managers</Link> with ongoing needs can often negotiate standing rates.
-            </p>
-          </div>
-
-          {/* 5. Specialty Features */}
-          <div className="mb-8">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">5. Specialty Features</h3>
-            <ul className="space-y-1 text-gray-600 text-sm">
-              <li>Grills/crosses between panes: Add $40&ndash;$75 per unit</li>
-              <li>Custom shapes (arched, circular): Custom quote</li>
-              <li>Decorative glass: Add 50&ndash;200%</li>
-            </ul>
-          </div>
-
-          {/* 6. Season */}
-          <div className="mb-4">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">6. Season</h3>
-            <p className="text-gray-600 leading-relaxed">
-              Winter (October to March) sees higher demand for <Link href="/foggy-windows" className="text-primary font-semibold hover:underline">foggy window repair</Link> as condensation becomes more visible. Expect 1&ndash;2 week longer lead times during peak winter weeks.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* What Does Glass Replacement Include? */}
-      <section className="py-12 px-4 md:px-8 bg-gray-50" aria-labelledby="includes-heading">
-        <div className="max-w-4xl mx-auto">
-          <h2 id="includes-heading" className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            What Does Glass Replacement Include?
-          </h2>
-          <p className="text-gray-600 mb-6">A proper GTA <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">glass replacement</Link> service includes:</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 mb-8">
-            {INCLUDED.map((item) => (
-              <div key={item} className="flex items-start gap-2">
-                <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
-                <span className="text-gray-700 text-sm">{item}</span>
+          {/* 6 Factors */}
+          <section id="factors-heading" className="py-12 px-4 md:px-8 bg-white scroll-mt-20" aria-labelledby="factors-label">
+            <div className="max-w-4xl mx-auto">
+              <h2 id="factors-label" className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+                6 Factors That Affect Your Price
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {FACTORS.map((factor) => {
+                  const Icon = factor.icon;
+                  return (
+                    <div
+                      key={factor.title}
+                      className="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all"
+                    >
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center shrink-0">
+                          <Icon className="w-5 h-5 text-primary" aria-hidden="true" />
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-gray-900 text-sm">{factor.title}</h3>
+                          <p className="text-xs text-gray-500">{factor.subtitle}</p>
+                        </div>
+                      </div>
+                      <p className="text-gray-600 text-sm leading-relaxed">{factor.desc}</p>
+                    </div>
+                  );
+                })}
               </div>
-            ))}
-          </div>
-          <h3 className="font-bold text-gray-900 mb-3">What&apos;s typically NOT included:</h3>
-          <div className="space-y-2">
-            {NOT_INCLUDED.map((item) => (
-              <div key={item} className="flex items-start gap-2">
-                <XCircle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" aria-hidden="true" />
-                <span className="text-gray-700 text-sm">{item}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* Hidden Costs */}
-      <section className="py-12 px-4 md:px-8 bg-white" aria-labelledby="hidden-costs-heading">
-        <div className="max-w-4xl mx-auto">
-          <h2 id="hidden-costs-heading" className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Hidden Costs to Watch For
-          </h2>
-          <p className="text-gray-600 mb-6">
-            Several GTA companies add charges that are not in their initial quote. Watch for:
-          </p>
-          <div className="space-y-4">
-            {HIDDEN_COSTS.map((item, i) => (
-              <div key={i} className="flex items-start gap-3 p-4 bg-amber-50 border border-amber-200 rounded-lg">
-                <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" />
-                <div>
-                  <h3 className="font-semibold text-gray-900 text-sm">{i + 1}. {item.title}</h3>
-                  <p className="text-gray-600 text-sm mt-1">{item.desc}</p>
+              {/* Glass Types sub-grid */}
+              <div className="mt-8">
+                <h3 className="font-bold text-gray-900 mb-3">Glass Type Price Add-ons</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {GLASS_TYPES.map((g) => (
+                    <div key={g.type} className="flex items-start gap-2 bg-gray-50 rounded-lg p-3 border border-gray-100">
+                      <ChevronRight className="w-4 h-4 text-primary shrink-0 mt-0.5" aria-hidden="true" />
+                      <div>
+                        <span className="font-semibold text-gray-900 text-sm">{g.type}</span>
+                        <span className="text-gray-500 text-sm"> : {g.note}</span>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
+            </div>
+          </section>
 
-      {/* Red Flags */}
-      <section className="py-12 px-4 md:px-8 bg-gray-50" aria-labelledby="red-flags-heading">
-        <div className="max-w-4xl mx-auto">
-          <h2 id="red-flags-heading" className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Red Flags: Avoid Companies That...
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {RED_FLAGS.map((flag) => (
-              <div key={flag} className="flex items-start gap-2 p-3 bg-red-50 border border-red-200 rounded-lg">
-                <XCircle className="w-4 h-4 text-red-600 shrink-0 mt-0.5" aria-hidden="true" />
-                <span className="text-gray-800 text-sm">{flag}</span>
+          {/* CTA after factors */}
+          <div className="py-8 px-4 md:px-8 bg-gray-50">
+            <div className="max-w-4xl mx-auto text-center">
+              <p className="text-gray-700 mb-2">Still have questions about pricing?</p>
+              <a
+                href={PHONE_HREF}
+                className="inline-flex items-center gap-2 text-primary font-bold text-lg hover:text-primary/80 transition-colors"
+              >
+                <Phone className="w-5 h-5" aria-hidden="true" />
+                Call Dan at {PHONE}
+              </a>
+            </div>
+          </div>
+
+          {/* What Does Glass Replacement Include? */}
+          <section id="includes-heading" className="py-12 px-4 md:px-8 bg-gray-50 scroll-mt-20" aria-labelledby="includes-label">
+            <div className="max-w-4xl mx-auto">
+              <h2 id="includes-label" className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+                What Does Glass Replacement Include?
+              </h2>
+              <p className="text-gray-600 mb-6">A proper GTA <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">glass replacement</Link> service includes:</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 mb-8">
+                {INCLUDED.map((item) => (
+                  <div key={item} className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
+                    <span className="text-gray-700 text-sm">{item}</span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Cost-Saving Tips */}
-      <section className="py-12 px-4 md:px-8 bg-white" aria-labelledby="tips-heading">
-        <div className="max-w-4xl mx-auto">
-          <h2 id="tips-heading" className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Cost-Saving Tips
-          </h2>
-          <div className="space-y-4">
-            {COST_TIPS.map((tip, i) => (
-              <div key={i} className="flex items-start gap-3 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-                <Lightbulb className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" />
-                <p className="text-gray-700 text-sm">
-                  <span className="font-semibold">{i + 1}.</span> {tip}
-                </p>
+              <h3 className="font-bold text-gray-900 mb-3">What&apos;s typically NOT included:</h3>
+              <div className="space-y-2">
+                {NOT_INCLUDED.map((item) => (
+                  <div key={item} className="flex items-start gap-2">
+                    <XCircle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" aria-hidden="true" />
+                    <span className="text-gray-700 text-sm">{item}</span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
+            </div>
+          </section>
 
-      {/* The LuminaSky Advantage */}
-      <section className="py-12 px-4 md:px-8 bg-primary" aria-labelledby="advantage-heading">
-        <div className="max-w-4xl mx-auto">
-          <h2 id="advantage-heading" className="text-2xl md:text-3xl font-bold text-white mb-4">
-            The LuminaSky Advantage
-          </h2>
-          <p className="text-blue-200 mb-6">
-            While this report covers GTA market pricing in general, here is what sets LuminaSky apart:
-          </p>
-          <div className="space-y-3 mb-8">
-            {LUMINASKY_ADVANTAGES.map((adv) => (
-              <div key={adv.text} className="flex items-start gap-2">
-                <ShieldCheck className="w-5 h-5 text-accent-light shrink-0 mt-0.5" aria-hidden="true" />
-                {adv.href ? (
-                  <Link href={adv.href} className="text-white text-sm hover:text-accent-light transition-colors">
-                    {adv.text}
-                  </Link>
-                ) : (
-                  <span className="text-blue-100 text-sm">{adv.text}</span>
-                )}
+          {/* Hidden Costs */}
+          <section id="hidden-costs-heading" className="py-12 px-4 md:px-8 bg-white scroll-mt-20" aria-labelledby="hidden-costs-label">
+            <div className="max-w-4xl mx-auto">
+              <h2 id="hidden-costs-label" className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+                Hidden Costs to Watch For
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Several GTA companies add charges that are not in their initial quote. Watch for:
+              </p>
+              <div className="space-y-3">
+                {HIDDEN_COSTS.map((item, i) => (
+                  <div key={i} className="flex items-start gap-4 p-4 bg-white border-l-4 border-amber-500 rounded-r-lg shadow-sm">
+                    <AlertTriangle className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" aria-hidden="true" />
+                    <div>
+                      <h3 className="font-bold text-gray-900 text-sm">{item.title}</h3>
+                      <p className="text-gray-600 text-sm mt-1">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all active:scale-95"
-            >
-              Get Your Free Quote
-            </Link>
-            <a
-              href={PHONE_HREF}
-              className="inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-md transition-all active:scale-95"
-            >
-              <Phone className="w-5 h-5" aria-hidden="true" />
-              Call {PHONE}
-            </a>
-          </div>
-        </div>
-      </section>
+            </div>
+          </section>
 
-      {/* Methodology */}
-      <section className="py-12 px-4 md:px-8 bg-gray-50" aria-labelledby="methodology-heading">
-        <div className="max-w-4xl mx-auto">
-          <h2 id="methodology-heading" className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Methodology
-          </h2>
-          <p className="text-gray-600 text-sm leading-relaxed mb-3">This report is based on:</p>
-          <ul className="space-y-2 text-gray-600 text-sm">
-            <li className="flex items-start gap-2">
-              <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
-              Publicly available quotes from GTA glass companies, collected October 2026
-            </li>
-            <li className="flex items-start gap-2">
-              <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
-              LuminaSky internal records from residential and commercial glass replacement jobs completed in 2026
-            </li>
-            <li className="flex items-start gap-2">
-              <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
-              Industry pricing from local manufacturers and public pricing databases
-            </li>
-            <li className="flex items-start gap-2">
-              <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
-              Review of hidden fees, surcharges and standard contract terms
-            </li>
-          </ul>
-          <p className="text-gray-500 text-xs mt-4">
-            Report compiled: October 2026. Next update: January 2027.
-          </p>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section className="py-12 px-4 md:px-8 bg-white" aria-labelledby="faq-heading">
-        <div className="max-w-4xl mx-auto">
-          <h2 id="faq-heading" className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-            Frequently Asked Questions
-          </h2>
-          <div className="space-y-6">
-            {FAQS.map((faq) => (
-              <div key={faq.q} className="border-b border-gray-100 pb-6 last:border-0">
-                <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+          {/* Red Flags */}
+          <section id="red-flags-heading" className="py-12 px-4 md:px-8 bg-gray-50 scroll-mt-20" aria-labelledby="red-flags-label">
+            <div className="max-w-4xl mx-auto">
+              <h2 id="red-flags-label" className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+                Red Flags: Avoid Companies That...
+              </h2>
+              <div className="space-y-2">
+                {RED_FLAGS.map((flag) => (
+                  <div key={flag} className="flex items-start gap-3 p-3 bg-red-50/50 rounded-lg">
+                    <XCircle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" aria-hidden="true" />
+                    <span className="text-gray-800 text-sm font-medium">{flag}</span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
+            </div>
+          </section>
 
-      <CTABanner />
+          {/* Cost-Saving Tips */}
+          <section id="tips-heading" className="py-12 px-4 md:px-8 bg-white scroll-mt-20" aria-labelledby="tips-label">
+            <div className="max-w-4xl mx-auto">
+              <h2 id="tips-label" className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+                Cost-Saving Tips
+              </h2>
+              <div className="space-y-4">
+                {COST_TIPS.map((tip, i) => (
+                  <div key={i} className="flex items-start gap-3 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                    <Lightbulb className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" />
+                    <p className="text-gray-700 text-sm">
+                      <span className="font-semibold">{i + 1}.</span> {tip}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* The LuminaSky Advantage */}
+          <section id="advantage-heading" className="py-12 px-4 md:px-8 bg-primary scroll-mt-20" aria-labelledby="advantage-label">
+            <div className="max-w-4xl mx-auto">
+              <h2 id="advantage-label" className="text-2xl md:text-3xl font-bold text-white mb-4">
+                The LuminaSky Advantage
+              </h2>
+              <p className="text-blue-200 mb-8">
+                While this report covers GTA market pricing in general, here is what sets LuminaSky apart:
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                {LUMINASKY_ADVANTAGES.map((adv) => {
+                  const Icon = adv.icon;
+                  const content = (
+                    <div
+                      className={`flex items-start gap-3 p-4 rounded-xl border transition-all ${
+                        adv.highlight
+                          ? "bg-accent/20 border-accent/40 sm:col-span-2"
+                          : "bg-white/10 border-white/20"
+                      }`}
+                    >
+                      <Icon className={`w-5 h-5 shrink-0 mt-0.5 ${adv.highlight ? "text-accent-light" : "text-blue-300"}`} aria-hidden="true" />
+                      <span className={`text-sm ${adv.highlight ? "text-white font-semibold" : "text-blue-100"}`}>
+                        {adv.text}
+                      </span>
+                    </div>
+                  );
+                  return adv.href ? (
+                    <Link key={adv.text} href={adv.href} className={`hover:scale-[1.02] transition-transform ${adv.highlight ? "sm:col-span-2" : ""}`}>
+                      {content}
+                    </Link>
+                  ) : (
+                    <div key={adv.text}>{content}</div>
+                  );
+                })}
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all active:scale-95"
+                >
+                  Get Your Free Quote
+                </Link>
+                <a
+                  href={PHONE_HREF}
+                  className="inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-md transition-all active:scale-95"
+                >
+                  <Phone className="w-5 h-5" aria-hidden="true" />
+                  Call {PHONE}
+                </a>
+              </div>
+            </div>
+          </section>
+
+          {/* Methodology */}
+          <section id="methodology-heading" className="py-12 px-4 md:px-8 bg-gray-50 scroll-mt-20" aria-labelledby="methodology-label">
+            <div className="max-w-4xl mx-auto">
+              <h2 id="methodology-label" className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                Methodology
+              </h2>
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">This report is based on:</p>
+              <ul className="space-y-2 text-gray-600 text-sm">
+                <li className="flex items-start gap-2">
+                  <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
+                  Publicly available quotes from GTA glass companies, collected October 2026
+                </li>
+                <li className="flex items-start gap-2">
+                  <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
+                  LuminaSky internal records from residential and commercial glass replacement jobs completed in 2026
+                </li>
+                <li className="flex items-start gap-2">
+                  <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
+                  Industry pricing from local manufacturers and public pricing databases
+                </li>
+                <li className="flex items-start gap-2">
+                  <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
+                  Review of hidden fees, surcharges and standard contract terms
+                </li>
+              </ul>
+              <p className="text-gray-500 text-xs mt-4">
+                Report compiled: October 2026. Next update: January 2027.
+              </p>
+            </div>
+          </section>
+
+          {/* FAQ */}
+          <section id="faq-heading" className="py-12 px-4 md:px-8 bg-white scroll-mt-20" aria-labelledby="faq-label">
+            <div className="max-w-4xl mx-auto">
+              <h2 id="faq-label" className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+                Frequently Asked Questions
+              </h2>
+              <AccordionFAQ faqs={FAQS} />
+            </div>
+          </section>
+
+          <CTABanner />
+        </div>
+      </div>
     </>
   );
 }
