@@ -117,12 +117,12 @@ const FAQS = [
 export const metadata: Metadata = {
   title: { absolute: "Glass Replacement Toronto | LuminaSky Glass Services" },
   description:
-    "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Free photo quote, written price, 2-year workmanship warranty.",
+    "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Transferable Lifetime Warranty on sealed glass units. Free photo quote, written price.",
   alternates: { canonical: "/glass-replacement" },
   openGraph: {
     title: "Glass Replacement Toronto | LuminaSky Glass Services",
     description:
-      "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Free photo quote, written price, 2-year workmanship warranty.",
+      "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Transferable Lifetime Warranty on sealed glass units. Free photo quote, written price.",
     url: "/glass-replacement",
   },
 };

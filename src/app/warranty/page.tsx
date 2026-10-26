@@ -119,15 +119,15 @@ export default function WarrantyPage() {
                 </strong>
                 . During the first 2 years, we cover both parts and labour at no cost. From year 3 onward, we provide the replacement glass unit at no cost and you pay only for installation. Glass breakage is not covered under warranty.
               </p>
-              <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
+              <Link href="/lifetime-warranty" className="flex items-center gap-3 bg-primary/5 rounded-xl p-4 hover:bg-primary/10 transition-colors">
                 <Shield
                   className="w-6 h-6 text-primary shrink-0"
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  Lifetime Warranty Against Seal Failure
+                  Lifetime Warranty Against Seal Failure &rarr; Full details
                 </p>
-              </div>
+              </Link>
             </div>
 
             {/* Hardware */}
