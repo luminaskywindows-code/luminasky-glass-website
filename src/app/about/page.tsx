@@ -12,6 +12,7 @@ import {
   Mail,
   ClipboardList,
   BadgeCheck,
+  ShieldCheck,
   ExternalLink,
 } from "lucide-react";
 import { ServiceAreaMap } from "@/components/shared/ServiceAreaMap";
@@ -60,6 +61,14 @@ const CREDENTIALS = [
     title: "Serving the GTA with Pride",
     color: "text-primary",
     bg: "bg-primary/10",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Transferable Lifetime Warranty on Sealed Glass",
+    color: "text-sky-600",
+    bg: "bg-sky-100",
+    href: "/lifetime-warranty",
+    highlight: true,
   },
 ];
 
@@ -248,11 +257,9 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {CREDENTIALS.map((item) => {
               const Icon = item.icon;
-              return (
-                <div
-                  key={item.title}
-                  className="flex items-center gap-4 bg-gray-50 border border-gray-100 rounded-xl p-5 hover:shadow-sm transition-shadow"
-                >
+              const isHighlight = "highlight" in item && item.highlight;
+              const inner = (
+                <>
                   <div
                     className={`w-12 h-12 ${item.bg} rounded-xl flex items-center justify-center shrink-0`}
                   >
@@ -261,9 +268,25 @@ export default function AboutPage() {
                       aria-hidden="true"
                     />
                   </div>
-                  <p className="font-semibold text-gray-900 text-sm leading-snug">
+                  <p className={`font-semibold text-sm leading-snug ${isHighlight ? "text-sky-900" : "text-gray-900"}`}>
                     {item.title}
                   </p>
+                </>
+              );
+              return "href" in item && item.href ? (
+                <Link
+                  key={item.title}
+                  href={item.href}
+                  className={`flex items-center gap-4 rounded-xl p-5 hover:shadow-sm transition-shadow ${isHighlight ? "bg-sky-50 border border-sky-200" : "bg-gray-50 border border-gray-100"}`}
+                >
+                  {inner}
+                </Link>
+              ) : (
+                <div
+                  key={item.title}
+                  className="flex items-center gap-4 bg-gray-50 border border-gray-100 rounded-xl p-5 hover:shadow-sm transition-shadow"
+                >
+                  {inner}
                 </div>
               );
             })}
