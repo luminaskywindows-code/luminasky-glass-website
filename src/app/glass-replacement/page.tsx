@@ -171,7 +171,7 @@ export default function GlassReplacementPage() {
                 Broken or Cracked Window Glass Replacement in Toronto
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
-                <strong>Glass replacement at LuminaSky is faster and 40-60% cheaper than full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, we offer a transferable Lifetime Warranty against seal failure on sealed glass units (first 2 years include labour), and we service residential and commercial properties across the GTA.
+                <strong>Glass replacement at LuminaSky is faster and 40-60% cheaper than full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, we offer a transferable Lifetime Warranty against seal failure on sealed glass units (first 2 years include labour), and we service residential and commercial properties across the GTA. See our <Link href="/glass-replacement-cost-report-2026" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">2026 GTA Cost Report</Link> for market pricing.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link

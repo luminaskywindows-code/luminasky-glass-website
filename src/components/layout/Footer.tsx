@@ -21,6 +21,7 @@ const BASE_QUICK_LINKS = [
   { href: "/blog", label: "Blog" },
   { href: "/warranty", label: "Warranty" },
   { href: "/insurance-claims", label: "Insurance Claims" },
+  { href: "/glass-replacement-cost-report-2026", label: "Cost Report" },
   { href: "/contact", label: "Contact" },
 ];
 

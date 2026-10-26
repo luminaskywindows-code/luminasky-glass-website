@@ -274,6 +274,20 @@ export default function WindowRepairCostPage() {
         </div>
       </section>
 
+      {/* Cost Report Callout */}
+      <section className="py-10 px-4 md:px-8 bg-accent/5 border-y border-accent/20">
+        <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center gap-4">
+          <div className="flex-1">
+            <p className="font-bold text-gray-900">Looking for specific glass replacement pricing?</p>
+            <p className="text-gray-600 text-sm mt-1">Our 2026 Cost Report includes a full pricing table by window size, hidden fees to watch for, and cost-saving tips.</p>
+          </div>
+          <Link href="/glass-replacement-cost-report-2026" className="shrink-0 inline-flex items-center gap-2 bg-primary hover:bg-primary-700 text-white font-semibold px-6 py-3 rounded-md transition-colors text-sm">
+            Read the Cost Report
+            <ChevronRight className="w-4 h-4" aria-hidden="true" />
+          </Link>
+        </div>
+      </section>
+
       {/* FAQs */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">
         <div className="max-w-3xl mx-auto">

@@ -577,7 +577,8 @@ export default function FoggyWindowsPage() {
           <p className="text-gray-600 leading-relaxed">
             Send us a photo of your window and we&apos;ll give you a free quote,
             usually the same day. Most homeowners save 50-70% compared to full
-            window replacement.
+            window replacement. For detailed market pricing, see our{" "}
+            <Link href="/glass-replacement-cost-report-2026" className="text-primary font-semibold hover:underline">GTA Glass Replacement Cost Report 2026</Link>.
           </p>
         </div>
       </section>
