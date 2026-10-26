@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { EMAIL, EMAIL_HREF, PHONE, PHONE_HREF } from "@/lib/constants";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <main id="main-content" className="min-h-screen bg-white">
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Privacy Policy", url: "/privacy-policy" }]} />
       <div className="max-w-4xl mx-auto px-4 md:px-8 py-16">
         <nav aria-label="Breadcrumb" className="mb-8">
           <ol className="flex items-center gap-2 text-sm text-gray-400">

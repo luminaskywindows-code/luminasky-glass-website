@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 import {
   Shield,
   Award,
@@ -99,6 +100,7 @@ const STANDARDS = [
 export default function AboutPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "About", url: "/about" }]} />
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary via-blue-800 to-primary-700 py-20 px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center">

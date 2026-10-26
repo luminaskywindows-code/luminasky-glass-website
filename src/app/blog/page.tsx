@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { BLOG_POSTS } from "@/lib/blog-data";
 import { SITE_URL } from "@/lib/constants";
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
 export default function BlogIndexPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Blog", url: "/blog" }]} />
       <section className="bg-primary text-white py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">

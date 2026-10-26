@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionHeading } from "@/components/shared/SectionHeading";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { SERVICES } from "@/lib/constants";
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Services", url: "/services" }]} />
       <section className="bg-gradient-to-br from-primary via-blue-800 to-primary-700 py-20 px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <nav aria-label="Breadcrumb" className="mb-6">

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { SERVICES } from "@/lib/constants";
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
 export default function ServicesShowcasePage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Gallery", url: "/gallery" }]} />
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary via-blue-800 to-primary-700 py-20 px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center">

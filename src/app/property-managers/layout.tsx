@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Window and Glass Repair for Property Managers",
@@ -17,5 +18,10 @@ export default function PropertyManagersLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Property Managers", url: "/property-managers" }]} />
+      {children}
+    </>
+  );
 }

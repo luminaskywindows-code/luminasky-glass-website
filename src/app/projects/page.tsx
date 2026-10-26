@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Phone } from "lucide-react";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 import { ProjectsGallery } from "@/components/projects/ProjectsGallery";
 import { PHONE, PHONE_HREF, SITE_URL } from "@/lib/constants";
 
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
 export default function ProjectsPage() {
   return (
     <main id="main-content">
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Projects", url: "/projects" }]} />
       {/* Hero */}
       <section
         className="bg-gradient-to-br from-primary via-blue-800 to-primary-700 text-white py-20 px-4 md:px-8"

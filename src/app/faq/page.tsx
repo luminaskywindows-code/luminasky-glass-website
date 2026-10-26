@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Phone, Mail } from "lucide-react";
 import { FAQ_CATEGORIES, ALL_FAQS } from "@/lib/faq-data";
 import { generateFAQSchema } from "@/lib/schema";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function FAQPage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "FAQ", url: "/faq" }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
