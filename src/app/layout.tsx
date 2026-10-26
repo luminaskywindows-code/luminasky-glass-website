@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
@@ -9,8 +9,6 @@ import { SourceTracker } from "@/components/layout/SourceTracker";
 import { Toaster } from "@/components/ui/sonner";
 import { generateOrganizationSchema } from "@/lib/schema";
 import { ClarityInit } from "@/components/analytics/ClarityInit";
-
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -71,18 +69,6 @@ export default function RootLayout({
             }),
           }}
         />
-        {/* Google Analytics 4 */}
-        {GA_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="ga4-init" strategy="afterInteractive">
-              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}
-            </Script>
-          </>
-        )}
       </head>
       <body className="font-sans antialiased bg-white text-gray-900">
         <ClarityInit />
@@ -92,6 +78,7 @@ export default function RootLayout({
         <WhatsAppButton />
         <SourceTracker />
         <Toaster position="bottom-right" />
+        <GoogleAnalytics gaId="G-HXCR5SS2S5" />
       </body>
     </html>
   );
