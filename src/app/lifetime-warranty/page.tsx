@@ -13,7 +13,7 @@ const BREADCRUMBS = [
 const FAQS = [
   {
     q: "Does the Lifetime Warranty transfer if I sell my property?",
-    a: "No. The Lifetime Warranty is tied to the original customer (homeowner, landlord or condominium corporation) and the address where the glass was installed. It does not transfer to a new owner.",
+    a: "Yes. The Lifetime Warranty stays with the property, not the person. If you sell, it passes to the new owner automatically. They just need the invoice number or the installation address to file a claim.",
   },
   {
     q: "What counts as seal failure?",
@@ -93,7 +93,7 @@ export default function LifetimeWarrantyPage() {
             LuminaSky Lifetime Warranty on Sealed Glass Units
           </h1>
           <p className="text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto">
-            LuminaSky backs every sealed glass unit we install with a Lifetime Warranty against seal failure. For as long as you own the property, if the seal fails on glass we installed, we have you covered.
+            LuminaSky backs every sealed glass unit we install with a Lifetime Warranty against seal failure. For as long as the glass is in your property, if the seal fails on glass we installed, we have you covered.
           </p>
         </div>
       </section>
@@ -222,7 +222,7 @@ export default function LifetimeWarrantyPage() {
               <ul className="space-y-4">
                 {[
                   "Seal failure (fogging) on sealed glass units we installed",
-                  "Applies for as long as you own the home",
+                  "Applies for as long as the glass remains in the property",
                   "No registration required. Your invoice is your warranty",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
@@ -266,9 +266,9 @@ export default function LifetimeWarrantyPage() {
           <div className="bg-white border border-gray-100 rounded-2xl p-8 md:p-10 space-y-4">
             {[
               { icon: Shield, text: "The Lifetime Warranty begins on the date of installation printed on your invoice." },
-              { icon: Clock, text: "\"Lifetime\" means for as long as the original customer (homeowner, landlord or condominium corporation) owns the property where the glass was installed." },
+              { icon: Clock, text: "\"Lifetime\" means for as long as the sealed glass unit we installed remains in the property where it was installed." },
               { icon: Wrench, text: "Coverage applies to sealed glass units (IGUs) only. Single-pane glass, hardware, screens, and accessories are covered under our standard 2-year warranty." },
-              { icon: Shield, text: "The warranty is non-transferable. It does not pass to a new owner if the property is sold." },
+              { icon: Shield, text: "The warranty is transferable. If the property is sold, it passes to the new owner automatically. The new owner only needs the original invoice number or the installation address." },
               { icon: CheckCircle2, text: "No registration required. Your invoice is your proof of warranty." },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4">
