@@ -98,7 +98,7 @@ const FAQS = [
   },
   {
     q: "How long does installation take?",
-    a: "A standard screen or storm door installation takes about 1 to 2 hours.",
+    a: "A standard screen or storm door installation is typically completed in a single visit.",
   },
 ];
 

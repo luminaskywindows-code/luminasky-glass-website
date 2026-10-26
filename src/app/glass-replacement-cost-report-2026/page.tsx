@@ -95,7 +95,7 @@ const LUMINASKY_ADVANTAGES = [
   { text: "$2M liability insurance with certificate available", href: null },
   { text: "Family-owned business: personal service, not corporate", href: "/about" },
   { text: "Transparent pricing: all surcharges disclosed upfront", href: null },
-  { text: "Direct manufacturer relationships: we buy direct, pass savings to you", href: null },
+  { text: "Manufacturer relationships: we buy direct, pass savings to you", href: null },
 ];
 
 const FAQS = [
@@ -226,7 +226,7 @@ export default function GlassReplacementCostReportPage() {
       <section className="py-12 px-4 md:px-8 bg-white">
         <div className="max-w-4xl mx-auto prose prose-gray max-w-none">
           <p className="text-lg text-gray-700 leading-relaxed">
-            In 2026, glass replacement costs across the Greater Toronto Area range from $300 for a small bedroom window to $1,500+ for a picture window. This report breaks down what GTA homeowners and property managers can expect to pay for sealed glass unit replacement, based on a survey of 10 Toronto-area glass companies and LuminaSky&apos;s internal data from 150+ residential and commercial glass replacement jobs in 2026.
+            In 2026, glass replacement costs across the Greater Toronto Area range from $300 for a small bedroom window to $1,500+ for a picture window. This report breaks down what GTA homeowners and property managers can expect to pay for sealed glass unit replacement, based on publicly available quotes from GTA glass companies and LuminaSky&apos;s internal records from 2026.
           </p>
           <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
             <p className="text-sm text-blue-800 font-medium">
@@ -484,15 +484,15 @@ export default function GlassReplacementCostReportPage() {
           <ul className="space-y-2 text-gray-600 text-sm">
             <li className="flex items-start gap-2">
               <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
-              Quote survey of 10 GTA glass companies conducted October 2026
+              Publicly available quotes from GTA glass companies, collected October 2026
             </li>
             <li className="flex items-start gap-2">
               <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
-              LuminaSky internal data from 150+ residential and commercial glass replacement jobs completed in 2026
+              LuminaSky internal records from residential and commercial glass replacement jobs completed in 2026
             </li>
             <li className="flex items-start gap-2">
               <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
-              Industry pricing from Cardinal Glass Industries, local manufacturers and public pricing databases
+              Industry pricing from local manufacturers and public pricing databases
             </li>
             <li className="flex items-start gap-2">
               <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />

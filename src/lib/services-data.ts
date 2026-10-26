@@ -368,7 +368,7 @@ export const SCREEN_STORM_DOORS: ServiceData = {
     },
     {
       q: "How long does installation take?",
-      a: "A standard screen or storm door installation takes approximately 1–2 hours.",
+      a: "A standard screen or storm door installation is typically completed in a single visit.",
     },
   ],
   metaTitle: "Screen & Storm Door Installation Toronto",
@@ -447,7 +447,7 @@ export const SKYLIGHTS: ServiceData = {
     },
     {
       q: "How long does a skylight glass replacement take?",
-      a: "Most skylight glass replacements take 1–2 hours, depending on the unit size and accessibility.",
+      a: "Most skylight glass replacements are completed in a single visit, depending on the unit size and accessibility.",
     },
   ],
   showcaseImage: {
