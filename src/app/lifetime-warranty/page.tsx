@@ -13,7 +13,7 @@ const BREADCRUMBS = [
 const FAQS = [
   {
     q: "Does the Lifetime Warranty transfer if I sell my property?",
-    a: "Yes. The Lifetime Warranty stays with the property, not the person. If you sell, it passes to the new owner automatically. They just need the invoice number or the installation address to file a claim.",
+    a: "Yes. The Lifetime Warranty stays with the property. If you sell, it passes to the new owner, as long as they have the original LuminaSky invoice or invoice number. Make sure to include it with your home documents when you sell.",
   },
   {
     q: "What counts as seal failure?",
@@ -268,7 +268,7 @@ export default function LifetimeWarrantyPage() {
               { icon: Shield, text: "The Lifetime Warranty begins on the date of installation printed on your invoice." },
               { icon: Clock, text: "\"Lifetime\" means for as long as the sealed glass unit we installed remains in the property where it was installed." },
               { icon: Wrench, text: "Coverage applies to sealed glass units (IGUs) only. Single-pane glass, hardware, screens, and accessories are covered under our standard 2-year warranty." },
-              { icon: Shield, text: "The warranty is transferable. If the property is sold, it passes to the new owner automatically. The new owner only needs the original invoice number or the installation address." },
+              { icon: Shield, text: "The warranty is transferable. If the property is sold, it passes to the new owner. To file a claim, the new owner needs the original LuminaSky invoice or invoice number. If you sell your property, pass the invoice on to the buyer." },
               { icon: CheckCircle2, text: "No registration required. Your invoice is your proof of warranty." },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4">

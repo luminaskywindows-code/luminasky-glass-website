@@ -4,7 +4,7 @@ import { ShieldCheck, CheckCircle2 } from "lucide-react";
 const POINTS = [
   "Lifetime warranty against seal failure on every sealed glass unit we install",
   "Free glass and installation for the first 2 years",
-  "Transferable: it stays with your property if you sell",
+  "Transferable: stays with the property if you sell (keep your invoice for the new owner)",
 ];
 
 export function WarrantyPromise() {
