@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GtagInit } from "@/components/analytics/GtagInit";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
@@ -78,7 +78,7 @@ export default function RootLayout({
         <WhatsAppButton />
         <SourceTracker />
         <Toaster position="bottom-right" />
-        <GoogleAnalytics gaId="G-HXCR5SS2S5" />
+        <GtagInit />
       </body>
     </html>
   );

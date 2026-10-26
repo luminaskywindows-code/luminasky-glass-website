@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Phone, MessageCircle } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "@/lib/constants";
+import { trackWhatsAppConversion } from "@/lib/gtag";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
 const SERVICE_OPTIONS = [
@@ -410,7 +411,7 @@ export function HeroSection() {
                 </a>
                 <button
                   type="button"
-                  onClick={() => window.open(WHATSAPP_HREF, "_blank", "noopener,noreferrer")}
+                  onClick={() => { trackWhatsAppConversion(); window.open(WHATSAPP_HREF, "_blank", "noopener,noreferrer"); }}
                   className="inline-flex items-center gap-2 text-white/70 hover:text-white font-medium transition-colors cursor-pointer"
                   aria-label="Chat on WhatsApp"
                 >

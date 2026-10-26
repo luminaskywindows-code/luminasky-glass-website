@@ -1,6 +1,7 @@
 "use client";
 
 import { WHATSAPP_HREF } from "@/lib/constants";
+import { trackWhatsAppConversion } from "@/lib/gtag";
 
 export function WhatsAppLink({
   className,
@@ -16,7 +17,7 @@ export function WhatsAppLink({
       type="button"
       className={className}
       aria-label={ariaLabel}
-      onClick={() => window.open(WHATSAPP_HREF, "_blank", "noopener,noreferrer")}
+      onClick={() => { trackWhatsAppConversion(); window.open(WHATSAPP_HREF, "_blank", "noopener,noreferrer"); }}
     >
       {children}
     </button>

@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import { WHATSAPP_HREF } from "@/lib/constants";
+import { trackWhatsAppConversion } from "@/lib/gtag";
 
 export function WhatsAppButton() {
   const prefersReduced = useReducedMotion();
@@ -22,7 +23,7 @@ export function WhatsAppButton() {
       {/* Button */}
       <motion.button
         type="button"
-        onClick={() => window.open(WHATSAPP_HREF, "_blank", "noopener,noreferrer")}
+        onClick={() => { trackWhatsAppConversion(); window.open(WHATSAPP_HREF, "_blank", "noopener,noreferrer"); }}
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={

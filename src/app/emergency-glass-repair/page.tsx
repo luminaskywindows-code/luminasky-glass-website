@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CheckCircle2, Phone, ChevronRight } from "lucide-react";
-import { PHONE_HREF, WHATSAPP_HREF } from "@/lib/constants";
+import { PHONE_HREF } from "@/lib/constants";
+import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import {
   generateBreadcrumbSchema,
   generateFAQSchema,
@@ -148,14 +149,11 @@ export default function EmergencyGlassRepairPage() {
                 <Phone className="w-6 h-6" aria-hidden="true" />
                 Call Now: 437-344-8490
               </a>
-              <a
-                href={WHATSAPP_HREF}
-                target="_blank"
-                rel="noopener noreferrer"
+              <WhatsAppLink
                 className="inline-flex items-center justify-center border-2 border-white/70 text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
               >
                 WhatsApp Us a Photo
-              </a>
+              </WhatsAppLink>
             </div>
             <Link href="/lifetime-warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
               <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
@@ -353,14 +351,11 @@ export default function EmergencyGlassRepairPage() {
               <Phone className="w-6 h-6" aria-hidden="true" />
               Call 437-344-8490
             </a>
-            <a
-              href={WHATSAPP_HREF}
-              target="_blank"
-              rel="noopener noreferrer"
+            <WhatsAppLink
               className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-red-600 font-semibold px-8 py-4 rounded-md transition-all active:scale-95"
             >
               WhatsApp a Photo
-            </a>
+            </WhatsAppLink>
           </div>
         </div>
       </section>
