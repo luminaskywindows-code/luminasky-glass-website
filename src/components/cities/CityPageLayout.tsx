@@ -47,9 +47,14 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           </nav>
 
           <h1 className="text-3xl md:text-5xl font-bold mb-4 text-balance">{city.heroHeadline}</h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl leading-relaxed mb-8">
+          <p className="text-blue-100 text-lg md:text-xl max-w-3xl leading-relaxed mb-4">
             {city.heroSubtext}
           </p>
+
+          <Link href="/lifetime-warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mb-8">
+            <Shield className="w-4 h-4" aria-hidden="true" />
+            <span>Backed by our <strong>Lifetime Warranty</strong> on sealed glass units</span>
+          </Link>
 
           <div className="flex flex-wrap gap-4">
             <a
@@ -124,7 +129,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           {[
             { icon: Clock, title: "Fast Response", desc: "Same-day or next-day service across " + city.city + ". Emergency calls answered 24/7." },
             { icon: Wrench, title: "Repair, Not Replace", desc: "We fix the broken part (the glass, the crank, the seal) without tearing out your whole window or door." },
-            { icon: Shield, title: "2-Year Warranty", desc: "Every repair backed by our warranty. If it fails, we come back and fix it. No questions asked." },
+            { icon: Shield, title: "Lifetime Warranty", desc: "Sealed glass units backed by our Lifetime Warranty. Hardware repairs covered under a separate 2-year warranty." },
             { icon: Truck, title: "We Come to You", desc: "Fully mobile service. We bring everything we need to your door. No trips to a shop required." },
           ].map((item) => (
             <div key={item.title} className="text-center">
@@ -297,7 +302,8 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Get a Free Quote in {city.city}
           </h2>
-          <p className="text-blue-100 text-lg mb-8 leading-relaxed">{city.closingCTA}</p>
+          <p className="text-blue-100 text-lg mb-4 leading-relaxed">{city.closingCTA}</p>
+          <p className="text-blue-300 text-xs mb-8">*Lifetime Warranty applies to sealed glass units installed November 1, 2026 and later. Hardware repairs covered under separate 2-year warranty.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}

@@ -197,6 +197,17 @@ export function Footer() {
         </div>
       </div>
 
+      {/* Lifetime Warranty tagline */}
+      <div className="border-t border-blue-800/50">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 flex flex-col sm:flex-row items-center justify-center gap-2 text-sm text-blue-200">
+          <Link href="/lifetime-warranty" className="flex items-center gap-2 hover:text-white transition-colors">
+            <Shield className="w-4 h-4 text-accent-light shrink-0" aria-hidden="true" />
+            <span>Backed by our <strong className="text-white">Lifetime Warranty</strong> on glass replacement</span>
+          </Link>
+          <span className="text-blue-400 text-[10px]">*Sealed glass units installed Nov 1, 2026 and later. Hardware: 2-year warranty.</span>
+        </div>
+      </div>
+
       {/* Bottom bar */}
       <div className="border-t border-blue-800">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-blue-300">

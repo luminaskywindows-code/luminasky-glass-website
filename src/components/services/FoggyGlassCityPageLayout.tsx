@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin, Phone, MessageCircle, ChevronRight, Droplets, Thermometer, Eye, CloudRain, AlertTriangle } from "lucide-react";
+import { MapPin, Phone, MessageCircle, ChevronRight, Droplets, Thermometer, Eye, CloudRain, AlertTriangle, Shield } from "lucide-react";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
@@ -85,6 +85,11 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
           <h1 className="text-3xl md:text-5xl font-bold mb-4 text-balance">
             Foggy Glass Repair in {city.city}
           </h1>
+
+          <Link href="/lifetime-warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2">
+            <Shield className="w-4 h-4" aria-hidden="true" />
+            <span>Backed by our <strong>Lifetime Warranty</strong> on sealed glass units</span>
+          </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">
             <Link
@@ -229,9 +234,10 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Get a Free Quote for Foggy Glass Repair in {city.city}
           </h2>
-          <p className="text-blue-100 text-lg mb-8 leading-relaxed">
+          <p className="text-blue-100 text-lg mb-4 leading-relaxed">
             Send us a few photos and rough measurements. We quote most jobs from photos alone. No visit required, no obligation, no pressure.
           </p>
+          <p className="text-blue-300 text-xs mb-8">*Lifetime Warranty applies to sealed glass units installed November 1, 2026 and later. Hardware repairs covered under separate 2-year warranty.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}

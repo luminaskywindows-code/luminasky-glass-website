@@ -68,7 +68,11 @@ export function Navbar() {
               <Zap className="w-3.5 h-3.5 text-accent-light" aria-hidden="true" />
               Available 24/7
             </span>
-            <span className="hidden md:flex items-center gap-1.5">
+            <Link href="/lifetime-warranty" className="hidden sm:flex items-center gap-1.5 text-accent-light font-semibold hover:text-white transition-colors">
+              <Shield className="w-3.5 h-3.5" aria-hidden="true" />
+              Lifetime Warranty on Glass
+            </Link>
+            <span className="hidden lg:flex items-center gap-1.5">
               <Star className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" aria-hidden="true" />
               5-Star Rated GTA Glass Experts
             </span>
