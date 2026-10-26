@@ -10,7 +10,6 @@ import { Toaster } from "@/components/ui/sonner";
 import { generateOrganizationSchema } from "@/lib/schema";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
-const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID;
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -84,11 +83,9 @@ export default function RootLayout({
           </>
         )}
         {/* Microsoft Clarity */}
-        {CLARITY_ID && (
-          <Script id="clarity-init" strategy="afterInteractive">
-            {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${CLARITY_ID}");`}
-          </Script>
-        )}
+        <Script id="clarity-init" strategy="afterInteractive">
+          {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","z3jx92wo61");`}
+        </Script>
       </head>
       <body className="font-sans antialiased bg-white text-gray-900">
         <Navbar />
