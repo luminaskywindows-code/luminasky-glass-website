@@ -6,6 +6,8 @@ import { TestimonialsSection } from "@/components/home/TestimonialsSection";
 import { FAQSection } from "@/components/home/FAQSection";
 import { ServiceAreaMap } from "@/components/shared/ServiceAreaMap";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { HomepageFAQ } from "@/components/home/HomepageFAQ";
+import { HOMEPAGE_SCHEMA_FAQS } from "@/lib/homepage-faq-data";
 import { WinterBanner } from "@/components/home/WinterBanner";
 import { HomepagePopup } from "@/components/home/HomepagePopup";
 import { TrustStrip } from "@/components/home/TrustStrip";
@@ -54,6 +56,24 @@ export default function HomePage() {
 
       <ServiceAreaMap />
       <CTABanner />
+      <HomepageFAQ />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: HOMEPAGE_SCHEMA_FAQS.map((faq) => ({
+              "@type": "Question",
+              name: faq.q,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.a,
+              },
+            })),
+          }),
+        }}
+      />
     </>
   );
 }
