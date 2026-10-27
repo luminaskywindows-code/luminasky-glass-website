@@ -44,7 +44,7 @@ export function ServiceCard({
           <div className="relative h-48 overflow-hidden bg-gray-100">
             <Image
               src={imageSrc}
-              alt={title}
+              alt={`${title} - LuminaSky Glass Services`}
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"

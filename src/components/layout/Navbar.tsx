@@ -122,7 +122,7 @@ export function Navbar() {
           >
             <Image
               src="/images/logo.png"
-              alt={COMPANY_NAME}
+              alt={`${COMPANY_NAME} logo`}
               width={220}
               height={82}
               className="h-16 md:h-20 w-auto object-contain"
@@ -233,7 +233,7 @@ export function Navbar() {
                 >
                   <Image
                     src="/images/logo.png"
-                    alt={COMPANY_NAME}
+                    alt={`${COMPANY_NAME} logo`}
                     width={130}
                     height={48}
                     className="h-10 w-auto object-contain"

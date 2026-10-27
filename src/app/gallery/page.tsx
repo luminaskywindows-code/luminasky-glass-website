@@ -68,7 +68,7 @@ export default function ServicesShowcasePage() {
                   <div className="relative aspect-[4/3] bg-gray-100 overflow-hidden">
                     <Image
                       src={service.imageSrc}
-                      alt={service.title}
+                      alt={`${service.title} - LuminaSky Glass Services`}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"

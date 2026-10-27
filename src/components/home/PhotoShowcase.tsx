@@ -6,22 +6,22 @@ import { motion, useReducedMotion } from "framer-motion";
 const GALLERY_ITEMS = [
   {
     src: "/images/gallery/foggy-window.png",
-    alt: "Foggy window requiring repair - condensation between panes",
+    alt: "Foggy window with condensation trapped between panes, seal failure visible in a GTA home",
     label: "Foggy window seal failure",
   },
   {
     src: "/images/gallery/bright-clean-windows.png",
-    alt: "Clean bright windows with natural light after repair",
+    alt: "Bright clean windows with natural light streaming through after sealed glass unit replacement",
     label: "Clear after glass unit replacement",
   },
   {
     src: "/images/gallery/living-room-windows.png",
-    alt: "Modern living room with large repaired windows",
+    alt: "Modern living room with large picture windows after glass replacement by LuminaSky in the GTA",
     label: "Large window glass restoration",
   },
   {
     src: "/images/gallery/kitchen-window.png",
-    alt: "Kitchen window above sink - residential repair",
+    alt: "Kitchen window above sink after residential sealed glass unit repair in a GTA home",
     label: "Kitchen window repair",
   },
 ];

@@ -228,7 +228,7 @@ export default function AboutPage() {
       <div className="relative h-72 md:h-96 overflow-hidden" aria-hidden="true">
         <Image
           src="/images/hero-background.png"
-          alt="Modern interior windows - quality glass repair results"
+          alt="Bright residential windows with natural light streaming through after professional glass repair in Thornhill"
           fill
           unoptimized
           className="object-cover object-center"

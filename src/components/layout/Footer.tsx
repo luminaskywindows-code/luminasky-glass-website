@@ -39,7 +39,7 @@ export function Footer() {
             <Link href="/" className="inline-block mb-4">
               <Image
                 src="/images/logo.png"
-                alt={COMPANY_NAME}
+                alt={`${COMPANY_NAME} logo`}
                 width={140}
                 height={52}
                 className="h-12 w-auto object-contain brightness-0 invert"
