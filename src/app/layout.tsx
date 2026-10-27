@@ -9,6 +9,7 @@ import { SourceTracker } from "@/components/layout/SourceTracker";
 import { Toaster } from "@/components/ui/sonner";
 import { generateOrganizationSchema } from "@/lib/schema";
 import { ClarityInit } from "@/components/analytics/ClarityInit";
+import { PhoneClickTracker } from "@/components/analytics/PhoneClickTracker";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -79,6 +80,7 @@ export default function RootLayout({
         <SourceTracker />
         <Toaster position="bottom-right" />
         <GtagInit />
+        <PhoneClickTracker />
       </body>
     </html>
   );
