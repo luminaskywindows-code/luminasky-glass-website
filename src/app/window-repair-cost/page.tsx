@@ -288,6 +288,20 @@ export default function WindowRepairCostPage() {
         </div>
       </section>
 
+      {/* Combined Quote */}
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="combined-heading">
+        <div className="max-w-3xl mx-auto">
+          <h2 id="combined-heading" className="text-3xl font-bold text-gray-900 mb-6">
+            Multiple Windows or Doors? Ask for a Combined Quote
+          </h2>
+          <p className="text-gray-600 leading-relaxed">
+            Have more than one window or door that needs work? Let us know. Our customers often start with one foggy window and realize two or three others need attention. When we handle multiple items in a single visit, we can usually offer a better combined price: one service call instead of several, less overall labour time. Call us at{" "}
+            <a href={PHONE_HREF} className="text-primary font-semibold hover:underline">(437) 344-8490</a>
+            {" "}and tell us everything you&apos;re seeing; we&apos;ll quote it all together.
+          </p>
+        </div>
+      </section>
+
       {/* FAQs */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">
         <div className="max-w-3xl mx-auto">
