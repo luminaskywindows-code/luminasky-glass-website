@@ -430,6 +430,14 @@ export default function WindowReplacementPage() {
         </div>
       </section>
 
+      {/* Pricing Disclaimer */}
+      <div className="max-w-3xl mx-auto px-4 md:px-8 py-4">
+        <p className="text-sm italic text-gray-500">
+          Pricing shown is a general estimate based on typical jobs across the GTA. Final pricing depends on size, access, frame condition, and other site-specific factors. For an exact written quote, call{" "}
+          <a href="tel:+14373448490" className="text-primary hover:underline">(437) 344-8490</a>.
+        </p>
+      </div>
+
       {/* Mid-page CTA */}
       <section className="py-12 px-4 md:px-8 bg-primary text-white">
         <div className="max-w-3xl mx-auto text-center">

@@ -800,6 +800,10 @@ export default function FrontDoorGlassPage() {
             usually the same day. If you prefer an in-person visit, the visit is
             $30 and it&apos;s credited toward your job.
           </p>
+          <p className="text-sm italic text-gray-500 mt-4">
+            Pricing shown is a general estimate based on typical jobs across the GTA. Final pricing depends on size, access, frame condition, and other site-specific factors. For an exact written quote, call{" "}
+            <a href="tel:+14373448490" className="text-primary hover:underline">(437) 344-8490</a>.
+          </p>
         </div>
       </section>
 

@@ -579,6 +579,14 @@ export default function WindowCranksPage() {
         </div>
       </section>
 
+      {/* Pricing Disclaimer */}
+      <div className="max-w-3xl mx-auto px-4 md:px-8 py-4">
+        <p className="text-sm italic text-gray-500">
+          Pricing shown is a general estimate based on typical jobs across the GTA. Final pricing depends on size, access, frame condition, and other site-specific factors. For an exact written quote, call{" "}
+          <a href="tel:+14373448490" className="text-primary hover:underline">(437) 344-8490</a>.
+        </p>
+      </div>
+
       {/* ── FAQ ── */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">
         <div className="max-w-3xl mx-auto">

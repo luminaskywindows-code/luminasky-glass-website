@@ -433,6 +433,10 @@ export default function CommercialGlassRepairPage() {
             extra security. For a breakdown of what affects pricing, see our{" "}
             <Link href="/window-repair-cost" className="text-primary font-semibold hover:underline">window repair cost guide</Link>.
           </p>
+          <p className="text-sm italic text-gray-500 mt-4">
+            Pricing shown is a general estimate based on typical jobs across the GTA. Final pricing depends on size, access, frame condition, and other site-specific factors. For an exact written quote, call{" "}
+            <a href="tel:+14373448490" className="text-primary hover:underline">(437) 344-8490</a>.
+          </p>
         </div>
       </section>
 

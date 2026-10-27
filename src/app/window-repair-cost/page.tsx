@@ -132,203 +132,223 @@ export default function WindowRepairCostPage() {
         </div>
       </section>
 
-      {/* Why We Quote Per Job */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="per-job-heading">
-        <div className="max-w-3xl mx-auto">
-          <h2 id="per-job-heading" className="text-3xl font-bold text-gray-900 mb-6">
-            Why We Quote Per Job
-          </h2>
-          <p className="text-gray-600 leading-relaxed">
-            Two windows that look the same can need very different repairs. A foggy pane might be a standard double-pane unit or a large Low-E triple-pane one. A stiff crank might need lubrication or a new operator. A published price list would be wrong for most homes, so we quote each job individually from a photo or a short visit, and the price you approve is the price you pay.
-          </p>
-        </div>
-      </section>
+      {/* Main content with sidebar TOC */}
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
+        <div className="lg:grid lg:grid-cols-[220px_1fr] lg:gap-10">
+          {/* Sidebar TOC - hidden on mobile, sticky on desktop */}
+          <aside className="hidden lg:block">
+            <nav className="sticky top-24 bg-gray-50 rounded-xl border border-gray-200 p-4" aria-label="Table of contents">
+              <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">On this page</p>
+              <ul className="space-y-1.5 text-sm">
+                {[
+                  { id: "intro", label: "Introduction" },
+                  { id: "factors", label: "What Affects Cost" },
+                  { id: "repair-vs-replace", label: "Repair vs Replacement" },
+                  { id: "how-we-quote", label: "How We Quote" },
+                  { id: "foggy-cost", label: "Foggy Window Cost" },
+                  { id: "crank-cost", label: "Crank Repair Cost" },
+                  { id: "broken-cost", label: "Broken Glass Cost" },
+                  { id: "combined", label: "Combined Quote" },
+                  { id: "faq", label: "FAQs" },
+                ].map((item) => (
+                  <li key={item.id}>
+                    <a href={`#${item.id}`} className="block text-gray-600 hover:text-primary transition-colors py-0.5">
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </aside>
 
-      {/* What Affects Window Repair Cost */}
-      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="factors-heading">
-        <div className="max-w-7xl mx-auto">
-          <h2 id="factors-heading" className="text-3xl font-bold text-gray-900 mb-8">
-            What Affects Window Repair Cost
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {COST_FACTORS.map((item) => (
-              <div key={item.title} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+          {/* Main column */}
+          <div>
+            {/* Introduction */}
+            <section id="intro" className="mb-16 scroll-mt-24" aria-labelledby="per-job-heading">
+              <h2 id="per-job-heading" className="text-3xl font-bold text-gray-900 mb-6">
+                Why We Quote Per Job
+              </h2>
+              <p className="text-gray-600 leading-relaxed">
+                Two windows that look the same can need very different repairs. A foggy pane might be a standard double-pane unit or a large Low-E triple-pane one. A stiff crank might need lubrication or a new operator. A published price list would be wrong for most homes, so we quote each job individually from a photo or a short visit, and the price you approve is the price you pay.
+              </p>
+            </section>
+
+            {/* What Affects Window Repair Cost */}
+            <section id="factors" className="mb-16 scroll-mt-24" aria-labelledby="factors-heading">
+              <h2 id="factors-heading" className="text-3xl font-bold text-gray-900 mb-8">
+                What Affects Window Repair Cost
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {COST_FACTORS.map((item) => (
+                  <div key={item.title} className="bg-gray-50 rounded-xl border border-gray-100 p-6">
+                    <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
+            </section>
 
-      {/* Why Repair Costs Less Than Replacement */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="repair-vs-replace-heading">
-        <div className="max-w-3xl mx-auto">
-          <h2 id="repair-vs-replace-heading" className="text-3xl font-bold text-gray-900 mb-8">
-            Why Repair Costs Less Than Replacement
-          </h2>
-          <div className="space-y-4">
-            {REPAIR_ADVANTAGES.map((item) => (
-              <div key={item.title} className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
-                <div>
-                  <span className="font-bold text-gray-900">{item.title}.</span>{" "}
-                  <span className="text-gray-600">{item.desc}</span>
+            {/* Why Repair Costs Less Than Replacement */}
+            <section id="repair-vs-replace" className="mb-16 scroll-mt-24" aria-labelledby="repair-vs-replace-heading">
+              <h2 id="repair-vs-replace-heading" className="text-3xl font-bold text-gray-900 mb-8">
+                Why Repair Costs Less Than Replacement
+              </h2>
+              <div className="space-y-4">
+                {REPAIR_ADVANTAGES.map((item) => (
+                  <div key={item.title} className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
+                    <div>
+                      <span className="font-bold text-gray-900">{item.title}.</span>{" "}
+                      <span className="text-gray-600">{item.desc}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p className="text-gray-600 leading-relaxed mt-6">
+                When a frame is rotted, warped or no longer seals, replacement is the right call, and we&apos;ll tell you so.{" "}
+                <Link href="/window-replacement" className="text-primary font-semibold hover:underline">Window replacement</Link>
+                {" | "}
+                <Link href="/blog/window-repair-vs-replacement-toronto" className="text-primary font-semibold hover:underline">
+                  Window repair vs replacement guide
+                </Link>
+              </p>
+            </section>
+
+            {/* How We Quote */}
+            <section id="how-we-quote" className="mb-16 scroll-mt-24 bg-gray-50 rounded-xl p-8" aria-labelledby="quote-heading">
+              <h2 id="quote-heading" className="text-3xl font-bold text-gray-900 mb-6">
+                How We Quote
+              </h2>
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start gap-3">
+                  <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
+                  <p className="text-gray-600 leading-relaxed">
+                    <strong className="text-gray-900">Free photo quote.</strong> Text or WhatsApp a photo of the window and the problem. Most jobs can be quoted from photos at no charge.
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
+                  <p className="text-gray-600 leading-relaxed">
+                    <strong className="text-gray-900">$30 site visit, if needed.</strong> If we need to see the window in person, the visit is $30, credited back to you if the work goes ahead.
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
+                  <p className="text-gray-600 leading-relaxed">
+                    <strong className="text-gray-900">Written estimate before any work.</strong> You get a written price and nothing starts without your approval. The price doesn&apos;t change at the door.
+                  </p>
                 </div>
               </div>
-            ))}
-          </div>
-          <p className="text-gray-600 leading-relaxed mt-6">
-            When a frame is rotted, warped or no longer seals, replacement is the right call, and we&apos;ll tell you so.{" "}
-            <Link href="/window-replacement" className="text-primary font-semibold hover:underline">Window replacement</Link>
-            {" | "}
-            <Link href="/blog/window-repair-vs-replacement-toronto" className="text-primary font-semibold hover:underline">
-              Window repair vs replacement guide
-            </Link>
-          </p>
-        </div>
-      </section>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg transition-all"
+                >
+                  Send a Photo for a Free Quote
+                </Link>
+                <a
+                  href={PHONE_HREF}
+                  className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold px-8 py-4 rounded-md transition-all"
+                >
+                  <Phone className="w-5 h-5" aria-hidden="true" />
+                  Call 437-344-8490
+                </a>
+              </div>
+            </section>
 
-      {/* How We Quote */}
-      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="quote-heading">
-        <div className="max-w-3xl mx-auto">
-          <h2 id="quote-heading" className="text-3xl font-bold text-gray-900 mb-6">
-            How We Quote
-          </h2>
-          <div className="space-y-4 mb-8">
-            <div className="flex items-start gap-3">
-              <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
+            {/* Foggy Window Repair Cost */}
+            <section id="foggy-cost" className="mb-16 scroll-mt-24" aria-labelledby="foggy-cost-heading">
+              <h2 id="foggy-cost-heading" className="text-3xl font-bold text-gray-900 mb-6">
+                Foggy Window Repair Cost
+              </h2>
               <p className="text-gray-600 leading-relaxed">
-                <strong className="text-gray-900">Free photo quote.</strong> Text or WhatsApp a photo of the window and the problem. Most jobs can be quoted from photos at no charge.
+                Fog between the panes means the sealed unit has failed. Cleaning or &ldquo;defogging&rdquo; can&apos;t reach inside the unit, so the lasting fix is a new sealed unit in your existing frame. It costs a fraction of a new window, because the frame, trim and interior finish stay in place, and new units carry a 5-year warranty against seal failure.{" "}
+                <Link href="/foggy-windows" className="text-primary font-semibold hover:underline">Foggy glass repair</Link>
+                {" | "}
+                <Link href="/blog/why-windows-fog-between-panes" className="text-primary font-semibold hover:underline">Why windows fog between panes</Link>
               </p>
-            </div>
-            <div className="flex items-start gap-3">
-              <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
+            </section>
+
+            {/* Window Crank Repair Cost */}
+            <section id="crank-cost" className="mb-16 scroll-mt-24" aria-labelledby="crank-cost-heading">
+              <h2 id="crank-cost-heading" className="text-3xl font-bold text-gray-900 mb-6">
+                Window Crank Repair Cost
+              </h2>
               <p className="text-gray-600 leading-relaxed">
-                <strong className="text-gray-900">$30 site visit, if needed.</strong> If we need to see the window in person, the visit is $30, credited back to you if the work goes ahead.
+                A stripped or broken casement crank is one of the most affordable window repairs. It&apos;s usually fixed on the first visit with parts from our truck, and it comes with a 2-year warranty on parts and labour.{" "}
+                <Link href="/cranks" className="text-primary font-semibold hover:underline">Window crank repair &rarr;</Link>
               </p>
-            </div>
-            <div className="flex items-start gap-3">
-              <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
+            </section>
+
+            {/* Broken Window Glass Cost */}
+            <section id="broken-cost" className="mb-16 scroll-mt-24" aria-labelledby="broken-cost-heading">
+              <h2 id="broken-cost-heading" className="text-3xl font-bold text-gray-900 mb-6">
+                Broken Window Glass Cost
+              </h2>
               <p className="text-gray-600 leading-relaxed">
-                <strong className="text-gray-900">Written estimate before any work.</strong> You get a written price and nothing starts without your approval. The price doesn&apos;t change at the door.
+                The cost of replacing a cracked or broken pane depends mainly on its size and glass type. Single-pane, sealed double or triple-pane, and tempered glass are each made to measure.{" "}
+                <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">Glass replacement &rarr;</Link>
               </p>
+            </section>
+
+            {/* Cost Report Callout */}
+            <div className="mb-16 bg-accent/5 border border-accent/20 rounded-xl p-6 flex flex-col sm:flex-row items-center gap-4">
+              <div className="flex-1">
+                <p className="font-bold text-gray-900">Looking for specific glass replacement pricing?</p>
+                <p className="text-gray-600 text-sm mt-1">Our 2026 Cost Report includes a full pricing table by window size, hidden fees to watch for, and cost-saving tips.</p>
+              </div>
+              <Link href="/glass-replacement-cost-report-2026" className="shrink-0 inline-flex items-center gap-2 bg-primary hover:bg-primary-700 text-white font-semibold px-6 py-3 rounded-md transition-colors text-sm">
+                Read the Cost Report
+                <ChevronRight className="w-4 h-4" aria-hidden="true" />
+              </Link>
             </div>
-          </div>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg transition-all"
-            >
-              Send a Photo for a Free Quote
-            </Link>
-            <a
-              href={PHONE_HREF}
-              className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold px-8 py-4 rounded-md transition-all"
-            >
-              <Phone className="w-5 h-5" aria-hidden="true" />
-              Call 437-344-8490
-            </a>
-          </div>
-        </div>
-      </section>
 
-      {/* Foggy Window Repair Cost */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="foggy-cost-heading">
-        <div className="max-w-3xl mx-auto">
-          <h2 id="foggy-cost-heading" className="text-3xl font-bold text-gray-900 mb-6">
-            Foggy Window Repair Cost
-          </h2>
-          <p className="text-gray-600 leading-relaxed">
-            Fog between the panes means the sealed unit has failed. Cleaning or &ldquo;defogging&rdquo; can&apos;t reach inside the unit, so the lasting fix is a new sealed unit in your existing frame. It costs a fraction of a new window, because the frame, trim and interior finish stay in place, and new units carry a 5-year warranty against seal failure.{" "}
-            <Link href="/foggy-windows" className="text-primary font-semibold hover:underline">Foggy glass repair</Link>
-            {" | "}
-            <Link href="/blog/why-windows-fog-between-panes" className="text-primary font-semibold hover:underline">Why windows fog between panes</Link>
-          </p>
-        </div>
-      </section>
+            {/* Pricing Disclaimer */}
+            <p className="text-sm italic text-gray-500 mb-16 -mt-10">
+              Pricing shown is a general estimate based on typical jobs across the GTA. Final pricing depends on size, access, frame condition, and other site-specific factors. For an exact written quote, call{" "}
+              <a href={PHONE_HREF} className="text-primary hover:underline">(437) 344-8490</a>.
+            </p>
 
-      {/* Window Crank Repair Cost */}
-      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="crank-cost-heading">
-        <div className="max-w-3xl mx-auto">
-          <h2 id="crank-cost-heading" className="text-3xl font-bold text-gray-900 mb-6">
-            Window Crank Repair Cost
-          </h2>
-          <p className="text-gray-600 leading-relaxed">
-            A stripped or broken casement crank is one of the most affordable window repairs. It&apos;s usually fixed on the first visit with parts from our truck, and it comes with a 2-year warranty on parts and labour.{" "}
-            <Link href="/cranks" className="text-primary font-semibold hover:underline">Window crank repair &rarr;</Link>
-          </p>
-        </div>
-      </section>
+            {/* Combined Quote */}
+            <section id="combined" className="mb-16 scroll-mt-24" aria-labelledby="combined-heading">
+              <h2 id="combined-heading" className="text-3xl font-bold text-gray-900 mb-6">
+                Multiple Windows or Doors? Ask for a Combined Quote
+              </h2>
+              <p className="text-gray-600 leading-relaxed">
+                Have more than one window or door that needs work? Let us know. Our customers often start with one foggy window and realize two or three others need attention. When we handle multiple items in a single visit, we can usually offer a better combined price: one service call instead of several, less overall labour time. Call us at{" "}
+                <a href={PHONE_HREF} className="text-primary font-semibold hover:underline">(437) 344-8490</a>
+                {" "}and tell us everything you&apos;re seeing; we&apos;ll quote it all together.
+              </p>
+            </section>
 
-      {/* Broken Window Glass Cost */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="broken-cost-heading">
-        <div className="max-w-3xl mx-auto">
-          <h2 id="broken-cost-heading" className="text-3xl font-bold text-gray-900 mb-6">
-            Broken Window Glass Cost
-          </h2>
-          <p className="text-gray-600 leading-relaxed">
-            The cost of replacing a cracked or broken pane depends mainly on its size and glass type. Single-pane, sealed double or triple-pane, and tempered glass are each made to measure.{" "}
-            <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">Glass replacement &rarr;</Link>
-          </p>
-        </div>
-      </section>
-
-      {/* Cost Report Callout */}
-      <section className="py-10 px-4 md:px-8 bg-accent/5 border-y border-accent/20">
-        <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center gap-4">
-          <div className="flex-1">
-            <p className="font-bold text-gray-900">Looking for specific glass replacement pricing?</p>
-            <p className="text-gray-600 text-sm mt-1">Our 2026 Cost Report includes a full pricing table by window size, hidden fees to watch for, and cost-saving tips.</p>
-          </div>
-          <Link href="/glass-replacement-cost-report-2026" className="shrink-0 inline-flex items-center gap-2 bg-primary hover:bg-primary-700 text-white font-semibold px-6 py-3 rounded-md transition-colors text-sm">
-            Read the Cost Report
-            <ChevronRight className="w-4 h-4" aria-hidden="true" />
-          </Link>
-        </div>
-      </section>
-
-      {/* Combined Quote */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="combined-heading">
-        <div className="max-w-3xl mx-auto">
-          <h2 id="combined-heading" className="text-3xl font-bold text-gray-900 mb-6">
-            Multiple Windows or Doors? Ask for a Combined Quote
-          </h2>
-          <p className="text-gray-600 leading-relaxed">
-            Have more than one window or door that needs work? Let us know. Our customers often start with one foggy window and realize two or three others need attention. When we handle multiple items in a single visit, we can usually offer a better combined price: one service call instead of several, less overall labour time. Call us at{" "}
-            <a href={PHONE_HREF} className="text-primary font-semibold hover:underline">(437) 344-8490</a>
-            {" "}and tell us everything you&apos;re seeing; we&apos;ll quote it all together.
-          </p>
-        </div>
-      </section>
-
-      {/* FAQs */}
-      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">
-        <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-10">
-            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-              Common Questions
-            </span>
-            <h2 id="faq-heading" className="text-3xl font-bold text-gray-900">
-              Window Repair Cost FAQs
-            </h2>
-          </div>
-          <div className="space-y-3">
-            {FAQS.map((faq, i) => (
-              <details
-                key={i}
-                className="bg-white rounded-xl border border-gray-100 overflow-hidden group"
-              >
-                <summary className="flex items-center justify-between px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:text-primary transition-colors list-none [&::-webkit-details-marker]:hidden">
-                  {faq.q}
-                  <ChevronRight className="w-5 h-5 text-gray-400 group-open:rotate-90 transition-transform shrink-0 ml-4" aria-hidden="true" />
-                </summary>
-                <div className="px-6 pb-4 text-gray-600 leading-relaxed">{faq.a}</div>
-              </details>
-            ))}
+            {/* FAQs */}
+            <section id="faq" className="scroll-mt-24" aria-labelledby="faq-heading">
+              <div className="text-center mb-10">
+                <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+                  Common Questions
+                </span>
+                <h2 id="faq-heading" className="text-3xl font-bold text-gray-900">
+                  Window Repair Cost FAQs
+                </h2>
+              </div>
+              <div className="space-y-3">
+                {FAQS.map((faq, i) => (
+                  <details
+                    key={i}
+                    className="bg-gray-50 rounded-xl border border-gray-100 overflow-hidden group"
+                  >
+                    <summary className="flex items-center justify-between px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:text-primary transition-colors list-none [&::-webkit-details-marker]:hidden">
+                      {faq.q}
+                      <ChevronRight className="w-5 h-5 text-gray-400 group-open:rotate-90 transition-transform shrink-0 ml-4" aria-hidden="true" />
+                    </summary>
+                    <div className="px-6 pb-4 text-gray-600 leading-relaxed">{faq.a}</div>
+                  </details>
+                ))}
+              </div>
+            </section>
           </div>
         </div>
-      </section>
+      </div>
 
       <CTABanner
         title="Get a Free Quote for Your Window Repair"
