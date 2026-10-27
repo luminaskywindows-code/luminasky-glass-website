@@ -1229,6 +1229,86 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Not sure if it is rollers or track? Send a photo of the bottom track and the panel edge on WhatsApp and we will tell you what we are looking at. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
 `,
   },
+  {
+    slug: "winter-window-prep-gta",
+    title: "Winter Window Prep: 5 Things Every GTA Homeowner Should Check",
+    metaTitle: "Winter Window Prep: 5 Things to Check Before Frost",
+    metaDescription:
+      "Five window checks to do before the first hard frost hits the GTA. Caulk, hardware, foggy panes, weatherstripping, frost. Catch problems in October, not January.",
+    excerpt:
+      "It is late October. The first hard frost in the GTA is days away, not weeks. Here are five things to check on your windows right now, before cold weather turns a small problem into an expensive one.",
+    publishedAt: "2026-10-27",
+    author: "Dan",
+    readingTime: 4,
+    tags: ["winter", "maintenance", "weatherstripping", "caulking", "frost"],
+    sections: [
+      { id: "caulking-and-sealant", title: "1. Caulking and Sealant" },
+      { id: "hardware-that-does-not-close-tight", title: "2. Hardware That Does Not Close Tight" },
+      { id: "foggy-or-failed-panes", title: "3. Foggy or Failed Panes" },
+      { id: "weatherstripping", title: "4. Weatherstripping" },
+      { id: "frost-on-the-inside", title: "5. Frost on the Inside" },
+      { id: "the-october-rule", title: "The October Rule" },
+    ],
+    content: `
+<p>It is late October. The first hard frost in the GTA is days away, not weeks. If something is wrong with your windows, you want to find out now, while there is still time to fix it before the heating bill arrives and the real cold sets in.</p>
+
+<p>Here are five things to walk through this weekend. None of them take special tools. All of them can save you a phone call in January.</p>
+
+<h2 id="caulking-and-sealant">1. Caulking and Sealant</h2>
+
+<p>Look at the exterior caulking around every window frame. What you are looking for is cracking, peeling, or gaps where the caulk has pulled away from the frame or the siding.</p>
+
+<p>Caulk does not last forever. Sun, rain, and freeze/thaw cycles break it down over five to ten years. Once a gap opens, water gets behind the frame. In winter, that water freezes, expands, and makes the gap bigger. By spring you have a moisture problem that started as a hairline crack in October.</p>
+
+<p>If the caulk is cracked but the frame and siding are sound, a fresh bead of exterior silicone caulk is a fifteen minute fix per window. If the wood behind the caulk is soft or discoloured, that is a sign water has already been getting in, and you want a professional to look at it before you seal over the damage.</p>
+
+<h2 id="hardware-that-does-not-close-tight">2. Hardware That Does Not Close Tight</h2>
+
+<p>Go window by window and close each one. Lock it. Does the lock engage smoothly? Does the sash pull tight against the frame, or does it sit loose with play in it?</p>
+
+<p>A window that does not close fully is a window that is not sealed. The lock is not just for security. It is what compresses the weatherstripping and creates the air barrier. If the crank spins without drawing the sash in, or the lock does not catch, cold air is getting through all winter.</p>
+
+<p>Most <a href="/cranks">window hardware</a> problems are repairable. Cranks, hinges, locks, and operators can be replaced individually without touching the glass or the frame. Most window hardware repairs are completed on the same day, on the first visit.</p>
+
+<h2 id="foggy-or-failed-panes">3. Foggy or Failed Panes</h2>
+
+<p>Stand inside and look through every window. If you see haze, condensation, or a milky film trapped between the panes, the sealed unit has failed. Moisture has entered the insulating gap and the gas fill is gone.</p>
+
+<p>A <a href="/foggy-windows">foggy window</a> is not just ugly. It has lost a significant portion of its insulating value. The surface facing your room runs colder, which means more condensation on the inside in winter, and more heat loss you are paying for.</p>
+
+<p>The fix is replacing the sealed glass unit, not the whole window. Glass is measured first, custom-made to your exact dimensions, then installed into your existing frame. The frame stays, the trim stays, and the window works properly again.</p>
+
+<p>Order now and the new glass arrives before the worst of winter. Wait until January and you are heating a house with a failed window for two extra months.</p>
+
+<h2 id="weatherstripping">4. Weatherstripping</h2>
+
+<p>Weatherstripping is the rubber or foam gasket that runs around the sash where it meets the frame. It compresses when the window closes to create a seal against air and water.</p>
+
+<p>Over time it dries out, flattens, cracks, or tears. You can usually see the damage if you open the window and look at the strip. If it is compressed flat, brittle, or missing in sections, it is not doing its job.</p>
+
+<p>The test is simple: close the window, lock it, and hold your hand near the edges. If you feel cold air moving on a windy day, the weatherstripping is likely the cause. A lit candle or incense stick near the frame makes even small drafts visible.</p>
+
+<p>On most window types, weatherstripping can be replaced without removing the window. It is one of the least expensive repairs and one of the most effective for comfort and energy savings.</p>
+
+<h2 id="frost-on-the-inside">5. Frost on the Inside</h2>
+
+<p>This one shows up after the first few cold nights. If you see frost or heavy condensation forming on the inside surface of the glass, not between the panes but on the room side, something is wrong.</p>
+
+<p>Interior frost means the inside surface of the glass is getting cold enough to hit the dew point of your indoor air. In a double-pane window that is working properly, the inside surface stays warm enough that this should not happen except in extreme cold.</p>
+
+<p>Common causes: a failed sealed unit (the insulating gas is gone), a window that is not closing fully (cold air bypassing the glass entirely), or a single-pane window in a space that needs an upgrade.</p>
+
+<p>Interior frost is not cosmetic. The water it produces when it melts runs into the frame, the sill, and eventually the wall below. Left alone for a full winter, it causes paint damage, mould, and wood rot.</p>
+
+<h2 id="the-october-rule">The October Rule</h2>
+
+<p>Every window problem is easier and cheaper to fix in October than in January. Caulking cures better in mild weather. Parts are in stock before the winter rush. Scheduling is open. And you are not losing heat and money while you wait.</p>
+
+<p>If your walk-through turned up anything on this list, check our <a href="/winter-ready">winter ready page</a> for a full breakdown of what we handle, or call us directly. All of our work is backed by our <a href="/warranty">warranty</a>.</p>
+
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or send a photo on WhatsApp and we will tell you what you are looking at.</p>
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
