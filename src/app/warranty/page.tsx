@@ -119,6 +119,9 @@ export default function WarrantyPage() {
                 </strong>
                 . If the seal fails within 5 years of installation (fogging, condensation between the panes), we replace the glass unit at no cost, including parts and labour. Glass breakage is not covered under warranty.
               </p>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                Our sealed glass units are made by an IGMAC-certified manufacturer to the CGSB 12.8 standard.
+              </p>
               <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
                 <Shield
                   className="w-6 h-6 text-primary shrink-0"

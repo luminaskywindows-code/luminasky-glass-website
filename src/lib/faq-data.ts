@@ -108,6 +108,10 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
         a: "Yes. Sealed glass units carry a 5-year warranty against seal failure. All repair work carries a 2-year warranty on parts and labour. Glass breakage is not covered.",
       },
       {
+        q: "Are your sealed glass units certified?",
+        a: "Yes. Our sealed glass units are made by an IGMAC-certified manufacturer to the CGSB 12.8 standard, the Canadian standard for insulating glass. New sealed units come with a 5-year warranty against seal failure.",
+      },
+      {
         q: "What does your warranty cover?",
         a: "Our 5-year warranty covers sealed glass units against seal failure (fogging, condensation between the panes). All repair work carries a 2-year warranty on parts and labour. Glass breakage is not covered under warranty.",
       },

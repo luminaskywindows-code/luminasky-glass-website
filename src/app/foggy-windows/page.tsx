@@ -303,7 +303,7 @@ export default function FoggyWindowsPage() {
               The frame, the sash and the hardware are usually still in good
               shape. Only the glass unit has failed. So we don&apos;t replace the
               whole window. We do sealed unit replacement: we remove the failed
-              glass unit and install a new one in your existing frame.
+              glass unit and install a new one in your existing frame. Our sealed glass units are made by an IGMAC-certified manufacturer to the CGSB 12.8 standard.
             </p>
             <p>
               Glass unit replacement is faster, cleaner and much cheaper than
