@@ -137,7 +137,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does foggy window repair cost in Vaughan?",
-        a: "Most sealed unit replacements range from $150–$350 per window depending on size and glass type. We provide free quotes. Send us a photo for a fast estimate.",
+        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. We provide free quotes. Send us a photo for a fast estimate.",
       },
     ],
   },
@@ -388,7 +388,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "How much does it cost to fix a foggy window in Markham?",
-        a: "Sealed unit replacements typically run $150–$350 per window depending on size and glass type. Send us a photo and we'll give you an exact quote.",
+        a: "Sealed unit replacements typically run $300–$1,400 per window depending on size and glass type. Send us a photo and we'll give you an exact quote.",
       },
       {
         q: "Do you also fix commercial storefront glass?",
@@ -641,7 +641,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does foggy window repair cost in Aurora?",
-        a: "Most sealed unit replacements run $150–$350 per window depending on size and glass type. Text us a photo for a fast, free estimate.",
+        a: "Most sealed unit replacements run $300–$1,400 per window depending on size and glass type. Text us a photo for a fast, free estimate.",
       },
       {
         q: "Do you also serve Newmarket and King City?",
@@ -807,7 +807,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "How much does it cost to repair a foggy window in Maple?",
-        a: "Most sealed unit replacements range from $150–$350 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
+        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
       },
       {
         q: "Can you match the existing glass type in my windows?",
@@ -977,7 +977,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does a typical foggy window repair cost?",
-        a: "Sealed unit replacements generally range from $150–$350 per window depending on size and glass type. Send us a photo for a free quote.",
+        a: "Sealed unit replacements generally range from $300–$1,400 per window depending on size and glass type. Send us a photo for a free quote.",
       },
     ],
   },
@@ -1591,7 +1591,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does foggy window repair cost in Milton?",
-        a: "Most sealed unit replacements range from $150–$350 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
+        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
       },
     ],
   },
@@ -1939,7 +1939,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does foggy window repair cost in Whitby?",
-        a: "Most sealed unit replacements range from $150–$350 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
+        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
       },
     ],
   },
