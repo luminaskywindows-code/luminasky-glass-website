@@ -20,9 +20,9 @@ const SERVICE_OPTIONS = [
 ];
 
 const STATS = [
-  { value: "5.0★", label: "Google & HomeStars" },
-  { value: "24/7", label: "Emergency Response" },
-  { value: "Since 2024", label: "Serving the GTA" },
+  { value: "5.0★", label: "Google & HomeStars", href: "https://share.google/S08QWQ5FO1niAmpXy", external: true },
+  { value: "24/7", label: "Emergency Response", href: "/contact", external: false },
+  { value: "Since 2024", label: "Serving the GTA", href: "/about", external: false },
 ];
 
 interface HeroFormData {
@@ -457,19 +457,28 @@ export function HeroSection() {
       >
         <div className="max-w-5xl mx-auto px-4 md:px-8 py-8">
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-0 lg:divide-x lg:divide-gray-200">
-            {STATS.map(({ value, label }) => (
-              <div
-                key={label}
-                className="flex flex-col items-center text-center px-4 py-2"
-              >
-                <span className="text-2xl md:text-3xl font-bold text-primary leading-tight">
-                  {value}
-                </span>
-                <span className="text-sm text-gray-500 mt-1 leading-snug">
-                  {label}
-                </span>
-              </div>
-            ))}
+            {STATS.map(({ value, label, href, external }) => {
+              const inner = (
+                <>
+                  <span className="text-2xl md:text-3xl font-bold text-primary leading-tight">
+                    {value}
+                  </span>
+                  <span className="text-sm text-gray-500 mt-1 leading-snug">
+                    {label}
+                  </span>
+                </>
+              );
+              const cls = "flex flex-col items-center text-center px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors";
+              return external ? (
+                <a key={label} href={href} target="_blank" rel="noopener noreferrer" className={cls}>
+                  {inner}
+                </a>
+              ) : (
+                <Link key={label} href={href} className={cls}>
+                  {inner}
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>

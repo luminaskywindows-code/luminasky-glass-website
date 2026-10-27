@@ -40,11 +40,16 @@ export default function HomePage() {
       {/* Social strip */}
       <section className="py-10 px-4 bg-white border-t border-gray-100">
         <div className="max-w-xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-4 text-center sm:text-left">
-          <div className="flex items-center gap-1.5 text-sm text-gray-500 shrink-0">
+          <a
+            href="https://share.google/S08QWQ5FO1niAmpXy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-sm text-gray-500 shrink-0 rounded-md px-2 py-1 hover:bg-gray-100 transition-colors"
+          >
             <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" aria-hidden="true" />
             <span className="font-semibold text-gray-700">5.0★ on Google</span>
             <span className="hidden sm:inline">·</span>
-          </div>
+          </a>
           <span className="text-sm text-gray-400">Find us on:</span>
           <SocialLinks
             size={22}

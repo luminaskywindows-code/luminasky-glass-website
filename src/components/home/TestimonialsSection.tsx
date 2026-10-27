@@ -23,7 +23,12 @@ export function TestimonialsSection() {
         />
 
         {/* Star rating summary */}
-        <div className="flex items-center justify-center gap-3 mb-10 -mt-4">
+        <a
+          href="https://share.google/S08QWQ5FO1niAmpXy"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-3 mb-10 -mt-4 rounded-lg px-4 py-2 hover:bg-gray-100 transition-colors"
+        >
           <div className="flex gap-0.5" aria-label="5.0 out of 5 stars">
             {Array.from({ length: 5 }).map((_, i) => (
               <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" aria-hidden="true" />
@@ -31,7 +36,7 @@ export function TestimonialsSection() {
           </div>
           <span className="font-semibold text-gray-700">5.0</span>
           <span className="text-gray-400 text-sm">on Google</span>
-        </div>
+        </a>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {TESTIMONIALS.map((t, index) => (

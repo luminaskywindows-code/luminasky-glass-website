@@ -41,7 +41,11 @@ export function ServiceAreaMap() {
               Call before noon for same-day service. 24/7 emergency response.
             </p>
           </div>
-          <div className="flex flex-col items-center gap-3 p-6 bg-blue-50 rounded-2xl border border-blue-100">
+          <a
+            href={PHONE_HREF}
+            className="flex flex-col items-center gap-3 p-6 bg-blue-50 rounded-2xl border border-blue-100 hover:bg-blue-100 hover:border-blue-200 transition-colors"
+            aria-label={`Call us at ${PHONE}`}
+          >
             <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
               <Phone className="w-6 h-6 text-white" aria-hidden="true" />
             </div>
@@ -49,7 +53,7 @@ export function ServiceAreaMap() {
             <p className="text-sm text-gray-500 leading-relaxed">
               If you&apos;re in or near the GTA, we likely cover your area. Call to confirm.
             </p>
-          </div>
+          </a>
         </div>
 
         <a
