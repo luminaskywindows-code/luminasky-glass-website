@@ -120,7 +120,7 @@ const HIDDEN_COSTS = [
   },
   {
     title: "Service Call Fees After Warranty",
-    desc: "Companies with short warranties (3–5 years) will charge a full service call ($100–$150) once warranty expires.",
+    desc: "Once warranty expires, expect a full service call fee ($100–$150) for any follow-up visit. Ask how long coverage lasts before you sign.",
   },
 ];
 
