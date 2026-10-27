@@ -1,38 +1,15 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { SERVICES, SERVICE_AREAS } from "@/lib/constants";
+import { SERVICES } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
-
-const HEARD_OPTIONS = [
-  "Google search",
-  "Google Maps",
-  "Facebook",
-  "Instagram",
-  "Flyer in my mailbox",
-  "Referred by a friend or neighbour",
-  "Referred by a contractor, realtor or property manager",
-  "I've used LuminaSky before",
-  "Saw your van or a job in my area",
-  "Other",
-] as const;
-
-const REFERRAL_OPTIONS = new Set<string>([
-  "Referred by a friend or neighbour",
-  "Referred by a contractor, realtor or property manager",
-]);
 
 interface FormData {
   fullName: string;
   phone: string;
   email: string;
   service: string;
-  city: string;
   message: string;
-  contactMethod: "phone" | "email" | "whatsapp";
-  heardAbout: string;
-  referredBy: string;
-  heardAboutOther: string;
   smsAppointments: boolean;
   smsOffers: boolean;
 }
@@ -42,10 +19,6 @@ interface FormErrors {
   phone?: string;
   email?: string;
   service?: string;
-  city?: string;
-  message?: string;
-  heardAbout?: string;
-  heardAboutOther?: string;
 }
 
 const INITIAL: FormData = {
@@ -53,12 +26,7 @@ const INITIAL: FormData = {
   phone: "",
   email: "",
   service: "",
-  city: "",
   message: "",
-  contactMethod: "phone",
-  heardAbout: "",
-  referredBy: "",
-  heardAboutOther: "",
   smsAppointments: false,
   smsOffers: false,
 };
@@ -79,14 +47,10 @@ export function ContactForm() {
   ) => {
     const { name, value, type } = e.target;
     const checked = (e.target as HTMLInputElement).checked;
-    setFormData((prev) => {
-      const next = { ...prev, [name]: type === "checkbox" ? checked : value };
-      if (name === "heardAbout") {
-        if (!REFERRAL_OPTIONS.has(value)) next.referredBy = "";
-        if (value !== "Other") next.heardAboutOther = "";
-      }
-      return next;
-    });
+    setFormData((prev) => ({
+      ...prev,
+      [name]: type === "checkbox" ? checked : value,
+    }));
     if (errors[name as keyof FormErrors]) {
       setErrors((prev) => ({ ...prev, [name]: undefined }));
     }
@@ -106,12 +70,6 @@ export function ContactForm() {
       e.email = "Please enter a valid email address";
     }
     if (!formData.service) e.service = "Please select a service";
-    if (!formData.city) e.city = "Please select your city";
-    if (!formData.message.trim()) e.message = "Please describe your issue";
-    if (!formData.heardAbout) e.heardAbout = "Please select how you heard about us";
-    if (formData.heardAbout === "Other" && !formData.heardAboutOther.trim()) {
-      e.heardAboutOther = "Please tell us where you heard about us";
-    }
     return e;
   };
 
@@ -127,15 +85,6 @@ export function ContactForm() {
     setSubmitStatus(null);
 
     const sd = sourceData || getSourceData();
-
-    let heardAboutFull = formData.heardAbout;
-    if (formData.heardAbout === "Other" && formData.heardAboutOther) {
-      heardAboutFull = `Other: ${formData.heardAboutOther}`;
-    }
-
-    const referredByLine = REFERRAL_OPTIONS.has(formData.heardAbout) && formData.referredBy
-      ? formData.referredBy
-      : "";
 
     const smsConsent = [
       formData.smsAppointments ? "SMS: Appointments & updates" : "",
@@ -156,11 +105,7 @@ export function ContactForm() {
           phone: formData.phone,
           email: formData.email,
           service: formData.service,
-          city: formData.city,
-          contact_method: formData.contactMethod,
           message: `${formData.message}\n\n--- SMS Consent ---\n${smsConsent}`,
-          heard_about: heardAboutFull,
-          referred_by: referredByLine,
           source: sd.source || "unknown",
           utm_source: sd.utm_source || "-",
           utm_medium: sd.utm_medium || "-",
@@ -211,11 +156,8 @@ export function ContactForm() {
     );
   }
 
-  const showReferredBy = REFERRAL_OPTIONS.has(formData.heardAbout);
-  const showOtherInput = formData.heardAbout === "Other";
-
   return (
-    <form onSubmit={handleSubmit} noValidate className="space-y-5" aria-label="Contact form">
+    <form onSubmit={handleSubmit} method="post" noValidate className="space-y-5" aria-label="Contact form">
       {submitStatus === "error" && (
         <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-md text-sm" role="alert">
           Something went wrong. Please try again or call us at{" "}
@@ -233,6 +175,7 @@ export function ContactForm() {
             id="fullName"
             name="fullName"
             type="text"
+            required
             value={formData.fullName}
             onChange={handleChange}
             placeholder="Jane Smith"
@@ -250,6 +193,7 @@ export function ContactForm() {
             id="phone"
             name="phone"
             type="tel"
+            required
             value={formData.phone}
             onChange={handleChange}
             placeholder="416-555-0100"
@@ -258,6 +202,65 @@ export function ContactForm() {
           />
           {errors.phone && <p className="text-red-600 text-xs mt-1">{errors.phone}</p>}
         </div>
+      </div>
+
+      {/* Email */}
+      <div>
+        <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-1.5">
+          Email Address *
+        </label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          required
+          value={formData.email}
+          onChange={handleChange}
+          placeholder="jane@example.com"
+          autoComplete="email"
+          className={inputClass("email")}
+        />
+        {errors.email && <p className="text-red-600 text-xs mt-1">{errors.email}</p>}
+      </div>
+
+      {/* Service */}
+      <div>
+        <label htmlFor="service" className="block text-sm font-semibold text-gray-700 mb-1.5">
+          Service Needed *
+        </label>
+        <select
+          id="service"
+          name="service"
+          required
+          value={formData.service}
+          onChange={handleChange}
+          className={inputClass("service")}
+        >
+          <option value="">Select a service</option>
+          {SERVICES.map((s) => (
+            <option key={s.slug} value={s.shortTitle}>
+              {s.shortTitle}
+            </option>
+          ))}
+          <option value="Other">Other / Not Sure</option>
+        </select>
+        {errors.service && <p className="text-red-600 text-xs mt-1">{errors.service}</p>}
+      </div>
+
+      {/* Message */}
+      <div>
+        <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-1.5">
+          Describe Your Issue
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+          rows={4}
+          placeholder="e.g. Two bedroom windows are foggy / I need my front door glass replaced / My window crank is broken..."
+          className="w-full px-4 py-3 border border-gray-300 bg-white rounded-md focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900 resize-none"
+        />
       </div>
 
       {/* SMS Consent */}
@@ -291,166 +294,6 @@ export function ContactForm() {
         </p>
       </div>
 
-      {/* Email */}
-      <div>
-        <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-1.5">
-          Email Address *
-        </label>
-        <input
-          id="email"
-          name="email"
-          type="email"
-          value={formData.email}
-          onChange={handleChange}
-          placeholder="jane@example.com"
-          autoComplete="email"
-          className={inputClass("email")}
-        />
-        {errors.email && <p className="text-red-600 text-xs mt-1">{errors.email}</p>}
-      </div>
-
-      {/* Service + City */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-        <div>
-          <label htmlFor="service" className="block text-sm font-semibold text-gray-700 mb-1.5">
-            Service Needed *
-          </label>
-          <select
-            id="service"
-            name="service"
-            value={formData.service}
-            onChange={handleChange}
-            className={inputClass("service")}
-          >
-            <option value="">Select a service</option>
-            {SERVICES.map((s) => (
-              <option key={s.slug} value={s.shortTitle}>
-                {s.shortTitle}
-              </option>
-            ))}
-            <option value="Other">Other / Not Sure</option>
-          </select>
-          {errors.service && <p className="text-red-600 text-xs mt-1">{errors.service}</p>}
-        </div>
-
-        <div>
-          <label htmlFor="city" className="block text-sm font-semibold text-gray-700 mb-1.5">
-            Your City *
-          </label>
-          <select
-            id="city"
-            name="city"
-            value={formData.city}
-            onChange={handleChange}
-            className={inputClass("city")}
-          >
-            <option value="">Select your city</option>
-            {SERVICE_AREAS.map((city) => (
-              <option key={city} value={city}>
-                {city}
-              </option>
-            ))}
-            <option value="Other GTA">Other GTA Area</option>
-          </select>
-          {errors.city && <p className="text-red-600 text-xs mt-1">{errors.city}</p>}
-        </div>
-      </div>
-
-      {/* Message */}
-      <div>
-        <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-1.5">
-          Describe Your Issue *
-        </label>
-        <textarea
-          id="message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          rows={4}
-          placeholder="e.g. Two bedroom windows are foggy / I need my front door glass replaced / My window crank is broken..."
-          className={`${inputClass("message")} resize-none`}
-        />
-        {errors.message && <p className="text-red-600 text-xs mt-1">{errors.message}</p>}
-      </div>
-
-      {/* How did you hear about us? */}
-      <div>
-        <label htmlFor="heardAbout" className="block text-sm font-semibold text-gray-700 mb-1.5">
-          How did you hear about us? *
-        </label>
-        <select
-          id="heardAbout"
-          name="heardAbout"
-          value={formData.heardAbout}
-          onChange={handleChange}
-          className={inputClass("heardAbout")}
-        >
-          <option value="">Please select</option>
-          {HEARD_OPTIONS.map((opt) => (
-            <option key={opt} value={opt}>{opt}</option>
-          ))}
-        </select>
-        {errors.heardAbout && <p className="text-red-600 text-xs mt-1">{errors.heardAbout}</p>}
-      </div>
-
-      {/* Conditional: Referred by */}
-      {showReferredBy && (
-        <div>
-          <label htmlFor="referredBy" className="block text-sm font-semibold text-gray-700 mb-1.5">
-            Who referred you? <span className="font-normal text-gray-400">(so we can thank them)</span>
-          </label>
-          <input
-            id="referredBy"
-            name="referredBy"
-            type="text"
-            value={formData.referredBy}
-            onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 bg-white rounded-md focus:ring-2 focus:ring-accent focus:border-transparent transition-colors text-gray-900"
-          />
-        </div>
-      )}
-
-      {/* Conditional: Other */}
-      {showOtherInput && (
-        <div>
-          <label htmlFor="heardAboutOther" className="block text-sm font-semibold text-gray-700 mb-1.5">
-            Where did you hear about us? *
-          </label>
-          <input
-            id="heardAboutOther"
-            name="heardAboutOther"
-            type="text"
-            value={formData.heardAboutOther}
-            onChange={handleChange}
-            placeholder="e.g. Kijiji, HomeStars, a sign..."
-            className={inputClass("heardAboutOther")}
-          />
-          {errors.heardAboutOther && <p className="text-red-600 text-xs mt-1">{errors.heardAboutOther}</p>}
-        </div>
-      )}
-
-      {/* Preferred contact */}
-      <div>
-        <p className="block text-sm font-semibold text-gray-700 mb-2">Preferred Contact Method</p>
-        <div className="flex flex-wrap gap-6">
-          {(["phone", "email", "whatsapp"] as const).map((method) => (
-            <label key={method} className="flex items-center gap-2 cursor-pointer">
-              <input
-                type="radio"
-                name="contactMethod"
-                value={method}
-                checked={formData.contactMethod === method}
-                onChange={handleChange}
-                className="w-4 h-4 text-accent accent-accent focus:ring-accent"
-              />
-              <span className="text-gray-700 text-sm capitalize">
-                {method === "whatsapp" ? "WhatsApp" : method === "phone" ? "Phone Call" : "Email"}
-              </span>
-            </label>
-          ))}
-        </div>
-      </div>
-
       {/* Submit */}
       <button
         type="submit"
@@ -463,15 +306,10 @@ export function ContactForm() {
               <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
               <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
             </svg>
-            Sending…
+            Sending...
           </>
         ) : (
-          <>
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-            </svg>
-            Send Message
-          </>
+          "Get My Quote"
         )}
       </button>
 
