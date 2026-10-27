@@ -361,6 +361,12 @@ export default function WarrantyPage() {
               {EMAIL}
             </a>
           </p>
+          <p className="mt-4 text-blue-300 text-sm">
+            Happy with your repair?{" "}
+            <Link href="/review" className="text-white font-semibold hover:underline">
+              Leave us a review
+            </Link>
+          </p>
         </div>
       </section>
     </>

@@ -477,6 +477,23 @@ export default function ScreenStormDoorsPage() {
         </section>
       )}
 
+      {/* Service Areas */}
+      <section className="py-12 px-4 md:px-8 bg-gray-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Screen and Storm Door Service Across the GTA</h2>
+          <p className="text-gray-600 leading-relaxed">
+            We install and repair screen doors and storm doors in{" "}
+            <Link href="/window-repair-toronto" className="text-primary font-semibold hover:underline">Toronto</Link>,{" "}
+            <Link href="/window-repair-markham" className="text-primary font-semibold hover:underline">Markham</Link>,{" "}
+            <Link href="/window-repair-brampton" className="text-primary font-semibold hover:underline">Brampton</Link>,{" "}
+            <Link href="/window-repair-mississauga" className="text-primary font-semibold hover:underline">Mississauga</Link> and across the Greater Toronto Area.{" "}
+            <Link href="/areas-we-serve" className="text-primary font-semibold hover:underline">
+              See all areas we serve &rarr;
+            </Link>
+          </p>
+        </div>
+      </section>
+
       <CTABanner
         title="Ready to Install a Screen or Storm Door?"
         subtitle="Call now: same-day quotes available across the GTA."

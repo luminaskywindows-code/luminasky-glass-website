@@ -197,9 +197,21 @@ export default function ContactPage() {
         </div>
       </section>
 
+      {/* Review CTA */}
+      <section className="py-10 px-4 md:px-8 bg-gray-50">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-gray-600 text-sm">
+            Happy with our service?{" "}
+            <Link href="/review" className="text-primary font-semibold hover:underline">
+              Leave us a review
+            </Link>
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section
-        className="py-16 px-4 md:px-8 bg-gray-50"
+        className="py-16 px-4 md:px-8 bg-white"
         aria-labelledby="faq-heading"
       >
         <div className="max-w-3xl mx-auto">

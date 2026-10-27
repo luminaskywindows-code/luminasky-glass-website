@@ -293,7 +293,11 @@ export default function EmergencyGlassRepairPage() {
             Emergency Glass Repair Across the GTA
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            We cover Toronto, North York, Scarborough, Etobicoke, Vaughan, Woodbridge, Thornhill, Richmond Hill, Markham, Mississauga, Brampton, Oakville and the surrounding GTA.{" "}
+            We cover{" "}
+            <Link href="/window-repair-toronto" className="text-primary font-semibold hover:underline">Toronto</Link>,{" "}
+            <Link href="/window-repair-north-york" className="text-primary font-semibold hover:underline">North York</Link>,{" "}
+            <Link href="/window-repair-scarborough" className="text-primary font-semibold hover:underline">Scarborough</Link>,{" "}
+            Etobicoke, Vaughan, Woodbridge, Thornhill, Richmond Hill, Markham, Mississauga, Brampton, Oakville and the surrounding GTA.{" "}
             <Link href="/areas-we-serve" className="text-primary font-semibold hover:underline">
               See all areas we serve &rarr;
             </Link>

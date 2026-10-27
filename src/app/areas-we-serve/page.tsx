@@ -4,6 +4,7 @@ import { MapPin, ChevronRight, Phone, MessageCircle } from "lucide-react";
 import { PHONE, PHONE_HREF, COMPANY_NAME } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { CITY_PAGES } from "@/lib/city-pages-data";
+import { FOGGY_GLASS_CITY_PAGES } from "@/lib/foggy-glass-city-data";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -68,6 +69,38 @@ export default function AreasWeServePage() {
                   <p className="text-gray-600 text-sm mt-2 leading-relaxed line-clamp-2">
                     {city.heroSubtext}
                   </p>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Foggy Glass Repair Cities */}
+      <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
+          Foggy Glass Repair by City
+        </h2>
+        <p className="text-gray-500 mb-8 max-w-3xl">
+          We also offer dedicated foggy glass repair pages for each city we serve. If your windows have condensation between the panes, find your city below.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {FOGGY_GLASS_CITY_PAGES.map((city) => (
+            <Link
+              key={city.slug}
+              href={`/foggy-glass-repair-${city.slug}`}
+              className="group bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-primary/30 transition-all"
+            >
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center shrink-0 group-hover:bg-primary/10 transition-colors">
+                  <MapPin className="w-5 h-5 text-primary" aria-hidden="true" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-gray-900 text-lg group-hover:text-primary transition-colors">
+                    {city.city}
+                  </h3>
+                  <p className="text-gray-500 text-sm">{city.region}</p>
+                  <p className="text-gray-600 text-sm mt-1">Foggy glass repair</p>
                 </div>
               </div>
             </Link>

@@ -379,6 +379,23 @@ export default function GlassReplacementPage() {
         </div>
       </section>
 
+      {/* Service Areas */}
+      <section className="py-12 px-4 md:px-8 bg-gray-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Glass Replacement Across the GTA</h2>
+          <p className="text-gray-600 leading-relaxed">
+            We replace sealed glass units, single-pane glass and tempered safety glass in{" "}
+            <Link href="/window-repair-vaughan" className="text-primary font-semibold hover:underline">Vaughan</Link>,{" "}
+            <Link href="/window-repair-thornhill" className="text-primary font-semibold hover:underline">Thornhill</Link>,{" "}
+            <Link href="/window-repair-richmond-hill" className="text-primary font-semibold hover:underline">Richmond Hill</Link>,{" "}
+            <Link href="/window-repair-toronto" className="text-primary font-semibold hover:underline">Toronto</Link> and across the Greater Toronto Area.{" "}
+            <Link href="/areas-we-serve" className="text-primary font-semibold hover:underline">
+              See all areas we serve &rarr;
+            </Link>
+          </p>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <CTABanner
         title="Replace the Glass, Not the Whole Window"

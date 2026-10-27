@@ -458,6 +458,12 @@ export default function AboutPage() {
             <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" aria-hidden="true" />
             Rated 5.0 / 5 on Google Reviews
           </p>
+          <p className="mt-3 text-sm text-gray-500">
+            Happy with our work?{" "}
+            <Link href="/review" className="text-primary font-semibold hover:underline">
+              Leave us a review
+            </Link>
+          </p>
         </div>
       </section>
 

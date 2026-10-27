@@ -469,6 +469,23 @@ export default function WindowScreensPage() {
         </section>
       )}
 
+      {/* Service Areas */}
+      <section className="py-12 px-4 md:px-8 bg-gray-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Window Screen Repair Across the GTA</h2>
+          <p className="text-gray-600 leading-relaxed">
+            We repair and replace window screens in{" "}
+            <Link href="/window-repair-toronto" className="text-primary font-semibold hover:underline">Toronto</Link>,{" "}
+            <Link href="/window-repair-vaughan" className="text-primary font-semibold hover:underline">Vaughan</Link>,{" "}
+            <Link href="/window-repair-oakville" className="text-primary font-semibold hover:underline">Oakville</Link>,{" "}
+            <Link href="/window-repair-north-york" className="text-primary font-semibold hover:underline">North York</Link> and across the Greater Toronto Area.{" "}
+            <Link href="/areas-we-serve" className="text-primary font-semibold hover:underline">
+              See all areas we serve &rarr;
+            </Link>
+          </p>
+        </div>
+      </section>
+
       <CTABanner
         title="Ready to Fix Your Window Screens?"
         subtitle="Call now: same-day quotes available across the GTA."

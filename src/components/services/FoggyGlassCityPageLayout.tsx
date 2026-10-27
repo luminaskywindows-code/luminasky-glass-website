@@ -195,6 +195,29 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
         </div>
       </section>
 
+      {/* Related Services */}
+      <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+          Other Glass and Window Services in {city.city}
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {[
+            { href: "/glass-replacement", title: "Glass Replacement", desc: "Cracked, broken or failed sealed units replaced to size." },
+            { href: "/front-door-glass", title: "Front Door Glass", desc: "Decorative, frosted or clear glass inserts for entry doors." },
+            { href: "/window-replacement", title: "Window Replacement", desc: "Full window replacement when repair is not the right option." },
+          ].map((service) => (
+            <Link
+              key={service.href}
+              href={service.href}
+              className="block bg-white rounded-xl border border-gray-200 p-5 hover:shadow-md hover:border-primary/30 transition-all"
+            >
+              <h3 className="font-bold text-gray-900 mb-1 text-sm">{service.title}</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">{service.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Section 4: Cost */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <div className="max-w-3xl">
