@@ -51,8 +51,6 @@ const nextConfig = {
       { source: "/services/garage-door-glass",  destination: "/services", permanent: true },
       { source: "/services/integrated-blinds",  destination: "/services", permanent: true },
       // Removed service pages → /services
-      // Old lifetime-warranty page → /warranty
-      { source: "/lifetime-warranty",              destination: "/warranty", permanent: true },
       { source: "/casement-hinge-repair",       destination: "/services", permanent: true },
       { source: "/window-lock-repair",          destination: "/services", permanent: true },
       { source: "/sliding-door-repair",         destination: "/services", permanent: true },
