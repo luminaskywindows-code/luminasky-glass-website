@@ -12,6 +12,7 @@ import {
   Star,
   Wrench,
   MessageCircle,
+  FileText,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, WINTER_READY_ENABLED } from "@/lib/constants";
@@ -35,6 +36,7 @@ const TRUST_BADGES = [
   { icon: ShieldCheck, label: "1-Year Warranty" },
   { icon: CheckCircle2, label: "Licensed & Insured" },
   { icon: Wrench, label: "Window Specialists" },
+  { icon: FileText, label: "Written Quote on the Spot" },
 ];
 
 const CRANK_PROBLEMS = [
@@ -142,36 +144,44 @@ const REPAIR_ITEMS = [
 
 const FAQS = [
   {
-    q: "How much does window crank repair cost?",
-    a: "Every job is different because it depends on the hardware brand, window type, and access. Book a $30 assessment visit and we will give you a written quote on the spot. The $30 is credited back when you go ahead with the repair.",
+    q: "What if you can't fix my crank during the first visit?",
+    a: "In most cases, we complete the repair on the spot. If a part needs to be ordered (common with 20+ year old windows from brands no longer in business), we tell you during the assessment and schedule a return visit. The $30 service visit covers the diagnosis either way.",
   },
   {
-    q: "Do you fix all window brands?",
-    a: "Yes. We carry parts for AmesburyTruth, Roto, Maxim, Encore, Entrygard, and most Canadian window brands including Jeld-Wen, Andersen, Pella, and Milgard. If your brand is not on this list, send us a photo and we will confirm.",
+    q: "How does the $30 service visit work?",
+    a: "The $30 covers the technician's travel, inspection, and professional assessment. If you proceed with the repair, the full $30 is credited back toward your invoice. If you decide not to proceed, the $30 covers the assessment and there are no other charges.",
   },
   {
-    q: "How long does the repair take?",
-    a: "Most crank repairs are completed in 30 to 60 minutes, on the first visit. If we have your part in stock (90% of the time for AmesburyTruth hardware), it is same-day.",
+    q: "Will you try to replace my whole window instead of just fixing the crank?",
+    a: "No. Most cranks can be repaired or replaced for a fraction of what a new window costs. Full replacement is only recommended when the window frame itself is compromised. We are specialists in hardware repair, not replacement sales.",
   },
   {
-    q: "What is your service area?",
-    a: "We service the full Greater Toronto Area: Toronto, Vaughan, Mississauga, Thornhill, Richmond Hill, Markham, Scarborough, North York, Brampton, Oakville, Burlington, Newmarket, Aurora, and surrounding cities.",
+    q: "How do I know the price won't change once the technician is on-site?",
+    a: "You receive a written quote on the spot after the assessment, before any work begins. The price listed is the final price for that scope of work. If additional issues are found that you want addressed, you decide whether to add them and approve the updated quote first.",
   },
   {
-    q: "What if my crank is discontinued?",
-    a: "We source universal and cross-compatible replacements for discontinued hardware. In our experience, 95% of cases are solvable with a compatible part that fits and functions the same as the original.",
+    q: "Can you fix cranks on 20+ year old windows?",
+    a: "Yes. A significant portion of our work involves older windows, including hardware from brands no longer manufacturing (Caradco, Kolbe, Pella from the 90s, and others). We maintain supplier relationships for both current and discontinued hardware lines.",
   },
   {
-    q: "How do I know which brand of hardware I have?",
-    a: "Look for a stamped logo on the crank handle or hinge. If you can not find it, text us a close-up photo and we will identify it.",
+    q: "What exactly is covered under the 1-year warranty?",
+    a: "The 1-year warranty covers the parts we install and the labour on the specific repair performed. It does not cover new damage from vandalism, impact, forced operation, or wear on hardware we did not service. If the same hardware we repaired fails within 12 months, we return at no charge to resolve it.",
   },
   {
-    q: "Do you service condos and commercial buildings?",
-    a: "Yes. We handle office buildings, condos, schools, and light commercial properties across the GTA.",
+    q: "Do you serve condos and high-rise buildings?",
+    a: "Yes. We service residential condominiums and apartment buildings throughout the GTA. Our technicians carry the required safety equipment and liability insurance for high-rise work. For property managers coordinating multi-unit repairs, we offer scheduled visits and consolidated invoicing.",
   },
   {
-    q: "Do you do window hinge repair?",
-    a: "Yes. Worn or bent hinges make casement windows sag, stick or leak air. We replace the hinges with compatible hardware so the window opens smoothly and seals tight again.",
+    q: "Will the technician clean up after the repair?",
+    a: "Yes. Every job ends with the work area cleaner than we found it. Old parts, packaging, and any debris from the repair are removed before the technician leaves. If any detail is missed, let us know and we return to address it.",
+  },
+  {
+    q: "Will you recommend extra repairs I didn't ask about?",
+    a: "The technician notes any additional issues observed during the assessment and mentions them with pricing, so you have the information. There is no pressure and no upselling. You decide which repairs to approve, if any.",
+  },
+  {
+    q: "What areas do you service?",
+    a: "We service the Greater Toronto Area and surrounding regions. For properties outside our standard service radius, contact the office to confirm scheduling and any additional travel considerations.",
   },
 ];
 
@@ -272,7 +282,7 @@ export default function WindowCranksPage() {
           </div>
 
           {/* Trust badges */}
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-5 gap-4">
             {TRUST_BADGES.map(({ icon: Icon, label }) => (
               <div
                 key={label}
