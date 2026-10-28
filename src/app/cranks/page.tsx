@@ -544,6 +544,20 @@ export default function WindowCranksPage() {
         </div>
       </section>
 
+      {/* ── Specific Hardware Pages ── */}
+      <section className="py-8 px-4 md:px-8 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-gray-700 font-medium mb-3">Looking for a specific hardware type?</p>
+          <Link
+            href="/cranks/truth-hardware-crank-repair"
+            className="inline-flex items-center gap-2 text-primary font-semibold hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded"
+          >
+            Truth Hardware (AmesburyTruth) Crank Repair
+            <ChevronRight className="w-4 h-4" aria-hidden="true" />
+          </Link>
+        </div>
+      </section>
+
       {/* ── What We Repair ── */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="repairs-heading">
         <div className="max-w-7xl mx-auto">
