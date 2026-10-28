@@ -1309,6 +1309,76 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or send a photo on WhatsApp and we will tell you what you are looking at.</p>
 `,
   },
+  {
+    slug: "front-door-glass-insert-replacement",
+    title: "Front Door Glass Insert Replacement: Keep the Door, Change the Glass",
+    metaTitle: "Front Door Glass Insert Replacement",
+    metaDescription:
+      "Cracked, foggy or dated glass in your front door? In most cases you can replace just the glass insert and keep the door. What it involves and what it costs in the GTA.",
+    excerpt:
+      "A lot of people call us thinking they need a new front door. The door opens fine, it locks fine, it seals fine. The problem is the glass. It cracked, it fogged up inside, or it just looks like 1998. In most of those cases you do not need a new door. You need a new glass insert.",
+    publishedAt: "2026-10-27",
+    author: "Dan",
+    readingTime: 4,
+    tags: ["front door glass", "door insert", "foggy glass", "entry door"],
+    sections: [
+      { id: "what-a-door-glass-insert-is", title: "What a Door Glass Insert Is" },
+      { id: "signs-it-is-time-to-replace-the-insert", title: "Signs It Is Time to Replace the Insert" },
+      { id: "how-the-replacement-works", title: "How the Replacement Works" },
+      { id: "what-it-costs", title: "What It Costs" },
+      { id: "when-the-whole-door-needs-to-go", title: "When the Whole Door Needs to Go" },
+      { id: "warranty", title: "Warranty" },
+      { id: "get-it-looked-at", title: "Get It Looked At" },
+    ],
+    content: `
+<p>A lot of people call us thinking they need a new front door. The door opens fine, it locks fine, it seals fine. The problem is the glass. It cracked, it fogged up inside, or it just looks like 1998.</p>
+
+<p>In most of those cases you do not need a new door. You need a new glass insert.</p>
+
+<h2 id="what-a-door-glass-insert-is">What a Door Glass Insert Is</h2>
+
+<p>The glass in most steel and fibreglass entry doors is a separate unit. It sits in a frame that is screwed together through the door, one half on the inside and one half on the outside. Take the screws out and the whole insert comes out as one piece.</p>
+
+<p>That means the glass can be replaced without touching the door slab, the hinges, the lock or the weatherstripping. The door stays. Only the glass changes.</p>
+
+<h2 id="signs-it-is-time-to-replace-the-insert">Signs It Is Time to Replace the Insert</h2>
+
+<ul>
+  <li><strong>The glass is cracked.</strong> Even a small crack spreads with the cold. It also makes the door easier to break into.</li>
+  <li><strong>There is fog or haze between the panes.</strong> Many inserts are sealed units, the same as a window. Once the seal fails, moisture gets in and you cannot clean it off.</li>
+  <li><strong>The frame around the glass is loose or rattles.</strong> Water and drafts find that gap fast in a GTA winter.</li>
+  <li><strong>You want a different look or more privacy.</strong> Clear glass you can see straight through, frosted or textured glass for privacy, or a decorative pattern. You can change the whole front of the house with one piece of glass.</li>
+</ul>
+
+<h2 id="how-the-replacement-works">How the Replacement Works</h2>
+
+<p>First we come out and measure the insert. Door glass is made to size, so the measurement has to be exact. We also show you the glass options so you can see what you are choosing.</p>
+
+<p>Once the new insert is ready, we come back to install it. We remove the old insert, clean the opening, set the new one in place, seal it and screw the frame back together. The door is back in use the same day.</p>
+
+<p>You can watch a short video of the swap on our <a href="/front-door-glass">front door glass page</a>.</p>
+
+<h2 id="what-it-costs">What It Costs</h2>
+
+<p>The cost depends on the size of the insert, the type of glass and whether you pick a decorative design. A new entry door costs significantly more than replacing just the insert, and then it has to be installed, trimmed and painted. If the door itself is in good shape, replacing the glass is almost always the better deal.</p>
+
+<p>The first visit is $30, and it is credited toward the job if you go ahead. You get a written quote on the spot after the assessment, before any work begins. You can read more about how we price on our <a href="/window-repair-cost">window repair cost page</a>.</p>
+
+<h2 id="when-the-whole-door-needs-to-go">When the Whole Door Needs to Go</h2>
+
+<p>Sometimes the glass is not the real problem. If the door is rotted at the bottom, rusted through, warped so it will not close properly, or the frame around the door is damaged, a new insert will not fix it. We will tell you that on the first visit.</p>
+
+<h2 id="warranty">Warranty</h2>
+
+<p>The new sealed glass unit comes with a warranty against seal failure. The full terms are on our <a href="/warranty">warranty page</a>.</p>
+
+<h2 id="get-it-looked-at">Get It Looked At</h2>
+
+<p>If your front door glass is cracked, foggy or just not what you want anymore, <a href="/contact">book a visit</a> and we will take a look. We work across the GTA.</p>
+
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

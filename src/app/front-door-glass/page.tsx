@@ -907,6 +907,21 @@ export default function FrontDoorGlassPage() {
         </section>
       )}
 
+      {/* Related Reading */}
+      <section className="py-8 px-4 md:px-8 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-gray-700 font-medium">
+            Related reading:{" "}
+            <Link
+              href="/blog/front-door-glass-insert-replacement"
+              className="text-primary font-semibold hover:underline"
+            >
+              Front Door Glass Insert Replacement: Keep the Door, Change the Glass
+            </Link>
+          </p>
+        </div>
+      </section>
+
       <CTABanner
         title="Ready to Fix Your Front Door Glass?"
         subtitle="Call now: same-day service available across the GTA."
