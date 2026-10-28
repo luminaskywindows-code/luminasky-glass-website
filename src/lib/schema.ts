@@ -13,7 +13,7 @@ export function generateOrganizationSchema() {
       "Professional glass and door repair services in the Greater Toronto Area. Foggy glass, front door glass, window cranks, skylights and more.",
     url: SITE_URL,
     telephone: PHONE_E164,
-    email: EMAIL,
+    email: EMAIL.toLowerCase(),
     image: `${SITE_URL}/og-image.jpg`,
     logo: {
       "@type": "ImageObject",
