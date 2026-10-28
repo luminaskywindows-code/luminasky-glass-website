@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
-
+import Image from "next/image";
 import { MapPin, Zap, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { PROJECTS, PROJECT_CATEGORIES, type ProjectCategory, type Project } from "@/lib/projects-data";
@@ -69,12 +69,13 @@ function ProjectDetails({ project }: { project: Project }) {
 function SingleImageCard({ project }: { project: Project }) {
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
+      <Image
         src={project.image!.src}
         alt={project.image!.alt}
+        width={800}
+        height={600}
         className="w-full h-auto"
-        loading="lazy"
+        sizes="(max-width: 768px) 100vw, 50vw"
       />
       <ProjectDetails project={project} />
     </div>
@@ -131,12 +132,13 @@ function MultiImageCard({ project }: { project: Project }) {
         {project.images!.map((img, i) => (
           <div key={i} className="relative bg-gray-200 overflow-hidden">
             {i > 0 && <div className="h-1 bg-white" />}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={img.src}
               alt={img.alt}
+              width={800}
+              height={600}
               className="w-full h-auto block max-h-[400px] object-contain bg-gray-100"
-              loading="lazy"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         ))}
@@ -193,12 +195,13 @@ function ProjectCard({ project }: { project: Project }) {
                 className="w-full h-auto block"
               />
             ) : (
-              /* eslint-disable-next-line @next/next/no-img-element */
-              <img
+              <Image
                 src={project.beforeImage!.src}
                 alt={project.beforeImage!.alt}
+                width={800}
+                height={600}
                 className="w-full h-auto block"
-                loading="lazy"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             )}
             <span className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow z-10">
@@ -220,12 +223,13 @@ function ProjectCard({ project }: { project: Project }) {
                 className="w-full h-auto block"
               />
             ) : (
-              /* eslint-disable-next-line @next/next/no-img-element */
-              <img
+              <Image
                 src={project.afterImage!.src}
                 alt={project.afterImage!.alt}
+                width={800}
+                height={600}
                 className="w-full h-auto block"
-                loading="lazy"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             )}
             <span className="absolute top-3 left-3 bg-green-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow z-10">
@@ -235,12 +239,13 @@ function ProjectCard({ project }: { project: Project }) {
         </div>
       ) : project.showcaseImage ? (
         <div className="relative bg-gray-200">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src={project.showcaseImage.src}
             alt={project.showcaseImage.alt}
+            width={800}
+            height={600}
             className="w-full h-auto"
-            loading="lazy"
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
           <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow">
             Before → After
