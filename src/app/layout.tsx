@@ -1,15 +1,20 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import dynamic from "next/dynamic";
 import { GtagInit } from "@/components/analytics/GtagInit";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
-import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { SourceTracker } from "@/components/layout/SourceTracker";
 import { Toaster } from "@/components/ui/sonner";
 import { generateOrganizationSchema } from "@/lib/schema";
 import { ClarityInit } from "@/components/analytics/ClarityInit";
 import { PhoneClickTracker } from "@/components/analytics/PhoneClickTracker";
+
+const WhatsAppButton = dynamic(
+  () => import("@/components/layout/WhatsAppButton").then((m) => m.WhatsAppButton),
+  { ssr: false }
+);
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 

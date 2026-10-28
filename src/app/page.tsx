@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import { HeroSection } from "@/components/home/HeroSection";
 import { ServicesGrid } from "@/components/home/ServicesGrid";
 import { TrustSection } from "@/components/home/TrustSection";
@@ -9,11 +10,15 @@ import { CTABanner } from "@/components/shared/CTABanner";
 import { HomepageFAQ } from "@/components/home/HomepageFAQ";
 import { HOMEPAGE_SCHEMA_FAQS } from "@/lib/homepage-faq-data";
 import { WinterBanner } from "@/components/home/WinterBanner";
-import { HomepagePopup } from "@/components/home/HomepagePopup";
 import { TrustStrip } from "@/components/home/TrustStrip";
 import { WarrantyPromise } from "@/components/home/WarrantyPromise";
 import { SocialLinks } from "@/components/shared/SocialLinks";
 import { Star } from "lucide-react";
+
+const HomepagePopup = dynamic(
+  () => import("@/components/home/HomepagePopup").then((m) => m.HomepagePopup),
+  { ssr: false }
+);
 
 export const metadata: Metadata = {
   title: {
