@@ -22,9 +22,9 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Window Crank Repair GTA | 2-Year Warranty | LuminaSky Glass",
+  title: "Window Crank Repair GTA | 1-Year Warranty | LuminaSky Glass",
   description:
-    "Fix broken window cranks across the GTA. Window specialists, not a handyman side gig. $30 visit credited back. 2-year parts and labour warranty. Call 437-344-8490.",
+    "Fix broken window cranks across the GTA. Window specialists, not a handyman side gig. $30 visit credited back. 1-year full warranty. Call 437-344-8490.",
   alternates: { canonical: "/cranks" },
 };
 
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 const TRUST_BADGES = [
   { icon: Star, label: "5-Star Google Reviews" },
-  { icon: ShieldCheck, label: "2-Year Parts & Labour" },
+  { icon: ShieldCheck, label: "1-Year Warranty" },
   { icon: CheckCircle2, label: "Licensed & Insured" },
   { icon: Wrench, label: "Window Specialists" },
 ];
@@ -237,7 +237,7 @@ export default function WindowCranksPage() {
                 Window specialists, not a handyman side gig. We carry authentic
                 parts, fix most cranks in 30 minutes on the first visit, and
                 back every repair with a{" "}
-                <strong className="text-white">2-year parts and labour warranty</strong>.
+                <strong className="text-white">1-year repair warranty</strong>.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
@@ -304,7 +304,7 @@ export default function WindowCranksPage() {
               <h3 className="text-lg font-bold text-gray-500 mb-6">The Handyman Option</h3>
               <ul className="space-y-4">
                 {[
-                  "1-year warranty or none at all",
+                  "No written warranty or unclear terms",
                   "Jack-of-all-trades, not a window specialist",
                   "Generic trust claims, no verified reviews",
                   "May not carry your exact hardware brand",
@@ -328,7 +328,7 @@ export default function WindowCranksPage() {
               <h3 className="text-lg font-bold text-primary mb-6">LuminaSky Glass Services</h3>
               <ul className="space-y-4">
                 {[
-                  "2-year parts and labour warranty on every repair",
+                  "1-year full warranty on every repair",
                   "Window and glass specialists only",
                   "5-star Google reviews from real GTA homeowners",
                   "AmesburyTruth, Roto, and major brands in stock",
@@ -568,16 +568,16 @@ export default function WindowCranksPage() {
         <div className="max-w-3xl mx-auto text-center">
           <ShieldCheck className="w-12 h-12 text-accent mx-auto mb-4" aria-hidden="true" />
           <h2 id="warranty-heading" className="text-3xl font-bold text-gray-900 mb-4">
-            2-Year Parts and Labour Warranty
+            1-Year Full Warranty on Crank Repairs
           </h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            Every hardware repair we do is backed by a{" "}
-            <strong className="text-primary">2-year warranty on parts and labour</strong>.
-            Most other GTA companies offer 1-year or none at all.
+            Every window crank repair is backed by a{" "}
+            <strong className="text-primary">1-year full warranty covering parts and labour</strong>.
+            If anything goes wrong with the repair within a year, we come back and fix it at no cost.
           </p>
           <p className="text-gray-500 text-sm leading-relaxed">
-            We also back our sealed glass units with a 5-year warranty against
-            seal failure. Licensed and insured in Ontario.
+            Excludes vandalism, impact damage, and physical breakage.
+            Licensed and insured in Ontario.
           </p>
         </div>
       </section>
