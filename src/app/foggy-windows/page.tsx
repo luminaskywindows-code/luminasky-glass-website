@@ -3,16 +3,30 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   CheckCircle2,
+  XCircle,
   Phone,
+  Mail,
   ChevronRight,
+  ShieldCheck,
+  Star,
+  Droplets,
+  MessageCircle,
+  FileText,
   MapPin,
   Snowflake,
+  Users,
+  Thermometer,
+  Eye,
+  CloudRain,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
   SERVICES,
+  PHONE,
   PHONE_HREF,
+  EMAIL,
+  EMAIL_HREF,
   WINTER_READY_ENABLED,
 } from "@/lib/constants";
 import { FOGGY_GLASS_CITY_PAGES } from "@/lib/foggy-glass-city-data";
@@ -21,6 +35,8 @@ import {
   generateServiceSchema,
   generateFAQSchema,
 } from "@/lib/schema";
+
+/* ── Data ── */
 
 const HERO_IMAGE = {
   src: "/images/services/foggy-window-real.jpg",
@@ -42,76 +58,98 @@ const VIDEOS = [
   },
 ];
 
-const BENEFITS = [
-  "A fraction of the cost of replacing the entire window and frame",
-  "Fast turnaround: measured, custom-made and installed, typically within 5 to 15 business days",
-  "Crystal-clear results: restores full visibility and insulation",
-  "No mess: we vacuum and clean up after every job",
-  "Warranty on all glass unit replacements",
-  "Works with all window styles: casement, slider, fixed, bay",
+const TRUST_BADGES = [
+  { icon: Star, label: "60+ 5-Star Google Reviews" },
+  { icon: ShieldCheck, label: "5-Year Glass Warranty" },
+  { icon: Users, label: "Family-Owned Since 2024" },
+  { icon: MapPin, label: "Serves All GTA" },
+  { icon: FileText, label: "Written Quote on the Spot" },
 ];
 
-const PROCESS = [
+const SEAL_FAILURE_SIGNS = [
   {
-    step: "Free Photo Assessment",
-    desc: "Send us a photo of your window. We confirm it can be repaired and give you a free quote. In-person visits are $30, credited toward your job.",
+    icon: CloudRain,
+    title: "Fog or haze between panes",
+    desc: "Moisture trapped between the glass that won’t wipe away from either side.",
   },
   {
-    step: "Clear Quote",
-    desc: "You get a firm, written price upfront before any work begins. No surprises at the door.",
+    icon: Droplets,
+    title: "Water droplets inside the glass",
+    desc: "Condensation forming between the panes, especially on cold mornings.",
   },
   {
-    step: "Glass Removal",
-    desc: "We carefully remove the failed glass unit from your existing frame, protecting trim and sills.",
+    icon: Eye,
+    title: "White mineral stains",
+    desc: "Dried mineral deposits on the inner glass surface from repeated condensation cycles.",
   },
   {
-    step: "New Unit Installed",
-    desc: "A new sealed insulated glass unit is installed and sealed for maximum energy efficiency.",
+    icon: Thermometer,
+    title: "Cold glass in winter",
+    desc: "The insulating gas has escaped. The glass feels noticeably colder than surrounding windows.",
   },
   {
-    step: "Cleanup & Warranty",
-    desc: "We clean up completely and provide your written warranty before we leave.",
+    icon: CloudRain,
+    title: "Distorted or wavy view",
+    desc: "The glass panes flex inward once the seal breaks and the gas escapes, distorting the view.",
+  },
+  {
+    icon: Droplets,
+    title: "Getting worse over time",
+    desc: "Seal failure is progressive. The fog spreads, water accumulates, and stains become permanent.",
   },
 ];
 
-const WHAT_WE_REPLACE = [
-  "Casement, slider, fixed, awning and bay windows",
-  "Double pane units",
-  "Large picture windows",
-  "Patio door glass",
-  "Leaded and decorative glass in doors and sidelites (see front door glass)",
-  "Frosted, tinted and patterned glass",
-  "Skylight glass (see skylight repair)",
+const HOW_IT_WORKS = [
+  {
+    step: "1",
+    title: "Send a photo or call for a quote",
+    desc: "Send a photo of your foggy window and we will confirm it can be fixed and give you a quote. In-person assessments are $30, credited toward the job.",
+  },
+  {
+    step: "2",
+    title: "We measure and order your glass",
+    desc: "A technician measures the exact size of each glass unit on-site. Your new sealed unit is custom-made to fit your existing frame.",
+  },
+  {
+    step: "3",
+    title: "New glass installed, old frame kept",
+    desc: "We remove the failed glass unit and install the new one. Installation takes under an hour per window. Your trim, sills and walls stay untouched.",
+  },
 ];
 
-const COST_FACTORS = [
-  "The size of each glass unit",
-  "The glass thickness and the size of the gap between the panes",
-  "Glass type: clear, low-E, frosted, tinted or tempered",
-  "How many windows you're fixing",
-  "Access (ground floor or upper floors)",
+const WINDOW_BRANDS = [
+  "North Star",
+  "Vinylbilt",
+  "All Weather Windows",
+  "Jeld-Wen",
+  "Loewen",
+  "Gentek",
+  "Pella",
+  "Dusco",
+  "Ply Gem",
+  "Marvin",
 ];
 
 const FAQS = [
   {
     q: "Can all foggy windows be repaired without replacing the frame?",
-    a: "Most can. If the frame, sash and hardware are in good shape, we replace only the sealed glass unit. If the frame is rotting or damaged, we'll tell you honestly and quote the right fix.",
+    a: "Most can. If the frame, sash and hardware are in good shape, we replace only the sealed glass unit. If the frame is rotting or damaged, we will tell you honestly and quote the right fix.",
   },
   {
     q: "Will the fog come back after a window seal replacement?",
-    a: "Not from the old problem. You get a brand new sealed unit with a new seal, new gas fill and new desiccant. It's a permanent fix, not a temporary one, and it's covered by our written warranty.",
+    a: "Not from the old problem. You get a brand new sealed unit with a new seal, new gas fill and new desiccant. It is a permanent fix, not a temporary one, and it is covered by our written warranty.",
   },
   {
     q: "How long does the repair take?",
-    a: "Typically 5 to 15 business days from measurement to installation, because each unit is custom-made. Installation takes under an hour per window.",
+    a: "Glass is measured first, custom-made, then installed, typically within 5 to 15 business days from measurement. Installation takes under an hour per window.",
   },
   {
     q: "Will my new glass be energy efficient?",
-    a: "Yes. We offer low-E glass and argon gas filled units, which insulate better than most original builder-grade glass.",
+    a: "We offer low-E glass and argon gas filled units, which insulate better than most original builder-grade glass. Ask about upgrade options during your quote.",
   },
   {
-    q: "Do you warranty the repair?",
-    a: "Yes. All glass unit replacements come with a 5-year warranty against seal failure. All repair work carries a 2-year warranty on parts and labour.",
+    q: "What does the warranty cover?",
+    a: "All glass unit replacements come with a 5-year warranty on the sealed glass unit (manufacturer pass-through) and a 2-year warranty on our installation labour. Excludes vandalism, impact damage and physical breakage.",
   },
   {
     q: "Can you match my existing glass type (frosted, tinted, etc.)?",
@@ -119,7 +157,19 @@ const FAQS = [
   },
   {
     q: "Is window defogging a good alternative?",
-    a: "Defogging can make the glass look clearer for a while, but the seal stays broken and the insulating gas is gone. A new sealed unit fixes the actual problem.",
+    a: "Defogging drills small holes in the glass and cleans out the moisture. It can make the glass look clearer for a while, but the original seal stays broken and the insulating gas is gone. A new sealed unit fixes the actual problem.",
+  },
+  {
+    q: "How does the $30 site visit work?",
+    a: "The $30 covers the technician’s travel, on-site measurement and professional assessment. If you proceed with the repair, the full $30 is credited toward your invoice. If you decide not to proceed, the $30 covers the visit and there are no other charges.",
+  },
+  {
+    q: "Do you replace patio door glass?",
+    a: "Yes. We replace sealed glass units in sliding patio doors, French doors and fixed panels. Same process: we measure the unit, have it custom-made, and install it in your existing door frame.",
+  },
+  {
+    q: "Can you do multiple windows at once?",
+    a: "Yes. Many homeowners fix several foggy windows in one visit. We measure all units during a single appointment, order them together, and install everything on the same day. Multi-window jobs are common and we handle them regularly.",
   },
   {
     q: "Do you work outside Toronto?",
@@ -136,9 +186,9 @@ const BREADCRUMBS = [
 ];
 
 export const metadata: Metadata = {
-  title: "Foggy Window Repair Toronto",
+  title: "Foggy Window Repair Toronto | 5-Year Warranty | LuminaSky Glass",
   description:
-    "Foggy windows? We replace the sealed glass unit and keep your frame. A fraction of full replacement cost. 5-Year Warranty. Call 437-344-8490.",
+    "Foggy windows? We replace the sealed glass unit and keep your frame. A fraction of full replacement cost. 5-year glass warranty + 2-year labour. Call 437-344-8490.",
   alternates: { canonical: "/foggy-windows" },
 };
 
@@ -158,38 +208,37 @@ export default function FoggyWindowsPage() {
             generateServiceSchema(
               "Foggy Window Repair",
               "/foggy-windows",
-              "LuminaSky Glass Services replaces failed sealed glass units across Toronto and the GTA, at a fraction of the cost of full window replacement.",
-              { minPrice: 300, maxPrice: 1400, priceDescription: "Glass replacement per sealed unit, varies by size and location." }
+              "LuminaSky Glass Services replaces failed sealed glass units across Toronto and the GTA, at a fraction of the cost of full window replacement."
             ),
             generateFAQSchema(FAQS),
           ]),
         }}
       />
 
-      {/* Hero */}
+      {/* ── Hero ── */}
       <section
         className="relative bg-gradient-to-br from-primary via-blue-800 to-primary-700 py-20 px-4 md:px-8 overflow-hidden"
-        aria-label="Foggy window repair hero section"
+        aria-label="Foggy window repair hero"
       >
         <div className="absolute inset-0 hidden lg:block" aria-hidden="true">
           <Image
             src={HERO_IMAGE.src}
             alt=""
             fill
-            className="object-cover opacity-25"
+            className="object-cover opacity-20"
             sizes="(min-width: 1024px) 100vw, 1px"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/85 via-primary/60 to-primary/20" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/30" />
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto">
-          <div className="grid gap-10 items-center grid-cols-1 lg:grid-cols-2">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <nav aria-label="Breadcrumb" className="mb-6">
                 <ol className="flex items-center gap-2 text-sm text-blue-200 flex-wrap">
-                  {BREADCRUMBS.map((crumb, index) => (
+                  {BREADCRUMBS.map((crumb, i) => (
                     <li key={crumb.url} className="flex items-center gap-2">
-                      {index < BREADCRUMBS.length - 1 ? (
+                      {i < BREADCRUMBS.length - 1 ? (
                         <>
                           <Link
                             href={crumb.url}
@@ -211,198 +260,237 @@ export default function FoggyWindowsPage() {
                   ))}
                 </ol>
               </nav>
+
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-                Foggy Window Repair Toronto: Sealed Unit Replacement
+                Foggy Window Repair Toronto: Replace the Glass, Keep the Frame
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8 max-w-2xl">
-                <strong>Foggy windows happen when the seal between the glass panes fails, letting moisture inside the sealed unit.</strong> The fix is replacing the glass unit only, not the whole window. At LuminaSky, foggy window repair costs a fraction of full window replacement, carries a 5-year warranty against seal failure, plus a 2-year warranty on parts and labour, and takes 1 to 2 weeks from the free measurement visit. We service all 34 cities across the GTA with same-week measurement appointments.
+                Glass specialists, not a handyman side gig. We replace the
+                failed sealed unit only, not the whole window, at a fraction of
+                the cost of full replacement. Every job is backed by a{" "}
+                <strong className="text-white">
+                  5-year glass warranty + 2-year labour warranty
+                </strong>
+                .
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
-                >
-                  Get Quote
-                </Link>
                 <a
                   href={PHONE_HREF}
-                  className="inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+                  className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-md shadow-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
                 >
                   <Phone className="w-5 h-5" aria-hidden="true" />
-                  Call Now
+                  Call {PHONE}
                 </a>
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center border-2 border-white/60 text-white hover:bg-white hover:text-primary font-bold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white active:scale-95"
+                >
+                  Get a Written Quote
+                </Link>
               </div>
-              <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
-                <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-                5-Year Warranty on sealed glass
-              </Link>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
-              <Image
-                src={HERO_IMAGE.src}
-                alt={HERO_IMAGE.alt}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 50vw"
-                priority
-              />
+            <div className="hidden lg:block">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
+                <Image
+                  src={HERO_IMAGE.src}
+                  alt={HERO_IMAGE.alt}
+                  fill
+                  className="object-cover"
+                  sizes="50vw"
+                  priority
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* Why Windows Get Foggy */}
-      <section
-        className="py-16 px-4 md:px-8 bg-white"
-        aria-labelledby="why-foggy-heading"
-      >
-        <div className="max-w-3xl mx-auto">
-          <h2
-            id="why-foggy-heading"
-            className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
-          >
-            Why Windows Get Foggy
-          </h2>
-          <div className="space-y-4 text-gray-600 leading-relaxed">
-            <p>
-              Most windows in GTA homes use double glazing or triple glazing (double or triple pane). Two or
-              three panes of glass are sealed together into one insulated glass
-              unit. The space between the panes is gas filled, usually with
-              argon, and a desiccant inside the spacer absorbs moisture.
-            </p>
-            <p>
-              Over time, heat, cold and sun break down the seal. Moisture gets
-              in, the gas escapes, and condensation forms between the panes.
-              That&apos;s seal failure. Once it starts, the fog won&apos;t clear on its
-              own, and it usually gets worse: haze, water droplets, and white
-              mineral stains on the inside of the glass.
-            </p>
-            <p>
-              Windows with a failed seal also lose insulation. You&apos;ll often feel the glass
-              is colder in winter than the windows around it.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Window Seal Replacement Without a New Window */}
-      <section
-        className="py-16 px-4 md:px-8 bg-gray-50"
-        aria-labelledby="seal-replacement-heading"
-      >
-        <div className="max-w-3xl mx-auto">
-          <h2
-            id="seal-replacement-heading"
-            className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
-          >
-            Window Seal Replacement Without a New Window
-          </h2>
-          <div className="space-y-4 text-gray-600 leading-relaxed">
-            <p>
-              The frame, the sash and the hardware are usually still in good
-              shape. Only the glass unit has failed. So we don&apos;t replace the
-              whole window. We do sealed unit replacement: we remove the failed
-              glass unit and install a new one in your existing frame. Our sealed glass units are made by an IGMAC-certified manufacturer to the CGSB 12.8 standard.
-            </p>
-            <p>
-              Glass unit replacement is faster, cleaner and much cheaper than
-              replacing the window. Installation takes under an hour per window,
-              and your trim, sills and walls stay untouched.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Is Window Defogging Worth It? */}
-      <section
-        className="py-16 px-4 md:px-8 bg-white"
-        aria-labelledby="defogging-heading"
-      >
-        <div className="max-w-3xl mx-auto">
-          <h2
-            id="defogging-heading"
-            className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
-          >
-            Is Window Defogging Worth It?
-          </h2>
-          <p className="text-gray-600 leading-relaxed">
-            Some companies offer window defogging: they drill small holes in the
-            glass, clean out the moisture and seal the holes. It can make the
-            glass look clearer for a while, but the original seal is still
-            broken and the insulating gas is gone. A new sealed unit fixes the
-            cause, not just the look, and it comes with a warranty.
-          </p>
-        </div>
-      </section>
-
-      {/* What We Replace */}
-      <section
-        className="py-16 px-4 md:px-8 bg-gray-50"
-        aria-labelledby="what-we-replace-heading"
-      >
-        <div className="max-w-3xl mx-auto">
-          <h2
-            id="what-we-replace-heading"
-            className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
-          >
-            What We Replace
-          </h2>
-          <ul className="space-y-3" aria-label="Types of glass we replace">
-            {WHAT_WE_REPLACE.map((item) => (
-              <li key={item} className="flex items-start gap-3">
-                <CheckCircle2
-                  className="w-5 h-5 text-accent shrink-0 mt-0.5"
+          {/* Trust badges */}
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-5 gap-4">
+            {TRUST_BADGES.map(({ icon: Icon, label }) => (
+              <div
+                key={label}
+                className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-3 border border-white/15"
+              >
+                <Icon
+                  className="w-5 h-5 text-accent shrink-0"
                   aria-hidden="true"
                 />
-                <span className="text-gray-700">
-                  {item.includes("front door glass") ? (
-                    <>
-                      Leaded and decorative glass in doors and sidelites (see{" "}
-                      <Link
-                        href="/front-door-glass"
-                        className="text-primary hover:underline"
-                      >
-                        front door glass
-                      </Link>
-                      )
-                    </>
-                  ) : item.includes("skylight repair") ? (
-                    <>
-                      Skylight glass (see{" "}
-                      <Link
-                        href="/skylights"
-                        className="text-primary hover:underline"
-                      >
-                        skylight repair
-                      </Link>
-                      )
-                    </>
-                  ) : (
-                    item
-                  )}
-                </span>
-              </li>
+                <span className="text-white text-sm font-medium">{label}</span>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </section>
 
-      {/* Photo Gallery */}
+      {/* ── What Causes Foggy Windows ── */}
       <section
         className="py-16 px-4 md:px-8 bg-white"
+        aria-labelledby="causes-heading"
+      >
+        <div className="max-w-3xl mx-auto">
+          <h2
+            id="causes-heading"
+            className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
+          >
+            What Causes Foggy Windows?
+          </h2>
+          <div className="space-y-4 text-gray-600 leading-relaxed">
+            <p>
+              Most windows in GTA homes use double or triple pane glass. Two or
+              three panes are sealed together into one insulated glass unit
+              (IGU). The space between the panes is filled with argon gas, and a
+              desiccant inside the spacer absorbs moisture.
+            </p>
+            <p>
+              Over time, heat, cold and UV break down the seal. Moisture gets
+              in, the insulating gas escapes, and condensation forms between the
+              panes. That is seal failure. Once it starts, the fog will not clear
+              on its own, and it usually gets worse: haze, water droplets, and
+              white mineral stains on the inside of the glass.
+            </p>
+            <p>
+              The fix is replacing the sealed glass unit only, not the whole
+              window. The frame, sash and hardware are usually still in good
+              shape. We remove the failed unit and install a new one in your
+              existing frame. Our sealed glass units are made by an
+              IGMAC-certified manufacturer to the CGSB 12.8 standard.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Signs of a Failed Seal ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-gray-50"
+        aria-labelledby="signs-heading"
+      >
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              Is Your Seal Failing?
+            </span>
+            <h2
+              id="signs-heading"
+              className="text-3xl font-bold text-gray-900"
+            >
+              Signs Your Window Seal Has Failed
+            </h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
+              If you notice any of these, the sealed unit has likely failed and
+              needs replacement.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {SEAL_FAILURE_SIGNS.map(({ icon: Icon, title, desc }) => (
+              <div
+                key={title}
+                className="bg-white rounded-xl p-6 border border-gray-100 hover:border-accent/30 hover:shadow-sm transition-all"
+              >
+                <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                  <Icon
+                    className="w-5 h-5 text-accent"
+                    aria-hidden="true"
+                  />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Repair vs Replacement ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-white"
+        aria-labelledby="compare-heading"
+      >
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              Know the Difference
+            </span>
+            <h2
+              id="compare-heading"
+              className="text-3xl font-bold text-gray-900"
+            >
+              Sealed Unit Replacement vs. Full Window Replacement
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Full window replacement */}
+            <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
+              <h3 className="text-lg font-bold text-gray-500 mb-6">
+                Full Window Replacement
+              </h3>
+              <ul className="space-y-4">
+                {[
+                  "Replaces the entire window, frame and all",
+                  "Costs several times more than glass-only",
+                  "Requires trim removal and drywall repair",
+                  "Multi-day project per window",
+                  "Often unnecessary when only the glass has failed",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <XCircle
+                      className="w-5 h-5 text-gray-400 shrink-0 mt-0.5"
+                      aria-hidden="true"
+                    />
+                    <span className="text-gray-500">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* LuminaSky sealed unit replacement */}
+            <div className="bg-primary/5 rounded-2xl p-8 border-2 border-primary/20 relative">
+              <div className="absolute -top-3 left-6">
+                <span className="bg-accent text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                  Recommended
+                </span>
+              </div>
+              <h3 className="text-lg font-bold text-primary mb-6">
+                LuminaSky Sealed Unit Replacement
+              </h3>
+              <ul className="space-y-4">
+                {[
+                  "Replaces only the failed glass unit",
+                  "A fraction of the cost of full replacement",
+                  "No trim removal, no drywall, no mess",
+                  "Under one hour per window to install",
+                  "5-year glass warranty + 2-year labour warranty",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <CheckCircle2
+                      className="w-5 h-5 text-accent shrink-0 mt-0.5"
+                      aria-hidden="true"
+                    />
+                    <span className="text-gray-700 font-medium">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Before / After Video ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-gray-50"
         aria-labelledby="photos-heading"
       >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
             <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-              Our Work
+              Real Results
             </span>
             <h2
               id="photos-heading"
               className="text-3xl font-bold text-gray-900"
             >
-              Real Project Video
+              Before &amp; After: Foggy Window Repair
             </h2>
           </div>
           <div className="grid gap-6 grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto">
@@ -431,166 +519,194 @@ export default function FoggyWindowsPage() {
         </div>
       </section>
 
-      {/* Energy-Efficient Replacement Glass */}
-      <section
-        className="py-16 px-4 md:px-8 bg-gray-50"
-        aria-labelledby="energy-heading"
-      >
-        <div className="max-w-3xl mx-auto">
-          <h2
-            id="energy-heading"
-            className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
-          >
-            Energy-Efficient Replacement Glass
-          </h2>
-          <p className="text-gray-600 leading-relaxed">
-            Every new sealed unit is an opportunity to upgrade. We offer low-E
-            coated glass and argon gas filled units, which keep more heat inside
-            in winter and cut down condensation on the inside of the glass.
-          </p>
-        </div>
-      </section>
-
-      {/* How Long Does It Take? */}
-      <section
-        className="py-16 px-4 md:px-8 bg-white"
-        aria-labelledby="timeline-heading"
-      >
-        <div className="max-w-3xl mx-auto">
-          <h2
-            id="timeline-heading"
-            className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
-          >
-            How Long Does It Take?
-          </h2>
-          <p className="text-gray-600 leading-relaxed">
-            Each glass unit is made to the exact size of your window. We
-            measure, the unit is custom-made, and we install it, typically
-            within 5 to 15 business days. On installation day, each window
-            takes under an hour.
-          </p>
-        </div>
-      </section>
-
-      {/* Benefits */}
-      <section
-        className="py-16 px-4 md:px-8 bg-gray-50"
-        aria-labelledby="benefits-heading"
-      >
-        <div className="max-w-3xl mx-auto">
-          <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-            Why Choose Us
-          </span>
-          <h2
-            id="benefits-heading"
-            className="text-3xl font-bold text-gray-900 mb-8"
-          >
-            Key Benefits
-          </h2>
-          <ul className="space-y-3" aria-label="Service benefits">
-            {BENEFITS.map((benefit) => (
-              <li key={benefit} className="flex items-start gap-3">
-                <CheckCircle2
-                  className="w-5 h-5 text-accent shrink-0 mt-0.5"
-                  aria-hidden="true"
-                />
-                <span className="text-gray-700">{benefit}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* Our Process */}
+      {/* ── How It Works ── */}
       <section
         className="py-16 px-4 md:px-8 bg-white"
         aria-labelledby="process-heading"
       >
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-              How It Works
+              Simple Process
             </span>
             <h2
               id="process-heading"
               className="text-3xl font-bold text-gray-900"
             >
-              Our Process
+              How It Works
             </h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
+              Glass is measured first, custom-made, then installed. Most jobs
+              take 5 to 15 business days from measurement to completion.
+            </p>
           </div>
-          <div
-            className="grid gap-6"
-            style={{
-              gridTemplateColumns: `repeat(${PROCESS.length}, minmax(0, 1fr))`,
-            }}
-          >
-            {PROCESS.map((step, index) => (
-              <div key={step.step} className="relative text-center">
-                {index < PROCESS.length - 1 && (
-                  <div
-                    className="hidden lg:block absolute top-7 left-[calc(50%+2rem)] right-[-50%] h-px bg-gray-200"
-                    aria-hidden="true"
-                  />
-                )}
-                <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 relative z-10">
-                  <span className="text-white font-bold text-lg">
-                    {index + 1}
-                  </span>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {HOW_IT_WORKS.map(({ step, title, desc }) => (
+              <div key={step} className="text-center">
+                <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+                  {step}
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2 text-sm">
-                  {step.step}
-                </h3>
-                <p className="text-gray-500 text-sm leading-relaxed">
-                  {step.desc}
-                </p>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>
+
+          <div className="mt-10 bg-accent/10 border border-accent/20 rounded-xl p-6 text-center">
+            <p className="text-gray-700 font-medium">
+              The $30 site visit fee is credited toward your repair. If you go
+              ahead, the visit is free.
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* Sealed Unit Replacement Cost */}
+      {/* ── Warranty ── */}
       <section
         className="py-16 px-4 md:px-8 bg-gray-50"
-        aria-labelledby="cost-heading"
+        aria-labelledby="warranty-heading"
+      >
+        <div className="max-w-3xl mx-auto text-center">
+          <ShieldCheck
+            className="w-12 h-12 text-accent mx-auto mb-4"
+            aria-hidden="true"
+          />
+          <h2
+            id="warranty-heading"
+            className="text-3xl font-bold text-gray-900 mb-4"
+          >
+            2-Year Labour + 5-Year Glass Warranty
+          </h2>
+          <p className="text-gray-600 leading-relaxed mb-6">
+            Every foggy window repair is backed by a{" "}
+            <strong className="text-primary">
+              2-year warranty on our installation labour
+            </strong>{" "}
+            and a{" "}
+            <strong className="text-primary">
+              5-year manufacturer warranty on the sealed glass unit
+            </strong>
+            . If anything goes wrong with the seal or our workmanship, we come
+            back and fix it at no cost.
+          </p>
+          <p className="text-gray-500 text-sm leading-relaxed mb-4">
+            Excludes vandalism, impact damage and physical breakage. Licensed
+            and insured in Ontario.
+          </p>
+          <Link
+            href="/warranty"
+            className="inline-flex items-center gap-2 text-accent font-semibold hover:underline"
+          >
+            Read our full warranty policy
+            <ChevronRight className="w-4 h-4" aria-hidden="true" />
+          </Link>
+        </div>
+      </section>
+
+      {/* ── Window Brands ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-white"
+        aria-labelledby="brands-heading"
+      >
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              Works With All Brands
+            </span>
+            <h2
+              id="brands-heading"
+              className="text-3xl font-bold text-gray-900 mb-4"
+            >
+              Common Window Brands We Service
+            </h2>
+            <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed">
+              Foggy window repair works on virtually every window brand
+              installed in GTA homes. Here are some of the brands we see most
+              often:
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 mb-8">
+            {WINDOW_BRANDS.map((brand) => (
+              <div
+                key={brand}
+                className="bg-white rounded-xl border border-gray-200 p-4 flex items-center gap-2 hover:border-accent/40 hover:shadow-sm transition-all"
+              >
+                <CheckCircle2
+                  className="w-4 h-4 text-accent shrink-0"
+                  aria-hidden="true"
+                />
+                <span className="text-gray-900 text-sm font-medium">
+                  {brand}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <div className="bg-primary/5 border border-primary/15 rounded-2xl p-6 text-center max-w-2xl mx-auto">
+            <p className="text-gray-700 leading-relaxed">
+              <strong className="text-primary">
+                Not sure if your windows can be repaired?
+              </strong>{" "}
+              Send us a photo of the foggy window. We will tell you if the glass
+              unit can be replaced and give you a quote.
+            </p>
+            <a
+              href={EMAIL_HREF}
+              className="inline-flex items-center gap-2 mt-4 text-accent font-semibold hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded"
+            >
+              <Mail className="w-4 h-4" aria-hidden="true" />
+              Email a Photo: {EMAIL}
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Have Multiple Foggy Windows? ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-gray-50"
+        aria-labelledby="multi-heading"
       >
         <div className="max-w-3xl mx-auto">
           <h2
-            id="cost-heading"
+            id="multi-heading"
             className="text-3xl font-bold text-gray-900 mb-6 leading-tight"
           >
-            Sealed Unit Replacement Cost
+            Have Multiple Foggy Windows?
           </h2>
-          <p className="text-gray-600 leading-relaxed mb-4">
-            The price depends on:
-          </p>
-          <ul className="space-y-3 mb-6" aria-label="Cost factors">
-            {COST_FACTORS.map((factor) => (
-              <li key={factor} className="flex items-start gap-3">
-                <CheckCircle2
-                  className="w-5 h-5 text-accent shrink-0 mt-0.5"
-                  aria-hidden="true"
-                />
-                <span className="text-gray-700">{factor}</span>
-              </li>
-            ))}
-          </ul>
-          <p className="text-gray-600 leading-relaxed">
-            Send us a photo of your window and we&apos;ll give you a free quote,
-            usually the same day. Most homeowners pay a fraction of the cost of full
-            window replacement. For detailed market pricing, see our{" "}
-            <Link href="/glass-replacement-cost-report-2026" className="text-primary font-semibold hover:underline">GTA Glass Replacement Cost Report 2026</Link>.
-            {" "}For a broader look at what drives repair pricing, see our{" "}
-            <Link href="/window-repair-cost" className="text-primary font-semibold hover:underline">window repair cost guide</Link>.
-          </p>
-          <p className="text-sm italic text-gray-500 mt-4">
-            Pricing shown is a general estimate based on typical jobs across the GTA. Final pricing depends on size, access, frame condition, and other site-specific factors. For an exact written quote, call{" "}
-            <a href="tel:+14373448490" className="text-primary hover:underline">(437) 344-8490</a>.
-          </p>
+          <div className="space-y-4 text-gray-600 leading-relaxed">
+            <p>
+              Many homeowners discover that several windows have failed seals at
+              the same time, especially in homes built during the same period.
+              This is normal. Windows installed together tend to age together.
+            </p>
+            <p>
+              We measure all units during a single appointment, order them
+              together, and install everything on the same day. Multi-window
+              jobs are common and we handle them regularly. You get one visit,
+              one invoice, and one warranty covering all the work.
+            </p>
+          </div>
+          <div className="mt-6 flex flex-col sm:flex-row gap-4">
+            <a
+              href={PHONE_HREF}
+              className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-bold px-6 py-3 rounded-md shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent active:scale-95"
+            >
+              <Phone className="w-5 h-5" aria-hidden="true" />
+              Call {PHONE}
+            </a>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-6 py-3 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary active:scale-95"
+            >
+              Get a Written Quote
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* ── FAQ ── */}
       <section
         className="py-16 px-4 md:px-8 bg-white"
         aria-labelledby="faq-heading"
@@ -608,10 +724,10 @@ export default function FoggyWindowsPage() {
             </h2>
           </div>
           <div className="space-y-3">
-            {FAQS.map((faq, index) => (
+            {FAQS.map((faq, i) => (
               <details
-                key={index}
-                className="bg-white rounded-xl border border-gray-100 overflow-hidden group"
+                key={i}
+                className="bg-white rounded-xl border border-gray-100 overflow-hidden group shadow-sm"
               >
                 <summary className="flex items-center justify-between px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:text-primary transition-colors list-none [&::-webkit-details-marker]:hidden">
                   {faq.q}
@@ -629,10 +745,60 @@ export default function FoggyWindowsPage() {
         </div>
       </section>
 
-      {/* Related Services */}
+      {/* ── Final CTA ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-gray-50"
+        aria-label="Contact call to action"
+      >
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-accent/10 border border-accent/25 rounded-2xl p-8 md:p-10 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-primary mb-3 leading-tight">
+              Ready for Clear Windows Again?
+            </h2>
+            <p className="text-gray-600 leading-relaxed mb-8 max-w-xl mx-auto">
+              Send us a photo of your foggy window and we will confirm it can be
+              fixed, give you a straight answer on timeline, and provide a
+              written quote. No sales pitch, no surprise fees. Foggy window
+              repair is part of our full{" "}
+              <Link
+                href="/services"
+                className="text-primary font-semibold hover:underline"
+              >
+                glass repair service
+              </Link>{" "}
+              across the GTA.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+              <a
+                href={PHONE_HREF}
+                className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-md shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95"
+              >
+                <Phone className="w-5 h-5" aria-hidden="true" />
+                Call {PHONE}
+              </a>
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary active:scale-95"
+              >
+                <MessageCircle className="w-5 h-5" aria-hidden="true" />
+                Get a Written Quote
+              </Link>
+            </div>
+            <a
+              href={EMAIL_HREF}
+              className="inline-flex items-center gap-2 text-accent hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded text-sm"
+            >
+              <Mail className="w-4 h-4" aria-hidden="true" />
+              {EMAIL}
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Related Services ── */}
       {relatedServices.length > 0 && (
         <section
-          className="py-16 px-4 md:px-8 bg-gray-50"
+          className="py-16 px-4 md:px-8 bg-white"
           aria-labelledby="related-heading"
         >
           <div className="max-w-7xl mx-auto">
@@ -658,8 +824,8 @@ export default function FoggyWindowsPage() {
       )}
 
       <CTABanner
-        title="Ready for Clear Windows Again?"
-        subtitle="Call now: same-day quotes available across the GTA."
+        title="Foggy Windows? We Fix Them."
+        subtitle="Same-week measurement appointments available across the GTA."
       />
 
       {/* Winter Ready Banner */}
@@ -683,8 +849,55 @@ export default function FoggyWindowsPage() {
         </section>
       )}
 
-      {/* Foggy Glass Repair by City */}
-      <section className="bg-gray-50 border-t border-gray-200 py-12 md:py-16">
+      {/* ── Service Areas ── */}
+      <section className="py-12 px-4 md:px-8 bg-gray-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            Foggy Window Repair Across the GTA
+          </h2>
+          <p className="text-gray-600 leading-relaxed mb-8">
+            We replace sealed glass units in{" "}
+            <Link
+              href="/foggy-glass-repair-toronto"
+              className="text-primary font-semibold hover:underline"
+            >
+              Toronto
+            </Link>
+            ,{" "}
+            <Link
+              href="/foggy-glass-repair-vaughan"
+              className="text-primary font-semibold hover:underline"
+            >
+              Vaughan
+            </Link>
+            ,{" "}
+            <Link
+              href="/foggy-glass-repair-mississauga"
+              className="text-primary font-semibold hover:underline"
+            >
+              Mississauga
+            </Link>
+            ,{" "}
+            <Link
+              href="/foggy-glass-repair-thornhill"
+              className="text-primary font-semibold hover:underline"
+            >
+              Thornhill
+            </Link>{" "}
+            and across the Greater Toronto Area. Glass is measured first,
+            custom-made, then installed.{" "}
+            <Link
+              href="/areas-we-serve"
+              className="text-primary font-semibold hover:underline"
+            >
+              See all areas we serve &rarr;
+            </Link>
+          </p>
+        </div>
+      </section>
+
+      {/* ── Foggy Glass Repair by City ── */}
+      <section className="bg-white border-t border-gray-200 py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
             Foggy Glass Repair by City
