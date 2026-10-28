@@ -15,7 +15,7 @@ export function trackWhatsAppConversion() {
 export function trackPhoneConversion() {
   if (typeof window !== "undefined" && window.gtag) {
     window.gtag("event", "conversion", {
-      send_to: "AW-17856467818/_DtwCJ_CsaodEOqm0MJC",
+      send_to: "AW-17856467818/NEW_LABEL",
     });
   }
 }
