@@ -1,7 +1,18 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { XCircle, CheckCircle2, Phone, Mail, Snowflake, ChevronRight } from "lucide-react";
+import {
+  XCircle,
+  CheckCircle2,
+  Phone,
+  Mail,
+  Snowflake,
+  ChevronRight,
+  ShieldCheck,
+  Star,
+  Wrench,
+  MessageCircle,
+} from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, WINTER_READY_ENABLED } from "@/lib/constants";
 import {
@@ -11,18 +22,64 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Window Crank Repair Toronto & Hinge Repair",
+  title: "Window Crank Repair GTA | 2-Year Warranty | LuminaSky Glass",
   description:
-    "Broken window crank or stuck casement? LuminaSky stocks AmesburyTruth, Roto and more. Same-day repair across the GTA. Call 437-344-8490.",
+    "Fix broken window cranks across the GTA. Window specialists, not a handyman side gig. $30 visit credited back. 2-year parts and labour warranty. Call 437-344-8490.",
   alternates: { canonical: "/cranks" },
 };
 
-const FAILURE_SIGNS = [
-  "Handle spins freely without moving the window",
-  "Requires excessive force to open or close",
-  "Grinding or clicking sound when turning",
-  "Won't pull the window sash tight against the frame",
-  "Visible gap or draft when window is \"closed\"",
+/* ── Data ── */
+
+const TRUST_BADGES = [
+  { icon: Star, label: "5-Star Google Reviews" },
+  { icon: ShieldCheck, label: "2-Year Parts & Labour" },
+  { icon: CheckCircle2, label: "Licensed & Insured" },
+  { icon: Wrench, label: "Window Specialists" },
+];
+
+const CRANK_PROBLEMS = [
+  {
+    title: "Crank won't turn",
+    desc: "Internal gears are stripped or seized. We replace the operator with authentic hardware and restore smooth operation.",
+  },
+  {
+    title: "Crank spins but window won't move",
+    desc: "The operator spline is worn or the arm is disconnected. We replace the mechanism so the crank drives the sash again.",
+  },
+  {
+    title: "Handle broken off",
+    desc: "Snapped or cracked handle. We match the spline pattern and install a compatible replacement handle.",
+  },
+  {
+    title: "Window won't close or seal",
+    desc: "Worn hinges or a bent operator arm prevent a tight seal. We repair or replace the hardware so the window closes flush.",
+  },
+  {
+    title: "Casement operator failure",
+    desc: "The gearbox that drives casement windows wears out over time. We carry AmesburyTruth and Roto operators for same-day replacement.",
+  },
+  {
+    title: "Awning window hardware",
+    desc: "Awning operators work differently from casements. We stock both types and know the difference, so the repair is done right.",
+  },
+];
+
+const HOW_IT_WORKS = [
+  {
+    step: "1",
+    title: "Call or send a photo on WhatsApp",
+    desc: "Snap a picture of the broken crank and send it over. We will identify the part and let you know what to expect.",
+  },
+  {
+    step: "2",
+    title: "$30 visit with a written quote",
+    desc: "Our technician visits, assesses the hardware on the spot, and gives you a written quote before starting any work.",
+  },
+  {
+    step: "3",
+    title: "$30 credited back when you proceed",
+    desc: "The visit fee is applied directly to the cost of your repair. If you go ahead, the visit is free.",
+  },
 ];
 
 const BRANDS = [
@@ -83,61 +140,34 @@ const REPAIR_ITEMS = [
   },
 ];
 
-const FAILURE_CAUSES = [
-  "Forced opening while lock is engaged - strips internal gears",
-  "House settling or frame warping - misaligns the mechanism",
-  "Freeze-thaw climate - causes rust and corrosion",
-  "Lack of lubrication - gears seize from dirt and oxidation",
-  "Normal wear after 15–20 years of daily use",
-];
-
-const DIY_TIPS = [
-  {
-    step: "1",
-    title: "Annual lubrication",
-    desc: "Spray silicone lubricant (not WD-40) on all moving parts",
-  },
-  {
-    step: "2",
-    title: "Track cleaning",
-    desc: "Vacuum dirt and debris from window tracks quarterly",
-  },
-  {
-    step: "3",
-    title: "Weatherstripping check",
-    desc: "Replace worn weatherstripping to reduce stress on locks",
-  },
-  {
-    step: "4",
-    title: "Never force",
-    desc: "If a window won't close, call for service rather than forcing it",
-  },
-];
-
 const FAQS = [
   {
+    q: "How much does window crank repair cost?",
+    a: "Every job is different because it depends on the hardware brand, window type, and access. Book a $30 assessment visit and we will give you a written quote on the spot. The $30 is credited back when you go ahead with the repair.",
+  },
+  {
+    q: "Do you fix all window brands?",
+    a: "Yes. We carry parts for AmesburyTruth, Roto, Maxim, Encore, Entrygard, and most Canadian window brands including Jeld-Wen, Andersen, Pella, and Milgard. If your brand is not on this list, send us a photo and we will confirm.",
+  },
+  {
+    q: "How long does the repair take?",
+    a: "Most crank repairs are completed in 30 to 60 minutes, on the first visit. If we have your part in stock (90% of the time for AmesburyTruth hardware), it is same-day.",
+  },
+  {
+    q: "What is your service area?",
+    a: "We service the full Greater Toronto Area: Toronto, Vaughan, Mississauga, Thornhill, Richmond Hill, Markham, Scarborough, North York, Brampton, Oakville, Burlington, Newmarket, Aurora, and surrounding cities.",
+  },
+  {
+    q: "What if my crank is discontinued?",
+    a: "We source universal and cross-compatible replacements for discontinued hardware. In our experience, 95% of cases are solvable with a compatible part that fits and functions the same as the original.",
+  },
+  {
     q: "How do I know which brand of hardware I have?",
-    a: "Look for a stamped logo on the crank handle or hinge. If you can't find it, text us a close-up photo and we'll identify it - usually within an hour.",
+    a: "Look for a stamped logo on the crank handle or hinge. If you can not find it, text us a close-up photo and we will identify it.",
   },
   {
-    q: "Can I buy the part and install it myself?",
-    a: "You can, but window hardware is tricky to install correctly. A misaligned operator will fail again quickly. Our service includes proper alignment and adjustment, so you're not back to square one in six months.",
-  },
-  {
-    q: "Do you service commercial buildings?",
-    a: "Yes. We handle office buildings, schools, and light commercial properties across the GTA.",
-  },
-  {
-    q: "Do you service high-rise condos?",
-    a: "Yes, we service condos and high-rise buildings throughout the GTA.",
-  },
-  {
-    q: "How long does a typical crank repair take?",
-    a: "Most repairs take 30 minutes or less on the first visit. If we have your part in stock - which is 90% of the time for AmesburyTruth hardware - we can often complete same-day.",
-  },
-  {
-    q: "What if you can't identify my hardware from a photo?",
-    a: "In rare cases with very old or discontinued hardware, we'll bring our parts catalogue on the visit and measure on-site. We've sourced hardware for windows going back 30+ years.",
+    q: "Do you service condos and commercial buildings?",
+    a: "Yes. We handle office buildings, condos, schools, and light commercial properties across the GTA.",
   },
   {
     q: "Do you do window hinge repair?",
@@ -163,8 +193,7 @@ export default function WindowCranksPage() {
             generateServiceSchema(
               "Window Crank & Operator Repair",
               "/cranks",
-              "Mobile repair service for casement and awning window cranks, operators, hinges, and locks across the GTA.",
-              { minPrice: 150, maxPrice: 450, priceDescription: "Per crank/handle replacement, parts and labour." }
+              "Mobile repair service for casement and awning window cranks, operators, hinges, and locks across the GTA."
             ),
             generateFAQSchema(FAQS),
           ]),
@@ -202,34 +231,28 @@ export default function WindowCranksPage() {
               </nav>
 
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-                Window Crank Repair Toronto: Operators, Hinges &amp; Casement Cranks
+                Window Crank Repair in the GTA, Done Right
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
-                A casement window with a crank that spins endlessly, a stiff
-                awning that takes both hands to close, or a window that
-                won&apos;t lock - these aren&apos;t &ldquo;replace the whole
-                window&rdquo; problems. LuminaSky carries authentic{" "}
-                <strong className="text-white">AmesburyTruth</strong> and{" "}
-                <strong className="text-white">Roto</strong> operators, hinges,
-                and locks, and our mobile technicians fix most casement and
-                awning windows in{" "}
-                <strong className="text-white">30 minutes or less</strong>, on
-                the first visit, for a fraction of the cost of replacement.
+                Window specialists, not a handyman side gig. We carry authentic
+                parts, fix most cranks in 30 minutes on the first visit, and
+                back every repair with a{" "}
+                <strong className="text-white">2-year parts and labour warranty</strong>.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-md shadow-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
-                >
-                  Book a Repair
-                </Link>
                 <a
                   href={PHONE_HREF}
-                  className="inline-flex items-center justify-center gap-2 border-2 border-white/60 text-white hover:bg-white hover:text-primary font-bold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white active:scale-95"
+                  className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-md shadow-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
                 >
                   <Phone className="w-5 h-5" aria-hidden="true" />
-                  {PHONE}
+                  Call {PHONE}
                 </a>
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center border-2 border-white/60 text-white hover:bg-white hover:text-primary font-bold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white active:scale-95"
+                >
+                  Get a Written Quote
+                </Link>
               </div>
             </div>
 
@@ -247,103 +270,142 @@ export default function WindowCranksPage() {
               </div>
             </div>
           </div>
+
+          {/* Trust badges */}
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
+            {TRUST_BADGES.map(({ icon: Icon, label }) => (
+              <div
+                key={label}
+                className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-3 border border-white/15"
+              >
+                <Icon className="w-5 h-5 text-accent shrink-0" aria-hidden="true" />
+                <span className="text-white text-sm font-medium">{label}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* ── 5 Signs ── */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="signs-heading">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
-            <div>
-              <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-                Know the Warning Signs
-              </span>
-              <h2 id="signs-heading" className="text-3xl font-bold text-gray-900 mb-8 leading-tight">
-                5 Signs Your Window Crank Needs Replacement
-              </h2>
-              <ul className="space-y-4" aria-label="Signs of window crank failure">
-                {FAILURE_SIGNS.map((sign) => (
-                  <li key={sign} className="flex items-start gap-3">
-                    <XCircle
-                      className="w-5 h-5 text-red-500 shrink-0 mt-0.5"
-                      aria-hidden="true"
-                    />
-                    <span className="text-gray-700 leading-relaxed">{sign}</span>
+      {/* ── Why Choose a Window Specialist ── */}
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="compare-heading">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              Know the Difference
+            </span>
+            <h2 id="compare-heading" className="text-3xl font-bold text-gray-900">
+              Why Choose a Window Specialist
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Generic handyman */}
+            <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
+              <h3 className="text-lg font-bold text-gray-500 mb-6">The Handyman Option</h3>
+              <ul className="space-y-4">
+                {[
+                  "1-year warranty or none at all",
+                  "Jack-of-all-trades, not a window specialist",
+                  "Generic trust claims, no verified reviews",
+                  "May not carry your exact hardware brand",
+                  "Limited experience with casement operators",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <XCircle className="w-5 h-5 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
+                    <span className="text-gray-500">{item}</span>
                   </li>
                 ))}
               </ul>
-              <div className="mt-8 p-4 bg-accent/10 border border-accent/20 rounded-xl">
-                <p className="text-sm text-gray-700 leading-relaxed">
-                  <strong className="text-primary">Seeing one or more of these?</strong>{" "}
-                  Most are a quick fix. Text us a photo of your crank handle and
-                  we&apos;ll give you a same-day diagnosis.
-                </p>
+            </div>
+
+            {/* LuminaSky */}
+            <div className="bg-primary/5 rounded-2xl p-8 border-2 border-primary/20 relative">
+              <div className="absolute -top-3 left-6">
+                <span className="bg-accent text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                  Recommended
+                </span>
               </div>
-            </div>
-
-            {/* Mobile image - shown below signs on small screens */}
-            <div className="lg:hidden relative rounded-2xl overflow-hidden bg-gray-100 aspect-[4/3]">
-              <Image
-                src="/images/services/window-crank-door.jpg"
-                alt="Old worn casement window crank and replacement hardware"
-                fill
-                className="object-cover"
-                sizes="100vw"
-              />
-            </div>
-
-            {/* Repair vs Replace callout */}
-            <div className="bg-gray-50 rounded-2xl p-8 border border-gray-100">
-              <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-                The Smart Choice
-              </span>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Why Repair Beats Replacement
-              </h3>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                Full window replacement often requires interior trim removal,
-                drywall patching, and repainting - a major disruption to your
-                home.
-              </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                Hardware repair typically takes{" "}
-                <strong className="text-gray-900">30 minutes with no mess</strong>{" "}
-                and no damage to your walls or trim.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                Your existing window is structurally sound - it just needs the
-                right replacement part and professional installation. We&apos;ll
-                always tell you honestly if the frame is too damaged and
-                replacement makes sense, but in{" "}
-                <strong className="text-gray-900">90% of cases</strong>, a
-                simple hardware fix solves the problem.
-              </p>
-              <p className="text-gray-600 leading-relaxed mt-4">
-                Casement windows rely on three parts: the crank handle, the
-                operator (the gearbox the handle turns) and the hinges that let
-                the sash swing. When the handle spins but the window
-                doesn&apos;t move, the operator is usually stripped, and window
-                operator replacement fixes it. When the window sags, drags or
-                won&apos;t close tight, the hinges are worn, and window hinge
-                repair or replacement solves it. Either way, you keep your
-                window. If the crank arm itself is broken or worn out, casement
-                window crank replacement takes a few minutes and uses compatible
-                hardware for your window.
-              </p>
-              <div className="mt-6 grid grid-cols-2 gap-4">
+              <h3 className="text-lg font-bold text-primary mb-6">LuminaSky Glass Services</h3>
+              <ul className="space-y-4">
                 {[
-                  { label: "Typical repair time", value: "30 min" },
-                  { label: "Parts in stock", value: "90%" },
-                  { label: "Mess left behind", value: "None" },
-                  { label: "Walls or trim disturbed", value: "Never" },
-                ].map(({ label, value }) => (
-                  <div key={label} className="text-center p-3 bg-white rounded-xl border border-gray-200">
-                    <div className="text-xl font-bold text-primary">{value}</div>
-                    <div className="text-xs text-gray-500 mt-0.5">{label}</div>
-                  </div>
+                  "2-year parts and labour warranty on every repair",
+                  "Window and glass specialists only",
+                  "5-star Google reviews from real GTA homeowners",
+                  "AmesburyTruth, Roto, and major brands in stock",
+                  "Most repairs done in 30 minutes, first visit",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
+                    <span className="text-gray-700 font-medium">{item}</span>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Common Crank Problems ── */}
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="problems-heading">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              We Fix These
+            </span>
+            <h2 id="problems-heading" className="text-3xl font-bold text-gray-900">
+              Common Crank Problems We Fix
+            </h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
+              Every problem below is one we see regularly. Most are a quick fix
+              with the right replacement part.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {CRANK_PROBLEMS.map(({ title, desc }) => (
+              <div
+                key={title}
+                className="bg-white rounded-xl p-6 border border-gray-100 hover:border-accent/30 hover:shadow-sm transition-all"
+              >
+                <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                  <Wrench className="w-5 h-5 text-accent" aria-hidden="true" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── How It Works ── */}
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="process-heading">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              Simple Process
+            </span>
+            <h2 id="process-heading" className="text-3xl font-bold text-gray-900">
+              How It Works
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {HOW_IT_WORKS.map(({ step, title, desc }) => (
+              <div key={step} className="text-center">
+                <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+                  {step}
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-10 bg-accent/10 border border-accent/20 rounded-xl p-6 text-center">
+            <p className="text-gray-700 font-medium">
+              The $30 visit fee is credited toward your repair. If you go ahead, the visit is free.
+            </p>
           </div>
         </div>
       </section>
@@ -359,7 +421,7 @@ export default function WindowCranksPage() {
               Before &amp; After: Window Crank Repair
             </h2>
             <p className="text-gray-500 mt-3 leading-relaxed">
-              Real hardware from a recent GTA job - same mechanism, transformed in under 30 minutes.
+              Real hardware from a recent GTA job. Same mechanism, transformed in under 30 minutes.
             </p>
           </div>
 
@@ -369,7 +431,7 @@ export default function WindowCranksPage() {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src="/images/services/crank-before.jpg"
-                  alt="Worn and rusty window crank mechanism before professional repair - stripped gears and corroded hardware"
+                  alt="Worn and rusty window crank mechanism before professional repair"
                   fill
                   unoptimized
                   className="object-cover"
@@ -394,7 +456,7 @@ export default function WindowCranksPage() {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src="/images/services/crank-after.jpg"
-                  alt="Brand new authentic window crank operator installed by LuminaSky - smooth operation restored"
+                  alt="Brand new authentic window crank operator installed by LuminaSky"
                   fill
                   unoptimized
                   className="object-cover"
@@ -409,15 +471,14 @@ export default function WindowCranksPage() {
               <div className="p-6">
                 <h3 className="font-bold text-gray-900 mb-2">Authentic Replacement Hardware</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">
-                  Brand-new authentic operator installed and aligned. The window now opens, closes, and locks smoothly - no force required. Same-day repair, no mess, no wall damage.
+                  Brand-new authentic operator installed and aligned. The window now opens, closes, and locks smoothly. No force required. Same-day repair, no mess, no wall damage.
                 </p>
               </div>
             </div>
           </div>
 
           <p className="text-center mt-8 text-gray-500 text-sm font-medium">
-            Most repairs completed in{" "}
-            <span className="text-primary font-bold">30 minutes</span> on the first visit
+            Most window hardware repairs are completed on the same day, on the first visit
           </p>
         </div>
       </section>
@@ -459,8 +520,8 @@ export default function WindowCranksPage() {
           <div className="bg-primary/5 border border-primary/15 rounded-2xl p-6 text-center max-w-2xl mx-auto">
             <p className="text-gray-700 leading-relaxed">
               <strong className="text-primary">Not sure which brand you have?</strong>{" "}
-              Send us a close-up photo of your crank handle and mechanism -
-              we&apos;ll identify it within an hour.
+              Send us a close-up photo of your crank handle and mechanism.
+              We will identify it for you.
             </p>
             <a
               href={EMAIL_HREF}
@@ -474,7 +535,7 @@ export default function WindowCranksPage() {
       </section>
 
       {/* ── What We Repair ── */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="repairs-heading">
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="repairs-heading">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
@@ -489,7 +550,7 @@ export default function WindowCranksPage() {
             {REPAIR_ITEMS.map(({ title, desc }) => (
               <div
                 key={title}
-                className="bg-gray-50 rounded-xl p-5 border border-gray-100 hover:border-accent/30 hover:bg-white hover:shadow-sm transition-all"
+                className="bg-white rounded-xl p-5 border border-gray-100 hover:border-accent/30 hover:shadow-sm transition-all"
               >
                 <div className="w-8 h-8 bg-accent/10 rounded-lg flex items-center justify-center mb-3">
                   <CheckCircle2 className="w-4 h-4 text-accent" aria-hidden="true" />
@@ -502,90 +563,24 @@ export default function WindowCranksPage() {
         </div>
       </section>
 
-      {/* ── Failure Causes + DIY Tips (side by side) ── */}
-      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-label="Causes and maintenance">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Causes */}
-          <div>
-            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-              Root Causes
-            </span>
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Common Causes of Hardware Failure
-            </h2>
-            <ul className="space-y-3" aria-label="Common causes of window hardware failure">
-              {FAILURE_CAUSES.map((cause) => (
-                <li key={cause} className="flex items-start gap-3 text-gray-700">
-                  <span
-                    className="w-1.5 h-1.5 rounded-full bg-accent shrink-0 mt-2"
-                    aria-hidden="true"
-                  />
-                  <span className="leading-relaxed">{cause}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* DIY Tips */}
-          <div>
-            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-              Extend Hardware Life
-            </span>
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              DIY Maintenance Tips
-            </h2>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              Between professional repairs, you can extend your window hardware
-              life with these simple steps:
-            </p>
-            <div className="space-y-4">
-              {DIY_TIPS.map(({ step, title, desc }) => (
-                <div key={step} className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold text-sm">
-                    {step}
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-900">{title}</p>
-                    <p className="text-gray-500 text-sm mt-0.5 leading-snug">{desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── Our Service ── */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="service-heading">
+      {/* ── Warranty ── */}
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="warranty-heading">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-            Availability
-          </span>
-          <h2 id="service-heading" className="text-3xl font-bold text-gray-900 mb-6">
-            Our Service
+          <ShieldCheck className="w-12 h-12 text-accent mx-auto mb-4" aria-hidden="true" />
+          <h2 id="warranty-heading" className="text-3xl font-bold text-gray-900 mb-4">
+            2-Year Parts and Labour Warranty
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
-            {[
-              { value: "Same-Day", label: "For AmesburyTruth parts in stock (90% of calls)" },
-              { value: "3–5 Days", label: "For custom or rare parts (ordered on your behalf)" },
-              { value: "GTA-Wide", label: "Residential, condo & light commercial" },
-            ].map(({ value, label }) => (
-              <div key={value} className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                <div className="text-2xl font-bold text-primary mb-2">{value}</div>
-                <p className="text-sm text-gray-500 leading-snug">{label}</p>
-              </div>
-            ))}
-          </div>
+          <p className="text-gray-600 leading-relaxed mb-6">
+            Every hardware repair we do is backed by a{" "}
+            <strong className="text-primary">2-year warranty on parts and labour</strong>.
+            Most other GTA companies offer 1-year or none at all.
+          </p>
+          <p className="text-gray-500 text-sm leading-relaxed">
+            We also back our sealed glass units with a 5-year warranty against
+            seal failure. Licensed and insured in Ontario.
+          </p>
         </div>
       </section>
-
-      {/* Pricing Disclaimer */}
-      <div className="max-w-3xl mx-auto px-4 md:px-8 py-4">
-        <p className="text-sm italic text-gray-500">
-          Pricing shown is a general estimate based on typical jobs across the GTA. Final pricing depends on size, access, frame condition, and other site-specific factors. For an exact written quote, call{" "}
-          <a href="tel:+14373448490" className="text-primary hover:underline">(437) 344-8490</a>.
-        </p>
-      </div>
 
       {/* ── FAQ ── */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">
@@ -620,17 +615,17 @@ export default function WindowCranksPage() {
         </div>
       </section>
 
-      {/* ── CTA Box ── */}
+      {/* ── Final CTA ── */}
       <section className="py-16 px-4 md:px-8 bg-white" aria-label="Contact call to action">
         <div className="max-w-3xl mx-auto">
           <div className="bg-accent/10 border border-accent/25 rounded-2xl p-8 md:p-10 text-center">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-3 leading-tight">
-              Spinning Crank? Send Us a Photo of the Handle
+              Broken Crank? Let Us Fix It
             </h2>
             <p className="text-gray-600 leading-relaxed mb-8 max-w-xl mx-auto">
-              We&apos;ll identify the part within the hour and give you a
-              straight answer on cost and availability - no sales pitch, no
-              surprise fees. Window hardware repair is part of our full{" "}
+              Send us a photo of the handle and we will identify the part and
+              give you a straight answer on cost and availability. No sales pitch,
+              no surprise fees. Window hardware repair is part of our full{" "}
               <Link
                 href="/window-repair-toronto"
                 className="text-primary font-semibold hover:underline"
@@ -640,19 +635,20 @@ export default function WindowCranksPage() {
               service across the GTA.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-md shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95"
-              >
-                Contact Us
-              </Link>
               <a
                 href={PHONE_HREF}
-                className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary active:scale-95"
+                className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-md shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 active:scale-95"
               >
                 <Phone className="w-5 h-5" aria-hidden="true" />
                 Call {PHONE}
               </a>
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary active:scale-95"
+              >
+                <MessageCircle className="w-5 h-5" aria-hidden="true" />
+                Get a Written Quote
+              </Link>
             </div>
             <a
               href={EMAIL_HREF}
@@ -698,7 +694,7 @@ export default function WindowCranksPage() {
 
       <CTABanner
         title="Ready to Fix Your Window Cranks?"
-        subtitle="Same-day service available across the GTA. We carry the parts - you don't wait."
+        subtitle="Same-day service available across the GTA. We carry the parts, you don't wait."
       />
     </>
   );
