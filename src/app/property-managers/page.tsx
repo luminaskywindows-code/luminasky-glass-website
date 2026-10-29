@@ -567,6 +567,19 @@ export default function PropertyManagersPage() {
                 <p className="text-gray-700">{point}</p>
               </div>
             ))}
+            <div className="flex items-start gap-3 bg-white rounded-lg p-4 shadow-sm">
+              <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
+              <p className="text-gray-700">
+                <a
+                  href="https://www.bbb.org/ca/on/vaughan/profile/window-repair/luminasky-glass-services-0107-1422165"
+                  target="_blank"
+                  rel="noopener"
+                  className="text-primary font-semibold hover:underline"
+                >
+                  Listed with the Better Business Bureau
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </section>

@@ -185,6 +185,14 @@ export function Footer() {
                 linkClassName="text-blue-300 hover:text-white transition-colors duration-150"
               />
               <a
+                href="https://www.bbb.org/ca/on/vaughan/profile/window-repair/luminasky-glass-services-0107-1422165"
+                target="_blank"
+                rel="noopener"
+                className="mt-3 inline-flex items-center gap-1.5 text-xs text-blue-200 hover:text-white transition-colors"
+              >
+                BBB Profile
+              </a>
+              <a
                 href="https://share.google/S08QWQ5FO1niAmpXy"
                 target="_blank"
                 rel="noopener noreferrer"
