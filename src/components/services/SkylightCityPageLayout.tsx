@@ -265,7 +265,7 @@ export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData })
             Need Skylight Repair in {city.city}?
           </h2>
           <p className="text-blue-100 text-lg mb-8 leading-relaxed">
-            Send us a few photos and we'll quote the job, usually the same day. For active leaks, call us 24/7.
+            Send us a few photos and we&#39;ll quote the job, usually the same day. For active leaks, call us 24/7.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

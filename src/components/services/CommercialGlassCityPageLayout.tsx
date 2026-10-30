@@ -265,7 +265,7 @@ export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassC
             Need Commercial Glass Service in {city.city}?
           </h2>
           <p className="text-blue-100 text-lg mb-8 leading-relaxed">
-            Call us 24/7 for emergencies. For non-urgent work, send a photo and we'll give you a written quote.
+            Call us 24/7 for emergencies. For non-urgent work, send a photo and we&#39;ll give you a written quote.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
