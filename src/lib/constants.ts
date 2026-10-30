@@ -1,7 +1,7 @@
 ﻿export const PHONE = "437-344-8490";
 export const PHONE_HREF = "tel:+14373448490";
 export const WHATSAPP_HREF =
-  "https://wa.me/14373448490?text=Hi%2C%20I%27d%20like%20a%20free%20quote";
+  "https://wa.me/14373448490?text=Hi%2C%20I%27d%20like%20a%20quote";
 export const EMAIL = "Service@Luminasky.com";
 export const EMAIL_HREF = "mailto:service@luminasky.com";
 export const SITE_URL = "https://www.luminasky.com";
@@ -185,7 +185,7 @@ export const FAQS_GENERAL = [
   },
   {
     q: "How much does glass repair cost?",
-    a: "Cost depends on the glass size, type, and accessibility. Send us a photo for a free quote, or book a $30 site visit that gets credited toward your repair. You always get a written price before any work starts.",
+    a: "Cost depends on the glass size, type, and accessibility. Send us a photo for a quote, or book a $30 site visit that gets credited toward your repair. You always get a written price before any work starts.",
   },
   {
     q: "What areas do you serve?",

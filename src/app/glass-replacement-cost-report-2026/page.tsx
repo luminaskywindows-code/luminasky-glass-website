@@ -378,13 +378,13 @@ export default function GlassReplacementCostReportPage() {
             <div className="max-w-4xl mx-auto bg-gradient-to-r from-blue-50 to-sky-50 border border-blue-200 rounded-xl p-6 flex flex-col sm:flex-row items-center gap-4">
               <div className="flex-1 text-center sm:text-left">
                 <p className="font-bold text-gray-900">See exact pricing for your window</p>
-                <p className="text-sm text-gray-600 mt-1">Free quotes based on photos, or $30 site visit (credited toward your repair).</p>
+                <p className="text-sm text-gray-600 mt-1">Quotes based on photos, or $30 site visit (credited toward your repair).</p>
               </div>
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center bg-primary hover:bg-primary/90 text-white font-semibold px-6 py-3 rounded-md shadow-sm hover:shadow transition-all active:scale-95 whitespace-nowrap"
               >
-                Get Free Quote
+                Get a Quote
               </Link>
             </div>
           </div>
@@ -576,7 +576,7 @@ export default function GlassReplacementCostReportPage() {
                   href="/contact"
                   className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all active:scale-95"
                 >
-                  Get Your Free Quote
+                  Get Your Quote
                 </Link>
                 <a
                   href={PHONE_HREF}

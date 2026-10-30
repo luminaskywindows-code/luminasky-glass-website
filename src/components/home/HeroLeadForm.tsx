@@ -145,7 +145,7 @@ export function HeroLeadForm() {
           {/* Left column, pitch + trust markers */}
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-              Get Your Free Quote
+              Get Your Quote
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
               Send us a photo and get a price without a visit. Most jobs quoted from photos alone.

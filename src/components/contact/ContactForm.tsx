@@ -315,7 +315,7 @@ export function ContactForm() {
 
       <div className="text-center">
         <p className="text-xs text-gray-400">
-          Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: Free
+          Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: No charge
         </p>
         <p className="text-[10px] text-gray-400 italic mt-0.5">
           *The $30 visit fee is credited toward your final payment if you proceed with the work

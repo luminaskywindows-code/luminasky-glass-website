@@ -82,7 +82,7 @@ const SKYLIGHT_TYPES = [
 
 const PROCESS_STEPS = [
   { title: "Send photos or call 437-344-8490", desc: "A few photos from inside, and one from outside if safe to take, tell us most of what we need." },
-  { title: "Get a written quote", desc: "Quotes from photos are free. If an in-person inspection is needed, the visit is $30, credited back if the work goes ahead." },
+  { title: "Get a written quote", desc: "Photo quotes are at no charge. If an in-person inspection is needed, the visit is $30, credited back if the work goes ahead." },
   { title: "We measure for glass", desc: "If the glass unit needs replacing, we measure the skylight and order a new sealed unit made to size." },
   { title: "New parts or glass delivered", desc: "Custom glass takes 5-15 business days depending on type and size. Leak and flashing repairs are often done sooner." },
   { title: "Clean installation with warranty", desc: "We install the new glass or complete the repair, leak-test the skylight, and leave you with a 2-year workmanship warranty on your invoice." },
@@ -112,7 +112,7 @@ const AREA_CITIES = [
 const FAQS = [
   {
     q: "How much does it cost to fix a leaking skylight in Toronto?",
-    a: "It depends on the cause of the leak, the size of the skylight, and how accessible the roof is. A sealant or flashing repair costs much less than a full glass replacement. Send us a photo for a free quote, or book a $30 site visit that gets credited back if the work goes ahead.",
+    a: "It depends on the cause of the leak, the size of the skylight, and how accessible the roof is. A sealant or flashing repair costs much less than a full glass replacement. Send us a photo for a quote, or book a $30 site visit that gets credited back if the work goes ahead.",
   },
   {
     q: "Can you repair a skylight without replacing it?",
@@ -259,7 +259,7 @@ export default function SkylightsPage() {
                 href="/contact"
                 className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
               >
-                Send a Photo for a Free Quote
+                Send a Photo for a Quote
               </Link>
               <a
                 href={PHONE_HREF}
@@ -592,7 +592,7 @@ export default function SkylightsPage() {
       {/* Final CTA */}
       <CTABanner
         title="Get Your Skylight Fixed Before the Next Rain"
-        subtitle="Send a photo for a free quote, or call for same-day service."
+        subtitle="Send a photo for a quote, or call for same-day service."
       />
 
       {WINTER_READY_ENABLED && (

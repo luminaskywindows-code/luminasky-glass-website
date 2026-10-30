@@ -167,7 +167,7 @@ function HeroFormCard() {
 
   return (
     <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-      <h2 className="text-xl font-bold text-gray-900 mb-5">Get Your Free Quote</h2>
+      <h2 className="text-xl font-bold text-gray-900 mb-5">Get Your Quote</h2>
 
       <form onSubmit={handleSubmit} noValidate className="space-y-4" aria-label="Quick quote form">
         {submitStatus === "error" && (
@@ -296,7 +296,7 @@ function HeroFormCard() {
               Sending…
             </>
           ) : (
-            "Get My Free Quote"
+            "Get My Quote"
           )}
         </button>
 

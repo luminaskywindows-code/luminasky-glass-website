@@ -37,11 +37,11 @@ const FAQS = [
   },
   {
     q: "Why don’t you publish prices?",
-    a: "Because every window is different. Glass size, type, hardware and access change the price, so a list would be wrong for most homes. We quote each job individually, free from a photo, and give you a written price before any work.",
+    a: "Because every window is different. Glass size, type, hardware and access change the price, so a list would be wrong for most homes. We quote each job individually, from a photo, and give you a written price before any work.",
   },
   {
     q: "How much does it cost to get a quote?",
-    a: "Photo quotes are free. If we need to see the window in person, the site visit is $30 and is credited back to you if you go ahead with the repair.",
+    a: "Photo quotes are at no charge. If we need to see the window in person, the site visit is $30 and is credited back to you if you go ahead with the repair.",
   },
   {
     q: "Will the price change after you start?",
@@ -62,12 +62,12 @@ export const metadata: Metadata = {
     absolute: "Window Repair Cost Toronto: What Affects Price | LuminaSky",
   },
   description:
-    "What does window repair cost in Toronto? What drives the price, why repair costs far less than replacement, and how to get a free, written quote.",
+    "What does window repair cost in Toronto? What drives the price, why repair costs far less than replacement, and how to get a written quote.",
   alternates: { canonical: "/window-repair-cost" },
   openGraph: {
     title: "Window Repair Cost Toronto: What Affects Price | LuminaSky",
     description:
-      "What does window repair cost in Toronto? What drives the price, why repair costs far less than replacement, and how to get a free, written quote.",
+      "What does window repair cost in Toronto? What drives the price, why repair costs far less than replacement, and how to get a written quote.",
     url: "/window-repair-cost",
   },
 };
@@ -84,7 +84,7 @@ export default function WindowRepairCostPage() {
               "@context": "https://schema.org",
               "@type": "Article",
               headline: "How Much Does Window Repair Cost in Toronto?",
-              description: "What drives window repair cost in Toronto, why repair costs far less than replacement, and how to get a free, written quote.",
+              description: "What drives window repair cost in Toronto, why repair costs far less than replacement, and how to get a written quote.",
               url: `${SITE_URL}/window-repair-cost`,
               image: `${SITE_URL}/og-image.jpg`,
               datePublished: "2026-10-22",
@@ -126,7 +126,7 @@ export default function WindowRepairCostPage() {
               How Much Does Window Repair Cost in Toronto?
             </h1>
             <p className="text-xl text-blue-100 leading-relaxed mb-8">
-              Window repair in Toronto typically costs much less than you&apos;d expect, and a fraction of the cost of a full window replacement. The price depends on what&apos;s broken (glass, sealed unit or hardware), the size and type of glass, and access. We quote per job, free from a photo, with a written price before any work.
+              Window repair in Toronto typically costs much less than you&apos;d expect, and a fraction of the cost of a full window replacement. The price depends on what&apos;s broken (glass, sealed unit or hardware), the size and type of glass, and access. We quote per job, from a photo, with a written price before any work.
             </p>
           </div>
         </div>
@@ -223,7 +223,7 @@ export default function WindowRepairCostPage() {
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" aria-hidden="true" />
                   <p className="text-gray-600 leading-relaxed">
-                    <strong className="text-gray-900">Free photo quote.</strong> Text or WhatsApp a photo of the window and the problem. Most jobs can be quoted from photos at no charge.
+                    <strong className="text-gray-900">Photo quote.</strong> Text or WhatsApp a photo of the window and the problem. Most jobs can be quoted from photos at no charge.
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -244,7 +244,7 @@ export default function WindowRepairCostPage() {
                   href="/contact"
                   className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg transition-all"
                 >
-                  Send a Photo for a Free Quote
+                  Send a Photo for a Quote
                 </Link>
                 <a
                   href={PHONE_HREF}
@@ -351,8 +351,8 @@ export default function WindowRepairCostPage() {
       </div>
 
       <CTABanner
-        title="Get a Free Quote for Your Window Repair"
-        subtitle="Send a photo for a free quote, or book a $30 site visit, credited to your repair."
+        title="Get a Quote for Your Window Repair"
+        subtitle="Send a photo for a quote, or book a $30 site visit, credited to your repair."
       />
     </>
   );

@@ -65,7 +65,7 @@ const FAQS = [
   },
   {
     q: "How much does window screen repair cost?",
-    a: "It depends on the size and how many screens you have. Send us a photo and we'll give you a free quote, usually the same day.",
+    a: "It depends on the size and how many screens you have. Send us a photo and we'll give you a quote, usually the same day.",
   },
   {
     q: "Can you make a screen for a window that never had one?",

@@ -83,7 +83,7 @@ export default function FAQPage() {
             Still have questions?
           </h2>
           <p className="text-blue-200 mb-8 text-lg">
-            We&apos;re happy to help. Reach out for a free quote or to discuss your
+            We&apos;re happy to help. Reach out for a quote or to discuss your
             project.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

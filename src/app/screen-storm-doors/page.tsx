@@ -113,7 +113,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Screen & Storm Door Installation Toronto",
   description:
-    "Screen and storm door installation and repair in Toronto and the GTA. Custom-fit for your entry. Free photo quote. Call 437-344-8490.",
+    "Screen and storm door installation and repair in Toronto and the GTA. Custom-fit for your entry. Photo quote. Call 437-344-8490.",
   alternates: { canonical: "/screen-storm-doors" },
 };
 

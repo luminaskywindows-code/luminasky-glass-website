@@ -35,7 +35,7 @@ export function CTABanner({
           </Link>
         </div>
         <p className="mt-3 text-blue-200 text-xs">
-          Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: Free
+          Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: No charge
         </p>
         <p className="text-[10px] text-blue-200/60 italic mt-0.5">
           *The $30 visit fee is credited toward your final payment if you proceed with the work

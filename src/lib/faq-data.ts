@@ -14,11 +14,11 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
     items: [
       {
         q: "How much does a window repair cost?",
-        a: "It depends on the part and the type of repair. Send us a photo for a free quote, or book a $30 site visit that gets credited toward your repair. You always receive a written price before any work starts, so there are no surprises.",
+        a: "It depends on the part and the type of repair. Send us a photo for a quote, or book a $30 site visit that gets credited toward your repair. You always receive a written price before any work starts, so there are no surprises.",
       },
       {
         q: "Is there a service call fee and is it credited?",
-        a: "We offer free photo quotes for most jobs. If a site visit is needed, the fee is $30, and it is fully credited toward the repair if you go ahead. You get a written price before anything is done.",
+        a: "We offer photo quotes for most jobs. If a site visit is needed, the fee is $30, and it is fully credited toward the repair if you go ahead. You get a written price before anything is done.",
       },
       {
         q: "Will I get a price before work starts?",

@@ -169,7 +169,7 @@ export function BlogPostLayout({ post }: { post: BlogPost }) {
                   href="/contact"
                   className="block w-full text-center bg-accent hover:bg-accent-dark text-white text-sm font-semibold px-4 py-3 rounded-md transition-colors"
                 >
-                  Get a Free Quote
+                  Get a Quote
                 </Link>
               </div>
             </div>

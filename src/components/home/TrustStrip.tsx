@@ -39,7 +39,7 @@ const TRUST_ITEMS = [
   },
   {
     icon: Camera,
-    label: "Free Photo Quotes",
+    label: "Photo Quotes",
     href: "/contact",
   },
   {

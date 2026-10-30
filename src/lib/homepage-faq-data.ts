@@ -17,7 +17,7 @@ export const HOMEPAGE_SCHEMA_FAQS = [
   },
   {
     q: "Do you charge for quotes?",
-    a: "No. Phone quotes are free. Send us a photo of the damaged glass by text or WhatsApp at 437-344-8490 and we will give you a quote range within one business day.",
+    a: "No. Phone quotes are at no charge. Send us a photo of the damaged glass by text or WhatsApp at 437-344-8490 and we will give you a quote range within one business day.",
   },
   {
     q: "Is replacing just the glass cheaper than replacing the whole window?",

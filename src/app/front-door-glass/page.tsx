@@ -91,7 +91,7 @@ const BEFORE_AFTER = {
 const FAQS = [
   {
     q: "How much does front door glass replacement cost in Toronto?",
-    a: "It depends on the size, the type of glass, and how many panels you're replacing. Send us a photo and we'll give you a free quote, usually the same day.",
+    a: "It depends on the size, the type of glass, and how many panels you're replacing. Send us a photo and we'll give you a quote, usually the same day.",
   },
   {
     q: "Can you match my existing decorative glass pattern?",
@@ -796,7 +796,7 @@ export default function FrontDoorGlassPage() {
             </li>
           </ul>
           <p className="text-gray-600 leading-relaxed">
-            Send us a photo of your door and we&apos;ll give you a free quote,
+            Send us a photo of your door and we&apos;ll give you a quote,
             usually the same day. If you prefer an in-person visit, the visit is
             $30 and it&apos;s credited toward your job.
           </p>

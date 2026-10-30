@@ -87,7 +87,7 @@ export function LocalCityContent({ citySlug, type }: LocalCityContentProps) {
               >
                 437-344-8490
               </a>{" "}
-              for a free quote specific to your {city} address.
+              for a quote specific to your {city} address.
             </p>
           </div>
         </div>

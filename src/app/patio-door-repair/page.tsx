@@ -27,7 +27,7 @@ const PROBLEMS = [
 
 const PROCESS_STEPS = [
   { step: "1", title: "Send a photo, or a short video of the door moving", desc: "It tells us most of what we need." },
-  { step: "2", title: "Get a written price", desc: "Quotes are free from photos, or book a $30 site visit, credited back if the work goes ahead." },
+  { step: "2", title: "Get a written price", desc: "Photo quotes are at no charge, or book a $30 site visit, credited back if the work goes ahead." },
   { step: "3", title: "We do the work", desc: "Roller, track and hardware repairs are usually done on the first visit. Glass is measured, made in 5-15 business days, and installed on a second visit." },
   { step: "4", title: "You get the warranty on your invoice", desc: "2 years on parts and labour for hardware." },
 ];
@@ -55,19 +55,19 @@ const FAQS = [
   },
   {
     q: "How much does patio door repair cost?",
-    a: "It depends on what’s worn and the parts your door takes, so we quote per job. It’s typically a fraction of the cost of a new patio door. Send a photo or video for a free quote.",
+    a: "It depends on what’s worn and the parts your door takes, so we quote per job. It’s typically a fraction of the cost of a new patio door. Send a photo or video for a quote.",
   },
 ];
 
 export const metadata: Metadata = {
   title: { absolute: "Patio Door Repair Toronto | LuminaSky Glass Services" },
   description:
-    "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass, with no new door needed. Free photo quote.",
+    "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass, with no new door needed. Photo quote.",
   alternates: { canonical: "/patio-door-repair" },
   openGraph: {
     title: "Patio Door Repair Toronto | LuminaSky Glass Services",
     description:
-      "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass, with no new door needed. Free photo quote.",
+      "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass, with no new door needed. Photo quote.",
     url: "/patio-door-repair",
   },
 };
@@ -123,7 +123,7 @@ export default function PatioDoorRepairPage() {
                 href="/contact"
                 className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
               >
-                Send a Photo for a Free Quote
+                Send a Photo for a Quote
               </Link>
               <a
                 href={PHONE_HREF}
@@ -309,7 +309,7 @@ export default function PatioDoorRepairPage() {
       {/* Final CTA */}
       <CTABanner
         title="Get Your Patio Door Sliding Again"
-        subtitle="Send a photo for a free quote, or call for same-day service."
+        subtitle="Send a photo for a quote, or call for same-day service."
       />
     </>
   );

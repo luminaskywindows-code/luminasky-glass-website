@@ -560,7 +560,7 @@ export const WINDOW_REPLACEMENT: ServiceData = {
     },
   ],
   midPageCTA: {
-    text: "Book a free on-site measurement and get a written, fixed-price quote.",
+    text: "Book an on-site measurement and get a written, fixed-price quote.",
     buttonLabel: "Book a Measurement",
     buttonHref: "/contact",
   },

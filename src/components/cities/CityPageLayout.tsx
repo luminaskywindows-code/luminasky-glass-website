@@ -317,7 +317,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
       <section className="bg-primary text-white py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            Get a Free Quote in {city.city}
+            Get a Quote in {city.city}
           </h2>
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">{city.closingCTA}</p>
           <p className="text-blue-300 text-xs mb-8">5-year warranty on sealed glass units against seal failure. 2-year warranty on all repair work (parts and labour).</p>

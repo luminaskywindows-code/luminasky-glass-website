@@ -323,7 +323,7 @@ export default function WinterReadyPage() {
             >
               WhatsApp
             </WhatsAppLink>{" "}
-            and we will quote it free.
+            and we will quote it at no charge.
           </p>
         </div>
       </section>
@@ -426,7 +426,7 @@ export default function WinterReadyPage() {
             Book Your $30 Inspection
           </Link>
           <p className="mt-3 text-xs text-blue-300">
-            Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: Free
+            Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: No charge
           </p>
           <p className="text-[10px] text-blue-300/70 italic mt-0.5">
             *The $30 visit fee is credited toward your final payment if you
@@ -582,7 +582,7 @@ export default function WinterReadyPage() {
 
           <p className="text-blue-200 text-xs">
             Winter Ready Inspection $30, credited toward any work you book.
-            Photo quotes are free.
+            Photo quotes are at no charge.
           </p>
         </div>
       </section>

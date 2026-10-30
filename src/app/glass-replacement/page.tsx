@@ -56,7 +56,7 @@ const PROCESS_STEPS = [
   {
     step: "1",
     title: "Send a photo",
-    desc: "Text or WhatsApp a photo of the damage and the window, and most glass jobs can be quoted from the photo for free. If we need to see it in person, a site visit is $30, credited to your repair if you go ahead.",
+    desc: "Text or WhatsApp a photo of the damage and the window, and most glass jobs can be quoted from the photo at no charge. If we need to see it in person, a site visit is $30, credited to your repair if you go ahead.",
   },
   {
     step: "2",
@@ -117,12 +117,12 @@ const FAQS = [
 export const metadata: Metadata = {
   title: { absolute: "Glass Replacement Toronto | LuminaSky Glass Services" },
   description:
-    "Cracked or broken window glass? We replace the sealed unit and keep your frame. 5-Year Warranty on glass. Free photo quote. Call 437-344-8490.",
+    "Cracked or broken window glass? We replace the sealed unit and keep your frame. 5-Year Warranty on glass. Photo quote. Call 437-344-8490.",
   alternates: { canonical: "/glass-replacement" },
   openGraph: {
     title: "Glass Replacement Toronto | LuminaSky Glass Services",
     description:
-      "Cracked or broken window glass? We replace the sealed unit and keep your frame. 5-Year Warranty on glass. Free photo quote. Call 437-344-8490.",
+      "Cracked or broken window glass? We replace the sealed unit and keep your frame. 5-Year Warranty on glass. Photo quote. Call 437-344-8490.",
     url: "/glass-replacement",
   },
 };
@@ -179,7 +179,7 @@ export default function GlassReplacementPage() {
                   href="/contact"
                   className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
                 >
-                  Send a Photo for a Free Quote
+                  Send a Photo for a Quote
                 </Link>
                 <a
                   href={PHONE_HREF}
@@ -312,7 +312,7 @@ export default function GlassReplacementPage() {
               href="/contact"
               className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-md shadow transition-all"
             >
-              Send a photo for a free quote
+              Send a photo for a quote
             </Link>
             <Link
               href="/window-repair-cost"
@@ -399,7 +399,7 @@ export default function GlassReplacementPage() {
       {/* Final CTA */}
       <CTABanner
         title="Replace the Glass, Not the Whole Window"
-        subtitle="Send a photo for a free quote, or book a $30 site visit, credited to your repair."
+        subtitle="Send a photo for a quote, or book a $30 site visit, credited to your repair."
       />
     </>
   );

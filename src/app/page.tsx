@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     absolute: "Window & Glass Repair Toronto - Fix, Don't Replace | LuminaSky",
   },
   description:
-    "Toronto's glass and window repair specialist. We fix foggy glass, cracked panes, broken cranks and more. Fix don't replace. Free photo quote. 437-344-8490",
+    "Toronto's glass and window repair specialist. We fix foggy glass, cracked panes, broken cranks and more. Fix don't replace. Photo quote. 437-344-8490",
   alternates: { canonical: "/" },
 };
 

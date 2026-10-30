@@ -137,7 +137,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does foggy window repair cost in Vaughan?",
-        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. We provide free quotes. Send us a photo for a fast estimate.",
+        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. We provide quotes. Send us a photo for a fast estimate.",
       },
     ],
   },
@@ -641,7 +641,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does foggy window repair cost in Aurora?",
-        a: "Most sealed unit replacements run $300–$1,400 per window depending on size and glass type. Text us a photo for a fast, free estimate.",
+        a: "Most sealed unit replacements run $300–$1,400 per window depending on size and glass type. Text us a photo for a fast, quote.",
       },
       {
         q: "Do you also serve Newmarket and King City?",
@@ -807,7 +807,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "How much does it cost to repair a foggy window in Maple?",
-        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
+        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. Send us a photo for a no-obligation quote.",
       },
       {
         q: "Can you match the existing glass type in my windows?",
@@ -977,7 +977,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does a typical foggy window repair cost?",
-        a: "Sealed unit replacements generally range from $300–$1,400 per window depending on size and glass type. Send us a photo for a free quote.",
+        a: "Sealed unit replacements generally range from $300–$1,400 per window depending on size and glass type. Send us a photo for a quote.",
       },
     ],
   },
@@ -1591,7 +1591,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does foggy window repair cost in Milton?",
-        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
+        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. Send us a photo for a no-obligation quote.",
       },
     ],
   },
@@ -1939,7 +1939,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
       {
         q: "What does foggy window repair cost in Whitby?",
-        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. Send us a photo for a free, no-obligation quote.",
+        a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. Send us a photo for a no-obligation quote.",
       },
     ],
   },
@@ -2007,7 +2007,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need a window or door repair in Orangeville? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Need a window or door repair in Orangeville? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Orangeville?",
@@ -2098,7 +2098,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Looking for window or door repair in Oshawa? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Looking for window or door repair in Oshawa? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Oshawa?",
@@ -2183,7 +2183,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need glass or window repair in Halton Hills? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Need glass or window repair in Halton Hills? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Halton Hills?",
@@ -2274,7 +2274,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Ready to fix your windows in Hamilton? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Ready to fix your windows in Hamilton? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Hamilton?",
@@ -2362,7 +2362,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need window or door repair in Barrie? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Need window or door repair in Barrie? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Barrie?",
@@ -2447,7 +2447,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Looking for window or door repair in Innisfil? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Looking for window or door repair in Innisfil? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Innisfil?",
@@ -2533,7 +2533,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need window or door repair in Stouffville? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Need window or door repair in Stouffville? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Stouffville?",
@@ -2617,7 +2617,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Looking for window or door repair in East Gwillimbury? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Looking for window or door repair in East Gwillimbury? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to East Gwillimbury?",
@@ -2702,7 +2702,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need window or door repair in Georgina? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Need window or door repair in Georgina? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Georgina?",
@@ -2784,7 +2784,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Ready for a window or door repair in Bradford? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Ready for a window or door repair in Bradford? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Bradford?",
@@ -2871,7 +2871,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Need a window or door repair in Clarington? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Need a window or door repair in Clarington? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Clarington?",
@@ -2956,7 +2956,7 @@ export const CITY_PAGES: CityPageData[] = [
       },
     ],
     closingCTA:
-      "Looking for window or door repair in Uxbridge? Call LuminaSky Glass Services at 437-344-8490 for a free quote.",
+      "Looking for window or door repair in Uxbridge? Call LuminaSky Glass Services at 437-344-8490 for a quote.",
     faqs: [
       {
         q: "How fast can you get to Uxbridge?",

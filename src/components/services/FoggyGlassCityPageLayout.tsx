@@ -97,7 +97,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
               href="/contact"
               className="inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-md shadow hover:shadow-lg transition-all"
             >
-              Get a Free Quote
+              Get a Quote
             </Link>
             <a
               href={PHONE_HREF}
@@ -263,7 +263,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
       <section className="bg-primary text-white py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            Get a Free Quote for Foggy Glass Repair in {city.city}
+            Get a Quote for Foggy Glass Repair in {city.city}
           </h2>
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">
             Send us a few photos and rough measurements. We quote most jobs from photos alone. No visit required, no obligation, no pressure.

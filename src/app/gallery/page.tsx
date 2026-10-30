@@ -94,7 +94,7 @@ export default function ServicesShowcasePage() {
         </div>
       </section>
 
-      <CTABanner title="Not Sure Which Service You Need? We'll Help." subtitle="Call for a free assessment - we'll diagnose and quote on the spot." />
+      <CTABanner title="Not Sure Which Service You Need? We'll Help." subtitle="Call for an assessment - we'll diagnose and quote on the spot." />
     </>
   );
 }

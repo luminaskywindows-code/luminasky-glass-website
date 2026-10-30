@@ -239,7 +239,7 @@ function WinterReadyContent({
         <CASLConsent />
 
         <p className="text-[10px] text-gray-400 leading-relaxed text-center">
-          $30 credited toward any work you book. Photo quotes are free.
+          $30 credited toward any work you book. Photo quotes are at no charge.
         </p>
       </form>
     </>
@@ -267,7 +267,7 @@ function GenericQuoteContent({
     <>
       <div className="mb-2 sm:mb-4 pr-8">
         <h2 className="text-lg sm:text-2xl font-bold text-gray-900 mb-1">
-          Get Your Free Quote in Under 2 Minutes
+          Get Your Quote in Under 2 Minutes
         </h2>
         <p className="text-sm text-gray-500">
           Send us your info and we&apos;ll call back with a real price. No visit required for most quotes.
@@ -399,7 +399,7 @@ function GenericQuoteContent({
               Sending…
             </>
           ) : (
-            "Get My Free Quote"
+            "Get My Quote"
           )}
         </button>
 
@@ -625,7 +625,7 @@ export function HomepagePopup() {
       className="fixed inset-0 z-[9999] flex items-center justify-center p-4"
       role="dialog"
       aria-modal="true"
-      aria-label={isWinter ? "Winter Ready inspection" : "Get your free quote"}
+      aria-label={isWinter ? "Winter Ready inspection" : "Get your quote"}
     >
       <div
         className="absolute inset-0 bg-black/50"

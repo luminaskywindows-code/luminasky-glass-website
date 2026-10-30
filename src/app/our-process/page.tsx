@@ -24,7 +24,7 @@ const PROCESS_STEPS = [
     icon: Camera,
     title: "Send a Photo or Book a Visit",
     description:
-      "Text or email us a photo for a free quote. If we need to see the window in person, book a $30 site visit. That fee is credited toward your repair.",
+      "Text or email us a photo for a quote. If we need to see the window in person, book a $30 site visit. That fee is credited toward your repair.",
   },
   {
     icon: FileText,
@@ -263,7 +263,7 @@ export default function OurProcessPage() {
             Ready to See the Difference?
           </h2>
           <p className="text-blue-100 text-lg mb-8 leading-relaxed">
-            Send us a photo for a free quote, or call to book a visit.
+            Send us a photo for a quote, or call to book a visit.
             Transparent pricing, honest advice, and no surprises.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -272,7 +272,7 @@ export default function OurProcessPage() {
               className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
             >
               <CheckCircle2 className="w-5 h-5" aria-hidden="true" />
-              Get a Free Quote
+              Get a Quote
             </Link>
             <a
               href={PHONE_HREF}
