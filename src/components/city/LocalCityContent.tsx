@@ -3,7 +3,7 @@ import { getLocalCityContent } from "@/lib/local-city-content";
 
 interface LocalCityContentProps {
   citySlug: string;
-  type: "window-repair" | "foggy-windows";
+  type: "window-repair" | "foggy-windows" | "front-door-glass" | "cranks" | "patio-door-repair" | "commercial-glass-repair" | "skylights";
 }
 
 export function LocalCityContent({ citySlug, type }: LocalCityContentProps) {
@@ -11,10 +11,16 @@ export function LocalCityContent({ citySlug, type }: LocalCityContentProps) {
   if (!content) return null;
 
   const { city, sections } = content;
-  const heading =
-    type === "foggy-windows"
-      ? `Foggy Window Repair in ${city}: Local Guide`
-      : `Window Repair in ${city}: What Local Homeowners Should Know`;
+  const headingMap: Record<string, string> = {
+    "foggy-windows": `Foggy Window Repair in ${city}: Local Guide`,
+    "window-repair": `Window Repair in ${city}: What Local Homeowners Should Know`,
+    "front-door-glass": `Front Door Glass in ${city}: Local Guide`,
+    "cranks": `Window Crank Repair in ${city}: Local Guide`,
+    "patio-door-repair": `Patio Door Repair in ${city}: Local Guide`,
+    "commercial-glass-repair": `Commercial Glass Repair in ${city}: Local Guide`,
+    "skylights": `Skylight Repair in ${city}: Local Guide`,
+  };
+  const heading = headingMap[type] || `Glass Services in ${city}: Local Guide`;
 
   return (
     <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
