@@ -590,7 +590,7 @@ export default function SkylightsPage() {
       {/* Final CTA */}
       <CTABanner
         title="Get Your Skylight Fixed Before the Next Rain"
-        subtitle="Send a photo for a quote, or call for same-day service."
+        subtitle="Send a photo for a quote, or call 437-344-8490."
       />
 
       {WINTER_READY_ENABLED && (

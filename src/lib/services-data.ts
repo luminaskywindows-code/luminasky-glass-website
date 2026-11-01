@@ -142,7 +142,7 @@ export const FRONT_DOOR_GLASS: ServiceData = {
   description: [
     "Your front door is the first thing guests and potential buyers see. Cracked, foggy, or outdated glass inserts can make a home look neglected - and compromise security and insulation.",
     "LuminaSky Glass Services replaces glass inserts in all types of front doors: single doors, double doors, doors with sidelites, and transom windows above the door. We carry decorative, frosted, privacy, and clear glass options.",
-    "Our technicians work quickly and cleanly, and most replacements are completed in a single visit. Same-day service is available for urgent repairs.",
+    "Our technicians work quickly and cleanly. Glass is measured on the first visit, custom-made to fit your door, then installed on the second visit.",
   ],
   benefits: [
     "Wide selection: decorative, frosted, clear, privacy, and patterned glass",
@@ -150,7 +150,6 @@ export const FRONT_DOOR_GLASS: ServiceData = {
     "Improves curb appeal and first impressions immediately",
     "Restores energy efficiency and security",
     "Sidelites and transom windows also serviced",
-    "Same-day service available",
   ],
   process: [
     {

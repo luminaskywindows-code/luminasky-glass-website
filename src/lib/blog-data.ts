@@ -187,7 +187,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="condo-and-highrise-considerations">Condo and High-Rise Considerations</h2>
 
-<p>Condo owners face unique challenges. Your windows might be on the 15th floor. The building may have specific rules about what you can and cannot change. And accessing the exterior side of the glass often requires specialized equipment.</p>
+<p>Condo owners face unique challenges. Your windows might be on the 15th floor. The building may have specific rules about what you can and cannot change. And accessing the exterior side of the glass often requires specialised equipment.</p>
 
 <p>The good news: most condo window problems are repairable from the interior. Crank operators, hinges, locks, and sealed glass units can all be replaced without exterior access in the majority of condo window systems. The technician works from inside your unit.</p>
 

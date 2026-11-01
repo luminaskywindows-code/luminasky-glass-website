@@ -69,7 +69,7 @@ const PROCESS = [
 const BEFORE_AFTER = {
   title: "Emergency Door Glass Replacement",
   subtitle:
-    "From break-in damage to fully restored security: same-day service available across the GTA.",
+    "From break-in damage to fully restored security. Serving the entire GTA.",
   before: {
     src: "/images/services/door-after-repaired.jpg",
     alt: "Shattered commercial front door glass after break-in: glass everywhere, security compromised",
@@ -319,8 +319,8 @@ export default function FrontDoorGlassPage() {
               <p className="text-gray-600 leading-relaxed">
                 We work on single doors, double entry doors, doors with
                 sidelites, and transom windows above the door. Most replacements
-                are done in one visit, and same-day service is available for
-                urgent repairs.
+                are done in one visit. Glass is measured first, custom-made to
+                fit, then installed.
               </p>
             </div>
           </div>
@@ -924,7 +924,7 @@ export default function FrontDoorGlassPage() {
 
       <CTABanner
         title="Ready to Fix Your Front Door Glass?"
-        subtitle="Call now: same-day service available across the GTA."
+        subtitle="Call now or send a photo for a written quote."
       />
     </>
   );

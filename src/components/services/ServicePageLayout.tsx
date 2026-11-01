@@ -486,7 +486,7 @@ export function ServicePageLayout({
 
       <CTABanner
         title={`Ready to Fix Your ${service.shortTitle ?? service.title}?`}
-        subtitle="Call now - same-day service available across the GTA."
+        subtitle="Call 437-344-8490 or send a photo for a written quote."
       />
     </>
   );
