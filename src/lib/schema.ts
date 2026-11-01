@@ -10,7 +10,7 @@ export function generateOrganizationSchema() {
     "@id": BUSINESS_ID,
     name: COMPANY_NAME,
     description:
-      "Professional glass and door repair services in the Greater Toronto Area. Foggy glass, front door glass, window cranks, skylights and more.",
+      "Window and glass repair across the Greater Toronto Area. Sealed unit replacement, foggy glass repair, window cranks, skylights, and emergency glass services.",
     url: SITE_URL,
     telephone: PHONE_E164,
     email: EMAIL.toLowerCase(),
@@ -59,6 +59,73 @@ export function generateOrganizationSchema() {
       "https://www.instagram.com/luminasky_glass_services/",
       "https://www.bbb.org/ca/on/vaughan/profile/window-repair/luminasky-glass-services-0107-1422165",
     ],
+    founder: {
+      "@type": "Person",
+      name: "Dan",
+    },
+    foundingDate: "2024",
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Glass Repair Services",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Foggy Window Repair",
+            url: `${SITE_URL}/foggy-windows`,
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Glass Replacement",
+            url: `${SITE_URL}/glass-replacement`,
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Window Crank Repair",
+            url: `${SITE_URL}/cranks`,
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Skylight Repair",
+            url: `${SITE_URL}/skylights`,
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Emergency Glass Repair",
+            url: `${SITE_URL}/emergency-glass-repair`,
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Patio Door Repair",
+            url: `${SITE_URL}/patio-door-repair`,
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Commercial Glass Repair",
+            url: `${SITE_URL}/commercial-glass-repair`,
+          },
+        },
+      ],
+    },
   };
 }
 
