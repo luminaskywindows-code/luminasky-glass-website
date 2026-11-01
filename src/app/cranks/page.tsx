@@ -649,7 +649,14 @@ export default function WindowCranksPage() {
             <p className="text-gray-600 leading-relaxed mb-8 max-w-xl mx-auto">
               Send us a photo of the handle and we will identify the part and
               give you a straight answer on cost and availability. No sales pitch,
-              no surprise fees. Window hardware repair is part of our full{" "}
+              no surprise fees. We also repair{" "}
+              <Link
+                href="/patio-door-repair"
+                className="text-primary font-semibold hover:underline"
+              >
+                patio door hardware
+              </Link>
+              , including rollers, locks and handles. Window hardware repair is part of our full{" "}
               <Link
                 href="/window-repair-toronto"
                 className="text-primary font-semibold hover:underline"

@@ -214,7 +214,9 @@ export default function PatioDoorRepairPage() {
             Locks, Handles and Weatherstripping
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Worn locks, loose handles and flattened weatherstripping let cold air in and make the door feel insecure. Often the lock itself is fine and only the panel needs adjusting. Where the hardware is worn, we replace it with compatible parts and renew the weatherstripping so the door closes tight again.
+            Worn locks, loose handles and flattened weatherstripping let cold air in and make the door feel insecure. Often the lock itself is fine and only the panel needs adjusting. Where the hardware is worn, we replace it with compatible parts and renew the weatherstripping so the door closes tight again. We handle{" "}
+            <Link href="/cranks" className="text-primary font-semibold hover:underline">window crank and operator repairs</Link>{" "}
+            the same way.
           </p>
         </div>
       </section>

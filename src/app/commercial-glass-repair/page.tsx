@@ -260,7 +260,8 @@ export default function CommercialGlassRepairPage() {
               your business open to the weather, theft and liability. We&apos;re
               available 24/7, any day, any time. We respond fast to
               board up and secure the opening, then schedule the permanent glass
-              replacement as fast as possible.
+              replacement as fast as possible. For residential emergencies, see our{" "}
+              <Link href="/emergency-glass-repair" className="text-primary font-semibold hover:underline">emergency glass repair service</Link>.
             </p>
           </div>
 
@@ -430,7 +431,9 @@ export default function CommercialGlassRepairPage() {
           <p className="text-gray-600 leading-relaxed">
             Commercial doors and storefronts need safety glass. We install
             tempered glass, and laminated glass is available on request for
-            extra security. For a breakdown of what affects pricing, see our{" "}
+            extra security. For residential windows, see our{" "}
+            <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">glass replacement service</Link>.
+            For a breakdown of what affects pricing, see our{" "}
             <Link href="/window-repair-cost" className="text-primary font-semibold hover:underline">window repair cost guide</Link>.
           </p>
           <p className="text-sm italic text-gray-500 mt-4">

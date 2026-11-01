@@ -339,7 +339,12 @@ export default function FoggyWindowsPage() {
               Most windows in GTA homes use double or triple pane glass. Two or
               three panes are sealed together into one insulated glass unit
               (IGU). The space between the panes is filled with argon gas, and a
-              desiccant inside the spacer absorbs moisture.
+              desiccant inside the spacer absorbs moisture. The same seal
+              failure affects{" "}
+              <Link href="/skylights" className="text-primary font-semibold hover:underline">
+                skylights
+              </Link>,
+              which are exposed to even more UV and temperature swings.
             </p>
             <p>
               Over time, heat, cold and UV break down the seal. Moisture gets
@@ -349,11 +354,14 @@ export default function FoggyWindowsPage() {
               white mineral stains on the inside of the glass.
             </p>
             <p>
-              The fix is replacing the sealed glass unit only, not the whole
-              window. The frame, sash and hardware are usually still in good
-              shape. We remove the failed unit and install a new one in your
-              existing frame. Our sealed glass units are made by an
-              IGMAC-certified manufacturer to the CGSB 12.8 standard.
+              The fix is{" "}
+              <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">
+                replacing the sealed glass unit
+              </Link>{" "}
+              only, not the whole window. The frame, sash and hardware are
+              usually still in good shape. We remove the failed unit and install
+              a new one in your existing frame. Our sealed glass units are made
+              by an IGMAC-certified manufacturer to the CGSB 12.8 standard.
             </p>
           </div>
         </div>

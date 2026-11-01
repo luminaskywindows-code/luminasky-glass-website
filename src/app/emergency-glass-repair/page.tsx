@@ -204,7 +204,8 @@ export default function EmergencyGlassRepairPage() {
             Emergency Board-Up Service
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            When the glass can&apos;t be replaced the same night, we board it up properly. Each board is cut to fit, fastened to the frame and sealed against weather and entry. We keep plywood stocked, so a board-up never has to wait for a supplier to open. While we&apos;re on site, we also measure for the permanent glass.
+            When the glass can&apos;t be replaced the same night, we board it up properly. Each board is cut to fit, fastened to the frame and sealed against weather and entry. We keep plywood stocked, so a board-up never has to wait for a supplier to open. While we&apos;re on site, we also measure for the{" "}
+            <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">permanent glass replacement</Link>.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Emergency and after-hours work is priced at our standard rates, with no surcharge for evenings, weekends or holidays. You get the price before we start, even at 2 a.m.

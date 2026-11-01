@@ -253,7 +253,11 @@ export default function ScreenStormDoorsPage() {
               wind, and adds an extra layer of insulation in winter. We install
               new storm doors, and we handle storm door repair: broken closers,
               torn screens, cracked glass, worn weatherstripping and doors that
-              don&apos;t latch.
+              don&apos;t latch. We also repair{" "}
+              <Link href="/patio-door-repair" className="text-primary font-semibold hover:underline">sliding patio doors</Link>{" "}
+              and offer{" "}
+              <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">glass replacement</Link>{" "}
+              for storm doors with cracked or broken panels.
             </p>
           </div>
         </div>

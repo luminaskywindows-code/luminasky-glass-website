@@ -230,7 +230,9 @@ export default function GlassReplacementPage() {
             Replace the Glass, Keep the Window
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            When a window cracks, many companies quote the whole window. That&apos;s rarely necessary. The frame is the expensive part, and a frame that opens, closes and seals properly still has years left in it. We measure the opening, have the replacement glass made to size, and install it in your existing frame. The result looks and performs like the original, at a fraction of the cost of a full window replacement.
+            When a window cracks, many companies quote the whole window. That&apos;s rarely necessary. The frame is the expensive part, and a frame that opens, closes and seals properly still has years left in it. We measure the opening, have the replacement glass made to size, and install it in your existing frame. The same approach applies to{" "}
+            <Link href="/foggy-windows" className="text-primary font-semibold hover:underline">foggy windows with failed seals</Link>:
+            we replace only the sealed unit, not the frame. The result looks and performs like the original, at a fraction of the cost of a full window replacement.
           </p>
           <p className="text-gray-600 leading-relaxed">
             <Link href="/blog/window-repair-vs-replacement-toronto" className="text-primary font-semibold hover:underline">

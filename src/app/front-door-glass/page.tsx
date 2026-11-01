@@ -308,6 +308,8 @@ export default function FrontDoorGlassPage() {
                 Your front door is the first thing guests and buyers see. Broken
                 glass, fog between the panes, or a dated design can make a whole
                 home look tired. It can also let in drafts and weaken security.
+                If the glass is shattered and you need help now, call us for{" "}
+                <Link href="/emergency-glass-repair" className="text-primary font-semibold hover:underline">emergency glass repair</Link>.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 In most cases, the door itself is fine. Only the glass needs to
@@ -320,7 +322,9 @@ export default function FrontDoorGlassPage() {
                 We work on single doors, double entry doors, doors with
                 sidelites, and transom windows above the door. Most replacements
                 are done in one visit. Glass is measured first, custom-made to
-                fit, then installed.
+                fit, then installed. For window glass rather than door glass, see
+                our{" "}
+                <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">window glass replacement service</Link>.
               </p>
             </div>
           </div>

@@ -245,8 +245,13 @@ export default function WindowReplacementPage() {
             <p>
               We replace windows when repair no longer makes financial sense:
               when the frame is rotted, warped, or so old that replacement parts
-              are discontinued. Our focus on repair means we will always tell you
-              honestly which option saves you more over the long run.
+              are discontinued. If only the glass has failed, a{" "}
+              <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">glass-only replacement</Link>{" "}
+              is usually enough. The same goes for{" "}
+              <Link href="/foggy-windows" className="text-primary font-semibold hover:underline">foggy sealed units</Link>:
+              we replace the glass, not the window. Our focus on repair means we
+              will always tell you honestly which option saves you more over the
+              long run.
             </p>
             <p>
               We handle the full job: measure, order, remove the old window,
