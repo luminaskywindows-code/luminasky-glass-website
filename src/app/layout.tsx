@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.luminasky.com"),
   title: {
     default:
-      "Window and Glass Repair Toronto: Fix, Don't Replace | LuminaSky",
+      "Window & Glass Repair Toronto | LuminaSky Glass Services",
     template: "%s | LuminaSky",
   },
   description:

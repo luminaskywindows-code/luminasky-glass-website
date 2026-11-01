@@ -186,7 +186,7 @@ const BREADCRUMBS = [
 ];
 
 export const metadata: Metadata = {
-  title: "Foggy Window Repair Toronto | Sealed Unit Replacement",
+  title: "Foggy Window Repair Toronto | Replace Glass, Keep Frame",
   description:
     "Foggy or cloudy windows? LuminaSky replaces the sealed glass unit and keeps your frame. 5-year glass warranty, 2-year labour warranty. Serving Toronto and the GTA. 437-344-8490.",
   alternates: { canonical: "/foggy-windows" },
