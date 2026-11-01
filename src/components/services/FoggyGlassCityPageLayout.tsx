@@ -131,7 +131,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
         <section className="bg-gray-50 py-12 md:py-16">
           <div className="max-w-3xl mx-auto px-4 md:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-              Foggy Glass in {city.city}: What Local Homeowners Should Know
+              What Local Homeowners Should Know
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed">{city.uniqueContent}</p>
           </div>
@@ -155,7 +155,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
       {/* Section 2: Signs Your Window Seal Has Failed */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-          Signs Your {city.city} Window Seal Has Failed
+          Signs Your Window Seal Has Failed
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {SEAL_FAILURE_SIGNS.map((sign) => (
@@ -176,10 +176,10 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Neighborhoods We Serve in {city.city}
+            Areas We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            We repair foggy sealed glass units across all neighborhoods in {city.city}. Serving the entire area:
+            We serve all neighbourhoods listed below and the surrounding areas:
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (
@@ -198,7 +198,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
       {/* Related Services */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-          Other Glass and Window Services in {city.city}
+          Other Glass and Window Services
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {[
@@ -222,7 +222,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <div className="max-w-3xl">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Foggy Glass Repair Cost in {city.city}
+            Foggy Glass Repair Cost
           </h2>
           {COST_CONTENT.map((p, i) => (
             <p key={i} className="text-gray-600 text-lg leading-relaxed mb-4 last:mb-0">
@@ -240,7 +240,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-            FAQ: Foggy Glass Repair in {city.city}
+            Frequently Asked Questions
           </h2>
           <div className="space-y-4">
             {allFaqs.map((faq, i) => (

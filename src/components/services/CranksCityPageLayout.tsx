@@ -139,7 +139,7 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Window Cranks in {city.city}: What We See
+            What We Commonly See
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">{city.uniqueContent}</p>
         </div>
@@ -148,7 +148,7 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
       {/* Common Problems */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-          Common Crank Problems in {city.city}
+          Common Crank Problems
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {COMMON_PROBLEMS.map((problem) => (
@@ -191,10 +191,10 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
       <section className="py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Neighborhoods We Serve in {city.city}
+            Areas We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            Window crank repair across all neighborhoods in {city.city}:
+            We serve all neighbourhoods listed below and the surrounding areas:
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (
@@ -214,7 +214,7 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Other Window Services in {city.city}
+            Other Window Services Nearby
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
@@ -239,7 +239,7 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
       <section className="py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-            FAQ: Window Crank Repair in {city.city}
+            Frequently Asked Questions
           </h2>
           <div className="space-y-4">
             {allFaqs.map((faq, i) => (

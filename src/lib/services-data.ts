@@ -51,7 +51,7 @@ export const FOGGY_WINDOWS: ServiceData = {
   ],
   description: [
     "Foggy or cloudy windows happen when the hermetic seal around your insulated glass unit (IGU) breaks down. Moisture seeps between the panes, causing condensation, haze, and reduced insulation - making your home less comfortable and your heating bills higher.",
-    "LuminaSky Glass Services specializes in glass unit replacement. We remove the failed glass insert and install a new sealed unit, leaving your existing frame completely intact. Installation takes under an hour per window.",
+    "LuminaSky Glass Services specialises in glass unit replacement. We remove the failed glass insert and install a new sealed unit, leaving your existing frame completely intact. Installation takes under an hour per window.",
     "We serve homeowners and property managers across the GTA. Glass is measured first, custom-made, then installed, typically within 5 to 15 business days. Every replacement comes with a warranty.",
   ],
   benefits: [
@@ -393,7 +393,7 @@ export const SKYLIGHTS: ServiceData = {
     alt: "Foggy skylight with heavy condensation between panes - failed seal causing fogging and reduced light",
   },
   description: [
-    "Skylights are a beautiful source of natural light - but when the glass seal fails, condensation appears between the panes, or the frame develops a leak, they become a headache. LuminaSky Glass Services specializes in skylight glass replacement and leak repair without requiring a full skylight tearout.",
+    "Skylights are a beautiful source of natural light - but when the glass seal fails, condensation appears between the panes, or the frame develops a leak, they become a headache. LuminaSky Glass Services specialises in skylight glass replacement and leak repair without requiring a full skylight tearout.",
     "We replace the insulated glass unit (IGU) inside your existing skylight frame, restoring clarity and energy efficiency. For leaks caused by failed flashing or sealant, we diagnose and repair the source - not just patch the symptom.",
     "We service all major skylight brands including Velux, Fakro, ODL, and custom installations. Whether it's a flat roof skylight, vaulted ceiling model, or a tubular daylight device, we have the experience to fix it right.",
   ],

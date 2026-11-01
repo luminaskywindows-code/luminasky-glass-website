@@ -139,7 +139,7 @@ export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassC
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Commercial Glass in {city.city}
+            Commercial Glass Services
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">{city.uniqueContent}</p>
         </div>
@@ -148,7 +148,7 @@ export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassC
       {/* What We Fix */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-          What We Fix in {city.city}
+          What We Fix
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {WHAT_WE_FIX.map((item) => (
@@ -194,7 +194,7 @@ export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassC
             Areas We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            Commercial glass repair across all areas in {city.city}:
+            We serve all neighbourhoods listed below and the surrounding areas:
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (
@@ -214,7 +214,7 @@ export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassC
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Other Services in {city.city}
+            Other Services Nearby
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
@@ -239,7 +239,7 @@ export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassC
       <section className="py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-            FAQ: Commercial Glass Repair in {city.city}
+            Frequently Asked Questions
           </h2>
           <div className="space-y-4">
             {allFaqs.map((faq, i) => (

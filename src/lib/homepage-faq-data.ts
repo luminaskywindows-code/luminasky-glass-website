@@ -25,7 +25,7 @@ export const HOMEPAGE_SCHEMA_FAQS = [
   },
   {
     q: "What is foggy window glass and can it be fixed?",
-    a: "Foggy windows happen when the seal on a sealed glass unit (IGU) breaks down and lets humid air inside, causing condensation between the panes. The fix is to replace the sealed glass unit itself, not the whole window. LuminaSky specializes in this repair across the GTA.",
+    a: "Foggy windows happen when the seal on a sealed glass unit (IGU) breaks down and lets humid air inside, causing condensation between the panes. The fix is to replace the sealed glass unit itself, not the whole window. LuminaSky specialises in this repair across the GTA.",
   },
   {
     q: "Do you offer emergency glass repair?",

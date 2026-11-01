@@ -49,7 +49,7 @@ export const CITY_PAGES: CityPageData[] = [
       "Fast, affordable glass and door repair across Woodbridge, Maple, Kleinburg, Concord, and all of Vaughan. Fix it. Don't replace it.",
     intro: [
       "Vaughan homeowners know the value of keeping their homes in top shape, and windows are no exception. Whether you're in a newer build in Vellore Village or a mature home in Woodbridge, sealed glass units fail over time. Condensation between panes, broken cranks, and cracked door glass are problems we solve every week across Vaughan.",
-      "LuminaSky Glass Services specializes in repair, not replacement. That means we fix the part that's broken (the glass unit, the crank mechanism, the door insert) without tearing out your entire window or door frame. It's faster, less disruptive, and costs a fraction of full replacement.",
+      "LuminaSky Glass Services specialises in repair, not replacement. That means we fix the part that's broken (the glass unit, the crank mechanism, the door insert) without tearing out your entire window or door frame. It's faster, less disruptive, and costs a fraction of full replacement.",
     ],
     neighborhoods: [
       "Woodbridge",
@@ -91,7 +91,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "New screen doors, storm door glass replacement, and retractable screen installation for Vaughan homes.",
+          "New screen doors, storm door glass replacement, and retractable screen installation for local homes.",
         href: "/screen-storm-doors",
       },
       {
@@ -104,7 +104,7 @@ export const CITY_PAGES: CityPageData[] = [
     featuredProject: {
       title: "Foggy Glass Repair, Vaughan",
       description:
-        "This Vaughan homeowner had multiple windows with failed seals. Heavy condensation had built up between the panes, blocking the view and reducing insulation. We replaced the sealed glass units in under an hour per window, restoring crystal-clear visibility without replacing the frames.",
+        "This homeowner had multiple windows with failed seals. Heavy condensation had built up between the panes, blocking the view and reducing insulation. We replaced the sealed glass units in under an hour per window, restoring crystal-clear visibility without replacing the frames.",
       mediaType: "video",
       beforeVideo: {
         src: "/videos/foggy-glass-before.mp4",
@@ -195,7 +195,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Storm door glass swaps, new screen doors, and retractable screen installations for Thornhill homes.",
+          "Storm door glass swaps, new screen doors, and retractable screen installations for local homes.",
         href: "/screen-storm-doors",
       },
       {
@@ -262,7 +262,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Glass Replacement",
         description:
-          "Broken or cracked window and door glass replaced on-site. We handle standard, tempered, and custom-sized glass for Richmond Hill homes.",
+          "Broken or cracked window and door glass replaced on-site. We handle standard, tempered, and custom-sized glass for local homes.",
         href: "/front-door-glass",
       },
       {
@@ -450,7 +450,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Storm door glass swaps, screen repairs, and new retractable screen installations for North York homes.",
+          "Storm door glass swaps, screen repairs, and new retractable screen installations for local homes.",
         href: "/screen-storm-doors",
       },
       {
@@ -535,7 +535,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Storm door glass swaps, new screen doors, and retractable screen installations for Scarborough homes.",
+          "Storm door glass swaps, new screen doors, and retractable screen installations for local homes.",
         href: "/screen-storm-doors",
       },
       {
@@ -600,7 +600,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Glass Replacement",
         description:
-          "Broken or cracked glass in windows, doors, and patio enclosures. We source and install standard, tempered, and custom-sized glass for Aurora homes.",
+          "Broken or cracked glass in windows, doors, and patio enclosures. We source and install standard, tempered, and custom-sized glass for local homes.",
         href: "/front-door-glass",
       },
       {
@@ -701,7 +701,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Storm door glass swaps, screen door installation, and retractable screen setups for Woodbridge homes.",
+          "Storm door glass swaps, screen door installation, and retractable screen setups for local homes.",
         href: "/screen-storm-doors",
       },
       {
@@ -784,7 +784,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "New screen doors, storm door glass replacement, and retractable screens for Maple homes and townhomes.",
+          "New screen doors, storm door glass replacement, and retractable screens for local homes and townhomes.",
         href: "/screen-storm-doors",
       },
       {
@@ -932,7 +932,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Glass Replacement",
         description:
-          "Broken, cracked, or scratched glass in windows, patio doors, and sidelights. We source standard, tempered, and Low-E glass for Newmarket homes.",
+          "Broken, cracked, or scratched glass in windows, patio doors, and sidelights. We source standard, tempered, and Low-E glass for local homes.",
         href: "/front-door-glass",
       },
       {
@@ -950,7 +950,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "New screen doors, storm door glass replacement, and retractable screen installations for Newmarket homes.",
+          "New screen doors, storm door glass replacement, and retractable screen installations for local homes.",
         href: "/screen-storm-doors",
       },
       {
@@ -1020,7 +1020,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Glass Replacement",
         description:
-          "Cracked, broken, or scratched glass in windows, doors, sidelights, and patio enclosures. We source and install standard, tempered, and custom glass for Toronto homes and condos.",
+          "Cracked, broken, or scratched glass in windows, doors, sidelights, and patio enclosures. We source and install standard, tempered, and custom glass for local homes and condos.",
         href: "/front-door-glass",
       },
       {
@@ -1108,7 +1108,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Glass Replacement",
         description:
-          "Cracked, shattered, or scratched glass in windows, patio doors, and sidelights. We measure, source, and install replacement glass for Mississauga homes.",
+          "Cracked, shattered, or scratched glass in windows, patio doors, and sidelights. We measure, source, and install replacement glass for local homes.",
         href: "/front-door-glass",
       },
       {
@@ -1126,7 +1126,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Storm door glass swaps, new screen doors, and retractable screen installations for Mississauga homes and townhomes.",
+          "Storm door glass swaps, new screen doors, and retractable screen installations for local homes and townhomes.",
         href: "/screen-storm-doors",
       },
       {
@@ -1170,7 +1170,7 @@ export const CITY_PAGES: CityPageData[] = [
       "Professional glass and window repair across The Kingsway, Mimico, Long Branch, and all of Etobicoke. We fix it on-site, usually the same day you call.",
     intro: [
       "Etobicoke's established neighbourhoods (The Kingsway, Sunnylea, Alderwood, Thorncrest Village) are home to some of the GTA's most mature housing stock. Many of these homes still carry their original casement windows, crank operators, and decorative door glass from the 1950s through the 1980s. Along the lakeshore in Mimico, New Toronto, and Long Branch, a mix of older bungalows and newer condo developments brings its own set of window challenges.",
-      "LuminaSky Glass Services specializes in the kind of repair work Etobicoke homeowners need most: replacing sealed glass units that have fogged over, swapping out crank mechanisms that have seized or stripped, and installing new door glass inserts to replace dated or cracked originals. We repair the component that failed, not the whole window, saving you time, money, and the hassle of a full tearout.",
+      "LuminaSky Glass Services specialises in the kind of repair work Etobicoke homeowners need most: replacing sealed glass units that have fogged over, swapping out crank mechanisms that have seized or stripped, and installing new door glass inserts to replace dated or cracked originals. We repair the component that failed, not the whole window, saving you time, money, and the hassle of a full tearout.",
     ],
     neighborhoods: [
       "The Kingsway",
@@ -1214,7 +1214,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Storm door glass replacement, new screen doors, and retractable screen installations for Etobicoke homes.",
+          "Storm door glass replacement, new screen doors, and retractable screen installations for local homes.",
         href: "/screen-storm-doors",
       },
       {
@@ -1302,7 +1302,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "New screen doors, storm door glass replacement, and retractable screen installations for Brampton homes and townhomes.",
+          "New screen doors, storm door glass replacement, and retractable screen installations for local homes and townhomes.",
         href: "/screen-storm-doors",
       },
       {
@@ -1390,7 +1390,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Storm door glass replacement, new screen doors, and retractable screen installations for Oakville homes.",
+          "Storm door glass replacement, new screen doors, and retractable screen installations for local homes.",
         href: "/screen-storm-doors",
       },
       {
@@ -1459,7 +1459,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Glass Replacement",
         description:
-          "Cracked, broken, or scratched glass in windows, patio doors, and sidelights. We source and install standard, tempered, and custom glass for Burlington homes.",
+          "Cracked, broken, or scratched glass in windows, patio doors, and sidelights. We source and install standard, tempered, and custom glass for local homes.",
         href: "/front-door-glass",
       },
       {
@@ -1546,7 +1546,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Glass Replacement",
         description:
-          "Cracked, broken, or damaged glass in windows, patio doors, and sidelights. We source standard, tempered, and custom glass for Milton homes.",
+          "Cracked, broken, or damaged glass in windows, patio doors, and sidelights. We source standard, tempered, and custom glass for local homes.",
         href: "/front-door-glass",
       },
       {
@@ -1564,7 +1564,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Storm door glass swaps, new screen doors, and retractable screen installations for Milton homes and townhomes.",
+          "Storm door glass swaps, new screen doors, and retractable screen installations for local homes and townhomes.",
         href: "/screen-storm-doors",
       },
       {
@@ -1633,7 +1633,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Glass Replacement",
         description:
-          "Broken, cracked, or damaged glass in windows, patio doors, and sidelights. We source standard, tempered, and custom glass for Ajax homes and townhomes.",
+          "Broken, cracked, or damaged glass in windows, patio doors, and sidelights. We source standard, tempered, and custom glass for local homes and townhomes.",
         href: "/front-door-glass",
       },
       {
@@ -1651,7 +1651,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "New screen doors, storm door glass replacement, and retractable screen installations for Ajax homes.",
+          "New screen doors, storm door glass replacement, and retractable screen installations for local homes.",
         href: "/screen-storm-doors",
       },
       {
@@ -1720,7 +1720,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Glass Replacement",
         description:
-          "Broken or cracked window and door glass replaced on-site. We handle standard, tempered, and custom-sized glass for Pickering homes.",
+          "Broken or cracked window and door glass replaced on-site. We handle standard, tempered, and custom-sized glass for local homes.",
         href: "/front-door-glass",
       },
       {
@@ -1894,7 +1894,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Glass Replacement",
         description:
-          "Cracked, shattered, or scratched glass in windows, patio doors, and sidelights. We measure, source, and install replacement glass for Whitby homes.",
+          "Cracked, shattered, or scratched glass in windows, patio doors, and sidelights. We measure, source, and install replacement glass for local homes.",
         href: "/front-door-glass",
       },
       {
@@ -1912,7 +1912,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Storm door glass swaps, new screen doors, and retractable screen installations for Whitby homes and townhomes.",
+          "Storm door glass swaps, new screen doors, and retractable screen installations for local homes and townhomes.",
         href: "/screen-storm-doors",
       },
       {
@@ -2351,7 +2351,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Screen doors, storm door glass, and retractable screen systems installed for Barrie homes to handle the region's seasonal demands.",
+          "Screen doors, storm door glass, and retractable screen systems installed for local homes to handle the region's seasonal demands.",
         href: "/screen-storm-doors",
       },
       {
@@ -2606,7 +2606,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Screen & Storm Doors",
         description:
-          "Screen door and storm door services for East Gwillimbury homes, including retractable screens and replacement glass panels.",
+          "Screen door and storm door services for local homes, including retractable screens and replacement glass panels.",
         href: "/screen-storm-doors",
       },
       {
@@ -2854,7 +2854,7 @@ export const CITY_PAGES: CityPageData[] = [
       {
         name: "Front Door Glass Inserts",
         description:
-          "Entry door glass inserts replaced for Clarington homes. We carry common sizes and order custom panels for older or non-standard doors.",
+          "Entry door glass inserts replaced for local homes. We carry common sizes and order custom panels for older or non-standard doors.",
         href: "/front-door-glass",
       },
       {

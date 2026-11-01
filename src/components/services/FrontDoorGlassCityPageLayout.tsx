@@ -141,7 +141,7 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Front Door Glass in {city.city}: What to Expect
+            What to Expect
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">{city.uniqueContent}</p>
         </div>
@@ -150,7 +150,7 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
       {/* Signs You Need Replacement */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-          Signs Your {city.city} Door Glass Needs Replacing
+          Signs Your Door Glass Needs Replacing
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {SIGNS_YOU_NEED_REPLACEMENT.map((sign) => (
@@ -193,10 +193,10 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
       <section className="py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Neighborhoods We Serve in {city.city}
+            Areas We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            Front door glass replacement across all neighborhoods in {city.city}:
+            We serve all neighbourhoods listed below and the surrounding areas:
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (
@@ -216,7 +216,7 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Other Glass Services in {city.city}
+            Other Glass Services Nearby
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
@@ -241,7 +241,7 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
       <section className="py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-            FAQ: Front Door Glass in {city.city}
+            Frequently Asked Questions
           </h2>
           <div className="space-y-4">
             {allFaqs.map((faq, i) => (

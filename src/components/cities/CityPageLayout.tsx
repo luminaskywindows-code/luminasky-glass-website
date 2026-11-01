@@ -98,7 +98,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-            What We Fix in {city.city}
+            Glass and Window Services
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {city.services.map((service) => (
@@ -127,11 +127,11 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
       {/* Why Choose Us */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-          Why {city.city} Homeowners Choose Us
+          Why Homeowners Choose Us
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { icon: Clock, title: "Fast Response", desc: "Same-day or next-day service across " + city.city + ". Emergency calls answered 24/7." },
+            { icon: Clock, title: "Fast Response", desc: "Same-day or next-day appointments. Emergency calls answered 24/7." },
             { icon: Wrench, title: "Repair, Not Replace", desc: "We fix the broken part (the glass, the crank, the seal) without tearing out your whole window or door." },
             { icon: Shield, title: "5-Year Warranty", desc: "Sealed glass units backed by our 5-year warranty against seal failure. Hardware repairs covered under a separate 2-year warranty." },
             { icon: Truck, title: "We Come to You", desc: "Fully mobile service. We bring everything we need to your door. No trips to a shop required." },
@@ -151,7 +151,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
       {city.featuredProject && (
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-          Recent Work in {city.city}
+          Recent Repair Work
         </h2>
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
           {city.featuredProject.mediaType === "video" &&
@@ -259,8 +259,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           Areas We Cover in {city.city}
         </h2>
         <p className="text-gray-500 mb-6 max-w-2xl">
-          We serve all neighborhoods across {city.city} and surrounding areas. Same-day or next-day
-          service available throughout:
+          We serve all neighbourhoods listed below and the surrounding areas:
         </p>
         <div className="flex flex-wrap gap-2">
           {city.neighborhoods.map((n) => (
@@ -280,7 +279,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
         <section className="bg-gray-50 py-12 md:py-16">
           <div className="max-w-3xl mx-auto px-4 md:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-              Frequently Asked Questions: {city.city}
+              Frequently Asked Questions
             </h2>
             <div className="space-y-4">
               {city.faqs.map((faq, i) => (
