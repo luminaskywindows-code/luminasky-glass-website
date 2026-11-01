@@ -126,9 +126,9 @@ const BREADCRUMBS = [
 ];
 
 export const metadata: Metadata = {
-  title: "Commercial Glass Repair Toronto",
+  title: "Commercial Glass Repair Toronto | Storefronts",
   description:
-    "24/7 commercial glass repair in Toronto and the GTA. Storefront glass replacement, commercial door glass, emergency board-up. Call 437-344-8490.",
+    "Commercial glass repair in Toronto and the GTA. Storefront glass replacement, commercial door glass, partition walls, and 24/7 emergency board-up. Licensed and insured. 437-344-8490.",
   alternates: { canonical: "/commercial-glass-repair" },
 };
 

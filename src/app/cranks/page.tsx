@@ -23,9 +23,9 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Window Crank Repair GTA | 1-Year Warranty | LuminaSky Glass",
+  title: "Window Crank Repair Toronto | Same-Day Service",
   description:
-    "Fix broken window cranks across the GTA. Window specialists, not a handyman side gig. $30 visit credited back. 1-year full warranty. Call 437-344-8490.",
+    "Broken window crank? LuminaSky repairs and replaces casement cranks, operators, and handles across Toronto and the GTA. Most repairs completed same day. 1-year warranty. 437-344-8490.",
   alternates: { canonical: "/cranks" },
 };
 

@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.luminasky.com"),
   title: {
     default:
-      "Window & Glass Repair Toronto - Fix, Don't Replace | LuminaSky",
+      "Window and Glass Repair Toronto: Fix, Don't Replace | LuminaSky",
     template: "%s | LuminaSky",
   },
   description:
-    "Professional glass and door repair services in the GTA. Foggy glass, door glass, window cranks, skylights & more. Fast, licensed & insured. Call 437-344-8490.",
+    "Toronto window and glass repair by LuminaSky. Foggy glass, sealed units, cranks, skylights, patio doors and emergency board-up. Licensed, insured, 5-year glass warranty. 437-344-8490.",
   openGraph: {
     type: "website",
     locale: "en_CA",

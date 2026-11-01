@@ -115,12 +115,12 @@ const FAQS = [
 ];
 
 export const metadata: Metadata = {
-  title: { absolute: "Glass Replacement Toronto | LuminaSky Glass Services" },
+  title: "Glass Replacement Toronto | Sealed Unit Experts",
   description:
-    "Cracked or broken window glass? We replace the sealed unit and keep your frame. 5-Year Warranty on glass. Photo quote. Call 437-344-8490.",
+    "Cracked, broken, or failed window glass? LuminaSky replaces the sealed unit and keeps your existing frame. 5-year glass warranty. Serving Toronto and the GTA. 437-344-8490.",
   alternates: { canonical: "/glass-replacement" },
   openGraph: {
-    title: "Glass Replacement Toronto | LuminaSky Glass Services",
+    title: "Glass Replacement Toronto | Sealed Unit Experts | LuminaSky",
     description:
       "Cracked or broken window glass? We replace the sealed unit and keep your frame. 5-Year Warranty on glass. Photo quote. Call 437-344-8490.",
     url: "/glass-replacement",

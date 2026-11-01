@@ -22,10 +22,10 @@ const HomepagePopup = dynamic(
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Window & Glass Repair Toronto - Fix, Don't Replace | LuminaSky",
+    absolute: "Window and Glass Repair Toronto: Fix, Don't Replace | LuminaSky",
   },
   description:
-    "Toronto's glass and window repair specialist. We fix foggy glass, cracked panes, broken cranks and more. Fix don't replace. Photo quote. 437-344-8490",
+    "Toronto window and glass repair by LuminaSky. Foggy glass, sealed units, cranks, skylights, patio doors and emergency board-up. Licensed, insured, 5-year glass warranty. 437-344-8490.",
   alternates: { canonical: "/" },
 };
 

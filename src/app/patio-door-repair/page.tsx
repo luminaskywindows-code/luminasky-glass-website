@@ -60,12 +60,12 @@ const FAQS = [
 ];
 
 export const metadata: Metadata = {
-  title: { absolute: "Patio Door Repair Toronto | LuminaSky Glass Services" },
+  title: "Patio Door Repair Toronto | Rollers, Tracks, Glass",
   description:
-    "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass, with no new door needed. Photo quote.",
+    "Sliding patio door sticking or won’t lock? LuminaSky replaces rollers, fixes tracks, adjusts panels, and replaces glass. No new door needed. Serving Toronto and the GTA. 437-344-8490.",
   alternates: { canonical: "/patio-door-repair" },
   openGraph: {
-    title: "Patio Door Repair Toronto | LuminaSky Glass Services",
+    title: "Patio Door Repair Toronto | Rollers, Tracks, Glass | LuminaSky",
     description:
       "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass, with no new door needed. Photo quote.",
     url: "/patio-door-repair",

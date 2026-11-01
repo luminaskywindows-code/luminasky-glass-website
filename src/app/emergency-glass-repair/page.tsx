@@ -73,14 +73,12 @@ const FAQS = [
 ];
 
 export const metadata: Metadata = {
-  title: {
-    absolute: "24/7 Emergency Glass Repair & Board-Up Toronto | LuminaSky",
-  },
+  title: "24/7 Emergency Glass Repair Toronto | Board-Up",
   description:
-    "Broken window or storefront glass? We respond fast, 24/7, across the GTA and board up the opening, with no after-hours surcharge. Call 437-344-8490.",
+    "Broken window or storefront glass? LuminaSky provides 24/7 emergency board-up and glass replacement across Toronto and the GTA. No after-hours surcharge. 437-344-8490.",
   alternates: { canonical: "/emergency-glass-repair" },
   openGraph: {
-    title: "24/7 Emergency Glass Repair & Board-Up Toronto | LuminaSky",
+    title: "24/7 Emergency Glass Repair Toronto | Board-Up | LuminaSky",
     description:
       "Broken window or storefront glass? We respond fast, 24/7, across the GTA and board up the opening, with no after-hours surcharge. Call 437-344-8490.",
     url: "/emergency-glass-repair",
