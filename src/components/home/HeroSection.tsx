@@ -341,6 +341,9 @@ export function HeroSection() {
           priority
           className="object-cover"
           sizes="100vw"
+          quality={75}
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAABD1bVSAAAAEElEQVR42mNkYPj/n4EBAwAFAAH/VHbVJAAAAABJRU5ErkJggg=="
         />
         {/* Dark overlay for text readability */}
         <div

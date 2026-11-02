@@ -230,9 +230,9 @@ export default function AboutPage() {
           src="/images/hero-background.png"
           alt="Bright residential windows with natural light streaming through after professional glass repair in Thornhill"
           fill
-          unoptimized
           className="object-cover object-center"
           sizes="100vw"
+          quality={75}
         />
         <div className="absolute inset-0 bg-primary/55 flex items-center justify-center px-4">
           <blockquote className="text-center max-w-2xl">

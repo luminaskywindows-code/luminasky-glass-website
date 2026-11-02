@@ -18,7 +18,7 @@ export function TrustSection() {
   return (
     <section
       className="relative py-20 px-4 md:px-8 bg-cover bg-center overflow-hidden"
-      style={{ backgroundImage: "url('/images/bright-windows-section.webp')" }}
+      style={{ backgroundImage: "url('/images/bright-windows-section.webp')", contentVisibility: "auto", containIntrinsicSize: "auto 500px" }}
       aria-labelledby="trust-heading"
     >
       {/* Semi-transparent blue overlay - keeps text readable while window shows through */}

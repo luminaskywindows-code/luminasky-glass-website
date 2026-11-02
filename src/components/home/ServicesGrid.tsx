@@ -12,6 +12,7 @@ export function ServicesGrid() {
     <section
       className="py-20 px-4 md:px-8 bg-gray-50"
       aria-labelledby="services-heading"
+      style={{ contentVisibility: "auto", containIntrinsicSize: "auto 600px" }}
     >
       <div className="max-w-7xl mx-auto">
         <SectionHeading
