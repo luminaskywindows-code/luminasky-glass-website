@@ -224,8 +224,8 @@ export default function GlassReplacementPage() {
 
             <div className="relative aspect-[4/3] max-h-[420px] rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="/images/services/cracked-window-before.png"
-                alt="Cracked window glass needing replacement in Toronto"
+                src="/images/services/window-cleaning-before.jpg"
+                alt="Cracked window pane with fracture lines running across the glass, photographed from inside an apartment"
                 fill
                 priority
                 className="object-cover"

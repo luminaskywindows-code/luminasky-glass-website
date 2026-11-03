@@ -5,24 +5,24 @@ import { motion, useReducedMotion } from "framer-motion";
 
 const GALLERY_ITEMS = [
   {
-    src: "/images/gallery/foggy-window.png",
-    alt: "Foggy window with condensation trapped between panes, seal failure visible in a GTA home",
+    src: "/images/services/foggy-window-real.jpg",
+    alt: "Casement window with heavy condensation and moisture trapped between the panes from a failed seal",
     label: "Foggy window seal failure",
   },
   {
-    src: "/images/gallery/bright-clean-windows.png",
-    alt: "Bright clean windows with natural light streaming through after sealed glass unit replacement",
+    src: "/images/services/window-cleaning-after.jpg",
+    alt: "Clear apartment window with a sharp city view after sealed glass unit replacement",
     label: "Clear after glass unit replacement",
   },
   {
-    src: "/images/gallery/living-room-windows.png",
-    alt: "Modern living room with large picture windows after glass replacement by LuminaSky in the GTA",
-    label: "Large window glass restoration",
+    src: "/images/services/front-door-glass-after.jpg",
+    alt: "Double front doors with modern geometric frosted glass inserts installed by LuminaSky",
+    label: "Front door glass replacement",
   },
   {
-    src: "/images/gallery/kitchen-window.png",
-    alt: "Kitchen window above sink after residential sealed glass unit repair in a GTA home",
-    label: "Kitchen window repair",
+    src: "/images/services/foggy-window-condensation.jpg",
+    alt: "Close-up of foggy double-pane window showing condensation and white mineral stains between the glass",
+    label: "Condensation between panes",
   },
 ];
 
@@ -63,8 +63,8 @@ export function PhotoShowcase() {
             >
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="/images/gallery/foggy-window.png"
-                  alt="Foggy window with condensation between panes - seal failure requiring repair"
+                  src="/images/services/foggy-window-real.jpg"
+                  alt="Casement window with heavy condensation and moisture trapped between the panes from a failed seal"
                   fill
                   unoptimized
                   className="object-cover"
@@ -95,8 +95,8 @@ export function PhotoShowcase() {
             >
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="/images/gallery/bright-clean-windows.png"
-                  alt="Crystal-clear windows with natural light after LuminaSky glass repair"
+                  src="/images/services/window-cleaning-after.jpg"
+                  alt="Clear apartment window with a sharp city view after sealed glass unit replacement"
                   fill
                   unoptimized
                   className="object-cover"
