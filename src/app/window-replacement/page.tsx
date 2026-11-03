@@ -5,6 +5,7 @@ import {
   CheckCircle2,
   Phone,
   ChevronRight,
+  Wrench,
 } from "lucide-react";
 import InlineVideoPlayer from "@/components/video/InlineVideoPlayer";
 import { CTABanner } from "@/components/shared/CTABanner";
@@ -82,6 +83,33 @@ const FAQS = [
 ];
 
 const RELATED_SLUGS = ["foggy-windows", "window-cranks", "skylights"];
+
+const REPLACEMENT_PROBLEMS = [
+  {
+    title: "Drafty windows",
+    desc: "Cold air leaks around the frame or through the seal. If weatherstripping and caulking can't fix it, the window unit needs replacing.",
+  },
+  {
+    title: "Condensation between panes",
+    desc: "Moisture trapped inside a double-pane window means the seal has failed. The glass unit needs to be replaced.",
+  },
+  {
+    title: "Windows won't open or close",
+    desc: "Warped frames, broken balances, or painted-shut sashes. Sometimes the hardware fix works; sometimes the window is past repair.",
+  },
+  {
+    title: "Visible frame damage",
+    desc: "Rotting wood, cracked vinyl, or corroded aluminum. When the frame is compromised, a full window replacement is the right call.",
+  },
+  {
+    title: "Single-pane glass",
+    desc: "Older homes with single-pane windows lose heat in winter and cool air in summer. Upgrading to double-pane makes a real difference.",
+  },
+  {
+    title: "Excessive outside noise",
+    desc: "Thin or outdated glass lets street noise through. Newer double- or triple-pane windows cut sound noticeably.",
+  },
+];
 
 const BREADCRUMBS = [
   { name: "Home", url: "/" },
@@ -380,6 +408,38 @@ export default function WindowReplacementPage() {
               sealing
             </figcaption>
           </figure>
+        </div>
+      </section>
+
+      {/* ── Common Window Replacement Problems ── */}
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="problems-heading">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              We Fix These
+            </span>
+            <h2 id="problems-heading" className="text-3xl font-bold text-gray-900">
+              Signs You Need Window Replacement
+            </h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
+              Not every window problem means a full replacement. We check repair options first and recommend replacement only when it makes sense.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {REPLACEMENT_PROBLEMS.map(({ title, desc }) => (
+              <div
+                key={title}
+                className="bg-white rounded-xl p-6 border border-gray-100 hover:border-accent/30 hover:shadow-sm transition-all"
+              >
+                <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                  <Wrench className="w-5 h-5 text-accent" aria-hidden="true" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

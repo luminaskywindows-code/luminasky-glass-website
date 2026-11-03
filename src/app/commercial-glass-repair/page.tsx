@@ -4,6 +4,7 @@ import Link from "next/link";
 import {
   Phone,
   ChevronRight,
+  Wrench,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { ServiceCard } from "@/components/shared/ServiceCard";
@@ -118,6 +119,33 @@ const FAQS = [
 ];
 
 const RELATED_SLUGS = ["front-door-glass", "foggy-windows", "skylights"];
+
+const COMMERCIAL_PROBLEMS = [
+  {
+    title: "Cracked storefront glass",
+    desc: "A crack in the storefront looks bad and weakens the glass. We measure, order, and install commercial-grade replacements.",
+  },
+  {
+    title: "Foggy insulated glass units",
+    desc: "When the seal between panes fails, moisture gets trapped inside. We replace the IGU without touching the frame.",
+  },
+  {
+    title: "Door closer failure",
+    desc: "Commercial door closers take heavy use. When they leak oil or lose tension, the door slams or won't latch. We replace them.",
+  },
+  {
+    title: "Broken pivot hinges",
+    desc: "Pivot doors in offices and lobbies rely on floor and header pivots. We source and install commercial-grade replacements.",
+  },
+  {
+    title: "Vandalism or break-in damage",
+    desc: "Broken glass after a break-in needs fast boarding and permanent replacement. We handle the temporary fix and the final install.",
+  },
+  {
+    title: "Leaking window frames",
+    desc: "Water infiltration around commercial window frames causes damage inside. We reseal or replace the affected units.",
+  },
+];
 
 const BREADCRUMBS = [
   { name: "Home", url: "/" },
@@ -440,6 +468,38 @@ export default function CommercialGlassRepairPage() {
             Pricing shown is a general estimate based on typical jobs across the GTA. Final pricing depends on size, access, frame condition, and other site-specific factors. For an exact written quote, call{" "}
             <a href="tel:+14373448490" className="text-primary hover:underline">(437) 344-8490</a>.
           </p>
+        </div>
+      </section>
+
+      {/* ── Common Commercial Glass Problems ── */}
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="problems-heading">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              We Fix These
+            </span>
+            <h2 id="problems-heading" className="text-3xl font-bold text-gray-900">
+              Common Commercial Glass Problems We Fix
+            </h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
+              From storefronts to office towers, these are the issues we handle for commercial property owners and managers.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {COMMERCIAL_PROBLEMS.map(({ title, desc }) => (
+              <div
+                key={title}
+                className="bg-white rounded-xl p-6 border border-gray-100 hover:border-accent/30 hover:shadow-sm transition-all"
+              >
+                <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                  <Wrench className="w-5 h-5 text-accent" aria-hidden="true" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

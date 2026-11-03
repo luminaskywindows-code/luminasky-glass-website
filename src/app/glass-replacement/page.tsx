@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { CheckCircle2, Phone, ChevronRight } from "lucide-react";
+import { CheckCircle2, Phone, ChevronRight, Wrench } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { PHONE_HREF } from "@/lib/constants";
 import {
@@ -111,6 +111,33 @@ const FAQS = [
   {
     q: "Is the new glass under warranty?",
     a: "Yes. New sealed units carry a 5-year warranty against seal failure (fogging and condensation between the panes). All repair work carries a 2-year warranty on parts and labour. Glass breakage is not covered.",
+  },
+];
+
+const GLASS_PROBLEMS = [
+  {
+    title: "Cracked or chipped glass",
+    desc: "A crack spreads over time, especially with temperature changes. We replace the glass before it breaks completely.",
+  },
+  {
+    title: "Foggy double-pane window",
+    desc: "Condensation between panes means the seal has failed and the insulating gas is gone. We replace the sealed unit.",
+  },
+  {
+    title: "Broken tempered glass",
+    desc: "Tempered glass shatters into small pieces when it breaks. We clean up, measure, and install a new tempered panel.",
+  },
+  {
+    title: "Outdated single-pane glass",
+    desc: "Single-pane windows offer little insulation. We upgrade to a double-pane unit that fits the existing frame.",
+  },
+  {
+    title: "Impact damage",
+    desc: "A ball, a fallen branch, or an accident. We replace the broken glass and check the frame for any hidden damage.",
+  },
+  {
+    title: "Failed window seal",
+    desc: "The window looks fine from outside but has lost its thermal performance. We replace the sealed glass unit to restore it.",
   },
 ];
 
@@ -263,6 +290,38 @@ export default function GlassReplacementPage() {
                     </>
                   )}
                 </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Common Glass Replacement Problems ── */}
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="problems-heading">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              We Fix These
+            </span>
+            <h2 id="problems-heading" className="text-3xl font-bold text-gray-900">
+              Common Glass Problems We Replace
+            </h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
+              Whether it is a single crack or a full sealed unit failure, we handle the replacement from start to finish.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {GLASS_PROBLEMS.map(({ title, desc }) => (
+              <div
+                key={title}
+                className="bg-white rounded-xl p-6 border border-gray-100 hover:border-accent/30 hover:shadow-sm transition-all"
+              >
+                <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                  <Wrench className="w-5 h-5 text-accent" aria-hidden="true" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>

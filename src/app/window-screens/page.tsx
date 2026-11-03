@@ -5,6 +5,7 @@ import {
   CheckCircle2,
   Phone,
   ChevronRight,
+  Wrench,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { ServiceCard } from "@/components/shared/ServiceCard";
@@ -74,6 +75,33 @@ const FAQS = [
 ];
 
 const RELATED_SLUGS = ["screen-storm-doors", "foggy-windows", "window-cranks"];
+
+const SCREEN_PROBLEMS = [
+  {
+    title: "Torn or ripped mesh",
+    desc: "Sun, pets, and wind take a toll on screen mesh. We rescreen the frame with fiberglass, aluminum, or pet-proof mesh.",
+  },
+  {
+    title: "Broken frame corners",
+    desc: "Corner joints crack or separate over time. We rebuild the frame with new corner keys or replace it entirely.",
+  },
+  {
+    title: "Screen won't stay in the track",
+    desc: "Worn springs or bent tabs let the screen pop out. We replace the hardware so the screen locks in place.",
+  },
+  {
+    title: "Pet damage",
+    desc: "Cats and dogs push through standard mesh. We install pet-resistant screen that holds up to claws and pressure.",
+  },
+  {
+    title: "Sun-rotted or brittle mesh",
+    desc: "Years of UV exposure makes mesh stiff and fragile. A fresh rescreen brings back airflow and keeps bugs out.",
+  },
+  {
+    title: "Wrong size or missing screen",
+    desc: "Previous owner removed it, or the screen doesn't fit after a window change. We measure and build a custom screen to fit.",
+  },
+];
 
 const BREADCRUMBS = [
   { name: "Home", url: "/" },
@@ -335,6 +363,38 @@ export default function WindowScreensPage() {
               Sliding patio door with new screen door installed by LuminaSky
             </figcaption>
           </figure>
+        </div>
+      </section>
+
+      {/* ── Common Window Screen Problems ── */}
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="problems-heading">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              We Fix These
+            </span>
+            <h2 id="problems-heading" className="text-3xl font-bold text-gray-900">
+              Common Window Screen Problems We Fix
+            </h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
+              Most screen repairs take less than a day. Here are the issues we handle regularly.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {SCREEN_PROBLEMS.map(({ title, desc }) => (
+              <div
+                key={title}
+                className="bg-white rounded-xl p-6 border border-gray-100 hover:border-accent/30 hover:shadow-sm transition-all"
+              >
+                <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                  <Wrench className="w-5 h-5 text-accent" aria-hidden="true" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

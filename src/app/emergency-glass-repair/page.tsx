@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { CheckCircle2, Phone, ChevronRight } from "lucide-react";
+import { CheckCircle2, Phone, ChevronRight, Wrench } from "lucide-react";
 import { PHONE_HREF } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import {
@@ -69,6 +69,33 @@ const FAQS = [
   {
     q: "Do you handle commercial and condo emergencies?",
     a: "Yes, including storefronts, office glass, lobby doors and condo common areas. Property managers can call us directly.",
+  },
+];
+
+const EMERGENCY_PROBLEMS = [
+  {
+    title: "Break-in damage",
+    desc: "Smashed windows or doors after a break-in. We board up the opening right away and come back with the permanent glass.",
+  },
+  {
+    title: "Storm damage",
+    desc: "High winds, hail, or flying debris can crack or shatter windows. We secure the opening and replace the glass.",
+  },
+  {
+    title: "Accidental impact",
+    desc: "A ball through the window, a door slammed too hard, or furniture bumping into glass. We replace the broken panel.",
+  },
+  {
+    title: "Shattered patio door",
+    desc: "Tempered patio door glass breaks into thousands of pieces. We clean up and install a new tempered panel.",
+  },
+  {
+    title: "Cracked storefront glass",
+    desc: "A damaged storefront is a security risk. We board it up the same day and schedule the permanent replacement.",
+  },
+  {
+    title: "Thermal stress crack",
+    desc: "Extreme temperature swings cause cracks that start at the edge. The glass needs replacing before the crack spreads.",
   },
 ];
 
@@ -259,6 +286,38 @@ export default function EmergencyGlassRepairPage() {
             <Link href="/blog/storefront-glass-emergency-board-up" className="text-primary font-semibold hover:underline">
               Storefront emergency guide &rarr;
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Common Emergency Glass Situations ── */}
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="problems-heading">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              We Fix These
+            </span>
+            <h2 id="problems-heading" className="text-3xl font-bold text-gray-900">
+              Common Emergency Glass Situations We Handle
+            </h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
+              Every situation below is one we have handled before. We know what to do and we bring the right materials.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {EMERGENCY_PROBLEMS.map(({ title, desc }) => (
+              <div
+                key={title}
+                className="bg-white rounded-xl p-6 border border-gray-100 hover:border-accent/30 hover:shadow-sm transition-all"
+              >
+                <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                  <Wrench className="w-5 h-5 text-accent" aria-hidden="true" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -714,6 +714,199 @@ export default function FoggyWindowsPage() {
         </div>
       </section>
 
+      {/* ── Common Problems We See ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-white"
+        aria-labelledby="problems-heading"
+      >
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              What We Find
+            </span>
+            <h2
+              id="problems-heading"
+              className="text-3xl font-bold text-gray-900"
+            >
+              Common Problems We See
+            </h2>
+          </div>
+
+          <div className="space-y-8">
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Fog or haze between the panes
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                This is the most common one. The seal around the glass unit has
+                failed and moist air got in between the two panes. You can&apos;t
+                wipe it off because it&apos;s on the inside. It usually gets worse
+                over time, not better.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Water droplets or streaks inside the glass
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                On cold mornings you might see drops running down between the
+                panes, then they dry and leave a white film. Same cause as the
+                fog: a broken seal. Once the film builds up, the glass looks
+                dirty all the time.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Condensation on the room side of the glass
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                This one is different. If you can wipe it off with a cloth, the
+                seal is probably fine and the cause is humidity in the house.
+                We&apos;ll tell you that honestly on the visit instead of selling
+                you glass you don&apos;t need.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Cracked glass in a sealed unit
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                A crack breaks the seal right away, so the unit will start to
+                fog too. We replace the whole sealed unit, not just one pane.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                The frame is fine but the glass isn&apos;t
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                A lot of people think a foggy window means a new window. In most
+                cases the frame, the sash and the hardware are still good. We
+                replace only the sealed glass unit, which costs a lot less than a
+                full window.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── What You Can Expect ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-gray-50"
+        aria-labelledby="expect-heading"
+      >
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              Our Process
+            </span>
+            <h2
+              id="expect-heading"
+              className="text-3xl font-bold text-gray-900"
+            >
+              What You Can Expect
+            </h2>
+          </div>
+
+          <div className="space-y-6">
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                1
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">Book a visit.</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We come to your home, look at every window you&apos;re worried
+                  about and take exact measurements. The visit is $30, and that
+                  $30 comes off the job if you go ahead.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                2
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  Get a written quote on the spot.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  You get the price before we leave. No follow-up calls, no
+                  surprises later.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                3
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  We order your glass.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  A 50% deposit lets us order the units from our local supplier,
+                  Laserseal Insulating Glass in Concord. Each unit is made to
+                  your exact size.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                4
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">Installation.</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Glass usually arrives 5 to 15 days after measuring. We book
+                  the install with you once it&apos;s in, and the balance is paid
+                  on installation day.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                5
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  You&apos;re covered.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Sealed glass units come with a 5 year warranty against fogging.
+                  For the first 2 years, glass and labour are both covered. From
+                  year 3 to 5, the glass is covered and labour is billed.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href={PHONE_HREF}
+              className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-bold px-6 py-3 rounded-md shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent active:scale-95"
+            >
+              <Phone className="w-5 h-5" aria-hidden="true" />
+              Book a Visit
+            </a>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-6 py-3 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary active:scale-95"
+            >
+              Get a Written Quote
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ── FAQ ── */}
       <section
         className="py-16 px-4 md:px-8 bg-white"

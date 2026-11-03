@@ -5,6 +5,7 @@ import {
   CheckCircle2,
   Phone,
   ChevronRight,
+  Wrench,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { ServiceCard } from "@/components/shared/ServiceCard";
@@ -103,6 +104,33 @@ const FAQS = [
 ];
 
 const RELATED_SLUGS = ["front-door-glass", "window-cranks", "skylights"];
+
+const SCREEN_DOOR_PROBLEMS = [
+  {
+    title: "Screen mesh torn or ripped",
+    desc: "Pets, weather, and everyday wear tear through screen mesh over time. We rescreen the panel with fiberglass or pet-resistant mesh.",
+  },
+  {
+    title: "Door closer slams or won't hold",
+    desc: "Hydraulic and pneumatic closers wear out. We replace the closer so the door shuts smoothly without slamming.",
+  },
+  {
+    title: "Bent or dented frame",
+    desc: "A bent frame causes the door to stick or not close properly. We straighten or replace the frame to restore a clean fit.",
+  },
+  {
+    title: "Latch won't catch",
+    desc: "Misaligned or worn latch hardware keeps the door from staying shut. We realign the strike plate or replace the latch set.",
+  },
+  {
+    title: "Glass insert cracked or fogged",
+    desc: "Storm door glass panels crack from impact or fog up when the seal fails. We replace the glass insert to match the original.",
+  },
+  {
+    title: "Rollers or tracks worn out",
+    desc: "Sliding screen doors jump off the track when rollers wear down. We replace rollers and adjust the track for smooth sliding.",
+  },
+];
 
 const BREADCRUMBS = [
   { name: "Home", url: "/" },
@@ -363,6 +391,38 @@ export default function ScreenStormDoorsPage() {
             Existing torn or damaged screen panels can be re-screened at a
             fraction of the cost of a full door replacement.
           </p>
+        </div>
+      </section>
+
+      {/* ── Common Screen & Storm Door Problems ── */}
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="problems-heading">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              We Fix These
+            </span>
+            <h2 id="problems-heading" className="text-3xl font-bold text-gray-900">
+              Common Screen &amp; Storm Door Problems We Fix
+            </h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
+              These are the issues we see most often. All are repairable without replacing the entire door.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {SCREEN_DOOR_PROBLEMS.map(({ title, desc }) => (
+              <div
+                key={title}
+                className="bg-white rounded-xl p-6 border border-gray-100 hover:border-accent/30 hover:shadow-sm transition-all"
+              >
+                <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                  <Wrench className="w-5 h-5 text-accent" aria-hidden="true" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
