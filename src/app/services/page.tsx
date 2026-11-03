@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
+
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { SERVICES } from "@/lib/constants";
@@ -17,6 +18,22 @@ export default function ServicesPage() {
   return (
     <>
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Services", url: "/services" }]} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "LuminaSky Glass Services",
+            itemListElement: SERVICES.map((s, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              name: s.title,
+              url: `https://www.luminasky.com${s.href}`,
+            })),
+          }),
+        }}
+      />
       <section className="bg-gradient-to-br from-primary via-blue-800 to-primary-700 py-20 px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <nav aria-label="Breadcrumb" className="mb-6">
