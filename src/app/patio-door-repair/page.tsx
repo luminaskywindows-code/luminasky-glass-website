@@ -263,6 +263,192 @@ export default function PatioDoorRepairPage() {
         </div>
       </section>
 
+      {/* ── Common Problems We See ── */}
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="common-problems-heading">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              What We Find
+            </span>
+            <h2
+              id="common-problems-heading"
+              className="text-3xl font-bold text-gray-900"
+            >
+              Common Problems We See
+            </h2>
+          </div>
+
+          <div className="space-y-8">
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                The door is hard to slide
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                You have to pull with both hands, or it jumps and grinds along
+                the way. Most of the time the rollers under the door are worn out
+                or the track is damaged. New rollers usually make it slide like
+                new, and the door itself stays.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Fog between the panes
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Patio doors have big sealed glass units, and when the seal fails
+                you get the same haze you see in foggy windows. We replace the
+                glass unit and keep the door frame.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Broken or cracked glass
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                A big pane of glass is easy to hit with furniture, a ball or a
+                barbecue. We replace the glass so the door is safe and sealed
+                again.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                The handle or lock doesn&apos;t work
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                The latch doesn&apos;t catch, the lock won&apos;t turn, or the
+                handle is loose. That&apos;s a security problem on a door that
+                opens to the backyard. Handles and locks are usually a quick fix.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                A torn or stuck screen door
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                The screen comes off the track, sticks, or the mesh is ripped.
+                We can replace the mesh or the whole screen door.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── What You Can Expect ── */}
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="expect-heading">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              Our Process
+            </span>
+            <h2
+              id="expect-heading"
+              className="text-3xl font-bold text-gray-900"
+            >
+              What You Can Expect
+            </h2>
+          </div>
+
+          <div className="space-y-6">
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                1
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">Book a visit.</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We come to your home, check how the door slides, look at the
+                  glass and the hardware and take measurements. The visit is $30,
+                  and that $30 comes off the job if you go ahead.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                2
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  Get a written quote on the spot.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  You get the price before we leave, so you know what you&apos;re
+                  paying.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                3
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  Small repairs, most of the time the same day.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Rollers, handles and locks can usually be fixed on the first
+                  visit, so you don&apos;t have to wait for a second trip.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                4
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  Glass is ordered to size.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  If the glass needs replacing, a 50% deposit lets us order a
+                  unit made to your door&apos;s exact size. It usually arrives 5
+                  to 15 days after measuring, and we book the install with you
+                  once it&apos;s in. The balance is paid on installation day.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                5
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  You&apos;re covered.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Sealed glass units come with a 5 year warranty against fogging:
+                  glass and labour for the first 2 years, glass only from year 3
+                  to 5. Other repairs come with 2 years on parts and labour.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href={PHONE_HREF}
+              className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-bold px-6 py-3 rounded-md shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent active:scale-95"
+            >
+              <Phone className="w-5 h-5" aria-hidden="true" />
+              Book a Visit
+            </a>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-6 py-3 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary active:scale-95"
+            >
+              Get a Written Quote
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* FAQs */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">
         <div className="max-w-3xl mx-auto">

@@ -844,6 +844,216 @@ export default function FrontDoorGlassPage() {
         </div>
       </section>
 
+      {/* ── Common Problems We See ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-white"
+        aria-labelledby="problems-heading"
+      >
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              What We Find
+            </span>
+            <h2
+              id="problems-heading"
+              className="text-3xl font-bold text-gray-900"
+            >
+              Common Problems We See
+            </h2>
+          </div>
+
+          <div className="space-y-8">
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Cracked or broken door glass
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                A ball, a slammed door, a cold snap. Once the glass cracks, the
+                door isn&apos;t secure and the crack usually spreads. If it happens
+                at night, our own crew can come out and board it up until the new
+                glass is in.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Fog inside the door glass
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Most door glass is a sealed unit, just like a window. When the
+                seal fails, moisture gets between the panes and you get a cloudy
+                haze you can&apos;t clean. The door itself is usually fine. Only
+                the glass insert needs replacing.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                The design looks dated
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                A lot of homes still have the brass and bevelled glass from the
+                90s. You don&apos;t need a new door to change the look. We swap
+                the glass insert for a newer style and the door stays where it
+                is.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Too much light, or not enough privacy
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Clear glass next to the front entrance means people can see right
+                into the house. We can put in frosted, textured or decorative
+                glass that still lets light in but blocks the view.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Drafts or rattling around the glass
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Sometimes the frame that holds the glass insert gets loose over
+                the years. You feel cold air or hear it rattle when the door
+                closes. We check that on the visit and fix it when we replace the
+                insert.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── What You Can Expect ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-gray-50"
+        aria-labelledby="expect-heading"
+      >
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              Our Process
+            </span>
+            <h2
+              id="expect-heading"
+              className="text-3xl font-bold text-gray-900"
+            >
+              What You Can Expect
+            </h2>
+          </div>
+
+          <div className="space-y-6">
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                1
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">Book a visit.</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We come to your home, look at the door and measure the glass.
+                  The visit is $30, and that $30 comes off the job if you go
+                  ahead.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                2
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  Measure and price.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We measure the door and explain how pricing works for the
+                  different glass types, so you know what to expect.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                3
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  Pick your glass, get your price.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  After the visit we email you photos of glass styles. Take your
+                  time and choose what fits your home, and we send you the
+                  written price for the style you picked.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                4
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  We order your insert.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  A 50% deposit lets us order the glass, made to your door&apos;s
+                  exact size.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                5
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">Installation.</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Glass usually arrives 5 to 15 days after measuring. We book
+                  the install with you once it&apos;s in, and the balance is paid
+                  on installation day. Your door stays on its hinges the whole
+                  time.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
+                6
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  You&apos;re covered.
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Door glass inserts come with a 5 year warranty against fogging.
+                  For the first 2 years, glass and labour are both covered. From
+                  year 3 to 5, the glass is covered and labour is billed.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href={PHONE_HREF}
+              className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-bold px-6 py-3 rounded-md shadow-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent active:scale-95"
+            >
+              <Phone className="w-5 h-5" aria-hidden="true" />
+              Book a Visit
+            </a>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-6 py-3 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary active:scale-95"
+            >
+              Get a Written Quote
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section
         className="py-16 px-4 md:px-8 bg-white"
