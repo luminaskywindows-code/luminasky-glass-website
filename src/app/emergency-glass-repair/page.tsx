@@ -291,7 +291,7 @@ export default function EmergencyGlassRepairPage() {
       </section>
 
       {/* ── Common Emergency Glass Situations ── */}
-      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="problems-heading">
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="problems-heading">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
@@ -323,7 +323,7 @@ export default function EmergencyGlassRepairPage() {
       </section>
 
       {/* From Emergency to Permanent Repair */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="process-heading">
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="process-heading">
         <div className="max-w-3xl mx-auto">
           <h2 id="process-heading" className="text-3xl font-bold text-gray-900 mb-8">
             From Emergency to Permanent Repair
@@ -345,7 +345,7 @@ export default function EmergencyGlassRepairPage() {
       </section>
 
       {/* GTA coverage */}
-      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="areas-heading">
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="areas-heading">
         <div className="max-w-3xl mx-auto">
           <h2 id="areas-heading" className="text-3xl font-bold text-gray-900 mb-6">
             Emergency Glass Repair Across the GTA
@@ -364,7 +364,7 @@ export default function EmergencyGlassRepairPage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="faq-heading">
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-10">
             <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">

@@ -297,7 +297,7 @@ export default function GlassReplacementPage() {
       </section>
 
       {/* ── Common Glass Replacement Problems ── */}
-      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="problems-heading">
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="problems-heading">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
@@ -329,7 +329,7 @@ export default function GlassReplacementPage() {
       </section>
 
       {/* How Window Glass Replacement Works */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="process-heading">
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="process-heading">
         <div className="max-w-3xl mx-auto">
           <h2 id="process-heading" className="text-3xl font-bold text-gray-900 mb-8">
             How Window Glass Replacement Works
@@ -360,7 +360,7 @@ export default function GlassReplacementPage() {
       </section>
 
       {/* What Does Glass Replacement Cost? */}
-      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="cost-heading">
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="cost-heading">
         <div className="max-w-3xl mx-auto">
           <h2 id="cost-heading" className="text-3xl font-bold text-gray-900 mb-6">
             What Does Glass Replacement Cost?
@@ -386,7 +386,7 @@ export default function GlassReplacementPage() {
       </section>
 
       {/* When Glass Replacement Isn't the Right Fix */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="honesty-heading">
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="honesty-heading">
         <div className="max-w-3xl mx-auto">
           <h2 id="honesty-heading" className="text-3xl font-bold text-gray-900 mb-6">
             When Glass Replacement Isn&apos;t the Right Fix
@@ -398,7 +398,7 @@ export default function GlassReplacementPage() {
       </section>
 
       {/* GTA coverage */}
-      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="areas-heading">
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="areas-heading">
         <div className="max-w-3xl mx-auto">
           <h2 id="areas-heading" className="text-3xl font-bold text-gray-900 mb-6">
             Cracked Window Glass Replacement Across the GTA
@@ -413,7 +413,7 @@ export default function GlassReplacementPage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="faq-heading">
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-10">
             <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">

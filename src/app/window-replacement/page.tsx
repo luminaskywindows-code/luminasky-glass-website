@@ -445,7 +445,7 @@ export default function WindowReplacementPage() {
 
       {/* Our Installation Process */}
       <section
-        className="py-16 px-4 md:px-8 bg-gray-50"
+        className="py-16 px-4 md:px-8 bg-white"
         aria-labelledby="process-heading"
       >
         <div className="max-w-7xl mx-auto">
@@ -521,7 +521,7 @@ export default function WindowReplacementPage() {
 
       {/* Window Replacement in Vaughan, Toronto and the GTA */}
       <section
-        className="py-16 px-4 md:px-8 bg-white"
+        className="py-16 px-4 md:px-8 bg-gray-50"
         aria-labelledby="areas-heading"
       >
         <div className="max-w-3xl mx-auto">
@@ -596,7 +596,7 @@ export default function WindowReplacementPage() {
 
       {/* FAQ */}
       <section
-        className="py-16 px-4 md:px-8 bg-gray-50"
+        className="py-16 px-4 md:px-8 bg-white"
         aria-labelledby="faq-heading"
       >
         <div className="max-w-3xl mx-auto">
@@ -636,7 +636,7 @@ export default function WindowReplacementPage() {
       {/* Related Services */}
       {relatedServices.length > 0 && (
         <section
-          className="py-16 px-4 md:px-8 bg-white"
+          className="py-16 px-4 md:px-8 bg-gray-50"
           aria-labelledby="related-heading"
         >
           <div className="max-w-7xl mx-auto">

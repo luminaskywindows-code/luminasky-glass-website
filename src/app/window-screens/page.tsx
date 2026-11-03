@@ -367,7 +367,7 @@ export default function WindowScreensPage() {
       </section>
 
       {/* ── Common Window Screen Problems ── */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="problems-heading">
+      <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="problems-heading">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
@@ -400,7 +400,7 @@ export default function WindowScreensPage() {
 
       {/* Our Process */}
       <section
-        className="py-16 px-4 md:px-8 bg-gray-50"
+        className="py-16 px-4 md:px-8 bg-white"
         aria-labelledby="process-heading"
       >
         <div className="max-w-7xl mx-auto">
@@ -472,7 +472,7 @@ export default function WindowScreensPage() {
 
       {/* FAQ */}
       <section
-        className="py-16 px-4 md:px-8 bg-white"
+        className="py-16 px-4 md:px-8 bg-gray-50"
         aria-labelledby="faq-heading"
       >
         <div className="max-w-3xl mx-auto">
@@ -512,7 +512,7 @@ export default function WindowScreensPage() {
       {/* Related Services */}
       {relatedServices.length > 0 && (
         <section
-          className="py-16 px-4 md:px-8 bg-gray-50"
+          className="py-16 px-4 md:px-8 bg-white"
           aria-labelledby="related-heading"
         >
           <div className="max-w-7xl mx-auto">
