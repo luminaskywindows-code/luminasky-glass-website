@@ -85,11 +85,11 @@ export default function WarrantyPage() {
                 Workmanship Warranty
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Glass labour is covered for the first 2 years of the glass warranty.
-                Hardware repairs (cranks, hinges, locks, rollers) are covered by a{" "}
-                <strong className="text-gray-900">1-year warranty on parts and labour</strong>.
-                If a defect appears within the warranty period, we come back
-                and fix it at no charge.
+                All glass installations include a{" "}
+                <strong className="text-gray-900">2-year workmanship warranty</strong>.
+                If a defect in our workmanship appears within 2 years of
+                installation, we come back and fix it at no charge, parts and
+                labour included.
               </p>
               <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
                 <Shield
@@ -97,7 +97,7 @@ export default function WarrantyPage() {
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  2 Years on Glass Labour, 1 Year on Hardware
+                  2 Years on Glass Workmanship
                 </p>
               </div>
             </div>
@@ -114,14 +114,19 @@ export default function WarrantyPage() {
                 Sealed Glass Units (IGUs)
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Sealed glass units are covered by a{" "}
+                Sealed glass units come with a{" "}
                 <strong className="text-gray-900">
                   5-year warranty against seal failure
-                </strong>
-                . If the seal fails within 5 years of installation (fogging, condensation between the panes), we replace the glass unit at no cost, including parts and labour. Glass breakage is not covered under warranty.
+                </strong>{" "}
+                and 2 years on workmanship. If the seal fails in the first 2
+                years (fogging or condensation between the panes), we replace the
+                glass unit at no cost, parts and labour included. From year 3 to
+                year 5, the replacement glass unit is covered and labour is
+                billed. Glass breakage is not covered.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our sealed glass units are made by an IGMAC-certified manufacturer to the CGSB 12.8 standard.
+                Our sealed glass units are made by an IGMAC-certified
+                manufacturer.
               </p>
               <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
                 <Shield
@@ -129,7 +134,7 @@ export default function WarrantyPage() {
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  5 Years on Sealed Glass Against Seal Failure
+                  5 Years Against Seal Failure + 2 Years Workmanship
                 </p>
               </div>
             </div>
