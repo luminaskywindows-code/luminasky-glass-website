@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | LuminaSky",
   },
   description:
-    "Toronto window and glass repair by LuminaSky. Foggy glass, sealed units, cranks, skylights, patio doors and emergency board-up. Licensed, insured, 5-year glass warranty. 437-344-8490.",
+    "Window and glass repair in Toronto. We fix foggy glass, door glass, cranks and screens without replacing the whole window. Written quote on the spot.",
   openGraph: {
     type: "website",
     locale: "en_CA",
