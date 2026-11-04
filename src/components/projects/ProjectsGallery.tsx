@@ -41,6 +41,7 @@ const SERVICE_TYPE_HREF: Record<string, string> = {
   "Skylights": "/skylights",
   "Front Doors": "/front-door-glass",
   "Front Door Glass": "/front-door-glass",
+  "Foggy Glass": "/foggy-windows",
   "Windows": "/glass-replacement",
   "Glass Replacement": "/glass-replacement",
   "Doors": "/patio-door-repair",

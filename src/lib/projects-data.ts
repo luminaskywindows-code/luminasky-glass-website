@@ -297,6 +297,23 @@ export const PROJECTS: Project[] = [
     location: "Toronto",
     serviceType: "Front Door Glass",
   },
+  {
+    id: "toronto-foggy-kitchen-window",
+    title: "Foggy Kitchen Window Glass Replacement in Toronto",
+    category: "windows",
+    beforeImage: {
+      src: "/images/services/toronto-foggy-glass-replacement-before.webp",
+      alt: "Foggy kitchen window with a failed seal in Toronto",
+    },
+    afterImage: {
+      src: "/images/services/toronto-foggy-glass-replacement-after.webp",
+      alt: "Clear kitchen window after sealed glass unit replacement in Toronto",
+    },
+    description:
+      "The seal on this kitchen window failed and moisture got between the panes, so the glass turned cloudy and the view outside was almost gone. We replaced only the sealed glass unit and kept the existing frame. Now the window is clear again.",
+    location: "Toronto",
+    serviceType: "Foggy Glass",
+  },
 ];
 
 export const PROJECT_CATEGORIES: { value: ProjectCategory; label: string }[] = [

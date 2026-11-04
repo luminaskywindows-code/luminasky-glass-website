@@ -524,6 +524,46 @@ export default function FoggyWindowsPage() {
               </figure>
             ))}
           </div>
+
+          {/* Kitchen window before/after */}
+          <div className="grid gap-6 grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto mt-10">
+            <figure className="flex flex-col gap-2">
+              <div className="relative rounded-xl overflow-hidden bg-gray-200">
+                <Image
+                  src="/images/services/toronto-foggy-glass-replacement-before.webp"
+                  alt="Foggy kitchen window with a failed seal in Toronto"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <span className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow">
+                  Before
+                </span>
+              </div>
+              <figcaption className="text-sm text-gray-500 text-center">
+                Kitchen window with a failed seal, Toronto
+              </figcaption>
+            </figure>
+            <figure className="flex flex-col gap-2">
+              <div className="relative rounded-xl overflow-hidden bg-gray-200">
+                <Image
+                  src="/images/services/toronto-foggy-glass-replacement-after.webp"
+                  alt="Clear kitchen window after sealed glass unit replacement in Toronto"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <span className="absolute top-3 left-3 bg-green-600 text-white text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full shadow">
+                  After
+                </span>
+              </div>
+              <figcaption className="text-sm text-gray-500 text-center">
+                Clear glass after sealed unit replacement, Toronto
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </section>
 
