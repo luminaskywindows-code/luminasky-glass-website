@@ -275,7 +275,7 @@ export default function WindowRepairCostPage() {
                 Window Crank Repair Cost
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                A stripped or broken casement crank is one of the most affordable window repairs. It&apos;s usually fixed on the first visit with parts from our truck, and it comes with a 2-year warranty on parts and labour.{" "}
+                A stripped or broken casement crank is one of the most affordable window repairs. It&apos;s usually fixed on the first visit with parts from our truck, and it comes with a 1-year warranty on parts and labour.{" "}
                 <Link href="/cranks" className="text-primary font-semibold hover:underline">Window crank repair &rarr;</Link>
               </p>
             </section>

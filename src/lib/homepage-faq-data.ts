@@ -1,11 +1,11 @@
 export const HOMEPAGE_SCHEMA_FAQS = [
   {
     q: "Does LuminaSky offer a warranty on windows?",
-    a: "Yes. Sealed glass units carry a 5-year warranty against seal failure. All repair work (hardware, screens, mechanisms) is covered by a 2-year warranty on parts and labour. Call 437-344-8490 for details.",
+    a: "Yes. Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Call 437-344-8490 for details.",
   },
   {
     q: "What does the LuminaSky warranty cover?",
-    a: "Sealed glass units are warranted for 5 years against seal failure (fogging, condensation between panes). All repair work carries a 2-year warranty on parts and labour. Glass breakage from impact or accidental damage is not covered.",
+    a: "Sealed glass units are warranted for 5 years against seal failure (fogging, condensation between panes), with labour covered for the first 2 years. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage from impact or accidental damage is not covered.",
   },
   {
     q: "How do I file a warranty claim?",

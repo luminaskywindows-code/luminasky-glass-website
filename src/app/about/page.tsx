@@ -48,7 +48,7 @@ const CREDENTIALS = [
   },
   {
     icon: BadgeCheck,
-    title: "2-Year Warranty on Parts & Labour",
+    title: "1-Year Warranty on Hardware Repairs",
     color: "text-accent",
     bg: "bg-accent/10",
   },
@@ -66,7 +66,7 @@ const CREDENTIALS = [
   },
   {
     icon: ShieldCheck,
-    title: "5-Year Warranty on Sealed Glass",
+    title: "5-Year Warranty on Glass (2 Years Labour)",
     color: "text-sky-600",
     bg: "bg-sky-100",
     href: "/warranty",

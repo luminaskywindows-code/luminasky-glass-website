@@ -85,7 +85,7 @@ const PROCESS_STEPS = [
   { title: "Get a written quote", desc: "Photo quotes are at no charge. If an in-person inspection is needed, the visit is $30, credited back if the work goes ahead." },
   { title: "We measure for glass", desc: "If the glass unit needs replacing, we measure the skylight and order a new sealed unit made to size." },
   { title: "New parts or glass delivered", desc: "Custom glass takes 5-15 business days depending on type and size. Leak and flashing repairs are often done sooner." },
-  { title: "Clean installation with warranty", desc: "We install the new glass or complete the repair, leak-test the skylight, and leave you with a 2-year workmanship warranty on your invoice." },
+  { title: "Clean installation with warranty", desc: "We install the new glass or complete the repair, leak-test the skylight, and leave you with a warranty on your invoice." },
 ];
 
 const AREA_CITIES = [
@@ -157,7 +157,7 @@ const FAQS = [
   },
   {
     q: "What's the warranty on skylight repair?",
-    a: "All skylight repairs come with a 2-year warranty on parts and labour. New sealed glass units carry a 5-year warranty against seal failure.",
+    a: "Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs like cranks and hinges come with 1 year on parts and labour.",
   },
   {
     q: "My skylight is old. Should I repair or replace it?",
@@ -174,12 +174,12 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Skylight Repair Toronto | Leaks, Glass & Seals",
   description:
-    "Leaking or cracked skylight? LuminaSky repairs all skylight types across Toronto and the GTA. Glass replacement, seal repair, hardware fixes. 2-year workmanship warranty. 437-344-8490.",
+    "Leaking or cracked skylight? LuminaSky repairs all skylight types across Toronto and the GTA. Glass replacement, seal repair, hardware fixes. 5-year glass warranty. 437-344-8490.",
   alternates: { canonical: "/skylights" },
   openGraph: {
     title: "Skylight Repair Toronto | Leaks, Glass & Seals | LuminaSky",
     description:
-      "Leaking skylight or cracked glass? We repair all skylight types across Toronto and the GTA. Fast response, written price, 2-year workmanship warranty.",
+      "Leaking skylight or cracked glass? We repair all skylight types across Toronto and the GTA. Fast response, written price, 5-year glass warranty.",
     url: "/skylights",
   },
 };
@@ -249,7 +249,7 @@ export default function SkylightsPage() {
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" aria-hidden="true" />24/7 emergency</span>
               <span className="flex items-center gap-1.5"><ShieldCheck className="w-4 h-4" aria-hidden="true" />Licensed &amp; insured</span>
               <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" aria-hidden="true" />Written price before work</span>
-              <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" aria-hidden="true" />2-year workmanship warranty</span>
+              <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" aria-hidden="true" />5-year glass warranty</span>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -338,7 +338,7 @@ export default function SkylightsPage() {
               Building code requires tempered safety glass in skylights. We measure the existing unit, order a new tempered sealed unit made to size, and install it once it arrives, typically 5-15 business days depending on glass type and dimensions. You can upgrade to low-E coated or argon-filled glass at the same time for better energy performance.
             </p>
             <p>
-              New sealed glass units carry a 5-year warranty against seal failure, plus our 2-year warranty on parts and labour.{" "}
+              Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs come with 1 year on parts and labour.{" "}
               <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">Learn more about glass replacement &rarr;</Link>
             </p>
           </div>

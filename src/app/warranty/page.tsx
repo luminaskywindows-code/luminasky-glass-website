@@ -7,7 +7,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Warranty Coverage",
   description:
-    "5-year warranty on sealed glass units against seal failure. 2-year parts and labour on all repairs. Clear terms, no fine print.",
+    "5-year warranty on glass (2 years labour). 1-year warranty on hardware repairs. Clear terms, no fine print.",
   alternates: { canonical: "/warranty" },
 };
 
@@ -85,9 +85,10 @@ export default function WarrantyPage() {
                 Workmanship Warranty
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                All installation and labour is covered by a{" "}
-                <strong className="text-gray-900">2-year workmanship warranty</strong>.
-                If an installation defect appears within 24 months, we come back
+                Glass labour is covered for the first 2 years of the glass warranty.
+                Hardware repairs (cranks, hinges, locks, rollers) are covered by a{" "}
+                <strong className="text-gray-900">1-year warranty on parts and labour</strong>.
+                If a defect appears within the warranty period, we come back
                 and fix it at no charge.
               </p>
               <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
@@ -96,7 +97,7 @@ export default function WarrantyPage() {
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  2 Years on All Installation and Labour
+                  2 Years on Glass Labour, 1 Year on Hardware
                 </p>
               </div>
             </div>
@@ -147,9 +148,9 @@ export default function WarrantyPage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 All window hardware we supply and install is covered by a{" "}
                 <strong className="text-gray-900">
-                  2-year warranty on parts and labour
+                  1-year warranty on parts and labour
                 </strong>
-                . If a part fails under normal use within 24 months, we replace
+                . If a part fails under normal use within 12 months, we replace
                 it at no charge.
               </p>
               <div className="flex items-center gap-3 bg-primary/5 rounded-xl p-4">
@@ -158,7 +159,7 @@ export default function WarrantyPage() {
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  2 Years on Parts and Labour
+                  1 Year on Parts and Labour
                 </p>
               </div>
             </div>

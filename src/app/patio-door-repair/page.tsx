@@ -29,7 +29,7 @@ const PROCESS_STEPS = [
   { step: "1", title: "Send a photo, or a short video of the door moving", desc: "It tells us most of what we need." },
   { step: "2", title: "Get a written price", desc: "Photo quotes are at no charge, or book a $30 site visit, credited back if the work goes ahead." },
   { step: "3", title: "We do the work", desc: "Roller, track and hardware repairs are usually done on the first visit. Glass is measured, made in 5-15 business days, and installed on a second visit." },
-  { step: "4", title: "You get the warranty on your invoice", desc: "2 years on parts and labour for hardware." },
+  { step: "4", title: "You get the warranty on your invoice", desc: "1 year on parts and labour for hardware repairs." },
 ];
 
 const FAQS = [
@@ -202,7 +202,7 @@ export default function PatioDoorRepairPage() {
             Patio Door Glass Replacement
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Building code requires tempered safety glass in patio doors. We measure the panel, have a new tempered sealed unit made (5-15 business days, depending on glass type and size), and install it in your existing panel. You can upgrade to Low-E or argon-filled glass at the same time. New sealed units carry a 5-year warranty against seal failure. All repair work carries a 2-year warranty on parts and labour.
+            Building code requires tempered safety glass in patio doors. We measure the panel, have a new tempered sealed unit made (5-15 business days, depending on glass type and size), and install it in your existing panel. You can upgrade to Low-E or argon-filled glass at the same time. Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs come with 1 year on parts and labour.
           </p>
         </div>
       </section>
@@ -423,9 +423,9 @@ export default function PatioDoorRepairPage() {
                   You&apos;re covered.
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Sealed glass units come with a 5 year warranty against fogging:
-                  glass and labour for the first 2 years, glass only from year 3
-                  to 5. Other repairs come with 2 years on parts and labour.
+                  Sealed glass units come with a 5-year warranty against fogging,
+                  with labour covered for the first 2 years. Hardware repairs
+                  come with 1 year on parts and labour.
                 </p>
               </div>
             </div>

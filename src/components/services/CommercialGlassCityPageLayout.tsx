@@ -98,7 +98,7 @@ export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassC
 
           <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2">
             <ShieldCheck className="w-4 h-4" aria-hidden="true" />
-            <span>5-Year Warranty on sealed glass, 2-Year on parts &amp; labour</span>
+            <span>5-Year Warranty on sealed glass, 1-Year on repairs</span>
           </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">

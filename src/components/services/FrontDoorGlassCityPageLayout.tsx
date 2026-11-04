@@ -269,7 +269,7 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">
             Send us a photo of your door glass and rough measurements. We quote most jobs from photos alone. No visit required, no obligation.
           </p>
-          <p className="text-blue-300 text-xs mb-8">5-year warranty on sealed glass units. 2-year warranty on parts and labour.</p>
+          <p className="text-blue-300 text-xs mb-8">5-year warranty on sealed glass units, with labour covered for the first 2 years.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}

@@ -98,7 +98,7 @@ export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData 
 
           <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2">
             <ShieldCheck className="w-4 h-4" aria-hidden="true" />
-            <span>5-Year Warranty on sealed glass, 2-Year on parts &amp; labour</span>
+            <span>5-Year Warranty on sealed glass, 1-Year on repairs</span>
           </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">
@@ -267,7 +267,7 @@ export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData 
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">
             Send us a photo or a short video of the door. We can usually tell what it needs from that alone. $30 visit fee credited back when you proceed.
           </p>
-          <p className="text-blue-300 text-xs mb-8">5-year warranty on sealed glass units. 2-year warranty on parts and labour.</p>
+          <p className="text-blue-300 text-xs mb-8">5-year warranty on sealed glass units. 1-year warranty on hardware repairs.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}

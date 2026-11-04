@@ -133,7 +133,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           {[
             { icon: Clock, title: "Fast Response", desc: "Same-day or next-day appointments. Emergency calls answered 24/7." },
             { icon: Wrench, title: "Repair, Not Replace", desc: "We fix the broken part (the glass, the crank, the seal) without tearing out your whole window or door." },
-            { icon: Shield, title: "5-Year Warranty", desc: "Sealed glass units backed by our 5-year warranty against seal failure. Hardware repairs covered under a separate 2-year warranty." },
+            { icon: Shield, title: "5-Year Warranty", desc: "Sealed glass units backed by our 5-year warranty against seal failure. Hardware repairs covered under a separate 1-year warranty." },
             { icon: Truck, title: "We Come to You", desc: "Fully mobile service. We bring everything we need to your door. No trips to a shop required." },
           ].map((item) => (
             <div key={item.title} className="text-center">
@@ -319,7 +319,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
             Get a Quote in {city.city}
           </h2>
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">{city.closingCTA}</p>
-          <p className="text-blue-300 text-xs mb-8">5-year warranty on sealed glass units against seal failure. 2-year warranty on all repair work (parts and labour).</p>
+          <p className="text-blue-300 text-xs mb-8">5-year warranty on sealed glass units against seal failure, with labour covered for the first 2 years. 1-year warranty on hardware repairs (parts and labour).</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}
