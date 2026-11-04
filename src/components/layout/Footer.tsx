@@ -9,6 +9,7 @@ import {
   SERVICES,
   COMPANY_NAME,
   WINTER_READY_ENABLED,
+  GOOGLE_REVIEW_URL,
 } from "@/lib/constants";
 import { SocialLinks } from "@/components/shared/SocialLinks";
 
@@ -200,6 +201,14 @@ export function Footer() {
               >
                 <Star className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400 shrink-0" aria-hidden="true" />
                 5.0 / 5 on Google Reviews
+              </a>
+              <a
+                href={GOOGLE_REVIEW_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-flex items-center gap-1.5 text-xs text-accent-light hover:text-white transition-colors"
+              >
+                Leave a Review
               </a>
             </div>
           </div>

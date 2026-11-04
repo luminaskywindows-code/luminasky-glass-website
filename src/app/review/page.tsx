@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { COMPANY_NAME } from "@/lib/constants";
+import { COMPANY_NAME, GOOGLE_REVIEW_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Leave a Review",
   robots: { index: false, follow: false },
   alternates: { canonical: "/review" },
 };
-
-const GOOGLE_REVIEW_URL =
-  "https://g.page/r/CS6Q_SugmPqcEBM/review";
 
 export default function ReviewPage() {
   return (

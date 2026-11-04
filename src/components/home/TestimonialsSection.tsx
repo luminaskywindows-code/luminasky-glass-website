@@ -2,7 +2,7 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import { Star } from "lucide-react";
-import { TESTIMONIALS } from "@/lib/constants";
+import { TESTIMONIALS, GOOGLE_REVIEW_URL } from "@/lib/constants";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { TestimonialCard } from "@/components/shared/TestimonialCard";
 
@@ -74,6 +74,15 @@ export function TestimonialsSection() {
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
+          </a>
+          <a
+            href={GOOGLE_REVIEW_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-5 py-2.5 rounded-md shadow transition-colors text-sm"
+          >
+            <Star className="w-4 h-4 fill-white" aria-hidden="true" />
+            Leave a Google Review
           </a>
           <p className="text-gray-400 text-sm">
             Join hundreds of satisfied GTA homeowners who chose repair over replacement.

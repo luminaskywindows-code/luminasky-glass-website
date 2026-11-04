@@ -5,6 +5,7 @@ export const WHATSAPP_HREF =
 export const EMAIL = "Service@Luminasky.com";
 export const EMAIL_HREF = "mailto:service@luminasky.com";
 export const SITE_URL = "https://www.luminasky.com";
+export const GOOGLE_REVIEW_URL = "https://g.page/r/CS6Q_SugmPqcEBM/review";
 export const COMPANY_NAME = "LuminaSky Glass Services";
 
 export const WINTER_READY_ENABLED = true;
