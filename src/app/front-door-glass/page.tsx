@@ -66,6 +66,20 @@ const PROCESS = [
   },
 ];
 
+const BEFORE_AFTER_INSERT = {
+  title: "Door Insert Replacement in Toronto",
+  before: {
+    src: "/images/services/door-glass-black-door-before.jpg",
+    alt: "Cracked front door glass insert held together with tape before replacement in Toronto",
+    badge: "Before",
+  },
+  after: {
+    src: "/images/services/door-glass-black-door-after.jpg",
+    alt: "New frosted glass door insert after replacement by LuminaSky in Toronto",
+    badge: "After",
+  },
+};
+
 const BEFORE_AFTER = {
   title: "Emergency Door Glass Replacement",
   subtitle:
@@ -745,9 +759,50 @@ export default function FrontDoorGlassPage() {
         </div>
       </section>
 
+      {/* Door Insert Before/After */}
+      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="insert-ba-heading">
+        <div className="max-w-5xl mx-auto">
+          <h2 id="insert-ba-heading" className="text-3xl font-bold text-gray-900 text-center mb-10">
+            {BEFORE_AFTER_INSERT.title}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-md">
+              <div className="relative aspect-[4/3] bg-gray-200">
+                <Image
+                  src={BEFORE_AFTER_INSERT.before.src}
+                  alt={BEFORE_AFTER_INSERT.before.alt}
+                  fill
+                  unoptimized
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <span className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow">
+                  {BEFORE_AFTER_INSERT.before.badge}
+                </span>
+              </div>
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-md">
+              <div className="relative aspect-[4/3] bg-gray-200">
+                <Image
+                  src={BEFORE_AFTER_INSERT.after.src}
+                  alt={BEFORE_AFTER_INSERT.after.alt}
+                  fill
+                  unoptimized
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <span className="absolute top-3 left-3 bg-green-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow">
+                  {BEFORE_AFTER_INSERT.after.badge}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* How Much Does It Cost */}
       <section
-        className="py-16 px-4 md:px-8 bg-white"
+        className="py-16 px-4 md:px-8 bg-gray-50"
         aria-labelledby="cost-heading"
       >
         <div className="max-w-3xl mx-auto">
