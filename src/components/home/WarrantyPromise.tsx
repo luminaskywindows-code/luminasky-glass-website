@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ShieldCheck, CheckCircle2 } from "lucide-react";
 
 const POINTS = [
-  "5-year warranty against seal failure on every sealed glass unit we install",
+  "5-year seal warranty + 2 years on workmanship for every sealed glass unit",
   "1-year warranty on parts and labour for hardware repairs",
   "Clear terms, no fine print, no hidden conditions",
 ];

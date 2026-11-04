@@ -93,7 +93,7 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
     items: [
       {
         q: "What does your warranty cover?",
-        a: "Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered. Full details are printed on your invoice.",
+        a: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered. Full details are printed on your invoice.",
       },
       {
         q: "What happens if something breaks during the repair?",
@@ -105,15 +105,15 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
       },
       {
         q: "Do you offer warranties on glass repair?",
-        a: "Yes. Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
+        a: "Yes. Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
       },
       {
         q: "Are your sealed glass units certified?",
-        a: "Yes. Our sealed glass units are made by an IGMAC-certified manufacturer to the CGSB 12.8 standard, the Canadian standard for insulating glass. New sealed units come with a 5-year warranty against seal failure.",
+        a: "Yes. Our sealed glass units are made by an IGMAC-certified manufacturer to the CGSB 12.8 standard, the Canadian standard for insulating glass. New sealed units come with a 5-year warranty against seal failure and 2 years on workmanship.",
       },
       {
         q: "What does your warranty cover?",
-        a: "Our 5-year warranty covers sealed glass units against seal failure (fogging, condensation between the panes), with labour covered for the first 2 years. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered under warranty.",
+        a: "Sealed glass units come with a 5-year warranty against seal failure (fogging, condensation between the panes) and 2 years on workmanship. In the first 2 years, parts and labour are included. From year 3 to year 5, the replacement glass is covered and labour is billed. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered under warranty.",
       },
     ],
   },

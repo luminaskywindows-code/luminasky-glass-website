@@ -66,7 +66,7 @@ const CREDENTIALS = [
   },
   {
     icon: ShieldCheck,
-    title: "5-Year Warranty on Glass (2 Years Labour)",
+    title: "5-Year Seal Warranty on Glass Units",
     color: "text-sky-600",
     bg: "bg-sky-100",
     href: "/warranty",

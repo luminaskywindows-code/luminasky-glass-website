@@ -43,7 +43,7 @@ const UNIVERSAL_FAQS = [
   },
   {
     q: "What warranty do you offer on skylight repair?",
-    a: "New sealed glass units carry a 5-year warranty against seal failure, with labour covered for the first 2 years. Hardware repairs like cranks and hinges come with 1 year on parts and labour.",
+    a: "New sealed glass units carry a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks and hinges come with 1 year on parts and labour.",
   },
 ];
 
@@ -98,7 +98,7 @@ export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData })
 
           <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2">
             <ShieldCheck className="w-4 h-4" aria-hidden="true" />
-            <span>5-Year Warranty on sealed glass, 1-Year on repairs</span>
+            <span>5-Year Seal Warranty + 2-Year Glass Workmanship</span>
           </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">

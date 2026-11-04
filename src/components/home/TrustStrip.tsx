@@ -13,7 +13,7 @@ import {
 const TRUST_ITEMS = [
   {
     icon: Award,
-    label: "5-Year Glass Warranty + 1-Year on Repairs",
+    label: "5-Year Seal Warranty + 2-Year Glass Workmanship",
     href: "/warranty",
     highlight: true,
   },

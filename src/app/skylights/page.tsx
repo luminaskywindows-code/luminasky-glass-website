@@ -157,7 +157,7 @@ const FAQS = [
   },
   {
     q: "What's the warranty on skylight repair?",
-    a: "Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs like cranks and hinges come with 1 year on parts and labour.",
+    a: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks and hinges come with 1 year on parts and labour.",
   },
   {
     q: "My skylight is old. Should I repair or replace it?",
@@ -338,7 +338,7 @@ export default function SkylightsPage() {
               Building code requires tempered safety glass in skylights. We measure the existing unit, order a new tempered sealed unit made to size, and install it once it arrives, typically 5-15 business days depending on glass type and dimensions. You can upgrade to low-E coated or argon-filled glass at the same time for better energy performance.
             </p>
             <p>
-              Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs come with 1 year on parts and labour.{" "}
+              Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs come with 1 year on parts and labour.{" "}
               <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">Learn more about glass replacement &rarr;</Link>
             </p>
           </div>

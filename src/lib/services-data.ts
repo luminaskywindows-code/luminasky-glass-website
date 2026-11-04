@@ -99,7 +99,7 @@ export const FOGGY_WINDOWS: ServiceData = {
     },
     {
       q: "Do you warranty the repair?",
-      a: "Yes. All glass unit replacements come with a 5-year warranty against seal failure on sealed glass units.",
+      a: "Yes. Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs come with 1 year on parts and labour.",
     },
     {
       q: "Can you match my existing glass type (frosted, tinted, etc.)?",

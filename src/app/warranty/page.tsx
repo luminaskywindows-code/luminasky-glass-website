@@ -7,7 +7,7 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Warranty Coverage",
   description:
-    "5-year warranty on glass (2 years labour). 1-year warranty on hardware repairs. Clear terms, no fine print.",
+    "5-year seal warranty on glass, 2 years on workmanship. 1-year warranty on hardware repairs. Clear terms, no fine print.",
   alternates: { canonical: "/warranty" },
 };
 

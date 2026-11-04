@@ -70,7 +70,7 @@ export function Navbar() {
             </span>
             <Link href="/warranty" className="hidden sm:flex items-center gap-1.5 text-accent-light font-semibold hover:text-white transition-colors">
               <Shield className="w-3.5 h-3.5" aria-hidden="true" />
-              5-Year Glass Warranty + 1-Year on Repairs
+              5-Year Seal Warranty + 2-Year Glass Workmanship
             </Link>
             <span className="hidden lg:flex items-center gap-1.5">
               <Star className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" aria-hidden="true" />

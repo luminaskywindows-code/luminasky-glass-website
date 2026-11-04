@@ -268,7 +268,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">
             Send us a few photos and rough measurements. We quote most jobs from photos alone. No visit required, no obligation, no pressure.
           </p>
-          <p className="text-blue-300 text-xs mb-8">5-year warranty on sealed glass units against seal failure, with labour covered for the first 2 years.</p>
+          <p className="text-blue-300 text-xs mb-8">5-year seal warranty on glass units, 2 years on workmanship.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}

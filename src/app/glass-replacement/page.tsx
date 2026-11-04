@@ -76,7 +76,7 @@ const PROCESS_STEPS = [
   {
     step: "5",
     title: "You get a warranty on the invoice",
-    desc: "Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs come with 1 year on parts and labour.",
+    desc: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs come with 1 year on parts and labour.",
   },
 ];
 
@@ -110,7 +110,7 @@ const FAQS = [
   },
   {
     q: "Is the new glass under warranty?",
-    a: "Yes. Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
+    a: "Yes. Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
   },
 ];
 
@@ -199,7 +199,7 @@ export default function GlassReplacementPage() {
                 Broken or Cracked Window Glass Replacement in Toronto
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
-                <strong>Glass replacement at LuminaSky costs a fraction of full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, glass comes with a 5-year warranty (labour covered for the first 2 years), and hardware repairs come with 1 year on parts and labour, and we service residential and commercial properties across the GTA. See our <Link href="/glass-replacement-cost-report-2026" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">2026 GTA Cost Report</Link> for market pricing.
+                <strong>Glass replacement at LuminaSky costs a fraction of full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, glass comes with a 5-year seal warranty plus 2 years on glass workmanship. Hardware repairs come with 1 year on parts and labour. We service residential and commercial properties across the GTA. See our <Link href="/glass-replacement-cost-report-2026" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">2026 GTA Cost Report</Link> for market pricing.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link

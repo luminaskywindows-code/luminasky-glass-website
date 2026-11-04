@@ -174,7 +174,7 @@ const FAQS = [
   },
   {
     q: "What warranty does LuminaSky offer on sealed glass?",
-    a: "Glass comes with a 5-year warranty, with labour covered for the first 2 years. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
+    a: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
   },
 ];
 
