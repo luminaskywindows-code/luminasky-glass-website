@@ -243,7 +243,7 @@ function generateReportSchema() {
 }
 
 export const metadata: Metadata = {
-  title: "GTA Glass Replacement Cost Report 2026",
+  title: "Toronto Glass Replacement Cost Report 2026",
   description:
     "What does glass replacement cost in Toronto in 2026? GTA pricing data, cost factors, hidden fees to avoid and tips to save. Updated October 2026.",
   alternates: { canonical: "/glass-replacement-cost-report-2026" },

@@ -22,7 +22,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "toronto",
     city: "Toronto",
     region: "Toronto",
-    metaTitle: "Commercial Glass Repair Toronto | Storefronts & Doors | LuminaSky",
+    metaTitle: "Commercial Glass Repair Toronto | Storefronts & Doors",
     metaDescription:
       "Commercial glass repair in Toronto. Storefront glass, door glass, office partitions and emergency board-up. 24/7 response.",
     intro:
@@ -39,7 +39,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "mississauga",
     city: "Mississauga",
     region: "Peel Region",
-    metaTitle: "Commercial Glass Repair Mississauga | LuminaSky Glass Services",
+    metaTitle: "Commercial Glass Repair Mississauga | Storefronts & Doors",
     metaDescription:
       "Commercial glass repair in Mississauga. Storefront glass, commercial door glass, office glass and emergency board-up service.",
     intro:
@@ -56,7 +56,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "vaughan",
     city: "Vaughan",
     region: "York Region",
-    metaTitle: "Commercial Glass Repair Vaughan | Storefronts & Doors | LuminaSky",
+    metaTitle: "Commercial Glass Repair Vaughan | Storefronts & Doors",
     metaDescription:
       "Commercial glass repair in Vaughan. Storefront glass replacement, commercial door glass, office glass and 24/7 emergency board-up.",
     intro:
@@ -73,7 +73,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "markham",
     city: "Markham",
     region: "York Region",
-    metaTitle: "Commercial Glass Repair Markham | LuminaSky Glass Services",
+    metaTitle: "Commercial Glass Repair Markham | Storefronts & Doors",
     metaDescription:
       "Commercial glass repair in Markham. Storefront windows, commercial doors, office glass and emergency board-up. Fast response.",
     intro:
@@ -90,7 +90,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "brampton",
     city: "Brampton",
     region: "Peel Region",
-    metaTitle: "Commercial Glass Repair Brampton | Storefronts & Doors | LuminaSky",
+    metaTitle: "Commercial Glass Repair Brampton | Storefronts & Doors",
     metaDescription:
       "Commercial glass repair in Brampton. Storefront glass, door glass, plaza glass and emergency board-up. Available 24/7.",
     intro:
@@ -107,7 +107,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "oakville",
     city: "Oakville",
     region: "Halton Region",
-    metaTitle: "Commercial Glass Repair Oakville | LuminaSky Glass Services",
+    metaTitle: "Commercial Glass Repair Oakville | Storefronts & Doors",
     metaDescription:
       "Commercial glass repair in Oakville. Storefront glass, commercial doors, office partitions and emergency board-up service.",
     intro:
@@ -124,7 +124,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "hamilton",
     city: "Hamilton",
     region: "Hamilton",
-    metaTitle: "Commercial Glass Repair Hamilton | Storefronts & Doors | LuminaSky",
+    metaTitle: "Commercial Glass Repair Hamilton | Storefronts & Doors",
     metaDescription:
       "Commercial glass repair in Hamilton. Storefront glass replacement, door glass, office glass and 24/7 emergency board-up.",
     intro:
@@ -141,7 +141,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "north-york",
     city: "North York",
     region: "Toronto",
-    metaTitle: "Commercial Glass Repair North York | LuminaSky Glass Services",
+    metaTitle: "Commercial Glass Repair North York | Storefronts & Doors",
     metaDescription:
       "Commercial glass repair in North York. Storefront glass, office doors, lobby glass and emergency board-up. 24/7 service.",
     intro:
@@ -158,7 +158,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "scarborough",
     city: "Scarborough",
     region: "Toronto",
-    metaTitle: "Commercial Glass Repair Scarborough | LuminaSky Glass Services",
+    metaTitle: "Commercial Glass Repair Scarborough | Storefronts & Doors",
     metaDescription:
       "Commercial glass repair in Scarborough. Storefront windows, commercial doors, office glass and 24/7 emergency board-up.",
     intro:
@@ -175,7 +175,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "etobicoke",
     city: "Etobicoke",
     region: "Toronto",
-    metaTitle: "Commercial Glass Repair Etobicoke | LuminaSky Glass Services",
+    metaTitle: "Commercial Glass Repair Etobicoke | Storefronts & Doors",
     metaDescription:
       "Commercial glass repair in Etobicoke. Storefront glass, door glass, office partitions and 24/7 emergency service.",
     intro:

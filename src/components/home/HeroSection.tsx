@@ -318,7 +318,7 @@ export function HeroSection() {
   };
 
   const item = {
-    hidden: { opacity: 0, y: prefersReduced ? 0 : 24 },
+    hidden: { opacity: prefersReduced ? 1 : 0, y: prefersReduced ? 0 : 24 },
     show: {
       opacity: 1,
       y: 0,
@@ -368,13 +368,12 @@ export function HeroSection() {
                 </span>
               </motion.div>
 
-              {/* H1 */}
-              <motion.h1
-                variants={item}
+              {/* H1 — no motion wrapper so it's visible in SSR for crawlers/LCP */}
+              <h1
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold text-white leading-[1.1] tracking-tight"
               >
                 Glass &amp; Window Repair In Toronto
-              </motion.h1>
+              </h1>
 
               {/* Accent sub-headline */}
               <motion.p

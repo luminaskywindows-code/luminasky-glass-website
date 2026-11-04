@@ -22,7 +22,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "toronto",
     city: "Toronto",
     region: "Toronto",
-    metaTitle: "Skylight Repair Toronto | Leaks, Glass & Seals | LuminaSky",
+    metaTitle: "Skylight Repair Toronto | Leaks, Glass & Seals",
     metaDescription:
       "Skylight repair in Toronto. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -39,7 +39,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "mississauga",
     city: "Mississauga",
     region: "Peel Region",
-    metaTitle: "Skylight Repair Mississauga | LuminaSky Glass Services",
+    metaTitle: "Skylight Repair Mississauga | Leaks & Glass",
     metaDescription:
       "Skylight repair in Mississauga. Leaks, fogged glass, flashing and seal replacement. 24/7 emergency service across Mississauga.",
     intro:
@@ -56,7 +56,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "vaughan",
     city: "Vaughan",
     region: "York Region",
-    metaTitle: "Skylight Repair Vaughan | Leaks & Glass | LuminaSky",
+    metaTitle: "Skylight Repair Vaughan | Leaks & Glass",
     metaDescription:
       "Skylight repair in Vaughan. Leak repair, glass replacement, flashing and seals. Serving Woodbridge, Maple, Kleinburg and Concord.",
     intro:
@@ -73,7 +73,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "thornhill",
     city: "Thornhill",
     region: "York Region",
-    metaTitle: "Skylight Repair Thornhill | LuminaSky Glass Services",
+    metaTitle: "Skylight Repair Thornhill | Leaks & Glass",
     metaDescription:
       "Skylight repair in Thornhill. Fogged glass, leaks, flashing and seal replacement. Serving all of Thornhill, Vaughan and Markham sides.",
     intro:
@@ -90,7 +90,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "richmond-hill",
     city: "Richmond Hill",
     region: "York Region",
-    metaTitle: "Skylight Repair Richmond Hill | LuminaSky Glass Services",
+    metaTitle: "Skylight Repair Richmond Hill | Leaks & Glass",
     metaDescription:
       "Skylight repair in Richmond Hill. Leaks, fogged glass, flashing, seal replacement and emergency service.",
     intro:
@@ -107,7 +107,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "markham",
     city: "Markham",
     region: "York Region",
-    metaTitle: "Skylight Repair Markham | Leaks & Glass | LuminaSky",
+    metaTitle: "Skylight Repair Markham | Leaks & Glass",
     metaDescription:
       "Skylight repair in Markham. Leak repair, glass replacement, flashing and hardware. Serving Unionville, Cornell, Berczy and all of Markham.",
     intro:
@@ -124,7 +124,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "brampton",
     city: "Brampton",
     region: "Peel Region",
-    metaTitle: "Skylight Repair Brampton | LuminaSky Glass Services",
+    metaTitle: "Skylight Repair Brampton | Leaks & Glass",
     metaDescription:
       "Skylight repair in Brampton. Leaks, fogged glass, flashing and seal repair. Emergency skylight service available 24/7.",
     intro:
@@ -141,7 +141,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "oakville",
     city: "Oakville",
     region: "Halton Region",
-    metaTitle: "Skylight Repair Oakville | Leaks & Glass | LuminaSky",
+    metaTitle: "Skylight Repair Oakville | Leaks & Glass",
     metaDescription:
       "Skylight repair in Oakville. Leak repair, glass replacement, flashing and seals. Serving all of Oakville and surrounding Halton Region.",
     intro:
@@ -158,7 +158,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "hamilton",
     city: "Hamilton",
     region: "Hamilton",
-    metaTitle: "Skylight Repair Hamilton | LuminaSky Glass Services",
+    metaTitle: "Skylight Repair Hamilton | Leaks & Glass",
     metaDescription:
       "Skylight repair in Hamilton. Leaks, fogged glass, flashing and seal replacement. Serving the Mountain, Dundas, Ancaster, Stoney Creek and Waterdown.",
     intro:
@@ -175,7 +175,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "north-york",
     city: "North York",
     region: "Toronto",
-    metaTitle: "Skylight Repair North York | LuminaSky Glass Services",
+    metaTitle: "Skylight Repair North York | Leaks & Glass",
     metaDescription:
       "Skylight repair in North York. Leaks, fogged glass, flashing and seal work. Serving Willowdale, Don Mills, Bayview Village and all of North York.",
     intro:

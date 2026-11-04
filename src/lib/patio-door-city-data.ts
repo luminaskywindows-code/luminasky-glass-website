@@ -22,7 +22,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "toronto",
     city: "Toronto",
     region: "Toronto",
-    metaTitle: "Patio Door Repair Toronto | Rollers, Tracks & Glass | LuminaSky",
+    metaTitle: "Patio Door Repair Toronto | Rollers, Tracks & Glass",
     metaDescription:
       "Sliding patio door repair in Toronto. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
     intro:
@@ -39,7 +39,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "mississauga",
     city: "Mississauga",
     region: "Peel Region",
-    metaTitle: "Patio Door Repair Mississauga | Rollers & Tracks | LuminaSky",
+    metaTitle: "Patio Door Repair Mississauga | Rollers & Tracks",
     metaDescription:
       "Patio door repair in Mississauga. Roller replacement, track repair, panel adjustment and glass replacement for sliding doors.",
     intro:
@@ -56,7 +56,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "vaughan",
     city: "Vaughan",
     region: "York Region",
-    metaTitle: "Patio Door Repair Vaughan | Rollers, Tracks & Glass | LuminaSky",
+    metaTitle: "Patio Door Repair Vaughan | Rollers, Tracks & Glass",
     metaDescription:
       "Sliding patio door repair in Vaughan. Roller replacement, track cleaning, panel adjustment and patio door glass made to size.",
     intro:
@@ -73,7 +73,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "thornhill",
     city: "Thornhill",
     region: "York Region",
-    metaTitle: "Patio Door Repair Thornhill | Rollers & Tracks | LuminaSky",
+    metaTitle: "Patio Door Repair Thornhill | Rollers & Tracks",
     metaDescription:
       "Patio door repair in Thornhill. We replace rollers, cap tracks, adjust panels and replace patio door glass. Written quote on-site.",
     intro:
@@ -90,7 +90,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "richmond-hill",
     city: "Richmond Hill",
     region: "York Region",
-    metaTitle: "Patio Door Repair Richmond Hill | LuminaSky Glass Services",
+    metaTitle: "Patio Door Repair Richmond Hill | Rollers & Tracks",
     metaDescription:
       "Sliding patio door repair in Richmond Hill. Roller replacement, track repair, lock adjustment and glass for patio doors.",
     intro:
@@ -107,7 +107,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "markham",
     city: "Markham",
     region: "York Region",
-    metaTitle: "Patio Door Repair Markham | Rollers, Tracks & Glass | LuminaSky",
+    metaTitle: "Patio Door Repair Markham | Rollers, Tracks & Glass",
     metaDescription:
       "Patio door repair in Markham. Roller and track repair, panel adjustment, and sealed glass replacement for sliding patio doors.",
     intro:
@@ -124,7 +124,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "brampton",
     city: "Brampton",
     region: "Peel Region",
-    metaTitle: "Patio Door Repair Brampton | Rollers & Tracks | LuminaSky",
+    metaTitle: "Patio Door Repair Brampton | Rollers & Tracks",
     metaDescription:
       "Sliding patio door repair in Brampton. Roller replacement, track cleaning, lock adjustment and patio door glass. On-site quotes.",
     intro:
@@ -141,7 +141,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "oakville",
     city: "Oakville",
     region: "Halton Region",
-    metaTitle: "Patio Door Repair Oakville | Rollers, Tracks & Glass | LuminaSky",
+    metaTitle: "Patio Door Repair Oakville | Rollers, Tracks & Glass",
     metaDescription:
       "Patio door repair in Oakville. We replace rollers, fix tracks, adjust panels and replace glass in sliding patio doors.",
     intro:
@@ -158,7 +158,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "burlington",
     city: "Burlington",
     region: "Halton Region",
-    metaTitle: "Patio Door Repair Burlington | Rollers & Tracks | LuminaSky",
+    metaTitle: "Patio Door Repair Burlington | Rollers & Tracks",
     metaDescription:
       "Sliding patio door repair in Burlington. Roller replacement, track capping, panel adjustment and glass for patio doors.",
     intro:
@@ -175,7 +175,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "hamilton",
     city: "Hamilton",
     region: "Hamilton",
-    metaTitle: "Patio Door Repair Hamilton | Rollers, Tracks & Glass | LuminaSky",
+    metaTitle: "Patio Door Repair Hamilton | Rollers, Tracks & Glass",
     metaDescription:
       "Patio door repair in Hamilton. Roller replacement, track repair, lock fixes and patio door glass. On-site service.",
     intro:
@@ -192,7 +192,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "newmarket",
     city: "Newmarket",
     region: "York Region",
-    metaTitle: "Patio Door Repair Newmarket | Rollers & Tracks | LuminaSky",
+    metaTitle: "Patio Door Repair Newmarket | Rollers & Tracks",
     metaDescription:
       "Sliding patio door repair in Newmarket. Roller replacement, track repair, panel adjustment and patio door glass replacement.",
     intro:
@@ -209,7 +209,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     slug: "scarborough",
     city: "Scarborough",
     region: "Toronto",
-    metaTitle: "Patio Door Repair Scarborough | Rollers & Glass | LuminaSky",
+    metaTitle: "Patio Door Repair Scarborough | Rollers & Glass",
     metaDescription:
       "Patio door repair in Scarborough. Roller replacement, track fixes, lock adjustment and patio door glass. Written quotes.",
     intro:

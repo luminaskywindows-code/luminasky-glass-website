@@ -56,7 +56,7 @@ export function PhotoShowcase() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {/* Before */}
             <motion.div
-              initial={{ opacity: 0, x: prefersReduced ? 0 : -30 }}
+              initial={{ opacity: 1, x: prefersReduced ? 0 : -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: prefersReduced ? 0 : 0.55, ease: "easeOut" }}
@@ -84,7 +84,7 @@ export function PhotoShowcase() {
 
             {/* After */}
             <motion.div
-              initial={{ opacity: 0, x: prefersReduced ? 0 : 30 }}
+              initial={{ opacity: 1, x: prefersReduced ? 0 : 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{
@@ -133,7 +133,7 @@ export function PhotoShowcase() {
             {GALLERY_ITEMS.map((item, index) => (
               <motion.div
                 key={item.alt}
-                initial={{ opacity: 0, y: prefersReduced ? 0 : 20 }}
+                initial={{ opacity: 1, y: prefersReduced ? 0 : 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{

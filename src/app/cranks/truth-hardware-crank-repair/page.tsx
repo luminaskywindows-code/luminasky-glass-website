@@ -24,7 +24,7 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Truth Hardware Window Crank Repair GTA | 1-Year Warranty | LuminaSky Glass",
+  title: "Truth Hardware Crank Repair Toronto | 1-Year Warranty",
   description:
     "Truth Hardware crank repair across the GTA. We stock AmesburyTruth operators, handles and arms for casement and awning windows. $30 visit credited back. 1-year warranty. Call 437-344-8490.",
   alternates: { canonical: "/cranks/truth-hardware-crank-repair" },

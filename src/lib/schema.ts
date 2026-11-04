@@ -58,6 +58,7 @@ export function generateOrganizationSchema() {
       "https://www.facebook.com/LuminaSkyGlassServices",
       "https://www.instagram.com/luminasky_glass_services/",
       "https://www.bbb.org/ca/on/vaughan/profile/window-repair/luminasky-glass-services-0107-1422165",
+      "https://maps.google.com/?cid=11308652498566906926",
     ],
     founder: {
       "@type": "Person",

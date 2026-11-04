@@ -225,7 +225,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "winter-window-checklist-gta",
     title: "Winter Window Checklist for GTA Homes: 10 Things to Check Before the First Freeze",
-    metaTitle: "Winter Window Checklist for GTA Homes",
+    metaTitle: "Winter Window Checklist for Toronto Homes",
     metaDescription:
       "Before the cold sets in, check these 10 things on your windows, doors and skylights. A simple winter checklist for Vaughan, Thornhill and GTA homeowners.",
     excerpt:

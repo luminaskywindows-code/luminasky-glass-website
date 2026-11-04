@@ -92,10 +92,6 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
     title: "Trust & Warranty",
     items: [
       {
-        q: "What does your warranty cover?",
-        a: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered. Full details are printed on your invoice.",
-      },
-      {
         q: "What happens if something breaks during the repair?",
         a: "If glass breaks during our work, we order a new one right away and replace it at no cost to you. We photograph the window's condition before we start so there is a clear record.",
       },

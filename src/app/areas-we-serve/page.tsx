@@ -8,7 +8,7 @@ import { FOGGY_GLASS_CITY_PAGES } from "@/lib/foggy-glass-city-data";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Areas We Serve in the GTA",
+  title: "Areas We Serve in Toronto and Surrounding Cities",
   description:
     "Window and glass repair across 34 GTA cities. Toronto, Vaughan, Mississauga, Markham and more. 5-Year Warranty on glass. Call 437-344-8490.",
   alternates: { canonical: "/areas-we-serve" },
