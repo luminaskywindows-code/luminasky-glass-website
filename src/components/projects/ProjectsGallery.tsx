@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { MapPin, Zap, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { PROJECTS, PROJECT_CATEGORIES, type ProjectCategory, type Project } from "@/lib/projects-data";
@@ -35,13 +36,31 @@ function useVisibilityPlayback(cardRef: React.RefObject<HTMLDivElement | null>, 
   return { beforeRef, afterRef };
 }
 
+const SERVICE_TYPE_HREF: Record<string, string> = {
+  "Skylight Replacement": "/skylights",
+  "Skylights": "/skylights",
+  "Front Doors": "/front-door-glass",
+  "Front Door Glass": "/front-door-glass",
+  "Windows": "/glass-replacement",
+  "Glass Replacement": "/glass-replacement",
+  "Doors": "/patio-door-repair",
+  "Hardware": "/cranks",
+};
+
 function ProjectDetails({ project }: { project: Project }) {
+  const serviceHref = SERVICE_TYPE_HREF[project.serviceType];
   return (
     <div className="p-5">
       <div className="flex flex-wrap items-center gap-2 mb-3">
-        <span className="bg-blue-50 text-primary text-xs font-semibold px-3 py-1 rounded-full">
-          {project.serviceType}
-        </span>
+        {serviceHref ? (
+          <Link href={serviceHref} className="bg-blue-50 text-primary text-xs font-semibold px-3 py-1 rounded-full hover:bg-blue-100 transition-colors">
+            {project.serviceType}
+          </Link>
+        ) : (
+          <span className="bg-blue-50 text-primary text-xs font-semibold px-3 py-1 rounded-full">
+            {project.serviceType}
+          </span>
+        )}
         {project.emergency && (
           <span className="flex items-center gap-1 bg-red-50 text-red-700 text-xs font-semibold px-3 py-1 rounded-full">
             <Zap className="w-3 h-3" aria-hidden="true" />
@@ -59,7 +78,7 @@ function ProjectDetails({ project }: { project: Project }) {
       {project.location && (
         <div className="mt-3 flex items-center gap-1 text-gray-400 text-xs">
           <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
-          {project.location}, GTA
+          {project.location}
         </div>
       )}
     </div>

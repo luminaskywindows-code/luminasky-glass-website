@@ -296,7 +296,6 @@ export const PROJECTS: Project[] = [
       "The glass insert in this Toronto front door cracked and was taped up to hold it together. We replaced the insert with new frosted glass, so the entry gets light and privacy again. The door stayed on its hinges and only the glass was changed.",
     location: "Toronto",
     serviceType: "Front Door Glass",
-    tags: ["front-door-glass"],
   },
 ];
 
