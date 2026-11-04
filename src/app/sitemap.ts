@@ -2,6 +2,11 @@ import { MetadataRoute } from "next";
 import { SITE_URL, SERVICES } from "@/lib/constants";
 import { CITY_PAGES } from "@/lib/city-pages-data";
 import { FOGGY_GLASS_CITY_PAGES } from "@/lib/foggy-glass-city-data";
+import { FRONT_DOOR_GLASS_CITY_PAGES } from "@/lib/front-door-glass-city-data";
+import { PATIO_DOOR_CITY_PAGES } from "@/lib/patio-door-city-data";
+import { SKYLIGHT_CITY_PAGES } from "@/lib/skylight-city-data";
+import { CRANKS_CITY_PAGES } from "@/lib/cranks-city-data";
+import { COMMERCIAL_GLASS_CITY_PAGES } from "@/lib/commercial-glass-city-data";
 import { BLOG_POSTS } from "@/lib/blog-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -62,6 +67,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
+    ...FRONT_DOOR_GLASS_CITY_PAGES.map((c) => ({
+      url: `${SITE_URL}/front-door-glass-${c.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...PATIO_DOOR_CITY_PAGES.map((c) => ({
+      url: `${SITE_URL}/patio-door-repair-${c.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...SKYLIGHT_CITY_PAGES.map((c) => ({
+      url: `${SITE_URL}/skylight-repair-${c.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...CRANKS_CITY_PAGES.map((c) => ({
+      url: `${SITE_URL}/window-crank-repair-${c.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...COMMERCIAL_GLASS_CITY_PAGES.map((c) => ({
+      url: `${SITE_URL}/commercial-glass-repair-${c.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    {
+      url: `${SITE_URL}/cranks/truth-hardware-crank-repair`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
     {
       url: `${SITE_URL}/window-repair-cost`,
       lastModified: new Date("2026-10-22"),
