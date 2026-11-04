@@ -69,12 +69,12 @@ const PROCESS = [
 const BEFORE_AFTER_INSERT = {
   title: "Door Insert Replacement in Toronto",
   before: {
-    src: "/images/services/door-glass-black-door-before.jpg",
+    src: "/images/services/toronto-door-insert-replacement-before.webp",
     alt: "Cracked front door glass insert held together with tape before replacement in Toronto",
     badge: "Before",
   },
   after: {
-    src: "/images/services/door-glass-black-door-after.jpg",
+    src: "/images/services/toronto-door-insert-replacement-after.webp",
     alt: "New frosted glass door insert after replacement by LuminaSky in Toronto",
     badge: "After",
   },

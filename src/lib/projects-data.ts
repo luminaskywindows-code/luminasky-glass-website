@@ -280,6 +280,24 @@ export const PROJECTS: Project[] = [
     location: "Vaughan",
     serviceType: "Skylights",
   },
+  {
+    id: "toronto-door-insert-replacement",
+    title: "Front Door Glass Insert Replacement in Toronto",
+    category: "doors",
+    beforeImage: {
+      src: "/images/services/toronto-door-insert-replacement-before.webp",
+      alt: "Cracked front door glass insert held together with tape in a Toronto home",
+    },
+    afterImage: {
+      src: "/images/services/toronto-door-insert-replacement-after.webp",
+      alt: "New frosted glass insert installed in a Toronto front door",
+    },
+    description:
+      "The glass insert in this Toronto front door cracked and was taped up to hold it together. We replaced the insert with new frosted glass, so the entry gets light and privacy again. The door stayed on its hinges and only the glass was changed.",
+    location: "Toronto",
+    serviceType: "Front Door Glass",
+    tags: ["front-door-glass"],
+  },
 ];
 
 export const PROJECT_CATEGORIES: { value: ProjectCategory; label: string }[] = [
