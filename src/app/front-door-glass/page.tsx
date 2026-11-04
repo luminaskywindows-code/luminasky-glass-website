@@ -43,28 +43,6 @@ const PHOTOS = [
   },
 ];
 
-const PROCESS = [
-  {
-    step: "Consultation",
-    desc: "We discuss your style preferences and measure the existing glass insert or opening.",
-  },
-  {
-    step: "Glass Selection",
-    desc: "Choose from our range of decorative, frosted, clear, and privacy glass options.",
-  },
-  {
-    step: "Removal",
-    desc: "The old or damaged glass insert is carefully removed without damaging the door or frame.",
-  },
-  {
-    step: "Installation",
-    desc: "Your new glass panel is installed and sealed for a weather-tight, secure fit.",
-  },
-  {
-    step: "Final Inspection",
-    desc: "We inspect the installation and clean up before leaving you with a renewed entrance.",
-  },
-];
 
 const BEFORE_AFTER_INSERT = {
   title: "Door Insert Replacement in Toronto",
@@ -565,54 +543,6 @@ export default function FrontDoorGlassPage() {
                 </div>
                 <p className="text-gray-700 text-sm leading-relaxed">
                   {sign.text}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Our Process */}
-      <section
-        className="py-16 px-4 md:px-8 bg-gray-50"
-        aria-labelledby="process-heading"
-      >
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-              How It Works
-            </span>
-            <h2
-              id="process-heading"
-              className="text-3xl font-bold text-gray-900"
-            >
-              Our Process
-            </h2>
-          </div>
-          <div
-            className="grid gap-6"
-            style={{
-              gridTemplateColumns: `repeat(${PROCESS.length}, minmax(0, 1fr))`,
-            }}
-          >
-            {PROCESS.map((step, index) => (
-              <div key={step.step} className="relative text-center">
-                {index < PROCESS.length - 1 && (
-                  <div
-                    className="hidden lg:block absolute top-7 left-[calc(50%+2rem)] right-[-50%] h-px bg-gray-200"
-                    aria-hidden="true"
-                  />
-                )}
-                <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 relative z-10">
-                  <span className="text-white font-bold text-lg">
-                    {index + 1}
-                  </span>
-                </div>
-                <h3 className="font-semibold text-gray-900 mb-2 text-sm">
-                  {step.step}
-                </h3>
-                <p className="text-gray-500 text-sm leading-relaxed">
-                  {step.desc}
                 </p>
               </div>
             ))}

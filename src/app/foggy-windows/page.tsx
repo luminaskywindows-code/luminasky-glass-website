@@ -99,23 +99,6 @@ const SEAL_FAILURE_SIGNS = [
   },
 ];
 
-const HOW_IT_WORKS = [
-  {
-    step: "1",
-    title: "Send a photo or call for a quote",
-    desc: "Send a photo of your foggy window and we will confirm it can be fixed and give you a quote. In-person assessments are $30, credited toward the job.",
-  },
-  {
-    step: "2",
-    title: "We measure and order your glass",
-    desc: "A technician measures the exact size of each glass unit on-site. Your new sealed unit is custom-made to fit your existing frame.",
-  },
-  {
-    step: "3",
-    title: "New glass installed, old frame kept",
-    desc: "We remove the failed glass unit and install the new one. Installation takes under an hour per window. Your trim, sills and walls stay untouched.",
-  },
-];
 
 const WINDOW_BRANDS = [
   "North Star",
@@ -563,49 +546,6 @@ export default function FoggyWindowsPage() {
                 Clear glass after sealed unit replacement, Toronto
               </figcaption>
             </figure>
-          </div>
-        </div>
-      </section>
-
-      {/* ── How It Works ── */}
-      <section
-        className="py-16 px-4 md:px-8 bg-white"
-        aria-labelledby="process-heading"
-      >
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
-              Simple Process
-            </span>
-            <h2
-              id="process-heading"
-              className="text-3xl font-bold text-gray-900"
-            >
-              How It Works
-            </h2>
-            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
-              Glass is measured first, custom-made, then installed. Most jobs
-              take 5 to 15 business days from measurement to completion.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {HOW_IT_WORKS.map(({ step, title, desc }) => (
-              <div key={step} className="text-center">
-                <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
-                  {step}
-                </div>
-                <h3 className="font-bold text-gray-900 mb-2">{title}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-10 bg-accent/10 border border-accent/20 rounded-xl p-6 text-center">
-            <p className="text-gray-700 font-medium">
-              The $30 site visit fee is credited toward your repair. If you go
-              ahead, the visit is free.
-            </p>
           </div>
         </div>
       </section>

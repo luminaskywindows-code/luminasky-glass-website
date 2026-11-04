@@ -25,12 +25,6 @@ const PROBLEMS = [
   { title: "A torn or broken screen door", desc: "We fit new mesh, rollers and frames.", link: { href: "/window-screens", text: "Screen repair" } },
 ];
 
-const PROCESS_STEPS = [
-  { step: "1", title: "Send a photo, or a short video of the door moving", desc: "It tells us most of what we need." },
-  { step: "2", title: "Get a written price", desc: "Photo quotes are at no charge, or book a $30 site visit, credited back if the work goes ahead." },
-  { step: "3", title: "We do the work", desc: "Roller, track and hardware repairs are usually done on the first visit. Glass is measured, made in 5-15 business days, and installed on a second visit." },
-  { step: "4", title: "You get the warranty on your invoice", desc: "1 year on parts and labour for hardware repairs." },
-];
 
 const FAQS = [
   {
@@ -237,28 +231,6 @@ export default function PatioDoorRepairPage() {
             <Link href="/window-repair-cost" className="text-primary font-semibold hover:underline">
               What affects the cost? &rarr;
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* How It Works */}
-      <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="process-heading">
-        <div className="max-w-3xl mx-auto">
-          <h2 id="process-heading" className="text-3xl font-bold text-gray-900 mb-8">
-            How It Works
-          </h2>
-          <div className="space-y-6">
-            {PROCESS_STEPS.map((item) => (
-              <div key={item.step} className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0 text-white font-bold">
-                  {item.step}
-                </div>
-                <div>
-                  <h3 className="font-bold text-gray-900 mb-1">{item.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{item.desc}</p>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
