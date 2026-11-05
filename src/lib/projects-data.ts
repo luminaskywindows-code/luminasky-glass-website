@@ -28,6 +28,20 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    id: "glass-replacement-toronto-casement",
+    title: "Casement Window Glass Replacement",
+    category: "windows",
+    showcaseImage: {
+      src: "/images/projects/glass-replacement-toronto-before-after.jpg",
+      alt: "Casement window glass replacement in Toronto: cracked pane taped up on the left, new sealed glass unit installed on the right",
+    },
+    description:
+      "Replaced a cracked sealed glass unit in a casement window at a Toronto home. The old pane had a visible crack running across the lower half, temporarily held with tape. We measured, custom-ordered the replacement unit, and installed it, restoring a clear view of the backyard.",
+    location: "Toronto",
+    serviceType: "Glass Replacement",
+    tags: [],
+  },
+  {
     id: "skylight-replacement-brampton",
     title: "Skylight Dome Replacement",
     category: "skylights",
