@@ -78,6 +78,7 @@ export default function PatioDoorRepairPage() {
               "Patio Door Repair",
               "/patio-door-repair",
               "Sliding patio door repair in Toronto and the GTA: rollers, tracks, locks, handles and glass replacement.",
+              { minPrice: 650, maxPrice: 2500, priceDescription: "Patio door glass or roller replacement." }
             ),
             generateFAQSchema(FAQS),
           ]),
