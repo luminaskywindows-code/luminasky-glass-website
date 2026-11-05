@@ -286,7 +286,7 @@ export const PROJECTS: Project[] = [
     title: "Skylight Glass Restoration",
     category: "skylights",
     showcaseImage: {
-      src: "/images/skylight-before-after.png",
+      src: "/images/skylight-before-after.webp",
       alt: "Skylight restoration - before, during, and after glass replacement by LuminaSky Glass Services",
     },
     description:

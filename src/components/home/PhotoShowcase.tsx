@@ -66,7 +66,7 @@ export function PhotoShowcase() {
                   src="/images/services/foggy-window-real.jpg"
                   alt="Casement window with heavy condensation and moisture trapped between the panes from a failed seal"
                   fill
-                  unoptimized
+
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -98,7 +98,7 @@ export function PhotoShowcase() {
                   src="/images/services/window-cleaning-after.jpg"
                   alt="Clear apartment window with a sharp city view after sealed glass unit replacement"
                   fill
-                  unoptimized
+
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -147,7 +147,7 @@ export function PhotoShowcase() {
                   src={item.src}
                   alt={item.alt}
                   fill
-                  unoptimized
+
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 640px) 50vw, 25vw"
                 />

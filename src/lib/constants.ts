@@ -98,7 +98,7 @@ export const SERVICES = [
     description:
       "Professional skylight glass replacement, leak repair, and seal restoration - without a full tearout.",
     href: "/skylights",
-    imageSrc: "/images/services/skylight-hero-clean.png",
+    imageSrc: "/images/services/skylight-hero-clean.webp",
   },
   {
     slug: "window-screens",

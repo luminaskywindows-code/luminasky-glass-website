@@ -335,7 +335,7 @@ export function ServicePageLayout({
                     src={service.beforeAfterImages.before.src}
                     alt={service.beforeAfterImages.before.alt}
                     fill
-                    unoptimized
+
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
@@ -360,7 +360,7 @@ export function ServicePageLayout({
                     src={service.beforeAfterImages.after.src}
                     alt={service.beforeAfterImages.after.alt}
                     fill
-                    unoptimized
+
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />

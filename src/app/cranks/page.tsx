@@ -443,7 +443,7 @@ export default function WindowCranksPage() {
                   src="/images/services/crank-before.jpg"
                   alt="Worn and rusty window crank mechanism before professional repair"
                   fill
-                  unoptimized
+
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -468,7 +468,7 @@ export default function WindowCranksPage() {
                   src="/images/services/crank-after.jpg"
                   alt="Brand new authentic window crank operator installed by LuminaSky"
                   fill
-                  unoptimized
+
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />

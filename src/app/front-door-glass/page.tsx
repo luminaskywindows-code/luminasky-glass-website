@@ -619,7 +619,7 @@ export default function FrontDoorGlassPage() {
                   src={BEFORE_AFTER.before.src}
                   alt={BEFORE_AFTER.before.alt}
                   fill
-                  unoptimized
+
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -644,7 +644,7 @@ export default function FrontDoorGlassPage() {
                   src={BEFORE_AFTER.after.src}
                   alt={BEFORE_AFTER.after.alt}
                   fill
-                  unoptimized
+
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -702,7 +702,7 @@ export default function FrontDoorGlassPage() {
                   src={BEFORE_AFTER_INSERT.before.src}
                   alt={BEFORE_AFTER_INSERT.before.alt}
                   fill
-                  unoptimized
+
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -717,7 +717,7 @@ export default function FrontDoorGlassPage() {
                   src={BEFORE_AFTER_INSERT.after.src}
                   alt={BEFORE_AFTER_INSERT.after.alt}
                   fill
-                  unoptimized
+
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />

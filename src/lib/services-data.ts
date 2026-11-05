@@ -450,7 +450,7 @@ export const SKYLIGHTS: ServiceData = {
     },
   ],
   showcaseImage: {
-    src: "/images/skylight-before-after.png",
+    src: "/images/skylight-before-after.webp",
     alt: "Skylight restoration process - Before: dirty and damaged, In Progress: technician working, After: fully restored and crystal clear",
   },
   metaTitle: "Skylight Repair & Replacement Toronto",

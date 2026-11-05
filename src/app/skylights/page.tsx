@@ -29,7 +29,7 @@ const HERO_IMAGE = {
 };
 
 const SHOWCASE_IMAGE = {
-  src: "/images/skylight-before-after.png",
+  src: "/images/skylight-before-after.webp",
   alt: "Skylight restoration process: before with damage, in progress with technician working, after fully restored and crystal clear",
 };
 

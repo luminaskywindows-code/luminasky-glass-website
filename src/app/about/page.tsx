@@ -27,7 +27,7 @@ import {
 } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About LuminaSky | GTA Glass Repair Specialists Since 2024",
   description:
     "About LuminaSky Glass Services. Licensed glaziers serving the GTA. Honest assessments and repair-first solutions for windows and doors.",
   alternates: { canonical: "/about" },
@@ -178,7 +178,7 @@ export default function AboutPage() {
               {[
                 { stat: "Top-Rated", label: "Google & HomeStars", color: "bg-accent" },
                 { stat: "Since 2024", label: "Serving the GTA", color: "bg-primary" },
-                { stat: "90%+", label: "First-Visit Fix Rate", color: "bg-accent" },
+                { stat: "60+", label: "5-Star Google Reviews", color: "bg-accent" },
               ].map((item) => (
                 <div
                   key={item.label}
