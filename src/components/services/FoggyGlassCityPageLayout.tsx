@@ -5,6 +5,7 @@ import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import type { FoggyGlassCityPageData } from "@/lib/foggy-glass-city-data";
+import { NEARBY_CITIES } from "@/lib/nearby-cities";
 
 const SEAL_FAILURE_EXPLANATION = [
   "A sealed glass unit (the industry calls it an IGU, insulated glass unit) is two or three panes of glass separated by a spacer bar and sealed at the perimeter. The space between is filled with argon or krypton gas and desiccant beads that absorb moisture.",
@@ -61,6 +62,7 @@ function generateSchemas(city: FoggyGlassCityPageData) {
 
 export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageData }) {
   const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const nearby = NEARBY_CITIES[city.slug] ?? [];
 
   return (
     <>
@@ -258,6 +260,27 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
           </div>
         </div>
       </section>
+
+      {/* Nearby areas */}
+      {nearby.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 md:px-8 py-8">
+          <h2 className="text-lg font-bold text-gray-900 mb-3">
+            We Also Serve Nearby
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {nearby.map((n) => (
+              <Link
+                key={n.slug}
+                href={`/foggy-glass-repair-${n.slug}`}
+                className="inline-flex items-center gap-1 bg-gray-50 border border-gray-200 rounded-full px-4 py-2 text-sm text-gray-700 hover:border-primary hover:text-primary transition-colors"
+              >
+                <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
+                {n.city}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="bg-primary text-white py-12 md:py-16">

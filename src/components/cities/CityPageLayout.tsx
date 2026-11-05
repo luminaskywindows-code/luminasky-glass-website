@@ -6,8 +6,10 @@ import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import type { CityPageData } from "@/lib/city-pages-data";
+import { NEARBY_CITIES } from "@/lib/nearby-cities";
 
 export function CityPageLayout({ city }: { city: CityPageData }) {
+  const nearby = NEARBY_CITIES[city.slug] ?? [];
   return (
     <>
       <script
@@ -311,6 +313,27 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           </Link>
         </div>
       </section>
+
+      {/* Nearby areas */}
+      {nearby.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 md:px-8 py-8">
+          <h2 className="text-lg font-bold text-gray-900 mb-3">
+            We Also Serve Nearby
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {nearby.map((n) => (
+              <Link
+                key={n.slug}
+                href={`/window-repair-${n.slug}`}
+                className="inline-flex items-center gap-1 bg-gray-50 border border-gray-200 rounded-full px-4 py-2 text-sm text-gray-700 hover:border-primary hover:text-primary transition-colors"
+              >
+                <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
+                {n.city}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="bg-primary text-white py-12 md:py-16">

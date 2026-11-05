@@ -1,0 +1,198 @@
+type NearbyEntry = { slug: string; city: string };
+
+export const NEARBY_CITIES: Record<string, NearbyEntry[]> = {
+  vaughan: [
+    { slug: "thornhill", city: "Thornhill" },
+    { slug: "woodbridge", city: "Woodbridge" },
+    { slug: "maple", city: "Maple" },
+    { slug: "richmond-hill", city: "Richmond Hill" },
+    { slug: "king-city", city: "King City" },
+  ],
+  thornhill: [
+    { slug: "vaughan", city: "Vaughan" },
+    { slug: "richmond-hill", city: "Richmond Hill" },
+    { slug: "markham", city: "Markham" },
+    { slug: "north-york", city: "North York" },
+  ],
+  "richmond-hill": [
+    { slug: "thornhill", city: "Thornhill" },
+    { slug: "markham", city: "Markham" },
+    { slug: "aurora", city: "Aurora" },
+    { slug: "vaughan", city: "Vaughan" },
+    { slug: "stouffville", city: "Stouffville" },
+  ],
+  markham: [
+    { slug: "richmond-hill", city: "Richmond Hill" },
+    { slug: "scarborough", city: "Scarborough" },
+    { slug: "stouffville", city: "Stouffville" },
+    { slug: "pickering", city: "Pickering" },
+  ],
+  "north-york": [
+    { slug: "thornhill", city: "Thornhill" },
+    { slug: "scarborough", city: "Scarborough" },
+    { slug: "etobicoke", city: "Etobicoke" },
+    { slug: "toronto", city: "Toronto" },
+  ],
+  scarborough: [
+    { slug: "north-york", city: "North York" },
+    { slug: "markham", city: "Markham" },
+    { slug: "pickering", city: "Pickering" },
+    { slug: "toronto", city: "Toronto" },
+  ],
+  aurora: [
+    { slug: "richmond-hill", city: "Richmond Hill" },
+    { slug: "newmarket", city: "Newmarket" },
+    { slug: "king-city", city: "King City" },
+    { slug: "stouffville", city: "Stouffville" },
+    { slug: "east-gwillimbury", city: "East Gwillimbury" },
+  ],
+  woodbridge: [
+    { slug: "vaughan", city: "Vaughan" },
+    { slug: "maple", city: "Maple" },
+    { slug: "brampton", city: "Brampton" },
+    { slug: "etobicoke", city: "Etobicoke" },
+  ],
+  maple: [
+    { slug: "vaughan", city: "Vaughan" },
+    { slug: "woodbridge", city: "Woodbridge" },
+    { slug: "king-city", city: "King City" },
+    { slug: "richmond-hill", city: "Richmond Hill" },
+  ],
+  "king-city": [
+    { slug: "aurora", city: "Aurora" },
+    { slug: "vaughan", city: "Vaughan" },
+    { slug: "maple", city: "Maple" },
+    { slug: "newmarket", city: "Newmarket" },
+    { slug: "caledon", city: "Caledon" },
+  ],
+  newmarket: [
+    { slug: "aurora", city: "Aurora" },
+    { slug: "east-gwillimbury", city: "East Gwillimbury" },
+    { slug: "bradford", city: "Bradford" },
+    { slug: "king-city", city: "King City" },
+  ],
+  toronto: [
+    { slug: "north-york", city: "North York" },
+    { slug: "scarborough", city: "Scarborough" },
+    { slug: "etobicoke", city: "Etobicoke" },
+    { slug: "mississauga", city: "Mississauga" },
+  ],
+  mississauga: [
+    { slug: "etobicoke", city: "Etobicoke" },
+    { slug: "brampton", city: "Brampton" },
+    { slug: "oakville", city: "Oakville" },
+    { slug: "toronto", city: "Toronto" },
+  ],
+  etobicoke: [
+    { slug: "toronto", city: "Toronto" },
+    { slug: "mississauga", city: "Mississauga" },
+    { slug: "north-york", city: "North York" },
+    { slug: "woodbridge", city: "Woodbridge" },
+  ],
+  brampton: [
+    { slug: "mississauga", city: "Mississauga" },
+    { slug: "caledon", city: "Caledon" },
+    { slug: "woodbridge", city: "Woodbridge" },
+    { slug: "vaughan", city: "Vaughan" },
+  ],
+  oakville: [
+    { slug: "mississauga", city: "Mississauga" },
+    { slug: "burlington", city: "Burlington" },
+    { slug: "milton", city: "Milton" },
+    { slug: "halton-hills", city: "Halton Hills" },
+  ],
+  burlington: [
+    { slug: "oakville", city: "Oakville" },
+    { slug: "hamilton", city: "Hamilton" },
+    { slug: "milton", city: "Milton" },
+  ],
+  milton: [
+    { slug: "oakville", city: "Oakville" },
+    { slug: "burlington", city: "Burlington" },
+    { slug: "halton-hills", city: "Halton Hills" },
+    { slug: "brampton", city: "Brampton" },
+  ],
+  ajax: [
+    { slug: "pickering", city: "Pickering" },
+    { slug: "whitby", city: "Whitby" },
+    { slug: "scarborough", city: "Scarborough" },
+  ],
+  pickering: [
+    { slug: "ajax", city: "Ajax" },
+    { slug: "scarborough", city: "Scarborough" },
+    { slug: "markham", city: "Markham" },
+    { slug: "whitby", city: "Whitby" },
+  ],
+  caledon: [
+    { slug: "brampton", city: "Brampton" },
+    { slug: "orangeville", city: "Orangeville" },
+    { slug: "king-city", city: "King City" },
+  ],
+  whitby: [
+    { slug: "ajax", city: "Ajax" },
+    { slug: "oshawa", city: "Oshawa" },
+    { slug: "pickering", city: "Pickering" },
+    { slug: "clarington", city: "Clarington" },
+  ],
+  orangeville: [
+    { slug: "caledon", city: "Caledon" },
+    { slug: "brampton", city: "Brampton" },
+  ],
+  oshawa: [
+    { slug: "whitby", city: "Whitby" },
+    { slug: "clarington", city: "Clarington" },
+    { slug: "ajax", city: "Ajax" },
+  ],
+  "halton-hills": [
+    { slug: "milton", city: "Milton" },
+    { slug: "brampton", city: "Brampton" },
+    { slug: "oakville", city: "Oakville" },
+    { slug: "caledon", city: "Caledon" },
+  ],
+  hamilton: [
+    { slug: "burlington", city: "Burlington" },
+    { slug: "oakville", city: "Oakville" },
+  ],
+  barrie: [
+    { slug: "innisfil", city: "Innisfil" },
+    { slug: "bradford", city: "Bradford" },
+    { slug: "newmarket", city: "Newmarket" },
+  ],
+  innisfil: [
+    { slug: "barrie", city: "Barrie" },
+    { slug: "bradford", city: "Bradford" },
+    { slug: "east-gwillimbury", city: "East Gwillimbury" },
+  ],
+  stouffville: [
+    { slug: "markham", city: "Markham" },
+    { slug: "richmond-hill", city: "Richmond Hill" },
+    { slug: "uxbridge", city: "Uxbridge" },
+    { slug: "pickering", city: "Pickering" },
+  ],
+  "east-gwillimbury": [
+    { slug: "newmarket", city: "Newmarket" },
+    { slug: "bradford", city: "Bradford" },
+    { slug: "georgina", city: "Georgina" },
+    { slug: "aurora", city: "Aurora" },
+  ],
+  georgina: [
+    { slug: "east-gwillimbury", city: "East Gwillimbury" },
+    { slug: "newmarket", city: "Newmarket" },
+    { slug: "bradford", city: "Bradford" },
+  ],
+  bradford: [
+    { slug: "newmarket", city: "Newmarket" },
+    { slug: "east-gwillimbury", city: "East Gwillimbury" },
+    { slug: "innisfil", city: "Innisfil" },
+    { slug: "barrie", city: "Barrie" },
+  ],
+  clarington: [
+    { slug: "oshawa", city: "Oshawa" },
+    { slug: "whitby", city: "Whitby" },
+  ],
+  uxbridge: [
+    { slug: "stouffville", city: "Stouffville" },
+    { slug: "pickering", city: "Pickering" },
+    { slug: "clarington", city: "Clarington" },
+  ],
+};
