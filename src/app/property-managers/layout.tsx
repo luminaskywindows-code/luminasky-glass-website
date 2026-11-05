@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Window and Glass Repair for Property Managers",
     description:
-      "One vendor for window, door and glass repairs across all your managed properties. Free first crank repair. Serving the GTA.",
+      "One vendor for window, door and glass repairs across all your managed properties. Written quotes, clean documentation. Serving the GTA.",
   },
   alternates: { canonical: "/property-managers" },
 };

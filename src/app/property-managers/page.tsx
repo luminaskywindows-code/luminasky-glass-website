@@ -202,8 +202,8 @@ export default function PropertyManagersPage() {
             {/* Left: Copy + How it works */}
             <div className="lg:py-4">
               <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold leading-[1.15] mb-4 tracking-tight">
-                Your First Window Crank Repair Is{" "}
-                <span className="text-accent-light text-[1.4em] italic">Free</span>
+                One Vendor for All Your{" "}
+                <span className="text-accent-light">Glass and Window Repairs</span>
               </h1>
               <p className="text-lg lg:text-xl font-semibold text-blue-100 mb-4">
                 <strong>LuminaSky Glass Services works with property managers and condo boards across the GTA on volume pricing, insurance documentation, and 24/7 emergency board-up for storm damage, vandalism, and break-ins.</strong> See our <Link href="/glass-replacement-cost-report-2026" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">2026 GTA Cost Report</Link> for market pricing by window size, or our <Link href="/window-repair-cost" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">window repair cost guide</Link> for what drives pricing.
@@ -238,7 +238,7 @@ export default function PropertyManagersPage() {
                   {[
                     { icon: ClipboardList, label: "Fill out the form" },
                     { icon: PhoneCall, label: "Dan calls you" },
-                    { icon: Star, label: "First repair is free, then you decide" },
+                    { icon: Star, label: "Get a written quote for the board" },
                   ].map((step, i) => (
                     <div key={step.label} className="flex items-start gap-3">
                       <div className="flex flex-col items-center">
@@ -277,7 +277,7 @@ export default function PropertyManagersPage() {
                   aria-label="Property manager contact form"
                 >
                   <div className="text-center mb-1">
-                    <h2 className="text-xl font-bold text-gray-900">Claim Your Free Repair</h2>
+                    <h2 className="text-xl font-bold text-gray-900">Request a Building Walkthrough</h2>
                     <p className="text-gray-500 text-sm mt-1">Dan will call you within one business day.</p>
                   </div>
 
@@ -456,7 +456,7 @@ export default function PropertyManagersPage() {
                         Sending...
                       </>
                     ) : (
-                      "Claim My Free Repair"
+                      "Request a Walkthrough"
                     )}
                   </button>
 
@@ -478,7 +478,7 @@ export default function PropertyManagersPage() {
               {[
                 { icon: ClipboardList, label: "Fill out the form" },
                 { icon: PhoneCall, label: "Dan calls you" },
-                { icon: Star, label: "Free first repair" },
+                { icon: Star, label: "Written quote for the board" },
               ].map((step, i) => (
                 <div key={step.label} className="flex items-center gap-2 min-w-0">
                   {i > 0 && (
