@@ -342,6 +342,7 @@ export function HeroSection() {
           className="object-cover"
           sizes="100vw"
           quality={75}
+          aria-hidden="true"
           placeholder="blur"
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAABD1bVSAAAAEElEQVR42mNkYPj/n4EBAwAFAAH/VHbVJAAAAABJRU5ErkJggg=="
         />
