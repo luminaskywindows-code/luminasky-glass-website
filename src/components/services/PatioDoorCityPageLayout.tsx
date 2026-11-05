@@ -13,6 +13,12 @@ const VALID_SLUGS = new Set([
   "newmarket", "scarborough",
 ]);
 
+const FRONT_DOOR_SLUGS = new Set([
+  "toronto", "mississauga", "vaughan", "thornhill", "richmond-hill",
+  "markham", "brampton", "oakville", "burlington", "hamilton",
+  "newmarket", "aurora", "pickering", "oshawa", "scarborough",
+]);
+
 const COMMON_PROBLEMS = [
   { text: "Door drags, grinds or is very hard to slide open", icon: Volume2 },
   { text: "Panel jumps off the track or tilts when sliding", icon: AlertTriangle },
@@ -228,7 +234,7 @@ export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData 
             {[
               { href: `/window-repair-${city.slug}`, title: "Window Repair", desc: "Broken panes, failed hardware and full window assessments." },
               { href: `/foggy-glass-repair-${city.slug}`, title: "Foggy Glass Repair", desc: "Sealed unit replacement for windows with condensation between the panes." },
-              { href: `/front-door-glass-${city.slug}`, title: "Front Door Glass", desc: "Decorative, frosted and clear glass inserts for entry doors." },
+              ...(FRONT_DOOR_SLUGS.has(city.slug) ? [{ href: `/front-door-glass-${city.slug}`, title: "Front Door Glass", desc: "Decorative, frosted and clear glass inserts for entry doors." }] : []),
             ].map((service) => (
               <Link
                 key={service.href}

@@ -12,6 +12,12 @@ const VALID_SLUGS = new Set([
   "oakville", "hamilton", "north-york", "scarborough", "etobicoke",
 ]);
 
+const FRONT_DOOR_SLUGS = new Set([
+  "toronto", "mississauga", "vaughan", "thornhill", "richmond-hill",
+  "markham", "brampton", "oakville", "burlington", "hamilton",
+  "newmarket", "aurora", "pickering", "oshawa", "scarborough",
+]);
+
 const WHAT_WE_FIX = [
   { text: "Storefront windows and display glass", icon: Building2 },
   { text: "Commercial entry door glass", icon: AlertTriangle },
@@ -227,7 +233,7 @@ export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassC
             {[
               { href: `/window-repair-${city.slug}`, title: "Window Repair", desc: "Residential window repair for broken panes, failed seals and hardware." },
               { href: `/foggy-glass-repair-${city.slug}`, title: "Foggy Glass Repair", desc: "Sealed unit replacement for windows with condensation between the panes." },
-              { href: `/front-door-glass-${city.slug}`, title: "Front Door Glass", desc: "Glass inserts for residential entry doors." },
+              ...(FRONT_DOOR_SLUGS.has(city.slug) ? [{ href: `/front-door-glass-${city.slug}`, title: "Front Door Glass", desc: "Glass inserts for residential entry doors." }] : []),
             ].map((service) => (
               <Link
                 key={service.href}
