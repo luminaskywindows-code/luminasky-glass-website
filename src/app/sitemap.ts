@@ -26,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/about`,
-      lastModified: new Date("2026-09-15"),
+      lastModified: new Date("2026-11-05"),
       changeFrequency: "monthly",
       priority: 0.6,
     },
@@ -57,13 +57,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...CITY_PAGES.map((c) => ({
       url: `${SITE_URL}/window-repair-${c.slug}`,
-      lastModified: new Date("2026-10-01"),
+      lastModified: new Date("2026-11-05"),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
     ...FOGGY_GLASS_CITY_PAGES.map((c) => ({
       url: `${SITE_URL}/foggy-glass-repair-${c.slug}`,
-      lastModified: new Date("2026-10-01"),
+      lastModified: new Date("2026-11-05"),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
