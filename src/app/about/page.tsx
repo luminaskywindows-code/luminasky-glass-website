@@ -227,7 +227,7 @@ export default function AboutPage() {
       {/* Full-width image divider */}
       <div className="relative h-72 md:h-96 overflow-hidden" aria-hidden="true">
         <Image
-          src="/images/hero-background.png"
+          src="/images/hero-background.webp"
           alt="Bright residential windows with natural light streaming through after professional glass repair in Thornhill"
           fill
           className="object-cover object-center"

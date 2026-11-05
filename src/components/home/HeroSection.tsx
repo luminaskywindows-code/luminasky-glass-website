@@ -335,7 +335,7 @@ export function HeroSection() {
       >
         {/* Background image via next/image for optimized loading */}
         <Image
-          src="/images/hero-background.png"
+          src="/images/hero-background.webp"
           alt=""
           fill
           priority

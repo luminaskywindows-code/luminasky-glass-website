@@ -187,7 +187,7 @@ export default function PropertyManagersPage() {
       {/* ── Hero with Form ── */}
       <section id="form" className="relative overflow-hidden text-white scroll-mt-8">
         <Image
-          src="/images/hero/property-managers-hero.png"
+          src="/images/hero/property-managers-hero.webp"
           alt=""
           fill
           priority

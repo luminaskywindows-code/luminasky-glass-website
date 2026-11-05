@@ -25,6 +25,20 @@ const nextConfig = {
           { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
           // Basic XSS protection for older browsers
           { key: "X-XSS-Protection", value: "1; mode=block" },
+          // Content Security Policy
+          {
+            key: "Content-Security-Policy",
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.clarity.ms https://www.googletagmanager.com https://www.google-analytics.com https://cdn.emailjs.com",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "font-src 'self' https://fonts.gstatic.com",
+              "img-src 'self' data: https: blob:",
+              "connect-src 'self' https://www.clarity.ms https://www.google-analytics.com https://api.emailjs.com https://api.indexnow.org https://region1.google-analytics.com",
+              "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com",
+              "media-src 'self' blob:",
+            ].join("; "),
+          },
         ],
       },
       {
