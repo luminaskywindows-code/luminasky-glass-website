@@ -19,7 +19,6 @@ export function generateOrganizationSchema() {
       "@type": "ImageObject",
       url: `${SITE_URL}/images/logo.png`,
     },
-    priceRange: "$$",
     currenciesAccepted: "CAD",
     paymentAccepted: "Cash, Credit Card, E-Transfer",
     areaServed: SERVICE_AREAS.map((city) => ({
@@ -131,39 +130,6 @@ export function generateOrganizationSchema() {
   };
 }
 
-const PRICE_DISCLAIMER =
-  "Prices based on average GTA jobs. Actual price may vary after on-site assessment, depending on size, accessibility, and specific project requirements. Call 437-344-8490 for exact quote.";
-
-const STANDARD_HOURS = {
-  "@type": "OpeningHoursSpecification" as const,
-  dayOfWeek: [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday",
-  ],
-  opens: "07:00",
-  closes: "21:00",
-};
-
-const EMERGENCY_HOURS = {
-  "@type": "OpeningHoursSpecification" as const,
-  dayOfWeek: [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday",
-  ],
-  opens: "00:00",
-  closes: "23:59",
-};
-
 const CONTACT_CHANNELS = [
   { "@type": "ServiceChannel", servicePhone: PHONE_E164, name: "Phone" },
   {
@@ -177,14 +143,8 @@ export function generateServiceSchema(
   serviceName: string,
   serviceUrl: string,
   description: string,
-  pricing?: {
-    minPrice: number;
-    maxPrice: number;
-    priceDescription: string;
-    is24x7?: boolean;
-  }
 ) {
-  const base: Record<string, unknown> = {
+  return {
     "@context": "https://schema.org",
     "@type": "Service",
     name: serviceName,
@@ -193,21 +153,8 @@ export function generateServiceSchema(
     url: `${SITE_URL}${serviceUrl}`,
     description,
     areaServed: SERVICE_AREAS.map((city) => ({ "@type": "City", name: city })),
+    availableChannel: CONTACT_CHANNELS,
   };
-
-  if (pricing) {
-    base.offers = {
-      "@type": "AggregateOffer",
-      priceCurrency: "CAD",
-      lowPrice: pricing.minPrice,
-      highPrice: pricing.maxPrice,
-      description: `${pricing.priceDescription} ${PRICE_DISCLAIMER}`,
-    };
-    base.hoursAvailable = pricing.is24x7 ? EMERGENCY_HOURS : STANDARD_HOURS;
-    base.availableChannel = CONTACT_CHANNELS;
-  }
-
-  return base;
 }
 
 export function generateCityServiceSchema(opts: {

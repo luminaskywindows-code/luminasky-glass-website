@@ -141,7 +141,6 @@ export default function WindowReplacementPage() {
               "Full Window Replacement",
               "/window-replacement",
               "LuminaSky Glass Services replaces old, drafty and failing windows across Toronto and the GTA with a written fixed price.",
-              { minPrice: 800, maxPrice: 3000, priceDescription: "Full window replacement including frame." }
             ),
             generateFAQSchema(FAQS),
           ]),
