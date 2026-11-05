@@ -33,6 +33,16 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
         disallow: "/api/",
       },
+      {
+        userAgent: "Google-Extended",
+        allow: "/",
+        disallow: "/api/",
+      },
+      {
+        userAgent: "cohere-ai",
+        allow: "/",
+        disallow: "/api/",
+      },
     ],
     sitemap: "https://www.luminasky.com/sitemap.xml",
   };
