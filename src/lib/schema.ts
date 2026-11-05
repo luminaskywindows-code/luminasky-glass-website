@@ -165,16 +165,11 @@ const EMERGENCY_HOURS = {
 };
 
 const CONTACT_CHANNELS = [
-  { "@type": "ServiceChannel", serviceUrl: "tel:+14373448490", name: "Phone" },
+  { "@type": "ServiceChannel", servicePhone: PHONE_E164, name: "Phone" },
   {
     "@type": "ServiceChannel",
     serviceUrl: "https://wa.me/14373448490",
     name: "WhatsApp",
-  },
-  {
-    "@type": "ServiceChannel",
-    serviceUrl: `mailto:${EMAIL}`,
-    name: "Email",
   },
 ];
 
@@ -278,7 +273,7 @@ export function generateArticleSchema(article: {
       name: "LuminaSky Glass Services",
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/logo.png`,
+        url: `${SITE_URL}/images/logo.png`,
       },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}${article.url}` },
