@@ -4,7 +4,13 @@ import { PHONE, PHONE_HREF } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
+import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import type { CommercialGlassCityPageData } from "@/lib/commercial-glass-city-data";
+
+const VALID_SLUGS = new Set([
+  "toronto", "mississauga", "vaughan", "markham", "brampton",
+  "oakville", "hamilton", "north-york", "scarborough", "etobicoke",
+]);
 
 const WHAT_WE_FIX = [
   { text: "Storefront windows and display glass", icon: Building2 },
@@ -71,6 +77,7 @@ function generateSchemas(city: CommercialGlassCityPageData) {
 
 export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassCityPageData }) {
   const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const nearby = (NEARBY_CITIES[city.slug] ?? []).filter(n => VALID_SLUGS.has(n.slug));
 
   return (
     <>
@@ -257,6 +264,29 @@ export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassC
           </div>
         </div>
       </section>
+
+      {/* We Also Serve Nearby */}
+      {nearby.length > 0 && (
+        <section className="py-12 md:py-16">
+          <div className="max-w-7xl mx-auto px-4 md:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+              We Also Serve Nearby
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {nearby.map((n) => (
+                <Link
+                  key={n.slug}
+                  href={`/commercial-glass-repair-${n.slug}`}
+                  className="inline-flex items-center gap-1.5 bg-white text-gray-700 text-sm font-medium px-4 py-2 rounded-full border border-gray-200 hover:border-primary/30 hover:shadow-sm transition-all"
+                >
+                  <MapPin className="w-3.5 h-3.5 text-primary" aria-hidden="true" />
+                  {n.city}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="bg-primary text-white py-12 md:py-16">

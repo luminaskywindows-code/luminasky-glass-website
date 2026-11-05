@@ -4,7 +4,14 @@ import { PHONE, PHONE_HREF } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
+import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import type { CranksCityPageData } from "@/lib/cranks-city-data";
+
+const VALID_SLUGS = new Set([
+  "toronto", "mississauga", "vaughan", "thornhill", "richmond-hill",
+  "markham", "brampton", "oakville", "burlington", "hamilton",
+  "north-york", "etobicoke",
+]);
 
 const COMMON_PROBLEMS = [
   { text: "Crank handle spins but window does not move", icon: Settings },
@@ -71,6 +78,7 @@ function generateSchemas(city: CranksCityPageData) {
 
 export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
   const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const nearby = (NEARBY_CITIES[city.slug] ?? []).filter(n => VALID_SLUGS.has(n.slug));
 
   return (
     <>
@@ -257,6 +265,29 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
           </div>
         </div>
       </section>
+
+      {/* We Also Serve Nearby */}
+      {nearby.length > 0 && (
+        <section className="py-12 md:py-16">
+          <div className="max-w-7xl mx-auto px-4 md:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+              We Also Serve Nearby
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {nearby.map((n) => (
+                <Link
+                  key={n.slug}
+                  href={`/window-crank-repair-${n.slug}`}
+                  className="inline-flex items-center gap-1.5 bg-white text-gray-700 text-sm font-medium px-4 py-2 rounded-full border border-gray-200 hover:border-primary/30 hover:shadow-sm transition-all"
+                >
+                  <MapPin className="w-3.5 h-3.5 text-primary" aria-hidden="true" />
+                  {n.city}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="bg-primary text-white py-12 md:py-16">
