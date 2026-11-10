@@ -59,7 +59,7 @@ const VIDEOS = [
 ];
 
 const TRUST_BADGES = [
-  { icon: Star, label: "60+ 5-Star Google Reviews" },
+  { icon: Star, label: "70+ 5-Star Google Reviews" },
   { icon: ShieldCheck, label: "5-Year Glass Warranty" },
   { icon: Users, label: "Family-Owned Since 2024" },
   { icon: MapPin, label: "Serves All GTA" },

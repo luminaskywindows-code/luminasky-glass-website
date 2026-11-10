@@ -178,7 +178,7 @@ export default function AboutPage() {
               {[
                 { stat: "Top-Rated", label: "Google & HomeStars", color: "bg-accent" },
                 { stat: "Since 2024", label: "Serving the GTA", color: "bg-primary" },
-                { stat: "60+", label: "5-Star Google Reviews", color: "bg-accent" },
+                { stat: "70+", label: "5-Star Google Reviews", color: "bg-accent" },
               ].map((item) => (
                 <div
                   key={item.label}

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 /* ── Data ── */
 
 const TRUST_BADGES = [
-  { icon: Star, label: "60+ 5-Star Google Reviews" },
+  { icon: Star, label: "70+ 5-Star Google Reviews" },
   { icon: ShieldCheck, label: "1-Year Warranty" },
   { icon: Users, label: "Family-Owned Since 2024" },
   { icon: MapPin, label: "Serves All GTA" },
