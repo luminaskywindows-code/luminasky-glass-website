@@ -8,7 +8,7 @@ export const SITE_URL = "https://www.luminasky.com";
 export const GOOGLE_REVIEW_URL = "https://g.page/r/CS6Q_SugmPqcEBM/review";
 export const COMPANY_NAME = "LuminaSky Glass Services";
 
-export const WINTER_READY_ENABLED = true;
+export const WINTER_READY_ENABLED = false;
 
 export const INDEXNOW_KEY = "9a7b5b9906e245f1bf7ecb9f10d723a0";
 
