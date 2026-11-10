@@ -353,7 +353,7 @@ export function HeroSection() {
           aria-hidden="true"
         />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 pt-14 pb-16 md:pt-24 md:pb-28 lg:pt-28 lg:pb-32 lg:min-h-[600px] lg:flex lg:items-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 pt-10 pb-12 md:pt-24 md:pb-28 lg:pt-28 lg:pb-32 lg:min-h-[600px] lg:flex lg:items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start w-full">
             {/* ── Left side: text content (55%) ── */}
             <motion.div
@@ -424,12 +424,12 @@ export function HeroSection() {
               </motion.div>
             </motion.div>
 
-            {/* ── Right side: form card (45%) ── */}
+            {/* ── Right side: form card (45%) — hidden on mobile to keep hero compact ── */}
             <motion.div
               initial={{ opacity: 0, y: prefersReduced ? 0 : 32 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: prefersReduced ? 0 : 0.65, delay: prefersReduced ? 0 : 0.2, ease: "easeOut" }}
-              className="lg:col-span-5"
+              className="hidden lg:block lg:col-span-5"
             >
               <HeroFormCard />
             </motion.div>
