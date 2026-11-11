@@ -1,6 +1,7 @@
 ﻿"use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 
@@ -17,11 +18,20 @@ export function TrustSection() {
 
   return (
     <section
-      className="relative py-20 px-4 md:px-8 bg-cover bg-center overflow-hidden"
-      style={{ backgroundImage: "url('/images/bright-windows-section.webp')", contentVisibility: "auto", containIntrinsicSize: "auto 500px" }}
+      className="relative py-20 px-4 md:px-8 overflow-hidden"
+      style={{ contentVisibility: "auto", containIntrinsicSize: "auto 500px" }}
       aria-labelledby="trust-heading"
     >
-      {/* Semi-transparent blue overlay - keeps text readable while window shows through */}
+      <Image
+        src="/images/bright-windows-section.webp"
+        alt=""
+        fill
+        loading="lazy"
+        className="object-cover"
+        sizes="100vw"
+        quality={75}
+        aria-hidden="true"
+      />
       <div className="absolute inset-0 bg-primary/75" aria-hidden="true" />
 
       <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
