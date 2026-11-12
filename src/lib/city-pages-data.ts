@@ -41,9 +41,9 @@ export const CITY_PAGES: CityPageData[] = [
     slug: "vaughan",
     city: "Vaughan",
     region: "York Region",
-    metaTitle: "Window & Door Repair in Vaughan",
+    metaTitle: "Window & Glass Repair Vaughan | Foggy Glass, Cranks, Door Glass",
     metaDescription:
-      "Foggy windows, broken cranks, or cracked door glass in Vaughan? We replace the failed part, not the whole window. 5-Year Warranty. Call 437-344-8490.",
+      "Vaughan's repair-first glass specialists. Foggy sealed units, broken cranks, front door glass and 24/7 emergency service across Woodbridge, Maple and Kleinburg. 5-year warranty.",
     heroHeadline: "Window & Door Repair in Vaughan",
     heroSubtext:
       "Fast, affordable glass and door repair across Woodbridge, Maple, Kleinburg, Concord, and all of Vaughan. Fix it. Don't replace it.",
@@ -52,11 +52,11 @@ export const CITY_PAGES: CityPageData[] = [
       "LuminaSky Glass Services specialises in repair, not replacement. That means we fix the part that's broken (the glass unit, the crank mechanism, the door insert) without tearing out your entire window or door frame. It's faster, less disruptive, and costs a fraction of full replacement.",
     ],
     neighborhoods: [
-      "Woodbridge",
-      "Maple",
-      "Kleinburg",
-      "Concord",
-      "Thornhill (Vaughan side)",
+      "Woodbridge (L4L, L4H)",
+      "Maple (L6A)",
+      "Kleinburg (L0J)",
+      "Concord (L4K)",
+      "Thornhill (L4J, L3T)",
       "Vellore Village",
       "Sonoma Heights",
       "Patterson",
@@ -138,6 +138,14 @@ export const CITY_PAGES: CityPageData[] = [
       {
         q: "What does foggy window repair cost in Vaughan?",
         a: "Most sealed unit replacements range from $300–$1,400 per window depending on size and glass type. We provide quotes. Send us a photo for a fast estimate.",
+      },
+      {
+        q: "Is replacing just the glass cheaper than a new window?",
+        a: "Significantly. A full window replacement can run several times higher. Replacing only the sealed glass unit keeps your existing frame and costs a fraction of the price, with savings of 50% to 80%.",
+      },
+      {
+        q: "Can you fix my casement window crank?",
+        a: "In most cases, yes. We carry replacement crank operators and handles for common manufacturers. Most window hardware repairs are completed on the same day, on the first visit.",
       },
     ],
   },

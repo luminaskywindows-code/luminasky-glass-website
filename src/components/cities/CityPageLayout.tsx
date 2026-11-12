@@ -149,6 +149,31 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
         </div>
       </section>
 
+      {/* How It Works */}
+      <section className="bg-gray-50 py-12 md:py-16">
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+            How It Works
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { step: "1", title: "Send a Photo", desc: "Text or WhatsApp a photo of the problem to 437-344-8490. It takes 30 seconds." },
+              { step: "2", title: "Get a Quote Range", desc: "We reply with a written quote range the same day, no charge and no obligation." },
+              { step: "3", title: "We Measure On Site", desc: "$30 site visit fee, credited toward your repair. We take exact measurements for custom glass." },
+              { step: "4", title: "Glass Ordered and Installed", desc: "Your glass is custom-made and installed, usually within a week. Hardware repairs are typically done on the first visit." },
+            ].map((item) => (
+              <div key={item.step} className="relative bg-white rounded-xl border border-gray-200 p-6">
+                <span className="absolute -top-3 left-4 bg-primary text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center">
+                  {item.step}
+                </span>
+                <h3 className="font-semibold text-gray-900 mb-2 mt-1">{item.title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Featured Project */}
       {city.featuredProject && (
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">

@@ -124,7 +124,7 @@ export default function EmergencyGlassRepairPage() {
               "Emergency Glass Repair",
               "/emergency-glass-repair",
               "24/7 emergency glass repair and board-up service across Toronto and the GTA.",
-              { minPrice: 300, maxPrice: 1500, priceDescription: "24/7 emergency glass replacement, surcharge for after-hours and weekends.", is24x7: true }
+              { minPrice: 300, maxPrice: 1500, priceDescription: "24/7 emergency glass replacement, surcharge for after-hours and weekends." }
             ),
             generateFAQSchema(FAQS),
           ]),

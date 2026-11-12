@@ -19,7 +19,6 @@ export function generateOrganizationSchema() {
       "@type": "ImageObject",
       url: `${SITE_URL}/images/logo.png`,
     },
-    priceRange: "$$",
     currenciesAccepted: "CAD",
     paymentAccepted: "Cash, Credit Card, E-Transfer",
     areaServed: SERVICE_AREAS.map((city) => ({
@@ -82,6 +81,14 @@ export function generateOrganizationSchema() {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
+            name: "Front Door Glass Replacement",
+            url: `${SITE_URL}/front-door-glass`,
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
             name: "Glass Replacement",
             url: `${SITE_URL}/glass-replacement`,
           },
@@ -100,6 +107,30 @@ export function generateOrganizationSchema() {
             "@type": "Service",
             name: "Skylight Repair",
             url: `${SITE_URL}/skylights`,
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Screen & Storm Doors",
+            url: `${SITE_URL}/screen-storm-doors`,
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Window Screen Repair",
+            url: `${SITE_URL}/window-screens`,
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Full Window Replacement",
+            url: `${SITE_URL}/window-replacement`,
           },
         },
         {
@@ -134,22 +165,7 @@ export function generateOrganizationSchema() {
 const PRICE_DISCLAIMER =
   "Prices based on average GTA jobs. Actual price may vary after on-site assessment, depending on size, accessibility, and specific project requirements. Call 437-344-8490 for exact quote.";
 
-const STANDARD_HOURS = {
-  "@type": "OpeningHoursSpecification" as const,
-  dayOfWeek: [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday",
-  ],
-  opens: "07:00",
-  closes: "21:00",
-};
-
-const EMERGENCY_HOURS = {
+const ALL_WEEK_24_7 = {
   "@type": "OpeningHoursSpecification" as const,
   dayOfWeek: [
     "Monday",
@@ -181,7 +197,6 @@ export function generateServiceSchema(
     minPrice: number;
     maxPrice: number;
     priceDescription: string;
-    is24x7?: boolean;
   }
 ) {
   const base: Record<string, unknown> = {
@@ -203,7 +218,7 @@ export function generateServiceSchema(
       highPrice: pricing.maxPrice,
       description: `${pricing.priceDescription} ${PRICE_DISCLAIMER}`,
     };
-    base.hoursAvailable = pricing.is24x7 ? EMERGENCY_HOURS : STANDARD_HOURS;
+    base.hoursAvailable = ALL_WEEK_24_7;
     base.availableChannel = CONTACT_CHANNELS;
   }
 
@@ -226,6 +241,8 @@ export function generateCityServiceSchema(opts: {
     url: `${SITE_URL}${opts.url}`,
     description: opts.description,
     areaServed: { "@type": "City", name: opts.city },
+    hoursAvailable: ALL_WEEK_24_7,
+    availableChannel: CONTACT_CHANNELS,
   };
 }
 
