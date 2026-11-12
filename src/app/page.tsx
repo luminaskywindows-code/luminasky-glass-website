@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { HeroSection } from "@/components/home/HeroSection";
-import { ServicesGrid } from "@/components/home/ServicesGrid";
 import { ServiceAreaMap } from "@/components/shared/ServiceAreaMap";
 import { CTABanner } from "@/components/shared/CTABanner";
+
+const ServicesGrid = dynamic(
+  () => import("@/components/home/ServicesGrid").then((m) => m.ServicesGrid),
+  { ssr: false }
+);
 
 const TrustSection = dynamic(
   () => import("@/components/home/TrustSection").then((m) => m.TrustSection),

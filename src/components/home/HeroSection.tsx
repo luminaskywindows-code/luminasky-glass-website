@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { Phone, MessageCircle } from "lucide-react";
-import { motion, useReducedMotion } from "framer-motion";
 import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "@/lib/constants";
 import { trackWhatsAppConversion } from "@/lib/gtag";
 
@@ -20,30 +19,33 @@ const STATS = [
 ];
 
 export function HeroSection() {
-  const prefersReduced = useReducedMotion();
-
-  const container = {
-    hidden: {},
-    show: { transition: { staggerChildren: prefersReduced ? 0 : 0.08 } },
-  };
-
-  const item = {
-    hidden: { opacity: prefersReduced ? 1 : 0, y: prefersReduced ? 0 : 24 },
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: prefersReduced ? 0 : 0.55, ease: "easeOut" as const },
-    },
-  };
-
   return (
     <>
+      <style>{`
+        @media (prefers-reduced-motion: no-preference) {
+          .hero-fade-up {
+            animation: heroFadeUp 0.55s ease-out both;
+          }
+          .hero-fade-up-d1 { animation-delay: 0.08s; }
+          .hero-fade-up-d2 { animation-delay: 0.16s; }
+          .hero-fade-up-d3 { animation-delay: 0.24s; }
+          .hero-fade-up-d4 { animation-delay: 0.32s; }
+          .hero-fade-up-d5 { animation-delay: 0.40s; }
+          .hero-card-in {
+            animation: heroFadeUp 0.65s ease-out 0.2s both;
+          }
+        }
+        @keyframes heroFadeUp {
+          from { opacity: 0; transform: translateY(24px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+      `}</style>
+
       {/* ── Main Hero ── */}
       <section
         className="relative overflow-hidden"
         aria-label="Hero section"
       >
-        {/* Background image via next/image for optimized loading */}
         <Image
           src="/images/hero-background.webp"
           alt=""
@@ -56,7 +58,6 @@ export function HeroSection() {
           placeholder="blur"
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAABD1bVSAAAAEElEQVR42mNkYPj/n4EBAwAFAAH/VHbVJAAAAABJRU5ErkJggg=="
         />
-        {/* Dark overlay for text readability */}
         <div
           className="absolute inset-0"
           style={{ background: "rgba(15, 30, 80, 0.72)" }}
@@ -66,54 +67,38 @@ export function HeroSection() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 pt-10 pb-12 md:pt-24 md:pb-28 lg:pt-28 lg:pb-32 lg:min-h-[600px] lg:flex lg:items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start w-full">
             {/* ── Left side: text content (55%) ── */}
-            <motion.div
-              variants={container}
-              initial="hidden"
-              animate="show"
-              className="lg:col-span-7 flex flex-col gap-4 lg:gap-6 text-center lg:text-left"
-            >
+            <div className="lg:col-span-7 flex flex-col gap-4 lg:gap-6 text-center lg:text-left">
               {/* Eyebrow pill */}
-              <motion.div variants={item}>
+              <div className="hero-fade-up">
                 <span className="inline-flex items-center bg-white/10 border border-white/20 text-blue-100 text-sm font-medium px-4 py-1.5 rounded-full backdrop-blur-sm">
                   Toronto&apos;s Repair-First Glass Specialists
                 </span>
-              </motion.div>
+              </div>
 
-              {/* H1 — no motion wrapper so it's visible in SSR for crawlers/LCP */}
               <h1
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold text-white leading-[1.1] tracking-tight"
               >
                 Glass &amp; Window Repair In Toronto
               </h1>
 
-              {/* Accent sub-headline */}
-              <motion.p
-                variants={item}
-                className="text-accent-light text-xl md:text-2xl font-semibold"
-              >
+              <p className="hero-fade-up hero-fade-up-d1 text-accent-light text-xl md:text-2xl font-semibold">
                 Fix Don&apos;t Replace
-              </motion.p>
+              </p>
 
-              {/* Body paragraph */}
-              <motion.p
-                variants={item}
-                className="text-blue-100 text-base md:text-lg leading-relaxed max-w-xl lg:max-w-none"
-              >
+              <p className="hero-fade-up hero-fade-up-d2 text-blue-100 text-base md:text-lg leading-relaxed max-w-xl lg:max-w-none">
                 <strong>LuminaSky Glass Services</strong> repairs windows and glass across 34 cities in the Greater Toronto Area. We serve homeowners and property managers with 24/7 emergency board-up, a 5-year warranty against seal failure on sealed glass units, and same-week measurement appointments.
-              </motion.p>
+              </p>
 
-              {/* Primary CTA */}
-              <motion.div variants={item} className="flex flex-col sm:flex-row items-center lg:items-start gap-4 mt-1">
+              <div className="hero-fade-up hero-fade-up-d3 flex flex-col sm:flex-row items-center lg:items-start gap-4 mt-1">
                 <Link
                   href="/contact"
                   className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all text-lg tracking-wide focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
                 >
                   Book Your Service
                 </Link>
-              </motion.div>
+              </div>
 
-              {/* Phone + WhatsApp links */}
-              <motion.div variants={item} className="flex flex-col sm:flex-row items-center lg:items-start gap-4 text-sm">
+              <div className="hero-fade-up hero-fade-up-d4 flex flex-col sm:flex-row items-center lg:items-start gap-4 text-sm">
                 <a
                   href={PHONE_HREF}
                   className="inline-flex items-center gap-2 text-white/90 hover:text-white font-medium transition-colors"
@@ -131,18 +116,13 @@ export function HeroSection() {
                   <MessageCircle className="w-4 h-4" aria-hidden="true" />
                   Send us a photo on WhatsApp
                 </button>
-              </motion.div>
-            </motion.div>
+              </div>
+            </div>
 
             {/* ── Right side: form card (45%) — hidden on mobile to keep hero compact ── */}
-            <motion.div
-              initial={{ opacity: 0, y: prefersReduced ? 0 : 32 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: prefersReduced ? 0 : 0.65, delay: prefersReduced ? 0 : 0.2, ease: "easeOut" }}
-              className="hidden lg:block lg:col-span-5"
-            >
+            <div className="hidden lg:block lg:col-span-5 hero-card-in">
               <HeroFormCard />
-            </motion.div>
+            </div>
           </div>
         </div>
 
