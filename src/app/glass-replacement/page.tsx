@@ -404,7 +404,15 @@ export default function GlassReplacementPage() {
             Cracked Window Glass Replacement Across the GTA
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            We replace window glass across Toronto, North York, Scarborough, Etobicoke, Vaughan, Thornhill, Richmond Hill, Markham, Mississauga, Brampton, Oakville and the rest of the GTA.{" "}
+            We replace window glass across{" "}
+            <Link href="/window-repair-toronto" className="text-primary font-semibold hover:underline">Toronto</Link>,{" "}
+            North York, Scarborough, Etobicoke,{" "}
+            <Link href="/window-repair-vaughan" className="text-primary font-semibold hover:underline">Vaughan</Link>,{" "}
+            <Link href="/window-repair-thornhill" className="text-primary font-semibold hover:underline">Thornhill</Link>,{" "}
+            <Link href="/window-repair-richmond-hill" className="text-primary font-semibold hover:underline">Richmond Hill</Link>,{" "}
+            <Link href="/window-repair-markham" className="text-primary font-semibold hover:underline">Markham</Link>,{" "}
+            <Link href="/window-repair-mississauga" className="text-primary font-semibold hover:underline">Mississauga</Link>,{" "}
+            Brampton, Oakville and the rest of the GTA.{" "}
             <Link href="/areas-we-serve" className="text-primary font-semibold hover:underline">
               See all areas we serve &rarr;
             </Link>

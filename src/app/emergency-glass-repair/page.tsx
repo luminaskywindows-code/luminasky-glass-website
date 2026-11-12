@@ -355,7 +355,14 @@ export default function EmergencyGlassRepairPage() {
             <Link href="/window-repair-toronto" className="text-primary font-semibold hover:underline">Toronto</Link>,{" "}
             <Link href="/window-repair-north-york" className="text-primary font-semibold hover:underline">North York</Link>,{" "}
             <Link href="/window-repair-scarborough" className="text-primary font-semibold hover:underline">Scarborough</Link>,{" "}
-            Etobicoke, Vaughan, Woodbridge, Thornhill, Richmond Hill, Markham, Mississauga, Brampton, Oakville and the surrounding GTA.{" "}
+            Etobicoke,{" "}
+            <Link href="/window-repair-vaughan" className="text-primary font-semibold hover:underline">Vaughan</Link>,{" "}
+            Woodbridge,{" "}
+            <Link href="/window-repair-thornhill" className="text-primary font-semibold hover:underline">Thornhill</Link>,{" "}
+            <Link href="/window-repair-richmond-hill" className="text-primary font-semibold hover:underline">Richmond Hill</Link>,{" "}
+            <Link href="/window-repair-markham" className="text-primary font-semibold hover:underline">Markham</Link>,{" "}
+            <Link href="/window-repair-mississauga" className="text-primary font-semibold hover:underline">Mississauga</Link>,{" "}
+            Brampton, Oakville and the surrounding GTA.{" "}
             <Link href="/areas-we-serve" className="text-primary font-semibold hover:underline">
               See all areas we serve &rarr;
             </Link>
