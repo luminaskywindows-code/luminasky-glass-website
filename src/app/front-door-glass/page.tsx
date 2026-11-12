@@ -11,6 +11,8 @@ import {
   Wind,
   Paintbrush,
   AlertTriangle,
+  MessageCircle,
+  Camera,
 } from "lucide-react";
 import InlineVideoPlayer from "@/components/video/InlineVideoPlayer";
 import { CTABanner } from "@/components/shared/CTABanner";
@@ -18,6 +20,7 @@ import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
   SERVICES,
   PHONE_HREF,
+  WHATSAPP_HREF,
 } from "@/lib/constants";
 import {
   generateBreadcrumbSchema,
@@ -225,15 +228,15 @@ export default function FrontDoorGlassPage() {
                   ))}
                 </ol>
               </nav>
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6 leading-tight">
                 Front Door Glass Replacement in Toronto &amp; the GTA
               </h1>
-              <p className="text-xl text-blue-100 leading-relaxed mb-8 max-w-2xl">
+              <p className="text-lg md:text-xl text-blue-100 leading-relaxed mb-6 md:mb-8 max-w-2xl">
                 Cracked, foggy, or outdated door glass? We replace front door
                 glass inserts, sidelites and transom glass without replacing your
                 door.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <Link
                   href="/contact"
                   className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
@@ -248,6 +251,15 @@ export default function FrontDoorGlassPage() {
                   Call Now
                 </a>
               </div>
+              <a
+                href={WHATSAPP_HREF}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all w-full sm:w-auto focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+              >
+                <MessageCircle className="w-5 h-5" aria-hidden="true" />
+                WhatsApp: Send a Photo for a Quote
+              </a>
               <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
                 <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
                 5-Year Warranty on sealed glass
@@ -784,6 +796,10 @@ export default function FrontDoorGlassPage() {
               </span>
             </li>
           </ul>
+          <div className="inline-flex items-center gap-2 bg-green-50 text-green-800 font-semibold px-4 py-2 rounded-lg mb-3">
+            <Camera className="w-4 h-4" aria-hidden="true" />
+            Photo Quote: Free
+          </div>
           <p className="text-gray-600 leading-relaxed">
             Send us a photo of your door and we&apos;ll give you a quote,
             usually the same day. If you prefer an in-person visit, the visit is
