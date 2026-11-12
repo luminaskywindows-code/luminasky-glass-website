@@ -7,6 +7,7 @@ import { MapPin, Zap, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { PROJECTS, PROJECT_CATEGORIES, type ProjectCategory, type Project } from "@/lib/projects-data";
 import InlineVideoPlayer from "@/components/video/InlineVideoPlayer";
+import { BeforeAfterSlider } from "@/components/projects/BeforeAfterSlider";
 
 /* ── IntersectionObserver hook: play videos when card is >=50% visible ── */
 function useVisibilityPlayback(cardRef: React.RefObject<HTMLDivElement | null>, isVideo: boolean) {
@@ -191,6 +192,19 @@ function ProjectCard({ project }: { project: Project }) {
   const cardRef = useRef<HTMLDivElement>(null);
   const { beforeRef, afterRef } = useVisibilityPlayback(cardRef, isVideo);
 
+  if (project.mediaType === "before-after-slider" && project.beforeImage && project.afterImage) {
+    return (
+      <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <BeforeAfterSlider
+          beforeSrc={project.beforeImage.src}
+          beforeAlt={project.beforeImage.alt}
+          afterSrc={project.afterImage.src}
+          afterAlt={project.afterImage.alt}
+        />
+        <ProjectDetails project={project} />
+      </div>
+    );
+  }
   if (project.mediaType === "multi-image") return <MultiImageCard project={project} />;
   if (project.mediaType === "youtube-short") return <YouTubeShortCard project={project} />;
   if (project.mediaType === "single-image") return <SingleImageCard project={project} />;

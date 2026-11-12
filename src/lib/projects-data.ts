@@ -10,7 +10,7 @@ export interface Project {
   /** Single showcase image (e.g. multi-panel strip) */
   showcaseImage?: { src: string; alt: string };
   /** Media type for before/after, defaults to "image" */
-  mediaType?: "image" | "video" | "single-video" | "single-image" | "youtube-short" | "multi-image";
+  mediaType?: "image" | "video" | "single-video" | "single-image" | "youtube-short" | "multi-image" | "before-after-slider";
   /** Single video with click-to-play (used with mediaType "single-video") */
   video?: { src: string; poster: string; alt: string };
   /** Single hero image (used with mediaType "single-image") */
@@ -27,6 +27,25 @@ export interface Project {
 }
 
 export const PROJECTS: Project[] = [
+  {
+    id: "crank-handle-replacement-highrise",
+    title: "Window Crank Handle Replacement",
+    category: "hardware",
+    mediaType: "before-after-slider",
+    beforeImage: {
+      src: "/images/services/crank-handle-before.jpg",
+      alt: "Casement window crank with missing handle, only the operator base and scissor arms visible",
+    },
+    afterImage: {
+      src: "/images/services/crank-handle-after.jpg",
+      alt: "New crank handle installed on the casement window operator, smooth operation restored",
+    },
+    description:
+      "The crank handle on this casement window had broken off, leaving just the bare operator base. We matched the correct replacement handle and installed it on the spot. Smooth open-and-close operation restored on the first visit.",
+    location: "Toronto",
+    serviceType: "Hardware",
+    tags: ["Same-Day Service"],
+  },
   {
     id: "glass-replacement-toronto-casement",
     title: "Casement Window Glass Replacement",
