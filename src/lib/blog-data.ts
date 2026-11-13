@@ -71,7 +71,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="foggy-glass-seal-failure">Foggy Glass and Seal Failure</h2>
 
-<p>Foggy windows are one of the most common issues in the GTA. You see condensation, haze, or a milky film trapped between the panes. It looks terrible and it means the insulating seal has failed. Moisture has entered the space where argon gas used to be.</p>
+<p><a href="/foggy-windows">Foggy windows</a> are one of the most common issues in the GTA. You see condensation, haze, or a milky film trapped between the panes. It looks terrible and it means the insulating seal has failed. Moisture has entered the space where argon gas used to be.</p>
 
 <p><strong>Can it be repaired?</strong> Yes. The glass unit (the sealed unit) can be replaced without touching the frame. A technician measures the opening, orders a custom-made replacement glass unit, and installs it into your existing frame. The process takes two visits: one to measure, one to install.</p>
 
@@ -81,7 +81,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="broken-cranks-and-hardware">Broken Cranks, Hinges, and Hardware</h2>
 
-<p>Casement and awning windows rely on crank operators and hinges to open and close. Over time, these parts wear down. You might notice the handle spinning without engaging, the window not closing flush, or the hinge arm bending when you try to open it.</p>
+<p>Casement and awning windows rely on <a href="/cranks">crank operators</a> and hinges to open and close. Over time, these parts wear down. You might notice the handle spinning without engaging, the window not closing flush, or the hinge arm bending when you try to open it.</p>
 
 <p><strong>Can it be repaired?</strong> Almost always. Window hardware, including cranks, hinges, locks, handles, and balancers, can be replaced individually. A technician identifies the part, sources a compatible replacement (even for discontinued models), and installs it on site.</p>
 
@@ -93,7 +93,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>A stray baseball, a pressure crack from temperature swings, or impact damage from a storm. Broken glass is urgent because it compromises security, insulation, and safety.</p>
 
-<p><strong>Can it be repaired?</strong> The glass itself cannot be patched. But the sealed unit can be replaced without replacing the window. As with foggy glass, the opening is measured, a new unit is custom-made, and it gets installed into your existing frame.</p>
+<p><strong>Can it be repaired?</strong> The glass itself cannot be patched. But the <a href="/glass-replacement">sealed unit can be replaced</a> without replacing the window. As with foggy glass, the opening is measured, a new unit is custom-made, and it gets installed into your existing frame.</p>
 
 <p>For single-pane glass (common in older homes, storm doors, and sidelights), replacement is even simpler. The broken pane is removed and a new one is cut and installed, often in a single visit.</p>
 
@@ -468,7 +468,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="not-sure">Not Sure What You're Looking At?</h2>
 
-<p>If you cannot tell whether your condensation is on the surface or between the panes, a quick site visit will give you a clear answer. A technician inspects the window, identifies whether the seal has failed, and gives you a written quote if work is needed.</p>
+<p>If you cannot tell whether your condensation is on the surface or between the panes, a quick site visit will give you a clear answer. A technician inspects the window, identifies whether the seal has failed, and gives you a written quote if work is needed. We serve <a href="/window-repair-vaughan">Vaughan</a>, <a href="/window-repair-toronto">Toronto</a>, <a href="/window-repair-mississauga">Mississauga</a>, and the entire GTA.</p>
 
 <p>Book a $30 site visit. That fee gets credited toward whatever work you decide to do.</p>
 
@@ -780,7 +780,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="worried">Worried About Your Skylight?</h2>
 
-<p>If you are seeing water, fog, frost, or stains around your skylight, a quick inspection will tell you exactly what is going on. A technician checks the glass, the seal, the flashing, and the frame, then gives you a clear answer and a written quote if work is needed.</p>
+<p>If you are seeing water, fog, frost, or stains around your skylight, a quick inspection will tell you exactly what is going on. We handle <a href="/skylight-repair-vaughan">skylight repair in Vaughan</a>, <a href="/skylight-repair-toronto">Toronto</a>, <a href="/skylight-repair-mississauga">Mississauga</a>, and across the GTA. A technician checks the glass, the seal, the flashing, and the frame, then gives you a clear answer and a written quote if work is needed.</p>
 
 <p>Book a $30 site visit. That fee gets credited toward whatever work you decide to do.</p>
 
@@ -857,7 +857,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>For a full pre-winter check of your windows, see our <a href="/blog/winter-window-checklist-gta">winter window checklist for GTA homes</a>.</p>
 
-<p>Not sure which part failed? Send us a photo of the handle and the open window on WhatsApp and we will tell you what we are looking at. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
+<p>Not sure which part failed? We handle <a href="/window-crank-repair-vaughan">crank repairs in Vaughan</a>, <a href="/window-crank-repair-toronto">Toronto</a>, <a href="/window-crank-repair-mississauga">Mississauga</a>, and across the GTA. Send us a photo of the handle and the open window on WhatsApp and we will tell you what we are looking at. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
 `,
   },
   {
@@ -911,7 +911,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p><strong>Failed sealed units.</strong> A window that has fogged between the panes has failed as a component rather than been damaged. Corporations often handle these even in buildings where owners handle the hardware.</p>
 
-<p><strong>Hardware.</strong> Cranks, hinges, locks and rollers are frequently treated as owner responsibility even where the glass is not, because they are wear items used by the occupant.</p>
+<p><strong>Hardware.</strong> <a href="/cranks">Cranks</a>, hinges, locks and rollers are frequently treated as owner responsibility even where the glass is not, because they are wear items used by the occupant.</p>
 
 <p><strong>Damage from inside the unit.</strong> If a window broke because of something that happened in your unit, expect to pay for it regardless of what the declaration says about maintenance.</p>
 
@@ -1092,7 +1092,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Photograph and measure your storefront glass now, while it is intact, and keep it with your insurance documents. When a pane breaks at midnight, having the dimensions already written down takes a day off the order.</p>
 
-<p>Broken glass now? Call <a href="tel:+14373448490">437-344-8490</a>. We board up across the <a href="/contact">GTA</a>, any hour.</p>
+<p>Broken glass now? Call <a href="tel:+14373448490">437-344-8490</a>. We handle <a href="/emergency-glass-repair">emergency glass repair</a> and <a href="/commercial-glass-repair">commercial glass repair</a> across the GTA, any hour.</p>
 `,
   },
   {
@@ -1167,7 +1167,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>That is not the most expensive option on any quote sheet, and that is the point. The upgrades that matter most are not the ones that cost the most.</p>
 
-<p><a href="/foggy-windows">Replacing a fogged unit</a> and not sure what to specify? Send us a photo and the rough dimensions on WhatsApp and we will tell you what is in there now and what we would put back. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
+<p><a href="/foggy-windows">Replacing a fogged unit</a> and not sure what to specify? Whether you need <a href="/glass-replacement">glass replacement</a> for your home or a sealed unit upgrade, send us a photo and the rough dimensions on WhatsApp and we will tell you what is in there now and what we would put back. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
 `,
   },
   {
@@ -1193,7 +1193,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
 <p>You put your shoulder into it and it moves in jerks. Or it comes off its line halfway and jams. Or it slides but will not lock any more.</p>
 
-<p>Sliding patio doors are among the heaviest moving parts in a house, and when they go wrong the instinct is to assume the whole door is finished. It usually is not. The glass and the frame outlast the moving parts by decades.</p>
+<p>Sliding patio doors are among the heaviest moving parts in a house, and when they go wrong the instinct is to assume the whole door is finished. It usually is not. The glass and the frame outlast the moving parts by decades. If your <a href="/patio-door-repair">patio door</a> is dragging, the fix is almost always the rollers, the track, or both.</p>
 
 <h2 id="what-is-carrying-the-weight">What Is Carrying the Weight</h2>
 
@@ -1473,7 +1473,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Check the frame. If the wood or vinyl frame is solid, no rot, no warping, and the hardware works fine, you only need the glass unit replaced. If the frame is crumbling, cracked, or pulling away from the wall, a full replacement may make more sense. A technician can confirm during a no-obligation assessment.</p>
 
-<p>Ready to find out what your foggy windows will cost? <a href="/contact">Request a quote</a> or call <a href="tel:+14373448490">437-344-8490</a>.</p>
+<p>Ready to find out what your foggy windows will cost? We serve the entire GTA, including <a href="/foggy-glass-repair-vaughan">Vaughan</a>, <a href="/foggy-glass-repair-toronto">Toronto</a>, <a href="/foggy-glass-repair-mississauga">Mississauga</a>, and <a href="/foggy-glass-repair-markham">Markham</a>. <a href="/contact">Request a quote</a> or call <a href="tel:+14373448490">437-344-8490</a>.</p>
 `,
   },
   {
