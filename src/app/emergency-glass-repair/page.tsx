@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { CheckCircle2, Phone, ChevronRight, Wrench } from "lucide-react";
+import { CheckCircle2, Phone, ChevronRight, Wrench, MapPin } from "lucide-react";
+import { EMERGENCY_GLASS_CITY_PAGES } from "@/lib/emergency-glass-city-data";
 import { PHONE_HREF } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import {
@@ -393,6 +394,30 @@ export default function EmergencyGlassRepairPage() {
                 </summary>
                 <div className="px-6 pb-4 text-gray-600 leading-relaxed">{faq.a}</div>
               </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Cities We Serve */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            Emergency Glass Repair Across the GTA
+          </h2>
+          <p className="text-gray-500 mb-6 max-w-2xl">
+            We provide 24/7 emergency glass repair across {EMERGENCY_GLASS_CITY_PAGES.length} cities in the Greater Toronto Area:
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+            {EMERGENCY_GLASS_CITY_PAGES.map((city) => (
+              <Link
+                key={city.slug}
+                href={`/emergency-glass-repair-${city.slug}`}
+                className="flex items-center gap-2 bg-white rounded-lg border border-gray-200 px-4 py-3 text-sm font-medium text-gray-700 hover:text-primary hover:border-primary/30 hover:shadow-sm transition-all"
+              >
+                <MapPin className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />
+                {city.city}
+              </Link>
             ))}
           </div>
         </div>

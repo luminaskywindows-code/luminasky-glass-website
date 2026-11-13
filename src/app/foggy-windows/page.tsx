@@ -20,6 +20,7 @@ import {
   CloudRain,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { FOGGY_GLASS_CITY_PAGES } from "@/lib/foggy-glass-city-data";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
   SERVICES,
@@ -29,7 +30,6 @@ import {
   EMAIL_HREF,
   WINTER_READY_ENABLED,
 } from "@/lib/constants";
-import { FOGGY_GLASS_CITY_PAGES } from "@/lib/foggy-glass-city-data";
 import {
   generateBreadcrumbSchema,
   generateServiceSchema,
@@ -1004,6 +1004,30 @@ export default function FoggyWindowsPage() {
           </div>
         </section>
       )}
+
+      {/* Cities We Serve */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            Foggy Glass Repair Across the GTA
+          </h2>
+          <p className="text-gray-500 mb-6 max-w-2xl">
+            We replace foggy sealed units across {FOGGY_GLASS_CITY_PAGES.length} cities in the Greater Toronto Area:
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+            {FOGGY_GLASS_CITY_PAGES.map((city) => (
+              <Link
+                key={city.slug}
+                href={`/foggy-glass-repair-${city.slug}`}
+                className="flex items-center gap-2 bg-white rounded-lg border border-gray-200 px-4 py-3 text-sm font-medium text-gray-700 hover:text-primary hover:border-primary/30 hover:shadow-sm transition-all"
+              >
+                <MapPin className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />
+                {city.city}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <CTABanner
         title="Foggy Windows? We Fix Them."
