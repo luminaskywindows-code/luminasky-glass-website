@@ -23,7 +23,7 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Glass & Window Repair in Vaughan | LuminaSky",
+  title: "Glass & Window Repair in Vaughan",
   description:
     "LuminaSky serves all of Vaughan: Woodbridge, Maple, Kleinburg, Concord. Window repair, glass replacement, skylights, patio doors. 24/7 service. 5-year warranty.",
   alternates: { canonical: "/vaughan" },
