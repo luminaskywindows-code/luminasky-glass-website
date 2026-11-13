@@ -534,7 +534,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Skylight Repair Halton Hills | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Halton Hills and Georgetown. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Halton Hills and Georgetown. Leak repair, glass replacement, flashing and seals. 24/7 emergency. 5-year warranty.",
     intro:
       "Halton Hills, including Georgetown and Acton, has a solid base of 1990s and 2000s homes with skylights now entering the service window. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across both communities.",
     uniqueContent:

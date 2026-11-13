@@ -174,7 +174,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Skylight Repair Toronto | Leaks, Glass & Seals",
   description:
-    "Leaking or cracked skylight? LuminaSky repairs all skylight types across Toronto and the GTA. Glass replacement, seal repair, hardware fixes. 5-year glass warranty. 437-344-8490.",
+    "Leaking or cracked skylight? We repair all skylight types across the GTA. Glass replacement, seal repair, hardware fixes. 5-year warranty. 437-344-8490.",
   alternates: { canonical: "/skylights" },
   openGraph: {
     title: "Skylight Repair Toronto | Leaks, Glass & Seals | LuminaSky",

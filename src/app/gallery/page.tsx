@@ -16,7 +16,7 @@ const BeforeAfterSlider = dynamic(
 export const metadata: Metadata = {
   title: "Before & After Gallery",
   description:
-    "See real before and after photos of window and glass repairs by LuminaSky Glass Services. Foggy glass, front door glass, skylights, cranks, and more across the GTA.",
+    "Real before and after photos of window and glass repairs by LuminaSky. Foggy glass, front door glass, skylights, cranks and more across the GTA.",
   alternates: { canonical: "/gallery" },
 };
 

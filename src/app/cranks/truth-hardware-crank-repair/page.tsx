@@ -26,7 +26,7 @@ import {
 export const metadata: Metadata = {
   title: "Truth Hardware Crank Repair Toronto | 1-Year Warranty",
   description:
-    "Truth Hardware crank repair across the GTA. We stock AmesburyTruth operators, handles and arms for casement and awning windows. $30 visit credited back. 1-year warranty. Call 437-344-8490.",
+    "Truth Hardware crank repair across the GTA. AmesburyTruth operators, handles and arms for casement and awning windows. 1-year warranty. 437-344-8490.",
   alternates: { canonical: "/cranks/truth-hardware-crank-repair" },
 };
 

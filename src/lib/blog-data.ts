@@ -1245,7 +1245,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Winter Window Prep: 5 Things Every GTA Homeowner Should Check",
     metaTitle: "Winter Window Prep: 5 Things to Check Before Frost",
     metaDescription:
-      "Five window checks to do before the first hard frost hits the GTA. Caulk, hardware, foggy panes, weatherstripping, frost. Catch problems in October, not January.",
+      "Five window checks before the first hard frost. Caulk, hardware, foggy panes, weatherstripping. Catch problems in October, not January.",
     excerpt:
       "It is late October. The first hard frost in the GTA is days away, not weeks. Here are five things to check on your windows right now, before cold weather turns a small problem into an expensive one.",
     publishedAt: "2026-10-27",
@@ -1326,7 +1326,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Front Door Glass Insert Replacement: Keep the Door, Change the Glass",
     metaTitle: "Front Door Glass Insert Replacement",
     metaDescription:
-      "Cracked, foggy or dated glass in your front door? In most cases you can replace just the glass insert and keep the door. What it involves and what it costs in the GTA.",
+      "Cracked, foggy or dated glass in your front door? You can replace just the glass insert and keep the door. What it involves and costs.",
     excerpt:
       "A lot of people call us thinking they need a new front door. The door opens fine, it locks fine, it seals fine. The problem is the glass. It cracked, it fogged up inside, or it just looks like 1998. In most of those cases you do not need a new door. You need a new glass insert.",
     publishedAt: "2026-10-27",

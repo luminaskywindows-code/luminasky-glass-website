@@ -25,7 +25,7 @@ import {
 export const metadata: Metadata = {
   title: "Window Crank Repair Toronto | Casement & Awning",
   description:
-    "Broken window crank? LuminaSky repairs and replaces casement cranks, operators, and handles across Toronto and the GTA. Most repairs completed same day. 1-year warranty. 437-344-8490.",
+    "Broken window crank? We repair and replace casement cranks, operators and handles across the GTA. Most repairs same day. 1-year warranty.",
   alternates: { canonical: "/cranks" },
 };
 

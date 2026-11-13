@@ -449,7 +449,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Front Door Glass Replacement in Georgetown",
     metaDescription:
-      "Front door glass replacement in Georgetown and Halton Hills. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Georgetown and Halton Hills. Decorative, frosted, clear and privacy inserts. 5-Year Warranty. 437-344-8490.",
     intro:
       "Georgetown and Acton form the core of Halton Hills, with a mix of historic village homes and newer subdivision builds. The front door glass across these communities ranges from century-home panels to modern factory inserts. LuminaSky replaces all of them on-site.",
     uniqueContent:
@@ -568,7 +568,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Front Door Glass Replacement in Bowmanville",
     metaDescription:
-      "Front door glass replacement in Bowmanville and Clarington. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Bowmanville and Clarington. Decorative, frosted, clear and privacy inserts. 5-Year Warranty. 437-344-8490.",
     intro:
       "Clarington's communities of Bowmanville, Courtice, and Newcastle have grown substantially over the past two decades. The front door glass in these homes is builder-grade and now entering the age where seals fail and styles feel dated. LuminaSky replaces the glass without replacing the door.",
     uniqueContent:

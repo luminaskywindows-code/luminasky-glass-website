@@ -120,7 +120,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Window Replacement Toronto | Full Unit Replacement",
   description:
-    "Full window replacement for Toronto and Vaughan homes. LuminaSky replaces old, drafty, and failing windows. Written quote on the spot, no pressure. Licensed and insured. 437-344-8490.",
+    "Full window replacement for Toronto and Vaughan homes. We replace old, drafty and failing windows. Written quote on the spot. Licensed. 437-344-8490.",
   alternates: { canonical: "/window-replacement" },
 };
 

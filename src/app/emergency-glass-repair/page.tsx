@@ -102,7 +102,7 @@ const EMERGENCY_PROBLEMS = [
 export const metadata: Metadata = {
   title: "Emergency Glass Repair Toronto | 24/7 Board-Up",
   description:
-    "Broken window or storefront glass? LuminaSky provides 24/7 emergency board-up and glass replacement across Toronto and the GTA. No after-hours surcharge. 437-344-8490.",
+    "Broken window or storefront glass? 24/7 emergency board-up and glass replacement across the GTA. No after-hours surcharge. 437-344-8490.",
   alternates: { canonical: "/emergency-glass-repair" },
   openGraph: {
     title: "Emergency Glass Repair Toronto | 24/7 Board-Up | LuminaSky",
