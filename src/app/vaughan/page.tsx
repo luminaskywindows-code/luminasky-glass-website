@@ -376,6 +376,65 @@ export default function VaughanHubPage() {
         </div>
       </section>
 
+      {/* Vaughan Guides */}
+      <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+          Vaughan Guides & Articles
+        </h2>
+        <p className="text-gray-500 mb-8 max-w-2xl">
+          In-depth guides covering window and glass repair topics specific to
+          Vaughan neighbourhoods and housing stock.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <Link
+            href="/blog/window-repair-vaughan-neighbourhood-guide"
+            className="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md hover:border-primary/30 transition-all"
+          >
+            <span className="text-xs font-semibold text-primary uppercase tracking-wide">
+              Guide
+            </span>
+            <h3 className="font-bold text-gray-900 mt-2 mb-2 group-hover:text-primary transition-colors">
+              Window Repair in Vaughan: A Neighbourhood-by-Neighbourhood Guide
+            </h3>
+            <p className="text-gray-500 text-sm leading-relaxed">
+              What we see in Woodbridge, Maple, Kleinburg, Concord, Thornhill
+              and Vellore, and how repairs differ by area.
+            </p>
+          </Link>
+          <Link
+            href="/blog/vaughan-sealed-unit-replacement-winter"
+            className="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md hover:border-primary/30 transition-all"
+          >
+            <span className="text-xs font-semibold text-primary uppercase tracking-wide">
+              Seasonal
+            </span>
+            <h3 className="font-bold text-gray-900 mt-2 mb-2 group-hover:text-primary transition-colors">
+              Why Vaughan Homes Need Sealed Unit Replacement Before Winter
+            </h3>
+            <p className="text-gray-500 text-sm leading-relaxed">
+              Signs of seal failure, what happens if you wait, and why fall
+              is the best time to replace foggy glass.
+            </p>
+          </Link>
+          <Link
+            href="/blog/commercial-glass-repair-vaughan-guide"
+            className="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md hover:border-primary/30 transition-all"
+          >
+            <span className="text-xs font-semibold text-primary uppercase tracking-wide">
+              Commercial
+            </span>
+            <h3 className="font-bold text-gray-900 mt-2 mb-2 group-hover:text-primary transition-colors">
+              Commercial Glass Repair in Vaughan: Storefronts, Offices and
+              Plazas
+            </h3>
+            <p className="text-gray-500 text-sm leading-relaxed">
+              Highway 7 corridor, Woodbridge commercial district, Maple plazas,
+              emergency board-ups and the repair process.
+            </p>
+          </Link>
+        </div>
+      </section>
+
       {/* Nearby Areas */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
