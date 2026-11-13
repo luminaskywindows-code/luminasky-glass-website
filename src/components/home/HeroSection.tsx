@@ -1,14 +1,16 @@
-﻿"use client";
-
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
-import { Phone, MessageCircle } from "lucide-react";
-import { PHONE, PHONE_HREF, WHATSAPP_HREF } from "@/lib/constants";
-import { trackWhatsAppConversion } from "@/lib/gtag";
+import { Phone } from "lucide-react";
+import { PHONE, PHONE_HREF } from "@/lib/constants";
 
 const HeroFormCard = dynamic(
   () => import("@/components/home/HeroFormCard").then((m) => m.HeroFormCard),
+  { ssr: false }
+);
+
+const WhatsAppHeroButton = dynamic(
+  () => import("@/components/home/WhatsAppHeroButton").then((m) => m.WhatsAppHeroButton),
   { ssr: false }
 );
 
@@ -21,26 +23,6 @@ const STATS = [
 export function HeroSection() {
   return (
     <>
-      <style>{`
-        @media (prefers-reduced-motion: no-preference) {
-          .hero-fade-up {
-            animation: heroFadeUp 0.55s ease-out both;
-          }
-          .hero-fade-up-d1 { animation-delay: 0.08s; }
-          .hero-fade-up-d2 { animation-delay: 0.16s; }
-          .hero-fade-up-d3 { animation-delay: 0.24s; }
-          .hero-fade-up-d4 { animation-delay: 0.32s; }
-          .hero-fade-up-d5 { animation-delay: 0.40s; }
-          .hero-card-in {
-            animation: heroFadeUp 0.65s ease-out 0.2s both;
-          }
-        }
-        @keyframes heroFadeUp {
-          from { opacity: 0; transform: translateY(24px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-      `}</style>
-
       {/* ── Main Hero ── */}
       <section
         className="relative overflow-hidden"
@@ -69,7 +51,7 @@ export function HeroSection() {
             {/* ── Left side: text content (55%) ── */}
             <div className="lg:col-span-7 flex flex-col gap-4 lg:gap-6 text-center lg:text-left">
               {/* Eyebrow pill */}
-              <div className="hero-fade-up">
+              <div>
                 <span className="inline-flex items-center bg-white/10 border border-white/20 text-blue-100 text-sm font-medium px-4 py-1.5 rounded-full backdrop-blur-sm">
                   Toronto&apos;s Repair-First Glass Specialists
                 </span>
@@ -81,15 +63,15 @@ export function HeroSection() {
                 Glass &amp; Window Repair In Toronto
               </h1>
 
-              <p className="hero-fade-up hero-fade-up-d1 text-accent-light text-xl md:text-2xl font-semibold">
+              <p className="text-accent-light text-xl md:text-2xl font-semibold">
                 Fix Don&apos;t Replace
               </p>
 
-              <p className="hero-fade-up hero-fade-up-d2 text-blue-100 text-base md:text-lg leading-relaxed max-w-xl lg:max-w-none">
+              <p className="text-blue-100 text-base md:text-lg leading-relaxed max-w-xl lg:max-w-none">
                 <strong>LuminaSky Glass Services</strong> repairs windows and glass across 34 cities in the Greater Toronto Area. We serve homeowners and property managers with 24/7 emergency board-up, a 5-year warranty against seal failure on sealed glass units, and same-week measurement appointments.
               </p>
 
-              <div className="hero-fade-up hero-fade-up-d3 flex flex-col sm:flex-row items-center lg:items-start gap-4 mt-1">
+              <div className="flex flex-col sm:flex-row items-center lg:items-start gap-4 mt-1">
                 <Link
                   href="/contact"
                   className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-bold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all text-lg tracking-wide focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
@@ -98,7 +80,7 @@ export function HeroSection() {
                 </Link>
               </div>
 
-              <div className="hero-fade-up hero-fade-up-d4 flex flex-col sm:flex-row items-center lg:items-start gap-4 text-sm">
+              <div className="flex flex-col sm:flex-row items-center lg:items-start gap-4 text-sm">
                 <a
                   href={PHONE_HREF}
                   className="inline-flex items-center gap-2 text-white/90 hover:text-white font-medium transition-colors"
@@ -107,20 +89,12 @@ export function HeroSection() {
                   <Phone className="w-4 h-4" aria-hidden="true" />
                   Call Now: {PHONE}
                 </a>
-                <button
-                  type="button"
-                  onClick={() => { trackWhatsAppConversion(); window.open(WHATSAPP_HREF, "_blank", "noopener,noreferrer"); }}
-                  className="inline-flex items-center gap-2 text-white/70 hover:text-white font-medium transition-colors cursor-pointer"
-                  aria-label="Chat on WhatsApp"
-                >
-                  <MessageCircle className="w-4 h-4" aria-hidden="true" />
-                  Send us a photo on WhatsApp
-                </button>
+                <WhatsAppHeroButton />
               </div>
             </div>
 
             {/* ── Right side: form card (45%) — hidden on mobile to keep hero compact ── */}
-            <div className="hidden lg:block lg:col-span-5 hero-card-in">
+            <div className="hidden lg:block lg:col-span-5">
               <HeroFormCard />
             </div>
           </div>
