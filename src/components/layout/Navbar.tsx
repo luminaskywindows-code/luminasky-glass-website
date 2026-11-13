@@ -173,28 +173,33 @@ export function Navbar() {
                 />
               </button>
 
-              {servicesOpen && (
-                <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-xl shadow-xl border border-gray-100 py-2 z-50">
+              <div
+                className={cn(
+                  "absolute top-full left-0 mt-1 w-64 bg-white rounded-xl shadow-xl border border-gray-100 py-2 z-50 transition-all duration-200",
+                  servicesOpen
+                    ? "opacity-100 visible translate-y-0"
+                    : "opacity-0 invisible -translate-y-1 pointer-events-none"
+                )}
+              >
+                <Link
+                  href="/services"
+                  className="block px-4 py-2 text-sm font-semibold text-primary hover:bg-gray-50 transition-colors"
+                  onClick={() => setServicesOpen(false)}
+                >
+                  All Services
+                </Link>
+                <div className="h-px bg-gray-100 my-1" />
+                {SERVICES.map((service) => (
                   <Link
-                    href="/services"
-                    className="block px-4 py-2 text-sm font-semibold text-primary hover:bg-gray-50 transition-colors"
+                    key={service.slug}
+                    href={service.href}
+                    className="block px-4 py-2 text-sm text-gray-700 hover:text-primary hover:bg-gray-50 transition-colors"
                     onClick={() => setServicesOpen(false)}
                   >
-                    All Services
+                    {service.shortTitle}
                   </Link>
-                  <div className="h-px bg-gray-100 my-1" />
-                  {SERVICES.map((service) => (
-                    <Link
-                      key={service.slug}
-                      href={service.href}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:text-primary hover:bg-gray-50 transition-colors"
-                      onClick={() => setServicesOpen(false)}
-                    >
-                      {service.shortTitle}
-                    </Link>
-                  ))}
-                </div>
-              )}
+                ))}
+              </div>
             </div>
           </div>
 
@@ -286,27 +291,30 @@ export function Navbar() {
                       <ChevronDown className="w-4 h-4" aria-hidden="true" />
                     )}
                   </button>
-                  {mobileServicesOpen && (
-                    <div className="pl-4 flex flex-col gap-1 mt-1">
+                  <div
+                    className={cn(
+                      "pl-4 flex flex-col gap-1 mt-1 overflow-hidden transition-all duration-200",
+                      mobileServicesOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    )}
+                  >
+                    <Link
+                      href="/services"
+                      onClick={() => setSheetOpen(false)}
+                      className="block px-4 py-2 text-sm font-semibold text-primary hover:bg-gray-50 rounded-lg transition-colors"
+                    >
+                      All Services
+                    </Link>
+                    {SERVICES.map((service) => (
                       <Link
-                        href="/services"
+                        key={service.slug}
+                        href={service.href}
                         onClick={() => setSheetOpen(false)}
-                        className="block px-4 py-2 text-sm font-semibold text-primary hover:bg-gray-50 rounded-lg transition-colors"
+                        className="block px-4 py-2 text-sm text-gray-600 hover:text-primary hover:bg-gray-50 rounded-lg transition-colors"
                       >
-                        All Services
+                        {service.shortTitle}
                       </Link>
-                      {SERVICES.map((service) => (
-                        <Link
-                          key={service.slug}
-                          href={service.href}
-                          onClick={() => setSheetOpen(false)}
-                          className="block px-4 py-2 text-sm text-gray-600 hover:text-primary hover:bg-gray-50 rounded-lg transition-colors"
-                        >
-                          {service.shortTitle}
-                        </Link>
-                      ))}
-                    </div>
-                  )}
+                    ))}
+                  </div>
                 </div>
 
                 <div className="pt-4 border-t border-gray-100 flex flex-col gap-3">

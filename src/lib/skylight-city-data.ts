@@ -358,6 +358,244 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
       a: "Yes. Homes near the Lake Ontario waterfront in Ajax get more wind-driven rain and moisture exposure. Skylights on south-facing roofs in these areas tend to need flashing and seal attention sooner than identical units on homes farther from the lake.",
     },
   },
+  {
+    slug: "pickering",
+    city: "Pickering",
+    region: "Durham Region",
+    metaTitle: "Skylight Repair Pickering | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Pickering. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Pickering homes from the 1970s through the 2010s carry skylights in various stages of life. The older units in Bay Ridges and Pickering Village are well past their expected seal life, while newer installations in Seaton and Duffin Heights are just beginning to show wear. LuminaSky repairs leaking skylights, replaces fogged glass, fixes flashing and re-seals frames across Pickering.",
+    uniqueContent:
+      "Bay Ridges and the Liverpool Road corridor have homes from the 1970s and 1980s with original skylights that have logged 40-plus years of service. The seals and flashing on these units are long overdue for attention. In Amberlea and the central Pickering neighbourhoods, the homes are from the 1990s with skylights that are now in their second decade of seal failure. The Seaton development is bringing newer homes with current-generation skylights, but some early installations are already showing condensation between the panes on south-facing roofs. Pickering's proximity to Lake Ontario means more wind-driven rain from the south, which tests flashing integrity. We inspect curb and step flashing during every skylight visit and quote any repairs needed to prevent future leaks. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("pickering"),
+    citySpecificFaq: {
+      q: "Can you repair skylights on older Pickering Village homes?",
+      a: "Yes. We service skylights of all ages, including older units from the 1970s and 1980s. If the frame is still sound, we replace the glass and re-seal it. If the frame needs replacement, we will tell you during the assessment.",
+    },
+  },
+  {
+    slug: "whitby",
+    city: "Whitby",
+    region: "Durham Region",
+    metaTitle: "Skylight Repair Whitby | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Whitby. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Whitby's steady residential growth means skylights of all ages are installed across town. From the older homes near downtown to the newer subdivisions along Taunton Road, LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames throughout Whitby.",
+    uniqueContent:
+      "The established neighbourhoods around Brooklin and downtown Whitby have homes from the 1970s through the 1990s with skylights that have been in service for decades. The seals on these units are reaching or past the end of their useful life, and leaks during spring thaw are common. In the newer developments along Taunton Road and around the Whitby GO station, the homes are from the 2000s and 2010s with skylights that are beginning to show early condensation between the panes. South-facing skylights fail first because UV exposure breaks down sealant faster. We carry safety systems for all roof types and pitches across Whitby. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("whitby"),
+    citySpecificFaq: {
+      q: "My Whitby skylight leaks only during spring thaw. Is that a seal issue?",
+      a: "Usually it is a flashing issue rather than a glass seal issue. Ice dams push water under the flashing during thaw cycles. We inspect and repair both the flashing and the glass seal during every visit.",
+    },
+  },
+  {
+    slug: "oshawa",
+    city: "Oshawa",
+    region: "Durham Region",
+    metaTitle: "Skylight Repair Oshawa | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Oshawa. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Oshawa homes from the south-end waterfront neighbourhoods to the north-end subdivisions carry skylights in various condition. The older units near Simcoe Street are long overdue for service, while newer installations along Taunton and Conlin are starting to show wear. LuminaSky repairs leaks, replaces glass, and fixes flashing across Oshawa.",
+    uniqueContent:
+      "The south end of Oshawa near the waterfront and around Simcoe Street has homes dating back to the 1950s and 1960s, some with skylights added during renovations in the 1980s and 1990s. These units are well past their expected seal life. In the central and north-end neighbourhoods along Taunton Road and Conlin Road, the housing is from the 1990s and 2000s with builder-grade skylights now entering their first round of failures. The Windfields and Kedron areas have newer homes with current-generation skylights that should have years of life left. Oshawa gets heavier snowfall than communities closer to Lake Ontario, which increases ice dam risk on north-facing roof slopes. We inspect flashing and seal condition during every visit. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("oshawa"),
+    citySpecificFaq: {
+      q: "My Oshawa skylight has condensation inside the glass. Is that repairable?",
+      a: "Condensation between the panes means the sealed unit has failed. We replace the glass unit with a new sealed panel. If the frame and flashing are in good shape, that is all that is needed.",
+    },
+  },
+  {
+    slug: "barrie",
+    city: "Barrie",
+    region: "Simcoe County",
+    metaTitle: "Skylight Repair Barrie | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Barrie. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Barrie's waterfront homes and south-end subdivisions both carry skylights exposed to Lake Simcoe winds and heavy Simcoe County snowfall. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals frames across Barrie.",
+    uniqueContent:
+      "The older residential areas along the Barrie waterfront and in the Allandale neighbourhood have homes from the 1960s through the 1980s with skylights that have logged decades of service. The seals and flashing on these units are well past their expected life. In the south end, the rapid growth along Mapleview Drive and in the Hewitt's Gate and Salem areas brought thousands of new homes, many with builder-grade skylights now 10 to 20 years old. Barrie gets more snow than communities farther south, and the lake-effect moisture from Lake Simcoe adds to the freeze-thaw stress on skylight seals and flashing. Ice dams are a common cause of skylight leaks here. We inspect and repair both the glass seal and the roof flashing during every Barrie visit. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("barrie"),
+    citySpecificFaq: {
+      q: "Does Barrie's heavier snowfall affect skylight lifespan?",
+      a: "It can. Heavier snow loads and more freeze-thaw cycles put extra stress on skylight seals and flashing. South-facing skylights in Barrie tend to fail sooner than identical units in milder areas farther south.",
+    },
+  },
+  {
+    slug: "stouffville",
+    city: "Stouffville",
+    region: "York Region",
+    metaTitle: "Skylight Repair Stouffville | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Stouffville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Stouffville's blend of village homes and newer suburban developments means skylights of various ages are installed across the community. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames throughout Stouffville.",
+    uniqueContent:
+      "The original village core of Stouffville around Main Street has homes from the mid-1900s, some with skylights added during renovations decades ago. These older units often have outdated flashing details that let water in during heavy rain or snowmelt. In the newer subdivisions along Hoover Park Drive and near the Stouffville GO station, the homes are from the 2000s and 2010s with builder-grade skylights now entering their first service window. South-facing units on these newer homes are showing early signs of seal failure: condensation between the panes that clears by afternoon but returns every morning. We replace the sealed glass unit and inspect the flashing and frame as part of every repair. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("stouffville"),
+    citySpecificFaq: {
+      q: "My Stouffville skylight fogs up in the morning but clears later. Does it need repair?",
+      a: "Morning fog between the panes that clears as the sun warms the glass is an early sign of seal failure. The seal has a small breach that lets moisture in overnight. Replacing the glass unit now prevents it from worsening.",
+    },
+  },
+  {
+    slug: "bradford",
+    city: "Bradford",
+    region: "Simcoe County",
+    metaTitle: "Skylight Repair Bradford | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Bradford. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Bradford's mix of established homes and newer developments includes skylights at various stages of their lifespan. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across Bradford and the surrounding area.",
+    uniqueContent:
+      "The older sections of Bradford near Holland Street have homes from the 1980s and 1990s with skylights that are well past the typical seal lifespan. Condensation between the panes, water stains on the ceiling below, and visible flashing deterioration are common in these homes. The newer developments along Professor Day Drive and Simcoe Road have homes from the 2000s and 2010s with builder-grade skylights now approaching their first service window. Bradford's proximity to the Holland Marsh creates pockets of higher humidity at lower elevations, which can accelerate seal deterioration on skylights. We inspect both the glass seal and the roof flashing on every visit to catch problems early. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("bradford"),
+    citySpecificFaq: {
+      q: "Does Bradford's humidity from the Holland Marsh affect skylights?",
+      a: "Homes at lower elevations near the marsh can experience slightly higher ambient moisture, which adds stress to skylight seals over time. Regular inspection catches seal failures early before they cause interior water damage.",
+    },
+  },
+  {
+    slug: "caledon",
+    city: "Caledon",
+    region: "Peel Region",
+    metaTitle: "Skylight Repair Caledon | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Caledon. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Caledon homes range from rural properties with large skylights to newer subdivision builds in Bolton and Southfields Village. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across all of Caledon.",
+    uniqueContent:
+      "Bolton-area homes from the 2000s and 2010s often have builder-grade skylights that are entering their first service interval. The older sections of Bolton have units from the 1990s where seals are already failing. Rural Caledon properties along Caledon East and Mono Road include estate-style homes with larger or multiple skylights that see more exposure to wind and weather. Palgrave and Inglewood sit at a higher elevation along the Niagara Escarpment, where heavier snow loads and wind-driven rain put extra stress on skylight flashing. Ice dams are a concern on north-facing roof slopes in these areas. We inspect the flashing, frame, and glass seal on every visit and recommend preventive repairs where we see early deterioration. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("caledon"),
+    citySpecificFaq: {
+      q: "Are skylights on rural Caledon properties more exposed to weather?",
+      a: "They can be. Rural homes on higher ground or with more wind exposure tend to see faster flashing wear. We inspect the full skylight assembly, not just the glass, on every visit to catch flashing problems before they become leaks.",
+    },
+  },
+  {
+    slug: "clarington",
+    city: "Clarington / Bowmanville",
+    region: "Durham Region",
+    metaTitle: "Skylight Repair Clarington | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Clarington and Bowmanville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Clarington, including Bowmanville, Courtice, and Newcastle, has a growing housing stock with skylights at various stages of wear. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across all Clarington communities.",
+    uniqueContent:
+      "Bowmanville's established neighbourhoods along Liberty Street and near the downtown core have homes from the 1980s and 1990s with skylights that have been exposed to decades of weather. The seals on these units are past their expected life and many show condensation between the panes. Courtice homes near Courtice Road have a mix of 1990s and 2000s builds where skylights are entering the failure window. The newer developments along Green Road and Longworth Avenue in Bowmanville have builder-grade units that may need their first service soon. Newcastle has a smaller housing base with skylights ranging from 1970s originals to recent installations. We check the flashing, curb, and glass seal on every skylight we inspect. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("clarington"),
+    citySpecificFaq: {
+      q: "Do you service skylights in all Clarington communities?",
+      a: "Yes. We cover Bowmanville, Courtice, Newcastle, and all of Clarington. Most skylight repairs are completed in a single visit once the replacement glass is ready.",
+    },
+  },
+  {
+    slug: "east-gwillimbury",
+    city: "East Gwillimbury",
+    region: "York Region",
+    metaTitle: "Skylight Repair East Gwillimbury | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in East Gwillimbury. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "East Gwillimbury, including Holland Landing and Sharon, is growing rapidly with new residential development alongside established homes. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across the community.",
+    uniqueContent:
+      "Holland Landing and Sharon have homes from the 1990s and early 2000s with skylights now 20 to 25 years old. The seals on these units are reaching end of life, and many homeowners notice condensation between the panes on cool mornings. Queensville and Mount Albert have a mix of older homes with skylights added during renovations and newer builds with factory-installed units. The ongoing construction in the Green Lane and Leslie Street areas means even newer homes may have skylights that need adjustment as the roof structure settles. We inspect the full skylight assembly on every visit, checking the glass seal, flashing, and curb condition. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("east-gwillimbury"),
+    citySpecificFaq: {
+      q: "My East Gwillimbury skylight leaks only during heavy rain. Is that a flashing issue?",
+      a: "Usually, yes. Leaks that appear only during heavy rain or wind-driven rain are typically caused by deteriorated flashing rather than a failed glass seal. We inspect the flashing on every visit and repair or replace it as needed.",
+    },
+  },
+  {
+    slug: "georgina",
+    city: "Georgina / Keswick",
+    region: "York Region",
+    metaTitle: "Skylight Repair Georgina | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Georgina and Keswick. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Georgina, including Keswick and Sutton, has homes with skylights that face Lake Simcoe's moisture and York Region's cold winters. Those conditions accelerate seal and flashing wear. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across Georgina.",
+    uniqueContent:
+      "Keswick has the largest concentration of skylights in Georgina, with homes from every decade since the 1970s. Older homes along The Queensway and near the waterfront have skylights with outdated flashing details and seals that have been exposed to lake moisture for decades. The newer sections along Woodbine Avenue and Ravenshoe Road have homes from the 2000s with builder-grade skylights approaching their first service interval. Sutton and Jackson's Point have cottage-country-style homes where skylights may have been added during renovations with varying quality of installation. Lake Simcoe's proximity means more moisture in the air year-round, which adds stress to seals. We inspect every skylight thoroughly and recommend repairs based on what we find. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("georgina"),
+    citySpecificFaq: {
+      q: "Does Lake Simcoe moisture affect skylights in Georgina?",
+      a: "It can. Homes closer to the lake deal with more ambient moisture, which adds stress to skylight seals over time. Waterfront properties in Keswick and Sutton tend to need skylight service earlier than inland homes.",
+    },
+  },
+  {
+    slug: "halton-hills",
+    city: "Halton Hills / Georgetown",
+    region: "Halton Region",
+    metaTitle: "Skylight Repair Halton Hills | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Halton Hills and Georgetown. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Halton Hills, including Georgetown and Acton, has a solid base of 1990s and 2000s homes with skylights now entering the service window. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across both communities.",
+    uniqueContent:
+      "Georgetown's Delrex Boulevard and Silver Creek neighbourhoods have homes from the mid-1990s to early 2000s with skylights that are 20 to 25 years old. Many of these units show condensation between the panes and minor flashing wear. The newer sections along Mountainview Road have homes from the 2010s where skylights are still relatively young but may need adjustment as the roof settles. Acton homes tend to be slightly older, with some skylights from the 1980s where both the seal and the flashing are past their expected life. Georgetown sits along the Niagara Escarpment, where wind exposure on higher ground can accelerate flashing deterioration. We check the glass seal, flashing, and curb on every visit. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("halton-hills"),
+    citySpecificFaq: {
+      q: "Do you service both Georgetown and Acton skylights?",
+      a: "Yes. We cover all of Halton Hills, including Georgetown, Acton, and the rural areas between them. Most skylight repairs are completed in a single visit once the replacement glass is ready.",
+    },
+  },
+  {
+    slug: "innisfil",
+    city: "Innisfil",
+    region: "Simcoe County",
+    metaTitle: "Skylight Repair Innisfil | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Innisfil. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Innisfil has grown quickly in recent years, with new homes in Alcona and the Friday Harbour area joining the existing housing stock around Stroud and Lefroy. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across all of Innisfil.",
+    uniqueContent:
+      "Alcona has the largest concentration of skylights in Innisfil, with homes from the 2000s and 2010s using builder-grade units. The older Alcona homes are now 15 to 20 years old, putting their skylights squarely in the seal failure window. Stroud and Lefroy have a mix of 1980s and 1990s homes where skylights are well past their expected seal life. Lakefront properties along Lake Simcoe deal with extra moisture exposure and wind that accelerates flashing wear on skylights. Innisfil's Simcoe County location means heavier snow loads than communities farther south, increasing the risk of ice dams around skylight curbs. We inspect the full assembly on every visit. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("innisfil"),
+    citySpecificFaq: {
+      q: "Do lakefront skylights in Innisfil need more frequent service?",
+      a: "Homes closer to Lake Simcoe may see faster seal and flashing wear from moisture and wind exposure. We recommend checking lakefront skylights every few years to catch early seal failure before it causes interior water damage.",
+    },
+  },
+  {
+    slug: "orangeville",
+    city: "Orangeville",
+    region: "Dufferin County",
+    metaTitle: "Skylight Repair Orangeville | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Orangeville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Orangeville homes sit at a higher elevation on the Niagara Escarpment, where colder winters and heavier snow loads put extra stress on skylight seals and flashing. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across Orangeville.",
+    uniqueContent:
+      "Montgomery Village and Island Lake have homes from the 1990s with skylights that are now 25 to 30 years old. Most of these units have seals that are past their expected life, and condensation between the panes is common. The newer sections near Hansen Boulevard and Rolling Hills have homes from the 2000s and 2010s with builder-grade skylights entering their first service window. Downtown Orangeville along Broadway has older homes where skylights were added during renovations with varying quality of installation. Orangeville's higher elevation means more snow, more freeze-thaw cycles, and more ice dam risk around skylight curbs. North-facing roof slopes are especially prone to ice buildup that forces water under the flashing. We inspect the flashing, curb, and glass seal on every visit. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("orangeville"),
+    citySpecificFaq: {
+      q: "Are ice dams a concern for Orangeville skylights?",
+      a: "Yes. Orangeville's heavier snowfall and colder temperatures increase the risk of ice dams around skylight curbs, especially on north-facing roof slopes. Properly maintained flashing and a sealed curb help prevent ice dam leaks.",
+    },
+  },
+  {
+    slug: "uxbridge",
+    city: "Uxbridge",
+    region: "Durham Region",
+    metaTitle: "Skylight Repair Uxbridge | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Uxbridge. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Uxbridge has a mix of older homes in the town centre and newer builds on the outskirts, many with skylights that add natural light to kitchens, bathrooms, and stairwells. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across Uxbridge.",
+    uniqueContent:
+      "Downtown Uxbridge homes near Brock Street include some of the oldest skylights in the area, installed during renovations in the 1970s and 1980s. These units have seals and flashing that are decades past their expected life. The newer sections along Reach Street and the east side of town have homes from the 2000s with builder-grade skylights now approaching their first service interval. Rural properties around Uxbridge may have skylights on steeper roof pitches or in harder-to-reach locations. Uxbridge sits on higher ground in Durham Region, which means slightly more snow and wind exposure than communities closer to the lake. We bring all necessary equipment to access skylights safely and inspect the full assembly. Glass is measured on-site, custom-made, then installed.",
+    neighborhoods: getNeighborhoods("uxbridge"),
+    citySpecificFaq: {
+      q: "Can you repair skylights on steep roofs in Uxbridge?",
+      a: "Yes. We bring the equipment needed to safely access skylights on any roof pitch. Steep roofs are common in rural Uxbridge, and we handle the access logistics as part of the repair visit.",
+    },
+  },
 ];
 
 export function getSkylightCityPageData(slug: string): SkylightCityPageData | undefined {
