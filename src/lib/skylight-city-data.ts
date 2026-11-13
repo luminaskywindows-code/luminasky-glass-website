@@ -1,4 +1,4 @@
-import { CITY_PAGES } from "./city-pages-data";
+﻿import { CITY_PAGES } from "./city-pages-data";
 
 function getNeighborhoods(slug: string): string[] {
   const city = CITY_PAGES.find((c) => c.slug === slug);
@@ -188,8 +188,179 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
       a: "Yes. If the skylight is staying, we can replace the glass and re-seal it as part of your renovation timeline. If the skylight is being moved or resized, we can install a new one to your contractor's rough opening.",
     },
   },
+  {
+    slug: "burlington",
+    city: "Burlington",
+    region: "Halton Region",
+    metaTitle: "Skylight Repair Burlington | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Burlington. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Burlington sits between the Niagara Escarpment and Lake Ontario, and that geography creates specific challenges for skylights. Escarpment-facing homes in Tyandaga and the upper parts of the city deal with heavy wind exposure, while lakeside homes in Roseland and the downtown core get wind-driven rain and salt air. We repair leaking skylights, replace fogged or cracked glass units, fix flashing and re-seal frames across all of Burlington.",
+    uniqueContent:
+      "Roseland, Shoreacres and downtown Burlington have older homes from the 1950s through 1970s where skylights were often added during kitchen or bathroom renovations. These retrofit skylights sometimes have flashing details that were not done to current standards, and they are the source of most leak calls we get in Burlington. Tyandaga and Mountainside homes sit higher on the escarpment and take heavier wind, which accelerates seal and flashing breakdown. Alton Village, Millcroft and the newer subdivisions in north Burlington have production homes with standard Velux or Fakro skylights that are now 15-20 years old and entering the seal failure window. The Plains Road corridor has a mix of commercial and residential buildings with flat-roof skylights.",
+    neighborhoods: getNeighborhoods("burlington"),
+    citySpecificFaq: {
+      q: "Does the escarpment affect skylight condition in Burlington?",
+      a: "Yes. Homes on the escarpment face stronger wind loads, which stress skylight flashing and seals more than sheltered locations. We see earlier seal failure in these areas and recommend checking skylights every few years if your home is on an exposed slope.",
+    },
+  },
+  {
+    slug: "etobicoke",
+    city: "Etobicoke",
+    region: "Toronto",
+    metaTitle: "Skylight Repair Etobicoke | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Etobicoke. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Etobicoke has some of Toronto's most established residential neighbourhoods, and many homes from the 1950s through the 1980s have skylights that were either original or added during renovations decades ago. From The Kingsway and Sunnylea to the lakeshore communities of Mimico and Long Branch, we repair leaking skylights, replace fogged glass units, fix flashing and re-seal frames across all of Etobicoke.",
+    uniqueContent:
+      "The Kingsway, Sunnylea, Alderwood and Thorncrest Village have mature housing stock where skylights are often 30-40 years old. In these homes, we frequently find that the flashing has corroded and the sealant around the frame has dried out, letting water in during heavy rain or snowmelt. Mimico, New Toronto and Long Branch sit along the lakeshore where wind-driven rain is more aggressive, so skylights on south-facing roofs deteriorate faster. Rexdale, Humber Heights and Islington Village have a mix of bungalows and two-storey homes where skylights over kitchens and hallways are common. The condo developments along the Humber and in Mimico have common-area skylights and glass features where we work with property management for scheduling and access.",
+    neighborhoods: getNeighborhoods("etobicoke"),
+    citySpecificFaq: {
+      q: "My Etobicoke home has a wood-framed skylight. Can you still repair it?",
+      a: "Yes. We inspect the wood frame for moisture damage before quoting the glass work. If the frame is sound, we replace the glass and re-seal it. If there is rot or soft wood, we repair or replace the damaged framing before installing the new sealed unit.",
+    },
+  },
+  {
+    slug: "scarborough",
+    city: "Scarborough",
+    region: "Toronto",
+    metaTitle: "Skylight Repair Scarborough | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Scarborough. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Scarborough's housing stock spans post-war bungalows in Birch Cliff and Guildwood, 1970s and 1980s side-splits in Bendale and Woburn, and newer builds in Rouge and Highland Creek. Many of these homes have skylights that were installed during original construction or added in renovations, and after decades of Toronto weather, the seals and flashing need attention. We repair leaking skylights, replace fogged glass, fix flashing and re-seal frames across all of Scarborough.",
+    uniqueContent:
+      "Birch Cliff, Guildwood and Cliffside have older homes where skylights are sometimes retrofit installations with non-standard flashing that causes chronic leaks. These are common repair calls for us in Scarborough. Agincourt and Tam O'Shanter have a high concentration of homes from the 1970s and 1980s with original skylights that are well past their seal life. The Highland Creek and Rouge areas have newer homes where the skylights are younger but south-facing units still fail sooner than expected from UV exposure. Scarborough's condo and townhouse complexes along Kingston Road and in the Scarborough Town Centre area have common-area skylights where we coordinate with property managers. The Bluffs communities get extra wind exposure from the lake, which accelerates seal breakdown.",
+    neighborhoods: getNeighborhoods("scarborough"),
+    citySpecificFaq: {
+      q: "Do you service skylights in Scarborough townhouse complexes?",
+      a: "Yes. We work with property managers and condo boards to schedule skylight repairs in common areas and individual units. We carry our own safety equipment and coordinate access as needed.",
+    },
+  },
+  {
+    slug: "aurora",
+    city: "Aurora",
+    region: "York Region",
+    metaTitle: "Skylight Repair Aurora | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Aurora. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Aurora grew steadily through the 1990s and 2000s, and many of those homes came with standard kitchen and bathroom skylights that are now reaching the age where seals fail and glass fogs. The older homes near Yonge Street and Wellington have skylights that are even further along. We repair leaking skylights, replace fogged or cracked glass units, fix flashing and re-seal frames across all of Aurora.",
+    uniqueContent:
+      "Bayview Wellington and the Hills of St Andrew have homes from the late 1990s and 2000s with Velux and Fakro skylights that are hitting the 20-year mark. These are standard sizes, so turnaround on replacement glass is typically on the faster end. Aurora Highlands and Aurora Village have older homes where the skylights may be original to the house and the frames need inspection alongside the glass. The heritage area near Yonge and Wellington has character homes where skylights were added during renovations, sometimes with flashing that does not meet current standards. St Andrew's on the Hill and Stonebridge have larger custom homes with architectural skylights and vaulted ceilings. Aurora's exposure to open-field wind from the north can stress skylight seals, especially on homes backing onto farmland.",
+    neighborhoods: getNeighborhoods("aurora"),
+    citySpecificFaq: {
+      q: "My aurora home backs onto open land. Does that affect the skylight?",
+      a: "Yes. Homes on the edge of Aurora with open exposure to the north take more wind load on the roof, which stresses skylight flashing and seals. We recommend periodic inspections if your home is in an exposed location.",
+    },
+  },
+  {
+    slug: "woodbridge",
+    city: "Woodbridge",
+    region: "Vaughan",
+    metaTitle: "Skylight Repair Woodbridge | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Woodbridge. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Woodbridge is one of Vaughan's most established communities, with housing that ranges from custom estate homes along Islington Avenue to family subdivisions in Sonoma Heights and Vellore Village. Many of these homes have skylights that are 20-35 years old, and after decades of freeze-thaw cycles, the seals and flashing are showing their age. We repair leaking skylights, replace fogged glass units, fix flashing and re-seal frames across all of Woodbridge.",
+    uniqueContent:
+      "Homes along Islington Avenue and in the Woodbridge core from the late 1980s and 1990s are where we do the most skylight work. The sealed glass units in these homes are right in the peak failure window, and many homeowners call us after noticing fog between the panes or water stains on the ceiling. Sonoma Heights, Vellore Village and Islington Woods have slightly newer homes where the skylights are starting to show early signs of seal breakdown, particularly on south-facing roof slopes. Pine Grove and the Kipling corridor have a mix of older and newer homes with both fixed and venting skylights. For venting skylights where the operator hardware has failed, we repair or replace the mechanism so the skylight opens and closes properly. The Woodbridge village area has older commercial buildings with flat-roof dome skylights that we service as well.",
+    neighborhoods: getNeighborhoods("woodbridge"),
+    citySpecificFaq: {
+      q: "Can you repair multiple skylights at once in Woodbridge?",
+      a: "Yes. Many Woodbridge homes have several skylights of the same age, and homeowners often ask us to replace the glass in all of them at the same time. Doing them together saves on setup time and we pass that saving along in the quote.",
+    },
+  },
+  {
+    slug: "maple",
+    city: "Maple",
+    region: "Vaughan",
+    metaTitle: "Skylight Repair Maple | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Maple. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Maple grew quickly through the late 1990s and 2000s, and the subdivisions north of Major Mackenzie are packed with homes that came with standard skylights from the builder. Those skylights are now 15-25 years old, and the seals are starting to fail. We repair leaking skylights, replace fogged glass, fix flashing and handle venting hardware across all of Maple.",
+    uniqueContent:
+      "Eagle Hills, Mackenzie Ridge and Maple Village have production homes with standard Velux and Fakro skylights. Because these units are common sizes, the replacement glass is usually ready faster than for custom units. Teston Village and the newer builds along Teston Road have skylights that are still relatively young, but south-facing units are already showing early condensation between the panes. Maple's homes north of Major Mackenzie tend to have steeper roof pitches, which makes roof access trickier. We bring our own safety systems and work from the roof on these jobs. The older parts of Maple near Keele Street and McNaughton Road have homes from the 1980s with skylights that are well past their expected seal life and often need both glass replacement and flashing work.",
+    neighborhoods: getNeighborhoods("maple"),
+    citySpecificFaq: {
+      q: "Are Maple subdivision skylights all the same size?",
+      a: "Many are. Builder-grade skylights in Maple subdivisions tend to use a few standard Velux and Fakro sizes. That means the replacement glass is a common dimension, which speeds up turnaround. We confirm the exact size during our on-site measurement.",
+    },
+  },
+  {
+    slug: "king-city",
+    city: "King City",
+    region: "York Region",
+    metaTitle: "Skylight Repair King City | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in King City. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "King City and the Township of King are known for large-lot estates, horse properties, and rural acreages with custom-built homes. Many of these properties have oversized skylights, glass towers and architectural glass features that need specialized attention when seals fail or flashing deteriorates. We repair leaking skylights, replace fogged glass, fix flashing and re-seal frames across King City, Nobleton and the surrounding area.",
+    uniqueContent:
+      "Kingscross Estates, King Heights and the properties along Dufferin Street and Keele Street have custom homes with oversized skylights and pyramid glass features. These larger units require custom glass that is measured on site and made to exact dimensions. The glass is heavier and the installation may require additional safety systems for roof access. Nobleton homes tend to be slightly smaller but many still have skylights from the 1990s and 2000s that are in the seal failure window. King City's rural properties and hobby farms sometimes have barn conversions and workshop buildings with skylights that need commercial-grade glass. The rolling terrain and open exposure mean roofs take more wind, which tests flashing integrity. We carry the safety equipment needed for steep-pitch roofs and tall rooflines that are common on King City estates.",
+    neighborhoods: getNeighborhoods("king-city"),
+    citySpecificFaq: {
+      q: "Do you handle oversized skylights on King City estate homes?",
+      a: "Yes. We work on skylights of all sizes, including the oversized and custom units found on King City properties. We measure on site, order custom glass to exact specifications, and bring the safety equipment needed for large roofs.",
+    },
+  },
+  {
+    slug: "newmarket",
+    city: "Newmarket",
+    region: "York Region",
+    metaTitle: "Skylight Repair Newmarket | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Newmarket. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Newmarket has a broad mix of housing, from heritage homes along Main Street and Bogart to the production subdivisions in Stonehaven, Summerhill Estates and Glenway. Skylights in Newmarket homes from the 1990s and 2000s are now hitting the age where seals break down and condensation appears between the panes. We repair leaking skylights, replace fogged glass, fix flashing and handle hardware across all of Newmarket.",
+    uniqueContent:
+      "Stonehaven and Summerhill Estates have a large number of homes with standard builder-grade skylights from the late 1990s and 2000s. These are common Velux and Fakro sizes, so replacement glass is typically available on a faster turnaround. Glenway and Bristol are older areas where the skylights may be 25-30 years old and the frames need inspection alongside the glass. Downtown Newmarket and the Main Street heritage area have character homes where skylights were added during renovations, sometimes with improvised flashing that leaks. Upper Canada Mall area has commercial buildings with flat-roof and dome skylights. Newmarket sits far enough north that winter weather is a bit harsher than communities closer to the lake, and ice damming on north-facing roof slopes is a common cause of skylight leaks we see here.",
+    neighborhoods: getNeighborhoods("newmarket"),
+    citySpecificFaq: {
+      q: "Does Newmarket's colder winters cause more skylight problems?",
+      a: "Newmarket gets slightly more snow and colder temperatures than communities closer to the lake. This means more ice damming on north-facing roof slopes, which is a common cause of skylight leaks. Proper flashing and seal maintenance helps prevent ice-related damage.",
+    },
+  },
+  {
+    slug: "milton",
+    city: "Milton",
+    region: "Halton Region",
+    metaTitle: "Skylight Repair Milton | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Milton. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Milton has grown rapidly over the past two decades, and the subdivisions that went up during the 2000s and 2010s are now seeing their first round of skylight seal failures. The older parts of Milton near Main Street and the escarpment have homes with skylights that are even further along. We repair leaking skylights, replace fogged glass units, fix flashing and re-seal frames across all of Milton.",
+    uniqueContent:
+      "Timberlea, Scott, Harrison and Beaty are the newer subdivisions where production homes came with standard builder-grade skylights. These units are 10-20 years old and the seals are starting to fail, especially on south-facing roof slopes that take the most UV. Old Milton near Main Street and the heritage area has older homes where skylights were sometimes added during renovations with flashing details that do not meet current standards. Escarpment-area homes in Nassagaweya and the rural parts of Milton sit on higher ground with more wind exposure, which accelerates seal and flashing breakdown. Derry Green and the industrial corridor have commercial buildings with flat-roof and dome skylights. Milton's location at the base of the escarpment means it catches weather coming off the ridge, and homes on the west side of town tend to take more wind-driven rain than those sheltered farther east.",
+    neighborhoods: getNeighborhoods("milton"),
+    citySpecificFaq: {
+      q: "My Milton home is only 12 years old. Why is the skylight already fogging?",
+      a: "South-facing skylights absorb more UV and heat than any other glass in the house. In Milton's newer subdivisions, we regularly see skylights fail at 10-15 years on south-facing roofs. The seal breaks down, moisture enters between the panes, and the glass fogs. We replace the sealed unit with a new one that carries a 5-year warranty.",
+    },
+  },
+  {
+    slug: "ajax",
+    city: "Ajax",
+    region: "Durham Region",
+    metaTitle: "Skylight Repair Ajax | Leaks, Glass & Seals",
+    metaDescription:
+      "Skylight repair in Ajax. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+    intro:
+      "Ajax stretches from the Lake Ontario waterfront up through established neighbourhoods and newer subdivisions in the north end. Homes across Applecroft, Central Ajax, Duffin Heights and Pickering Beach all have skylights dealing with Durham Region weather, from lake-effect moisture to freeze-thaw cycles. We repair leaking skylights, replace fogged glass units, fix flashing and re-seal frames across all of Ajax.",
+    uniqueContent:
+      "Applecroft and Central Ajax have homes from the 1980s and 1990s where skylights are 25-35 years old and past their expected seal life. These are the most common calls we get in Ajax: fogged glass between the panes, water stains around the frame, or active dripping during rain. Duffin Heights and the north-end subdivisions have newer homes with builder-grade skylights that are starting to show early seal failure on south-facing roofs. The waterfront areas near Pickering Beach and along Lakeridge Road get more wind-driven rain from the lake, which finds any gap in skylight flashing. Ajax's commercial areas along Bayly Street and the Highway 2 corridor have flat-roof buildings with dome and curb-mounted skylights that we service for business owners and property managers. We carry safety systems for all roof types and pitches.",
+    neighborhoods: getNeighborhoods("ajax"),
+    citySpecificFaq: {
+      q: "Does lake proximity affect skylights in south Ajax?",
+      a: "Yes. Homes near the Lake Ontario waterfront in Ajax get more wind-driven rain and moisture exposure. Skylights on south-facing roofs in these areas tend to need flashing and seal attention sooner than identical units on homes farther from the lake.",
+    },
+  },
 ];
 
 export function getSkylightCityPageData(slug: string): SkylightCityPageData | undefined {
   return SKYLIGHT_CITY_PAGES.find((c) => c.slug === slug);
 }
+

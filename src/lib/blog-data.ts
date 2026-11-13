@@ -1392,6 +1392,432 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
 `,
   },
+  {
+    slug: "foggy-window-repair-cost-gta",
+    title: "How Much Does Foggy Window Repair Cost in the GTA? (2026 Guide)",
+    metaTitle: "Foggy Window Repair Cost in the GTA: 2026 Price Guide",
+    metaDescription:
+      "What does foggy window repair actually cost in Toronto and the GTA? We break down pricing by window type, size, and what affects your final quote.",
+    excerpt:
+      "You wake up one morning, glance out the window, and notice a milky haze between the panes that no amount of wiping will fix. That fog means the sealed unit has failed. The good news: you almost never need to replace the entire window.",
+    publishedAt: "2026-11-12",
+    author: "Dan",
+    readingTime: 5,
+    tags: ["foggy windows", "sealed unit replacement", "window repair cost", "GTA"],
+    sections: [
+      { id: "what-affects-the-price", title: "What Affects the Price?" },
+      { id: "sealed-unit-vs-full-replacement", title: "Sealed Unit Replacement vs. Full Window Replacement" },
+      { id: "when-is-full-replacement-worth-it", title: "When Is a Full Replacement Actually Worth It?" },
+      { id: "how-to-get-an-accurate-quote", title: "How to Get an Accurate Quote" },
+      { id: "how-long-does-the-repair-take", title: "How Long Does the Repair Take?" },
+      { id: "warranty", title: "Does It Come with a Warranty?" },
+      { id: "faq", title: "FAQ" },
+    ],
+    content: `
+<p>You wake up one morning, glance out the window, and notice a milky haze between the panes that no amount of wiping will fix. That fog means the <a href="/foggy-windows">sealed unit</a> has failed. Moisture has crept between the two layers of glass, and the argon gas that once insulated your home is gone.</p>
+
+<p>The good news: you almost never need to replace the entire window. In most cases, only the glass unit (the sealed IGU) needs to be swapped out, and that costs a fraction of a full window replacement.</p>
+
+<h2 id="what-affects-the-price">What Affects the Price?</h2>
+
+<p>Every foggy window job is different. Here are the factors that move the number:</p>
+
+<ul>
+  <li><strong>Window size.</strong> A small bathroom casement and a 6-foot patio door panel are very different jobs. Larger glass units cost more to manufacture and require more labour to handle safely.</li>
+  <li><strong>Glass type.</strong> Standard double-pane clear glass is the baseline. Low-E coatings, triple-pane units, tinted glass, or tempered safety glass all add to the cost of the replacement sealed unit.</li>
+  <li><strong>Accessibility.</strong> A ground-floor window that opens easily is straightforward. A fixed picture window on the second floor, or one behind landscaping, adds time and sometimes equipment.</li>
+  <li><strong>Number of windows.</strong> Doing several windows in one visit is more efficient. The per-unit cost typically comes down when you bundle multiple foggy windows into one service call.</li>
+  <li><strong>Frame condition.</strong> If the frame, sash, or hardware is damaged, that may need attention before or during the glass swap. Rotted wood frames or corroded aluminium can complicate things.</li>
+</ul>
+
+<h2 id="sealed-unit-vs-full-replacement">Sealed Unit Replacement vs. Full Window Replacement</h2>
+
+<p>This is the single biggest decision, and the one where homeowners save the most money. Window companies often push full replacements because the markup is higher. But if your frame is in good shape, replacing just the glass unit makes far more sense.</p>
+
+<p><strong>Sealed unit replacement</strong> keeps your existing frame, trim, and hardware intact. There is no drywall patching, no repainting, no exterior caulking redo. Glass is measured first, custom-made to your exact dimensions, then installed. The technician removes the old glass, and the new sealed unit goes in, typically in under an hour per window.</p>
+
+<p><strong>Full window replacement</strong> tears out the entire assembly: frame, trim, and all. It involves carpentry, exterior finishing, and often interior touch-ups. It makes sense when the frame itself is failing, but if the frame is sound, you are paying significantly more for work that is not needed.</p>
+
+<h2 id="when-is-full-replacement-worth-it">When Is a Full Replacement Actually Worth It?</h2>
+
+<ul>
+  <li>The frame is visibly rotted, warped, or structurally compromised</li>
+  <li>You want to change the window style (e.g., casement to slider)</li>
+  <li>The window is single-pane and you want to upgrade to double or triple</li>
+  <li>You are doing a full renovation and the frames are being moved anyway</li>
+</ul>
+
+<p>In every other case, <a href="/foggy-windows">sealed unit replacement</a> is the smarter, faster, and far less expensive option.</p>
+
+<h2 id="how-to-get-an-accurate-quote">How to Get an Accurate Quote</h2>
+
+<p>The most reliable way to know what your specific windows will cost is to have a technician come out, measure, and assess the condition of the frames. At LuminaSky, the assessment comes at no charge and no obligation. We measure, explain the options, and give you a written quote before any work begins.</p>
+
+<p>You can also send us a photo of your foggy window via WhatsApp for a preliminary estimate. Include a measurement or hold a tape measure in the photo so we can gauge the size.</p>
+
+<h2 id="how-long-does-the-repair-take">How Long Does the Repair Take?</h2>
+
+<p>Once the replacement sealed unit is manufactured (typically 5 to 10 business days for custom sizes), the actual installation takes about 30 to 60 minutes per window. Most homes with 2 to 4 foggy windows are done in a single morning visit.</p>
+
+<h2 id="warranty">Does It Come with a Warranty?</h2>
+
+<p>Every sealed unit replacement from LuminaSky comes with our 5-year seal warranty and 2-year workmanship warranty. Full terms are on our <a href="/warranty">warranty page</a>.</p>
+
+<h2 id="faq">FAQ</h2>
+
+<h3>Can I just repair the seal instead of replacing the glass?</h3>
+
+<p>Once the seal has failed and moisture has entered, the only lasting fix is to replace the sealed glass unit. "Defogging" services drill holes and try to remove moisture, but the insulating gas is already gone and the fog almost always returns. A new sealed unit restores both clarity and insulation.</p>
+
+<h3>How do I know if my foggy window needs the glass replaced or the whole window?</h3>
+
+<p>Check the frame. If the wood or vinyl frame is solid, no rot, no warping, and the hardware works fine, you only need the glass unit replaced. If the frame is crumbling, cracked, or pulling away from the wall, a full replacement may make more sense. A technician can confirm during a no-obligation assessment.</p>
+
+<p>Ready to find out what your foggy windows will cost? <a href="/contact">Request a quote</a> or call <a href="tel:+14373448490">437-344-8490</a>.</p>
+`,
+  },
+  {
+    slug: "broken-window-crank-what-to-do",
+    title: "Window Crank Broken? Here's What to Do Before Calling a Repair Company",
+    metaTitle: "Broken Window Crank? What to Do Before Calling for Repair",
+    metaDescription:
+      "Window crank stuck or broken? Learn what you can check yourself, when you need a pro, and how crank mechanism replacement works for casement windows.",
+    excerpt:
+      "Casement windows are popular across the GTA for good reason. They seal tightly, offer excellent ventilation, and let you control exactly how far the window opens. But the crank mechanism is a mechanical part, and mechanical parts eventually wear out.",
+    publishedAt: "2026-11-12",
+    author: "Dan",
+    readingTime: 5,
+    tags: ["window crank", "casement window", "window hardware", "crank repair"],
+    sections: [
+      { id: "identify-the-problem", title: "Step 1: Identify What Is Actually Wrong" },
+      { id: "quick-fixes", title: "Step 2: Try These Quick Fixes" },
+      { id: "when-to-call-a-pro", title: "Step 3: Know When to Call a Professional" },
+      { id: "how-replacement-works", title: "How Crank Mechanism Replacement Works" },
+      { id: "handle-only", title: "Can I Just Replace the Handle?" },
+      { id: "faq", title: "FAQ" },
+    ],
+    content: `
+<p><a href="/cranks">Casement windows</a>, the kind that swing open with a hand crank, are popular across the <a href="/window-repair-toronto">GTA</a> for good reason. They seal tightly, offer excellent ventilation, and let you control exactly how far the window opens. But the crank mechanism is a mechanical part, and mechanical parts eventually wear out.</p>
+
+<p>If your window crank is stiff, grinding, spinning freely, or completely snapped off, here is what to check before picking up the phone.</p>
+
+<h2 id="identify-the-problem">Step 1: Identify What Is Actually Wrong</h2>
+
+<p>Not every crank problem needs a professional. Start by figuring out which part has failed:</p>
+
+<ul>
+  <li><strong>The handle spins but nothing moves.</strong> The gears inside the operator mechanism are stripped. The operator needs to be replaced.</li>
+  <li><strong>The handle is stiff or grinding.</strong> The arm track may be dirty, corroded, or the operator gears are wearing down. Sometimes cleaning and lubricating the track fixes it. If not, the operator is failing.</li>
+  <li><strong>The handle broke off.</strong> If the handle snapped but the internal operator still works, you may only need a replacement handle. Test by turning the shaft with pliers.</li>
+  <li><strong>The window will not close all the way.</strong> The arm may be bent, or the hinge shoes (the small pieces that slide in the track at the top and bottom of the sash) may be broken or out of their track.</li>
+</ul>
+
+<h2 id="quick-fixes">Step 2: Try These Quick Fixes</h2>
+
+<h3>Clean the track</h3>
+
+<p>Open the window as far as it will go. Look at the metal track where the scissor arm slides. Use a stiff brush to clear debris, then apply a silicone-based lubricant (not WD-40, as it attracts dust). Close and open the window several times to work the lubricant in.</p>
+
+<h3>Tighten the screws</h3>
+
+<p>The operator is held to the frame by screws that can loosen over years of use. If the whole mechanism wobbles, tighten them. If the screw holes are stripped, you may need longer screws or a toothpick-and-glue repair for the holes.</p>
+
+<h3>Check if the sash is binding</h3>
+
+<p>Sometimes the problem is not the crank at all. The window sash may have shifted. Look for uneven gaps around the frame. If the sash is sagging, the hinge shoes at the top and bottom may need replacement.</p>
+
+<h2 id="when-to-call-a-pro">Step 3: Know When to Call a Professional</h2>
+
+<p>Call a repair company when:</p>
+
+<ul>
+  <li>The operator gears are stripped (handle spins freely)</li>
+  <li>The scissor arm is bent or broken</li>
+  <li>You cannot identify the operator brand or model to order parts</li>
+  <li>The window is stuck open and you cannot secure your home</li>
+  <li>The window is on a second floor or in a hard-to-reach location</li>
+</ul>
+
+<p>If the window is stuck open and your home is exposed, that may qualify as an <a href="/emergency-glass-repair">emergency service call</a>.</p>
+
+<h2 id="how-replacement-works">How Crank Mechanism Replacement Works</h2>
+
+<p>A technician will identify the operator type (there are dozens of brands and configurations used across GTA homes), source the correct replacement, and swap it out. The old operator is unscrewed, the new one is positioned and secured, and the arm is reconnected to the sash bracket.</p>
+
+<p>Most <a href="/cranks">window hardware repairs</a> are completed on the same day, on the first visit. If the operator is a common type, the technician may carry a replacement on the truck. Unusual or discontinued models need to be ordered, which adds 5 to 10 business days.</p>
+
+<h2 id="handle-only">Can I Just Replace the Handle?</h2>
+
+<p>If only the handle broke and the internal mechanism still turns, yes. A handle-only replacement is quick and inexpensive. But if the gears inside are stripped or the arm is bent, the handle is not the problem. Replacing just the handle in that case will not fix anything.</p>
+
+<h2 id="faq">FAQ</h2>
+
+<h3>How do I know what brand of crank operator I have?</h3>
+
+<p>Open the window and look for a stamp or label on the operator housing. Common brands in GTA homes include Truth, Roto, Ashland, and Entrygard. If you cannot find a label, take a photo of the operator and send it to a repair service. An experienced technician can usually identify the type from the shape and arm style.</p>
+
+<h3>Is replacing a crank cheaper than replacing the whole window?</h3>
+
+<p>Significantly cheaper. A <a href="/cranks">crank mechanism replacement</a> is a fraction of the cost of a full window replacement. If the glass is clear and the frame is solid, there is no reason to replace the entire window just because the crank failed.</p>
+
+<p>Need help with a broken crank? Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
+`,
+  },
+  {
+    slug: "replace-vs-repair-windows-toronto",
+    title: "When to Replace vs. Repair Your Windows: A Toronto Homeowner's Guide",
+    metaTitle: "Replace vs. Repair Windows: Toronto Homeowner's Guide",
+    metaDescription:
+      "Not sure whether to repair or replace your windows? This guide helps Toronto homeowners decide based on the actual condition, not a salesperson's pitch.",
+    excerpt:
+      "Every year, thousands of Toronto-area homeowners are told they need full window replacements when a targeted repair would have solved the problem at a fraction of the cost. This guide helps you evaluate your windows honestly.",
+    publishedAt: "2026-11-12",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["window repair", "window replacement", "Toronto", "home maintenance"],
+    sections: [
+      { id: "signs-repair", title: "Signs Your Windows Need Repair (Not Replacement)" },
+      { id: "signs-replace", title: "Signs Your Windows Actually Need Replacement" },
+      { id: "salesperson-test", title: "The Salesperson Test" },
+      { id: "toronto-climate", title: "The Toronto Climate Factor" },
+      { id: "honest-assessment", title: "How to Get an Honest Assessment" },
+      { id: "faq", title: "FAQ" },
+    ],
+    content: `
+<p>Every year, thousands of <a href="/window-repair-toronto">Toronto-area</a> homeowners are told they need full window replacements when a targeted repair would have solved the problem at a fraction of the cost. The window replacement industry is large and sales-driven, and full replacements carry much higher margins than repairs.</p>
+
+<p>This guide helps you evaluate your windows honestly, so you spend money only where it actually matters.</p>
+
+<h2 id="signs-repair">Signs Your Windows Need Repair (Not Replacement)</h2>
+
+<p>If any of these describe your situation, repair is almost certainly the right call:</p>
+
+<ul>
+  <li><strong>Fog between the panes.</strong> The <a href="/foggy-windows">sealed unit</a> (IGU) has failed, but the frame is fine. Replace just the glass. This is the single most common window issue in GTA homes.</li>
+  <li><strong>Drafts around the edges.</strong> Weatherstripping wears out over time. Replacing the weatherstrip or re-caulking the exterior is far cheaper than a new window.</li>
+  <li><strong><a href="/cranks">Crank mechanism</a> is stiff or broken.</strong> The operator hardware can be replaced without touching the glass or the frame.</li>
+  <li><strong>Condensation on the inside surface.</strong> This is usually a humidity problem in the home, not a window failure. A dehumidifier or improved bathroom ventilation often solves it.</li>
+  <li><strong>One broken pane.</strong> A single cracked or shattered pane (<a href="/front-door-glass">front door insert</a>, sidelight, <a href="/patio-door-glass">patio door</a>) can be replaced individually.</li>
+  <li><strong>Window does not lock properly.</strong> Lock hardware can be repaired or replaced independently.</li>
+</ul>
+
+<h2 id="signs-replace">Signs Your Windows Actually Need Replacement</h2>
+
+<p>Full replacement makes sense when the frame itself is the problem:</p>
+
+<ul>
+  <li><strong>Wood frames are rotted through.</strong> Surface paint peeling is cosmetic and can be repaired. But if a screwdriver pushes into soft, crumbling wood, the structural integrity is compromised.</li>
+  <li><strong>The frame is visibly warped or pulling away from the wall.</strong> This means the frame can no longer hold a sealed unit properly. Air and water infiltration will continue regardless of what glass you put in.</li>
+  <li><strong>Single-pane windows.</strong> If you still have original single-pane glass from the 1970s or earlier, upgrading to double- or triple-pane sealed units is worth the investment for energy savings alone.</li>
+  <li><strong>You are changing the window style.</strong> If you want to go from a fixed picture window to an operable casement, that requires a new frame.</li>
+  <li><strong>Renovation with structural changes.</strong> If the wall opening is being resized, you need a new window anyway.</li>
+</ul>
+
+<h2 id="salesperson-test">The Salesperson Test</h2>
+
+<p>A reliable way to evaluate advice: if someone tells you to replace all your windows, ask them <strong>which specific windows need replacement and why each one cannot be repaired</strong>. A knowledgeable, honest professional can answer that question window by window. A salesperson working on commission often cannot, because the recommendation is not based on the condition of each window but on the total sale value.</p>
+
+<h2 id="toronto-climate">The Toronto Climate Factor</h2>
+
+<p>Toronto's winters put real stress on windows. Freeze-thaw cycles work on seals, temperature swings flex frames, and humidity challenges condensation thresholds. But these same conditions also mean that a properly repaired window, with a new sealed unit and fresh weatherstripping, performs just as well as a brand-new window. The glass and the seal do the insulating work, not the frame.</p>
+
+<h2 id="honest-assessment">How to Get an Honest Assessment</h2>
+
+<p>Look for a company that does <strong>both</strong> repairs and replacements. A company that only sells new windows has no financial incentive to tell you a repair will work. A company that specialises in glass repair will evaluate the frame honestly and recommend replacement only when it is genuinely warranted.</p>
+
+<p>At LuminaSky, we look at each window individually. If the frame is good, we tell you, and we repair just what needs fixing. If the frame is failing, we will say so and explain why. Our assessments come at no charge and no obligation.</p>
+
+<h2 id="faq">FAQ</h2>
+
+<h3>How many years do repaired windows last compared to new ones?</h3>
+
+<p>A new sealed glass unit in an existing frame typically lasts 15 to 25 years. That is the same lifespan as the sealed unit in a brand-new window, because it is the same product. The difference is that you kept your existing frame, trim, and interior finish instead of tearing everything out.</p>
+
+<h3>Will repairing windows instead of replacing them affect my home's resale value?</h3>
+
+<p>Buyers care about clear glass, proper insulation, and windows that operate smoothly. A repaired window with a new sealed unit meets all three criteria. What hurts resale value is foggy, broken, or drafty windows, not whether the fix was a repair or a replacement.</p>
+
+<p>Want an honest assessment of your windows? <a href="/contact">Book a visit</a> or call <a href="tel:+14373448490">437-344-8490</a>.</p>
+`,
+  },
+  {
+    slug: "front-door-glass-styles-guide",
+    title: "Front Door Glass Styles: Choosing the Right Insert for Your Home",
+    metaTitle: "Front Door Glass Styles: How to Choose the Right Insert",
+    metaDescription:
+      "Choosing a front door glass insert? From clear to textured to decorative, here is what Toronto homeowners need to know about style, privacy, and light.",
+    excerpt:
+      "Your front door is the first thing visitors see. And for most GTA homes, the glass insert is the centrepiece of that first impression. Whether you are replacing a cracked panel, updating a dated design, or choosing glass for a new door, the options are wider than most homeowners expect.",
+    publishedAt: "2026-11-12",
+    author: "Dan",
+    readingTime: 5,
+    tags: ["front door glass", "door glass insert", "decorative glass", "home exterior"],
+    sections: [
+      { id: "glass-types", title: "Glass Types at a Glance" },
+      { id: "sizing-and-fit", title: "Sizing and Fit" },
+      { id: "privacy", title: "Privacy Considerations" },
+      { id: "matching-style", title: "Matching Your Home's Style" },
+      { id: "sidelights-and-transoms", title: "What About Sidelights and Transoms?" },
+      { id: "how-replacement-works", title: "How Replacement Works" },
+      { id: "faq", title: "FAQ" },
+    ],
+    content: `
+<p>Your front door is the first thing visitors see. And for most <a href="/window-repair-toronto">GTA</a> homes, the glass insert is the centrepiece of that first impression. Whether you are replacing a cracked panel, updating a dated design, or choosing glass for a new door, the options are wider than most homeowners expect.</p>
+
+<h2 id="glass-types">Glass Types at a Glance</h2>
+
+<h3>Clear Glass</h3>
+
+<p>Maximum light, zero privacy. Works well for doors with sidelights in low-traffic areas, or when paired with a storm door. Clear inserts are the least expensive option and let the most natural light into your foyer.</p>
+
+<h3>Textured / Obscure Glass</h3>
+
+<p>This category includes dozens of patterns: rain glass, reed glass, pinhead, glue chip, and more. Each diffuses light differently while blocking the view from outside. Textured glass is the most popular choice for front doors in suburban GTA homes because it balances light and privacy naturally.</p>
+
+<h3>Decorative / Leaded Glass</h3>
+
+<p>These inserts feature patterns made with zinc or brass caming (the metal strips between glass pieces), often combined with bevelled glass elements. Styles range from traditional Victorian to clean contemporary geometric designs. Decorative inserts are the premium option and can transform a plain door into a statement piece.</p>
+
+<h3>Frosted Glass</h3>
+
+<p>A uniform, sandblasted finish that blocks visibility completely while allowing soft, even light through. Frosted glass works well for modern and minimalist homes. It is available in full-frost or partial-frost patterns.</p>
+
+<h3>Low-E and Energy-Efficient Glass</h3>
+
+<p>Regardless of the decorative style, <a href="/front-door-glass">front door inserts</a> should include Low-E coatings for energy efficiency. In Toronto's climate, Low-E glass reduces heat loss in winter and solar heat gain in summer. Most quality inserts include this coating.</p>
+
+<h2 id="sizing-and-fit">Sizing and Fit</h2>
+
+<p>Front door glass inserts are not one-size-fits-all. They come in standard sizes (common formats like half-lite, three-quarter lite, and full-lite), but the exact measurements vary by door manufacturer. A replacement insert needs to match the existing opening precisely.</p>
+
+<p>This is why accurate measurement matters. At LuminaSky, glass is measured first, custom-made to the exact dimensions, then installed. There is no trimming, no shimming, and no gaps.</p>
+
+<h2 id="privacy">Privacy Considerations</h2>
+
+<p>Think about when privacy matters most. Your front door faces the street, and at night, interior lights make clear glass work in reverse. You can see out during the day, but at night, anyone outside can see in.</p>
+
+<p>For front-facing doors, textured glass, obscure glass, or a decorative insert with privacy-level opacity is the practical choice. Reserve clear glass for back doors, internal doors, or doors protected by a covered porch.</p>
+
+<h2 id="matching-style">Matching Your Home's Style</h2>
+
+<ul>
+  <li><strong>Craftsman / Traditional:</strong> Bevelled leaded inserts with warm zinc caming, classic rectangular or fan patterns</li>
+  <li><strong>Modern / Contemporary:</strong> Frosted panels, narrow reed glass, frameless designs with clean lines</li>
+  <li><strong>Colonial / Georgian:</strong> Divided-lite patterns (grilles), clear or lightly textured glass</li>
+  <li><strong>Transitional:</strong> Simple geometric patterns that bridge traditional and modern, often with nickel-finish caming</li>
+</ul>
+
+<h2 id="sidelights-and-transoms">What About Sidelights and Transoms?</h2>
+
+<p>If your door has sidelights (the narrow glass panels beside the door) or a transom (the window above), matching the glass style across all pieces creates a cohesive look. Most decorative glass manufacturers offer coordinated sidelight and transom designs that pair with each door insert pattern.</p>
+
+<h2 id="how-replacement-works">How Replacement Works</h2>
+
+<p><a href="/front-door-glass">Front door glass inserts</a> are replaceable without replacing the door itself. The old insert and its frame are removed, and the new unit is fitted into the existing door opening. The process typically takes about an hour and does not require removing the door from its hinges.</p>
+
+<p>If you are unsure what style to choose, you can send a photo of your current door to LuminaSky via WhatsApp and we will suggest options that match your home's architecture. The consultation is at no charge and no obligation.</p>
+
+<h2 id="faq">FAQ</h2>
+
+<h3>Can I change the glass style in my front door without replacing the door?</h3>
+
+<p>Yes. The glass insert is a separate unit that sits inside the door. Replacing it gives you a completely new look without the cost or hassle of a new door. The insert is measured, ordered, and installed, typically in about an hour.</p>
+
+<h3>How do I choose between textured and decorative glass for my front door?</h3>
+
+<p>Textured glass is simpler and more affordable. It provides privacy and lets in light, with a clean, understated look. Decorative (leaded) glass is a design feature. It adds visual interest and curb appeal but comes at a higher price. Choose textured for a subtle upgrade, decorative for a statement.</p>
+
+<p>Want to see options for your door? <a href="/contact">Book a visit</a> or call <a href="tel:+14373448490">437-344-8490</a>.</p>
+`,
+  },
+  {
+    slug: "emergency-glass-repair-toronto",
+    title: "Emergency Glass Repair in Toronto: What to Expect at 2 AM",
+    metaTitle: "Emergency Glass Repair in Toronto: What to Expect",
+    metaDescription:
+      "Broken window in the middle of the night? Here is exactly what happens when you call for emergency glass repair in Toronto, from response times to process.",
+    excerpt:
+      "A rock hits your window. A break-in attempt shatters the glass. A storm blows debris through your patio door at midnight. When glass breaks unexpectedly, you need two things fast: your home secured, and a plan for permanent repair.",
+    publishedAt: "2026-11-12",
+    author: "Dan",
+    readingTime: 5,
+    tags: ["emergency glass repair", "broken window", "board up", "Toronto"],
+    sections: [
+      { id: "first-30-minutes", title: "The First 30 Minutes: Securing the Opening" },
+      { id: "what-happens-when-you-call", title: "What Happens When You Call" },
+      { id: "what-counts-as-emergency", title: "What Counts as a Glass Emergency?" },
+      { id: "insurance", title: "Insurance and Documentation" },
+      { id: "preventing-repeat", title: "Preventing Repeat Emergencies" },
+      { id: "faq", title: "FAQ" },
+    ],
+    content: `
+<p>A rock hits your window. A break-in attempt shatters the glass. A storm blows debris through your <a href="/patio-door-glass">patio door</a> at midnight. When glass breaks unexpectedly, you need two things fast: your home secured, and a plan for permanent repair.</p>
+
+<p>Here is exactly what the process looks like when you call for <a href="/emergency-glass-repair">emergency glass service</a> in <a href="/window-repair-toronto">Toronto</a>.</p>
+
+<h2 id="first-30-minutes">The First 30 Minutes: Securing the Opening</h2>
+
+<p>Safety comes first. If there is broken glass on the floor, keep children and pets away. Wear shoes and gloves if you need to move through the area. Do not try to remove large pieces of glass from the frame. They can shift and cause serious cuts.</p>
+
+<p><strong>If you can, cover the opening temporarily.</strong> A heavy garbage bag and duct tape will keep wind and rain out until help arrives. For larger openings, a piece of cardboard or plywood from the garage works. This is a temporary measure. Do not leave plastic sheeting as a long-term solution.</p>
+
+<h2 id="what-happens-when-you-call">What Happens When You Call</h2>
+
+<p>When you contact an emergency glass service:</p>
+
+<ol>
+  <li><strong>You describe the damage.</strong> What broke, how big is the opening, is your home secure? A photo sent via text or WhatsApp helps the technician prepare.</li>
+  <li><strong>Response time is confirmed.</strong> For emergencies, most services aim for same-day or next-morning response. True middle-of-the-night arrivals depend on the company and the severity.</li>
+  <li><strong>The technician boards up or secures the opening.</strong> If permanent glass cannot be installed immediately (custom sizes need to be ordered), the opening is boarded up with plywood or a temporary panel to secure your home.</li>
+  <li><strong>Measurements are taken for permanent glass.</strong> The replacement sealed unit or pane is ordered to the exact dimensions. Glass is measured first, custom-made to size, then installed.</li>
+  <li><strong>Permanent glass is installed.</strong> Typically within 5 to 10 business days for custom sizes. Standard sizes may be available sooner.</li>
+</ol>
+
+<h2 id="what-counts-as-emergency">What Counts as a Glass Emergency?</h2>
+
+<p>Not every broken window is an emergency. Here is how to assess the urgency:</p>
+
+<ul>
+  <li><strong>Immediate / same-day.</strong> The opening cannot be secured on your own, your home is exposed to weather or intruders, ground-floor glass is shattered, or a child or pet could access broken glass.</li>
+  <li><strong>Next business day.</strong> The opening is small, you have temporarily boarded it up, and your home is secure. A cracked (but intact) pane that is not letting air in.</li>
+  <li><strong>Schedule at convenience.</strong> A chip or hairline crack in a double-pane unit where the glass is still structurally sound and the seal is intact.</li>
+</ul>
+
+<h2 id="insurance">Insurance and Documentation</h2>
+
+<p>If the break was caused by a storm, attempted break-in, or vandalism, your home insurance may cover the repair. Before the technician arrives:</p>
+
+<ul>
+  <li>Take photos of the damage from multiple angles</li>
+  <li>Note the time and what caused it (if known)</li>
+  <li>If it was a break-in attempt, file a police report first. Your insurer will ask for the report number</li>
+  <li>Keep the receipt from the board-up and the permanent glass installation</li>
+</ul>
+
+<h2 id="preventing-repeat">Preventing Repeat Emergencies</h2>
+
+<p>Some glass emergencies are preventable:</p>
+
+<ul>
+  <li><strong>Tempered glass</strong> for ground-floor windows in high-traffic areas. It is much stronger than standard glass and breaks into safe, rounded pieces if it does fail.</li>
+  <li><strong>Laminated glass</strong> for windows facing streets or alleys. Even if struck, the glass holds together on the interlayer instead of shattering.</li>
+  <li><strong>Storm-rated sealed units</strong> for windows exposed to prevailing winds.</li>
+  <li><strong>Window film</strong> as an added layer. Security film holds shattered glass in place, buying time in a break-in.</li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+
+<h3>How quickly can emergency glass be replaced permanently?</h3>
+
+<p>The opening is secured (boarded up) on the first visit, which usually happens same-day or next morning. Permanent replacement glass takes 5 to 10 business days for custom-sized <a href="/foggy-windows">sealed units</a>. If the size matches a standard in-stock unit, it can sometimes be installed on the first visit.</p>
+
+<h3>Does home insurance cover emergency glass repair?</h3>
+
+<p>In most cases, yes, if the damage was caused by a covered peril like a storm, vandalism, or attempted break-in. Contact your insurer and provide photos, a police report number (for break-ins), and the repair receipt. Your deductible still applies. Accidental damage from inside (a ball hitting the window, furniture falling into it) is often covered too, depending on your policy.</p>
+
+<p>Glass emergency? Call <a href="tel:+14373448490">437-344-8490</a> any time, day or night. We respond to emergencies across the Greater Toronto Area.</p>
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

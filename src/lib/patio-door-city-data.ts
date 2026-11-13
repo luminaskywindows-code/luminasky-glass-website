@@ -1,4 +1,4 @@
-import { CITY_PAGES } from "./city-pages-data";
+﻿import { CITY_PAGES } from "./city-pages-data";
 
 function getNeighborhoods(slug: string): string[] {
   const city = CITY_PAGES.find((c) => c.slug === slug);
@@ -222,8 +222,383 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
       a: "Yes. Back-splits and side-splits in Scarborough typically have six-foot patio doors with aluminum tracks and steel rollers. We replace those rollers and cap the track if it's damaged. The frame is usually still in good shape and doesn't need replacing.",
     },
   },
+  {
+    slug: "north-york",
+    city: "North York",
+    region: "Toronto",
+    metaTitle: "Patio Door Repair North York | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in North York. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
+    intro:
+      "North York covers a huge stretch of Toronto, from Willowdale to Jane and Finch to Don Mills. The housing mix includes 1960s bungalows, 1980s townhomes, and high-rise condos along Yonge. All of them use patio doors, and all of those doors eventually need new rollers. We service them across the entire district.",
+    uniqueContent:
+      "Willowdale and Bayview Village homes from the 1960s and 1970s have aluminum-frame patio doors with original steel rollers that have been grinding for years. Don Mills and Parkwoods have a lot of six-foot doors in split-level homes where the track sits at grade level and collects debris from the yard. Downsview and Jane-Finch have townhome complexes with builder-grade vinyl doors where the rollers flatten from daily use across multiple family members. The condo towers along Yonge between Sheppard and Finch have balcony doors that run on narrow tracks that clog with city dust and road salt. We carry rollers to fit all of these setups and adjust the panel height so the lock lines up and the weatherstripping makes full contact.",
+    neighborhoods: getNeighborhoods("north-york"),
+    citySpecificFaq: {
+      q: "Do you repair patio doors in North York condo towers?",
+      a: "Yes. We work in condo buildings across North York. Balcony patio doors use the same roller and track mechanism as house doors. Building access is coordinated through your concierge or property manager.",
+    },
+  },
+  {
+    slug: "etobicoke",
+    city: "Etobicoke",
+    region: "Toronto",
+    metaTitle: "Patio Door Repair Etobicoke | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Etobicoke. Roller replacement, track repair, panel adjustment and glass replacement. Written quote on the spot.",
+    intro:
+      "Etobicoke is full of 1960s and 1970s homes with original patio doors that have been sliding on the same rollers for decades. Newer areas like Humber Bay and the Kingsway also have doors that are reaching the 15-to-20-year service mark. We replace the rollers, clean or cap the track, and get the door gliding again.",
+    uniqueContent:
+      "The Kingsway and Princess Anne Manor have larger homes with eight-foot patio door openings and heavier panels. Those panels put extra stress on the rollers and wear them out faster than a standard six-foot door. Rexdale, Islington, and West Deane Park have 1970s and 1980s homes with aluminum-track doors where the steel rollers have corroded from years of condensation pooling in the track channel. Mimico and New Toronto waterfront homes deal with lake moisture that accelerates roller corrosion. Long Branch and Alderwood have bungalows with walkout basement patio doors where the lower track collects more water and debris. We use stainless or polymer rollers where corrosion is a concern, and cap damaged tracks instead of replacing the full frame.",
+    neighborhoods: getNeighborhoods("etobicoke"),
+    citySpecificFaq: {
+      q: "My Etobicoke patio door has been stiff for years. Is it too late to repair?",
+      a: "Rarely. Even doors that have been grinding for years can usually be brought back with new rollers and a track cap. The frame and glass are often still in good condition. We assess the full door on the first visit and give you a written quote.",
+    },
+  },
+  {
+    slug: "aurora",
+    city: "Aurora",
+    region: "York Region",
+    metaTitle: "Patio Door Repair Aurora | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Aurora. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
+    intro:
+      "Aurora grew significantly through the 1990s and 2000s, and those homes are now squarely in the age bracket where patio door rollers need replacing. The door gets hard to slide, the lock stops engaging, or the panel rattles in the track. We replace the worn parts and bring the door back to quiet operation.",
+    uniqueContent:
+      "Bayview Northeast and St. Andrew's have homes from the late 1990s with six-foot vinyl patio doors on plastic-body rollers that crack after 20 years of thermal cycling. The Stronach Aurora Recreation Complex area and Highland Gate have larger homes with eight-foot openings where heavier panels accelerate roller wear. Older Aurora homes around Yonge and Wellington have aluminum-frame doors from the 1970s with steel rollers that have corroded in the track channel. The newer sections east of Bayview have doors from the 2010s that are starting to show early signs of roller stiffness. We carry a range of roller sizes to cover all the common Aurora door brands and adjust every panel to sit level in the track.",
+    neighborhoods: getNeighborhoods("aurora"),
+    citySpecificFaq: {
+      q: "How do I know if my Aurora patio door needs new rollers or a new door?",
+      a: "If the frame and glass are in good shape, you only need rollers. Check the frame for rot, warping, or cracks. If it is solid, a roller replacement and adjustment will bring the door back to full function at a fraction of the cost of a new door.",
+    },
+  },
+  {
+    slug: "woodbridge",
+    city: "Woodbridge",
+    region: "Vaughan",
+    metaTitle: "Patio Door Repair Woodbridge | Rollers & Tracks",
+    metaDescription:
+      "Patio door repair in Woodbridge. Roller replacement, track cleaning, panel adjustment and patio door glass replacement. Call 437-344-8490.",
+    intro:
+      "Woodbridge homes from the 1990s and 2000s are reaching the point where patio door rollers start to fail. The door drags, the lock misses the keeper, or the panel shakes when you slide it. We swap the worn rollers, clean the track, and adjust the door so it runs smoothly again.",
+    uniqueContent:
+      "The older sections of Woodbridge along Kipling and the Humber River have homes from the late 1980s and 1990s with aluminum-track patio doors. The steel rollers in these doors corrode where moisture sits in the track channel, and the doors get stiffer every year. Newer developments near Pine Valley and Highway 7 have vinyl-frame doors with plastic roller bodies that crack from cold-weather cycling. Custom-built homes in the Islington Avenue area often have wider eight-foot openings with heavier panels that put extra load on tandem roller assemblies. We stock rollers for all common Woodbridge door brands and adjust the panel height so the lock catches cleanly.",
+    neighborhoods: getNeighborhoods("woodbridge"),
+    citySpecificFaq: {
+      q: "Can you fix a heavy patio door in a custom Woodbridge home?",
+      a: "Yes. Heavier panels use tandem roller assemblies that we stock for the common brands. The replacement process is the same, and we adjust the door so the extra weight is distributed evenly across both rollers.",
+    },
+  },
+  {
+    slug: "maple",
+    city: "Maple",
+    region: "Vaughan",
+    metaTitle: "Patio Door Repair Maple | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Maple. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
+    intro:
+      "Maple's residential expansion through the 2000s and 2010s produced thousands of homes with sliding patio doors. Those doors are now entering the 15-to-20-year window where rollers wear down and tracks accumulate enough grit to cause problems. We replace the rollers, clean the track, and get the door working properly.",
+    uniqueContent:
+      "Eagle Glen, Maple Creek, and the newer sections north of Major Mackenzie have builder-grade vinyl patio doors with plastic-body rollers. Those rollers flatten under the panel weight over time, and the first sign is usually a grinding sound or extra resistance when sliding. Kleinburg Road and the older Maple homes closer to Keele Street have some aluminum-frame doors with steel rollers from the 1990s that have corroded. Townhomes along Jane Street use narrower door configurations with single rollers that wear faster than the tandem setups in detached homes. We carry both roller types and adjust every door so the seal compresses evenly across the bottom rail.",
+    neighborhoods: getNeighborhoods("maple"),
+    citySpecificFaq: {
+      q: "My Maple townhome patio door is hard to open. Is it the rollers?",
+      a: "Most likely. Townhome patio doors use single rollers that wear faster than tandem setups in larger homes. A roller replacement typically takes about 30 to 45 minutes and gets the door sliding smoothly again.",
+    },
+  },
+  {
+    slug: "king-city",
+    city: "King City",
+    region: "York Region",
+    metaTitle: "Patio Door Repair King City | Rollers & Tracks",
+    metaDescription:
+      "Patio door repair in King City. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+    intro:
+      "King City and King Township have a mix of estate homes and newer subdivision builds, many with large patio door openings. The bigger the panel, the more strain on the rollers. When those rollers wear out, the door drags and the lock stops catching. We replace the rollers on-site and adjust the door for smooth operation.",
+    uniqueContent:
+      "Estate properties along King Road and Dufferin Street often have oversized sliding doors or multi-panel configurations with heavy glass. These doors use heavy-duty tandem rollers that wear faster under the extra weight. Schomberg-area homes from the 2000s have standard six-foot vinyl doors with builder-grade rollers that are now reaching end of life. Nobleton homes built in the 2010s have newer doors that may need their first adjustment as the house settles. King City's rural properties sometimes have walkout basement patio doors where the lower track collects dirt, leaves, and snow melt. We clean the track thoroughly on every visit and set the rollers to the right height so the panel seals and locks properly.",
+    neighborhoods: getNeighborhoods("king-city"),
+    citySpecificFaq: {
+      q: "Do you service patio doors on rural properties in King Township?",
+      a: "Yes. We service patio doors across King City, Nobleton, and Schomberg. Rural properties with walkout basement doors often need extra track cleaning due to exposure, and we handle that as part of the repair.",
+    },
+  },
+  {
+    slug: "milton",
+    city: "Milton",
+    region: "Halton Region",
+    metaTitle: "Patio Door Repair Milton | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Milton. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
+    intro:
+      "Milton was one of the fastest-growing towns in Canada through the 2000s and 2010s, and nearly every new home came with a sliding patio door. Those doors are now at the age where the rollers start wearing out. We replace them, service the track, and adjust the panel so the door glides quietly.",
+    uniqueContent:
+      "Harrison, Willmott, and Beaty neighbourhoods were built out rapidly in the mid-2000s with builder-standard vinyl patio doors. The rollers in these doors are now 15 to 20 years old and showing typical wear: grinding sounds, heavy sliding resistance, and locks that miss the keeper because the panel has dropped. Old Milton near Main Street has some older homes with aluminum-frame doors from the 1980s. Dorset Park and Scott have larger homes with eight-foot openings. The construction dust from Milton's ongoing development can clog tracks on newer homes as well. We carry rollers for the common Milton builders and clean the track on every visit.",
+    neighborhoods: getNeighborhoods("milton"),
+    citySpecificFaq: {
+      q: "Are patio door rollers in Milton's newer homes already wearing out?",
+      a: "Many are. Homes from the mid-2000s are now 15 to 20 years old, which is when builder-grade rollers typically start failing. A roller replacement now prevents further damage to the track and keeps the door working for another 15 to 20 years.",
+    },
+  },
+  {
+    slug: "ajax",
+    city: "Ajax",
+    region: "Durham Region",
+    metaTitle: "Patio Door Repair Ajax | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Ajax. Roller replacement, track repair, panel adjustment and glass. Written quote on the spot.",
+    intro:
+      "Ajax has a solid base of 1990s and 2000s homes where the patio doors are reaching the age when rollers give out. The door drags, bounces in the track, or will not lock properly. We replace the rollers, clean or cap the track, and adjust the panel so everything lines up again.",
+    uniqueContent:
+      "South Ajax near the waterfront has homes from the 1980s and 1990s with aluminum-track patio doors that get extra moisture exposure from Lake Ontario. The steel rollers in those doors corrode faster than inland homes. Westney Heights and Village Green have 1990s builds with standard vinyl doors where the plastic rollers are cracking from age. The newer sections along Rossland Road and Taunton Road have homes from the 2000s and 2010s with tandem roller setups. Ajax's ongoing construction means that even newer doors accumulate track grit faster than they would in a settled neighbourhood. We clean the track on every visit and replace rollers with parts rated for the panel weight.",
+    neighborhoods: getNeighborhoods("ajax"),
+    citySpecificFaq: {
+      q: "Does lake proximity affect patio doors in south Ajax?",
+      a: "It can. Homes closer to the waterfront deal with more moisture and salt air, which corrodes steel rollers faster. We use corrosion-resistant rollers for replacements in these areas.",
+    },
+  },
+  {
+    slug: "pickering",
+    city: "Pickering",
+    region: "Durham Region",
+    metaTitle: "Patio Door Repair Pickering | Rollers & Tracks",
+    metaDescription:
+      "Patio door repair in Pickering. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+    intro:
+      "Pickering homes span from 1960s builds in the south to newer developments in Duffin Heights and Seaton. Patio doors in all of these areas eventually need roller replacement. We handle the repair on-site and carry the common roller types to complete most jobs in a single visit.",
+    uniqueContent:
+      "Bay Ridges and West Shore have homes from the 1970s and 1980s with original aluminum-frame patio doors. The rollers in those doors have been turning for 40 years or more and are grinding metal on metal. Amberlea and Village East have 1990s homes with vinyl doors where the rollers are cracking from age. Duffin Heights and the newer sections along Taunton are more recent builds where rollers are still within their early lifespan but may need adjustment as the house settles. Rouge Park homes near the valley get extra moisture from the creek system, which can accelerate roller corrosion on ground-level doors. We match the roller type to the door brand and set the panel height so the lock and weatherstripping work properly.",
+    neighborhoods: getNeighborhoods("pickering"),
+    citySpecificFaq: {
+      q: "My Pickering patio door was fine until recently. What changed?",
+      a: "Rollers wear gradually, so the door gets a little stiffer each year. Most people notice it suddenly when the rollers cross the threshold from worn to failing. It does not mean the door is broken, it means the rollers need replacing.",
+    },
+  },
+  {
+    slug: "caledon",
+    city: "Caledon",
+    region: "Peel Region",
+    metaTitle: "Patio Door Repair Caledon | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Caledon. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
+    intro:
+      "Caledon homes range from rural properties with walkout basements to newer subdivision builds in Bolton and Southfields Village. Patio doors in all of these settings use the same roller and track mechanism, and they all need servicing once the rollers wear out. We replace them on-site.",
+    uniqueContent:
+      "Bolton-area homes from the 2000s and 2010s have standard six-foot vinyl patio doors with builder-grade rollers. Those rollers are reaching end of life in the older Bolton sections. Southfields Village is newer but some early-phase homes already have doors that need adjustment. Rural Caledon properties along Caledon East and Mono Road often have walkout basement doors where the lower track collects dirt, leaves, and snow melt throughout the year. Palgrave and Inglewood have estate-style homes with larger door openings and heavier panels. We carry rollers for standard and oversized setups and clean every track thoroughly before adjusting the panel.",
+    neighborhoods: getNeighborhoods("caledon"),
+    citySpecificFaq: {
+      q: "Do you come out to rural Caledon for patio door repair?",
+      a: "Yes. We service Caledon, Bolton, Palgrave, Inglewood, and Caledon East. Rural walkout doors often need extra track cleaning, and we handle that as part of the repair visit.",
+    },
+  },
+  {
+    slug: "whitby",
+    city: "Whitby",
+    region: "Durham Region",
+    metaTitle: "Patio Door Repair Whitby | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Whitby. Roller replacement, track repair, panel adjustment and glass. Written quote on the spot.",
+    intro:
+      "Whitby expanded steadily through the 1990s and 2000s, and those homes are now at the age where patio door rollers start failing. The door gets harder to slide, the panel drops slightly, and the lock stops catching. We replace the rollers and bring the door back to smooth operation.",
+    uniqueContent:
+      "Brooklin, Blue Grass Meadows, and Williamsburg have homes from the late 1990s and 2000s with six-foot vinyl patio doors on plastic rollers. Those rollers flatten under the panel weight and develop flat spots that cause the door to vibrate as it slides. Downtown Whitby and the older sections near Dundas Street have aluminum-frame doors from the 1970s and 1980s with corroded steel rollers. Lynde Creek and the newer developments near Taunton Road have larger homes with eight-foot openings. We carry rollers for the common Whitby door brands and adjust the panel height so the weatherstripping compresses evenly and the lock lines up with the keeper.",
+    neighborhoods: getNeighborhoods("whitby"),
+    citySpecificFaq: {
+      q: "My Whitby patio door vibrates when I open it. Is that normal?",
+      a: "No. Vibration or humming usually means the rollers have flat spots. As the roller rotates, the flat section causes a bounce that vibrates through the panel and frame. New rollers with round bearings fix the noise.",
+    },
+  },
+  {
+    slug: "orangeville",
+    city: "Orangeville",
+    region: "Dufferin County",
+    metaTitle: "Patio Door Repair Orangeville | Rollers & Tracks",
+    metaDescription:
+      "Patio door repair in Orangeville. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+    intro:
+      "Orangeville homes from the 1990s and 2000s are now reaching the point where patio door rollers need attention. The cold winters up the escarpment put extra thermal stress on door components, and rollers that might last 20 years further south can wear out closer to 15 in Orangeville. We replace them on-site.",
+    uniqueContent:
+      "Montgomery Village and Island Lake have homes from the 1990s with standard vinyl patio doors. The rollers in these doors are now 25 to 30 years old and most have flat spots or cracked housings. Newer sections near Hansen Boulevard and Rolling Hills have homes from the 2000s and 2010s where the rollers are reaching their first service interval. Downtown Orangeville along Broadway has some older homes with aluminum-frame doors from the 1970s. The colder Orangeville winters cause more thermal expansion and contraction in the track, which accelerates roller wear. We carry the common roller types and clean each track before adjusting the panel.",
+    neighborhoods: getNeighborhoods("orangeville"),
+    citySpecificFaq: {
+      q: "Do cold winters in Orangeville affect patio door rollers?",
+      a: "They can. Thermal cycling causes the track to expand and contract, which adds stress to the rollers over time. Rollers in colder areas tend to wear slightly faster. The fix is the same: new rollers and a proper adjustment.",
+    },
+  },
+  {
+    slug: "oshawa",
+    city: "Oshawa",
+    region: "Durham Region",
+    metaTitle: "Patio Door Repair Oshawa | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Oshawa. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
+    intro:
+      "Oshawa has a mix of older homes in the south end and newer builds in the north. Patio doors across both areas develop the same problems over time: worn rollers, dirty tracks, and panels that no longer lock properly. We fix all of it on-site.",
+    uniqueContent:
+      "South Oshawa near the lake has homes from the 1960s and 1970s with aluminum-frame patio doors on original steel rollers. Many of these rollers have never been replaced and are grinding through the track. The Simcoe Street corridor and Lakeview Park area have a mix of 1980s and 1990s homes with doors that are due for service. Windfields, Northwood, and the Taunton corridor have newer builds from the 2000s where the builder-grade rollers are now starting to show wear. Oshawa's university district has rental homes where patio doors get heavier daily use and wear out faster. We stock rollers for the common door brands in the area and adjust every panel so the lock catches and the weatherstripping seals.",
+    neighborhoods: getNeighborhoods("oshawa"),
+    citySpecificFaq: {
+      q: "Can you fix a patio door that has been grinding for a long time?",
+      a: "Yes. Doors that grind for years wear a groove into the track, but a stainless steel track cap covers the damage and gives the new rollers a smooth surface. This is much cheaper than replacing the full door frame.",
+    },
+  },
+  {
+    slug: "halton-hills",
+    city: "Halton Hills / Georgetown",
+    region: "Halton Region",
+    metaTitle: "Patio Door Repair Halton Hills | Rollers & Tracks",
+    metaDescription:
+      "Patio door repair in Halton Hills and Georgetown. Roller replacement, track repair, panel adjustment and glass. Call 437-344-8490.",
+    intro:
+      "Halton Hills, including Georgetown and Acton, has a steady base of 1990s and 2000s homes with sliding patio doors that are now due for roller replacement. We service both communities and carry the common roller types to complete most repairs on the first visit.",
+    uniqueContent:
+      "Georgetown's Delrex Boulevard and Silver Creek neighbourhoods have homes from the mid-1990s to early 2000s with six-foot vinyl patio doors. The rollers in these doors are 20 to 25 years old and most have developed flat spots or cracked housings. The newer sections of Georgetown along Mountainview Road have homes from the 2010s where rollers are still relatively young but some need adjustment as the foundation settles. Acton homes tend to be slightly older, with some aluminum-frame doors from the 1980s. Rural properties between Georgetown and Acton may have walkout basement doors where the track collects more debris than a main-floor installation. We clean every track thoroughly before setting the new rollers.",
+    neighborhoods: getNeighborhoods("halton-hills"),
+    citySpecificFaq: {
+      q: "Do you service both Georgetown and Acton in Halton Hills?",
+      a: "Yes. We cover all of Halton Hills, including Georgetown, Acton, and the rural areas between them. Most patio door repairs are completed in a single visit.",
+    },
+  },
+  {
+    slug: "barrie",
+    city: "Barrie",
+    region: "Simcoe County",
+    metaTitle: "Patio Door Repair Barrie | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Barrie. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
+    intro:
+      "Barrie's rapid growth has created a large base of homes with sliding patio doors at various stages of their lifespan. South-end homes from the 1990s are well into the roller replacement zone, while north-end builds from the 2010s are just starting their first decade. We service all areas of Barrie.",
+    uniqueContent:
+      "South Barrie neighbourhoods like Letitia Heights and Holly have homes from the 1990s with standard vinyl patio doors where the plastic rollers are cracking. Painswick and East Bayfield have homes from the early 2000s with tandem roller setups that wear unevenly. The newer developments in Hewitt's Gate and Salem have doors that may need their first adjustment as the homes settle. Barrie's proximity to Georgian Bay means colder, longer winters with more freeze-thaw cycles, which adds thermal stress to roller bearings and track channels. We carry rollers rated for the heavier use that colder climates demand and adjust every panel for proper seal compression.",
+    neighborhoods: getNeighborhoods("barrie"),
+    citySpecificFaq: {
+      q: "Does Barrie's colder climate affect patio door rollers?",
+      a: "Cold temperatures and more freeze-thaw cycles add thermal stress to rollers and tracks. Barrie doors tend to need service slightly earlier than doors in milder parts of the GTA. The repair itself is the same, and we use rollers rated for the conditions.",
+    },
+  },
+  {
+    slug: "innisfil",
+    city: "Innisfil",
+    region: "Simcoe County",
+    metaTitle: "Patio Door Repair Innisfil | Rollers & Tracks",
+    metaDescription:
+      "Patio door repair in Innisfil. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+    intro:
+      "Innisfil has grown quickly in recent years, with new homes in Alcona, Cookstown, and the Friday Harbour area joining the existing housing stock around Stroud and Lefroy. Patio doors in the older homes are already needing roller replacement, and the newer builds will follow in time. We service all of Innisfil.",
+    uniqueContent:
+      "Alcona has the largest concentration of patio doors in Innisfil, with homes from the 2000s and 2010s using builder-standard vinyl doors. The rollers in the older Alcona homes are now 15 to 20 years old and reaching the typical failure point. Stroud and Lefroy have a mix of 1980s and 1990s homes with aluminum-frame doors and steel rollers. Cookstown homes are generally newer but some early 2000s builds need service. Lakefront properties along Lake Simcoe deal with extra moisture exposure that can accelerate roller corrosion in ground-level door installations. We carry rollers for the common brands used by Innisfil builders and clean the track on every visit.",
+    neighborhoods: getNeighborhoods("innisfil"),
+    citySpecificFaq: {
+      q: "Do you service patio doors in lakefront homes in Innisfil?",
+      a: "Yes. Lakefront homes near Lake Simcoe sometimes have extra moisture in the track channel. We clean and inspect the track on every visit, and we use corrosion-resistant rollers where needed.",
+    },
+  },
+  {
+    slug: "stouffville",
+    city: "Stouffville",
+    region: "York Region",
+    metaTitle: "Patio Door Repair Stouffville | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Stouffville. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
+    intro:
+      "Stouffville has seen steady residential growth over the past two decades. Homes built in the 2000s are now reaching the age where patio door rollers start to fail. We replace the rollers, service the track, and adjust the panel so the door slides and locks properly.",
+    uniqueContent:
+      "The older sections of Stouffville near Main Street have homes from the 1980s and 1990s with aluminum-track patio doors and steel rollers that corrode over time. The newer subdivisions along Hoover Park Drive and Bethesda Road have homes from the 2000s and 2010s with vinyl-frame doors and plastic rollers that develop flat spots. Some larger homes in the rural edges of Stouffville have wide patio door openings with heavier panels that put extra strain on the roller assemblies. We carry rollers for both standard and heavy-duty setups and adjust the panel so the weatherstripping makes full contact along the bottom and sides.",
+    neighborhoods: getNeighborhoods("stouffville"),
+    citySpecificFaq: {
+      q: "How long does a patio door roller replacement take in Stouffville?",
+      a: "Most patio door roller replacements take 30 to 60 minutes per door. If you have multiple doors, we can do them all in the same visit. The repair includes removing the panel, swapping the rollers, cleaning the track, and adjusting the panel height.",
+    },
+  },
+  {
+    slug: "east-gwillimbury",
+    city: "East Gwillimbury",
+    region: "York Region",
+    metaTitle: "Patio Door Repair East Gwillimbury | Rollers & Tracks",
+    metaDescription:
+      "Patio door repair in East Gwillimbury. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+    intro:
+      "East Gwillimbury, including Holland Landing and Sharon, is growing fast with new residential development. Existing homes from the 1990s and 2000s are now at the age where patio door rollers need replacement. We service all communities in East Gwillimbury.",
+    uniqueContent:
+      "Holland Landing and Sharon have homes from the 1990s and early 2000s with six-foot vinyl patio doors where the rollers are 20 to 25 years old. The plastic roller housings in these doors crack from cold-weather cycling, and the bearings develop flat spots. Queensville and Mount Albert have a mix of older homes with aluminum-frame doors and newer subdivision builds. The ongoing construction in Green Lane and Leslie Street areas means even newer doors can accumulate track grit from nearby building sites. We clean every track before installing new rollers and adjust the panel so the lock engages properly.",
+    neighborhoods: getNeighborhoods("east-gwillimbury"),
+    citySpecificFaq: {
+      q: "Do you service the newer homes in East Gwillimbury?",
+      a: "Yes. Even newer doors can need adjustment as the foundation settles, and construction dust from nearby building sites can clog tracks. We clean the track and check the roller condition on every visit.",
+    },
+  },
+  {
+    slug: "georgina",
+    city: "Georgina / Keswick",
+    region: "York Region",
+    metaTitle: "Patio Door Repair Georgina | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Georgina and Keswick. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
+    intro:
+      "Georgina, including Keswick and Sutton, has a large base of homes with patio doors that face Lake Simcoe's moisture and York Region's cold winters. Those conditions wear on rollers and tracks over time. We replace the worn parts and get the door gliding smoothly.",
+    uniqueContent:
+      "Keswick is the largest community in Georgina and has homes from every decade since the 1970s. Older homes along The Queensway and near the waterfront have aluminum-frame patio doors with steel rollers that corrode from lake moisture. The newer sections along Woodbine Avenue and Ravenshoe Road have vinyl-frame doors from the 2000s with plastic rollers reaching end of life. Sutton and Jackson's Point have cottage-country-style homes where patio doors see heavy seasonal use. Pefferlaw has a smaller housing base with a mix of older and newer doors. We carry rollers for the common brands in the area and use corrosion-resistant replacements for lakefront properties.",
+    neighborhoods: getNeighborhoods("georgina"),
+    citySpecificFaq: {
+      q: "Does lake moisture in Georgina damage patio door rollers?",
+      a: "It can accelerate corrosion on steel rollers, especially in homes near the Lake Simcoe waterfront. We use stainless steel or polymer rollers for replacements in lakefront areas to resist that corrosion.",
+    },
+  },
+  {
+    slug: "bradford",
+    city: "Bradford",
+    region: "Simcoe County",
+    metaTitle: "Patio Door Repair Bradford | Rollers & Tracks",
+    metaDescription:
+      "Patio door repair in Bradford. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+    intro:
+      "Bradford has grown significantly with new residential builds along with its established housing stock. Homes from the 1990s and 2000s are now at the point where patio door rollers start to fail. We replace them on-site and adjust the door for smooth operation.",
+    uniqueContent:
+      "The older sections of Bradford near Holland Street have homes from the 1980s and 1990s with aluminum-track patio doors and steel rollers that have been wearing for decades. Newer developments along Professor Day Drive and Simcoe Road have homes from the 2000s and 2010s with vinyl-frame doors and plastic rollers that develop flat spots. Bradford's proximity to the Holland Marsh means some homes at lower elevations deal with extra humidity, which can accelerate roller corrosion on ground-level patio doors. We stock rollers for the common builder brands and clean every track thoroughly before setting the new parts.",
+    neighborhoods: getNeighborhoods("bradford"),
+    citySpecificFaq: {
+      q: "My Bradford patio door grinds when I slide it. What is causing that?",
+      a: "Grinding usually means the rollers are worn down to the point where the metal axle or housing is contacting the track directly. New rollers restore the smooth rolling surface and stop the grinding noise. If the track has been scored from the grinding, we cap it with a stainless steel cover.",
+    },
+  },
+  {
+    slug: "clarington",
+    city: "Clarington / Bowmanville",
+    region: "Durham Region",
+    metaTitle: "Patio Door Repair Clarington | Rollers, Tracks & Glass",
+    metaDescription:
+      "Sliding patio door repair in Clarington and Bowmanville. LuminaSky replaces rollers, fixes tracks, adjusts panels and replaces glass. Written quote on the spot.",
+    intro:
+      "Clarington, including Bowmanville, Courtice, and Newcastle, has a growing housing stock with patio doors at various stages of wear. Older homes need roller replacements now. Newer builds will need them in the coming years. We service all Clarington communities.",
+    uniqueContent:
+      "Bowmanville's established neighbourhoods along Liberty Street and near the downtown core have homes from the 1980s and 1990s with aluminum-frame patio doors and corroded steel rollers. The newer developments along Green Road and Longworth Avenue have vinyl-frame doors from the 2000s and 2010s with plastic rollers approaching their first service. Courtice homes near Courtice Road and Hancock are a mix of 1990s and 2000s builds with standard roller setups. Newcastle has a smaller base of homes with patio doors that range from 1970s originals to recent builds. We carry rollers for the common brands in Durham Region and adjust every panel so the lock catches and the weatherstripping seals properly.",
+    neighborhoods: getNeighborhoods("clarington"),
+    citySpecificFaq: {
+      q: "Do you service all of Clarington, including Newcastle?",
+      a: "Yes. We cover Bowmanville, Courtice, Newcastle, and all of Clarington. Most patio door repairs are completed in a single visit.",
+    },
+  },
+  {
+    slug: "uxbridge",
+    city: "Uxbridge",
+    region: "Durham Region",
+    metaTitle: "Patio Door Repair Uxbridge | Rollers & Tracks",
+    metaDescription:
+      "Patio door repair in Uxbridge. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+    intro:
+      "Uxbridge has a mix of older homes in the town centre and newer builds on the outskirts. Patio doors across both areas use the same roller and track mechanism, and they all need servicing once the rollers wear out. We replace them on-site and carry the common roller types.",
+    uniqueContent:
+      "Downtown Uxbridge homes near Brock Street have some of the oldest patio doors in the area, with aluminum frames and steel rollers from the 1970s and 1980s that have never been replaced. Those rollers are grinding through the track and making the door almost impossible to slide. Newer sections along Reach Street and the east side of town have homes from the 2000s with vinyl-frame doors where the plastic rollers are now at their first service interval. Rural properties around Uxbridge have walkout basement patio doors that collect leaves, dirt, and snow melt in the track. We clean every track before installing new rollers and adjust the panel height so the door seals and locks cleanly.",
+    neighborhoods: getNeighborhoods("uxbridge"),
+    citySpecificFaq: {
+      q: "Can you fix a very old patio door in downtown Uxbridge?",
+      a: "Usually, yes. Aluminum-frame doors from the 1970s and 1980s often have frames and glass that are still in good condition. New rollers and a track cap can bring these doors back to smooth operation without a full replacement.",
+    },
+  },
 ];
 
 export function getPatioDoorCityPageData(slug: string): PatioDoorCityPageData | undefined {
   return PATIO_DOOR_CITY_PAGES.find((c) => c.slug === slug);
 }
+

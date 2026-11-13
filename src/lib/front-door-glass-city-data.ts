@@ -273,6 +273,329 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
       a: "Yes. We measure non-standard openings on-site and order replacement glass to fit. Older doors with narrow or unusual inserts are a regular part of our work.",
     },
   },
+  {
+    slug: "north-york",
+    city: "North York",
+    region: "Toronto",
+    metaTitle: "Front Door Glass Replacement in North York",
+    metaDescription:
+      "Front door glass replacement in North York. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "North York stretches from the Yonge corridor towers to the quiet residential streets of Willowdale, Bayview Village, and Don Mills. The front door glass across these neighbourhoods runs from original 1950s panels in bungalows to modern inserts in newer infill builds. LuminaSky replaces the glass without swapping the door.",
+    uniqueContent:
+      "Willowdale and Bayview Village carry a large stock of 1960s and 1970s detached homes with single-door entries and half-lite or three-quarter-lite inserts. The glass in these doors is often the original factory installation, and after five decades the seals have failed entirely. Don Mills homes from the original planned community era have a distinctive mid-century aesthetic, and some homeowners want replacement glass that respects that look. LuminaSky sources textured and patterned glass to match older designs when requested. Along the Yonge corridor and in the Sheppard area, newer condo townhomes use contemporary frosted and clear panels that are faster to size and replace. Regardless of the era, the process starts with an on-site measurement, followed by a custom order and a single installation visit.",
+    neighborhoods: getNeighborhoods("north-york"),
+    citySpecificFaq: {
+      q: "Can you replace glass in the sidelites of my North York front door?",
+      a: "Yes. Sidelite panels are measured and replaced independently. We can do one or both alongside the main insert if needed.",
+    },
+  },
+  {
+    slug: "etobicoke",
+    city: "Etobicoke",
+    region: "Toronto",
+    metaTitle: "Front Door Glass Replacement in Etobicoke",
+    metaDescription:
+      "Front door glass replacement in Etobicoke. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Etobicoke's housing spans wartime bungalows in Long Branch, mid-century ranchers in Eatonville, and estate homes in Princess Anne Manor. The front door glass in each era has its own character and its own failure modes. LuminaSky replaces all of them while keeping the door in place.",
+    uniqueContent:
+      "Long Branch and New Toronto have a concentration of smaller wartime and postwar homes whose front doors carry narrow single-lite or half-lite glass panels. These are non-standard sizes that need exact on-site measurement. Islington Village and the Kingsway feature larger homes with custom entry doors, some with leaded glass inserts that match the Tudor and Colonial Revival architecture common in the area. When one panel cracks, matching the decorative pattern requires sourcing from specialty fabricators. Rexdale and the Woodbine corridor lean more toward builder-grade steel doors with standard inserts that are faster to measure and replace. Across all of Etobicoke, LuminaSky measures the glass opening on-site, orders the replacement to exact dimensions, and installs it without pulling the door off its hinges.",
+    neighborhoods: getNeighborhoods("etobicoke"),
+    citySpecificFaq: {
+      q: "Do you replace leaded glass panels in Kingsway-area doors in Etobicoke?",
+      a: "Yes. We source custom leaded and decorative glass panels to match heritage and character home designs.",
+    },
+  },
+  {
+    slug: "woodbridge",
+    city: "Woodbridge",
+    region: "Vaughan",
+    metaTitle: "Front Door Glass Replacement in Woodbridge",
+    metaDescription:
+      "Front door glass replacement in Woodbridge. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Woodbridge is known for grand entrances. Double doors with wrought-iron inserts, oversized single doors with ornate glass panels, and custom entries that reflect the homeowner's taste. When that glass cracks or fogs, LuminaSky replaces the panel without disturbing the ironwork or the door itself.",
+    uniqueContent:
+      "The custom homes along Islington Avenue and in the Vellore Woods area feature some of the most elaborate front door glass in the GTA. Double-door entries with wrought-iron frames and sealed decorative glass panels are standard in this part of Woodbridge. Replacing the glass in these doors requires measuring around the ironwork precisely, because the glass sits in custom-shaped openings rather than standard rectangles. LuminaSky handles these measurements on-site with the door in place. In the older established streets near Market Lane, the homes are more modest but still carry decorative inserts from the 1980s and 1990s that are now showing their age. Fogged glass and cracked panels are common calls from this area. The replacement is straightforward: remove the old insert frame, fit the new glass, and seal. No paint touch-ups, no hardware changes, no door removal.",
+    neighborhoods: getNeighborhoods("woodbridge"),
+    citySpecificFaq: {
+      q: "Can you replace the glass around wrought-iron inserts in my Woodbridge double doors?",
+      a: "Yes. We measure the glass panels around the existing ironwork and order replacements to fit each shaped opening.",
+    },
+  },
+  {
+    slug: "maple",
+    city: "Maple",
+    region: "Vaughan",
+    metaTitle: "Front Door Glass Replacement in Maple",
+    metaDescription:
+      "Front door glass replacement in Maple. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Maple grew rapidly through the 2000s and 2010s, producing block after block of detached homes with builder-grade entry doors. The glass inserts in those doors are now hitting their replacement age. LuminaSky replaces foggy, cracked, and dated front door glass without swapping the door.",
+    uniqueContent:
+      "Most of Maple's residential stock was built in the subdivision boom around Major Mackenzie and Rutherford Road. The entry doors in these homes are predominantly steel or fibreglass with standard decorative inserts featuring brass or pewter caming. After 15 to 20 years, the sealed glass units are failing. Fog between the panes is the most common issue, followed by cracks in the outer pane from thermal stress. The older pocket of Maple near the historic village core along Keele Street has a few century homes and mid-century bungalows with non-standard door glass. These require on-site measurement for an exact fit. For the subdivision homes, the sizing is predictable and turnaround is fast. LuminaSky brings glass samples for homeowners who want to update the style while replacing a failed panel.",
+    neighborhoods: getNeighborhoods("maple"),
+    citySpecificFaq: {
+      q: "Can I switch from a dated decorative insert to frosted glass on my Maple front door?",
+      a: "Yes. If the opening dimensions are the same, we can fit a different glass style into your existing door. We bring samples so you can compare.",
+    },
+  },
+  {
+    slug: "king-city",
+    city: "King City",
+    region: "York Region",
+    metaTitle: "Front Door Glass Replacement in King City",
+    metaDescription:
+      "Front door glass replacement in King City. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "King City's estate homes and acreage properties often feature custom entry doors with large glass panels. When that glass fogs or cracks, replacing the panel is far more practical than sourcing a new custom door. LuminaSky measures on-site and orders to exact dimensions.",
+    uniqueContent:
+      "The estate lots along King Road and Keele Street feature some of the largest front door glass panels in York Region. These are not standard catalogue inserts. Double-door entries with oversized decorative glass, full-length sidelites, and transoms are common. Each piece needs to be measured individually because the openings are custom-framed. King City's rural setting also means more exposure to wind and temperature extremes than sheltered urban lots, so replacement glass here benefits from argon-filled sealed units for thermal performance. Nobleton, part of the Township of King, has a tighter mix of village homes and newer subdivisions where the door glass is more standardized. LuminaSky serves both ends of the spectrum. The approach is always the same: measure the glass, not the door, order to size, and install without removing the door from the frame.",
+    neighborhoods: getNeighborhoods("king-city"),
+    citySpecificFaq: {
+      q: "Can you replace the transom glass above my King City front door?",
+      a: "Yes. Transom panels are measured and replaced independently, or together with the main insert and sidelites if all need attention.",
+    },
+  },
+  {
+    slug: "milton",
+    city: "Milton",
+    region: "Halton Region",
+    metaTitle: "Front Door Glass Replacement in Milton",
+    metaDescription:
+      "Front door glass replacement in Milton. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Milton has been one of the fastest-growing towns in Ontario for over a decade. That means thousands of homes built in quick succession, all with builder-grade entry doors whose glass inserts are now reaching the age where seals fail. LuminaSky replaces the glass and keeps the door.",
+    uniqueContent:
+      "Neighbourhoods like Harrison, Willmott, and Scott Boulevard were built from the mid-2000s onward. The entry doors in these homes are nearly all steel or fibreglass with standard-sized decorative inserts. The same handful of glass patterns appear across entire streets. That predictability makes replacement straightforward: the dimensions are consistent and sourcing is fast. Old Milton around Main Street has a smaller stock of older homes with wooden doors and non-standard glass openings. These need on-site measurement for a proper fit. Milton's elevation on the Niagara Escarpment also brings more wind exposure than lower-lying towns, which can accelerate seal deterioration on south- and west-facing doors. LuminaSky uses sealed units designed for the climate and provides a written quote after measuring on-site.",
+    neighborhoods: getNeighborhoods("milton"),
+    citySpecificFaq: {
+      q: "My Milton home is only 10 years old but the door glass is already foggy. Is that normal?",
+      a: "Seal failures at 10 to 15 years are common in builder-grade door inserts. The glass unit can be replaced without changing the door.",
+    },
+  },
+  {
+    slug: "ajax",
+    city: "Ajax",
+    region: "Durham Region",
+    metaTitle: "Front Door Glass Replacement in Ajax",
+    metaDescription:
+      "Front door glass replacement in Ajax. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Ajax homes built through the 1980s, 1990s, and 2000s fill the streets from the waterfront up to Rossland Road. The front door glass inserts in these homes are now in the zone where fog and cracks start appearing. LuminaSky replaces the glass panel without swapping the door.",
+    uniqueContent:
+      "The lakefront neighbourhoods near Ajax waterfront park have older bungalows and split-levels with solid wood doors and original glass panels dating back to the 1960s and 1970s. These require precise measurement for a proper fit. Farther north, the subdivisions around Salem and Westney Heights were built in the 1990s with standard builder-grade entry doors. The decorative glass inserts in these homes are now reaching end-of-life. Pickering Village, which straddles the Ajax and Pickering border, has a few heritage properties with character door glass that LuminaSky matches carefully during replacement. The newest builds near Audley Road use contemporary door styles with cleaner glass lines. LuminaSky serves all areas of Ajax, measuring each door glass opening on-site and ordering to the exact dimensions.",
+    neighborhoods: getNeighborhoods("ajax"),
+    citySpecificFaq: {
+      q: "Do you work in the older lakefront area of Ajax?",
+      a: "Yes. We serve all of Ajax, from the lakefront homes through the newer subdivisions north of Highway 2.",
+    },
+  },
+  {
+    slug: "caledon",
+    city: "Caledon",
+    region: "Peel Region",
+    metaTitle: "Front Door Glass Replacement in Caledon",
+    metaDescription:
+      "Front door glass replacement in Caledon. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Caledon's rural estates and village homes feature front doors built for presence. Large glass panels, sidelites, and transoms are common on the bigger properties. When the glass fogs or cracks, LuminaSky replaces it without touching the door or its hardware.",
+    uniqueContent:
+      "Bolton, the largest community in Caledon, has a mix of established village homes and newer subdivision builds. The older Bolton homes along Queen Street carry wooden doors with non-standard glass openings that need precise measurement. The newer phases in Bolton and the surrounding area use steel and fibreglass doors with standard inserts that are faster to replace. Outside Bolton, Caledon's rural properties and estate lots along Highway 10 and the Caledon East corridor feature custom entry doors with oversized glass panels. These homes sit on open land with more wind exposure than urban lots, which can stress door glass seals. LuminaSky measures each opening on-site and orders to the exact dimensions. For homeowners looking to update the style, we carry samples of privacy, frosted, and textured glass that fit standard openings.",
+    neighborhoods: getNeighborhoods("caledon"),
+    citySpecificFaq: {
+      q: "Can you replace door glass on a rural Caledon property?",
+      a: "Yes. We serve all of Caledon, including Bolton, Caledon East, Inglewood, and rural estate lots.",
+    },
+  },
+  {
+    slug: "whitby",
+    city: "Whitby",
+    region: "Durham Region",
+    metaTitle: "Front Door Glass Replacement in Whitby",
+    metaDescription:
+      "Front door glass replacement in Whitby. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Whitby's residential growth from the 1980s through the 2010s has produced a large stock of homes whose front door glass inserts are now showing their age. Fog between the panes, cracked panels, and outdated designs are the most common calls we get. LuminaSky replaces the glass and leaves the door.",
+    uniqueContent:
+      "Downtown Whitby along Brock and Dundas has older homes with character doors whose glass panels may be original to the house. These non-standard openings need careful measurement for a proper replacement. Brooklin, north of Highway 407, is one of the fastest-growing communities in Durham Region, and its homes from the 2000s and 2010s use standard builder-grade door inserts that are already starting to fog. The Shores of Whitby near the waterfront and Pringle Creek to the west have a mix of townhomes and detached houses with a variety of insert styles. LuminaSky approaches every Whitby door glass job the same way: measure the glass opening on-site, order to exact dimensions, and install on a return visit without removing the door.",
+    neighborhoods: getNeighborhoods("whitby"),
+    citySpecificFaq: {
+      q: "Do you serve the Brooklin area in Whitby?",
+      a: "Yes. We serve all of Whitby, including Brooklin, downtown Whitby, the Shores, and all surrounding neighbourhoods.",
+    },
+  },
+  {
+    slug: "orangeville",
+    city: "Orangeville",
+    region: "Dufferin County",
+    metaTitle: "Front Door Glass Replacement in Orangeville",
+    metaDescription:
+      "Front door glass replacement in Orangeville. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Orangeville sits at the edge of the GTA where the suburban subdivisions meet the rural townships. The town's front door glass ranges from heritage panels in the Broadway core to builder-grade inserts in newer subdivisions. LuminaSky replaces both without swapping the door.",
+    uniqueContent:
+      "The older part of Orangeville around Broadway and Mill Street has Victorian and Edwardian homes with wooden entry doors. The glass panels in these doors are part of the home's character, and replacements need to respect the original proportions and style. LuminaSky sources textured and patterned glass to match when standard options fall short. In the newer subdivisions along Hansen Boulevard and Alder Street, the housing stock is 10 to 25 years old with standard steel and fibreglass entry doors. Foggy inserts are a common call from these areas. Orangeville's location in the headwaters region brings cold winters and significant wind, which puts extra stress on door glass seals. We use sealed units rated for the conditions and provide a written quote after measuring on-site.",
+    neighborhoods: getNeighborhoods("orangeville"),
+    citySpecificFaq: {
+      q: "Do you travel to Orangeville for door glass replacement?",
+      a: "Yes. Orangeville is within our regular service area. We schedule Orangeville visits on our Dufferin County route.",
+    },
+  },
+  {
+    slug: "halton-hills",
+    city: "Halton Hills / Georgetown",
+    region: "Halton Region",
+    metaTitle: "Front Door Glass Replacement in Georgetown",
+    metaDescription:
+      "Front door glass replacement in Georgetown and Halton Hills. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Georgetown and Acton form the core of Halton Hills, with a mix of historic village homes and newer subdivision builds. The front door glass across these communities ranges from century-home panels to modern factory inserts. LuminaSky replaces all of them on-site.",
+    uniqueContent:
+      "Georgetown's downtown along Main Street has a collection of older homes whose wooden doors carry glass panels that predate modern sealed units. These are single-pane or early double-pane inserts that benefit from an upgrade to a modern sealed unit sized to fit the original opening. The subdivisions east and west of downtown, built from the 1990s through the 2010s, use standard builder-grade entry doors with decorative inserts that are now reaching replacement age. Acton, the smaller community to the west, has a similar mix of older village homes and newer builds. Halton Hills sits at a higher elevation than the lakeshore communities, which brings colder winter temperatures and more freeze-thaw stress on door glass seals. LuminaSky measures on-site, orders to the exact dimensions, and installs the replacement glass in a single return visit.",
+    neighborhoods: getNeighborhoods("halton-hills"),
+    citySpecificFaq: {
+      q: "Do you serve both Georgetown and Acton in Halton Hills?",
+      a: "Yes. We cover all of Halton Hills, including Georgetown, Acton, Glen Williams, and the surrounding rural areas.",
+    },
+  },
+  {
+    slug: "barrie",
+    city: "Barrie",
+    region: "Simcoe County",
+    metaTitle: "Front Door Glass Replacement in Barrie",
+    metaDescription:
+      "Front door glass replacement in Barrie. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Barrie's housing boom over the past two decades has produced subdivisions stretching from the south end near Highway 400 to the growing communities in the northeast. The front door glass in these homes is builder-grade, and it is now reaching the age where seals fail. LuminaSky replaces the glass on-site.",
+    uniqueContent:
+      "South Barrie, around Mapleview Drive and along the Highway 400 corridor, was developed rapidly through the 2000s and 2010s. Entire streets share the same entry door and glass insert design. When the sealed unit in one starts fogging, the neighbours are usually not far behind. LuminaSky handles multi-home orders in the area for efficiency. Downtown Barrie along Dunlop Street and the Allandale waterfront area has older homes with wooden doors and non-standard glass panels that need careful on-site measurement. The north end of Barrie, including Hewitt's Gate and the Essa Road corridor, continues to expand with new builds. Barrie's proximity to Georgian Bay brings colder and windier winters than communities farther south, which increases the thermal load on door glass seals. We use sealed units appropriate for the conditions.",
+    neighborhoods: getNeighborhoods("barrie"),
+    citySpecificFaq: {
+      q: "Is Barrie within your service area for front door glass replacement?",
+      a: "Yes. We serve Barrie and schedule visits on our Simcoe County route. The process is the same: on-site measurement, then a return visit for installation.",
+    },
+  },
+  {
+    slug: "innisfil",
+    city: "Innisfil",
+    region: "Simcoe County",
+    metaTitle: "Front Door Glass Replacement in Innisfil",
+    metaDescription:
+      "Front door glass replacement in Innisfil. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Innisfil has grown from a rural township to a fast-developing residential community. The homes along the Alcona waterfront and in the newer subdivisions around the Friday Harbour area have front door glass that LuminaSky replaces without swapping the door.",
+    uniqueContent:
+      "Alcona, Innisfil's largest community, sits on the shore of Lake Simcoe. The lakefront cottages and year-round homes here face moisture and wind off the water that accelerates door glass seal deterioration. Farther inland, the subdivisions along Innisfil Beach Road and around the Cookstown area feature newer builder-grade homes with standard entry door inserts. These are 10 to 20 years old and entering the common window for seal failure. Innisfil's mix of older cottage country properties and newer suburban homes means LuminaSky sees both custom-measurement and standard-replacement work here. The measurement and installation process does not change: we come to the property, measure the glass opening, order to size, and return to install.",
+    neighborhoods: getNeighborhoods("innisfil"),
+    citySpecificFaq: {
+      q: "Do you replace door glass in lakefront cottages in Innisfil?",
+      a: "Yes. We work on both year-round homes and seasonal properties in Innisfil, including Alcona, Big Bay Point, and the lakefront areas.",
+    },
+  },
+  {
+    slug: "stouffville",
+    city: "Stouffville",
+    region: "York Region",
+    metaTitle: "Front Door Glass Replacement in Stouffville",
+    metaDescription:
+      "Front door glass replacement in Stouffville. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Stouffville has grown from a small village into a substantial residential community over the past 15 years. The homes in its newer subdivisions have builder-grade entry doors with glass inserts that are now starting to fog and crack. LuminaSky replaces the glass without touching the door.",
+    uniqueContent:
+      "The historic village core of Stouffville along Main Street has a handful of older homes with character doors and non-standard glass panels. These need on-site measurement to get the replacement dimensions right. The bulk of Stouffville's housing, though, is in the subdivisions that expanded rapidly south and west of the village between 2005 and 2020. Homes in these areas carry standard steel and fibreglass entry doors with decorative inserts from a limited set of builder patterns. The glass inserts in the earliest phases are now firmly in the seal-failure zone. Fog between the panes is the leading complaint, followed by cracks from thermal stress. LuminaSky measures the glass opening, orders the replacement unit, and installs it on a return visit. The door stays on its hinges throughout.",
+    neighborhoods: getNeighborhoods("stouffville"),
+    citySpecificFaq: {
+      q: "My Stouffville subdivision home has a builder-grade door insert that fogged up. Can you match the design?",
+      a: "Yes. Builder-grade inserts use a small set of standard patterns that we source regularly. We can match the existing design or fit a new style into the same opening.",
+    },
+  },
+  {
+    slug: "east-gwillimbury",
+    city: "East Gwillimbury",
+    region: "York Region",
+    metaTitle: "Front Door Glass Replacement in East Gwillimbury",
+    metaDescription:
+      "Front door glass replacement in East Gwillimbury. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "East Gwillimbury's communities of Holland Landing, Sharon, and Queensville are growing steadily. The newer homes have builder-grade entry door glass that will need replacing within the next decade, and the older village homes already do. LuminaSky handles both.",
+    uniqueContent:
+      "Holland Landing, the most established community in East Gwillimbury, has a core of older homes along the river with wooden entry doors and glass panels that may be original to the house. These need on-site measurement for an exact fit. The newer subdivisions spreading south toward Newmarket and east toward Mount Albert use standard builder-grade entry doors with factory inserts. Sharon and Queensville have a similar mix: small village centres with older homes surrounded by newer residential development. The front door glass across all these communities faces the same Ontario winter conditions, and the same seal-failure timeline applies. LuminaSky measures on-site, orders to the exact opening, and installs without removing the door from its hinges.",
+    neighborhoods: getNeighborhoods("east-gwillimbury"),
+    citySpecificFaq: {
+      q: "Do you serve Holland Landing and Queensville?",
+      a: "Yes. We cover all of East Gwillimbury, including Holland Landing, Sharon, Queensville, and Mount Albert.",
+    },
+  },
+  {
+    slug: "georgina",
+    city: "Georgina / Keswick",
+    region: "York Region",
+    metaTitle: "Front Door Glass Replacement in Keswick",
+    metaDescription:
+      "Front door glass replacement in Keswick and Georgina. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Georgina's communities along the south shore of Lake Simcoe, including Keswick, Sutton, and Jackson's Point, have a mix of year-round homes and former cottages that have been converted to permanent residences. The front door glass in both styles eventually needs replacement, and LuminaSky handles it on-site.",
+    uniqueContent:
+      "Keswick, Georgina's largest community, has a core of older homes near the waterfront with wooden and early steel entry doors. The glass panels in these doors are often non-standard sizes that require on-site measurement. Newer subdivisions along Woodbine Avenue and The Queensway use builder-grade steel and fibreglass doors with standard inserts that are easier to match and replace. Sutton and Jackson's Point on the east side of Georgina lean toward cottage and village-style homes where front door glass is often simpler: half-lite clear or frosted panels rather than the decorative designs common farther south. The lake proximity means more moisture exposure on door glass seals, particularly for homes facing the water. LuminaSky uses sealed units suited to the conditions and measures every opening on-site for an exact fit.",
+    neighborhoods: getNeighborhoods("georgina"),
+    citySpecificFaq: {
+      q: "Do you travel to Sutton and Jackson's Point for door glass replacement?",
+      a: "Yes. We serve all of Georgina, including Keswick, Sutton, Jackson's Point, Pefferlaw, and the surrounding lakeshore areas.",
+    },
+  },
+  {
+    slug: "bradford",
+    city: "Bradford",
+    region: "Simcoe County",
+    metaTitle: "Front Door Glass Replacement in Bradford",
+    metaDescription:
+      "Front door glass replacement in Bradford. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Bradford has expanded rapidly from its village core into a growing suburban community. The newer homes lining the streets around County Road 88 and Professor Day Drive have builder-grade entry doors with glass inserts now entering their replacement window. LuminaSky replaces the glass on-site.",
+    uniqueContent:
+      "The older part of Bradford along Holland Street has a small stock of village homes with wooden doors and non-standard glass panels. These need precise on-site measurement to fit a replacement properly. The subdivisions built from the early 2000s through the 2010s dominate the town's housing supply and use standard steel and fibreglass entry doors with factory-installed decorative inserts. After 15 to 20 years, the sealed glass units in these inserts start to fail. Fog between the panes is the most common symptom, followed by hairline cracks from seasonal temperature swings. Bradford's location at the northern edge of the commuter belt means slightly colder winter conditions than towns closer to Toronto, which adds stress to door glass seals. LuminaSky measures on-site, orders to exact dimensions, and installs in a single return visit.",
+    neighborhoods: getNeighborhoods("bradford"),
+    citySpecificFaq: {
+      q: "How far in advance do I need to book for door glass replacement in Bradford?",
+      a: "Bradford is on our regular Simcoe County route. Most bookings are scheduled within a week, and the installation visit follows once the glass is ready.",
+    },
+  },
+  {
+    slug: "clarington",
+    city: "Clarington / Bowmanville",
+    region: "Durham Region",
+    metaTitle: "Front Door Glass Replacement in Bowmanville",
+    metaDescription:
+      "Front door glass replacement in Bowmanville and Clarington. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Clarington's communities of Bowmanville, Courtice, and Newcastle have grown substantially over the past two decades. The front door glass in these homes is builder-grade and now entering the age where seals fail and styles feel dated. LuminaSky replaces the glass without replacing the door.",
+    uniqueContent:
+      "Bowmanville, Clarington's largest community, has an older village core along King Street with heritage homes whose wooden doors carry glass panels that predate modern sealed units. Replacements for these need to be measured to the exact opening, as the sizes do not match current standards. The newer subdivisions in north Bowmanville, Courtice, and around Green Road use standard builder-grade entry doors with factory inserts. These homes were built from the 2000s onward, and the glass inserts are now entering the typical failure period. Newcastle, the smaller community to the east, has a similar profile. Clarington's location at the eastern edge of the GTA means fewer glass service providers cover the area. LuminaSky schedules Clarington visits on our Durham Region route and handles the measurement and installation on separate trips.",
+    neighborhoods: getNeighborhoods("clarington"),
+    citySpecificFaq: {
+      q: "Do you cover Courtice and Newcastle as well as Bowmanville?",
+      a: "Yes. We serve all of Clarington, including Bowmanville, Courtice, Newcastle, Orono, and the surrounding areas.",
+    },
+  },
+  {
+    slug: "uxbridge",
+    city: "Uxbridge",
+    region: "Durham Region",
+    metaTitle: "Front Door Glass Replacement in Uxbridge",
+    metaDescription:
+      "Front door glass replacement in Uxbridge. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+    intro:
+      "Uxbridge's small-town character includes a historic downtown, established residential streets, and newer subdivisions on the town's edges. The front door glass in these homes ranges from heritage panels on Brock Street to standard builder inserts in newer areas. LuminaSky replaces all of them on-site.",
+    uniqueContent:
+      "The downtown core of Uxbridge along Brock Street has Victorian and early 20th-century homes with wooden doors and character glass panels. Replacements here need to respect the proportions and style of the original, and LuminaSky sources textured or patterned glass when a standard clear or frosted panel would look out of place. The newer subdivisions in south and east Uxbridge use builder-grade steel and fibreglass doors with standard decorative inserts. These are the most common calls from the area: foggy glass between the panes, or a style update from brass-caming decorative to a cleaner frosted look. Uxbridge's rural surroundings and elevation bring cold winters and wind exposure that put additional stress on door glass seals. We use sealed units rated for the conditions and measure on-site for every job.",
+    neighborhoods: getNeighborhoods("uxbridge"),
+    citySpecificFaq: {
+      q: "Is Uxbridge within your service area?",
+      a: "Yes. Uxbridge is on our Durham Region route. We schedule measurement and installation visits on regular service days.",
+    },
+  },
 ];
 
 export function getFrontDoorGlassCityPageData(slug: string): FrontDoorGlassCityPageData | undefined {
