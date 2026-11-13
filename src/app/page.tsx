@@ -63,7 +63,7 @@ export default function HomePage() {
       <section className="py-10 px-4 bg-white border-t border-gray-100">
         <div className="max-w-xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-4 text-center sm:text-left">
           <a
-            href="https://share.google/S08QWQ5FO1niAmpXy"
+            href="https://www.google.com/search?sca_esv=50e2bf8f38455036&sxsrf=ANbL-n7wSLiGxC2fDL8T78exI1FufMDcqA:1777236681407&kgmid=/g/11ylg1yw71&q=Lumina+Sky+Glass+Services&shem=dlvs1,rimspwouoe&shndl=30&source=sh/x/loc/uni/m1/1&kgs=de8e7fb04e2ff6dd&utm_source=dlvs1,rimspwouoe,sh/x/loc/uni/m1/1#mpd=~7335244370390807247/customers/reviews?p%3DCg51cGRhdGV0aW1lZGVzYxIDYWxs"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-sm text-gray-500 shrink-0 rounded-md px-2 py-1 hover:bg-gray-100 transition-colors"
