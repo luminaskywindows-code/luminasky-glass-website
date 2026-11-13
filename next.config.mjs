@@ -31,7 +31,7 @@ const nextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.clarity.ms https://www.googletagmanager.com https://www.google-analytics.com https://cdn.emailjs.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.gstatic.com",
+              "script-src 'self' 'unsafe-inline' https://*.clarity.ms https://www.googletagmanager.com https://www.google-analytics.com https://cdn.emailjs.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.gstatic.com",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' data: https: blob:",

@@ -7,12 +7,15 @@ import { PATIO_DOOR_CITY_PAGES } from "@/lib/patio-door-city-data";
 import { SKYLIGHT_CITY_PAGES } from "@/lib/skylight-city-data";
 import { CRANKS_CITY_PAGES } from "@/lib/cranks-city-data";
 import { COMMERCIAL_GLASS_CITY_PAGES } from "@/lib/commercial-glass-city-data";
+import { EMERGENCY_GLASS_CITY_PAGES } from "@/lib/emergency-glass-city-data";
 import { BLOG_POSTS } from "@/lib/blog-data";
+
+const BUILD_DATE = new Date();
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const servicePages = SERVICES.map((s) => ({
     url: `${SITE_URL}${s.href}`,
-    lastModified: new Date("2026-11-03"),
+    lastModified: BUILD_DATE,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
@@ -20,158 +23,170 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: SITE_URL,
-      lastModified: new Date("2026-11-03"),
+      lastModified: BUILD_DATE,
       changeFrequency: "weekly",
       priority: 1.0,
     },
     {
       url: `${SITE_URL}/about`,
-      lastModified: new Date("2026-11-05"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly",
       priority: 0.6,
     },
     {
       url: `${SITE_URL}/contact`,
-      lastModified: new Date("2026-08-01"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${SITE_URL}/gallery`,
-      lastModified: new Date("2026-10-20"),
+      lastModified: BUILD_DATE,
       changeFrequency: "weekly",
       priority: 0.7,
     },
     {
       url: `${SITE_URL}/services`,
-      lastModified: new Date("2026-10-15"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     ...servicePages,
     {
       url: `${SITE_URL}/areas-we-serve`,
-      lastModified: new Date("2026-11-03"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
+    {
+      url: `${SITE_URL}/vaughan`,
+      lastModified: BUILD_DATE,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
     ...CITY_PAGES.map((c) => ({
       url: `${SITE_URL}/window-repair-${c.slug}`,
-      lastModified: new Date("2026-11-05"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
     ...FOGGY_GLASS_CITY_PAGES.map((c) => ({
       url: `${SITE_URL}/foggy-glass-repair-${c.slug}`,
-      lastModified: new Date("2026-11-05"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
     ...FRONT_DOOR_GLASS_CITY_PAGES.map((c) => ({
       url: `${SITE_URL}/front-door-glass-${c.slug}`,
-      lastModified: new Date("2026-11-05"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
     ...PATIO_DOOR_CITY_PAGES.map((c) => ({
       url: `${SITE_URL}/patio-door-repair-${c.slug}`,
-      lastModified: new Date("2026-11-05"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
     ...SKYLIGHT_CITY_PAGES.map((c) => ({
       url: `${SITE_URL}/skylight-repair-${c.slug}`,
-      lastModified: new Date("2026-11-05"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
     ...CRANKS_CITY_PAGES.map((c) => ({
       url: `${SITE_URL}/window-crank-repair-${c.slug}`,
-      lastModified: new Date("2026-11-05"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
     ...COMMERCIAL_GLASS_CITY_PAGES.map((c) => ({
       url: `${SITE_URL}/commercial-glass-repair-${c.slug}`,
-      lastModified: new Date("2026-11-05"),
+      lastModified: BUILD_DATE,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...EMERGENCY_GLASS_CITY_PAGES.map((c) => ({
+      url: `${SITE_URL}/emergency-glass-repair-${c.slug}`,
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
     {
       url: `${SITE_URL}/cranks/truth-hardware-crank-repair`,
-      lastModified: new Date("2026-10-15"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${SITE_URL}/window-repair-cost`,
-      lastModified: new Date("2026-10-22"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${SITE_URL}/insurance-claims`,
-      lastModified: new Date("2026-10-22"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${SITE_URL}/our-process`,
-      lastModified: new Date("2026-09-01"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${SITE_URL}/warranty`,
-      lastModified: new Date("2026-09-01"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${SITE_URL}/glass-replacement-cost-report-2026`,
-      lastModified: new Date("2026-10-26"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${SITE_URL}/faq`,
-      lastModified: new Date("2026-11-03"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${SITE_URL}/property-managers`,
-      lastModified: new Date("2026-09-20"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${SITE_URL}/privacy-policy`,
-      lastModified: new Date("2026-06-01"),
+      lastModified: BUILD_DATE,
       changeFrequency: "yearly" as const,
       priority: 0.3,
     },
     {
       url: `${SITE_URL}/terms-of-service`,
-      lastModified: new Date("2026-06-01"),
+      lastModified: BUILD_DATE,
       changeFrequency: "yearly" as const,
       priority: 0.3,
     },
     {
       url: `${SITE_URL}/projects`,
-      lastModified: new Date("2026-10-20"),
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.6,
     },
     {
       url: `${SITE_URL}/winter-ready`,
-      lastModified: new Date("2026-10-28"),
+      lastModified: BUILD_DATE,
       changeFrequency: "weekly" as const,
       priority: 0.9,
     },
     {
       url: `${SITE_URL}/blog`,
-      lastModified: new Date("2026-10-30"),
+      lastModified: BUILD_DATE,
       changeFrequency: "weekly" as const,
       priority: 0.7,
     },
