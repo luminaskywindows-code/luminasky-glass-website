@@ -72,6 +72,8 @@ const nextConfig = {
       { source: "/services/locksmith",          destination: "/services", permanent: true },
       { source: "/services/garage-door-glass",  destination: "/services", permanent: true },
       { source: "/services/integrated-blinds",  destination: "/services", permanent: true },
+      // Old warranty URL
+      { source: "/lifetime-warranty",           destination: "/warranty", permanent: true },
       // Removed service pages → /services
       { source: "/casement-hinge-repair",       destination: "/services", permanent: true },
       { source: "/window-lock-repair",          destination: "/services", permanent: true },
