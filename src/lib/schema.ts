@@ -207,7 +207,6 @@ export function generateServiceSchema(
     provider: { "@id": BUSINESS_ID },
     url: `${SITE_URL}${serviceUrl}`,
     description,
-    areaServed: SERVICE_AREAS.map((city) => ({ "@type": "City", name: city })),
   };
 
   if (pricing) {
