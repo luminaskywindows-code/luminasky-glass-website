@@ -1818,6 +1818,261 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Glass emergency? Call <a href="tel:+14373448490">437-344-8490</a> any time, day or night. We respond to emergencies across the Greater Toronto Area.</p>
 `,
   },
+  {
+    slug: "window-repair-vaughan-neighbourhood-guide",
+    title: "Window Repair in Vaughan: A Neighbourhood-by-Neighbourhood Guide",
+    metaTitle: "Window Repair Vaughan: Guide by Neighbourhood",
+    metaDescription:
+      "Window repair across Vaughan's neighbourhoods. Learn what issues Woodbridge, Maple, Kleinburg and Concord homes face and how to fix them.",
+    excerpt:
+      "Every neighbourhood in Vaughan has its own housing stock and its own set of window problems. Here is what we see in Woodbridge, Maple, Kleinburg, Concord, Thornhill and Vellore.",
+    publishedAt: "2026-11-12",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["vaughan", "window repair", "neighbourhoods", "sealed units"],
+    sections: [
+      { id: "vaughan-housing-stock", title: "Vaughan's Housing Stock at a Glance" },
+      { id: "woodbridge", title: "Woodbridge" },
+      { id: "maple", title: "Maple" },
+      { id: "kleinburg", title: "Kleinburg and Nashville" },
+      { id: "concord", title: "Concord" },
+      { id: "thornhill-vaughan-side", title: "Thornhill (Vaughan Side)" },
+      { id: "vellore", title: "Vellore and Castlemore North" },
+      { id: "common-problems", title: "The Most Common Problems Across Vaughan" },
+      { id: "getting-started", title: "Getting Started" },
+    ],
+    content: `
+<p>Vaughan covers a lot of ground, from the older Italian-built homes of Woodbridge to the estate lots in Kleinburg and the fast-growing subdivisions north of Major Mackenzie. Every area has different housing stock, different window brands, and different problems that show up at different times. This guide walks through what we see in each neighbourhood so you know what to expect when something goes wrong with your windows.</p>
+
+<h2 id="vaughan-housing-stock">Vaughan's Housing Stock at a Glance</h2>
+
+<p>Vaughan grew in waves. Woodbridge and Concord filled in through the 1970s, 1980s and 1990s. Maple expanded rapidly in the early 2000s. Kleinburg stayed low-density but added estate subdivisions. Vellore and the areas north of Rutherford Road are still building. Each wave brought a different set of window manufacturers, glass types and hardware systems, which means the repair approach changes from one street to the next.</p>
+
+<h2 id="woodbridge">Woodbridge</h2>
+
+<p>Woodbridge is the heart of older Vaughan. Homes along Islington Avenue, Kipling Avenue and the streets between Pine Valley and Highway 27 were mostly built between 1980 and 1998. These homes carry the first or second generation of double-pane sealed glass units, and many of those seals have already failed or are close to it.</p>
+
+<p>The most common call we get from Woodbridge is <a href="/foggy-glass-repair-vaughan">foggy glass</a>: condensation trapped between the two panes of a sealed unit. The glass is not cracked and the frame is usually fine. The seal around the perimeter has broken down after 20-plus years of freeze-thaw cycling, letting moisture in. We measure the glass, order a replacement sealed unit to the exact size, and install it into the existing frame. The frame stays, the fog is gone, and the window is weathertight again.</p>
+
+<p>Casement windows with crank operators are also common in Woodbridge. The original cranks, usually Truth Hardware or Roto, wear out after 15 to 25 years of daily use. The gears strip, the arm bends, or the track corrodes. We carry the most common <a href="/window-crank-repair-vaughan">crank replacements</a> and complete most hardware repairs on the same visit.</p>
+
+<h2 id="maple">Maple</h2>
+
+<p>Maple grew fast from the late 1990s through the 2010s. The subdivisions north of Major Mackenzie Drive, along Peter Rupert Avenue, Dufferin Street and west toward Keele, are filled with builder-grade windows from that era. These windows are newer than Woodbridge stock, but the quality of the original hardware was often lower.</p>
+
+<p>Patio door rollers are a frequent issue in Maple. The sliding patio doors in these homes use small nylon or steel rollers that wear flat after 10 to 15 years of daily use. The door gets heavy, sticks on the track, and eventually will not lock properly. We replace the rollers and adjust the door so it slides and locks like new.</p>
+
+<p>Builder-grade casement cranks also show up early in Maple because the original hardware was the lightest option available at the time. Replacement with a heavier-duty operator is straightforward and keeps the window working for another 15-plus years.</p>
+
+<h2 id="kleinburg">Kleinburg and Nashville</h2>
+
+<p>Kleinburg and the Nashville area are where Vaughan's largest homes are. Lot sizes are bigger, the houses are bigger, and the windows are bigger. Many of these homes have floor-to-ceiling glass walls, large picture windows, and architectural <a href="/skylight-repair-vaughan">skylights</a> that need ladder or roof access for service.</p>
+
+<p>The glass units in estate homes are often oversized, which means they are custom-ordered for every replacement. Standard sizes do not apply. We measure on site, order the glass to exact dimensions, and return for installation once the unit is ready. Turnaround depends on size and glass type, but most custom units arrive within 5 to 15 business days.</p>
+
+<p>Skylight work in Kleinburg often involves steep-pitch roofs and sometimes requires safety systems or scaffolding. We assess the access before quoting so there are no surprises on installation day.</p>
+
+<h2 id="concord">Concord</h2>
+
+<p>Concord sits between Highway 7 and Steeles Avenue, east of Highway 400. It is a mix of residential streets, townhouse complexes and commercial or industrial buildings. The residential stock is similar in age to Woodbridge, with many homes from the 1980s and 1990s, so the same sealed-unit and hardware failures apply.</p>
+
+<p>The commercial side of Concord adds storefront glass, warehouse windows and automatic door glass to the mix. Businesses along Interchange Way, Millway Avenue and the Highway 7 corridor call us for broken storefront panels, failed commercial sealed units and emergency board-ups after break-ins.</p>
+
+<h2 id="thornhill-vaughan-side">Thornhill (Vaughan Side)</h2>
+
+<p>Thornhill straddles the Vaughan-Markham border. The Vaughan side, roughly west of Yonge Street, includes the Thornhill Woods, Patterson and Brownridge areas. Homes here were built from the late 1980s through the 2000s. The older homes along Bathurst and Centre Street have the same seal failures as Woodbridge. The newer Thornhill Woods homes are starting to see hardware problems as they hit the 15 to 20 year mark.</p>
+
+<p>Large bay windows and two-storey foyer windows are common in Thornhill homes. These are more involved to service because the glass is heavy and the access is high, but the repair principle is the same: measure, order, install.</p>
+
+<h2 id="vellore">Vellore and Castlemore North</h2>
+
+<p>Vellore, north of Rutherford Road between Weston and Jane, is one of Vaughan's newest areas. Homes here are typically less than 15 years old. Window problems at this age are less about seal failure and more about hardware defects, poor installation by the original builder, or damage from settling.</p>
+
+<p>We see a fair number of windows that were installed slightly out of square, which causes the sash to bind and makes the crank work harder than it should. Adjusting or shimming the sash and replacing a stressed operator fixes the problem before it causes seal damage down the road.</p>
+
+<h2 id="common-problems">The Most Common Problems Across Vaughan</h2>
+
+<ul>
+<li><strong>Foggy or cloudy glass:</strong> failed seals on double-pane units. We replace the sealed glass unit while keeping the frame. Covered by a 5-year seal warranty.</li>
+<li><strong>Broken or stiff cranks:</strong> worn gears, bent arms, corroded tracks. Most <a href="/window-crank-repair-vaughan">crank repairs</a> are completed on the same day, on the first visit.</li>
+<li><strong>Patio doors that stick or won't lock:</strong> worn rollers, damaged tracks or misaligned frames.</li>
+<li><strong>Drafts around the sash:</strong> can be caused by failed weatherstripping, a warped sash, or a seal that has pulled away from the frame.</li>
+<li><strong>Cracked or broken glass:</strong> from impact, thermal stress or failed tempered units. We measure and order replacement glass to the exact size.</li>
+</ul>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>Send us a few photos of the problem and we will tell you what is going on and what it will take to fix it. No charge for the photo assessment. If we need to come out, the visit is $30, credited toward the repair if you go ahead.</p>
+
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or visit our <a href="/window-repair-vaughan">Vaughan window repair</a> page for more details. We are available 24/7 and serve every neighbourhood in Vaughan.</p>
+`,
+  },
+  {
+    slug: "vaughan-sealed-unit-replacement-winter",
+    title: "Why Vaughan Homes Need Sealed Unit Replacement Before Winter",
+    metaTitle: "Sealed Unit Replacement in Vaughan Before Winter",
+    metaDescription:
+      "Vaughan homeowners: replace failed sealed glass units before winter. Learn the signs, timing and process for foggy window repair.",
+    excerpt:
+      "A fogged window in September becomes a cold, drafty window in January. Here is why fall is the best time to replace failed sealed units in Vaughan, and what happens if you wait.",
+    publishedAt: "2026-11-12",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["vaughan", "sealed units", "winter", "foggy glass", "energy efficiency"],
+    sections: [
+      { id: "why-vaughan-winters-matter", title: "Why Vaughan Winters Are Hard on Windows" },
+      { id: "how-sealed-units-fail", title: "How Sealed Units Fail" },
+      { id: "signs-of-failure", title: "Signs Your Sealed Units Have Failed" },
+      { id: "what-happens-if-you-wait", title: "What Happens If You Wait Until Winter" },
+      { id: "fall-replacement", title: "Why Fall Is the Right Time" },
+      { id: "the-replacement-process", title: "How Sealed Unit Replacement Works" },
+      { id: "which-homes-are-most-at-risk", title: "Which Vaughan Homes Are Most at Risk" },
+      { id: "get-a-quote", title: "Get a Quote" },
+    ],
+    content: `
+<p>If you have noticed fog, condensation or a milky haze between the two panes of a window, the sealed unit has failed. It might not feel like an emergency right now. The window still closes, the house is still comfortable, and the fog comes and goes with the weather. But once November hits and Vaughan's temperatures drop below freezing, that failed seal turns into a real problem: cold drafts, frost on the inside of the glass, and heating bills that climb higher than they should.</p>
+
+<h2 id="why-vaughan-winters-matter">Why Vaughan Winters Are Hard on Windows</h2>
+
+<p>Vaughan sits far enough north of Lake Ontario that it does not get the same moderating effect as downtown Toronto. Winter temperatures regularly hit -15 to -20 degrees Celsius, and wind chill makes it feel colder. The proximity to Lake Simcoe brings additional moisture and heavier snowfall than areas further south.</p>
+
+<p>This combination of cold, moisture and repeated freeze-thaw cycles puts enormous stress on window seals. The glass expands and contracts with every temperature swing. The sealant around the perimeter of the sealed unit flexes, hardens and eventually cracks. Once the seal breaks, moist air gets between the panes and the insulating gas (usually argon) escapes. The window loses a significant portion of its insulating value.</p>
+
+<h2 id="how-sealed-units-fail">How Sealed Units Fail</h2>
+
+<p>A sealed glass unit, also called an insulated glass unit or IGU, is two panes of glass separated by a spacer bar and sealed at the edges. The space between the panes is filled with dry air or argon gas, which slows heat transfer. The perimeter seal keeps moisture out and the gas in.</p>
+
+<p>Over time, UV exposure, temperature cycling and simple age break down the sealant material. The seal cracks or pulls away from the glass, letting the gas out and letting humid air in. The moisture condenses on the inner surfaces of the glass, creating the fog or haze you see. Once this happens, the unit cannot be resealed. The glass unit needs to be replaced.</p>
+
+<h2 id="signs-of-failure">Signs Your Sealed Units Have Failed</h2>
+
+<ul>
+<li><strong>Fog or condensation between the panes</strong> that you cannot wipe off from either side. This is the clearest sign.</li>
+<li><strong>A milky or cloudy film</strong> that is always visible, even on dry days. This means mineral deposits have formed on the inner glass surfaces.</li>
+<li><strong>Visible moisture droplets</strong> between the panes, especially in the morning or during temperature changes.</li>
+<li><strong>Frost or ice on the inside surface</strong> of the inner pane during cold weather. This means the window has lost most of its insulating ability.</li>
+<li><strong>A noticeable cold spot</strong> when you stand near the window, even when it is closed and locked.</li>
+</ul>
+
+<h2 id="what-happens-if-you-wait">What Happens If You Wait Until Winter</h2>
+
+<p>A failed sealed unit in the fall is an inconvenience. The same failed unit in January is a comfort and cost problem. Here is what changes once the cold arrives:</p>
+
+<p><strong>Drafts increase.</strong> Without the insulating gas layer, the inner pane of glass drops close to the outdoor temperature. This creates a cold downdraft as warm room air hits the cold glass and sinks to the floor. You feel a draft even though the window is closed tight.</p>
+
+<p><strong>Heating costs rise.</strong> Your furnace works harder to compensate for the heat loss through the failed glass. One or two failed units might not change your bill much, but many Vaughan homes have five, ten or more units that are all the same age and failing together.</p>
+
+<p><strong>Condensation and frost appear on the inside.</strong> When the inner glass surface drops below the dew point of the room air, water condenses on it. In cold enough weather, that condensation freezes. This can damage the window frame, the sill and the wall below if it drips consistently.</p>
+
+<p><strong>Scheduling gets harder.</strong> Glass replacement requires measuring, ordering a custom unit, and a return visit for installation. In winter, demand is higher, weather delays are more common, and the turnaround takes longer. Replacing in fall gives you the best selection of scheduling options.</p>
+
+<h2 id="fall-replacement">Why Fall Is the Right Time</h2>
+
+<p>September through November is the ideal window for sealed unit replacement in Vaughan. The weather is still mild enough for comfortable installation. Caulking and sealants cure properly in moderate temperatures. Scheduling is more flexible because demand has not spiked yet. And you go into winter with fully insulating glass instead of patching the problem with plastic film or heavy curtains.</p>
+
+<h2 id="the-replacement-process">How Sealed Unit Replacement Works</h2>
+
+<p>The process is simpler than most homeowners expect. We do not remove or replace the entire window. Here is how it works:</p>
+
+<ol>
+<li><strong>Photo assessment:</strong> Send us photos of the affected windows. We can usually confirm seal failure and provide a ballpark from photos alone, at no charge.</li>
+<li><strong>On-site measurement:</strong> We visit, confirm the diagnosis, and measure the exact dimensions of the glass unit. If a site visit is needed, the fee is $30, credited toward the repair.</li>
+<li><strong>Custom glass order:</strong> We order a new sealed unit made to the exact size. Standard sizes are often in stock. Custom sizes typically take 5 to 15 business days.</li>
+<li><strong>Installation:</strong> We remove the failed unit from the frame, install the new glass, reseal the frame and clean up. The frame, trim and hardware all stay in place.</li>
+</ol>
+
+<p>Every new sealed unit carries a 5-year warranty against seal failure and a 2-year warranty on workmanship.</p>
+
+<h2 id="which-homes-are-most-at-risk">Which Vaughan Homes Are Most at Risk</h2>
+
+<p>Homes built between 1985 and 2000 are in the highest-risk window right now. That covers large parts of Woodbridge, Concord, the Vaughan side of Thornhill, and the older sections of Maple. The original sealed units in these homes are 25 to 40 years old, well past the typical lifespan of the perimeter seal.</p>
+
+<p>If you are in one of these areas and you have not replaced any glass yet, it is worth checking all of your windows at once. Seal failure tends to happen across the house within a few years, because all the units were made at the same time with the same materials. Replacing them together is more efficient and often more cost-effective than doing them one at a time over several years.</p>
+
+<h2 id="get-a-quote">Get a Quote</h2>
+
+<p>Send us photos of your fogged or failed windows and we will get back to you with a quote. No obligation, no pressure. Visit our <a href="/foggy-glass-repair-vaughan">Vaughan foggy glass repair</a> page or call <a href="tel:+14373448490">437-344-8490</a>. We also handle <a href="/glass-replacement">full glass replacement</a> and <a href="/window-repair-vaughan">general window repair</a> across every neighbourhood in Vaughan.</p>
+`,
+  },
+  {
+    slug: "commercial-glass-repair-vaughan-guide",
+    title: "Commercial Glass Repair in Vaughan: Storefronts, Offices and Plazas",
+    metaTitle: "Commercial Glass Repair Vaughan: Storefronts & Offices",
+    metaDescription:
+      "Commercial glass repair in Vaughan. Storefront glass, office partitions, plaza entrances and emergency board-ups across the Highway 7 corridor.",
+    excerpt:
+      "Vaughan's commercial corridors run from Highway 7 to Steeles, packed with plazas, storefronts and office buildings. Here is how we handle commercial glass repair across the city.",
+    publishedAt: "2026-11-12",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["vaughan", "commercial glass", "storefronts", "business"],
+    sections: [
+      { id: "vaughan-commercial-landscape", title: "Vaughan's Commercial Landscape" },
+      { id: "highway-7-corridor", title: "The Highway 7 Corridor" },
+      { id: "woodbridge-commercial", title: "Woodbridge Commercial District" },
+      { id: "maple-commercial", title: "Maple Commercial Areas" },
+      { id: "types-of-commercial-glass", title: "Types of Commercial Glass Work" },
+      { id: "emergency-board-ups", title: "Emergency Board-Ups" },
+      { id: "the-process", title: "How Commercial Glass Repair Works" },
+      { id: "get-a-quote", title: "Get a Quote" },
+    ],
+    content: `
+<p>Vaughan is one of the fastest-growing commercial centres in the GTA. Between the Highway 7 corridor, the Vaughan Mills area, the Colossus Centre, Woodbridge's retail strips and Maple's expanding commercial district, there are thousands of businesses with glass that needs maintaining, repairing or replacing. We handle commercial glass repair across all of these areas, from a single cracked storefront panel to a full board-up after a break-in.</p>
+
+<h2 id="vaughan-commercial-landscape">Vaughan's Commercial Landscape</h2>
+
+<p>Commercial glass in Vaughan falls into a few main categories. There are retail storefronts in strip plazas along major roads. There are office buildings and professional centres with large glass facades. There are restaurants and food businesses with display windows and glass entrance doors. And there are industrial and warehouse buildings in Concord and along Highway 400 with everything from small office windows to large loading dock glass.</p>
+
+<p>Each type has different glass specifications, different framing systems, and different urgency levels when something breaks. A restaurant with a shattered front window cannot wait two weeks for a replacement. An office building with a fogged sealed unit can schedule the work at a convenient time. We handle both ends of the spectrum.</p>
+
+<h2 id="highway-7-corridor">The Highway 7 Corridor</h2>
+
+<p>Highway 7 from Weston Road to Highway 404 is Vaughan's main commercial artery. Plazas, car dealerships, banks, restaurants and professional offices line both sides. The glass in these buildings ranges from standard single-pane storefront panels to large double-pane sealed units in newer construction.</p>
+
+<p>Common issues along Highway 7 include cracked storefront glass from impact or thermal stress, failed sealed units in office facades, <a href="/front-door-glass-vaughan">broken entrance door glass</a> (both manual and automatic doors), and vandalism or break-in damage overnight. The high traffic volume means broken glass needs to be addressed quickly for safety and appearance.</p>
+
+<h2 id="woodbridge-commercial">Woodbridge Commercial District</h2>
+
+<p>Woodbridge has a dense concentration of retail and service businesses along Islington Avenue, Kipling Avenue, Woodbridge Avenue and the surrounding streets. Many of these storefronts are in older plazas from the 1980s and 1990s with aluminum-framed glass that has been in place for decades.</p>
+
+<p>The most common work in Woodbridge commercial properties is replacing fogged or cracked sealed units in storefront windows, repairing or replacing glass in entrance doors, and upgrading single-pane glass to double-pane for energy efficiency and noise reduction. Some older storefronts still have original single-pane glass that fogs on the inside during winter, creating a visibility problem for the business.</p>
+
+<h2 id="maple-commercial">Maple Commercial Areas</h2>
+
+<p>Maple's commercial areas along Major Mackenzie Drive and around the Maple GO station are newer, with most construction from the 2000s and 2010s. The glass in these buildings is generally in better condition, but hardware failures on commercial entrance doors are common. Hydraulic closers wear out, pivot hinges loosen, and the tempered glass panels in automatic sliding doors crack from repeated impact or misalignment.</p>
+
+<p>The plazas along Peter Rupert Avenue and Dufferin Street south of Major Mackenzie also see a fair amount of vandalism damage, particularly overnight. We provide <a href="/emergency-glass-repair-vaughan">emergency glass repair</a> and temporary board-up service around the clock for these situations.</p>
+
+<h2 id="types-of-commercial-glass">Types of Commercial Glass Work</h2>
+
+<ul>
+<li><strong>Storefront glass replacement:</strong> Single-pane or sealed unit replacement in aluminum storefront framing. We measure the opening, order tempered or laminated glass to size, and install it.</li>
+<li><strong>Entrance door glass:</strong> Tempered glass panels in commercial entrance doors, both manual swing doors and automatic sliding doors. We replace the glass and check the door hardware and alignment.</li>
+<li><strong>Office partition glass:</strong> Interior glass walls and partitions in office spaces. These are usually tempered glass panels held by clamps or channels.</li>
+<li><strong>Display window glass:</strong> Large format glass for retail displays. Often requires tempered or laminated safety glass depending on the size and location.</li>
+<li><strong>Sealed unit replacement:</strong> Double-pane glass in office and retail facades where the seal has failed and the glass is fogged. Same process as residential: measure, order, install.</li>
+</ul>
+
+<h2 id="emergency-board-ups">Emergency Board-Ups</h2>
+
+<p>A broken storefront window is a security risk. It cannot wait until morning, and it cannot wait for custom glass to arrive. We provide emergency board-up service across Vaughan 24 hours a day, 7 days a week. We secure the opening with plywood, clean up the broken glass, measure for the replacement, and return to install the new glass as soon as it is ready.</p>
+
+<p>For break-in damage, we recommend photographing everything before cleanup and filing a police report. Your commercial insurance policy will likely cover the glass replacement, and the police report number speeds up the claim. We can provide the documentation your insurer needs, including photos, measurements and an itemized invoice.</p>
+
+<h2 id="the-process">How Commercial Glass Repair Works</h2>
+
+<ol>
+<li><strong>Assessment:</strong> Send photos or call us. For straightforward replacements, we can often quote from photos. For larger or more complex jobs, we visit the site to assess the framing, glass type and access requirements. The site visit fee is $30, credited toward the work.</li>
+<li><strong>Measurement and order:</strong> We measure the exact dimensions and specify the glass type (tempered, laminated, sealed unit, tinted, Low-E). Glass is custom-made to the exact size needed.</li>
+<li><strong>Scheduling:</strong> We schedule installation at a time that works for your business. For retail and restaurants, that often means early morning before opening or after closing.</li>
+<li><strong>Installation and cleanup:</strong> We install the new glass, dispose of the old material, and clean up the work area. Every job carries a warranty: 5 years on sealed glass units, 2 years on workmanship.</li>
+</ol>
+
+<h2 id="get-a-quote">Get a Quote</h2>
+
+<p>Whether you have one cracked panel or a full storefront that needs replacing, send us photos and we will get you a written quote. Visit our <a href="/commercial-glass-repair-vaughan">Vaughan commercial glass repair</a> page or call <a href="tel:+14373448490">437-344-8490</a>. For after-hours emergencies, the same number reaches us around the clock.</p>
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
