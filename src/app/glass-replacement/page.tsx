@@ -147,7 +147,7 @@ export const metadata: Metadata = {
     "Cracked, broken or failed window glass? We replace the sealed unit and keep your frame. 5-year glass warranty. Serving the GTA. 437-344-8490.",
   alternates: { canonical: "/glass-replacement" },
   openGraph: {
-    title: "Glass Replacement Toronto | Broken & Cracked Windows | LuminaSky",
+    title: "Glass Replacement Toronto | LuminaSky",
     description:
       "Cracked or broken window glass? We replace the sealed unit and keep your frame. 5-Year Warranty on glass. Photo quote. Call 437-344-8490.",
     url: "/glass-replacement",

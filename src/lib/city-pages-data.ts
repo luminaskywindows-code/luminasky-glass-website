@@ -41,7 +41,7 @@ export const CITY_PAGES: CityPageData[] = [
     slug: "vaughan",
     city: "Vaughan",
     region: "York Region",
-    metaTitle: "Window & Glass Repair Vaughan | Foggy Glass, Cranks, Door Glass",
+    metaTitle: "Window & Glass Repair Vaughan | LuminaSky",
     metaDescription:
       "Vaughan's repair-first glass specialists. Foggy sealed units, broken cranks, front door glass and 24/7 emergency service across Woodbridge, Maple and Kleinburg. 5-year warranty.",
     heroHeadline: "Window & Door Repair in Vaughan",

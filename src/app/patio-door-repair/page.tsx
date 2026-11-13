@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust panels and replace glass. No new door needed. 437-344-8490.",
   alternates: { canonical: "/patio-door-repair" },
   openGraph: {
-    title: "Patio Door Repair Toronto | Glass, Rollers & Tracks | LuminaSky",
+    title: "Patio Door Repair Toronto | Glass & Rollers | LuminaSky",
     description:
       "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass, with no new door needed. Photo quote.",
     url: "/patio-door-repair",

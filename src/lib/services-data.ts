@@ -64,8 +64,8 @@ export const FOGGY_WINDOWS: ServiceData = {
   ],
   process: [
     {
-      step: "Free Assessment",
-      desc: "We assess the fogging severity and measure the glass unit to confirm we can repair - not replace.",
+      step: "Photo Assessment",
+      desc: "Send us photos and we assess the fogging severity, then measure the glass unit to confirm we can repair, not replace.",
     },
     {
       step: "Clear Quote",
@@ -87,7 +87,7 @@ export const FOGGY_WINDOWS: ServiceData = {
   faqs: [
     {
       q: "Can all foggy windows be repaired without replacing the frame?",
-      a: "In 95% of cases, yes. As long as the frame itself is structurally sound, we can replace just the glass unit. We'll confirm this during our free assessment.",
+      a: "In 95% of cases, yes. As long as the frame itself is structurally sound, we can replace just the glass unit. We confirm this during our initial assessment.",
     },
     {
       q: "How long does a foggy window repair take?",
