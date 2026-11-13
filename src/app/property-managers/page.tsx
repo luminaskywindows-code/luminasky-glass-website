@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
@@ -188,7 +188,7 @@ export default function PropertyManagersPage() {
       <section id="form" className="relative overflow-hidden text-white scroll-mt-8">
         <Image
           src="/images/hero/property-managers-hero.webp"
-          alt=""
+          alt="Property management building with repaired windows"
           fill
           priority
           className="object-cover"

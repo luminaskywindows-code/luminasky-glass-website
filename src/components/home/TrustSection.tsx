@@ -24,7 +24,7 @@ export function TrustSection() {
     >
       <Image
         src="/images/bright-windows-section.webp"
-        alt=""
+        alt="Bright clear windows after sealed unit replacement"
         fill
         loading="lazy"
         className="object-cover"

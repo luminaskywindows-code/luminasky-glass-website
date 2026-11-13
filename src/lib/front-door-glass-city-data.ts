@@ -515,7 +515,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     slug: "east-gwillimbury",
     city: "East Gwillimbury",
     region: "York Region",
-    metaTitle: "Front Door Glass Replacement in East Gwillimbury",
+    metaTitle: "Front Door Glass in East Gwillimbury",
     metaDescription:
       "Front door glass replacement in East Gwillimbury. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
     intro:

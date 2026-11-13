@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -48,7 +48,7 @@ export function HeroSection() {
       >
         <Image
           src="/images/hero-background.webp"
-          alt=""
+          alt="Window glass repair service in Toronto"
           fill
           priority
           className="object-cover"

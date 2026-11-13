@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -177,7 +177,7 @@ export default function ScreenStormDoorsPage() {
         <div className="absolute inset-0 hidden lg:block" aria-hidden="true">
           <Image
             src={HERO_IMAGE.src}
-            alt=""
+            alt={HERO_IMAGE.alt}
             fill
             className="object-cover opacity-25"
             sizes="(min-width: 1024px) 100vw, 1px"

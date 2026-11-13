@@ -22,7 +22,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "toronto",
     city: "Toronto",
     region: "Toronto",
-    metaTitle: "Commercial Glass Repair Toronto | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Toronto",
     metaDescription:
       "Commercial glass repair in Toronto. Storefront glass, door glass, office partitions and emergency board-up. 24/7 response.",
     intro:
@@ -39,7 +39,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "mississauga",
     city: "Mississauga",
     region: "Peel Region",
-    metaTitle: "Commercial Glass Repair Mississauga | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Mississauga",
     metaDescription:
       "Commercial glass repair in Mississauga. Storefront glass, commercial door glass, office glass and emergency board-up service.",
     intro:
@@ -56,7 +56,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "vaughan",
     city: "Vaughan",
     region: "York Region",
-    metaTitle: "Commercial Glass Repair Vaughan | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Vaughan",
     metaDescription:
       "Commercial glass repair in Vaughan. Storefront glass replacement, commercial door glass, office glass and 24/7 emergency board-up.",
     intro:
@@ -73,7 +73,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "markham",
     city: "Markham",
     region: "York Region",
-    metaTitle: "Commercial Glass Repair Markham | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Markham",
     metaDescription:
       "Commercial glass repair in Markham. Storefront windows, commercial doors, office glass and emergency board-up. Fast response.",
     intro:
@@ -90,7 +90,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "brampton",
     city: "Brampton",
     region: "Peel Region",
-    metaTitle: "Commercial Glass Repair Brampton | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Brampton",
     metaDescription:
       "Commercial glass repair in Brampton. Storefront glass, door glass, plaza glass and emergency board-up. Available 24/7.",
     intro:
@@ -107,7 +107,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "oakville",
     city: "Oakville",
     region: "Halton Region",
-    metaTitle: "Commercial Glass Repair Oakville | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Oakville",
     metaDescription:
       "Commercial glass repair in Oakville. Storefront glass, commercial doors, office partitions and emergency board-up service.",
     intro:
@@ -124,7 +124,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "hamilton",
     city: "Hamilton",
     region: "Hamilton",
-    metaTitle: "Commercial Glass Repair Hamilton | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Hamilton",
     metaDescription:
       "Commercial glass repair in Hamilton. Storefront glass replacement, door glass, office glass and 24/7 emergency board-up.",
     intro:
@@ -141,7 +141,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "north-york",
     city: "North York",
     region: "Toronto",
-    metaTitle: "Commercial Glass Repair North York | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair North York",
     metaDescription:
       "Commercial glass repair in North York. Storefront glass, office doors, lobby glass and emergency board-up. 24/7 service.",
     intro:
@@ -158,7 +158,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "scarborough",
     city: "Scarborough",
     region: "Toronto",
-    metaTitle: "Commercial Glass Repair Scarborough | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Scarborough",
     metaDescription:
       "Commercial glass repair in Scarborough. Storefront windows, commercial doors, office glass and 24/7 emergency board-up.",
     intro:
@@ -175,7 +175,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "etobicoke",
     city: "Etobicoke",
     region: "Toronto",
-    metaTitle: "Commercial Glass Repair Etobicoke | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Etobicoke",
     metaDescription:
       "Commercial glass repair in Etobicoke. Storefront glass, door glass, office partitions and 24/7 emergency service.",
     intro:
@@ -209,7 +209,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "richmond-hill",
     city: "Richmond Hill",
     region: "York Region",
-    metaTitle: "Commercial Glass Repair Richmond Hill | Storefronts",
+    metaTitle: "Commercial Glass Repair Richmond Hill",
     metaDescription:
       "Commercial glass repair in Richmond Hill. Storefront windows, commercial doors, office glass and 24/7 emergency board-up.",
     intro:
@@ -226,7 +226,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "aurora",
     city: "Aurora",
     region: "York Region",
-    metaTitle: "Commercial Glass Repair Aurora | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Aurora",
     metaDescription:
       "Commercial glass repair in Aurora. Storefront glass, commercial door glass and emergency board-up. Serving all of Aurora.",
     intro:
@@ -243,7 +243,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "woodbridge",
     city: "Woodbridge",
     region: "Vaughan",
-    metaTitle: "Commercial Glass Repair Woodbridge | Storefronts",
+    metaTitle: "Commercial Glass Repair Woodbridge",
     metaDescription:
       "Commercial glass repair in Woodbridge. Storefront glass, door glass, plaza glass and emergency board-up service.",
     intro:
@@ -260,7 +260,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "maple",
     city: "Maple",
     region: "Vaughan",
-    metaTitle: "Commercial Glass Repair Maple | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Maple",
     metaDescription:
       "Commercial glass repair in Maple. Storefront glass, commercial doors and emergency board-up. Serving Maple and Vaughan.",
     intro:
@@ -311,7 +311,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "stouffville",
     city: "Stouffville",
     region: "York Region",
-    metaTitle: "Commercial Glass Repair Stouffville | Storefronts",
+    metaTitle: "Commercial Glass Repair Stouffville",
     metaDescription:
       "Commercial glass repair in Stouffville. Storefront glass, door glass and emergency board-up for local businesses.",
     intro:
@@ -345,7 +345,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "burlington",
     city: "Burlington",
     region: "Halton Region",
-    metaTitle: "Commercial Glass Repair Burlington | Storefronts",
+    metaTitle: "Commercial Glass Repair Burlington",
     metaDescription:
       "Commercial glass repair in Burlington. Storefront glass, door glass, office partitions and emergency board-up service.",
     intro:
@@ -362,7 +362,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "milton",
     city: "Milton",
     region: "Halton Region",
-    metaTitle: "Commercial Glass Repair Milton | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Milton",
     metaDescription:
       "Commercial glass repair in Milton. Storefront glass, door glass and emergency board-up. Serving all of Milton.",
     intro:
@@ -379,7 +379,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "ajax",
     city: "Ajax",
     region: "Durham Region",
-    metaTitle: "Commercial Glass Repair Ajax | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Ajax",
     metaDescription:
       "Commercial glass repair in Ajax. Storefront glass, commercial door glass and emergency board-up. Available 24/7.",
     intro:
@@ -430,7 +430,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "whitby",
     city: "Whitby",
     region: "Durham Region",
-    metaTitle: "Commercial Glass Repair Whitby | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Whitby",
     metaDescription:
       "Commercial glass repair in Whitby. Storefront glass, commercial door glass and emergency board-up across Whitby.",
     intro:
@@ -447,7 +447,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "orangeville",
     city: "Orangeville",
     region: "Dufferin County",
-    metaTitle: "Commercial Glass Repair Orangeville | Storefronts",
+    metaTitle: "Commercial Glass Repair Orangeville",
     metaDescription:
       "Commercial glass repair in Orangeville. Storefront glass, door glass and emergency board-up for local businesses.",
     intro:
@@ -464,7 +464,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "oshawa",
     city: "Oshawa",
     region: "Durham Region",
-    metaTitle: "Commercial Glass Repair Oshawa | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Oshawa",
     metaDescription:
       "Commercial glass repair in Oshawa. Storefront glass, door glass, office glass and 24/7 emergency board-up service.",
     intro:
@@ -498,7 +498,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "barrie",
     city: "Barrie",
     region: "Simcoe County",
-    metaTitle: "Commercial Glass Repair Barrie | Storefronts & Doors",
+    metaTitle: "Commercial Glass Repair Barrie",
     metaDescription:
       "Commercial glass repair in Barrie. Storefront glass, door glass, office glass and emergency board-up. Available 24/7.",
     intro:
@@ -566,7 +566,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     slug: "clarington",
     city: "Clarington",
     region: "Durham Region",
-    metaTitle: "Commercial Glass Repair Clarington | Storefronts",
+    metaTitle: "Commercial Glass Repair Clarington",
     metaDescription:
       "Commercial glass repair in Clarington. Storefront glass, door glass and emergency board-up. Serving Bowmanville and Newcastle.",
     intro:

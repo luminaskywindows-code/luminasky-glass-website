@@ -192,7 +192,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "burlington",
     city: "Burlington",
     region: "Halton Region",
-    metaTitle: "Skylight Repair Burlington | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair Burlington | Leaks & Glass",
     metaDescription:
       "Skylight repair in Burlington. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -209,7 +209,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "etobicoke",
     city: "Etobicoke",
     region: "Toronto",
-    metaTitle: "Skylight Repair Etobicoke | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair Etobicoke | Leaks & Glass",
     metaDescription:
       "Skylight repair in Etobicoke. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -226,7 +226,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "scarborough",
     city: "Scarborough",
     region: "Toronto",
-    metaTitle: "Skylight Repair Scarborough | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair Scarborough | Leaks & Glass",
     metaDescription:
       "Skylight repair in Scarborough. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -260,7 +260,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "woodbridge",
     city: "Woodbridge",
     region: "Vaughan",
-    metaTitle: "Skylight Repair Woodbridge | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair Woodbridge | Leaks & Glass",
     metaDescription:
       "Skylight repair in Woodbridge. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -294,7 +294,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "king-city",
     city: "King City",
     region: "York Region",
-    metaTitle: "Skylight Repair King City | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair King City | Leaks & Glass",
     metaDescription:
       "Skylight repair in King City. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -311,7 +311,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "newmarket",
     city: "Newmarket",
     region: "York Region",
-    metaTitle: "Skylight Repair Newmarket | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair Newmarket | Leaks & Glass",
     metaDescription:
       "Skylight repair in Newmarket. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -362,7 +362,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "pickering",
     city: "Pickering",
     region: "Durham Region",
-    metaTitle: "Skylight Repair Pickering | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair Pickering | Leaks & Glass",
     metaDescription:
       "Skylight repair in Pickering. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -430,7 +430,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "stouffville",
     city: "Stouffville",
     region: "York Region",
-    metaTitle: "Skylight Repair Stouffville | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair Stouffville | Leaks & Glass",
     metaDescription:
       "Skylight repair in Stouffville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -481,7 +481,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "clarington",
     city: "Clarington / Bowmanville",
     region: "Durham Region",
-    metaTitle: "Skylight Repair Clarington | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair Clarington | Leaks & Glass",
     metaDescription:
       "Skylight repair in Clarington and Bowmanville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -498,7 +498,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "east-gwillimbury",
     city: "East Gwillimbury",
     region: "York Region",
-    metaTitle: "Skylight Repair East Gwillimbury | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair East Gwillimbury",
     metaDescription:
       "Skylight repair in East Gwillimbury. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:
@@ -532,7 +532,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "halton-hills",
     city: "Halton Hills / Georgetown",
     region: "Halton Region",
-    metaTitle: "Skylight Repair Halton Hills | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair Halton Hills | Leaks & Glass",
     metaDescription:
       "Skylight repair in Halton Hills and Georgetown. Leak repair, glass replacement, flashing and seals. 24/7 emergency. 5-year warranty.",
     intro:
@@ -566,7 +566,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     slug: "orangeville",
     city: "Orangeville",
     region: "Dufferin County",
-    metaTitle: "Skylight Repair Orangeville | Leaks, Glass & Seals",
+    metaTitle: "Skylight Repair Orangeville | Leaks & Glass",
     metaDescription:
       "Skylight repair in Orangeville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
     intro:

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -197,7 +197,7 @@ export default function WinterReadyPage() {
         <div className="absolute inset-0 opacity-10">
           <Image
             src="/images/services/foggy-window-real.jpg"
-            alt=""
+            alt="Foggy window showing condensation during winter"
             fill
             className="object-cover"
             priority

@@ -66,7 +66,7 @@ export function ServicePageLayout({
           <div className="absolute inset-0 hidden lg:block" aria-hidden="true">
             <Image
               src={service.heroImage.src}
-              alt=""
+              alt={service.heroImage.alt || service.title}
               fill
               className="object-cover opacity-25"
               sizes="(min-width: 1024px) 100vw, 1px"

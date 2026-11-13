@@ -1243,7 +1243,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "winter-window-prep-gta",
     title: "Winter Window Prep: 5 Things Every GTA Homeowner Should Check",
-    metaTitle: "Winter Window Prep: 5 Things to Check Before Frost",
+    metaTitle: "Winter Window Prep: 5 Things to Check",
     metaDescription:
       "Five window checks before the first hard frost. Caulk, hardware, foggy panes, weatherstripping. Catch problems in October, not January.",
     excerpt:
@@ -1395,7 +1395,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "foggy-window-repair-cost-gta",
     title: "How Much Does Foggy Window Repair Cost in the GTA? (2026 Guide)",
-    metaTitle: "Foggy Window Repair Cost in the GTA: 2026 Price Guide",
+    metaTitle: "Foggy Window Repair Cost: 2026 Pricing",
     metaDescription:
       "What does foggy window repair actually cost in Toronto and the GTA? We break down pricing by window type, size, and what affects your final quote.",
     excerpt:
@@ -1479,7 +1479,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "broken-window-crank-what-to-do",
     title: "Window Crank Broken? Here's What to Do Before Calling a Repair Company",
-    metaTitle: "Broken Window Crank? What to Do Before Calling for Repair",
+    metaTitle: "Broken Window Crank? What to Do Next",
     metaDescription:
       "Window crank stuck or broken? Learn what you can check yourself, when you need a pro, and how crank mechanism replacement works for casement windows.",
     excerpt:
@@ -1566,7 +1566,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "replace-vs-repair-windows-toronto",
     title: "When to Replace vs. Repair Your Windows: A Toronto Homeowner's Guide",
-    metaTitle: "Replace vs. Repair Windows: Toronto Homeowner's Guide",
+    metaTitle: "Replace vs. Repair Windows in Toronto",
     metaDescription:
       "Not sure whether to repair or replace your windows? This guide helps Toronto homeowners decide based on the actual condition, not a salesperson's pitch.",
     excerpt:
@@ -1643,7 +1643,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "front-door-glass-styles-guide",
     title: "Front Door Glass Styles: Choosing the Right Insert for Your Home",
-    metaTitle: "Front Door Glass Styles: How to Choose the Right Insert",
+    metaTitle: "Front Door Glass Styles: Choosing Inserts",
     metaDescription:
       "Choosing a front door glass insert? From clear to textured to decorative, here is what Toronto homeowners need to know about style, privacy, and light.",
     excerpt:
@@ -1732,8 +1732,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "emergency-glass-repair-toronto",
-    title: "Emergency Glass Repair in Toronto: What to Expect at 2 AM",
-    metaTitle: "Emergency Glass Repair in Toronto: What to Expect",
+    title: "Emergency Glass Repair Toronto: What to Expect at 2 AM",
+    metaTitle: "Emergency Glass Repair Toronto: What to Expect",
     metaDescription:
       "Broken window in the middle of the night? Here is exactly what happens when you call for emergency glass repair in Toronto, from response times to process.",
     excerpt:
@@ -1910,7 +1910,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "vaughan-sealed-unit-replacement-winter",
     title: "Why Vaughan Homes Need Sealed Unit Replacement Before Winter",
-    metaTitle: "Sealed Unit Replacement in Vaughan Before Winter",
+    metaTitle: "Sealed Unit Replacement Vaughan: Winter",
     metaDescription:
       "Vaughan homeowners: replace failed sealed glass units before winter. Learn the signs, timing and process for foggy window repair.",
     excerpt:
@@ -1997,7 +1997,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "commercial-glass-repair-vaughan-guide",
     title: "Commercial Glass Repair in Vaughan: Storefronts, Offices and Plazas",
-    metaTitle: "Commercial Glass Repair Vaughan: Storefronts & Offices",
+    metaTitle: "Commercial Glass Repair Vaughan",
     metaDescription:
       "Commercial glass repair in Vaughan. Storefront glass, office partitions, plaza entrances and emergency board-ups across the Highway 7 corridor.",
     excerpt:

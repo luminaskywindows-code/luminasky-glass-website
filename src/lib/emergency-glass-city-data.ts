@@ -22,7 +22,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     slug: "toronto",
     city: "Toronto",
     region: "Toronto",
-    metaTitle: "Emergency Glass Repair Toronto | 24/7 Board-Up & Glass",
+    metaTitle: "Emergency Glass Repair Toronto | 24/7",
     metaDescription:
       "Emergency glass repair in Toronto. 24/7 board-up service, storm damage, break-in repair, shattered windows. Call 437-344-8490 any time.",
     intro:
@@ -39,7 +39,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     slug: "mississauga",
     city: "Mississauga",
     region: "Peel Region",
-    metaTitle: "Emergency Glass Repair Mississauga | 24/7 Service",
+    metaTitle: "Emergency Glass Repair Mississauga | 24/7",
     metaDescription:
       "Emergency glass repair in Mississauga. 24/7 board-up, storm damage and break-in glass replacement. Call 437-344-8490.",
     intro:
@@ -73,7 +73,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     slug: "thornhill",
     city: "Thornhill",
     region: "York Region",
-    metaTitle: "Emergency Glass Repair Thornhill | 24/7 Response",
+    metaTitle: "Emergency Glass Repair Thornhill | 24/7",
     metaDescription:
       "Emergency glass repair in Thornhill. 24/7 board-up and glass replacement for break-ins, storms and accidents. Call 437-344-8490.",
     intro:
