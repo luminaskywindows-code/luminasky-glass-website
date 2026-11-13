@@ -219,7 +219,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>If you are not sure which category your window falls into, that is exactly what a site visit is for. A technician inspects the window, identifies the root cause, and gives you a written quote before any work begins. No pressure, no upselling, just a clear answer.</p>
 
-<p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a> to book your assessment.</p>
+<p>We serve homeowners across the GTA, including <a href="/window-repair-toronto">Toronto</a>, <a href="/window-repair-vaughan">Vaughan</a>, <a href="/window-repair-mississauga">Mississauga</a>, <a href="/window-repair-markham">Markham</a>, and <a href="/window-repair-richmond-hill">Richmond Hill</a>. Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a> to book your assessment.</p>
+
+<p>Related reading: <a href="/blog/foggy-window-repair-cost-gta">What does foggy window repair cost in the GTA?</a> and <a href="/blog/broken-window-crank-what-to-do">What to do about a broken window crank</a>.</p>
 `,
   },
   {
@@ -1092,7 +1094,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Photograph and measure your storefront glass now, while it is intact, and keep it with your insurance documents. When a pane breaks at midnight, having the dimensions already written down takes a day off the order.</p>
 
-<p>Broken glass now? Call <a href="tel:+14373448490">437-344-8490</a>. We handle <a href="/emergency-glass-repair">emergency glass repair</a> and <a href="/commercial-glass-repair">commercial glass repair</a> across the GTA, any hour.</p>
+<p>Broken glass now? Call <a href="tel:+14373448490">437-344-8490</a>. We handle <a href="/emergency-glass-repair">emergency glass repair</a> and <a href="/commercial-glass-repair">commercial glass repair</a> across the GTA, any hour. We serve <a href="/commercial-glass-repair-vaughan">Vaughan</a>, <a href="/window-repair-toronto">Toronto</a>, <a href="/window-repair-mississauga">Mississauga</a>, and surrounding areas.</p>
+
+<p>Related reading: <a href="/blog/emergency-glass-repair-toronto">Emergency glass repair: what to expect</a>.</p>
 `,
   },
   {
@@ -1167,7 +1171,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>That is not the most expensive option on any quote sheet, and that is the point. The upgrades that matter most are not the ones that cost the most.</p>
 
-<p><a href="/foggy-windows">Replacing a fogged unit</a> and not sure what to specify? Whether you need <a href="/glass-replacement">glass replacement</a> for your home or a sealed unit upgrade, send us a photo and the rough dimensions on WhatsApp and we will tell you what is in there now and what we would put back. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
+<p><a href="/foggy-windows">Replacing a fogged unit</a> and not sure what to specify? Whether you need <a href="/glass-replacement">glass replacement</a> for your home or a sealed unit upgrade, send us a photo and the rough dimensions on WhatsApp and we will tell you what is in there now and what we would put back. We serve <a href="/window-repair-toronto">Toronto</a>, <a href="/window-repair-vaughan">Vaughan</a>, <a href="/window-repair-mississauga">Mississauga</a>, and the entire GTA. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
+
+<p>Related reading: <a href="/blog/foggy-window-repair-cost-gta">Foggy window repair cost in the GTA</a> and <a href="/blog/why-windows-fog-between-panes">Why windows fog between the panes</a>.</p>
 `,
   },
   {
@@ -1237,7 +1243,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>If the lock has become hard to engage, that is the panel telling you it has dropped. A door that does not lock properly is a door that is not sealed, which makes it a heating question and a security question at the same time. It is a small fix now and a bigger one after another winter of being forced.</p>
 
-<p>Not sure if it is rollers or track? Send a photo of the bottom track and the panel edge on WhatsApp and we will tell you what we are looking at. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
+<p>We handle <a href="/patio-door-repair">patio door repairs</a> across <a href="/window-repair-toronto">Toronto</a>, <a href="/window-repair-vaughan">Vaughan</a>, <a href="/window-repair-mississauga">Mississauga</a>, and the entire GTA. Not sure if it is rollers or track? Send a photo of the bottom track and the panel edge on WhatsApp and we will tell you what we are looking at. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
 `,
   },
   {
@@ -1318,7 +1324,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>If your walk-through turned up anything on this list, check our <a href="/winter-ready">winter ready page</a> for a full breakdown of what we handle, or call us directly. All of our work is backed by our <a href="/warranty">warranty</a>.</p>
 
-<p>Call <a href="tel:+14373448490">437-344-8490</a> or send a photo on WhatsApp and we will tell you what you are looking at.</p>
+<p>We serve <a href="/window-repair-vaughan">Vaughan</a>, <a href="/window-repair-toronto">Toronto</a>, <a href="/window-repair-thornhill">Thornhill</a>, <a href="/window-repair-mississauga">Mississauga</a>, and the entire GTA. Call <a href="tel:+14373448490">437-344-8490</a> or send a photo on WhatsApp and we will tell you what you are looking at.</p>
+
+<p>Related reading: <a href="/blog/winter-window-checklist-gta">Winter window checklist for GTA homes</a> and <a href="/blog/window-condensation-in-winter">Window condensation in winter: what it means</a>.</p>
 `,
   },
   {
@@ -1387,9 +1395,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="get-it-looked-at">Get It Looked At</h2>
 
-<p>If your front door glass is cracked, foggy or just not what you want anymore, <a href="/contact">book a visit</a> and we will take a look. We work across the GTA.</p>
+<p>If your front door glass is cracked, foggy or just not what you want anymore, <a href="/contact">book a visit</a> and we will take a look. We serve <a href="/window-repair-vaughan">Vaughan</a>, <a href="/window-repair-toronto">Toronto</a>, <a href="/window-repair-mississauga">Mississauga</a>, <a href="/window-repair-oakville">Oakville</a>, and the entire GTA.</p>
 
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
+
+<p>Related reading: <a href="/blog/front-door-glass-styles-guide">Front door glass styles guide</a> and <a href="/blog/double-vs-triple-pane-low-e-argon">Double, triple, Low-E and argon explained</a>.</p>
 `,
   },
   {
@@ -1560,7 +1570,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Significantly cheaper. A <a href="/cranks">crank mechanism replacement</a> is a fraction of the cost of a full window replacement. If the glass is clear and the frame is solid, there is no reason to replace the entire window just because the crank failed.</p>
 
-<p>Need help with a broken crank? Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
+<p>We handle <a href="/window-crank-repair-vaughan">crank repairs in Vaughan</a>, <a href="/window-crank-repair-toronto">Toronto</a>, <a href="/window-crank-repair-mississauga">Mississauga</a>, and across the GTA. Need help with a broken crank? Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>.</p>
+
+<p>Related reading: <a href="/blog/window-crank-repair-toronto">Window crank repair in Toronto</a> and <a href="/blog/window-repair-vs-replacement-toronto">Window repair vs replacement</a>.</p>
 `,
   },
   {
@@ -1637,7 +1649,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Buyers care about clear glass, proper insulation, and windows that operate smoothly. A repaired window with a new sealed unit meets all three criteria. What hurts resale value is foggy, broken, or drafty windows, not whether the fix was a repair or a replacement.</p>
 
-<p>Want an honest assessment of your windows? <a href="/contact">Book a visit</a> or call <a href="tel:+14373448490">437-344-8490</a>.</p>
+<p>We serve <a href="/window-repair-toronto">Toronto</a>, <a href="/window-repair-vaughan">Vaughan</a>, <a href="/window-repair-mississauga">Mississauga</a>, <a href="/window-repair-brampton">Brampton</a>, and the entire GTA. Want an honest assessment of your windows? <a href="/contact">Book a visit</a> or call <a href="tel:+14373448490">437-344-8490</a>.</p>
+
+<p>Related reading: <a href="/blog/window-repair-vs-replacement-toronto">Window repair vs replacement: which one do you need?</a> and <a href="/blog/foggy-window-repair-cost-gta">Foggy window repair cost in the GTA</a>.</p>
 `,
   },
   {
@@ -1727,7 +1741,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Textured glass is simpler and more affordable. It provides privacy and lets in light, with a clean, understated look. Decorative (leaded) glass is a design feature. It adds visual interest and curb appeal but comes at a higher price. Choose textured for a subtle upgrade, decorative for a statement.</p>
 
-<p>Want to see options for your door? <a href="/contact">Book a visit</a> or call <a href="tel:+14373448490">437-344-8490</a>.</p>
+<p>We replace front door glass inserts across <a href="/window-repair-vaughan">Vaughan</a>, <a href="/window-repair-toronto">Toronto</a>, <a href="/window-repair-mississauga">Mississauga</a>, and the entire GTA. Want to see options for your door? <a href="/contact">Book a visit</a> or call <a href="tel:+14373448490">437-344-8490</a>.</p>
+
+<p>Related reading: <a href="/blog/front-door-glass-insert-replacement">Front door glass insert replacement</a> and <a href="/blog/double-vs-triple-pane-low-e-argon">Double, triple, Low-E and argon explained</a>.</p>
 `,
   },
   {
