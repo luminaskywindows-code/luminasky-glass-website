@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin, Shield, Zap, Clock, Star } from "lucide-react";
+import { Phone, Mail, MapPin, Shield, Clock, Star } from "lucide-react";
 import {
   PHONE,
   PHONE_HREF,
@@ -56,12 +56,8 @@ export function Footer() {
                 Licensed &amp; Insured in Ontario
               </div>
               <div className="flex items-center gap-2 text-blue-200 text-xs">
-                <Zap className="w-4 h-4 text-accent-light shrink-0" aria-hidden="true" />
-                Available 24/7, Any Day, Any Time
-              </div>
-              <div className="flex items-center gap-2 text-blue-200 text-xs">
                 <Clock className="w-4 h-4 text-accent-light shrink-0" aria-hidden="true" />
-                Open 24/7
+                Available 24/7, Any Day, Any Time
               </div>
             </div>
           </div>
