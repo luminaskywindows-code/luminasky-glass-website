@@ -150,10 +150,13 @@ export function Navbar() {
             ))}
 
             {/* Services dropdown */}
-            <div className="relative">
-              <button
-                onClick={() => setServicesOpen(!servicesOpen)}
-                onBlur={() => setTimeout(() => setServicesOpen(false), 150)}
+            <div
+              className="relative"
+              onMouseEnter={() => setServicesOpen(true)}
+              onMouseLeave={() => setServicesOpen(false)}
+            >
+              <Link
+                href="/services"
                 className={cn(
                   "flex items-center gap-1 px-3 py-2 rounded-lg text-[13px] font-medium whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
                   pathname.startsWith("/services")
@@ -162,6 +165,8 @@ export function Navbar() {
                 )}
                 aria-expanded={servicesOpen}
                 aria-haspopup="true"
+                onFocus={() => setServicesOpen(true)}
+                onBlur={() => setTimeout(() => setServicesOpen(false), 150)}
               >
                 Services
                 <ChevronDown
@@ -171,7 +176,7 @@ export function Navbar() {
                   )}
                   aria-hidden="true"
                 />
-              </button>
+              </Link>
 
               <div
                 className={cn(
@@ -274,23 +279,32 @@ export function Navbar() {
 
                 {/* Services accordion */}
                 <div>
-                  <button
-                    onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                    className={cn(
-                      "w-full flex items-center justify-between px-4 py-3 rounded-lg text-sm font-medium transition-colors",
-                      pathname.startsWith("/services")
-                        ? "text-primary font-semibold"
-                        : "text-gray-700 hover:text-primary hover:bg-gray-50"
-                    )}
-                    aria-expanded={mobileServicesOpen}
-                  >
-                    Services
-                    {mobileServicesOpen ? (
-                      <ChevronUp className="w-4 h-4" aria-hidden="true" />
-                    ) : (
-                      <ChevronDown className="w-4 h-4" aria-hidden="true" />
-                    )}
-                  </button>
+                  <div className="flex items-center">
+                    <Link
+                      href="/services"
+                      onClick={() => setSheetOpen(false)}
+                      className={cn(
+                        "flex-1 px-4 py-3 rounded-lg text-sm font-medium transition-colors",
+                        pathname.startsWith("/services")
+                          ? "text-primary font-semibold"
+                          : "text-gray-700 hover:text-primary hover:bg-gray-50"
+                      )}
+                    >
+                      Services
+                    </Link>
+                    <button
+                      onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                      className="p-3 text-gray-500 hover:text-primary transition-colors"
+                      aria-expanded={mobileServicesOpen}
+                      aria-label="Expand services list"
+                    >
+                      {mobileServicesOpen ? (
+                        <ChevronUp className="w-4 h-4" aria-hidden="true" />
+                      ) : (
+                        <ChevronDown className="w-4 h-4" aria-hidden="true" />
+                      )}
+                    </button>
+                  </div>
                   <div
                     className={cn(
                       "pl-4 flex flex-col gap-1 mt-1 overflow-hidden transition-all duration-200",
