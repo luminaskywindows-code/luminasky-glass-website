@@ -2089,6 +2089,1105 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Whether you have one cracked panel or a full storefront that needs replacing, send us photos and we will get you a written quote. Visit our <a href="/commercial-glass-repair-vaughan">Vaughan commercial glass repair</a> page or call <a href="tel:+14373448490">437-344-8490</a>. For after-hours emergencies, the same number reaches us around the clock.</p>
 `,
   },
+  {
+    slug: "types-of-window-glass-explained",
+    title: "Types of Window Glass: What Every Homeowner Should Know",
+    metaTitle: "Types of Window Glass Explained for Toronto Homeowners",
+    metaDescription:
+      "Learn the difference between tempered, laminated, Low-E, and insulated glass. Know what type of glass is in your windows and what to ask for when replacing.",
+    excerpt:
+      "Not all window glass is the same. Knowing the difference between tempered, laminated, Low-E, and insulated glass helps you make smarter decisions when it is time for a repair or replacement.",
+    publishedAt: "2026-11-16",
+    author: "Dan",
+    readingTime: 14,
+    tags: ["window glass", "glass types", "toronto", "homeowner guide", "glass replacement"],
+    sections: [
+      { id: "why-glass-type-matters", title: "Why Glass Type Matters" },
+      { id: "a-brief-history", title: "A Brief History of Window Glass" },
+      { id: "float-annealed-glass", title: "Float (Annealed) Glass" },
+      { id: "tempered-glass", title: "Tempered Glass" },
+      { id: "laminated-glass", title: "Laminated Glass" },
+      { id: "low-e-coated-glass", title: "Low-E Coated Glass" },
+      { id: "insulated-glass-units", title: "Insulated Glass Units (Sealed Units)" },
+      { id: "argon-and-gas-fills", title: "Argon and Gas Fills" },
+      { id: "obscure-textured-glass", title: "Obscure and Textured Glass" },
+      { id: "wired-glass", title: "Wired Glass" },
+      { id: "energy-star-windows-canada", title: "Energy Star Windows in Canada" },
+      { id: "how-to-identify-your-glass", title: "How to Identify What You Have" },
+      { id: "what-to-ask-for-when-replacing", title: "What to Ask for When Replacing Glass" },
+      { id: "get-a-quote", title: "Get a Quote" },
+    ],
+    content: `
+<p>When a window breaks or fogs up, most homeowners think about "getting the glass replaced." But glass is not a single product. There are several types, each made for a different purpose. The glass in your bathroom window is not the same as the glass in your patio door, and the glass beside your front entrance has to meet specific safety requirements under the Ontario Building Code.</p>
+
+<p>According to Natural Resources Canada (NRCan), windows can account for up to 25% of total heat loss in a home. That figure alone explains why the type of glass in your windows matters so much. Understanding the basics helps you have a better conversation with your glass technician, avoid overpaying for features you do not need, and make sure your replacement glass meets code where it matters.</p>
+
+<p>Here is a comprehensive breakdown of every type of residential window glass, with the science and history behind each one.</p>
+
+<h2 id="why-glass-type-matters">Why Glass Type Matters</h2>
+
+<p>Glass type affects four things in your home: safety, energy efficiency, noise, and privacy. A window near a staircase needs glass that will not send large shards flying if someone falls into it. A window facing a busy road benefits from glass that dampens sound. A south-facing window in summer needs glass that reflects heat.</p>
+
+<p>When you replace glass, the new pane needs to match or exceed what was there before. If your original glass was tempered because the building code required it in that location, the replacement must also be tempered. Getting the type wrong is not just a performance issue. It can be a code violation. For a full list of locations where safety glass is mandatory, see our guide to <a href="/blog/safety-glass-ontario-building-code">safety glass requirements under the Ontario Building Code</a>.</p>
+
+<p>Energy efficiency is an equally important factor. Construction Canada modelling has shown that in a typical wood-frame house, windows can be responsible for up to 72% of envelope heat loss despite making up only 20% of the wall area. The glass you choose, and the coatings and gas fills you specify, directly affect how much of your heating and cooling bill goes out the window.</p>
+
+<h2 id="a-brief-history">A Brief History of Window Glass</h2>
+
+<p>Glass has been used in windows for centuries, but the modern window industry traces back to two key inventions.</p>
+
+<p>The first is the float glass process, conceived by Sir Alastair Pilkington in June 1952 at his factory in St. Helens, England. After seven years of secret development, the process was publicly announced on 20 January 1959. The idea was deceptively simple: pour molten glass onto a bath of molten tin, where it floats and spreads into a perfectly flat, uniform sheet. By the early 1960s, every major flat glass manufacturer in the world had licensed the Pilkington process. It remains the universal method for producing flat glass to this day.</p>
+
+<p>The second is the insulated glass unit, or sealed unit. The concept of trapping air between two panes for insulation goes back further than most people realize. Thomas D. Stetson filed the first patent for a hermetically sealed double-pane window in 1865. But it took until 1934, when Charles D. Haven patented the "Thermopane" system, for the technology to become commercially viable. Mass production began in the late 1930s. Double glazing gained traction slowly through the 1950s and 1960s in North America, but it was the 1973 oil crisis that pushed energy-efficient windows into the mainstream. By 2012, roughly 80% of homes in the UK had double glazing, and similar adoption had occurred across Canada.</p>
+
+<p>Today, every type of window glass described below is manufactured using the float process as a starting point, then treated, coated, or assembled to meet specific performance needs.</p>
+
+<h2 id="float-annealed-glass">Float (Annealed) Glass</h2>
+
+<p>Float glass is the starting point for almost all other glass types. It is made by floating molten glass on a bed of molten tin at approximately 1,100°C, which produces a perfectly flat, uniform sheet with consistent thickness. After cooling slowly in a controlled oven (a process called annealing), it becomes the basic, everyday glass you see in older homes, picture frames, and cabinet doors.</p>
+
+<p><strong>How it breaks:</strong> into large, sharp shards that can cause serious lacerations. This is the main reason float glass has been replaced by safety glass in many residential applications. If a child runs into a floor-to-ceiling float glass panel, the shards can cause injuries severe enough to require emergency medical attention. Research from multiple children's hospitals has confirmed that a significant proportion of glass-related injuries in homes involve non-safety glazing in locations where safety glass should have been installed.</p>
+
+<p><strong>Where you still find it:</strong> upper-storey windows that are not near doors or stairs, some older homes that have not been renovated, and non-safety-critical applications like cabinet doors and shelving. Many Toronto homes built before the 1990s still have annealed glass in locations that would require safety glazing under the current Ontario Building Code.</p>
+
+<p><strong>Cost:</strong> float glass is the least expensive type to manufacture, which is why it was used everywhere before safety codes tightened. When replacing glass in a location that does not require safety glazing, float glass (as part of a sealed unit) is a cost-effective option.</p>
+
+<h2 id="tempered-glass">Tempered Glass</h2>
+
+<p>Tempered glass starts as regular float glass, then gets heated to about 620°C and rapidly cooled with jets of air in a process called quenching. This puts the outer surfaces into compression and the interior into tension. The result: glass that is roughly four to five times stronger than annealed glass of the same thickness.</p>
+
+<p>The numbers back this up. Under the ASTM C1048 standard (the benchmark for heat-treated flat glass), fully tempered glass must achieve a minimum surface compression of 10,000 psi (69 MPa). Testing data from major glass manufacturers shows that under uniform static loads, the breakage probability for annealed glass is approximately 47 per thousand, compared to just 1 per million for tempered glass under the same conditions. That is a dramatic difference in structural reliability.</p>
+
+<p><strong>How it breaks:</strong> into small, roughly cube-shaped pieces with blunt edges. You have probably seen this if you have ever seen a shattered car side window. The small pieces are far less likely to cause serious cuts compared to the jagged shards of float glass.</p>
+
+<p><strong>Where it is required:</strong> the Ontario Building Code (OBC Section 9.6.1.4) requires safety glazing, which includes tempered glass, in several residential locations:</p>
+
+<ul>
+  <li>Glass in or within 600 mm of a door</li>
+  <li>Glass panels that extend close to the floor where someone could walk into them</li>
+  <li>Glass adjacent to staircases, ramps, and landings</li>
+  <li>Shower enclosures and bathtub surrounds</li>
+  <li>Sidelights beside entry doors</li>
+</ul>
+
+<p>If your window is in one of these locations and you need a <a href="/glass-replacement">glass replacement</a>, the new glass must be tempered (or laminated). A reputable glass company will know which locations require safety glass and will not install standard float glass where code demands otherwise.</p>
+
+<p><strong>One drawback:</strong> tempered glass cannot be cut or drilled after tempering. The internal stress pattern that gives it strength also means that any attempt to modify the pane after manufacture causes the entire piece to shatter instantly. If the dimensions are wrong, the entire pane must be remanufactured. This is one reason precision measurement matters. Glass is measured first, custom-made to your exact dimensions, then installed.</p>
+
+<p><strong>Spontaneous breakage:</strong> in rare cases, tempered glass can break on its own due to nickel sulfide (NiS) inclusions. These are microscopic contaminants that can expand over time and cause the pane to shatter without impact. The phenomenon is well documented in the glass industry. Inclusions larger than 55 micrometres in the tension zone of the glass cause nearly all heat-soak breakages. The risk is estimated at roughly 1 breakage per 1,100 tonnes of glass produced. While rare in residential windows, it has caused notable incidents in high-rise balcony panels, particularly in Toronto condos during 2011 and 2012. This risk is one reason laminated glass is increasingly preferred for balcony guards and railings.</p>
+
+<h2 id="laminated-glass">Laminated Glass</h2>
+
+<p>Laminated glass is made by bonding two (or more) sheets of glass together with a plastic interlayer, typically polyvinyl butyral (PVB). Think of it as a glass sandwich with a tough, flexible layer in the middle.</p>
+
+<p>The concept has a fascinating origin. In 1903, French chemist Édouard Bénédictus accidentally knocked a glass flask off a shelf in his laboratory. The flask shattered but held its shape instead of scattering into pieces. He discovered that it had been coated with cellulose nitrate, a liquid plastic that had dried to form a thin film inside the flask. Bénédictus patented the concept in 1909 and developed the first commercial laminated glass under the brand name "Triplex" in 1910, initially using a gelatin interlayer. The technology saw its first major adoption in World War I, where it was used in gas mask eyepieces to prevent shrapnel injuries. By the 1930s, PVB had replaced gelatin as the interlayer material, and laminated glass became the standard for automobile windshields.</p>
+
+<p><strong>How it breaks:</strong> the glass cracks, but the pieces stay stuck to the interlayer instead of falling out. If someone throws a rock through a laminated window, the glass spider-webs but largely stays in the frame. This makes it excellent for security and for locations where falling glass shards would be dangerous.</p>
+
+<p><strong>Noise reduction:</strong> the PVB interlayer absorbs sound vibrations, making laminated glass one of the best options for reducing outside noise. Standard monolithic glass at 1/4 inch thickness achieves an STC (Sound Transmission Class) rating of about 31. A laminated assembly of similar total thickness reaches an STC of 38. That difference is more significant than it sounds. In acoustics, every 10-point increase in STC roughly halves the perceived sound level. Homes near highways, flight paths, or busy intersections see a noticeable improvement with laminated sealed units compared to standard tempered sealed units. Acoustic-grade PVB interlayers and assemblies with unequal glass thickness can push performance even higher by disrupting the coincidence frequency where sound passes through most easily.</p>
+
+<p><strong>Where it is used:</strong> <a href="/front-door-glass">front door glass panels</a> and sidelights (security), ground-floor windows in high-traffic areas, glass railings and guards (the OBC increasingly requires laminated glass for guard applications at height), and any window where the homeowner wants improved sound insulation or break-in resistance.</p>
+
+<p>Laminated glass also qualifies as safety glass under the Ontario Building Code, so it can be used anywhere tempered glass is required. For guard and railing applications at height, it is often the preferred choice over tempered glass precisely because it stays in place when broken, maintaining the barrier even after impact.</p>
+
+<h2 id="low-e-coated-glass">Low-E Coated Glass</h2>
+
+<p>Low-E stands for low emissivity. It refers to a microscopically thin metallic oxide coating applied to one surface of the glass. The coating is invisible to the eye but reflects a significant portion of infrared radiation (heat), either keeping heat inside your home in winter or reflecting solar heat away in summer, depending on which glass surface the coating is applied to.</p>
+
+<p><strong>How it works:</strong> without Low-E coating, glass absorbs and re-emits heat freely in both directions. The coating acts as a selective filter: it lets visible light pass through while reflecting infrared radiation. The measurable impact is significant. A standard clear double-pane sealed unit has a centre-of-glass U-value of approximately 0.48 W/m²·K. Adding a pyrolytic Low-E coating to one pane reduces that to about 0.33 W/m²·K, a roughly 30% improvement in thermal performance from a single coating layer. Depending on the home, climate, and window orientation, Low-E glass can reduce heating and cooling costs by 10 to 30%.</p>
+
+<p><strong>Types of Low-E coating:</strong> there are two main categories. Hard-coat (pyrolytic) Low-E is applied during the glass manufacturing process and is bonded directly to the hot glass surface. It is durable and can be used on exposed surfaces. Soft-coat (sputtered) Low-E is applied after manufacturing in a vacuum chamber and offers better thermal performance, but it is more delicate and must be sealed inside a double or triple-pane unit where it is protected from contact and weathering. Most modern residential sealed units use soft-coat Low-E for maximum efficiency.</p>
+
+<p><strong>Levels of Low-E:</strong> coatings come in different performance grades. Some manufacturers label them Low-E, Low-E2, or Low-E3 based on the number of coating layers. More layers generally means better thermal performance, but also slightly reduced visible light transmission. The right choice depends on the window's orientation and your priorities.</p>
+
+<p><strong>Important note:</strong> Low-E coating is an upgrade option, not a given. When ordering replacement sealed units, ask your glass technician whether Low-E makes sense for your specific windows. South and west-facing windows benefit the most from solar-control Low-E. North-facing windows benefit from heat-retention Low-E in winter. A basement window that gets almost no direct sun may not justify the added cost. Your technician can recommend the right configuration based on your specific situation.</p>
+
+<h2 id="insulated-glass-units">Insulated Glass Units (Sealed Units)</h2>
+
+<p>An insulated glass unit, also called a sealed unit or IGU, is what most people mean when they say "window glass" in a modern home. It consists of two or three panes of glass separated by a spacer bar and sealed together at the edges. The space between the panes is filled with air or an inert gas like argon, which insulates better than air alone.</p>
+
+<p><strong>How they work:</strong> the trapped gas layer slows heat transfer between indoors and outdoors by reducing convection and conduction between the panes. A single pane of glass provides almost no insulation (roughly R-1). A standard air-filled double-pane sealed unit achieves approximately R-2 to R-4. Add Low-E coating and argon gas fill, and performance climbs to R-3 to R-5. Triple-pane units with Low-E and argon can reach R-5 to R-8. Each upgrade narrows the gap between your window's performance and your insulated wall, which typically falls between R-12 and R-24.</p>
+
+<p><strong>How long they last:</strong> a well-made sealed unit has a planning lifespan of 20 to 25 years under normal conditions. A major field study conducted by Oak Ridge National Laboratory (ORNL) tracked 10,944 insulated glass units and found a failure rate of just 1% at the 15-year mark. A separate study of over 14,000 units confirmed similar numbers. That said, lower-quality units with basic spacer systems showed 3 to 4 times higher failure rates compared to premium units. The spacer bar material, sealant quality, and manufacturing standards all influence how long a sealed unit lasts.</p>
+
+<p><strong>When they fail:</strong> the sealant that bonds the panes together breaks down over time due to UV exposure and thermal cycling (the constant expansion and contraction from temperature changes). Once the seal fails, moisture enters the gap and you see <a href="/foggy-windows">fog or condensation trapped between the panes</a>. The insulating gas escapes and the unit loses much of its thermal performance.</p>
+
+<p><strong>Repair:</strong> a failed sealed unit does not mean you need a new window. In most cases, only the glass unit itself needs replacing. The frame stays. Glass is measured first, custom-made to your exact opening dimensions, then installed into the existing frame. This costs a fraction of full window replacement and restores both clarity and insulation. Every sealed unit we install carries a 5-year seal warranty and 2-year workmanship warranty.</p>
+
+<p>Sealed units can incorporate any combination of the glass types above. You can have a sealed unit with one tempered pane and one standard pane, or with Low-E coating on one surface, or with one laminated pane for noise reduction. The sealed unit is the assembly. The panes inside it can be specified to match your needs.</p>
+
+<h2 id="argon-and-gas-fills">Argon and Gas Fills</h2>
+
+<p>The space between the panes in a sealed unit is not just empty air (although air-filled units exist and work fine). Most modern sealed units offer the option of argon gas fill, which provides better insulation than air.</p>
+
+<p><strong>Why argon works:</strong> argon is an inert, non-toxic, colourless, odourless gas that is denser than air. Its thermal conductivity is roughly two-thirds that of air, meaning heat moves through it more slowly. In practical terms, argon gas fill improves a sealed unit's thermal performance by approximately 10 to 15% compared to air. When combined with Low-E coating, the improvement is even more pronounced: a 90% argon fill with Low-E can deliver roughly a 16% insulating improvement over a comparable air-filled unit.</p>
+
+<p><strong>Gap width matters:</strong> the optimal gap between panes for argon fill is approximately 11 to 12 mm. For air-filled units, the optimal gap is slightly wider, around 13 mm. Going too narrow reduces insulation; going too wide allows convection currents to form inside the unit, which also reduces insulation. This is one reason sealed units are engineered to specific tolerances, not simply assembled from whatever glass is on hand.</p>
+
+<p><strong>Does argon leak out?</strong> Yes, slowly. Industry data indicates that argon leaks from a sealed unit at a rate of approximately 1% per year under normal conditions. Once the fill drops below about 80%, the thermal benefit diminishes noticeably. At that point the unit still functions as an air-filled sealed unit, which is perfectly adequate. It just loses the incremental argon advantage.</p>
+
+<p><strong>Important note:</strong> argon gas fill is an upgrade option. It is available when ordering new sealed units and is worth discussing with your glass technician. For south and west-facing windows where energy efficiency matters most, argon plus Low-E is a strong combination. For a small basement window or a rarely used room, the standard air-filled option may be more practical.</p>
+
+<h2 id="obscure-textured-glass">Obscure and Textured Glass</h2>
+
+<p>Obscure glass (also called privacy glass or patterned glass) lets light through while distorting the view. It is used in bathrooms, front door sidelights, and anywhere you want natural light without sacrificing privacy.</p>
+
+<p><strong>Common patterns:</strong></p>
+
+<ul>
+  <li><strong>Frosted:</strong> uniform, smooth opacity. The most common choice for bathroom windows.</li>
+  <li><strong>Rain:</strong> vertical lines that mimic rain running down the glass. Popular in front door inserts.</li>
+  <li><strong>Reed:</strong> vertical ridges that distort the view horizontally. Often used in <a href="/front-door-glass">front door glass panels</a>.</li>
+  <li><strong>Glue chip:</strong> a fern-like, organic pattern created by applying animal glue to the glass surface. Used in decorative applications.</li>
+  <li><strong>Satin etch:</strong> acid-etched for a smooth, translucent finish. More expensive than sandblasted frosting but more durable and easier to clean.</li>
+</ul>
+
+<p>Obscure glass can be tempered or laminated if the location requires safety glazing. It can also be incorporated into sealed units for insulation. When replacing a patterned glass panel, bring a photo of the existing pattern. Your technician can match it or suggest the closest available alternative.</p>
+
+<h2 id="wired-glass">Wired Glass</h2>
+
+<p>Wired glass has a grid of thin metal wire embedded inside it. For decades, it was the standard fire-rated glass used in commercial buildings, schools, and apartment corridors. The wire holds the glass together when it cracks from heat, keeping flames and smoke from passing through the opening for a rated period.</p>
+
+<p><strong>The catch:</strong> wired glass is actually weaker than standard float glass. The wire creates stress points that make it easier to break on impact. It also does not qualify as safety glass despite looking like it should, since it breaks into large, dangerous pieces (with wire attached). Data from Ontario school boards documented over 100 wired glass injury claims between 1987 and 2000, costing millions in settlements. Experts have estimated roughly one wired glass injury per day in Canadian schools during the period when it was still widely installed. That track record is why wired glass has been losing its safety designation in Canadian building codes.</p>
+
+<p><strong>What is replacing it:</strong> modern fire-rated ceramic glass and fire-rated tempered glass products provide the same fire resistance without the safety drawbacks. These products meet both fire ratings and impact safety requirements. If you have wired glass in your building and need a replacement, ask about modern fire-rated alternatives. For <a href="/commercial-glass-repair">commercial glass repairs</a>, we can source the correct fire-rated replacement that meets both code requirements.</p>
+
+<h2 id="energy-star-windows-canada">Energy Star Windows in Canada</h2>
+
+<p>When shopping for replacement windows or sealed units, you will encounter the Energy Star label. In Canada, the Energy Star program for fenestration (windows, doors, and skylights) is administered by Natural Resources Canada (NRCan).</p>
+
+<p>Canadian Energy Star windows are evaluated using two metrics: U-factor (how much heat passes through the window, lower is better) and Energy Rating (ER), which is a composite score that accounts for heat gain from sunlight, heat loss through the glass, and air leakage. A higher ER number means a more efficient window overall.</p>
+
+<p>Canada is divided into three climate zones for Energy Star purposes, with Zone 1 being the warmest (southern British Columbia, parts of southern Ontario) and Zone 3 being the coldest (northern Canada). The Greater Toronto Area falls in Zone 2 for most Energy Star purposes, with current qualifying thresholds around U-factor 0.21 W/m²·K or ER 34 for the highest tier.</p>
+
+<p>What does this mean for glass replacement? When you replace just the sealed unit (not the full window), the glass specifications, including whether it has Low-E coating and what type of gas fill, determine the thermal performance of that unit. While you cannot slap an Energy Star label on a replacement sealed unit the same way you can on a whole window, you can achieve equivalent glass performance by specifying the right combination of Low-E coating, argon fill, and spacer type. Your glass technician can recommend the configuration that makes sense for your specific situation and budget.</p>
+
+<h2 id="how-to-identify-your-glass">How to Identify What You Have</h2>
+
+<p>You do not need to be a glass expert to figure out what is in your windows. Here are a few ways to check:</p>
+
+<ul>
+  <li><strong>Look for etch marks:</strong> tempered glass almost always has a small stamp or etch in one corner that says "tempered," "safety," or shows a certification mark (look for CSA or ANSI Z97.1). It is subtle, so check all four corners.</li>
+  <li><strong>Check the edge:</strong> if you can see the glass edge (in a door panel or frameless shower, for example), tempered glass has smooth, polished edges. Float glass edges look green and may have a sharper profile.</li>
+  <li><strong>Count the panes:</strong> look at your window from an angle and count the reflections of a flame (a lighter or candle works). Two reflections means single pane. Four reflections means double pane (sealed unit). Six reflections means triple pane.</li>
+  <li><strong>Look for the spacer bar:</strong> sealed units have a visible metallic or black spacer running around the perimeter between the panes. If you see it, you have an insulated glass unit.</li>
+  <li><strong>Feel for texture:</strong> run your hand over both sides of the glass. If one side is smooth and the other is textured, you have obscure or patterned glass.</li>
+  <li><strong>Check for Low-E:</strong> hold a flame near the glass and look at the reflections. Standard glass shows the same colour for all reflections. Low-E coated glass shows one reflection with a slightly different colour (often pinkish or purplish) because the coating reflects differently.</li>
+  <li><strong>Check for lamination:</strong> if you can see the edge of the glass (in a door insert, for example), laminated glass shows a thin, slightly visible interlayer between two sheets. It may also feel very slightly thicker and heavier than a single pane of the same size.</li>
+</ul>
+
+<h2 id="what-to-ask-for-when-replacing">What to Ask for When Replacing Glass</h2>
+
+<p>When you call for a <a href="/glass-replacement">glass replacement</a>, your technician will assess the situation and recommend the right glass type. But it helps to know the basics so you can ask informed questions:</p>
+
+<ol>
+  <li><strong>Is this a safety glass location?</strong> If the window is near a door, staircase, or close to the floor, it needs tempered or laminated glass. Do not accept standard float glass in these spots. See our <a href="/blog/safety-glass-ontario-building-code">safety glass guide</a> for the full list.</li>
+  <li><strong>Do I need Low-E coating?</strong> For south and west-facing windows, Low-E can reduce the centre-of-glass U-value by roughly 30%. For north-facing windows or windows that get very little direct sun, the benefit may not justify the cost. Ask your technician for their recommendation based on your specific window orientation.</li>
+  <li><strong>Would laminated glass help with noise?</strong> If traffic or airport noise is a concern, laminated sealed units can boost the STC rating by 7 or more points compared to standard glass, roughly halving the perceived sound level. Ask about acoustic-grade PVB for even better results.</li>
+  <li><strong>Should I add argon gas fill?</strong> Argon improves thermal performance by 10 to 15%, and the benefit compounds with Low-E coating. It is available as an option when ordering new sealed units. Discuss with your technician whether it makes sense for your situation.</li>
+  <li><strong>What spacer type does the sealed unit use?</strong> Warm-edge spacers (made from materials like stainless steel or structural foam rather than aluminium) reduce heat loss at the edge of the glass and improve condensation resistance. If you are investing in Low-E and argon, a warm-edge spacer completes the package.</li>
+  <li><strong>Can you match my existing glass?</strong> For patterned or obscure glass, bring a photo. For tinted glass, note the colour. A good technician can match or recommend the closest option from current suppliers.</li>
+</ol>
+
+<p>The right glass depends on the location, orientation, and function of each window. There is no single "best" option for every situation.</p>
+
+<h2 id="get-a-quote">Get a Quote</h2>
+
+<p>If you are not sure what type of glass your windows have, or which type you need for a replacement, we can help. LuminaSky Glass Services handles all types of residential glass across Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. Glass is measured first, custom-made to your exact specifications, then installed. Every sealed unit we install carries a 5-year seal warranty and 2-year workmanship warranty.</p>
+
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or visit our <a href="/contact">contact page</a> to get a written quote on the spot. We are available 24/7. Family-Owned Since 2024. 70+ 5-Star Google Reviews.</p>
+`,
+  },
+  {
+    slug: "home-insurance-broken-window-ontario",
+    title: "Does Home Insurance Cover a Broken Window in Ontario?",
+    metaTitle: "Does Home Insurance Cover Broken Windows in Ontario?",
+    metaDescription:
+      "Learn when Ontario home insurance covers broken window glass, what is excluded, how deductibles work, the claims process step by step, and when paying out of pocket is smarter.",
+    excerpt:
+      "A rock from the lawnmower, a tree branch in a storm, or a break-in overnight. When window glass breaks suddenly, most Ontario homeowners wonder if insurance will cover the repair. The answer depends on what caused the damage, what type of policy you have, and whether the math makes filing a claim worthwhile. This guide walks through it all with real Ontario data.",
+    publishedAt: "2026-11-16",
+    author: "Dan",
+    readingTime: 14,
+    tags: ["home insurance", "broken window", "ontario", "glass repair", "claims", "deductible", "storm damage", "condo glass"],
+    sections: [
+      { id: "the-short-answer", title: "The Short Answer" },
+      { id: "how-ontario-home-insurance-works", title: "How Ontario Home Insurance Works for Glass" },
+      { id: "policy-types-explained", title: "Ontario Home Insurance Policy Types Explained" },
+      { id: "what-insurance-covers", title: "What Home Insurance Typically Covers" },
+      { id: "weather-claims-ontario", title: "Storm and Weather Damage in Ontario" },
+      { id: "water-damage-and-glass", title: "Water Damage, Glass, and the 48 Percent Problem" },
+      { id: "what-insurance-does-not-cover", title: "What Insurance Does Not Cover" },
+      { id: "deductible-math", title: "The Deductible Math" },
+      { id: "filing-vs-paying-out-of-pocket", title: "Filing vs. Paying Out of Pocket" },
+      { id: "claims-process-step-by-step", title: "The Claims Process Step by Step" },
+      { id: "how-to-document-the-damage", title: "How to Document the Damage" },
+      { id: "will-a-claim-raise-your-premiums", title: "Will a Claim Raise Your Premiums?" },
+      { id: "protecting-your-premiums", title: "How to Protect Your Premiums Long Term" },
+      { id: "condos-who-pays", title: "Condos: Who Pays for the Glass?" },
+      { id: "glass-types-and-code", title: "Glass Types and Building Code Considerations" },
+      { id: "what-we-provide-for-your-claim", title: "What We Provide for Your Claim" },
+      { id: "next-steps", title: "Next Steps" },
+    ],
+    content: `
+<p>A rock from the lawnmower, a tree branch in a storm, or a break-in overnight. When window glass breaks suddenly, most Ontario homeowners wonder the same thing: will my insurance cover this?</p>
+
+<p>With Ontario home insurance premiums averaging between $1,565 and $2,235 per year (varying by region, coverage level, and claims history), the question is worth asking carefully. You are paying for coverage, and you should know exactly when you can use it, when you should use it, and when paying out of pocket is the smarter financial move.</p>
+
+<p>This guide covers everything an Ontario homeowner needs to know about glass damage and insurance: policy types, what is covered and what is not, the deductible calculation, storm damage trends backed by Insurance Bureau of Canada (IBC) data, condo-specific rules under the Ontario Condominium Act, the full claims process, and strategies for keeping your premiums under control.</p>
+
+<h2 id="the-short-answer">The Short Answer</h2>
+
+<p>Ontario home insurance covers broken window glass when the damage was caused by a sudden, accidental event. It does not cover gradual wear, aging seals, or maintenance issues like <a href="/foggy-windows">condensation between panes</a>.</p>
+
+<p>The distinction comes down to one question: was the damage sudden and unexpected, or did it develop over time? A tree branch through the window during an ice storm is covered. Foggy glass from a seal that failed over five years is not.</p>
+
+<p>But even when the damage is covered, filing a claim is not always the right move. A single property claim can add roughly $386 per year to your premium, an increase of about 19 to 20 percent that typically stays on your record for three to five years. For a single broken window, the deductible alone may exceed the repair cost. The sections below help you run the numbers and decide.</p>
+
+<h2 id="how-ontario-home-insurance-works">How Ontario Home Insurance Works for Glass</h2>
+
+<p>Home insurance in Ontario is regulated provincially but sold by private insurers. Every standard homeowner policy includes "dwelling" coverage, which protects the physical structure of your home. Windows, including the glass, frame, and sealed unit, are part of the dwelling. When a covered peril damages your window glass, the dwelling portion of your policy pays for the repair or replacement, minus your deductible.</p>
+
+<p>The key word in that sentence is "covered peril." Not every type of damage qualifies. Ontario policies are built around one of three coverage forms, and each form defines which perils (causes of damage) trigger a payout. Understanding which form you hold is the first step.</p>
+
+<p>Your policy also includes "contents" coverage (your belongings inside the home) and "liability" coverage (if someone is injured on your property). Glass damage falls under dwelling coverage, so contents and liability limits are not relevant here. The deductible that applies is your dwelling deductible, which is printed on your declarations page.</p>
+
+<p>One common point of confusion: your policy covers the cost to restore the glass to its pre-loss condition, not to upgrade it. If you had a standard double-pane sealed unit and want to upgrade to triple-pane or add a Low-E coating during the repair, the insurer pays only for the equivalent replacement. The upgrade cost is yours.</p>
+
+<h2 id="policy-types-explained">Ontario Home Insurance Policy Types Explained</h2>
+
+<p>Not all home insurance policies offer the same level of protection. In Ontario, residential property policies generally fall into three categories, and the type you hold determines which causes of glass damage are covered.</p>
+
+<h3>Comprehensive (All-Risk)</h3>
+
+<p>This is the broadest and most expensive type. It covers your dwelling and your contents against all risks except those specifically excluded in the policy wording. If a cause of damage is not listed as an exclusion, it is covered. Most newer homeowner policies in Ontario are comprehensive.</p>
+
+<p>For glass damage, comprehensive coverage is the most forgiving. A stray baseball, a neighbour's tree limb, a bird strike, accidental impact from inside the house: all covered unless the policy explicitly excludes the cause. The exclusions you need to watch for are wear and tear, gradual deterioration, faulty workmanship, and intentional damage by the policyholder.</p>
+
+<h3>Broad Form</h3>
+
+<p>A middle-ground policy. Your dwelling (including windows, walls, and the structure itself) gets all-risk coverage, but your contents are covered only under named perils. This means the glass in your window is likely covered the same way it would be under a comprehensive policy, but items damaged inside the house may not be.</p>
+
+<p>For a broken window specifically, broad form and comprehensive often produce the same result. The difference shows up when both the glass and your belongings are damaged in the same event. Under broad form, the glass repair is covered but the water-damaged hardwood floor beneath a shattered window might not be, depending on the named perils listed for contents.</p>
+
+<h3>Named Perils (Basic)</h3>
+
+<p>The most affordable option, and the most limited. Both your dwelling and contents are covered only for risks specifically listed in the policy. Common named perils include fire, lightning, windstorm, hail, vandalism, theft, and impact by vehicles or aircraft. If the cause of your glass breakage is not on the list, it is not covered.</p>
+
+<p>This matters for glass damage in a few specific ways. A windstorm that drives debris through your window is covered (windstorm is a named peril). But a neighbourhood kid's baseball through the same window might not be, because "accidental impact" may not appear on the list. Read your named perils schedule carefully.</p>
+
+<h3>What All Three Types Exclude</h3>
+
+<p>All three types exclude the same gradual-damage categories: wear and tear, lack of maintenance, and defects in construction or materials. And all three typically require add-on coverage (called endorsements or riders) for sewer backup and overland flooding, which are not included by default.</p>
+
+<p>If you are unsure which type of policy you have, check the declarations page. This is the summary at the front of your policy documents. It will state the form clearly, along with your deductible amounts, coverage limits, and any endorsements you have added.</p>
+
+<h2 id="what-insurance-covers">What Home Insurance Typically Covers</h2>
+
+<p>Across all three policy types, window glass damage from the following causes is generally covered:</p>
+
+<ul>
+  <li><strong>Vandalism:</strong> Someone deliberately broke your window. This is one of the most common glass claims filed in Ontario. A police report is required.</li>
+  <li><strong>Storm damage:</strong> Wind-blown debris, hail, or ice that cracks or shatters a pane. Ontario's hail season runs primarily from May through October, and the province has seen record-setting storm losses in recent years (details below).</li>
+  <li><strong>Break-ins:</strong> Forced entry that damages door glass, sidelites, or window panes. Covered under theft or vandalism perils. A police report is required here as well.</li>
+  <li><strong>Falling objects:</strong> A tree branch, a piece of a neighbour's siding, or any object that strikes the glass from outside.</li>
+  <li><strong>Accidental impact:</strong> A stray baseball, a rock from the mower, or something falling against the window from inside the house. Covered under comprehensive and broad-form policies. May not be covered under named perils unless "accidental impact" is listed.</li>
+  <li><strong>Fire and smoke:</strong> Heat damage that cracks or destroys window glass.</li>
+  <li><strong>Weight of ice or snow:</strong> Accumulation that causes structural pressure and cracks a pane, particularly skylights, low-slope windows, and large picture windows.</li>
+  <li><strong>Vehicle impact:</strong> A car that leaves the road and strikes your home, or a vehicle in your own driveway that rolls into the structure.</li>
+  <li><strong>Explosion:</strong> Rare, but covered. A gas explosion or similar event that shatters glass throughout the home.</li>
+</ul>
+
+<p>The common thread is that the damage happened suddenly, from an identifiable event. If you can point to a specific incident that caused the glass to break, your policy will likely cover it. The nature of the break matters too. An impact break (radiating cracks from a central point) tells a clear story. A stress crack with no impact point raises questions about whether the cause was sudden or gradual.</p>
+
+<h2 id="weather-claims-ontario">Storm and Weather Damage in Ontario</h2>
+
+<p>Ontario has experienced a sharp increase in severe weather events over the past decade, and the financial data tells the story clearly. According to the Insurance Bureau of Canada (IBC), insured losses from severe weather across Canada reached a record $8.5 billion in 2024, roughly triple the losses recorded in 2023. Ontario alone accounted for 26.3 percent of all national personal property insured losses between 2008 and 2024.</p>
+
+<p>Some recent events that affected homeowners across the GTA and southern Ontario:</p>
+
+<ul>
+  <li><strong>Summer 2024 Ontario floods:</strong> 22,400 claims were filed with an average payout of roughly $39,000, totalling $899 million in insured losses. Many of these claims included window and door damage from wind-driven rain and debris.</li>
+  <li><strong>April 2025 Ontario-Quebec ice storm:</strong> $466 million in insured losses, making it Ontario's sixth costliest insured weather event on record. Ice accumulation cracked skylights, shattered single-pane windows, and caused tree limbs to fall through glass across the region.</li>
+  <li><strong>Summer 2025 storms:</strong> $439 million in insured damage across Ontario and Quebec from a series of wind and hail events.</li>
+</ul>
+
+<p>These events do not just break windows. They rip off siding, topple trees onto roofs, and drive debris through glass at high speed. But for many homeowners, a cracked or shattered window is the most visible and immediate damage. It needs to be addressed before anything else can be repaired, because an open or compromised window exposes the interior to further water damage, temperature swings, and security risks.</p>
+
+<p>When an event is widespread (a hail storm that affects a whole neighbourhood, for example), insurers sometimes process claims differently. Adjusters may be dispatched to assess multiple homes in the same area, and the turnaround on approvals can be faster. Weather-related claims are also sometimes treated more favourably at renewal than claims for isolated incidents like vandalism, because the insurer understands the cause was beyond your control and affected many policyholders at once.</p>
+
+<p>If a severe weather event damages your windows, document the damage immediately and report it to your insurer within 24 hours. Widespread events generate high claim volumes, and early reports are processed sooner. Keep in mind that after major storms, glass repair companies across the GTA experience high demand. Calling early helps you get on the schedule faster. Our <a href="/emergency-glass-repair">emergency glass repair service</a> operates 24/7 for exactly these situations.</p>
+
+<h2 id="water-damage-and-glass">Water Damage, Glass, and the 48 Percent Problem</h2>
+
+<p>Water damage accounts for 48 percent of all home insurance claims in Canada, according to IBC data. While most of those claims involve burst pipes, sewer backup, or overland flooding, broken window glass plays a role more often than people expect.</p>
+
+<p>When a window is shattered by a storm and left open to rain, the water damage to floors, walls, and furnishings can far exceed the cost of the glass itself. Insurers expect you to take "reasonable steps" to prevent further damage after the initial loss. This is called your duty to mitigate. If you leave a broken window open to the elements for days without covering it, the insurer can deny the secondary water damage claim on the grounds that it was preventable.</p>
+
+<p>This is why emergency board-up service matters. Boarding up a broken window the same day it breaks accomplishes two things: it protects your home from further damage, and it demonstrates to the insurer that you met your duty to mitigate. The cost of the board-up is typically reimbursable as part of your claim.</p>
+
+<p>If a broken window has let water into your home, document the water damage separately from the glass damage. Photograph the water line on walls, damaged flooring, and any belongings affected. These are separate line items on your claim and may fall under different coverage sections (dwelling for the glass and structure, contents for your belongings).</p>
+
+<h2 id="what-insurance-does-not-cover">What Insurance Does Not Cover</h2>
+
+<p>Insurers classify the following as "wear and tear" or "lack of maintenance." These are excluded from virtually every standard home insurance policy in Ontario, regardless of which policy type you hold:</p>
+
+<ul>
+  <li><strong>Failed window seals:</strong> When the seal between double or triple panes breaks down over time and moisture gets inside. Industry studies have tracked failure rates of roughly 1 percent at 15 years for quality sealed units, rising to around 14 percent by the 25-year mark. This gradual process is a maintenance issue, not an insurable event. For more on the different glass configurations and how they age, see our guide to <a href="/blog/types-of-window-glass-explained">types of window glass explained</a>.</li>
+  <li><strong>Condensation between panes:</strong> <a href="/foggy-windows">Foggy windows</a> are caused by gradual seal degradation. No sudden event caused the damage, so no policy covers it. <a href="/blog/exterior-window-condensation-normal">Exterior condensation</a> is a different issue entirely and is not a defect at all.</li>
+  <li><strong>Age-related deterioration:</strong> Glass that has become hazy, discoloured, or weakened over decades of UV exposure.</li>
+  <li><strong>Poor installation:</strong> If the glass was installed incorrectly and fails as a result, the original installer's warranty (not your home insurance) is the appropriate recourse.</li>
+  <li><strong>Settling cracks:</strong> Hairline cracks caused by foundation movement or structural settling over time.</li>
+  <li><strong>Thermal stress cracks:</strong> Cracks that develop from extreme temperature differences across the glass surface (one part shaded, one part in direct sun). These are considered a product of normal conditions, not a sudden event. They often appear as a single crack running from the edge of the glass without a visible impact point.</li>
+  <li><strong>Intentional damage by the policyholder:</strong> If the homeowner or a household member deliberately broke the glass, there is no coverage.</li>
+  <li><strong>Damage during renovations:</strong> If glass breaks during a renovation or construction project, the contractor's insurance (not your homeowner policy) should cover it.</li>
+</ul>
+
+<p>If your windows are fogging up between the panes, that is a seal failure. It is fixable, and the repair is more affordable than most people expect. <a href="/glass-replacement">Replacing the glass</a> (the sealed unit only) costs a fraction of a full window replacement because the frame, hardware, and trim all stay in place. Glass is measured first, custom-made to your exact dimensions, then installed in your existing frame.</p>
+
+<h2 id="deductible-math">The Deductible Math</h2>
+
+<p>Before filing a claim, check your policy's deductible. Most Ontario home insurance policies carry a deductible between $500 and $2,500. Some policies apply different deductibles for different types of damage (a higher deductible for water, a separate deductible for earthquake coverage if you have it). Here is why the number matters.</p>
+
+<p>Your insurer only pays the portion of the repair cost that exceeds the deductible. If your deductible is $1,000 and the glass repair costs $800, you pay the full amount yourself and the insurer pays nothing. Filing a claim in that scenario gains you nothing but adds a claim to your record.</p>
+
+<p>Even when the repair cost is above the deductible, the payout may be small. If the repair is $1,400 and your deductible is $1,000, you are filing a claim for $400 of coverage. Meanwhile, that claim can cost you far more at renewal.</p>
+
+<p>Here is the math laid out plainly. A single wind or hail claim adds roughly $386 per year to your premium. Over three years (the minimum period most insurers keep the surcharge active), that is $1,158 in extra premiums. Over five years, it is $1,930. Add the $1,000 deductible you paid, and your total cost for that $1,400 repair is between $2,158 and $2,930, depending on how long the surcharge lasts. You would have been better off paying $1,400 out of pocket.</p>
+
+<p>The break-even point shifts when multiple windows are damaged, when the glass type is expensive (large tempered panels, laminated safety glass, oversized sealed units), or when the damage extends beyond just the glass to include the frame, wall, or interior finishes. For multi-window storm damage, the claim math usually works in your favour.</p>
+
+<h2 id="filing-vs-paying-out-of-pocket">Filing vs. Paying Out of Pocket</h2>
+
+<p>This is the calculation most homeowners skip, and it matters more than the coverage question itself.</p>
+
+<p><strong>The rule of thumb used by many Ontario insurance brokers:</strong> if the repair cost is less than double your deductible, pay out of pocket. File a claim only when the damage is extensive: multiple windows, a large commercial panel, combined damage from a break-in, or a major storm event that also damaged siding, roofing, or interior finishes.</p>
+
+<p>Keep in mind that many Ontario insurers offer a claims-free discount of 20 to 30 percent off your base premium. This discount requires three to five consecutive claims-free years to build. A single small claim resets that clock and costs you the discount for years. On a premium of $1,800, a 25 percent claims-free discount saves you $450 per year. Losing that discount for three years costs $1,350, on top of the premium surcharge from the claim itself.</p>
+
+<p>Statistics Canada data shows that home insurance costs in Ontario climbed 31 percent between 2021 and 2025. With premiums already rising due to increased severe weather losses (the IBC's $8.5 billion in 2024 losses gets spread across all policyholders), protecting your claims-free status is one of the few levers you have to keep your own costs in check.</p>
+
+<p>When you call us for a quote, we give you the numbers you need to make this decision. The written quote shows exactly what the repair will cost. You can then compare that number to your deductible and projected premium increase and decide whether to file or pay out of pocket. Either way, you get the same quality repair and the same warranty.</p>
+
+<h2 id="claims-process-step-by-step">The Claims Process Step by Step</h2>
+
+<p>If you decide to file a claim, here is the process from start to finish:</p>
+
+<ol>
+  <li><strong>Report the incident to your insurer.</strong> Call your insurance company or broker as soon as possible, ideally within 24 hours. Most policies require "prompt notification." You will be assigned a claim number. Reporting is not the same as filing a formal claim. You can report an incident and decide later whether to proceed.</li>
+  <li><strong>An adjuster is assigned.</strong> For a straightforward glass claim, the adjuster may handle everything by phone or email. For larger losses (multiple windows, combined damage), they may visit your property. After major weather events, adjusters are often dispatched to affected neighbourhoods.</li>
+  <li><strong>Provide documentation.</strong> The adjuster will ask for photos, a police report (if applicable), and a repair quote. See the documentation section below for what to prepare.</li>
+  <li><strong>The adjuster reviews and approves.</strong> They verify that the damage falls under a covered peril, check your deductible, and confirm the repair cost is reasonable. For glass repairs, this step is usually straightforward if you have clear photos and an itemized quote.</li>
+  <li><strong>Choose your repair company.</strong> In Ontario, you have the right to choose your own contractor. Your insurer may suggest a "preferred vendor," but you are not required to use one. You can use any licensed, insured glass repair company.</li>
+  <li><strong>Get the repair done.</strong> Schedule the repair and have the work completed. Keep all receipts and invoices.</li>
+  <li><strong>Submit the invoice for reimbursement.</strong> Your insurer pays the approved amount minus your deductible. Some insurers pay the contractor directly if arrangements are made in advance. Most reimburse the homeowner after the work is complete.</li>
+</ol>
+
+<p>The timeline from report to reimbursement is typically two to four weeks for a simple glass claim. Complex claims with multiple damage types take longer. After major weather events, the volume of claims can extend timelines to six weeks or more.</p>
+
+<h2 id="how-to-document-the-damage">How to Document the Damage</h2>
+
+<p>If the damage is significant enough to file a claim, proper documentation makes the process faster and reduces the chance of a dispute. Here is what to do immediately after the damage occurs:</p>
+
+<ol>
+  <li><strong>Photograph everything before cleanup.</strong> Take wide shots showing the full window and surrounding area, plus close-ups of the broken glass, the frame, and any damage to the wall or floor. Include photos from both inside and outside. Photograph the cause too: the tree branch, the hailstones, the pry marks from a break-in. Use your phone's timestamp feature or take a screenshot of the date and time alongside the photos.</li>
+  <li><strong>Keep broken glass pieces if safe to do so.</strong> Some adjusters want to see the type of glass and the nature of the break (impact point, crack pattern). If you need to clean up for safety, photograph the pieces first with a ruler or coin for scale.</li>
+  <li><strong>File a police report for vandalism or break-ins.</strong> Your insurer will almost certainly require a police report number for any claim involving criminal damage. Call your local police non-emergency line or file online through your municipal police service. In Toronto, non-emergency reports can be filed at torontopolice.on.ca. Keep the report number and a copy of the report for your claim file.</li>
+  <li><strong>Contact your insurer within 24 hours.</strong> Most policies require prompt notification. Even if you are not sure whether you will file a claim, report the incident. You can decide later whether to proceed with a formal claim. Reporting is not the same as filing.</li>
+  <li><strong>Get a written repair quote.</strong> Your insurer will want an itemized quote showing what needs to be replaced, the type of glass (<a href="/blog/safety-glass-ontario-building-code">tempered, laminated</a>, Low-E, standard sealed unit), the dimensions, and the cost. We provide this on every job.</li>
+  <li><strong>Secure the opening immediately.</strong> If the glass is broken and the opening is exposed, board it up or cover it with plywood. Insurers expect you to take reasonable steps to prevent further damage from rain, theft, or animals. Failing to secure the opening can jeopardize your claim, because the insurer can argue that the secondary damage (water on the floor, stolen items) was preventable.</li>
+  <li><strong>Save receipts for temporary repairs.</strong> If you pay for emergency boarding or tarping, keep the receipt. These costs are typically reimbursable as part of your claim because they fall under your duty to mitigate further loss.</li>
+  <li><strong>Do not dispose of damaged materials until the adjuster approves.</strong> Some adjusters want to inspect the damage in person or may request that you retain certain items (the broken sealed unit, the damaged frame section) until the claim is closed.</li>
+</ol>
+
+<h2 id="will-a-claim-raise-your-premiums">Will a Claim Raise Your Premiums?</h2>
+
+<p>In most cases, yes. Ontario home insurance premiums are risk-priced, and filing a claim signals higher risk to your insurer. Here is what the data shows:</p>
+
+<ul>
+  <li><strong>Single claim impact:</strong> A single wind or hail damage claim adds an estimated $386 per year to Ontario premiums, roughly a 19 to 20 percent increase. Water damage claims add approximately $376 per year. These surcharges remain on your record for three to five years, depending on the insurer.</li>
+  <li><strong>First claim forgiveness:</strong> Some insurers offer "first claim forgiveness" that absorbs one claim without a premium increase. Check if your policy includes this. If it does, it may make sense to use it strategically for a larger loss rather than a small glass repair.</li>
+  <li><strong>Claims frequency:</strong> Two or more claims within three to five years can lead to significant premium increases, surcharges, or non-renewal. Some Ontario insurers will not renew a policy after three claims within five years.</li>
+  <li><strong>Claim type matters:</strong> Weather-related claims that affect many policyholders in the same area are sometimes treated more favourably than isolated incidents like vandalism or accidental damage. Insurers recognize that widespread events are not a reflection of the individual homeowner's risk profile.</li>
+  <li><strong>Claims-free discount:</strong> Ontario insurers commonly offer 20 to 30 percent off for a clean claims record. This discount builds over three to five claims-free years. A single claim resets the clock and eliminates the discount until you rebuild your claims-free streak.</li>
+</ul>
+
+<p>Speak with your insurance broker before filing. A good broker will run the numbers with you: what is the payout after the deductible, how much will your premium increase, and how long will that increase last. The answer often points to paying out of pocket for single-window repairs and reserving your claims record for major events.</p>
+
+<h2 id="protecting-your-premiums">How to Protect Your Premiums Long Term</h2>
+
+<p>Ontario homeowners are facing steady premium increases driven by rising severe weather losses across the country. The IBC's 2024 data ($8.5 billion in insured losses nationally) shows that this trend is not slowing down. Here are practical steps to keep your own premiums as low as possible:</p>
+
+<ul>
+  <li><strong>Maintain your claims-free discount.</strong> This is the single most valuable premium reduction available to you. A claims-free discount of 20 to 30 percent on a $2,000 annual premium saves $400 to $600 per year. Protect it by paying out of pocket for small repairs.</li>
+  <li><strong>Increase your deductible.</strong> Raising your deductible from $500 to $1,000 or $2,000 lowers your annual premium. It also eliminates the temptation to file small claims that would cost you more in surcharges than you would recover.</li>
+  <li><strong>Bundle your policies.</strong> Most Ontario insurers offer a discount for bundling home and auto insurance. The savings typically range from 5 to 15 percent.</li>
+  <li><strong>Install protective features.</strong> Monitored alarm systems, water leak detectors, and deadbolt locks can qualify you for additional discounts. Some insurers also offer discounts for impact-resistant windows or storm shutters.</li>
+  <li><strong>Review your policy annually.</strong> Coverage needs change as your home ages and as your belongings change in value. An annual review with your broker ensures you are not over-insured (paying for coverage you do not need) or under-insured (exposed to a gap).</li>
+  <li><strong>Shop around at renewal.</strong> Ontario's insurance market is competitive. Getting quotes from two or three insurers at renewal keeps your current insurer honest on pricing and may reveal better rates elsewhere.</li>
+</ul>
+
+<p>The goal is to treat insurance as protection against catastrophic loss, not as a maintenance fund. Small glass repairs are maintenance. A tree through three windows during an ice storm is catastrophic. File claims for the second category and pay for the first.</p>
+
+<h2 id="condos-who-pays">Condos: Who Pays for the Glass?</h2>
+
+<p>If you live in a condominium, the question of who pays for broken window glass is more complicated than it is for a detached home. The answer depends on your condo corporation's declaration and standard unit bylaw.</p>
+
+<p>Under the Ontario Condominium Act, Section 89(1), the corporation is obligated to repair the units and common elements after damage. However, Section 89(2) allows corporations to pass certain deductibles and repair costs back to unit owners, particularly for damage to improvements or for losses that the corporation's policy does not cover.</p>
+
+<p>In practice, the responsibility depends on how your condo classifies window components:</p>
+
+<ul>
+  <li><strong>Corporation responsibility:</strong> In many Ontario condos, the glass in exterior windows is the corporation's responsibility because it is part of the building envelope and the common elements. The corporation's master insurance policy covers the repair, subject to the corporation's deductible.</li>
+  <li><strong>Unit owner responsibility:</strong> In other condos, the unit owner is responsible for the glass while the corporation handles the frame. Some condos assign all window components to the unit owner.</li>
+  <li><strong>Deductible chargebacks:</strong> Even when the corporation's insurance covers the glass, Section 89(2) of the Condominium Act allows the corporation to charge back the deductible to the unit owner whose unit sustained the damage. Corporation deductibles can run from $5,000 to $50,000 or more, which means you could face a significant bill even though the corporation's policy technically covers the loss.</li>
+</ul>
+
+<p>The key document is the standard unit bylaw. If your condo corporation has not passed a standard unit bylaw, the default rule under the Act makes the corporation responsible for repairing everything in the unit except the owner's contents and improvements.</p>
+
+<p>As a condo owner, your personal condo insurance policy (often called an HO-6 or unit owner policy) should include "loss assessment" coverage. This covers your share of the corporation's deductible when it is charged back to you. It should also include "improvements and betterments" coverage for any upgrades you have made to the unit, including upgraded windows.</p>
+
+<p>Before paying for a repair yourself or filing a claim on your personal condo insurance, check with your property manager or review your declaration and standard unit bylaw. Getting this wrong can mean paying for something the corporation should have covered, or vice versa.</p>
+
+<h2 id="glass-types-and-code">Glass Types and Building Code Considerations</h2>
+
+<p>When a window breaks and you file an insurance claim, the replacement glass must meet Ontario Building Code requirements for the specific location. This is not optional, and it can affect the cost of the repair.</p>
+
+<p>The Ontario Building Code requires <a href="/blog/safety-glass-ontario-building-code">safety glass</a> (tempered or laminated) in several locations throughout a home:</p>
+
+<ul>
+  <li>Glass in doors and sidelites</li>
+  <li>Glass within 500 mm of a door</li>
+  <li>Glass panels adjacent to stairs, ramps, and landings</li>
+  <li>Bathroom glass (shower enclosures, glass near tubs)</li>
+  <li>Glass at or below 450 mm from the floor (low panels that someone could walk into or fall against)</li>
+</ul>
+
+<p>If the broken window is in a code-required safety glass location, the replacement must be tempered or laminated glass, even if the original pane was standard annealed glass. This is relevant for insurance claims because safety glass costs more than standard glass. Your repair quote should specify the glass type and reference the code requirement. Adjusters approve safety glass upgrades when code compliance demands it.</p>
+
+<p>For a full breakdown of where safety glass is required and how to identify what you currently have, read our guide: <a href="/blog/safety-glass-ontario-building-code">Where Ontario Building Code Requires Safety Glass in Your Home</a>.</p>
+
+<p>Different <a href="/blog/types-of-window-glass-explained">types of window glass</a> also have different replacement timelines. Standard sealed units are typically available within a few business days. Tempered glass and laminated glass require custom fabrication and may take one to two weeks. Oversized panels, decorative glass, and specialty coatings can take longer. If your broken window is in a location that requires safety glass, plan for the longer lead time and use a temporary board-up in the meantime.</p>
+
+<h2 id="what-we-provide-for-your-claim">What We Provide for Your Claim</h2>
+
+<p>Whether you are filing an insurance claim or paying out of pocket, here is what LuminaSky Glass Services provides:</p>
+
+<ul>
+  <li><strong>Emergency board-up service:</strong> We secure broken windows and doors 24/7 across Toronto and the GTA. If your glass breaks overnight or during a storm, call <a href="tel:+14373448490">437-344-8490</a> and we will board up the opening to protect your home while you arrange the permanent repair. <a href="/emergency-glass-repair">Learn more about our emergency service.</a></li>
+  <li><strong>Written quote on the spot:</strong> We provide a detailed, itemized quote that you can submit directly to your insurance company. It includes the glass type, dimensions, and a breakdown of materials and labour. Adjusters process itemized quotes faster than vague estimates.</li>
+  <li><strong>Documentation support:</strong> We photograph the damage during our assessment and can provide before-and-after photos for your claim file. If your adjuster needs additional documentation (glass type verification, code compliance notes, measurement details), we provide it.</li>
+  <li><strong>Direct billing guidance:</strong> While we do not bill insurers directly, we format our quotes and invoices to include the information adjusters need: glass specifications, the reason for the specific glass type (safety glass in code-required locations, for example), and a clear cost breakdown. This speeds up reimbursement.</li>
+  <li><strong>Code-compliant replacement:</strong> Every replacement we install meets current Ontario Building Code requirements. If the broken pane was in a safety glass location, we install the correct tempered or laminated glass and note the code reference on your invoice so the adjuster can see why the specific glass type was required.</li>
+</ul>
+
+<p>Glass is measured first, custom-made to fit your exact opening, then installed. Every sealed unit we install carries a 5-year seal warranty and 2-year workmanship warranty. Hardware repairs carry a 1-year warranty. These warranties cover manufacturing defects and workmanship, not vandalism, impact damage, or physical breakage.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>If your window glass is broken right now, here is the priority order:</p>
+
+<ol>
+  <li>Photograph the damage before touching anything. Inside, outside, and the cause if visible.</li>
+  <li>If the opening is exposed, call us at <a href="tel:+14373448490">437-344-8490</a> for an emergency board-up. We are available 24/7.</li>
+  <li>File a police report if vandalism or a break-in was involved.</li>
+  <li>Check your deductible amount and run the math before deciding to file a claim. If the repair cost is less than double your deductible, paying out of pocket is almost always the better financial decision.</li>
+  <li>Call your insurance broker to discuss whether filing makes sense for your situation. Ask about first claim forgiveness and your current claims-free discount.</li>
+  <li><a href="/contact">Contact us for a written quote on the spot.</a> Whether you file a claim or pay out of pocket, you will have an itemized quote your insurer can process.</li>
+</ol>
+
+<p>If your windows are not broken but are foggy, hazy, or showing condensation between the panes, that is a seal failure, not an insurance matter. Visit our <a href="/foggy-windows">foggy window repair page</a> or our guide to <a href="/blog/exterior-window-condensation-normal">exterior window condensation</a> to learn what is happening and how we fix it.</p>
+
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. LuminaSky Glass Services handles residential and <a href="/commercial-glass-repair">commercial glass repairs</a> across Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. Available 24/7. Family-Owned Since 2024. 70+ 5-Star Google Reviews.</p>
+`,
+  },
+  {
+    slug: "safety-glass-ontario-building-code",
+    title: "Safety Glass Requirements Under the Ontario Building Code",
+    metaTitle: "Safety Glass Requirements: Ontario Building Code Guide",
+    metaDescription:
+      "Complete guide to Ontario Building Code safety glass requirements. Covers OBC Sections 9.6 and 9.8, tempered vs laminated glass, NiS spontaneous breakage, condo balcony incidents, and what homeowners need to know for replacements.",
+    excerpt:
+      "The Ontario Building Code mandates tempered or laminated safety glass in dozens of locations throughout your home, from door sidelights to balcony railings. This guide covers every OBC section that applies, the century-old science behind each glass type, the Toronto balcony incidents that changed the code, and what it all means when you need a replacement.",
+    publishedAt: "2026-11-16",
+    author: "Dan",
+    readingTime: 14,
+    tags: ["safety glass", "building code", "ontario", "tempered glass", "laminated glass", "homeowner guide", "OBC", "NiS inclusions", "balcony glass", "wired glass"],
+    sections: [
+      { id: "what-is-safety-glass", title: "What Is Safety Glass?" },
+      { id: "obc-scope", title: "OBC Scope: Which Sections Apply" },
+      { id: "history-of-safety-glass", title: "The History of Safety Glass" },
+      { id: "tempered-glass-in-detail", title: "Tempered Glass in Detail" },
+      { id: "laminated-glass-in-detail", title: "Laminated Glass in Detail" },
+      { id: "heat-strengthened-glass", title: "Heat-Strengthened Glass: The Third Option" },
+      { id: "near-doors", title: "Glass Near Doors" },
+      { id: "near-floors", title: "Glass Near the Floor" },
+      { id: "stairs-ramps-landings", title: "Near Stairs, Ramps, and Landings" },
+      { id: "bathrooms", title: "Bathrooms: Showers and Bathtub Enclosures" },
+      { id: "glass-guards-railings", title: "Glass Guards and Railings" },
+      { id: "nickel-sulfide-spontaneous-breakage", title: "Nickel Sulfide Inclusions and Spontaneous Breakage" },
+      { id: "toronto-balcony-incidents", title: "The Toronto Balcony Glass Incidents" },
+      { id: "wired-glass-phase-out", title: "Wired Glass: Why It Is Being Phased Out" },
+      { id: "window-fall-prevention", title: "Window Fall Prevention (Recent OBC Updates)" },
+      { id: "sealed-unit-longevity", title: "Sealed Unit Longevity and Safety Glass" },
+      { id: "how-to-verify-safety-glass", title: "How to Verify If Your Glass Is Safety Glass" },
+      { id: "replacing-glass-safety-locations", title: "Replacing Glass in Safety-Critical Locations" },
+      { id: "insurance-and-code-compliance", title: "Insurance and Code Compliance" },
+      { id: "get-a-quote", title: "Get a Quote" },
+    ],
+    content: `
+<p>Not all glass in your home is the same. Standard annealed glass, the kind used in most older windows, breaks into large jagged shards capable of causing deep lacerations. Safety glass is engineered to break differently: either into small, blunt granules (tempered) or to stay held together by a tough plastic interlayer (laminated). The Ontario Building Code (OBC) requires safety glass in specific locations throughout residential and commercial buildings where the risk of someone falling into, through, or against a pane is highest.</p>
+
+<p>The science behind safety glass stretches back more than 350 years, and the regulations governing its use in Ontario have been shaped by real incidents, including a wave of spontaneous balcony glass failures across Toronto high-rises that led to 16 building orders in a single year. This guide covers the full picture: the history, the specific OBC sections, every location where safety glass is mandatory, the differences between tempered, laminated, and heat-strengthened glass with real performance data, the nickel sulfide problem, the wired glass injuries that cost Ontario schools millions, and what all of it means when you need a <a href="/glass-replacement">glass replacement</a>.</p>
+
+<h2 id="what-is-safety-glass">What Is Safety Glass?</h2>
+
+<p>Safety glass is any glass product designed to reduce the risk of serious injury when it breaks. The Ontario Building Code, specifically Article 9.6.1.4, requires safety glazing in locations it designates as "hazardous." Safety glazing in Canada must comply with CAN/CGSB-12.1, the national standard for safety glass tested against human impact. The standard assigns two impact classes: Class A (higher impact resistance, tested with a larger drop height) and Class B (standard impact resistance). Both classes must break in a way that minimises the risk of serious laceration.</p>
+
+<p>The OBC recognises two main types of safety glazing for residential use:</p>
+
+<ul>
+  <li><strong>Tempered glass:</strong> Heated to roughly 650 degrees Celsius during manufacturing and then rapidly cooled with jets of air, a process called quenching. This creates high compression on the outer surfaces and tension in the interior, making the glass 4 to 5 times stronger than regular annealed glass of the same thickness. Under ASTM C1048 (the standard specification for heat-treated flat glass), fully tempered glass must achieve a minimum surface compression of 10,000 psi. When it does break, it shatters into small, roughly cube-shaped pieces with blunt edges instead of dangerous shards.</li>
+  <li><strong>Laminated glass:</strong> Two or more panes of glass bonded together with a polyvinyl butyral (PVB) interlayer, typically 0.76mm thick for residential applications. When laminated glass breaks, the fragments stick to the interlayer and the pane holds its shape. This makes it excellent for security, noise reduction, and overhead applications where falling glass would be dangerous.</li>
+</ul>
+
+<p>The difference in breakage behaviour is dramatic. Under the same load, annealed glass fails at a rate of roughly 47 per thousand panels. Tempered glass of the same thickness and size fails at approximately 1 per million panels. That gap in performance is why the building code mandates tempered or laminated glass anywhere someone might collide with a pane.</p>
+
+<h2 id="obc-scope">OBC Scope: Which Sections Apply</h2>
+
+<p>Several sections of the Ontario Building Code work together to govern safety glass requirements in residential and low-rise construction. Understanding which section applies helps you know what your installer should be referencing when they specify glass for your project.</p>
+
+<p><strong>Section 9.6.1.1 (Scope):</strong> This section establishes that Part 9 glazing requirements apply to all residential and small building construction covered by Part 9 of the OBC. That includes most single-family homes, townhouses, duplexes, and small apartment buildings up to three storeys and 600 square metres in building area.</p>
+
+<p><strong>Article 9.6.1.4 (Safety Glazing):</strong> This is the core article. It lists every "hazardous location" where safety glazing is required, including glass near doors, glass near floors, glass adjacent to stairs and ramps, glass in bathrooms, and glass in other locations where human impact is foreseeable. Each hazardous location has specific measurement criteria that determine whether a given pane falls within the requirement.</p>
+
+<p><strong>Article 9.8.8.1 (Guards):</strong> This article governs guards, including glass guards and railings on balconies, mezzanines, and elevated walkways. The guard requirements intersect with the glazing requirements because glass used as a structural guard must meet both the structural load requirements of Part 4 and the safety glazing requirements of Section 9.6. This is the article that was amended after the Toronto balcony incidents.</p>
+
+<p>The 2024 Ontario Building Code (O.Reg. 163/24), effective January 1, 2025, is the current edition. It incorporates all the post-Toronto amendments for glass guards and adds new window fall prevention requirements. If you are doing any glass work in Ontario, this is the code edition that applies.</p>
+
+<h2 id="history-of-safety-glass">The History of Safety Glass</h2>
+
+<p>The science behind safety glass is older than most people realise, and both tempered and laminated glass have origin stories rooted in accidental discovery.</p>
+
+<h3>Prince Rupert's Drops and the Birth of Tempering</h3>
+
+<p>The underlying principle of tempered glass was observed as far back as 1661 with the study of "Prince Rupert's drops." These are tadpole-shaped glass droplets formed by dripping molten glass into cold water. The rapid cooling creates extreme compression on the outer surface and tension in the interior. The bulbous end of a Prince Rupert's drop can withstand a hammer blow, but snapping the thin tail releases all that stored energy at once and the entire drop explodes into powder. This is the same principle at work in modern tempered glass: controlled surface compression creates strength, but once the tension zone is breached, the glass disintegrates completely.</p>
+
+<p>Scientists studied Prince Rupert's drops for centuries, but commercial glass tempering did not arrive until 1935, when the first patent for the modern tempering process was filed. The technology required precise control of heating and quenching that was not practical at an industrial scale until the mid-twentieth century. By the 1950s and 1960s, tempered glass was standard in automotive side windows and was making its way into building codes.</p>
+
+<h3>The Flask That Started Laminated Glass</h3>
+
+<p>Laminated glass has a more colourful origin. In 1903, French chemist Edouard Benedictus accidentally knocked a glass flask off a shelf in his laboratory. The flask cracked but held its shape instead of scattering fragments across the floor. The reason: a thin film of cellulose nitrate had dried inside the flask after a previous experiment, bonding the glass fragments to it like glue. Benedictus recognised the safety potential immediately. He filed a patent in 1909 and introduced "Triplex" branded laminated glass in 1910, initially using a gelatin interlayer between two sheets of glass.</p>
+
+<p>The first major commercial application came during World War I, when laminated glass was used in gas mask eyepieces to prevent fragments from injuring soldiers' eyes after an explosion. Automotive manufacturers adopted it for windshields in the 1920s. By 1936, American manufacturers had switched from gelatin to polyvinyl butyral (PVB), the same interlayer material used in laminated glass today. It is also the reason your car windshield spider-webs on impact instead of sending shards into the cabin.</p>
+
+<p>For a broader overview of every glass type used in residential windows, including float, tempered, laminated, Low-E coatings, and sealed units, see our companion guide: <a href="/blog/types-of-window-glass-explained">Types of Window Glass Explained</a>.</p>
+
+<h2 id="tempered-glass-in-detail">Tempered Glass in Detail</h2>
+
+<p>Tempered glass is produced by heating annealed glass to approximately 650 degrees Celsius and then rapidly cooling it with high-pressure air jets directed at both surfaces. This process, called quenching, locks the outer surfaces into compression while the interior remains in tension. The result is a pane that is 4 to 5 times stronger than annealed glass of the same thickness.</p>
+
+<p>Under ASTM C1048 (Standard Specification for Heat-Treated Flat Glass), fully tempered glass must achieve a minimum surface compression of 10,000 psi (69 MPa). This high compression is what gives tempered glass its characteristic breakage pattern: when the tension zone is breached at any point, the entire pane disintegrates into small, roughly cubic granules with blunt edges. A single tempered pane typically produces thousands of these small pieces, none large enough to cause the deep lacerations associated with annealed glass shards.</p>
+
+<p>There is an important limitation, though. Once glass has been tempered, it cannot be cut, drilled, or ground. Any attempt to modify a tempered pane after manufacturing will shatter it. This means tempered glass must be cut to its exact final dimensions before the tempering process. When you order a tempered replacement pane, the glass is measured first, custom-made to the precise dimensions of your opening, then installed. There is no trimming on site.</p>
+
+<p>Tempered glass also has a known vulnerability: spontaneous breakage caused by nickel sulfide inclusions. This is covered in detail in a <a href="#nickel-sulfide-spontaneous-breakage">later section</a>.</p>
+
+<h2 id="laminated-glass-in-detail">Laminated Glass in Detail</h2>
+
+<p>Laminated glass consists of two or more glass plies bonded together with one or more interlayers, most commonly polyvinyl butyral (PVB). The standard residential laminated configuration uses two plies of annealed glass with a 0.76mm PVB interlayer, though thicker interlayers (1.14mm, 1.52mm) are available for enhanced security or acoustic performance.</p>
+
+<p>The key safety advantage of laminated glass is post-breakage behaviour. When one or both plies crack, the fragments adhere to the PVB interlayer. The pane stays in its frame and continues to function as a barrier. This is why laminated glass is required by code in guard applications: even after breakage, the barrier remains in place and prevents falls.</p>
+
+<p>Laminated glass also offers several secondary benefits that tempered glass does not:</p>
+
+<ul>
+  <li><strong>UV filtration:</strong> The PVB interlayer blocks approximately 99% of UV radiation, reducing fading of furniture, flooring, and artwork.</li>
+  <li><strong>Sound reduction:</strong> The PVB layer dampens sound transmission. Laminated glass typically provides 3 to 5 decibels more sound reduction than monolithic glass of the same thickness.</li>
+  <li><strong>Security:</strong> Because laminated glass holds together after impact, it resists forced entry better than tempered glass, which shatters completely and leaves an open hole.</li>
+  <li><strong>Overhead safety:</strong> In skylights and overhead glazing, laminated glass prevents broken pieces from falling onto people below.</li>
+</ul>
+
+<p>Unlike tempered glass, laminated glass can be cut after manufacturing (the glass plies can be scored and snapped, and the PVB interlayer cut with a blade). This gives installers slightly more flexibility, though factory-cut laminated panels with polished edges are standard for most residential applications.</p>
+
+<h2 id="heat-strengthened-glass">Heat-Strengthened Glass: The Third Option</h2>
+
+<p>Between annealed and fully tempered glass sits a third category: heat-strengthened glass. It is produced using the same furnace and quenching process as tempered glass, but with a slower cooling rate that produces lower surface compression. Under ASTM C1048, heat-strengthened glass must achieve a surface compression between 3,500 and 7,500 psi, compared to the 10,000+ psi required for fully tempered.</p>
+
+<p>The practical differences are significant:</p>
+
+<ul>
+  <li><strong>Strength:</strong> Heat-strengthened glass is roughly twice as strong as annealed glass, compared to the 4-to-5 times strength increase of fully tempered.</li>
+  <li><strong>Breakage pattern:</strong> When heat-strengthened glass breaks, it fractures into large pieces similar to annealed glass, not into the small granules of tempered. Because of this breakage pattern, heat-strengthened glass does NOT qualify as safety glass under the building code. You cannot use it alone in a hazardous location.</li>
+  <li><strong>Spontaneous breakage:</strong> This is the decisive advantage. Heat-strengthened glass is essentially immune to spontaneous breakage caused by nickel sulfide (NiS) inclusions. The lower internal tension means that even if an NiS inclusion undergoes its phase transformation and expands, the stress is not sufficient to shatter the pane.</li>
+</ul>
+
+<p>So why does heat-strengthened glass exist if it is not safety glass on its own? Because when you laminate it, the combination provides the best of both worlds. The laminated interlayer provides the safety function (holding fragments in place after breakage), while the heat-strengthened glass provides immunity to NiS spontaneous failure. This is exactly why the OBC now requires laminated heat-strengthened glass for many guard applications, particularly balcony railings at height. The Toronto balcony incidents made the case definitively.</p>
+
+<h2 id="near-doors">Glass Near Doors</h2>
+
+<p>This is the most common safety glass requirement homeowners encounter. Under OBC Article 9.6.1.4, any glass that meets these conditions must be safety glazing:</p>
+
+<ul>
+  <li>Glass within a door panel: sidelights, door inserts, full glass doors, and decorative glass panels set into the door itself</li>
+  <li>Glass within 600mm (about 2 feet) of a door, measured horizontally from the nearest door edge to the nearest edge of the glass</li>
+  <li>Glass in a fixed panel adjacent to a door where the panel could be mistaken for an opening or a walkway</li>
+</ul>
+
+<p>The logic is straightforward. People walk into glass near doors, especially children running through a room or someone losing their balance while reaching for a handle. If that glass is standard annealed, the result can be a trip to the emergency room. A Children's Hospital study spanning 1995 to 2007 found that half of glass-table impact injuries would have been preventable or less severe if safety glass had been used. The same principle applies to door glass.</p>
+
+<p>This applies to all exterior and interior doors, including <a href="/front-door-glass">front door glass inserts</a>, patio door sidelights, French door panels, and sliding glass doors. If you are replacing a cracked sidelight or a broken door insert, the replacement must be tempered or laminated. The 600mm measurement zone around doors catches a lot of windows that homeowners do not realise are in a hazardous location: the window right beside your front door, the glass panel flanking your patio slider, or the decorative window next to your side entrance.</p>
+
+<h2 id="near-floors">Glass Near the Floor</h2>
+
+<p>Windows and glass panels that extend close to floor level are classified as hazardous locations under OBC Section 9.6. The concern is that someone could trip, stumble, or fall directly into the glass.</p>
+
+<p>The code requires safety glazing when the bottom edge of the glass is less than a specified height above the finished floor and the glass is in an area where people walk. This typically applies to:</p>
+
+<ul>
+  <li>Floor-to-ceiling windows in living rooms and bedrooms</li>
+  <li>Glass panels beside staircases that start near floor level</li>
+  <li>Large picture windows where the glass extends below knee height</li>
+  <li>Sidelights flanking entry doors that reach close to the floor</li>
+  <li>Glass panels in room dividers or partition walls</li>
+</ul>
+
+<p>Older homes often have standard annealed glass in these locations because they were built before the current code requirements. When that glass breaks and needs replacing, the new pane must meet the current safety standard, not the standard that was in effect when the house was built. This is a point that catches many homeowners off guard: the replacement glass must comply with today's code, regardless of what was originally installed. A building inspector will note this during a home inspection, and it can complicate a sale.</p>
+
+<h2 id="stairs-ramps-landings">Near Stairs, Ramps, and Landings</h2>
+
+<p>Windows and glass panels adjacent to staircases, ramps, and landings require safety glazing under OBC Article 9.6.1.4. Someone stumbling on stairs can fall sideways into a window with significant force. Standard glass in this location is a serious hazard.</p>
+
+<p>The code applies this requirement to glass that is:</p>
+
+<ul>
+  <li>Within reach of a staircase, ramp, or landing</li>
+  <li>At a height where someone falling could strike the glass</li>
+  <li>Adjacent to any change in elevation where a person's momentum could carry them into the pane</li>
+</ul>
+
+<p>Basement staircases with a window at the bottom or halfway up are a common example. So are split-level homes where a large window sits right next to a half-flight of stairs. In many older homes across the GTA, the glass at the bottom of a basement staircase is original annealed glass from the 1970s or 1980s. If you are renovating or if that glass breaks, the replacement must be safety-rated.</p>
+
+<p>Half-storey landing windows in two-storey homes are another frequently overlooked location. The window on the landing between the first and second floor often sits at a height where someone tripping on the upper stairs could fall directly into it. If that window contains a standard annealed sealed unit that has failed and <a href="/foggy-windows">gone foggy</a>, the replacement sealed unit needs to incorporate safety glass.</p>
+
+<h2 id="bathrooms">Bathrooms: Showers and Bathtub Enclosures</h2>
+
+<p>All glass in shower enclosures and bathtub surrounds must be tempered safety glass. No exceptions. This includes:</p>
+
+<ul>
+  <li>Shower doors, both hinged and sliding</li>
+  <li>Fixed glass shower panels</li>
+  <li>Glass bathtub enclosures and screens</li>
+  <li>Glass block panels used in shower surrounds (the individual blocks must meet impact requirements)</li>
+  <li>Any glass within the bathtub or shower zone, including windows that fall within the splash area</li>
+</ul>
+
+<p>Wet, soapy surfaces make slipping almost inevitable over time. Tempered glass ensures that if someone does fall into the enclosure, the glass breaks into blunt granules instead of jagged shards. Laminated glass is also acceptable, but tempered is the standard choice for shower applications because of its strength, clean breakage pattern, and ease of cleaning (no interlayer edge to trap moisture).</p>
+
+<p>If you have an older home with a glass bathtub enclosure that is not tempered, it is worth replacing proactively. This is one location where you do not want to wait for the glass to break first. A fall against annealed glass in a wet bathtub can produce deep lacerations from large shards, and the combination of water and broken glass makes evacuation dangerous.</p>
+
+<h2 id="glass-guards-railings">Glass Guards and Railings</h2>
+
+<p>Glass railings and guards on balconies, mezzanines, and interior lofts have stricter requirements than other glazing locations. Following amendments introduced after the Toronto balcony glass incidents (described below), the OBC requires glass guard panels in many applications to be laminated heat-strengthened glass rather than monolithic tempered.</p>
+
+<p>The requirement is specified in OBC Supplementary Standard SB-13, which applies Part 4 structural design requirements to glass used as a guard. Under Article 9.8.8.1, guards must resist specific horizontal loads, and the glass configuration must maintain the guard function even after breakage. The logic is straightforward: when a fully tempered glass railing panel shatters, the entire panel disintegrates and disappears within seconds. That leaves an open gap where a person can fall from height. Laminated glass, even when cracked, stays in place because the PVB interlayer holds the fragments together. The barrier remains functional even after the glass is broken.</p>
+
+<p>This is especially important for:</p>
+
+<ul>
+  <li>Balcony guards on upper floors of residential and commercial buildings</li>
+  <li>Interior loft or mezzanine railings</li>
+  <li>Glass panels along elevated walkways</li>
+  <li><a href="/commercial-glass-repair">Commercial glass railings</a> in offices, retail spaces, and restaurants</li>
+  <li>Pool fencing that uses glass panels</li>
+</ul>
+
+<p>If you need a glass railing panel replaced, the type of glass matters. A standard monolithic tempered panel may no longer meet code for your specific application. The replacement needs to match or exceed the current requirement, which in most guard applications means laminated. For balcony railings at height, the preferred configuration is laminated heat-strengthened glass, which resists both impact and NiS spontaneous breakage.</p>
+
+<h2 id="nickel-sulfide-spontaneous-breakage">Nickel Sulfide Inclusions and Spontaneous Breakage</h2>
+
+<p>One of the more unsettling phenomena in the glass industry is spontaneous breakage of fully tempered glass. A panel that has been installed for months or years can suddenly shatter with no apparent cause, often in the middle of the night or during a temperature change. The culprit, in most cases, is a microscopic nickel sulfide (NiS) inclusion trapped inside the glass during manufacturing.</p>
+
+<p>Nickel sulfide inclusions form when trace amounts of nickel (from stainless steel components in the furnace) combine with sulphur (from the raw materials) during the melting process. The resulting NiS particles are tiny, often smaller than a grain of sand. During the rapid cooling phase of tempering, these particles get locked in a high-temperature crystalline form (the alpha phase) that is unstable at room temperature. Over time, sometimes months and sometimes years, the particles slowly transform to the stable low-temperature form (the beta phase), expanding by roughly 4% as they do.</p>
+
+<p>The location and size of the inclusion determine whether breakage occurs. Research has established two critical thresholds:</p>
+
+<ul>
+  <li><strong>Inclusions larger than 55 micrometres</strong> that sit in the tension zone at the centre of the glass cause nearly all heat-soak related breakages. The tension zone is where the internal stress is highest, so any expansion from an NiS phase transformation has the greatest effect there.</li>
+  <li><strong>Inclusions larger than 450 micrometres</strong> carry a breakage risk exceeding 90%. At this size, the expansion force during phase transformation is almost always sufficient to exceed the glass's fracture threshold.</li>
+</ul>
+
+<p>Heat-soak testing is the industry's primary defence. Tempered panels are placed in a heat-soak oven and held at approximately 290 degrees Celsius for several hours. This accelerates the NiS phase transformation, causing panels with dangerous inclusions to break in the oven rather than after installation. Heat-soak testing catches a significant proportion of defective panels, but it is not a guarantee. Not all manufacturers heat-soak their glass, and the test is not required by all building codes for all applications.</p>
+
+<p>This is precisely why heat-strengthened glass is preferred over fully tempered glass in guard applications. Heat-strengthened glass, with its lower internal tension (3,500 to 7,500 psi vs 10,000+ psi), does not store enough energy for an NiS inclusion to trigger catastrophic breakage. Combined with a laminated interlayer, it provides both breakage resistance and post-failure safety.</p>
+
+<h2 id="toronto-balcony-incidents">The Toronto Balcony Glass Incidents</h2>
+
+<p>Between 2011 and 2012, Toronto experienced a wave of spontaneous balcony glass breakages across multiple high-rise condominium buildings. Tempered glass panels on balcony guards shattered without warning, sending granular glass fragments raining down onto sidewalks, patios, and parking areas below. The fragments were small and blunt (the characteristic tempered breakage pattern), but they fell from considerable heights and accumulated in public areas. Toronto Building issued 16 orders to affected properties requiring inspection and remediation.</p>
+
+<p>Investigations identified nickel sulfide inclusions as the primary cause. The affected panels were monolithic tempered glass: a single sheet of fully tempered glass with no laminated interlayer. When the NiS inclusion triggered the phase transformation, the entire panel disintegrated and there was nothing holding the fragments together. One manufacturer had supplied tempered glass panels to more than 200 high-rise condominium projects across the GTA, raising concerns about the scope of the problem.</p>
+
+<p>Ontario assembled an expert advisory panel to review the building code requirements for glass guards. The panel examined the NiS phenomenon, the adequacy of heat-soak testing, and the alternative glass configurations available. Their recommendations led directly to OBC amendments that now require laminated glass configurations for many guard applications, particularly at height. The logic: even if one lite of a laminated panel breaks due to NiS, the interlayer holds the fragments in place and the guard remains functional. No glass rains down. No gap opens. No fall hazard is created.</p>
+
+<p>These amendments are incorporated into the current 2024 Ontario Building Code (O.Reg. 163/24), effective January 1, 2025. If you live in a GTA condo with tempered balcony glass and are concerned about whether your panels meet current standards, a glass professional can assess the glass type and advise on options. Replacement guard glass in these applications is now typically laminated heat-strengthened, which addresses both the NiS risk and the post-breakage safety requirement.</p>
+
+<h2 id="wired-glass-phase-out">Wired Glass: Why It Is Being Phased Out</h2>
+
+<p>Wired glass has a grid of thin metal wire embedded inside the pane. For decades, it was the standard fire-rated glass in schools, hospitals, apartment corridors, and stairwell doors. The wire holds the glass together when it cracks from heat exposure, maintaining a barrier against flames and smoke for a rated period.</p>
+
+<p>The problem: wired glass is actually weaker than standard annealed glass. The wire creates stress concentrations at every intersection that lower the glass's impact resistance by roughly half. When someone falls into a wired glass panel, it breaks into large shards, and the embedded wire can cause deep, complex lacerations that are difficult to treat because the wire catches and tears tissue on the way through.</p>
+
+<p>The injury data from Ontario schools made the case for change. The Ontario School Boards' Insurance Exchange documented 107 wired glass injury claims between 1987 and 2000. The total cost exceeded $3 million in settlements and medical expenses. A University of Toronto expert estimated that wired glass caused roughly one injury per day in Canadian schools during the period it was in widespread use.</p>
+
+<p>As a result, wired glass has been losing its designation as an acceptable safety glazing product across North America. Modern alternatives provide the same fire resistance without the impact safety drawbacks:</p>
+
+<ul>
+  <li><strong>Fire-rated ceramic glass:</strong> Clear, wire-free glass that can achieve fire ratings up to 3 hours while also passing the human impact test (CAN/CGSB-12.1). It is significantly more expensive than wired glass but eliminates the laceration risk.</li>
+  <li><strong>Fire-rated tempered glass:</strong> Modified tempered glass products rated for fire endurance that also meet safety glazing standards. These pass both the fire test and the impact test.</li>
+  <li><strong>Fire-rated laminated glass:</strong> Laminated configurations with intumescent interlayers that expand and opacify when exposed to heat, blocking flames and radiant heat while maintaining impact safety.</li>
+</ul>
+
+<p>If you have wired glass in your home, apartment building, or <a href="/commercial-glass-repair">commercial property</a>, particularly in a door, corridor, or stairwell, consider replacing it with a modern fire-rated alternative the next time it needs attention. The safety improvement is substantial, and the replacement glass will meet both fire and impact requirements.</p>
+
+<h2 id="window-fall-prevention">Window Fall Prevention (Recent OBC Updates)</h2>
+
+<p>The 2024 OBC also includes updated requirements for window fall prevention in residential buildings. Under Article 9.8.8.1, openable windows where the sill is less than 900mm above the interior floor and the bottom of the opening is 1.8 metres or more above the exterior grade now require one of the following:</p>
+
+<ul>
+  <li>A window opening limiter that restricts the opening to 100mm or less</li>
+  <li>A guard (like a railing or bar) in front of or below the window</li>
+  <li>A sill height of at least 900mm above the finished floor</li>
+</ul>
+
+<p>Clause 9.8.8.1.(4)(b) adds a critical detail: any window opening limiter must require a tool or special knowledge to release. This is based on ASTM F2090, the standard for window fall prevention devices, and is designed so that a young child cannot defeat the limiter. The release mechanism must be something a small child would not figure out on their own.</p>
+
+<p>This applies primarily to bedrooms and living areas in upper storeys and is focused on preventing children from falling. If you are replacing a window in one of these locations, or installing a new window, the new installation must comply with these fall prevention requirements. This is separate from the safety glazing requirements, but the two often overlap: an upper-storey bedroom window that needs fall prevention hardware may also be in a hazardous glazing location that requires safety glass.</p>
+
+<h2 id="sealed-unit-longevity">Sealed Unit Longevity and Safety Glass</h2>
+
+<p>Most modern residential windows use insulated glass units (IGUs), also called sealed units: two panes of glass separated by a spacer bar and sealed around the perimeter. The space between the panes is filled with air or argon gas for improved insulation. When a sealed unit incorporates safety glass, one or both panes will be tempered or laminated.</p>
+
+<p>Sealed units do not last forever. Data from the Insulating Glass Manufacturers Alliance (IGMA) and Oak Ridge National Laboratory (ORNL) indicates that approximately 1% of sealed units will fail within 15 years. That failure rate increases over time, reaching up to 14% at 25 years. Seal failure allows moisture to enter the space between the panes, resulting in the <a href="/foggy-windows">foggy, cloudy appearance</a> that signals the unit has lost its insulating capacity.</p>
+
+<p>When a sealed unit with safety glass fails, the replacement unit must also incorporate safety glass if the location requires it. This is straightforward for a glass company that knows the code, but it is worth verifying. If your foggy window is next to a door (within 600mm), near a staircase, or close to floor level, the replacement sealed unit needs tempered or laminated glass in the appropriate pane or panes. Glass is measured first, the sealed unit is custom-made to the exact dimensions of your frame, then installed.</p>
+
+<h2 id="how-to-verify-safety-glass">How to Verify If Your Glass Is Safety Glass</h2>
+
+<p>You can usually tell whether your existing glass is tempered or laminated by checking for a small etched or printed stamp in one corner of the pane. In Canada, safety glass carries a certification mark from the Canadian General Standards Board (CGSB) or displays compliance with CAN/CGSB-12.1. You may also see the manufacturer's name, the word "tempered" or "safety," or a reference to ANSI Z97.1 (the American safety glazing standard, which is also widely accepted in Canada).</p>
+
+<p>Here are the methods you can use to identify your glass type:</p>
+
+<ul>
+  <li><strong>Corner stamp:</strong> Look at all four corners of the pane. Tempered glass almost always has a small etched or sandblasted mark. It may be subtle and hard to see without the right angle of light. Some stamps are only visible from the interior side.</li>
+  <li><strong>Edge inspection:</strong> If you can see the edge of the glass (in a door insert or exposed-edge panel), laminated glass will show a visible interlayer sandwiched between two glass plies. It looks like a thin, slightly translucent line running along the edge.</li>
+  <li><strong>Sound test:</strong> Tap the glass gently with your knuckle. Tempered glass rings with a sharper, higher-pitched sound than annealed glass. Laminated glass produces a duller, more muted thud because the PVB interlayer dampens vibration.</li>
+  <li><strong>Polarised light:</strong> If you wear polarised sunglasses and look at the glass at an angle, tempered glass often shows faint patterns of light and dark bands (called quench marks or iridescence). These are caused by the stress pattern created during the tempering process and are not visible in annealed or laminated glass.</li>
+</ul>
+
+<p>If there is no stamp and the glass is in a hazardous location, it may be older annealed glass that predates the current code. That is not an emergency on its own, but if the glass ever needs replacing, the new pane must be safety glazing. If you are selling your home, an inspector may flag non-safety glass in these locations, so it is worth knowing what you have.</p>
+
+<p>When in doubt, ask during your next glass repair or inspection. We can identify the glass type on site and advise whether an upgrade is needed.</p>
+
+<h2 id="replacing-glass-safety-locations">Replacing Glass in Safety-Critical Locations</h2>
+
+<p>When you call for a <a href="/glass-replacement">glass replacement</a>, the new glass must meet the building code requirements for that specific location. If your broken window is next to a door, near a staircase, or in a bathroom, the replacement pane needs to be safety glass, even if the original was not. This is a code requirement, not a suggestion.</p>
+
+<p>All windows sold in Canada must meet the harmonised CSA A440 / NAFS standard (formally AAMA/WDMA/CSA 101/I.S.2/A440), which covers structural performance, air leakage, and water penetration. When factory-built windows are tested and certified to this standard, they satisfy the performance requirements of OBC Section 9.6. But the glass type still needs to be correct for the location: a CSA A440-certified window with standard annealed glass cannot go in a hazardous location that requires safety glazing.</p>
+
+<p>A glass company that understands the code will specify the correct glass type as part of the measurement and ordering process. Glass is measured first, custom-made to the exact dimensions of your opening, then installed. If safety glass is required, that is factored into the order from the start. The process is the same whether you need a single tempered pane for a door insert or a laminated heat-strengthened panel for a balcony guard.</p>
+
+<p>This is one reason it matters who does the work. Installing standard annealed glass in a code-required location creates a liability for the homeowner and a safety risk for the household. It can also create problems during a future home inspection, insurance claim, or property sale. A knowledgeable installer will reference the applicable OBC sections, specify the correct glass type, and document the installation.</p>
+
+<h2 id="insurance-and-code-compliance">Insurance and Code Compliance</h2>
+
+<p>Building code compliance and home insurance intersect more often than homeowners expect. If a glass-related injury occurs in your home and the glass in that location does not meet the OBC safety glazing requirements, you could face liability issues. Insurance adjusters reviewing a claim may note whether the glass was code-compliant, and non-compliant glass in a hazardous location could affect the outcome of a claim.</p>
+
+<p>Similarly, if you are filing an <a href="/blog/home-insurance-broken-window-ontario">insurance claim for a broken window</a>, the replacement glass must meet current code. Your insurer will typically cover the cost of the code-compliant replacement, not just a like-for-like replacement with the same (possibly non-compliant) glass type that was originally installed. This is actually a benefit: if your old glass was annealed and the code now requires tempered, the upgrade to safety glass should be covered under the claim.</p>
+
+<p>When selling a home, inspection reports that flag non-safety glass in hazardous locations can slow or complicate the transaction. Buyers and their agents may request that the glass be replaced before closing. Knowing what you have, and replacing non-compliant glass proactively, avoids this friction.</p>
+
+<h2 id="get-a-quote">Get a Quote</h2>
+
+<p>If you have broken or damaged glass in any of the locations listed above, the replacement needs to be done right. We handle safety glass replacements across Toronto and the GTA, including tempered sealed units, laminated panels, <a href="/front-door-glass">door glass inserts</a>, shower enclosures, and balcony guard glass. Glass is measured first, custom-made to your exact specifications, then installed.</p>
+
+<p>Our warranties: 5-year seal warranty on sealed glass units, 2-year warranty on glass workmanship, and 1-year warranty on hardware repairs. All warranties exclude vandalism, impact damage, and physical breakage.</p>
+
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a> to get a written quote on the spot. You can also reach us through our <a href="/contact">contact page</a>. LuminaSky Glass Services is available 24/7, serving Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. 70+ 5-Star Google Reviews. Family-Owned Since 2024.</p>
+`,
+  },
+  {
+    slug: "exterior-window-condensation-normal",
+    title: "Condensation on the Outside of Your Windows? Here Is Why.",
+    metaTitle: "Exterior Window Condensation Explained for Ontario Homeowners",
+    metaDescription:
+      "Moisture on the outside of your windows is usually a good sign. Learn the physics of dew point and radiative cooling, the three types of window condensation, and when fog actually signals a failed seal.",
+    excerpt:
+      "Waking up to foggy windows on the outside can look alarming. Exterior condensation is usually a sign that your insulated glass is doing its job well. Here is a complete guide to the science behind it, the Toronto-area climate patterns that trigger it, and how to tell the difference between normal morning dew and a real problem.",
+    publishedAt: "2026-11-16",
+    author: "Dan",
+    readingTime: 12,
+    tags: ["condensation", "window glass", "toronto", "homeowner guide", "energy efficiency", "sealed units", "low-e glass", "humidity"],
+    sections: [
+      { id: "what-exterior-condensation-looks-like", title: "What Exterior Condensation Looks Like" },
+      { id: "dew-point-explained", title: "Dew Point: The Number That Decides Everything" },
+      { id: "the-physics-of-radiative-cooling", title: "The Physics of Radiative Cooling" },
+      { id: "why-it-means-your-windows-work", title: "Why It Means Your Windows Are Working" },
+      { id: "low-e-the-paradox", title: "Low-E Glass: The Condensation Paradox" },
+      { id: "argon-gas-and-sealed-unit-design", title: "Argon Gas and Sealed Unit Design" },
+      { id: "toronto-climate-and-condensation", title: "Toronto Climate and Condensation Patterns" },
+      { id: "which-windows-get-it-most", title: "Which Windows Get It Most" },
+      { id: "when-it-clears", title: "When It Clears" },
+      { id: "three-types-of-condensation", title: "Three Types of Window Condensation" },
+      { id: "interior-condensation-and-humidity", title: "Interior Condensation and Humidity Control" },
+      { id: "between-the-panes-failed-seal", title: "Between the Panes: What a Failed Seal Looks Like" },
+      { id: "sealed-unit-lifespan", title: "How Long Do Sealed Units Last?" },
+      { id: "argon-loss-over-time", title: "Argon Loss Over Time" },
+      { id: "when-to-worry", title: "When to Actually Worry" },
+      { id: "quick-reference", title: "Quick Reference: Where Is the Moisture?" },
+      { id: "what-to-do-next", title: "What to Do Next" },
+    ],
+    content: `
+<p>You wake up on a cool autumn morning, glance outside, and notice moisture covering the outer surface of your windows. The glass looks fogged over, almost like someone sprayed it with water overnight. Your first thought: something is wrong with my windows.</p>
+
+<p>In most cases, nothing is wrong at all. Exterior condensation is one of the most misunderstood window topics in residential construction. It catches homeowners off guard every year, especially those who have recently installed new high-performance windows or had their sealed units replaced. The moisture you see is actually evidence that your glass is insulating your home properly.</p>
+
+<p>This post explains the science in plain language. We will cover the physics of dew point and radiative cooling, the specific climate conditions in the Toronto area that trigger condensation season after season, the three types of window condensation and what each one means, and the clear warning signs that separate harmless morning dew from a real problem that needs repair.</p>
+
+<h2 id="what-exterior-condensation-looks-like">What Exterior Condensation Looks Like</h2>
+
+<p>Exterior condensation appears as a film of moisture or water droplets on the outside surface of the glass. It often covers the entire pane evenly, like dew on a car windshield parked overnight. You will typically notice it in the early morning, particularly during spring and autumn when overnight temperatures drop but daytime humidity stays relatively high.</p>
+
+<p>It may appear on some windows and not others. That is normal, and the reason comes down to which direction each window faces, how much shade it gets, and what type of glass is installed. We will cover all of those factors below.</p>
+
+<p>In some cases, the moisture is heavy enough to form rivulets that run down the glass, similar to what you see on a cold drink on a humid summer day. That, too, is exterior condensation and not a sign of a failed seal. The water is on the surface. You can reach out and wipe it with your finger. If you can touch the moisture, it is on the outside of the glass, and there is nothing to fix.</p>
+
+<h2 id="dew-point-explained">Dew Point: The Number That Decides Everything</h2>
+
+<p>Before getting into the physics of why your windows fog up on the outside, it helps to understand a single concept: dew point.</p>
+
+<p>The dew point is the temperature at which water vapour in the air condenses into liquid water. Air always contains some amount of moisture in the form of invisible water vapour. When the air cools, it can hold less moisture. At the dew point temperature, the air becomes fully saturated, and the excess moisture has to go somewhere. It condenses onto the nearest cold surface as liquid water.</p>
+
+<p>You already know this from everyday experience. A cold glass of water "sweats" on a warm day because the glass surface is below the dew point of the surrounding air. The glass did not create the moisture. The moisture was already in the air. The cold surface simply gave it somewhere to condense.</p>
+
+<p>Your window glass works the same way. When the outer surface of the glass drops below the dew point of the outdoor air, moisture condenses onto it. The question is: why does the glass get cold enough for that to happen?</p>
+
+<h2 id="the-physics-of-radiative-cooling">The Physics of Radiative Cooling</h2>
+
+<p>The answer is a phenomenon called radiative cooling. Every object emits infrared radiation as a function of its temperature. This is not visible light. It is heat energy radiating outward in all directions. Your window glass emits infrared radiation toward the sky all night long.</p>
+
+<p>On a clear night, the sky is a very poor reflector of that energy. Most of the infrared radiation your glass emits passes straight through the atmosphere and escapes into space. The glass loses heat faster than the surrounding air can replace it. The result: the outer surface of your glass cools to a temperature well below the ambient air temperature around it.</p>
+
+<p>How much colder can it get? Research has measured surfaces cooling as much as 10 degrees Celsius below ambient air temperature under clear skies. The net radiative cooling power of a high-emissivity surface facing a clear night sky is approximately 100 to 135 watts per square metre. That is a substantial amount of heat being radiated away from your glass every second.</p>
+
+<p>When that surface temperature drops below the dew point of the surrounding air, condensation forms. The relationship is simple: if the glass surface temperature is at or below the dew point, you get dew. If it is above the dew point, you do not.</p>
+
+<p>Cloud cover changes the equation entirely. Clouds act as an infrared blanket, reflecting some of that radiated heat back toward the ground. On overcast nights, the glass does not cool as far below ambient temperature, and condensation is less likely. That is why you see the most exterior condensation after clear, calm nights, and rarely after cloudy or rainy ones.</p>
+
+<p>Wind also plays a role. Moving air constantly replaces the thin boundary layer of cold air next to the glass surface with warmer air from the surroundings. On windy nights, the glass cannot cool as effectively because convective heat transfer from the air partially offsets the radiative losses. Calm conditions let the glass cool uninterrupted.</p>
+
+<p>One striking detail worth noting: radiative cooling can bring a surface below the freezing point even when the air temperature is above 0 degrees Celsius. This is the same mechanism that creates black ice on bridges and exposed pavement on clear autumn mornings. Your window glass is subject to the same physics, and on the right night, frost can form on the outer pane while the thermometer reads 3 or 4 degrees above zero.</p>
+
+<h2 id="why-it-means-your-windows-work">Why It Means Your Windows Are Working</h2>
+
+<p>Here is the part that surprises most homeowners. Exterior condensation is a sign that your insulated glass is performing well. Window manufacturers consistently describe it as an indicator of good thermal performance, not a defect.</p>
+
+<p>Modern double-pane and triple-pane sealed units are designed to block heat transfer between the inside and outside of your home. The insulating gas between the panes and any Low-E coating on the glass keep indoor heat inside. That means very little warmth reaches the outer pane. The outer pane stays cold, cools below the dew point more easily through radiative cooling, and moisture collects on it.</p>
+
+<p>Older single-pane windows rarely show exterior condensation. Why? Because heat from inside the home leaks straight through the glass and keeps the outer surface warm. That warmth prevents the outer surface from dropping below the dew point. But that is not a feature. That is wasted energy. According to Natural Resources Canada (NRCan), windows can account for up to 25% of total heat loss in a home. If your old windows never fogged on the outside, it is because they were letting your heating dollars escape through the glass all night.</p>
+
+<p>When homeowners upgrade their windows or have sealed units replaced with higher-performance glass, exterior condensation often appears for the first time. This is one of the most common post-installation questions we receive. The answer is always the same: the new glass is doing exactly what it was designed to do. It is keeping heat inside your home so effectively that the outer pane gets cold enough to collect dew.</p>
+
+<p>Think of it this way. A well-insulated wall does not feel warm on the outside during winter. Neither should a well-insulated window. The exterior condensation is proof that the thermal barrier between inside and outside is working.</p>
+
+<h2 id="low-e-the-paradox">Low-E Glass: The Condensation Paradox</h2>
+
+<p>Low-E (low emissivity) coatings deserve their own section because they create a counterintuitive situation. Installing Low-E glass to improve your home's energy efficiency can actually increase exterior condensation. Understanding why requires a closer look at how the coating works.</p>
+
+<p>A Low-E coating is a microscopically thin metallic oxide layer applied to one surface of the glass inside the sealed unit. Its primary job is to reflect infrared heat energy while allowing visible light to pass through. In winter, the coating reflects heat from your furnace back into the room instead of letting it pass through the glass and escape outside. In summer, it reflects solar heat away from your home.</p>
+
+<p>A standard clear double-pane sealed unit has a centre-of-glass U-value of roughly 0.48 W/m2K. Adding a Low-E coating drops that to about 0.33 W/m2K, a roughly 30% improvement in thermal performance. That is a significant gain in insulating value.</p>
+
+<p>But here is the paradox. Because the Low-E coating is so effective at blocking heat from reaching the outer pane, the outer pane stays much colder than it would on a standard clear unit. A colder outer pane drops below the dew point more easily. The result: more exterior condensation, not less.</p>
+
+<p>Homeowners sometimes interpret this increased condensation as a problem with the new glass. It is the opposite. The Low-E coating is working exactly as intended. The condensation is a visible side effect of superior thermal insulation. For a deeper look at how different types of glass perform in residential windows, see our guide on <a href="/blog/types-of-window-glass-explained">types of window glass explained</a>.</p>
+
+<p>One note: Low-E coating is an upgrade option, not a standard feature on every sealed unit. When ordering replacement glass, discuss this option with your technician based on the window's orientation and your priorities.</p>
+
+<h2 id="argon-gas-and-sealed-unit-design">Argon Gas and Sealed Unit Design</h2>
+
+<p>Argon gas fill is another upgrade that improves a sealed unit's insulating performance. Argon is an inert, non-toxic gas that is about 33 to 34% less thermally conductive than air. When the gap between the panes of a sealed unit is filled with argon instead of air, heat transfers more slowly across the gap. The practical result is a 5 to 15% improvement in U-value, depending on the unit's overall design.</p>
+
+<p>The optimal gap width for argon-filled units is about 11 to 12 mm. This is slightly narrower than the ideal gap for air-filled units, which is closer to 13 mm. The narrower gap works because argon's lower conductivity means less convective circulation within the gas space. At the right gap width, the gas stays relatively still instead of forming convection currents that transfer heat.</p>
+
+<p>Like Low-E coatings, argon fill contributes to a colder outer pane and therefore more exterior condensation on the right mornings. And like Low-E, it is an upgrade option to discuss with your technician when ordering replacement sealed units, not something that comes standard on every unit.</p>
+
+<p>The combined effect of Low-E coating and argon gas is a sealed unit that keeps your home measurably warmer in winter and cooler in summer. That same thermal performance keeps the outer pane colder at night, making exterior condensation more likely. It is a worthwhile trade-off for the energy savings and comfort you gain.</p>
+
+<h2 id="toronto-climate-and-condensation">Toronto Climate and Condensation Patterns</h2>
+
+<p>The Greater Toronto Area's climate creates ideal conditions for exterior condensation during certain seasons. Here is what the numbers look like and why the pattern repeats so predictably each year.</p>
+
+<p>In September, the average dew point in Toronto sits around 12 degrees Celsius. Overnight temperatures frequently drop into the low single digits while humidity remains moderate to high. The gap between the glass surface temperature (which can be 10 degrees Celsius below air temperature on a clear night) and the dew point closes quickly. Once the glass surface temperature crosses below the dew point, condensation forms.</p>
+
+<p>Consider a typical September night in the GTA. The air temperature drops to about 8 degrees Celsius overnight. The dew point is 12 degrees Celsius. On a clear, calm night, the outer surface of a well-insulated window cools by radiative losses to roughly 0 degrees Celsius, well below the dew point. Heavy condensation forms. In fact, frost is possible in that scenario, even though the air temperature is comfortably above freezing.</p>
+
+<p>By December, the average dew point drops to roughly negative 4 degrees Celsius. The air is much drier in winter, so exterior condensation becomes less common. Instead, the condensation problem shifts indoors. Dry outdoor air and sealed-up homes create a large humidity difference between inside and outside, and moisture from cooking, showers, and daily living condenses on the cooler interior glass surface.</p>
+
+<p>The peak seasons for exterior condensation in the GTA are April through May and September through October. These transitional months bring the right combination of cool nights, moderate humidity, and clear skies. Environment Canada records indicate Toronto averages about 35 fog days per year, most concentrated in autumn and early spring. That fog frequency tracks closely with when homeowners notice exterior condensation on their windows.</p>
+
+<p>Lake Ontario adds another layer. Homes near the lakeshore experience higher overnight humidity than homes further inland. The lake moderates temperatures and adds moisture to the air, creating conditions where exterior condensation can be heavier and more persistent along the waterfront compared to neighbourhoods just a few kilometres north.</p>
+
+<h2 id="which-windows-get-it-most">Which Windows Get It Most</h2>
+
+<p>Not every window in your home will show exterior condensation at the same time. Several factors determine which ones are more likely to fog up on any given morning:</p>
+
+<ul>
+  <li><strong>North-facing and east-facing windows:</strong> These receive the least direct sunlight in the morning, so the glass stays cold longer. South and west-facing windows warm up faster after sunrise and clear their condensation sooner. If you notice condensation lingering on the north side of the house while the south side is already dry, that is simply a matter of sun exposure.</li>
+  <li><strong>Windows shaded by trees, fences, or neighbouring buildings:</strong> Anything that blocks the morning sun delays the warming of the outer pane. Shade from evergreen trees can extend the condensation period by an hour or more. Deciduous trees that have dropped their leaves offer less shade, which is why you may notice a change in condensation patterns between summer and autumn.</li>
+  <li><strong>Newly installed high-performance glass:</strong> If you recently had your sealed units replaced or upgraded to Low-E glass, the improved insulation means less heat reaches the exterior surface. Exterior condensation often appears for the first time after an upgrade, and it can be alarming if you are not expecting it. It is not a defect in the new glass.</li>
+  <li><strong>Ground-floor windows near gardens or lawns:</strong> Vegetation and moist soil raise the humidity in the microclimate right around those windows. A garden bed directly below a window can noticeably increase dew formation on that pane compared to a window above a driveway or paved walkway.</li>
+  <li><strong>Windows facing open sky:</strong> A window that "sees" a wide expanse of open sky radiates heat more freely than one partially sheltered by an overhang or neighbouring roofline. More sky exposure means more radiative cooling and more condensation.</li>
+  <li><strong>Bedroom windows:</strong> In many homes, bedrooms are kept cooler than living areas, especially at night. Less indoor heat near the window means even less warmth reaching the outer pane, which can make bedroom windows slightly more prone to exterior condensation than windows in heated living spaces.</li>
+</ul>
+
+<p>If you notice condensation on some windows but not others, check whether the dry windows face south or west, sit in direct morning sun, or are sheltered by an overhang. That difference in exposure explains the uneven pattern almost every time.</p>
+
+<h2 id="when-it-clears">When It Clears</h2>
+
+<p>Exterior condensation is temporary. Once the sun hits the glass or the air temperature rises above the dew point, the moisture evaporates. On most mornings in the Toronto area, it clears within one to two hours of sunrise.</p>
+
+<p>You do not need to wipe it off. You do not need to treat the glass with any coating or spray. The moisture will return on the next cool, clear night and disappear again the following morning. This cycle is completely normal and does not damage the glass, the seal, or the frame. No special maintenance is required.</p>
+
+<p>Some products are marketed as anti-condensation sprays for window glass. These are unnecessary for exterior condensation. The moisture is harmless and temporary, and applying coatings to the outer pane of a sealed unit can interfere with the glass's optical properties or leave residue that attracts dirt.</p>
+
+<h2 id="three-types-of-condensation">Three Types of Window Condensation</h2>
+
+<p>The location of the moisture tells you everything you need to know. There are three distinct types of window condensation, and they mean very different things. Learning to distinguish between them can save you from unnecessary worry, or alert you to a problem that does need attention.</p>
+
+<p><strong>1. Exterior condensation (outside surface of the glass)</strong></p>
+<p>Moisture on the outer pane, the side facing the weather. Caused by the glass cooling below the outdoor dew point through radiative cooling. This is normal. It is a sign of well-insulated glass doing its job. The condensation clears on its own as the morning warms up. No action is needed, and no repair is required.</p>
+
+<p><strong>2. Interior condensation (inside surface of the glass)</strong></p>
+<p>Moisture on the inner pane, the side you can touch from inside your home. This means the indoor humidity is too high relative to the glass surface temperature. It is most common in winter when homes are sealed up and moisture from cooking, showers, laundry, and breathing accumulates indoors. The fix is better ventilation and humidity control, which we cover in the next section.</p>
+
+<p><strong>3. Condensation between the panes</strong></p>
+<p>Moisture trapped inside the sealed unit, between the two or three layers of glass. You cannot wipe it from either side. This is not a humidity issue or a temperature issue. It means the seal around the glass unit has failed, allowing moist air to enter the space where insulating gas used to be. The unit has lost much of its thermal performance and needs to be replaced. We cover this in detail in the section on <a href="#between-the-panes-failed-seal">failed seals</a>.</p>
+
+<p>The finger test is the simplest diagnostic. Go to the window showing moisture. Can you touch the water and wipe it away from the outside? Exterior condensation. Can you touch it from the inside? Interior condensation. If you cannot reach the moisture from either side, it is between the panes, and that unit needs replacing.</p>
+
+<h2 id="interior-condensation-and-humidity">Interior Condensation and Humidity Control</h2>
+
+<p>While exterior condensation is harmless, interior condensation can lead to real problems if left unchecked. Understanding the humidity guidelines and practical steps to manage moisture in your home is worth the effort.</p>
+
+<p>Health Canada recommends maintaining indoor relative humidity between 30% and 50%. This range balances comfort, health, and building protection. Below 30%, the air becomes uncomfortably dry and can irritate respiratory passages, dry out skin, and cause static electricity. Above 50%, excess moisture promotes mould growth, dust mite populations, and condensation on cool surfaces including window glass.</p>
+
+<p>In very cold weather, the Canada Mortgage and Housing Corporation (CMHC) advises that you may need to drop below 30% to prevent condensation from forming on window glass. When outdoor temperatures plunge to negative 20 or negative 30 degrees Celsius, even a well-insulated window's inner surface gets cold enough that moderate indoor humidity will condense on it.</p>
+
+<p>Persistent interior condensation creates the conditions for mould growth on window frames, sills, and surrounding drywall. Health Canada states that mould growth in a home may pose a health hazard, and Canadian health surveys have found a strong correlation between dampness, mould, and respiratory disease.</p>
+
+<p>Practical steps to manage indoor humidity in winter:</p>
+
+<ul>
+  <li>Run bathroom exhaust fans during and for 15 to 20 minutes after every shower or bath.</li>
+  <li>Use the range hood exhaust fan while cooking, especially when boiling water or using the oven.</li>
+  <li>Open a window briefly (even for 5 to 10 minutes) each day to exchange humid indoor air for drier outdoor air.</li>
+  <li>Use a dehumidifier in basements or laundry areas where moisture tends to accumulate.</li>
+  <li>Make sure your dryer vents to the outside, not into the house.</li>
+  <li>Keep furniture and curtains pulled slightly away from windows so air can circulate along the glass surface.</li>
+  <li>If you use a humidifier, monitor the humidity level with a hygrometer and do not let it climb above 50%.</li>
+</ul>
+
+<p>One benefit of energy-efficient windows: NRCan notes that ENERGY STAR qualified windows keep the inner glass surface warmer than standard windows, which allows a higher indoor humidity level before condensation occurs. Upgrading your sealed units can actually reduce your risk of interior condensation and the mould that follows.</p>
+
+<p>If you are seeing mould around your window frames, the problem is not the glass itself. It is the humidity level in the room. Address the ventilation issue first. If mould has already established itself, clean it and then control the moisture source to prevent it from returning.</p>
+
+<h2 id="between-the-panes-failed-seal">Between the Panes: What a Failed Seal Looks Like</h2>
+
+<p>Condensation between the panes is the one type that does signal a real problem. If you see moisture, fog, or a milky haze trapped inside the sealed unit where you cannot reach it from either side, the perimeter seal has failed.</p>
+
+<p>A sealed glass unit consists of two or three panes of glass separated by a spacer bar around the edges. The spacer contains a desiccant (a moisture-absorbing material) and the entire assembly is sealed with butyl and polysulphide or silicone sealant. The space between the panes is filled with air or argon gas at the factory, and the seal keeps that gas in and moisture out.</p>
+
+<p>When the seal breaks down, moist outdoor air gradually enters the unit. The desiccant absorbs moisture for a while, but once it is saturated, moisture starts condensing on the inner surfaces of the glass. At first you may notice a slight haze that comes and goes. Over time, the fogging becomes more persistent and more visible until it is obvious on most days.</p>
+
+<p>A failed seal also means the insulating gas has escaped. For argon-filled units, this means a measurable drop in thermal performance. Even for air-filled units, the constant exchange of humid air through the broken seal degrades the unit's ability to insulate. For more on what foggy windows mean and how the problem develops, see our detailed page on <a href="/foggy-windows">foggy window repair</a>.</p>
+
+<p>The important thing to know: a failed sealed unit does not usually mean you need a new window. In most cases, only the glass needs replacing, not the frame. Glass is measured first, custom-made to your exact opening dimensions, then installed into your existing frame. You keep your frame, your hardware, and your trim. Visit our <a href="/glass-replacement">glass replacement</a> page for more information on the process.</p>
+
+<h2 id="sealed-unit-lifespan">How Long Do Sealed Units Last?</h2>
+
+<p>When homeowners see condensation between the panes, the common fear is that the whole window is finished and they are facing a major expense. Understanding typical sealed unit lifespans helps put the situation in perspective.</p>
+
+<p>A major field study conducted by Oak Ridge National Laboratory (ORNL) tracked 10,944 insulated glass units over time and found a seal failure rate of just 1% at 15 years. A second study of over 14,000 units confirmed similar numbers. After 25 years, 80% of the buildings in the study had experienced zero seal failures across all their windows.</p>
+
+<p>The practical planning range for a quality sealed unit is 20 to 25 years. Some last longer, some fail sooner. The variables that affect lifespan include the quality of the spacer system, the amount of direct UV exposure the unit receives, the degree of thermal cycling (the daily expansion and contraction from temperature swings), and the quality of the original factory seal.</p>
+
+<p>South-facing and west-facing windows tend to experience the most thermal stress because they absorb the most solar heat during the day. This repeated heating and cooling cycle puts more strain on the seal over time. North-facing windows, by contrast, experience less extreme temperature swings and their seals tend to last longer.</p>
+
+<p>If one sealed unit in your home fails, it does not mean the rest are about to follow. Each unit ages independently based on its own exposure conditions. It is common to replace one or two failed units while the rest of the windows in the house remain perfectly functional for years or even decades longer. For more on what your home insurance may or may not cover when glass needs replacing, see our post on <a href="/blog/home-insurance-broken-window-ontario">home insurance and broken windows in Ontario</a>.</p>
+
+<h2 id="argon-loss-over-time">Argon Loss Over Time</h2>
+
+<p>If your sealed units contain argon gas fill, it is worth understanding how the gas behaves over the years. Argon does not stay at 100% concentration indefinitely. It leaks out through the seal at a rate of approximately 1% per year. This is a normal characteristic of sealed glass units, not a defect.</p>
+
+<p>At that rate, a sealed unit retains about 85% of its original argon fill after 15 years and about 75% after 25 years. Industry guidance suggests that thermal performance begins to decline noticeably once the argon concentration drops below about 80%. At that point, the unit still insulates better than a plain air-filled unit, but the advantage is diminishing.</p>
+
+<p>This gradual argon loss does not mean the seal has failed. A failed seal allows rapid air and moisture exchange, which shows up as visible fogging between the panes. Slow argon diffusion through an intact seal is invisible. You will not see any condensation or fogging from argon loss alone. The only sign is a gradual, subtle decrease in thermal performance that you are unlikely to notice on any single day.</p>
+
+<p>When a sealed unit with argon fill does eventually need replacement due to age or seal failure, the new unit can be ordered with fresh argon fill. Discuss this option with your technician when ordering replacement glass.</p>
+
+<h2 id="when-to-worry">When to Actually Worry</h2>
+
+<p>Exterior condensation by itself is not a problem. But it is worth paying attention to what else is happening with your windows. Here are the situations that do need attention:</p>
+
+<ul>
+  <li><strong>Fog between the panes that never clears:</strong> This is a failed seal. The sealed unit needs to be replaced. The good news: you typically do not need to replace the entire window. The glass is measured first, custom-made to your exact dimensions, then installed into your existing frame. Visit our <a href="/foggy-windows">foggy window repair</a> page for more information.</li>
+  <li><strong>Persistent interior condensation with mould growth:</strong> If moisture on the inside surface of the glass is constant and you see mould forming around the frame or sill, you have a ventilation problem that needs to be addressed before it causes structural damage. Keep indoor humidity between 30% and 50% as Health Canada recommends, and run exhaust fans after cooking and showering.</li>
+  <li><strong>Condensation plus visible damage to the frame:</strong> If you see moisture combined with rotting wood, warped vinyl, or crumbling caulking, the frame may need repair or the window may need full replacement.</li>
+  <li><strong>Exterior condensation that persists all day:</strong> True exterior dew clears once the glass warms up. If moisture stays on the outer surface throughout the day, it may actually be between the panes, not on the outside. Run your finger along the outer glass. If the moisture is on the surface, it is exterior condensation. If you cannot touch it, it is inside the sealed unit and the seal has failed.</li>
+  <li><strong>Condensation on only one pane in a row of identical windows:</strong> If all your windows are the same age and type, but one consistently fogs between the panes while the others do not, that one unit has likely failed. The others are fine. Only the failed unit needs replacing.</li>
+  <li><strong>Water pooling on the sill or running down the wall:</strong> A small amount of condensation dripping off the glass is normal during heavy dew. But if water is pooling inside the window frame, running down the interior wall, or staining the drywall below the window, there may be a leak in the frame, the weatherstripping, or the flashing above the window. That is a different issue from condensation and should be inspected.</li>
+</ul>
+
+<h2 id="quick-reference">Quick Reference: Where Is the Moisture?</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Location</th>
+      <th>Cause</th>
+      <th>Action Needed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Outside surface</td>
+      <td>Glass cooled below outdoor dew point through radiative cooling (up to 10 degrees Celsius below air temperature on clear nights)</td>
+      <td>None. Normal and temporary. Sign of good insulation. Clears within 1 to 2 hours of sunrise.</td>
+    </tr>
+    <tr>
+      <td>Inside surface</td>
+      <td>Indoor humidity too high relative to glass surface temperature. Most common in winter.</td>
+      <td>Improve ventilation. Run exhaust fans. Keep humidity between 30% and 50% per Health Canada guidelines.</td>
+    </tr>
+    <tr>
+      <td>Between the panes</td>
+      <td>Failed seal on the sealed unit. Average sealed unit lifespan is 20 to 25 years. ORNL data shows 1% failure rate at 15 years.</td>
+      <td><a href="/glass-replacement">Replace the sealed glass unit</a>. Frame can usually stay. Glass is measured, custom-made, then installed.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="what-to-do-next">What to Do Next</h2>
+
+<p>If your windows show exterior condensation on cool mornings, there is nothing to fix. Your glass is insulating properly, and the dew will clear on its own within an hour or two of sunrise. This is especially common after upgrading to Low-E glass or argon-filled sealed units, and it is a sign that your investment in better glass is paying off.</p>
+
+<p>If you are seeing fog between the panes, or persistent moisture on the interior that is causing mould or water damage, that is a different situation entirely. <a href="/foggy-windows">Foggy sealed units</a> can be replaced without removing the frame. We measure on site, order custom glass to your exact dimensions, and install it into your existing frame. The process typically takes two visits: one to measure and one to install. Every sealed unit we install carries a 5-year seal warranty and a 2-year glass workmanship warranty. Hardware repairs carry a 1-year warranty. All warranties exclude vandalism, impact damage, and physical breakage.</p>
+
+<p>Not sure which type of condensation you are dealing with? Send us a photo or call <a href="tel:+14373448490">437-344-8490</a>. You can also reach us at <a href="mailto:service@luminasky.com">service@luminasky.com</a>. We are available 24/7 and can usually tell from a photo whether you need service or just reassurance.</p>
+
+<p>LuminaSky Glass Services. Family-Owned Since 2024. 70+ 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
