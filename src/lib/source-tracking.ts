@@ -143,3 +143,19 @@ export function tagWhatsAppHref(href: string): string {
     return href;
   }
 }
+
+/**
+ * Which phone number this visitor should see. Set in Vercel:
+ *   NEXT_PUBLIC_PHONE_ADS  shown to visitors who came from a Google ad
+ *   NEXT_PUBLIC_PHONE_WEB  shown to visitors from Google search and other sites
+ * Google Maps, Facebook and direct visitors keep the main number. Empty = main number.
+ */
+export function trackingPhone(): string | null {
+  const sd = getSourceData();
+  const s = (sd.source || "").toLowerCase();
+  const ads = process.env.NEXT_PUBLIC_PHONE_ADS || "";
+  const web = process.env.NEXT_PUBLIC_PHONE_WEB || "";
+  if (sd.gclid || s.startsWith("google ads")) return ads || null;
+  if (s.includes("google organic") || s.includes("bing organic")) return web || null;
+  return null;
+}

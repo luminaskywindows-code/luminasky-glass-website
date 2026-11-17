@@ -5,6 +5,8 @@ import Script from "next/script";
 const GA_ID = "G-HXCR5SS2S5";
 const AW_ID = "AW-17856467818";
 const AW_PHONE_LABEL = "AW-17856467818/_DtwCJ_CsaodEOqm0MJC";
+// Ad visitors see the ads tracking number (SourceTracker), so Google's call tracking must look for that number
+const AW_PHONE = (process.env.NEXT_PUBLIC_PHONE_ADS || "437-344-8490").replace(/[^\d-]/g, "");
 
 export function GtagInit() {
   return (
@@ -14,7 +16,7 @@ export function GtagInit() {
         strategy="lazyOnload"
       />
       <Script id="gtag-init" strategy="lazyOnload">
-        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');gtag('config','${AW_ID}');gtag('config','${AW_PHONE_LABEL}',{'phone_conversion_number':'437-344-8490'});`}
+        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');gtag('config','${AW_ID}');gtag('config','${AW_PHONE_LABEL}',{'phone_conversion_number':'${AW_PHONE}'});`}
       </Script>
     </>
   );
