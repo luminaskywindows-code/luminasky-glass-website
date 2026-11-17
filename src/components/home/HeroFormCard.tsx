@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
+import { sendLeadToHub } from "@/lib/hub-lead";
 const SERVICE_OPTIONS = [
   "Foggy Glass Repair",
   "Window Crank / Hardware Repair",
@@ -121,6 +122,7 @@ export function HeroFormCard() {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
+      sendLeadToHub({ name: formData.name, phone: formData.phone, email: (formData as any).email || "", service: formData.service, message: formData.message });
       setSubmitStatus("success");
       setFormData(INITIAL);
       setErrors({});

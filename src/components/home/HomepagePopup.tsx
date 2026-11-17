@@ -5,6 +5,7 @@ import { CheckCircle2, X } from "lucide-react";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 import { PHONE, PHONE_HREF, WINTER_READY_ENABLED } from "@/lib/constants";
 
+import { sendLeadToHub } from "@/lib/hub-lead";
 const GENERIC_ISSUE_OPTIONS = [
   "Foggy Glass Repair",
   "Broken Window",
@@ -592,6 +593,7 @@ export function HomepagePopup() {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
+      sendLeadToHub({ name: formData.name, phone: formData.phone, email: (formData as any).email || "", service: formData.issue, message: formData.issue });
       setSubmitStatus("success");
       storageSet("popup-form-submitted", "true");
       setFormData(INITIAL);

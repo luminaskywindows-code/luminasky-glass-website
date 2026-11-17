@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { SERVICES } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
+import { sendLeadToHub } from "@/lib/hub-lead";
 interface FormData {
   fullName: string;
   phone: string;
@@ -119,6 +120,7 @@ export function ContactForm() {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
+      sendLeadToHub({ name: formData.fullName, phone: formData.phone, email: (formData as any).email || "", service: formData.service, message: formData.message });
       setSubmitStatus("success");
       setFormData(INITIAL);
       setErrors({});

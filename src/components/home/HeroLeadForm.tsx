@@ -6,6 +6,7 @@ import { CheckCircle2, Phone } from "lucide-react";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 
+import { sendLeadToHub } from "@/lib/hub-lead";
 const SERVICE_OPTIONS = [
   "Foggy Glass Repair",
   "Window Crank / Hardware Repair",
@@ -123,6 +124,7 @@ export function HeroLeadForm() {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
+      sendLeadToHub({ name: formData.name, phone: formData.phone, email: (formData as any).email || "", service: formData.service, message: (formData as any).description });
       setSubmitStatus("success");
       setFormData(INITIAL);
       setErrors({});

@@ -8,6 +8,7 @@ import { Phone, Mail, Wrench, Droplets, DoorOpen, Paintbrush, Wind, Sun, Buildin
 import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
+import { sendLeadToHub } from "@/lib/hub-lead";
 // ─── Video embed URL (paste YouTube/Vimeo embed URL here) ───
 const VIDEO_EMBED_URL = "";
 
@@ -164,6 +165,7 @@ export default function PropertyManagersPage() {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
+      sendLeadToHub({ name: `[Property Manager] ${formData.fullName}`, phone: formData.phone, email: (formData as any).email || "", service: "Property Management Inquiry", message: formData.message });
       setSubmitStatus("success");
       setFormData(INITIAL);
       setErrors({});

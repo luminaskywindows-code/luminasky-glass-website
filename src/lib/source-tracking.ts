@@ -22,7 +22,7 @@ interface StoredSource {
 }
 
 function deriveSource(data: Omit<SourceData, "source">): string {
-  if (data.gclid) return "Google Ads";
+  if (data.gclid) return data.utm_campaign ? `Google Ads / ${data.utm_campaign}` : "Google Ads";
   if (data.fbclid) return "Meta Paid";
 
   if (data.utm_source) {
@@ -110,5 +110,36 @@ export function getSourceData(): SourceData {
     return stored.first;
   } catch {
     return fallback;
+  }
+}
+
+/**
+ * Short code added to WhatsApp messages so the office can tell where the visitor came from.
+ * A = Google ad (plus campaign), S = Google search, M = Google Maps / Business Profile,
+ * F = Facebook or Instagram, W = everything else (direct, other sites).
+ */
+export function getSourceCode(): string {
+  const sd = getSourceData();
+  const s = (sd.source || "").toLowerCase();
+  let code = "W";
+  if (sd.gclid || s.startsWith("google ads")) code = "A";
+  else if (s.includes("business profile")) code = "M";
+  else if (s.includes("google organic")) code = "S";
+  else if (s.includes("meta") || sd.fbclid) code = "F";
+  const camp = (sd.utm_campaign || "").replace(/[^a-z0-9-]/gi, "").slice(0, 12);
+  return code === "A" && camp ? `A-${camp}` : code;
+}
+
+/** Adds the source code to the text of a wa.me link. */
+export function tagWhatsAppHref(href: string): string {
+  try {
+    const u = new URL(href);
+    if (!/wa\.me$|whatsapp\.com$/.test(u.hostname)) return href;
+    const text = u.searchParams.get("text") || "Hi, I'd like a quote";
+    if (/\[[A-Z](-[a-z0-9-]+)?\]$/i.test(text)) return href;
+    u.searchParams.set("text", `${text} [${getSourceCode()}]`);
+    return u.toString();
+  } catch {
+    return href;
   }
 }
