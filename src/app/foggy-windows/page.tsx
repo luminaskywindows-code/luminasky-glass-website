@@ -175,6 +175,12 @@ export const metadata: Metadata = {
   description:
     "Foggy or cloudy windows? We replace the sealed glass unit and keep your frame. 5-year seal warranty, 2-year workmanship. Serving the GTA. 437-344-8490.",
   alternates: { canonical: "/foggy-windows" },
+  openGraph: {
+    title: "Foggy Window Repair Toronto | Replace Glass, Keep Frame | LuminaSky",
+    description:
+      "Foggy or cloudy windows? We replace the sealed glass unit and keep your frame. 5-year seal warranty, 2-year workmanship. Serving the GTA.",
+    url: "/foggy-windows",
+  },
 };
 
 export default function FoggyWindowsPage() {

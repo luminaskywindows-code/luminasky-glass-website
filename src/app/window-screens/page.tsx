@@ -114,6 +114,12 @@ export const metadata: Metadata = {
   description:
     "Torn, bent or missing window screens? LuminaSky repairs and replaces window and patio door screens across the GTA. Call 437-344-8490.",
   alternates: { canonical: "/window-screens" },
+  openGraph: {
+    title: "Window Screen Repair Toronto & Replacement | LuminaSky",
+    description:
+      "Torn, bent or missing window screens? LuminaSky repairs and replaces window and patio door screens across the GTA.",
+    url: "/window-screens",
+  },
 };
 
 export default function WindowScreensPage() {

@@ -36,6 +36,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post.publishedAt,
       ...(post.updatedAt && { modifiedTime: post.updatedAt }),
       authors: [post.author],
+      images: [
+        {
+          url: post.coverImage
+            ? `${SITE_URL}${post.coverImage}`
+            : `${SITE_URL}/og-image.jpg`,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
     },
   };
 }

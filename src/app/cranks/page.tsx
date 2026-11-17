@@ -31,6 +31,12 @@ export const metadata: Metadata = {
   description:
     "Broken window crank? We repair and replace casement cranks, operators and handles across the GTA. Most repairs same day. 1-year warranty.",
   alternates: { canonical: "/cranks" },
+  openGraph: {
+    title: "Window Crank Repair Toronto | Casement & Awning | LuminaSky",
+    description:
+      "Broken window crank? We repair and replace casement cranks, operators and handles across the GTA. Most repairs same day. 1-year warranty.",
+    url: "/cranks",
+  },
 };
 
 /* ── Data ── */

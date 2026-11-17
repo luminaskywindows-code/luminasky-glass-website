@@ -158,6 +158,12 @@ export const metadata: Metadata = {
   description:
     "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 5-Year Warranty. Call 437-344-8490.",
   alternates: { canonical: "/front-door-glass" },
+  openGraph: {
+    title: "Front Door Glass Replacement Toronto | LuminaSky",
+    description:
+      "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 5-year warranty.",
+    url: "/front-door-glass",
+  },
 };
 
 export default function FrontDoorGlassPage() {

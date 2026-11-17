@@ -160,6 +160,12 @@ export const metadata: Metadata = {
   description:
     "Commercial glass repair in Toronto and the GTA. Storefront glass, commercial doors, partition walls, 24/7 emergency board-up. 437-344-8490.",
   alternates: { canonical: "/commercial-glass-repair" },
+  openGraph: {
+    title: "Commercial Glass Repair Toronto | Storefronts & Offices | LuminaSky",
+    description:
+      "Commercial glass repair in Toronto and the GTA. Storefront glass, commercial doors, partition walls, 24/7 emergency board-up.",
+    url: "/commercial-glass-repair",
+  },
 };
 
 export default function CommercialGlassRepairPage() {

@@ -122,6 +122,12 @@ export const metadata: Metadata = {
   description:
     "Full window replacement for Toronto and Vaughan homes. We replace old, drafty and failing windows. Written quote on the spot. Licensed. 437-344-8490.",
   alternates: { canonical: "/window-replacement" },
+  openGraph: {
+    title: "Window Replacement Toronto | Full Unit Replacement | LuminaSky",
+    description:
+      "Full window replacement for Toronto and Vaughan homes. We replace old, drafty and failing windows. Written quote on the spot. Licensed.",
+    url: "/window-replacement",
+  },
 };
 
 export default function WindowReplacementPage() {
