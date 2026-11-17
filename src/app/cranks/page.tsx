@@ -243,7 +243,7 @@ export default function WindowCranksPage() {
                 </ol>
               </nav>
 
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-6 leading-[1.2] md:leading-tight">
                 Window Crank Repair in the GTA, Done Right
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
@@ -267,6 +267,15 @@ export default function WindowCranksPage() {
                   Get a Written Quote
                 </Link>
               </div>
+              <a
+                href="https://wa.me/14373448490?text=Hi%2C%20I%20need%20a%20window%20crank%20repaired"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all w-full sm:w-auto focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+              >
+                <MessageCircle className="w-5 h-5" aria-hidden="true" />
+                WhatsApp: Send a Photo for a Quote
+              </a>
             </div>
 
             {/* Hero image */}

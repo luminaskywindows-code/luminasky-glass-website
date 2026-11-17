@@ -296,6 +296,25 @@ export function generateArticleSchema(article: {
   };
 }
 
+export function generateHowToSchema(opts: {
+  name: string;
+  description: string;
+  steps: { name: string; text: string }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: opts.name,
+    description: opts.description,
+    step: opts.steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
+  };
+}
+
 export function generateFAQSchema(faqs: { q: string; a: string }[]) {
   return {
     "@context": "https://schema.org",

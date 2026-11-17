@@ -21,12 +21,12 @@ import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
   SERVICES,
   PHONE_HREF,
-  WHATSAPP_HREF,
 } from "@/lib/constants";
 import {
   generateBreadcrumbSchema,
   generateServiceSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
@@ -179,6 +179,37 @@ export default function FrontDoorGlassPage() {
               "LuminaSky Glass Services replaces front door glass inserts in entry doors across Toronto and the GTA."
             ),
             generateFAQSchema(FAQS),
+            generateHowToSchema({
+              name: "How to Get Your Front Door Glass Replaced",
+              description:
+                "Step-by-step process for replacing front door glass inserts in Toronto and the GTA.",
+              steps: [
+                {
+                  name: "Book a visit",
+                  text: "We come to your home, look at the door and measure the glass. The visit is $30, credited toward the job if you go ahead.",
+                },
+                {
+                  name: "Measure and price",
+                  text: "We measure the door and explain how pricing works for the different glass types.",
+                },
+                {
+                  name: "Pick your glass, get your price",
+                  text: "After the visit we email you photos of glass styles. Choose what fits your home, and we send you the written price.",
+                },
+                {
+                  name: "We order your insert",
+                  text: "A 50% deposit lets us order the glass, made to your door's exact size.",
+                },
+                {
+                  name: "Installation",
+                  text: "Glass usually arrives 5 to 15 days after measuring. We book the install with you once it's in. Your door stays on its hinges the whole time.",
+                },
+                {
+                  name: "Warranty coverage",
+                  text: "Door glass inserts come with a 5 year warranty against fogging. For the first 2 years, glass and labour are both covered.",
+                },
+              ],
+            }),
           ]),
         }}
       />
@@ -228,7 +259,7 @@ export default function FrontDoorGlassPage() {
                   ))}
                 </ol>
               </nav>
-              <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6 leading-tight">
+              <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-6 leading-[1.2] md:leading-tight">
                 Front Door Glass Replacement in Toronto &amp; the GTA
               </h1>
               <p className="text-lg md:text-xl text-blue-100 leading-relaxed mb-6 md:mb-8 max-w-2xl">
@@ -252,7 +283,7 @@ export default function FrontDoorGlassPage() {
                 </a>
               </div>
               <a
-                href={WHATSAPP_HREF}
+                href="https://wa.me/14373448490?text=Hi%2C%20I%20need%20a%20quote%20for%20front%20door%20glass%20replacement"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-3 inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all w-full sm:w-auto focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
@@ -796,9 +827,9 @@ export default function FrontDoorGlassPage() {
               </span>
             </li>
           </ul>
-          <div className="inline-flex items-center gap-2 bg-green-50 text-green-800 font-semibold px-4 py-2 rounded-lg mb-3">
+          <div className="inline-flex items-center gap-2 bg-[#dcfce7] text-[#166534] font-semibold px-4 py-2.5 rounded-lg mb-3">
             <Camera className="w-4 h-4" aria-hidden="true" />
-            Photo Quote: Free
+            <span>Photo Quote: FREE <span className="font-normal text-[#166534]/80">: Send a photo, get a price</span></span>
           </div>
           <p className="text-gray-600 leading-relaxed">
             Send us a photo of your door and we&apos;ll give you a quote,
@@ -1124,7 +1155,7 @@ export default function FrontDoorGlassPage() {
 
       {/* Related Reading */}
       <section className="py-8 px-4 md:px-8 bg-white border-t border-gray-100">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center space-y-2">
           <p className="text-gray-700 font-medium">
             Related reading:{" "}
             <Link
@@ -1132,6 +1163,15 @@ export default function FrontDoorGlassPage() {
               className="text-primary font-semibold hover:underline"
             >
               Front Door Glass Insert Replacement: Keep the Door, Change the Glass
+            </Link>
+          </p>
+          <p className="text-gray-700 font-medium">
+            Also:{" "}
+            <Link
+              href="/blog/safety-glass-ontario-building-code"
+              className="text-primary font-semibold hover:underline"
+            >
+              Safety Glass and the Ontario Building Code: What Homeowners Need to Know
             </Link>
           </p>
         </div>

@@ -11,6 +11,7 @@ import {
   AlertTriangle,
   Clock,
   Building2,
+  MessageCircle,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { SKYLIGHT_CITY_PAGES } from "@/lib/skylight-city-data";
@@ -236,7 +237,7 @@ export default function SkylightsPage() {
           </nav>
 
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+            <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-4 leading-[1.2] md:leading-tight">
               Skylight Repair in Toronto: Leaks, Glass, Flashing &amp; Seals
             </h1>
             <p className="text-lg text-accent font-semibold mb-4">Fix Don&apos;t Replace</p>
@@ -267,6 +268,15 @@ export default function SkylightsPage() {
                 Call 437-344-8490
               </a>
             </div>
+            <a
+              href="https://wa.me/14373448490?text=Hi%2C%20I%20need%20a%20skylight%20repair%20quote"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all w-full sm:w-auto focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+            >
+              <MessageCircle className="w-5 h-5" aria-hidden="true" />
+              WhatsApp: Send a Photo for a Quote
+            </a>
             <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
               <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
               5-Year Warranty on sealed glass

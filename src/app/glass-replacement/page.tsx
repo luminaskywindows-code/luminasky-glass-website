@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { CheckCircle2, Phone, ChevronRight, Wrench } from "lucide-react";
+import { CheckCircle2, Phone, ChevronRight, Wrench, MessageCircle, Camera } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { PHONE_HREF } from "@/lib/constants";
 import {
   generateBreadcrumbSchema,
   generateServiceSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/schema";
 
 const BREADCRUMBS = [
@@ -169,6 +170,15 @@ export default function GlassReplacementPage() {
               { minPrice: 300, maxPrice: 1400, priceDescription: "Glass replacement per sealed unit, varies by size and location." }
             ),
             generateFAQSchema(FAQS),
+            generateHowToSchema({
+              name: "How to Get Your Window Glass Replaced",
+              description:
+                "Step-by-step process for replacing broken or cracked window glass in Toronto and the GTA.",
+              steps: PROCESS_STEPS.map((s) => ({
+                name: s.title,
+                text: s.desc,
+              })),
+            }),
           ]),
         }}
       />
@@ -195,7 +205,7 @@ export default function GlassReplacementPage() {
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-6 leading-[1.2] md:leading-tight">
                 Broken or Cracked Window Glass Replacement in Toronto
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
@@ -216,6 +226,15 @@ export default function GlassReplacementPage() {
                   Call 437-344-8490
                 </a>
               </div>
+              <a
+                href="https://wa.me/14373448490?text=Hi%2C%20I%20need%20a%20quote%20for%20window%20glass%20replacement"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all w-full sm:w-auto focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+              >
+                <MessageCircle className="w-5 h-5" aria-hidden="true" />
+                WhatsApp: Send a Photo for a Quote
+              </a>
               <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
                 <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
                 5-Year Warranty on sealed glass
@@ -368,6 +387,10 @@ export default function GlassReplacementPage() {
           <p className="text-gray-600 leading-relaxed mb-4">
             Every window is different, so we quote per job. The price depends on the size of the pane, the glass type (single, double or triple-pane, Low-E, tempered) and how easy the window is to reach. What doesn&apos;t change: replacing the glass is a fraction of the cost of a full window replacement, because your frame, trim and interior finish stay in place.
           </p>
+          <div className="inline-flex items-center gap-2 bg-[#dcfce7] text-[#166534] font-semibold px-4 py-2.5 rounded-lg mb-4">
+            <Camera className="w-4 h-4" aria-hidden="true" />
+            <span>Photo Quote: FREE <span className="font-normal text-[#166534]/80">: Send a photo, get a price</span></span>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/contact"
@@ -460,6 +483,24 @@ export default function GlassReplacementPage() {
             <Link href="/window-repair-toronto" className="text-primary font-semibold hover:underline">Toronto</Link> and across the Greater Toronto Area.{" "}
             <Link href="/areas-we-serve" className="text-primary font-semibold hover:underline">
               See all areas we serve &rarr;
+            </Link>
+          </p>
+        </div>
+      </section>
+
+      {/* Related Reading */}
+      <section className="py-8 px-4 md:px-8 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto text-center space-y-2">
+          <p className="text-gray-700 font-medium">
+            Related reading:{" "}
+            <Link href="/blog/types-of-window-glass-explained" className="text-primary font-semibold hover:underline">
+              Types of Window Glass Explained: A Complete Guide for Canadian Homeowners
+            </Link>
+          </p>
+          <p className="text-gray-700 font-medium">
+            Also:{" "}
+            <Link href="/blog/safety-glass-ontario-building-code" className="text-primary font-semibold hover:underline">
+              Safety Glass and the Ontario Building Code: What Homeowners Need to Know
             </Link>
           </p>
         </div>

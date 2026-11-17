@@ -11,6 +11,7 @@ import {
   Star,
   Droplets,
   MessageCircle,
+  Camera,
   FileText,
   MapPin,
   Snowflake,
@@ -34,6 +35,7 @@ import {
   generateBreadcrumbSchema,
   generateServiceSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/schema";
 
 /* ── Data ── */
@@ -194,6 +196,17 @@ export default function FoggyWindowsPage() {
               "LuminaSky Glass Services replaces failed sealed glass units across Toronto and the GTA, at a fraction of the cost of full window replacement.",
               { minPrice: 300, maxPrice: 1400, priceDescription: "Sealed unit replacement for foggy or failed double-pane windows." }
             ),
+            generateHowToSchema({
+              name: "How Foggy Window Repair Works",
+              description: "Step-by-step process for replacing a failed sealed glass unit in your existing window frame.",
+              steps: [
+                { name: "Book a visit", text: "We come to your home, inspect every window you are concerned about and take exact measurements. The visit fee is $30, credited toward the repair." },
+                { name: "Get a written quote on the spot", text: "You receive the price before we leave. No follow-up calls, no surprises." },
+                { name: "We order your glass", text: "A 50% deposit lets us order custom-made sealed units from our local IGMAC-certified supplier." },
+                { name: "Installation", text: "Glass arrives in 5 to 15 business days. We book the install with you and the balance is paid on installation day." },
+                { name: "Warranty coverage", text: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship." },
+              ],
+            }),
             generateFAQSchema(FAQS),
           ]),
         }}
@@ -245,7 +258,12 @@ export default function FoggyWindowsPage() {
                 </ol>
               </nav>
 
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              <div className="inline-flex items-center gap-2 bg-[#dcfce7] text-[#166534] font-semibold px-4 py-2.5 rounded-lg mb-3">
+                <Camera className="w-4 h-4" aria-hidden="true" />
+                <span>Photo Quote: FREE <span className="font-normal text-[#166534]/80">: Send a photo, get a price</span></span>
+              </div>
+
+              <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-6 leading-[1.2] md:leading-tight">
                 Foggy Window Repair Toronto: Replace the Glass, Keep the Frame
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8 max-w-2xl">
@@ -271,6 +289,13 @@ export default function FoggyWindowsPage() {
                 >
                   Get a Written Quote
                 </Link>
+                <a
+                  href="https://wa.me/14373448490?text=Hi%2C%20I%20need%20a%20quote%20for%20foggy%20window%20repair"
+                  className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1da851] text-white font-bold px-8 py-4 rounded-md shadow-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2 active:scale-95"
+                >
+                  <MessageCircle className="w-5 h-5" aria-hidden="true" />
+                  WhatsApp Quote
+                </a>
               </div>
             </div>
 
@@ -974,6 +999,21 @@ export default function FoggyWindowsPage() {
               {EMAIL}
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* ── Related Reading ── */}
+      <section className="py-12 px-4 md:px-8 bg-white border-t border-gray-100" aria-labelledby="related-reading-heading">
+        <div className="max-w-3xl mx-auto">
+          <h2 id="related-reading-heading" className="text-xl font-bold text-gray-900 mb-4">Related Reading</h2>
+          <ul className="space-y-3">
+            <li>
+              <Link href="/blog/exterior-window-condensation-normal" className="text-primary font-semibold hover:underline">
+                Exterior Window Condensation: When It Is Normal and When It Is Not
+              </Link>
+              <p className="text-gray-500 text-sm mt-1">Learn the difference between harmless exterior condensation and a failed seal that needs repair.</p>
+            </li>
+          </ul>
         </div>
       </section>
 

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { CheckCircle2, Phone, ChevronRight, Wrench, MapPin } from "lucide-react";
+import { CheckCircle2, Phone, ChevronRight, Wrench, MapPin, MessageCircle } from "lucide-react";
 import { EMERGENCY_GLASS_CITY_PAGES } from "@/lib/emergency-glass-city-data";
 import { PHONE_HREF } from "@/lib/constants";
-import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import {
   generateBreadcrumbSchema,
   generateFAQSchema,
+  generateHowToSchema,
   generateServiceSchema,
 } from "@/lib/schema";
 
@@ -128,6 +128,15 @@ export default function EmergencyGlassRepairPage() {
               { minPrice: 300, maxPrice: 1500, priceDescription: "24/7 emergency glass replacement, surcharge for after-hours and weekends." }
             ),
             generateFAQSchema(FAQS),
+            generateHowToSchema({
+              name: "What to Do When You Need Emergency Glass Repair",
+              description:
+                "Step-by-step emergency glass repair process from first call to permanent replacement in Toronto and the GTA.",
+              steps: PROCESS_STEPS.map((s) => ({
+                name: s.title,
+                text: s.desc,
+              })),
+            }),
           ]),
         }}
       />
@@ -153,7 +162,7 @@ export default function EmergencyGlassRepairPage() {
           </nav>
 
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-6 leading-[1.2] md:leading-tight">
               24/7 Emergency Glass Repair and Board-Up in Toronto &amp; the GTA
             </h1>
             <p className="text-xl text-blue-100 leading-relaxed mb-8">
@@ -167,12 +176,16 @@ export default function EmergencyGlassRepairPage() {
                 <Phone className="w-6 h-6" aria-hidden="true" />
                 Call Now: 437-344-8490
               </a>
-              <WhatsAppLink
-                className="inline-flex items-center justify-center border-2 border-white/70 text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-md transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
-              >
-                WhatsApp Us a Photo
-              </WhatsAppLink>
             </div>
+            <a
+              href="https://wa.me/14373448490?text=Hi%2C%20I%20need%20emergency%20glass%20repair"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all w-full sm:w-auto focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary active:scale-95"
+            >
+              <MessageCircle className="w-5 h-5" aria-hidden="true" />
+              WhatsApp: Send a Photo for a Quote
+            </a>
             <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
               <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
               5-Year Warranty on sealed glass
@@ -399,6 +412,21 @@ export default function EmergencyGlassRepairPage() {
         </div>
       </section>
 
+      {/* Related Reading */}
+      <section className="py-8 px-4 md:px-8 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-gray-700 font-medium">
+            Related reading:{" "}
+            <Link
+              href="/blog/home-insurance-broken-window-ontario"
+              className="text-primary font-semibold hover:underline"
+            >
+              Home Insurance and Broken Windows in Ontario: What You Need to Know
+            </Link>
+          </p>
+        </div>
+      </section>
+
       {/* Cities We Serve */}
       <section className="py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
@@ -437,11 +465,15 @@ export default function EmergencyGlassRepairPage() {
               <Phone className="w-6 h-6" aria-hidden="true" />
               Call 437-344-8490
             </a>
-            <WhatsAppLink
-              className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-red-600 font-semibold px-8 py-4 rounded-md transition-all active:scale-95"
+            <a
+              href="https://wa.me/14373448490?text=Hi%2C%20I%20need%20emergency%20glass%20repair"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-red-600 font-semibold px-8 py-4 rounded-md transition-all active:scale-95"
             >
+              <MessageCircle className="w-5 h-5" aria-hidden="true" />
               WhatsApp a Photo
-            </WhatsAppLink>
+            </a>
           </div>
         </div>
       </section>
