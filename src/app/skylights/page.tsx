@@ -12,6 +12,7 @@ import {
   Clock,
   Building2,
   MessageCircle,
+  Camera,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { SKYLIGHT_CITY_PAGES } from "@/lib/skylight-city-data";
@@ -23,6 +24,7 @@ import {
   generateBreadcrumbSchema,
   generateServiceSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
@@ -201,6 +203,11 @@ export default function SkylightsPage() {
               "Skylight leak repair, skylight glass replacement, flashing repair and full skylight replacement across Toronto and the GTA. All brands serviced."
             ),
             generateFAQSchema(FAQS),
+            generateHowToSchema({
+              name: "How Skylight Repair Works",
+              description: "Our step-by-step process for repairing skylights across Toronto and the GTA.",
+              steps: PROCESS_STEPS.map((s) => ({ name: s.title, text: s.desc })),
+            }),
           ]),
         }}
       />
@@ -237,6 +244,11 @@ export default function SkylightsPage() {
           </nav>
 
           <div className="max-w-3xl">
+            <div className="inline-flex items-center gap-2 bg-[#dcfce7] text-[#166534] font-semibold px-4 py-2.5 rounded-lg mb-3">
+              <Camera className="w-4 h-4" aria-hidden="true" />
+              <span>Photo Quote: FREE <span className="font-normal text-[#166534]/80">: Send a photo, get a price</span></span>
+            </div>
+
             <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-4 leading-[1.2] md:leading-tight">
               Skylight Repair in Toronto: Leaks, Glass, Flashing &amp; Seals
             </h1>
@@ -618,6 +630,21 @@ export default function SkylightsPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Related Reading */}
+      <section className="py-8 px-4 md:px-8 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-gray-700 font-medium">
+            Related reading:{" "}
+            <Link
+              href="/blog/skylights-in-winter-leaks-ice-dams-condensation"
+              className="text-primary font-semibold hover:underline"
+            >
+              Skylights in Winter: Leaks, Ice Dams and Condensation Explained
+            </Link>
+          </p>
         </div>
       </section>
 

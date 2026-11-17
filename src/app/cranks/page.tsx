@@ -14,6 +14,7 @@ import {
   MessageCircle,
   FileText,
   MapPin,
+  Camera,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { CRANKS_CITY_PAGES } from "@/lib/cranks-city-data";
@@ -22,6 +23,7 @@ import {
   generateBreadcrumbSchema,
   generateServiceSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -209,6 +211,11 @@ export default function WindowCranksPage() {
               { minPrice: 150, maxPrice: 450, priceDescription: "Window crank, operator, and hardware repair or replacement." }
             ),
             generateFAQSchema(FAQS),
+            generateHowToSchema({
+              name: "How Window Crank Repair Works",
+              description: "Our step-by-step process for repairing casement and awning window cranks across the GTA.",
+              steps: HOW_IT_WORKS.map((s) => ({ name: s.title, text: s.desc })),
+            }),
           ]),
         }}
       />
@@ -242,6 +249,11 @@ export default function WindowCranksPage() {
                   ))}
                 </ol>
               </nav>
+
+              <div className="inline-flex items-center gap-2 bg-[#dcfce7] text-[#166534] font-semibold px-4 py-2.5 rounded-lg mb-3">
+                <Camera className="w-4 h-4" aria-hidden="true" />
+                <span>Photo Quote: FREE <span className="font-normal text-[#166534]/80">: Send a photo, get a price</span></span>
+              </div>
 
               <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-6 leading-[1.2] md:leading-tight">
                 Window Crank Repair in the GTA, Done Right
@@ -756,6 +768,30 @@ export default function WindowCranksPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Related Reading */}
+      <section className="py-8 px-4 md:px-8 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto text-center space-y-2">
+          <p className="text-gray-700 font-medium">
+            Related reading:{" "}
+            <Link
+              href="/blog/window-crank-repair-toronto"
+              className="text-primary font-semibold hover:underline"
+            >
+              Why Your Window Crank Broke, and What Actually Needs Fixing
+            </Link>
+          </p>
+          <p className="text-gray-700 font-medium">
+            Also:{" "}
+            <Link
+              href="/blog/broken-window-crank-what-to-do"
+              className="text-primary font-semibold hover:underline"
+            >
+              Window Crank Broken? Here&apos;s What to Do Before Calling a Repair Company
+            </Link>
+          </p>
         </div>
       </section>
 
