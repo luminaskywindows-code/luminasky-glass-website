@@ -165,7 +165,7 @@ export default function PropertyManagersPage() {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
-      sendLeadToHub({ name: `[Property Manager] ${formData.fullName}`, phone: formData.phone, email: (formData as any).email || "", service: "Property Management Inquiry", message: formData.message });
+      sendLeadToHub({ name: `[Property Manager] ${formData.fullName}`, phone: formData.phone, email: (formData as { email?: string }).email || "", service: "Property Management Inquiry", message: formData.message });
       setSubmitStatus("success");
       setFormData(INITIAL);
       setErrors({});

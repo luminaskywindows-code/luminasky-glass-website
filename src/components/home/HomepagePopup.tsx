@@ -593,7 +593,7 @@ export function HomepagePopup() {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
-      sendLeadToHub({ name: formData.name, phone: formData.phone, email: (formData as any).email || "", service: formData.issue, message: formData.issue });
+      sendLeadToHub({ name: formData.name, phone: formData.phone, email: (formData as { email?: string }).email || "", service: formData.issue, message: formData.issue });
       setSubmitStatus("success");
       storageSet("popup-form-submitted", "true");
       setFormData(INITIAL);

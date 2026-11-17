@@ -120,7 +120,7 @@ export function ContactForm() {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
-      sendLeadToHub({ name: formData.fullName, phone: formData.phone, email: (formData as any).email || "", service: formData.service, message: formData.message });
+      sendLeadToHub({ name: formData.fullName, phone: formData.phone, email: (formData as { email?: string }).email || "", service: formData.service, message: formData.message });
       setSubmitStatus("success");
       setFormData(INITIAL);
       setErrors({});
