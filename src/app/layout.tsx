@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: { url: "/icon.png", type: "image/png" },
+    icon: { url: "/images/logo.png", type: "image/png" },
     apple: "/images/logo.png",
   },
   twitter: { card: "summary_large_image" },
@@ -68,7 +68,11 @@ export default function RootLayout({
   return (
     <html lang="en-CA" className={inter.variable}>
       <head>
-        <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
+        <meta name="theme-color" content="#1E3A8A" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.clarity.ms" />
+        <link rel="icon" href="/images/logo.png" type="image/png" />
         <link rel="apple-touch-icon" href="/images/logo.png" />
         <script
           type="application/ld+json"

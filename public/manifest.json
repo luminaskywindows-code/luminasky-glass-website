@@ -1,0 +1,16 @@
+{
+  "name": "LuminaSky Glass Services",
+  "short_name": "LuminaSky",
+  "description": "Window and glass repair in Toronto",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#1E3A8A",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
