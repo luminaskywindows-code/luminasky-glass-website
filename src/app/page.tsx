@@ -3,28 +3,11 @@ import dynamic from "next/dynamic";
 import { HeroSection } from "@/components/home/HeroSection";
 import { ServiceAreaMap } from "@/components/shared/ServiceAreaMap";
 import { CTABanner } from "@/components/shared/CTABanner";
-
-const ServicesGrid = dynamic(
-  () => import("@/components/home/ServicesGrid").then((m) => m.ServicesGrid),
-  { ssr: false }
-);
-
-const TrustSection = dynamic(
-  () => import("@/components/home/TrustSection").then((m) => m.TrustSection),
-  { ssr: false }
-);
-const TestimonialsSection = dynamic(
-  () => import("@/components/home/TestimonialsSection").then((m) => m.TestimonialsSection),
-  { ssr: false }
-);
-const FAQSection = dynamic(
-  () => import("@/components/home/FAQSection").then((m) => m.FAQSection),
-  { ssr: false }
-);
-const HomepageFAQ = dynamic(
-  () => import("@/components/home/HomepageFAQ").then((m) => m.HomepageFAQ),
-  { ssr: false }
-);
+import { ServicesGrid } from "@/components/home/ServicesGrid";
+import { TrustSection } from "@/components/home/TrustSection";
+import { TestimonialsSection } from "@/components/home/TestimonialsSection";
+import { FAQSection } from "@/components/home/FAQSection";
+import { HomepageFAQ } from "@/components/home/HomepageFAQ";
 import { HOMEPAGE_SCHEMA_FAQS } from "@/lib/homepage-faq-data";
 import { WinterBanner } from "@/components/home/WinterBanner";
 import { TrustStrip } from "@/components/home/TrustStrip";
