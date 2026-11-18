@@ -130,14 +130,32 @@ export function getSourceCode(): string {
   return code === "A" && camp ? `A-${camp}` : code;
 }
 
-/** Adds the source code to the text of a wa.me link. */
+/**
+ * The opening word of the WhatsApp message tells us where the visitor came from.
+ * A natural greeting instead of a code, because people deleted the code before sending.
+ *   "Hi there,"  Google ad          "Hello,"  Google search        "Hey,"  Google Maps / Business Profile
+ *   "Hi!"        Facebook/Instagram "Hi,"     direct or another site
+ */
+export function getSourceGreeting(): string {
+  const code = getSourceCode();
+  if (code.startsWith("A")) return "Hi there,";
+  if (code === "S") return "Hello,";
+  if (code === "M") return "Hey,";
+  if (code === "F") return "Hi!";
+  return "Hi,";
+}
+
+/** Sets the opening greeting of a wa.me link's text by source (and drops any old [code] tag). */
 export function tagWhatsAppHref(href: string): string {
   try {
     const u = new URL(href);
     if (!/wa\.me$|whatsapp\.com$/.test(u.hostname)) return href;
-    const text = u.searchParams.get("text") || "Hi, I'd like a quote";
-    if (/\[[A-Z](-[a-z0-9-]+)?\]$/i.test(text)) return href;
-    u.searchParams.set("text", `${text} [${getSourceCode()}]`);
+    const raw = u.searchParams.get("text") || "Hi, I'd like a quote";
+    const rest = raw
+      .replace(/\s*\[[A-Z](-[a-z0-9-]+)?\]\s*$/i, "")
+      .replace(/^\s*(hi there|hello|hey|hi)\s*[,!.]?\s*/i, "")
+      .trim();
+    u.searchParams.set("text", `${getSourceGreeting()} ${rest}`.trim());
     return u.toString();
   } catch {
     return href;
