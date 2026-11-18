@@ -23,6 +23,11 @@ const PhoneClickTracker = dynamic(
   { ssr: false }
 );
 
+const WhatsAppClickTracker = dynamic(
+  () => import("@/components/analytics/WhatsAppClickTracker").then((m) => m.WhatsAppClickTracker),
+  { ssr: false }
+);
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
@@ -94,6 +99,7 @@ export default function RootLayout({
         <SourceTracker />
         <GtagInit />
         <PhoneClickTracker />
+        <WhatsAppClickTracker />
       </body>
     </html>
   );
