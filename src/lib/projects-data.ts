@@ -84,11 +84,11 @@ export const PROJECTS: Project[] = [
     mediaType: "multi-image",
     images: [
       {
-        src: "/images/services/skylight-north-york-1.jpg",
+        src: "/images/services/skylight-north-york-1.webp",
         alt: "First skylight dome replacement at a North York property: cracked dome with blue tape, close-up of damage, and brand new clear dome installed",
       },
       {
-        src: "/images/services/skylight-north-york-2.jpg",
+        src: "/images/services/skylight-north-york-2.webp",
         alt: "Second skylight dome replacement at the same North York property: shattered dome removed, interior view of clear sky through new dome, and finished install on the roof",
       },
     ],
