@@ -3213,6 +3213,317 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>LuminaSky Glass Services. Family-Owned Since 2024. 70+ 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
 `,
   },
+  {
+    slug: "window-screen-repair-vs-replacement",
+    title: "Window Screen Repair vs Replacement: When to Fix and When to Get New Screens",
+    metaTitle: "Window Screen Repair vs Replacement Toronto",
+    metaDescription:
+      "Torn or sagging window screen? Learn when a screen repair makes sense, when replacement is the better call, and what to expect from the process in Toronto.",
+    excerpt:
+      "A small tear, a bent frame, mesh pulling away from the edges. Screen damage is one of the most common window issues Toronto homeowners deal with, but it does not always mean you need a brand new screen. Here is how to decide.",
+    publishedAt: "2026-11-18",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Window Screens", "Repair Tips"],
+    sections: [
+      { id: "common-screen-damage", title: "Common Types of Screen Damage" },
+      { id: "when-repair-makes-sense", title: "When Repair Makes Sense" },
+      { id: "when-to-replace", title: "When Replacement Is the Better Call" },
+      { id: "screen-materials", title: "Screen Materials: Fibreglass vs Aluminum" },
+      { id: "pet-resistant-screens", title: "Pet-Resistant and Heavy-Duty Options" },
+      { id: "patio-door-screens", title: "Patio Door Screens: A Special Case" },
+      { id: "what-the-process-looks-like", title: "What the Process Looks Like" },
+      { id: "seasonal-timing", title: "Best Time of Year for Screen Work in Toronto" },
+      { id: "what-to-do-next", title: "What to Do Next" },
+    ],
+    content: `
+<p>Window screens take a beating. Between Toronto's freeze-thaw winters, summer storms, pets, kids, and years of opening and closing windows, it is only a matter of time before something goes wrong. A tear in the mesh, a bent frame, a screen that no longer sits flush in the track. The question most homeowners ask is straightforward: can this be fixed, or do I need a new one?</p>
+
+<p>The answer depends on what is damaged, how badly, and whether the frame is still in good shape. In many cases, a screen repair is all you need. In others, replacement is faster, cleaner, and more cost-effective. This guide walks through both options so you can make a confident decision.</p>
+
+<h2 id="common-screen-damage">Common Types of Screen Damage</h2>
+
+<p>Before deciding between repair and replacement, it helps to identify exactly what you are dealing with. Here are the most common screen problems we see across the GTA:</p>
+
+<ul>
+<li><strong>Small tears or punctures:</strong> A hole from a branch, a pet claw, or a stray ball. The mesh is damaged but the frame is intact.</li>
+<li><strong>Mesh sagging or pulling away from the frame:</strong> The spline (the rubber cord that holds the mesh in the channel) has shrunk, hardened, or come loose. The screen looks wavy or baggy.</li>
+<li><strong>Bent or warped frame:</strong> The aluminum frame itself is bent at a corner or bowed along one side. This usually happens from impact or from forcing a screen into the wrong opening.</li>
+<li><strong>Broken corner joints:</strong> The plastic or metal corners that hold the frame together have cracked or separated. The frame feels loose and wobbly.</li>
+<li><strong>Corroded or pitted frame:</strong> Years of moisture exposure have degraded the aluminum. The frame is rough, chalky, or has visible pitting.</li>
+<li><strong>Missing or stuck rollers on sliding screens:</strong> The screen does not slide smoothly in its track, or it jumps off the track entirely.</li>
+</ul>
+
+<h2 id="when-repair-makes-sense">When Repair Makes Sense</h2>
+
+<p>Screen repair works well when the frame is still straight, square, and structurally sound. If the frame is good, we can re-screen it with new mesh and spline. This is the most common service we perform on <a href="/window-screens">window and door screens</a>.</p>
+
+<p>Repair is typically the right choice when:</p>
+
+<ul>
+<li>The mesh is torn, sagging, or pulling away, but the frame is straight and the corners are solid.</li>
+<li>The spline has hardened or shrunk with age. New spline and new mesh solve the problem completely.</li>
+<li>A single corner joint has loosened but the frame is otherwise intact. The corner can often be re-seated or replaced.</li>
+<li>The screen rollers on a sliding screen are worn or stuck. New rollers restore smooth operation.</li>
+</ul>
+
+<p>Re-screening an existing frame is straightforward. The old mesh and spline are removed, new mesh is stretched across the frame, and new spline is pressed into the channel to hold it tight. The result is a screen that looks and performs like new, using the original frame that already fits your window perfectly.</p>
+
+<h2 id="when-to-replace">When Replacement Is the Better Call</h2>
+
+<p>Replacement makes sense when the frame itself is the problem. No amount of new mesh will fix a frame that is bent, corroded, or falling apart at the corners.</p>
+
+<p>Replace the entire screen when:</p>
+
+<ul>
+<li>The frame is bent or bowed and cannot be straightened without cracking.</li>
+<li>Multiple corner joints have failed and the frame is no longer square.</li>
+<li>The aluminum is corroded, pitted, or chalky from years of weather exposure.</li>
+<li>The frame dimensions no longer match the window opening. This happens when windows are replaced but the original screens are kept.</li>
+<li>You want to upgrade from standard fibreglass mesh to something more durable, like aluminum or pet-resistant mesh, and the current frame does not accommodate the thicker material.</li>
+</ul>
+
+<p>A replacement screen is built to your exact window measurements. We measure the opening, fabricate the frame with the correct colour match, install the mesh you choose, and fit it into your window. No generic off-the-shelf sizing.</p>
+
+<h2 id="screen-materials">Screen Materials: Fibreglass vs Aluminum</h2>
+
+<p>When re-screening or ordering a new screen, you have a choice of mesh material. The two most common options are fibreglass and aluminum, and each has clear strengths.</p>
+
+<p><strong>Fibreglass mesh</strong> is the standard choice for most residential windows. It is flexible, easy to work with, does not crease or dent, and comes in charcoal grey (which offers better outward visibility than silver). It resists corrosion well, which matters in Toronto's humid summers. The main drawback: it tears more easily than aluminum. A pet claw or a sharp branch can puncture it without much effort.</p>
+
+<p><strong>Aluminum mesh</strong> is more rigid and significantly more tear-resistant. It holds up better against physical impact and lasts longer in high-traffic areas. The trade-off is that it can dent if pushed hard, and the silver colour is slightly more visible from inside the room. Aluminum mesh is a good choice for ground-floor windows, windows near walkways, or any location where the screen takes regular contact.</p>
+
+<p>Both materials block insects equally well. The choice comes down to durability needs and personal preference. We stock both and can advise based on where the screen will be installed.</p>
+
+<h2 id="pet-resistant-screens">Pet-Resistant and Heavy-Duty Options</h2>
+
+<p>If you have cats or dogs that like to lean against screens, scratch at them, or push their noses into the mesh, standard fibreglass will not hold up. Pet-resistant screen mesh is made from heavier-gauge polyester or vinyl-coated polyester that is significantly harder to tear or puncture.</p>
+
+<p>Pet screen is about seven times stronger than standard fibreglass mesh. It can handle claws, paws, and repeated pressure without tearing. The mesh is thicker and slightly less transparent than standard screen, so there is a small trade-off in visibility and airflow. For most pet owners, the durability is well worth it.</p>
+
+<p>We can install pet-resistant mesh in both new frames and existing frames during a re-screen. If your current screens are constantly getting shredded by a determined cat, this upgrade solves the problem.</p>
+
+<h2 id="patio-door-screens">Patio Door Screens: A Special Case</h2>
+
+<p>Sliding patio door screens deserve a separate mention because they take more abuse than any other screen in the house. They are opened and closed multiple times a day, exposed to foot traffic, and their rollers wear out faster than window screen hardware.</p>
+
+<p>Common patio door screen problems include bent tracks, worn rollers, torn mesh from pets or kids running through, and frames that have been knocked off their track one too many times. If the frame is straight and the track is undamaged, a re-screen with new rollers usually restores full function. If the frame is bent or the track is damaged, a full replacement door screen is the cleaner fix.</p>
+
+<p>For more on patio door issues beyond the screen, see our page on <a href="/patio-door-repair">patio door repair</a>. Problems with the main door sliding, locking, or sealing are separate from the screen and may involve the rollers, track, or weatherstripping on the door itself.</p>
+
+<h2 id="what-the-process-looks-like">What the Process Looks Like</h2>
+
+<p>Whether you need a repair or a full replacement, the process is simple:</p>
+
+<ol>
+<li><strong>Assessment:</strong> We look at the screen, check the frame, and determine whether repair or replacement is the right approach. You get a written quote before any work starts.</li>
+<li><strong>Measurement:</strong> For replacements, we measure the window opening on site. Every screen is custom-made to fit your exact dimensions. No guessing, no trimming to fit.</li>
+<li><strong>Fabrication and installation:</strong> Re-screens are typically completed on the same visit. Replacement screens that need a new frame are fabricated and installed on a return visit.</li>
+</ol>
+
+<p>We measure and install everything ourselves. No subcontractors in your home. The frame colour is matched to your existing windows so the new screen blends in with the rest of your home.</p>
+
+<h2 id="seasonal-timing">Best Time of Year for Screen Work in Toronto</h2>
+
+<p>Screen repairs and replacements can be done year-round, but spring is the busiest season. Most homeowners notice screen damage when they open their windows for the first time after winter. By May and June, the backlog grows.</p>
+
+<p>If you know your screens need attention, booking in late winter or early spring means shorter wait times. That said, we handle screen work through autumn and into winter as well. If you need a screen fixed before mosquito season, the earlier you call, the better.</p>
+
+<p>One tip: take a walk around your home in early spring and check every screen. Open each window, inspect the mesh for tears or sag, and test sliding screens for smooth operation. Catching a small problem now prevents a bigger headache in July when you actually need the airflow. For window hardware that is sticking or grinding when you open the window itself, that is a separate issue covered on our <a href="/cranks">window crank repair</a> page.</p>
+
+<h2 id="what-to-do-next">What to Do Next</h2>
+
+<p>If you have a torn, sagging, or damaged screen, send us a photo and we can usually tell you right away whether it needs a repair or a replacement. Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. We are available 24/7.</p>
+
+<p>For a full overview of our screen services, including window screens, patio door screens, and storm door screens, visit our <a href="/window-screens">Window Screens</a> page.</p>
+
+<p>LuminaSky Glass Services. Family-Owned Since 2024. 70+ 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
+`,
+  },
+  {
+    slug: "patio-door-glass-replacement-guide",
+    title: "Patio Door Glass Replacement: What Toronto Homeowners Need to Know",
+    metaTitle: "Patio Door Glass Replacement Toronto",
+    metaDescription:
+      "When does a patio door need new glass? Learn the signs, the replacement process, and what to expect from a Toronto glass repair company.",
+    excerpt:
+      "A foggy, cracked or drafty patio door does not always mean you need a brand new door. In many cases, replacing the glass panel alone restores the seal, the view and the insulation at a fraction of the cost.",
+    publishedAt: "2026-11-18",
+    author: "Dan",
+    readingTime: 8,
+    tags: ["Patio Doors", "Glass Replacement"],
+    sections: [
+      { id: "signs-you-need-replacement", title: "Signs Your Patio Door Glass Needs Replacing" },
+      { id: "sliding-vs-swing", title: "Sliding Doors vs Swing Patio Doors" },
+      { id: "foggy-patio-door", title: "Foggy Patio Door Glass" },
+      { id: "the-replacement-process", title: "How Patio Door Glass Replacement Works" },
+      { id: "security-and-safety", title: "Security and Safety Glass" },
+      { id: "timeline-and-what-to-expect", title: "Timeline and What to Expect" },
+    ],
+    content: `
+<p>Patio doors are one of the largest glass surfaces in a Toronto home. They let in natural light, connect your living space to the backyard, and take a beating from Ontario weather year after year. When something goes wrong with the glass, the instinct is often to replace the entire door. But in most cases, the glass panel itself can be swapped out while keeping the frame, track and hardware you already have.</p>
+
+<p>This guide covers the signs that your patio door glass needs attention, how the replacement process works, and what Toronto homeowners should know before booking a service call.</p>
+
+<h2 id="signs-you-need-replacement">Signs Your Patio Door Glass Needs Replacing</h2>
+
+<p>Some problems are obvious. A crack running across the panel or a shattered pane after a stray hockey puck clearly needs new glass. But other signs are easier to miss:</p>
+
+<ul>
+<li><strong>Condensation between the panes.</strong> If moisture appears between the two layers of glass (not on the inside surface), the sealed unit has failed. No amount of cleaning will fix it because the fog is trapped inside. This is the same issue that affects <a href="/foggy-windows">foggy windows</a> throughout the home.</li>
+<li><strong>Drafts near the door.</strong> A failed seal lets outside air in. You may feel cold air along the bottom or sides of the glass, even when the door is fully closed and locked.</li>
+<li><strong>Visible haze or white residue.</strong> Over time, moisture inside a failed sealed unit leaves mineral deposits on the inner glass surfaces. The glass looks permanently dirty or cloudy.</li>
+<li><strong>Higher energy bills.</strong> A sealed unit that has lost its argon fill or has a broken seal no longer insulates properly. Your furnace and air conditioner work harder to compensate.</li>
+<li><strong>Chips or scratches that weaken the panel.</strong> Small chips near the edge of tempered glass can spread over time, especially through freeze-thaw cycles in a Toronto winter.</li>
+</ul>
+
+<p>If you are unsure whether your patio door glass needs replacing, send us a photo. We can usually tell from a picture whether the sealed unit has failed or whether something else is going on.</p>
+
+<h2 id="sliding-vs-swing">Sliding Doors vs Swing Patio Doors</h2>
+
+<p>The replacement process differs slightly depending on your door type.</p>
+
+<p><strong>Sliding patio doors</strong> are the most common style in Toronto homes. The moving panel rides on a bottom track. In many models, the glass panel can be removed from the frame on site, measured, and replaced without removing the entire door assembly. Some older sliding doors have the glass bonded directly into the sash, which means the sash and glass are replaced together.</p>
+
+<p><strong>Swing (hinged) patio doors</strong>, including French-style doors, typically have one or two panels that swing inward or outward on hinges. The glass in these doors is usually held in place by stops or glazing beads. Replacing the sealed unit involves removing the stops, taking out the old glass, and installing the new panel with fresh glazing tape.</p>
+
+<p>Both types use standard sealed units (also called insulated glass units or IGUs). The key measurements are the width, height and thickness of the glass, plus the spacer bar width between the two panes. Getting these right is critical, which is why we always measure on site rather than working from homeowner-supplied dimensions.</p>
+
+<h2 id="foggy-patio-door">Foggy Patio Door Glass</h2>
+
+<p>Foggy glass is the number one reason Toronto homeowners call about their patio doors. The fog appears when the perimeter seal around the sealed unit breaks down. Moisture from the air enters the gap between the panes and condenses, creating that cloudy look.</p>
+
+<p>Seal failures happen for several reasons. Age is the most common. UV exposure, temperature swings and simple wear break down the sealant over the years. Patio doors are especially vulnerable because they face direct sun for hours each day and handle more thermal stress than a typical window.</p>
+
+<p>The fix is straightforward: replace the sealed unit. The frame stays. The hardware stays. The track stays. You get a brand new, factory-sealed glass panel with a clear view and proper insulation. If multiple windows in the home are showing the same fog, it may be worth addressing them all at once. See our <a href="/foggy-windows">foggy glass repair</a> page for more detail on how sealed unit replacement works across the home.</p>
+
+<h2 id="the-replacement-process">How Patio Door Glass Replacement Works</h2>
+
+<p>Every patio door glass replacement follows the same three-step process:</p>
+
+<ol>
+<li><strong>Measure.</strong> A technician visits your home and takes precise measurements of the existing glass panel, including the overall dimensions, glass thickness, spacer bar width and any special coatings (Low-E, tinted, obscure). These measurements determine the replacement unit.</li>
+<li><strong>Custom order.</strong> Sealed units are built to order. Your replacement glass is fabricated to match the exact specifications of your door. This typically takes 5 to 10 business days depending on the glass type.</li>
+<li><strong>Install.</strong> The technician returns, removes the failed glass panel and installs the new sealed unit. The work is done on site and usually takes under an hour for a single patio door. We clean up, test the door operation and make sure everything slides or swings smoothly before leaving.</li>
+</ol>
+
+<p>This process is the same whether you have a sliding door, a French door, or a single swing panel. The glass is always measured first, custom-made, then installed.</p>
+
+<h2 id="security-and-safety">Security and Safety Glass</h2>
+
+<p>Patio doors are required by the Ontario Building Code to use safety glass, specifically tempered glass. Tempered glass is four to five times stronger than regular glass. When it does break, it shatters into small, rounded pieces rather than sharp shards, which reduces the risk of injury.</p>
+
+<p>If security is a concern, you can upgrade to laminated glass. Laminated glass has a plastic interlayer bonded between two glass panes. Even when broken, the glass stays attached to the interlayer instead of falling out of the frame. This makes it much harder for someone to push through the opening. It also reduces noise, which is a bonus if your patio faces a busy street.</p>
+
+<p>For ground-floor patio doors in areas where break-ins are a worry, laminated glass is worth considering during your replacement. The cost is higher than standard tempered glass, but it adds a real layer of physical security without changing the look of the door. If your patio door was damaged in a break-in or storm, our <a href="/emergency-glass-repair">emergency glass repair</a> service can board up the opening and get you on the schedule for a permanent replacement.</p>
+
+<h2 id="timeline-and-what-to-expect">Timeline and What to Expect</h2>
+
+<p>From the first call to finished install, most patio door glass replacements in the GTA take about two weeks. Here is what that looks like:</p>
+
+<ul>
+<li><strong>Day 1: Site visit and measurement.</strong> We come out, inspect the door, take measurements and give you a written quote on the spot. No surprises later.</li>
+<li><strong>Days 2 to 10: Fabrication.</strong> Your sealed unit is custom-built. Standard clear and Low-E units are usually ready within a week. Specialty glass (tinted, laminated, obscure patterns) can take a few extra days.</li>
+<li><strong>Day 10 to 14: Installation.</strong> We schedule the install at a time that works for you. Most single-door replacements are done in under an hour.</li>
+</ul>
+
+<p>If your patio door glass is cracked and you are concerned about security or weather exposure while waiting for the replacement unit, we can install a temporary board-up on the same day.</p>
+
+<p>Have questions about your patio door? Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. You can also send us a photo for a quick assessment. Visit our <a href="/patio-door-repair">patio door repair</a> page to see the full range of patio door services we offer.</p>
+
+<p>LuminaSky Glass Services. Family-Owned Since 2024. 70+ 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
+`,
+  },
+  {
+    slug: "storm-door-glass-screen-insert-swap",
+    title: "Storm Door Glass vs Screen Insert: Seasonal Swap Guide for Ontario Homeowners",
+    metaTitle: "Storm Door Glass vs Screen Insert Swap Guide",
+    metaDescription:
+      "Learn when and how to swap your storm door glass and screen inserts for each Ontario season. Common problems, maintenance tips, and when to call a pro.",
+    excerpt:
+      "Most storm doors come with interchangeable glass and screen inserts. Swapping them at the right time keeps your home comfortable year-round, but broken clips and cracked panels can turn a simple job into a headache.",
+    publishedAt: "2026-11-18",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Storm Doors", "Seasonal Tips"],
+    sections: [
+      { id: "when-to-swap", title: "When to Swap: Glass In, Screen Out (and Vice Versa)" },
+      { id: "how-to-swap", title: "How to Remove and Install Storm Door Inserts" },
+      { id: "common-problems", title: "Common Problems During the Swap" },
+      { id: "when-to-call-a-pro", title: "When to Call a Pro" },
+      { id: "maintenance-tips", title: "Maintenance Tips to Extend Insert Life" },
+    ],
+    content: `
+<p>Storm doors are one of those home features that do their job so well you barely think about them. The glass panel keeps cold air out in winter. The screen panel lets fresh air in during summer. But the swap between the two is where things can go wrong, especially on older doors where hardware has seen a few too many Ontario winters.</p>
+
+<p>This guide covers the right timing for each swap, how to do it yourself, and the common issues that might mean it is time to call in help.</p>
+
+<h2 id="when-to-swap">When to Swap: Glass In, Screen Out (and Vice Versa)</h2>
+
+<p>The timing depends more on temperature than the calendar. Here is the general rule for the GTA and surrounding areas:</p>
+
+<ul>
+<li><strong>Glass panel in (fall):</strong> Once overnight lows start dropping below 10°C consistently, usually late October to mid-November. The glass panel adds a layer of insulation between your front door and the outside air, reducing drafts and heat loss.</li>
+<li><strong>Screen panel in (spring):</strong> Once daytime highs are regularly above 15°C and you want cross-ventilation through the house. For most of Ontario, that is late April to mid-May.</li>
+</ul>
+
+<p>Leaving the glass panel in too long in spring can trap heat between the storm door and your entry door, which can warp vinyl frames or damage weatherstripping. If your entry door faces south or west, make the swap a bit earlier.</p>
+
+<h2 id="how-to-swap">How to Remove and Install Storm Door Inserts</h2>
+
+<p>Most modern <a href="/screen-storm-doors">storm doors</a> use a retainer clip system. The glass and screen inserts slide into channels on the door frame and lock in place with small metal or plastic clips. Here is the basic process:</p>
+
+<ol>
+<li><strong>Open the storm door fully</strong> and prop it in place so it does not swing while you work.</li>
+<li><strong>Find the retainer clips.</strong> They are usually along the bottom rail, sometimes on the sides. Squeeze or slide them to release.</li>
+<li><strong>Slide the insert upward</strong> into the top channel, then pull the bottom edge toward you and lift the panel out.</li>
+<li><strong>Clean both the insert you are putting in and the channels</strong> before installing. Dirt and debris in the channels make the panel sit unevenly.</li>
+<li><strong>Slide the new insert into the top channel first,</strong> then swing the bottom into place and re-engage the retainer clips.</li>
+</ol>
+
+<p>The whole job takes about five minutes when everything works smoothly. When it does not, the next section covers why.</p>
+
+<h2 id="common-problems">Common Problems During the Swap</h2>
+
+<p><strong>Broken or missing retainer clips.</strong> This is the most common issue. The small plastic clips become brittle after a few years of UV exposure and temperature swings. Without them, the insert rattles in the frame or can fall out entirely. Replacement clips are specific to the door brand and model, which can make finding the right ones tricky.</p>
+
+<p><strong>Cracked or shattered glass insert.</strong> Tempered safety glass is standard in storm door panels, but it still breaks. A crack from a stray hockey puck, a package delivery gone wrong, or just thermal stress from years of service. Once tempered glass cracks, it shatters into small pieces. You will need a replacement panel cut to your door's exact dimensions.</p>
+
+<p><strong>Torn or sagging screen mesh.</strong> Screen inserts take a beating from pets, kids, and wind-blown debris. Small tears grow into large ones quickly. Re-screening the insert is straightforward for a pro and gives you a tighter, cleaner result than patch kits.</p>
+
+<p><strong>Inserts that will not slide.</strong> Bent channels, paint buildup, or corrosion in the frame tracks can make it impossible to remove or install a panel. Forcing it usually makes things worse. A careful cleaning with a stiff brush and some silicone lubricant often solves the problem.</p>
+
+<p><strong>Weatherstripping gaps.</strong> Over time the foam or rubber seal around the insert compresses and stops making contact. Cold drafts around the edges of the glass panel in winter are a sure sign.</p>
+
+<h2 id="when-to-call-a-pro">When to Call a Pro</h2>
+
+<p>Some storm door issues are easy DIY jobs. Others are not worth the frustration. Call a professional when:</p>
+
+<ul>
+<li>The glass insert is cracked or shattered and needs a custom replacement panel</li>
+<li>Retainer clips are broken and you cannot identify the brand or model for replacements</li>
+<li>The door frame channels are bent or corroded and panels will not seat properly</li>
+<li>The <a href="/window-screens">screen mesh needs re-screening</a> and you want it done cleanly</li>
+<li>Your storm door closer or hinge hardware is also failing, making the whole door unstable</li>
+</ul>
+
+<p>At LuminaSky, we handle storm door glass replacement, screen re-meshing, and hardware repairs across the GTA. We carry common insert sizes and can order custom panels for less common door models. Send us a photo of your door and the issue, and we can usually tell you what is needed before we arrive.</p>
+
+<h2 id="maintenance-tips">Maintenance Tips to Extend Insert Life</h2>
+
+<p><strong>Store the off-season insert properly.</strong> Stand it upright in a dry, protected area like a garage or basement. Laying glass panels flat invites something heavy to land on them. Leaning screen panels against rough surfaces tears the mesh.</p>
+
+<p><strong>Clean the channels twice a year.</strong> When you remove one insert and before you put the other in, wipe the channels with a damp cloth and apply a thin coat of silicone spray. This keeps the panels sliding smoothly and prevents corrosion.</p>
+
+<p><strong>Inspect clips and weatherstripping each swap.</strong> It takes thirty seconds and saves you from discovering a problem in January when cold air is pouring through the gaps.</p>
+
+<p><strong>Wash glass inserts before storing.</strong> Dirt left on the glass for months can etch the surface. A quick wipe with glass cleaner before you put it away keeps it clear for next season.</p>
+
+<p>Need a storm door glass insert replacement, screen repair, or help with a door that is not cooperating? Call us at <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. We are available 24/7 and serve homeowners across Toronto, Vaughan, Brampton, Mississauga, and the entire GTA.</p>
+
+<p>LuminaSky Glass Services. Family-Owned Since 2024. 70+ 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
+`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
