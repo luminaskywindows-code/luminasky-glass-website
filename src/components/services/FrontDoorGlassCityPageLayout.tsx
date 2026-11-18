@@ -6,6 +6,7 @@ import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import type { FrontDoorGlassCityPageData } from "@/lib/front-door-glass-city-data";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 
 const VALID_SLUGS = new Set([
   "toronto", "mississauga", "vaughan", "thornhill", "richmond-hill",
@@ -244,6 +245,8 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
           </div>
         </div>
       </section>
+
+      <ServiceTestimonials service="front-door-glass" />
 
       {/* FAQ */}
       <section className="py-12 md:py-16">

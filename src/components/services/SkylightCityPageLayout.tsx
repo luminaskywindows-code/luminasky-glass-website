@@ -5,6 +5,7 @@ import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import type { SkylightCityPageData } from "@/lib/skylight-city-data";
 
 const VALID_SLUGS = new Set([
@@ -247,6 +248,8 @@ export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData })
           </div>
         </div>
       </section>
+
+      <ServiceTestimonials service="skylights" />
 
       {/* FAQ */}
       <section className="py-12 md:py-16">

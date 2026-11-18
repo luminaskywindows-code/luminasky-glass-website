@@ -4,6 +4,7 @@ import { PHONE, PHONE_HREF } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import type { EmergencyGlassCityPageData } from "@/lib/emergency-glass-city-data";
 
 const VALID_SLUGS = new Set([
@@ -242,6 +243,8 @@ export function EmergencyGlassCityPageLayout({ city }: { city: EmergencyGlassCit
           </div>
         </div>
       </section>
+
+      <ServiceTestimonials service="emergency-glass-repair" />
 
       {/* FAQ */}
       <section className="py-12 md:py-16">

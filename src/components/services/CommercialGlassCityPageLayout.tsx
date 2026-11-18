@@ -5,6 +5,7 @@ import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import type { CommercialGlassCityPageData } from "@/lib/commercial-glass-city-data";
 
 const VALID_SLUGS = new Set([
@@ -247,6 +248,8 @@ export function CommercialGlassCityPageLayout({ city }: { city: CommercialGlassC
           </div>
         </div>
       </section>
+
+      <ServiceTestimonials service="commercial-glass-repair" />
 
       {/* FAQ */}
       <section className="py-12 md:py-16">

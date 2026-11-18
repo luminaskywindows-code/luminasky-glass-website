@@ -6,6 +6,7 @@ import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import type { FoggyGlassCityPageData } from "@/lib/foggy-glass-city-data";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 
 const SEAL_FAILURE_EXPLANATION = [
   "A sealed glass unit (the industry calls it an IGU, insulated glass unit) is two or three panes of glass separated by a spacer bar and sealed at the perimeter. The space between is filled with argon or krypton gas and desiccant beads that absorb moisture.",
@@ -237,6 +238,8 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
           </p>
         </div>
       </section>
+
+      <ServiceTestimonials service="foggy-windows" />
 
       {/* Section 5: FAQ */}
       <section className="bg-gray-50 py-12 md:py-16">

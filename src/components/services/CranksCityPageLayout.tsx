@@ -6,6 +6,7 @@ import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import type { CranksCityPageData } from "@/lib/cranks-city-data";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 
 const VALID_SLUGS = new Set([
   "toronto", "mississauga", "vaughan", "thornhill", "richmond-hill",
@@ -248,6 +249,8 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
           </div>
         </div>
       </section>
+
+      <ServiceTestimonials service="cranks" />
 
       {/* FAQ */}
       <section className="py-12 md:py-16">

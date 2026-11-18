@@ -7,6 +7,7 @@ import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import type { CityPageData } from "@/lib/city-pages-data";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 
 export function CityPageLayout({ city }: { city: CityPageData }) {
   const nearby = NEARBY_CITIES[city.slug] ?? [];
@@ -300,6 +301,8 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           ))}
         </div>
       </section>
+
+      <ServiceTestimonials service="glass-replacement" />
 
       {/* FAQ */}
       {city.faqs.length > 0 && (
