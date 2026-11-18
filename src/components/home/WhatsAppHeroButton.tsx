@@ -2,6 +2,7 @@
 
 import { MessageCircle } from "lucide-react";
 import { WHATSAPP_HREF } from "@/lib/constants";
+import { tagWhatsAppHref } from "@/lib/source-tracking";
 import { trackWhatsAppConversion } from "@/lib/gtag";
 
 export function WhatsAppHeroButton() {
@@ -10,7 +11,7 @@ export function WhatsAppHeroButton() {
       type="button"
       onClick={() => {
         trackWhatsAppConversion();
-        window.open(WHATSAPP_HREF, "_blank", "noopener,noreferrer");
+        window.open(tagWhatsAppHref(WHATSAPP_HREF), "_blank", "noopener,noreferrer");
       }}
       className="inline-flex items-center gap-2 text-white/70 hover:text-white font-medium transition-colors cursor-pointer"
       aria-label="Chat on WhatsApp"
