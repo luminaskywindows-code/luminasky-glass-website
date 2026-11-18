@@ -9,6 +9,7 @@ import {
   generateServiceSchema,
   generateFAQSchema,
 } from "@/lib/schema";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 
 const BREADCRUMBS = [
   { name: "Home", url: "/" },
@@ -421,6 +422,8 @@ export default function PatioDoorRepairPage() {
           </div>
         </div>
       </section>
+
+      <ServiceTestimonials service="patio-door-repair" />
 
       {/* FAQs */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">

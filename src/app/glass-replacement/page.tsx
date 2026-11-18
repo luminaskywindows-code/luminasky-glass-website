@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { CheckCircle2, Phone, ChevronRight, Wrench, MessageCircle, Camera } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import { PHONE_HREF } from "@/lib/constants";
 import {
   generateBreadcrumbSchema,
@@ -442,6 +443,8 @@ export default function GlassReplacementPage() {
           </p>
         </div>
       </section>
+
+      <ServiceTestimonials service="glass-replacement" />
 
       {/* FAQs */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">

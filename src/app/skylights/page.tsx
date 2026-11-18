@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import {
   CheckCircle2,
   Phone,
@@ -570,6 +571,8 @@ export default function SkylightsPage() {
           </p>
         </div>
       </section>
+
+      <ServiceTestimonials service="skylights" />
 
       {/* Skylight Repair FAQs */}
       <section className="py-16 px-4 md:px-8 bg-white" aria-labelledby="faq-heading">

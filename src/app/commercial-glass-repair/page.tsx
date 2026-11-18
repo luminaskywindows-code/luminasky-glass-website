@@ -8,6 +8,7 @@ import {
   MapPin,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import { COMMERCIAL_GLASS_CITY_PAGES } from "@/lib/commercial-glass-city-data";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
@@ -593,6 +594,8 @@ export default function CommercialGlassRepairPage() {
           </p>
         </div>
       </section>
+
+      <ServiceTestimonials service="commercial-glass-repair" />
 
       {/* FAQ */}
       <section

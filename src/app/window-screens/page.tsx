@@ -8,6 +8,7 @@ import {
   Wrench,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
   SERVICES,
@@ -475,6 +476,8 @@ export default function WindowScreensPage() {
           </Link>
         </div>
       </section>
+
+      <ServiceTestimonials service="window-screens" />
 
       {/* FAQ */}
       <section

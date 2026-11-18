@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import InlineVideoPlayer from "@/components/video/InlineVideoPlayer";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
   SERVICES,
@@ -599,6 +600,8 @@ export default function WindowReplacementPage() {
           </p>
         </div>
       </section>
+
+      <ServiceTestimonials service="window-replacement" />
 
       {/* FAQ */}
       <section

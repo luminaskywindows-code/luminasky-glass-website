@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import {
   CheckCircle2,
   XCircle,
@@ -526,7 +527,7 @@ export default function FoggyWindowsPage() {
                     muted
                     loop
                     playsInline
-                    preload="metadata"
+                    preload="none"
                     aria-label={video.alt}
                     className="absolute inset-0 w-full h-full object-cover"
                   />
@@ -918,6 +919,8 @@ export default function FoggyWindowsPage() {
           </div>
         </div>
       </section>
+
+      <ServiceTestimonials service="foggy-windows" />
 
       {/* ── FAQ ── */}
       <section

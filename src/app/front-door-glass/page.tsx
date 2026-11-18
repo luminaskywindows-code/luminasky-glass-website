@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import {
   CheckCircle2,
   Phone,
@@ -1091,6 +1092,8 @@ export default function FrontDoorGlassPage() {
           </div>
         </div>
       </section>
+
+      <ServiceTestimonials service="front-door-glass" />
 
       {/* FAQ */}
       <section

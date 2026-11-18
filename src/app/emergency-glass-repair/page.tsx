@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CheckCircle2, Phone, ChevronRight, Wrench, MapPin, MessageCircle } from "lucide-react";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import { EMERGENCY_GLASS_CITY_PAGES } from "@/lib/emergency-glass-city-data";
 import { PHONE_HREF } from "@/lib/constants";
 import {
@@ -383,6 +384,8 @@ export default function EmergencyGlassRepairPage() {
           </p>
         </div>
       </section>
+
+      <ServiceTestimonials service="emergency-glass-repair" />
 
       {/* FAQs */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">

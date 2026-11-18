@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import {
   XCircle,
   CheckCircle2,
@@ -635,6 +636,8 @@ export default function WindowCranksPage() {
           </p>
         </div>
       </section>
+
+      <ServiceTestimonials service="cranks" />
 
       {/* ── FAQ ── */}
       <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="faq-heading">
