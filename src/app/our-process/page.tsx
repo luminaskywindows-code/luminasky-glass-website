@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   description:
     "Transparent pricing, written quotes before work starts, and a repair-first approach. See how LuminaSky Glass Services keeps every job honest and stress-free.",
   alternates: { canonical: "/our-process" },
+  openGraph: {
+    title: "Our Process: No Surprises",
+    description:
+      "Transparent pricing, written quotes before work starts, and a repair-first approach. See how LuminaSky Glass Services keeps every job honest and stress-free.",
+    url: "/our-process",
+  },
 };
 
 const PROCESS_STEPS = [

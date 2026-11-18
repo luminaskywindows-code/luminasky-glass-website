@@ -9,6 +9,12 @@ export const metadata: Metadata = {
   description:
     "5-year seal warranty on glass, 2 years on workmanship. 1-year warranty on hardware repairs. Clear terms, no fine print.",
   alternates: { canonical: "/warranty" },
+  openGraph: {
+    title: "Warranty Coverage",
+    description:
+      "5-year seal warranty on glass, 2 years on workmanship. 1-year warranty on hardware repairs. Clear terms, no fine print.",
+    url: "/warranty",
+  },
 };
 
 const breadcrumbSchema = generateBreadcrumbSchema([

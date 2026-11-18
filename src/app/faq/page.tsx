@@ -11,6 +11,12 @@ export const metadata: Metadata = {
   description:
     "Common questions about foggy glass repair, window cranks, patio doors, emergency service and glass repair across the GTA. Answers from LuminaSky.",
   alternates: { canonical: "/faq" },
+  openGraph: {
+    title: "FAQ",
+    description:
+      "Common questions about foggy glass repair, window cranks, patio doors, emergency service and glass repair across the GTA. Answers from LuminaSky.",
+    url: "/faq",
+  },
 };
 
 export default function FAQPage() {

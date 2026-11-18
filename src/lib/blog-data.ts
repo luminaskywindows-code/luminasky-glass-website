@@ -1887,9 +1887,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Woodbridge is the heart of older Vaughan. Homes along Islington Avenue, Kipling Avenue and the streets between Pine Valley and Highway 27 were mostly built between 1980 and 1998. These homes carry the first or second generation of double-pane sealed glass units, and many of those seals have already failed or are close to it.</p>
 
-<p>The most common call we get from Woodbridge is <a href="/foggy-glass-repair-vaughan">foggy glass</a>: condensation trapped between the two panes of a sealed unit. The glass is not cracked and the frame is usually fine. The seal around the perimeter has broken down after 20-plus years of freeze-thaw cycling, letting moisture in. We measure the glass, order a replacement sealed unit to the exact size, and install it into the existing frame. The frame stays, the fog is gone, and the window is weathertight again.</p>
+<p>The most common call we get from Woodbridge is <a href="/foggy-glass-repair-vaughan">foggy glass</a>: condensation trapped between the two panes of a sealed unit. The glass is not cracked and the frame is usually fine. The seal around the perimeter has broken down after 20-plus years of freeze-thaw cycling, letting moisture in. We measure the glass, order a replacement sealed unit to the exact size, and install it into the existing frame. The frame stays, the fog is gone, and the window is weathertight again. You can learn more about the process on our <a href="/foggy-windows">foggy window repair</a> page.</p>
 
-<p>Casement windows with crank operators are also common in Woodbridge. The original cranks, usually Truth Hardware or Roto, wear out after 15 to 25 years of daily use. The gears strip, the arm bends, or the track corrodes. We carry the most common <a href="/window-crank-repair-vaughan">crank replacements</a> and complete most hardware repairs on the same visit.</p>
+<p>Casement windows with <a href="/cranks">crank operators</a> are also common in Woodbridge. The original cranks, usually Truth Hardware or Roto, wear out after 15 to 25 years of daily use. The gears strip, the arm bends, or the track corrodes. We carry the most common <a href="/window-crank-repair-vaughan">crank replacements</a> and complete most hardware repairs on the same visit.</p>
 
 <h2 id="maple">Maple</h2>
 
@@ -1901,9 +1901,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="kleinburg">Kleinburg and Nashville</h2>
 
-<p>Kleinburg and the Nashville area are where Vaughan's largest homes are. Lot sizes are bigger, the houses are bigger, and the windows are bigger. Many of these homes have floor-to-ceiling glass walls, large picture windows, and architectural <a href="/skylight-repair-vaughan">skylights</a> that need ladder or roof access for service.</p>
+<p>Kleinburg and the Nashville area are where Vaughan's largest homes are. Lot sizes are bigger, the houses are bigger, and the windows are bigger. Many of these homes have floor-to-ceiling glass walls, large picture windows, and architectural <a href="/skylight-repair-vaughan">skylights</a> that need ladder or roof access for service. Our <a href="/skylights">skylight repair</a> team handles everything from minor seal replacements to full glass swaps on steep-pitch roofs.</p>
 
-<p>The glass units in estate homes are often oversized, which means they are custom-ordered for every replacement. Standard sizes do not apply. We measure on site, order the glass to exact dimensions, and return for installation once the unit is ready. Turnaround depends on size and glass type, but most custom units arrive within 5 to 15 business days.</p>
+<p>The glass units in estate homes are often oversized, which means they are custom-ordered for every <a href="/glass-replacement">glass replacement</a>. Standard sizes do not apply. We measure on site, order the glass to exact dimensions, and return for installation once the unit is ready. Turnaround depends on size and glass type, but most custom units arrive within 5 to 15 business days.</p>
 
 <p>Skylight work in Kleinburg often involves steep-pitch roofs and sometimes requires safety systems or scaffolding. We assess the access before quoting so there are no surprises on installation day.</p>
 
@@ -1911,7 +1911,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Concord sits between Highway 7 and Steeles Avenue, east of Highway 400. It is a mix of residential streets, townhouse complexes and commercial or industrial buildings. The residential stock is similar in age to Woodbridge, with many homes from the 1980s and 1990s, so the same sealed-unit and hardware failures apply.</p>
 
-<p>The commercial side of Concord adds storefront glass, warehouse windows and automatic door glass to the mix. Businesses along Interchange Way, Millway Avenue and the Highway 7 corridor call us for broken storefront panels, failed commercial sealed units and emergency board-ups after break-ins.</p>
+<p>The commercial side of Concord adds storefront glass, warehouse windows and automatic door glass to the mix. Businesses along Interchange Way, Millway Avenue and the Highway 7 corridor call us for broken storefront panels, failed <a href="/commercial-glass-repair">commercial sealed units</a> and <a href="/emergency-glass-repair">emergency board-ups</a> after break-ins.</p>
 
 <h2 id="thornhill-vaughan-side">Thornhill (Vaughan Side)</h2>
 

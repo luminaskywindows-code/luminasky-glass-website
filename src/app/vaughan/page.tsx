@@ -27,6 +27,12 @@ export const metadata: Metadata = {
   description:
     "LuminaSky serves all of Vaughan: Woodbridge, Maple, Kleinburg, Concord. Window repair, glass replacement, skylights, patio doors. 24/7 service. 5-year warranty.",
   alternates: { canonical: "/vaughan" },
+  openGraph: {
+    title: "Glass & Window Repair in Vaughan",
+    description:
+      "LuminaSky serves all of Vaughan: Woodbridge, Maple, Kleinburg, Concord. Window repair, glass replacement, skylights, patio doors. 24/7 service. 5-year warranty.",
+    url: "/vaughan",
+  },
 };
 
 const BREADCRUMBS = [

@@ -18,6 +18,12 @@ export const metadata: Metadata = {
   description:
     "Contact LuminaSky Glass Services for a window or door glass repair quote. Call 437-344-8490 or send a message. Proudly serving the Greater Toronto Area.",
   alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact Us – Get a Quote",
+    description:
+      "Contact LuminaSky Glass Services for a window or door glass repair quote. Call 437-344-8490 or send a message. Proudly serving the Greater Toronto Area.",
+    url: "/contact",
+  },
 };
 
 export default function ContactPage() {

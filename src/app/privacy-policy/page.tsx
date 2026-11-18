@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   description:
     "Privacy Policy for LuminaSky Glass Services: how we collect, use, and protect your personal information in compliance with PIPEDA and Ontario privacy laws.",
   alternates: { canonical: "/privacy-policy" },
+  openGraph: {
+    title: "Privacy Policy",
+    description:
+      "Privacy Policy for LuminaSky Glass Services: how we collect, use, and protect your personal information in compliance with PIPEDA and Ontario privacy laws.",
+    url: "/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

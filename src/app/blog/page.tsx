@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${SITE_URL}/blog`,
   },
+  openGraph: {
+    title: "Window & Glass Repair Blog",
+    description:
+      "Window repair tips, homeowner guides, and expert advice from LuminaSky Glass Services. Learn when to repair, when to replace, and how to maintain your windows.",
+    url: "/blog",
+  },
 };
 
 export default function BlogIndexPage() {
