@@ -191,7 +191,7 @@ export function HeroLeadForm() {
                 <p className="text-gray-600">Expect a call shortly.</p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} noValidate className="space-y-4" aria-label="Quick quote form">
+              <form data-clarity-mask="True" onSubmit={handleSubmit} noValidate className="space-y-4" aria-label="Quick quote form">
                 {submitStatus === "error" && (
                   <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-md text-sm" role="alert">
                     Something went wrong. Please call{" "}

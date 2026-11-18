@@ -123,7 +123,7 @@ function WinterReadyContent({
         </p>
       </div>
 
-      <form
+      <form data-clarity-mask="True"
         onSubmit={handleSubmit}
         noValidate
         className="space-y-2 sm:space-y-3"
@@ -275,7 +275,7 @@ function GenericQuoteContent({
         </p>
       </div>
 
-      <form
+      <form data-clarity-mask="True"
         onSubmit={handleSubmit}
         noValidate
         className="space-y-2 sm:space-y-3"

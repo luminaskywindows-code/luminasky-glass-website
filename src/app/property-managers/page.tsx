@@ -272,7 +272,7 @@ export default function PropertyManagersPage() {
                   </p>
                 </div>
               ) : (
-                <form
+                <form data-clarity-mask="True"
                   onSubmit={handleSubmit}
                   noValidate
                   className="bg-white rounded-2xl shadow-2xl p-6 sm:p-7 space-y-4"

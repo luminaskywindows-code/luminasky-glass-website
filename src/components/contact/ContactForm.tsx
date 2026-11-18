@@ -159,7 +159,7 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} method="post" noValidate className="space-y-5" aria-label="Contact form">
+    <form data-clarity-mask="True" onSubmit={handleSubmit} method="post" noValidate className="space-y-5" aria-label="Contact form">
       {submitStatus === "error" && (
         <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-md text-sm" role="alert">
           Something went wrong. Please try again or call us at{" "}

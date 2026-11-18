@@ -36,7 +36,7 @@ export default function PrivacyPolicyPage() {
         </nav>
 
         <h1 className="text-4xl font-bold text-gray-900 mb-2">Privacy Policy</h1>
-        <p className="text-sm text-gray-400 mb-12">Last Updated: September 28, 2026</p>
+        <p className="text-sm text-gray-400 mb-12">Last Updated: November 17, 2026</p>
 
         <div className="prose prose-gray max-w-none space-y-8 text-gray-700 leading-relaxed">
           <p>
@@ -112,7 +112,7 @@ export default function PrivacyPolicyPage() {
             </ul>
             <p className="mb-3">You can unsubscribe from marketing communications at any time by:</p>
             <ul className="list-disc pl-6 space-y-1 mb-4">
-              <li>Clicking the unsubscribe link in any email we send you</li>
+              <li>Replying &ldquo;unsubscribe&rdquo; to any email we send you</li>
               <li>Replying &ldquo;STOP&rdquo; to any text message</li>
               <li>Emailing us at{" "}
                 <a href={EMAIL_HREF} className="text-primary hover:underline">
@@ -161,12 +161,14 @@ export default function PrivacyPolicyPage() {
               <li><strong>Vercel</strong>: hosts our website and processes traffic data</li>
               <li><strong>Google</strong>: Google Analytics (site usage), Google Business Profile (reviews and inquiries), Google Ads (advertising performance)</li>
               <li><strong>Meta (Facebook/Instagram)</strong>: Facebook Pixel (ad performance and retargeting) when running ads</li>
+              <li><strong>Microsoft</strong>: Clarity (anonymous session recordings and heatmaps, with form fields masked)</li>
+              <li><strong>Twilio</strong>: connects calls to our tracking phone numbers. These calls may be recorded and transcribed for quality and training; you hear a notice at the start of the call.</li>
               <li><strong>Our accountant, bookkeeper, and payment processors</strong>: for invoicing, tax records, and payment processing</li>
               <li><strong>Legal or government authorities</strong>: only when required by law (court order, subpoena, tax audit)</li>
             </ul>
             <p>
               All third-party providers we use have their own privacy policies. Some of them (Google, Meta,
-              Vercel) may store data outside of Canada, including in the United States. By using our website
+              Microsoft, Twilio, Vercel) may store data outside of Canada, including in the United States. By using our website
               or contacting us, you consent to this cross-border data transfer.
             </p>
           </section>
@@ -213,7 +215,8 @@ export default function PrivacyPolicyPage() {
               <li><strong>Essential:</strong> Remembering that you dismissed a popup or banner</li>
               <li><strong>Analytics:</strong> Google Analytics to understand how visitors use our site</li>
               <li><strong>Advertising:</strong> Facebook Pixel and Google Ads tags to measure ad effectiveness and enable retargeting (when we run ads)</li>
-              <li><strong>Attribution:</strong> UTM parameters to track which marketing source you came from</li>
+              <li><strong>Attribution:</strong> UTM parameters and the page that sent you to us, kept in your browser for up to 90 days, so we know which marketing source you came from. Depending on that source, the website may show a different LuminaSky phone number, and a code may be added to WhatsApp messages you start from our site.</li>
+              <li><strong>Session recordings:</strong> Microsoft Clarity records how visitors scroll and click, to help us improve the site. What you type into our forms is masked and not recorded.</li>
             </ul>
             <p>
               You can disable cookies in your browser settings, but some parts of the site (like the

@@ -160,7 +160,7 @@ export function HeroFormCard() {
     <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
       <h2 className="text-xl font-bold text-gray-900 mb-5">Get Your Quote</h2>
 
-      <form onSubmit={handleSubmit} noValidate className="space-y-4" aria-label="Quick quote form">
+      <form data-clarity-mask="True" onSubmit={handleSubmit} noValidate className="space-y-4" aria-label="Quick quote form">
         {submitStatus === "error" && (
           <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-md text-sm" role="alert">
             Something went wrong. Please call{" "}
