@@ -3533,3 +3533,16 @@ export function getBlogPost(slug: string): BlogPost | undefined {
 export function getAllBlogSlugs(): string[] {
   return BLOG_POSTS.map((p) => p.slug);
 }
+
+export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
+  const current = BLOG_POSTS.find((p) => p.slug === slug);
+  if (!current) return [];
+
+  const scored = BLOG_POSTS.filter((p) => p.slug !== slug).map((p) => {
+    const shared = p.tags.filter((t) => current.tags.includes(t)).length;
+    return { post: p, score: shared };
+  });
+
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, limit).map((s) => s.post);
+}

@@ -73,7 +73,13 @@ function MobileTOC({
   );
 }
 
-export function BlogPostLayout({ post }: { post: BlogPost }) {
+export function BlogPostLayout({
+  post,
+  relatedPosts = [],
+}: {
+  post: BlogPost;
+  relatedPosts?: Pick<BlogPost, "slug" | "title" | "excerpt" | "publishedAt" | "readingTime" | "tags">[];
+}) {
   const [activeId, setActiveId] = useState("");
   const articleRef = useRef<HTMLDivElement>(null);
 
@@ -180,6 +186,44 @@ export function BlogPostLayout({ post }: { post: BlogPost }) {
         <div className="mt-12 pt-8 border-t border-gray-200 max-w-3xl">
           <AuthorBioBox />
         </div>
+
+        {/* Related Posts */}
+        {relatedPosts.length > 0 && (
+          <div className="mt-12 pt-8 border-t border-gray-200">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+              Related Articles
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {relatedPosts.map((related) => (
+                <Link
+                  key={related.slug}
+                  href={`/blog/${related.slug}`}
+                  className="group block border border-gray-200 rounded-lg p-5 hover:border-accent hover:shadow-md transition-all"
+                >
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    {related.tags.slice(0, 2).map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-xs font-medium text-accent bg-blue-50 px-2 py-0.5 rounded"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <h3 className="font-semibold text-gray-900 group-hover:text-accent transition-colors line-clamp-2 mb-2">
+                    {related.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 line-clamp-2">
+                    {related.excerpt}
+                  </p>
+                  <span className="mt-3 inline-block text-xs text-gray-400">
+                    {related.readingTime} min read
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Back to blog */}
         <div className="mt-8 pt-8 border-t border-gray-200">

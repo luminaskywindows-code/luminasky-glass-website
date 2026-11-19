@@ -184,7 +184,7 @@ export function Footer() {
               <a
                 href="https://www.bbb.org/ca/on/vaughan/profile/window-repair/luminasky-glass-services-0107-1422165"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="mt-3 inline-flex items-center gap-1.5 text-xs text-blue-200 hover:text-white transition-colors"
               >
                 BBB Profile
