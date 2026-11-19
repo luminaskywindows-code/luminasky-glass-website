@@ -65,12 +65,6 @@ export function generateOrganizationSchema() {
       name: "Dan",
     },
     foundingDate: "2024",
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "5.0",
-      reviewCount: "65",
-      bestRating: "5",
-    },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Glass Repair Services",
