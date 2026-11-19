@@ -422,7 +422,7 @@ export default function PropertyManagersPage() {
                         Text me occasional offers and seasonal reminders.
                       </span>
                     </label>
-                    <p className="text-[11px] text-gray-400 leading-relaxed pl-6">
+                    <p className="text-[11px] text-gray-500 leading-relaxed pl-6">
                       Message frequency varies. Message and data rates may apply. Reply STOP to cancel or HELP for help. Your mobile information will not be sold or shared with third parties.
                     </p>
                   </div>
@@ -462,7 +462,7 @@ export default function PropertyManagersPage() {
                     )}
                   </button>
 
-                  <p className="text-xs text-gray-400 text-center">
+                  <p className="text-xs text-gray-500 text-center">
                     No obligation. We never share your information.
                   </p>
 

@@ -216,7 +216,7 @@ export function BlogPostLayout({
                   <p className="text-sm text-gray-500 line-clamp-2">
                     {related.excerpt}
                   </p>
-                  <span className="mt-3 inline-block text-xs text-gray-400">
+                  <span className="mt-3 inline-block text-xs text-gray-500">
                     {related.readingTime} min read
                   </span>
                 </Link>

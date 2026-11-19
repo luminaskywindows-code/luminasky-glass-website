@@ -106,6 +106,7 @@ export function BeforeAfterSlider({
               viewBox="0 0 20 20"
               fill="none"
               className="text-gray-700"
+              aria-hidden="true"
             >
               <path
                 d="M6 10L2 10M2 10L4.5 7.5M2 10L4.5 12.5M14 10L18 10M18 10L15.5 7.5M18 10L15.5 12.5"

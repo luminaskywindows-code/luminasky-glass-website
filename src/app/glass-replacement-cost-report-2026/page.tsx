@@ -358,7 +358,7 @@ export default function GlassReplacementCostReportPage() {
                     </div>
                     <div className="flex-1 text-sm text-gray-600">
                       <span className="hidden sm:inline">{row.dimensions}</span>
-                      <span className="hidden md:inline text-gray-400 mx-2">|</span>
+                      <span className="hidden md:inline text-gray-500 mx-2">|</span>
                       <span className="hidden md:inline">{row.area}</span>
                     </div>
                     <div className="text-xl md:text-2xl font-bold text-primary sm:text-right sm:w-40 shrink-0">
@@ -598,19 +598,19 @@ export default function GlassReplacementCostReportPage() {
               <p className="text-gray-600 text-sm leading-relaxed mb-3">This report is based on:</p>
               <ul className="space-y-2 text-gray-600 text-sm">
                 <li className="flex items-start gap-2">
-                  <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
+                  <ChevronRight className="w-4 h-4 text-gray-500 shrink-0 mt-0.5" aria-hidden="true" />
                   Publicly available quotes from GTA glass companies, collected October 2026
                 </li>
                 <li className="flex items-start gap-2">
-                  <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
+                  <ChevronRight className="w-4 h-4 text-gray-500 shrink-0 mt-0.5" aria-hidden="true" />
                   LuminaSky internal records from residential and commercial glass replacement jobs completed in 2026
                 </li>
                 <li className="flex items-start gap-2">
-                  <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
+                  <ChevronRight className="w-4 h-4 text-gray-500 shrink-0 mt-0.5" aria-hidden="true" />
                   Industry pricing from local manufacturers and public pricing databases
                 </li>
                 <li className="flex items-start gap-2">
-                  <ChevronRight className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" aria-hidden="true" />
+                  <ChevronRight className="w-4 h-4 text-gray-500 shrink-0 mt-0.5" aria-hidden="true" />
                   Review of hidden fees, surcharges and standard contract terms
                 </li>
               </ul>

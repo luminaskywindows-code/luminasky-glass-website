@@ -56,7 +56,7 @@ interface SocialLinksProps {
 export function SocialLinks({
   size = 24,
   containerClassName = "flex items-center gap-4",
-  linkClassName = "text-gray-400 hover:text-accent transition-colors duration-150 hover:scale-110 transform",
+  linkClassName = "text-gray-500 hover:text-accent transition-colors duration-150 hover:scale-110 transform",
 }: SocialLinksProps) {
   return (
     <div className={containerClassName}>

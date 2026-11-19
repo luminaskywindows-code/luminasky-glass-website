@@ -204,7 +204,7 @@ export default function ContactPage() {
                     <div>
                       <p className="text-gray-900 font-semibold text-sm">{label}</p>
                       {key === "google" && (
-                        <p className="text-gray-400 text-xs flex items-center gap-1 mt-0.5">
+                        <p className="text-gray-500 text-xs flex items-center gap-1 mt-0.5">
                           <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" aria-hidden="true" />
                           5.0 / 5 rating
                         </p>
@@ -229,7 +229,7 @@ export default function ContactPage() {
                   referrerPolicy="no-referrer-when-downgrade"
                 />
               </div>
-              <p className="text-xs text-gray-400 mt-1 text-right">
+              <p className="text-xs text-gray-500 mt-1 text-right">
                 © OpenStreetMap contributors
               </p>
             </div>

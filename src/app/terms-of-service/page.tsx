@@ -18,7 +18,7 @@ export default function TermsOfServicePage() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Terms of Service", url: "/terms-of-service" }]} />
       <div className="max-w-4xl mx-auto px-4 md:px-8 py-16">
         <nav aria-label="Breadcrumb" className="mb-8">
-          <ol className="flex items-center gap-2 text-sm text-gray-400">
+          <ol className="flex items-center gap-2 text-sm text-gray-500">
             <li>
               <Link href="/" className="hover:text-primary transition-colors">
                 Home
@@ -32,7 +32,7 @@ export default function TermsOfServicePage() {
         </nav>
 
         <h1 className="text-4xl font-bold text-gray-900 mb-2">Terms of Service</h1>
-        <p className="text-sm text-gray-400 mb-12">Last Updated: October 1, 2026</p>
+        <p className="text-sm text-gray-500 mb-12">Last Updated: October 1, 2026</p>
 
         <div className="prose prose-gray max-w-none space-y-8 text-gray-700 leading-relaxed">
           <p>

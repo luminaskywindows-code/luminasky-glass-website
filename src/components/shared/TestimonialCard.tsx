@@ -32,7 +32,7 @@ export function TestimonialCard({
       <p className="text-gray-600 italic leading-relaxed flex-1">&ldquo;{text}&rdquo;</p>
       <div>
         <p className="font-semibold text-gray-900">{name}</p>
-        <p className="text-sm text-gray-400">{location}</p>
+        <p className="text-sm text-gray-500">{location}</p>
       </div>
     </a>
   );

@@ -87,7 +87,7 @@ export function ServiceTestimonials({ service }: { service: string }) {
               </p>
               <div>
                 <p className="font-semibold text-gray-900">{review.name}</p>
-                <p className="text-sm text-gray-400">{review.location}</p>
+                <p className="text-sm text-gray-500">{review.location}</p>
               </div>
             </a>
           ))}

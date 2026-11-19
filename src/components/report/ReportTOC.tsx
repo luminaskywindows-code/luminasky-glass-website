@@ -41,7 +41,7 @@ export function ReportTOC({ sections }: { sections: TOCSection[] }) {
       aria-label="Table of contents"
       className="hidden lg:block fixed left-[max(1rem,calc((100vw-80rem)/2+1rem))] top-32 w-52"
     >
-      <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-3">
+      <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-3">
         In This Report
       </p>
       <ul className="space-y-1">

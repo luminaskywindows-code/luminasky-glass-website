@@ -446,7 +446,7 @@ export default function AboutPage() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-6 py-3 bg-white border border-gray-200 rounded-xl hover:border-accent hover:text-accent text-gray-700 font-medium text-sm transition-all shadow-sm hover:shadow-md group"
               >
-                <span className="text-gray-400 group-hover:text-accent transition-colors">
+                <span className="text-gray-500 group-hover:text-accent transition-colors">
                   <Icon size={20} />
                 </span>
                 {label}
@@ -454,7 +454,7 @@ export default function AboutPage() {
               </a>
             ))}
           </div>
-          <p className="mt-6 text-sm text-gray-400 flex items-center justify-center gap-1.5">
+          <p className="mt-6 text-sm text-gray-500 flex items-center justify-center gap-1.5">
             <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" aria-hidden="true" />
             Rated 5.0 / 5 on Google Reviews
           </p>

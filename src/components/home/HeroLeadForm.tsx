@@ -262,7 +262,7 @@ export function HeroLeadForm() {
                       Text me occasional offers and seasonal reminders.
                     </span>
                   </label>
-                  <p className="text-[11px] text-gray-400 leading-relaxed pl-6">
+                  <p className="text-[11px] text-gray-500 leading-relaxed pl-6">
                     Message frequency varies. Message and data rates may apply. Reply STOP to cancel or HELP for help. Your mobile information will not be sold or shared with third parties.
                   </p>
                 </div>
@@ -290,7 +290,7 @@ export function HeroLeadForm() {
                 {/* Description (optional) */}
                 <div>
                   <label htmlFor="hero-description" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                    Brief description <span className="font-normal text-gray-400">(optional)</span>
+                    Brief description <span className="font-normal text-gray-500">(optional)</span>
                   </label>
                   <textarea
                     id="hero-description"

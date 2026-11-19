@@ -43,7 +43,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "York Region",
     metaTitle: "Window & Glass Repair Vaughan | LuminaSky",
     metaDescription:
-      "Vaughan's repair-first glass specialists. Foggy sealed units, broken cranks, front door glass and 24/7 emergency service across Woodbridge, Maple and Kleinburg. 5-year warranty.",
+      "Vaughan's repair-first glass specialists. Foggy sealed units, broken cranks, front door glass across Woodbridge, Maple and Kleinburg. 5-year warranty.",
     heroHeadline: "Window & Door Repair in Vaughan",
     heroSubtext:
       "Fast, affordable glass and door repair across Woodbridge, Maple, Kleinburg, Concord, and all of Vaughan. Fix it. Don't replace it.",
@@ -1609,7 +1609,7 @@ export const CITY_PAGES: CityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window & Door Repair in Ajax",
     metaDescription:
-      "Ajax window and door repair. Foggy glass, broken cranks, and patio door issues fixed on-site across Applecroft, Duffin Heights, and all of Ajax. Call 437-344-8490.",
+      "Ajax window and door repair. Foggy glass, broken cranks, and patio door issues fixed on-site across Applecroft, Duffin Heights, and Ajax. Call 437-344-8490.",
     heroHeadline: "Window & Door Repair in Ajax",
     heroSubtext:
       "Serving Applecroft, Duffin Heights, Central Ajax, and all of Ajax with fast, reliable glass and window repair. Fix it. Don't replace it.",

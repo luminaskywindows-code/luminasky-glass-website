@@ -198,7 +198,7 @@ function WinterReadyContent({
               Text me occasional offers and seasonal reminders.
             </span>
           </label>
-          <p className="text-[10px] text-gray-400 leading-relaxed pl-6">
+          <p className="text-[10px] text-gray-500 leading-relaxed pl-6">
             Message frequency varies. Message and data rates may apply. Reply STOP to cancel or HELP for help. Your mobile information will not be sold or shared with third parties.
           </p>
         </div>
@@ -239,7 +239,7 @@ function WinterReadyContent({
 
         <CASLConsent />
 
-        <p className="text-[10px] text-gray-400 leading-relaxed text-center">
+        <p className="text-[10px] text-gray-500 leading-relaxed text-center">
           $30 credited toward any work you book. Photo quotes are at no charge.
         </p>
       </form>
@@ -350,7 +350,7 @@ function GenericQuoteContent({
               Text me occasional offers and seasonal reminders.
             </span>
           </label>
-          <p className="text-[10px] text-gray-400 leading-relaxed pl-6">
+          <p className="text-[10px] text-gray-500 leading-relaxed pl-6">
             Message frequency varies. Message and data rates may apply. Reply STOP to cancel or HELP for help. Your mobile information will not be sold or shared with third parties.
           </p>
         </div>
@@ -641,7 +641,7 @@ export function HomepagePopup() {
       >
         <button
           onClick={handleClose}
-          className="absolute top-3 right-3 w-11 h-11 flex items-center justify-center rounded-full text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors"
+          className="absolute top-3 right-3 w-11 h-11 flex items-center justify-center rounded-full text-gray-500 hover:text-gray-600 hover:bg-gray-100 transition-colors"
           aria-label="Close popup"
         >
           <X className="w-5 h-5" />

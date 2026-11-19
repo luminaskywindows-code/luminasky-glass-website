@@ -266,7 +266,7 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
               >
                 <summary className="flex items-center justify-between px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:text-primary transition-colors list-none [&::-webkit-details-marker]:hidden">
                   {faq.q}
-                  <ChevronRight className="w-5 h-5 text-gray-400 group-open:rotate-90 transition-transform shrink-0 ml-4" aria-hidden="true" />
+                  <ChevronRight className="w-5 h-5 text-gray-500 group-open:rotate-90 transition-transform shrink-0 ml-4" aria-hidden="true" />
                 </summary>
                 <div className="px-6 pb-4 text-gray-600 leading-relaxed">{faq.a}</div>
               </details>

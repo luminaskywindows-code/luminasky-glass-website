@@ -95,6 +95,8 @@ export default function BlogIndexPage() {
                   <Link
                     href={`/blog/${post.slug}`}
                     className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:text-accent-dark transition-colors"
+                    tabIndex={-1}
+                    aria-hidden="true"
                   >
                     Read more
                     <ArrowRight

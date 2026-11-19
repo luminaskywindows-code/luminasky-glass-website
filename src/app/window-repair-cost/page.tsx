@@ -138,7 +138,7 @@ export default function WindowRepairCostPage() {
           {/* Sidebar TOC - hidden on mobile, sticky on desktop */}
           <aside className="hidden lg:block">
             <nav className="sticky top-24 bg-gray-50 rounded-xl border border-gray-200 p-4" aria-label="Table of contents">
-              <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">On this page</p>
+              <p className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">On this page</p>
               <ul className="space-y-1.5 text-sm">
                 {[
                   { id: "intro", label: "Introduction" },
@@ -339,7 +339,7 @@ export default function WindowRepairCostPage() {
                   >
                     <summary className="flex items-center justify-between px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:text-primary transition-colors list-none [&::-webkit-details-marker]:hidden">
                       {faq.q}
-                      <ChevronRight className="w-5 h-5 text-gray-400 group-open:rotate-90 transition-transform shrink-0 ml-4" aria-hidden="true" />
+                      <ChevronRight className="w-5 h-5 text-gray-500 group-open:rotate-90 transition-transform shrink-0 ml-4" aria-hidden="true" />
                     </summary>
                     <div className="px-6 pb-4 text-gray-600 leading-relaxed">{faq.a}</div>
                   </details>

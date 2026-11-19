@@ -447,7 +447,7 @@ export default function TruthHardwareCrankRepairPage() {
                 <summary className="flex items-center justify-between px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:text-primary transition-colors list-none [&::-webkit-details-marker]:hidden">
                   {faq.q}
                   <ChevronRight
-                    className="w-5 h-5 text-gray-400 group-open:rotate-90 transition-transform shrink-0 ml-4"
+                    className="w-5 h-5 text-gray-500 group-open:rotate-90 transition-transform shrink-0 ml-4"
                     aria-hidden="true"
                   />
                 </summary>
@@ -526,7 +526,7 @@ export default function TruthHardwareCrankRepairPage() {
       {/* ── Legal Disclaimer ── */}
       <section className="py-6 px-4 md:px-8 bg-gray-100 border-t border-gray-200">
         <div className="max-w-3xl mx-auto">
-          <p className="text-gray-400 text-xs leading-relaxed text-center">
+          <p className="text-gray-500 text-xs leading-relaxed text-center">
             <AlertTriangle className="w-3 h-3 inline-block mr-1 -mt-0.5" aria-hidden="true" />
             LuminaSky Glass Services is not affiliated with, endorsed by, or sponsored by
             AmesburyTruth, Truth Hardware, or any window manufacturer. All brand names and

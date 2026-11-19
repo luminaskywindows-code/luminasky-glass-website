@@ -78,7 +78,7 @@ function ProjectDetails({ project }: { project: Project }) {
       <h2 className="font-bold text-gray-900 text-base mb-2">{project.title}</h2>
       <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
       {project.location && (
-        <div className="mt-3 flex items-center gap-1 text-gray-400 text-xs">
+        <div className="mt-3 flex items-center gap-1 text-gray-500 text-xs">
           <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
           {project.location}
         </div>
@@ -326,7 +326,7 @@ export function ProjectsGallery() {
       {/* Masonry gallery */}
       <section className="max-w-5xl mx-auto px-4 md:px-8 py-12">
         {filtered.length === 0 ? (
-          <p className="text-center text-gray-400 py-24 text-lg">
+          <p className="text-center text-gray-500 py-24 text-lg">
             No projects in this category yet - check back soon!
           </p>
         ) : (

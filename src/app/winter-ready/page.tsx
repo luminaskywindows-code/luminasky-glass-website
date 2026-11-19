@@ -494,7 +494,7 @@ export default function WinterReadyPage() {
               ))}
             </div>
             <span className="font-semibold text-gray-700">5.0</span>
-            <span className="text-gray-400 text-sm">on Google</span>
+            <span className="text-gray-500 text-sm">on Google</span>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

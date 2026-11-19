@@ -55,11 +55,11 @@ export default function HomePage() {
             <span className="font-semibold text-gray-700">5.0★ on Google</span>
             <span className="hidden sm:inline">·</span>
           </a>
-          <span className="text-sm text-gray-400">Find us on:</span>
+          <span className="text-sm text-gray-500">Find us on:</span>
           <SocialLinks
             size={22}
             containerClassName="flex items-center gap-4"
-            linkClassName="text-gray-400 hover:text-accent transition-colors duration-150"
+            linkClassName="text-gray-500 hover:text-accent transition-colors duration-150"
           />
         </div>
       </section>

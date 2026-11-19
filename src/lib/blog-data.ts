@@ -2662,7 +2662,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Does Home Insurance Cover a Broken Window in Ontario?",
     metaTitle: "Does Home Insurance Cover Broken Windows in Ontario?",
     metaDescription:
-      "Learn when Ontario home insurance covers broken window glass, what is excluded, how deductibles work, the claims process step by step, and when paying out of pocket is smarter.",
+      "When does Ontario home insurance cover broken window glass? Deductibles, exclusions, the claims process, and when paying out of pocket is smarter.",
     excerpt:
       "A rock from the lawnmower, a tree branch in a storm, or a break-in overnight. When window glass breaks suddenly, most Ontario homeowners wonder if insurance will cover the repair. The answer depends on what caused the damage, what type of policy you have, and whether the math makes filing a claim worthwhile. This guide walks through it all with real Ontario data.",
     publishedAt: "2026-11-16",
@@ -2966,7 +2966,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Safety Glass Requirements Under the Ontario Building Code",
     metaTitle: "Safety Glass Requirements: Ontario Building Code Guide",
     metaDescription:
-      "Complete guide to Ontario Building Code safety glass requirements. Covers OBC Sections 9.6 and 9.8, tempered vs laminated glass, NiS spontaneous breakage, condo balcony incidents, and what homeowners need to know for replacements.",
+      "Ontario Building Code safety glass requirements: OBC Sections 9.6 and 9.8, tempered vs laminated, and what homeowners need to know for replacements.",
     excerpt:
       "The Ontario Building Code mandates tempered or laminated safety glass in dozens of locations throughout your home, from door sidelights to balcony railings. This guide covers every OBC section that applies, the century-old science behind each glass type, the Toronto balcony incidents that changed the code, and what it all means when you need a replacement.",
     publishedAt: "2026-11-16",
@@ -3280,7 +3280,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Condensation on the Outside of Your Windows? Here Is Why.",
     metaTitle: "Exterior Window Condensation Explained for Ontario Homeowners",
     metaDescription:
-      "Moisture on the outside of your windows is usually a good sign. Learn the physics of dew point and radiative cooling, the three types of window condensation, and when fog actually signals a failed seal.",
+      "Moisture on the outside of your windows is usually a good sign. Dew point, radiative cooling, three types of condensation, and when fog signals a failed seal.",
     excerpt:
       "Waking up to foggy windows on the outside can look alarming. Exterior condensation is usually a sign that your insulated glass is doing its job well. Here is a complete guide to the science behind it, the Toronto-area climate patterns that trigger it, and how to tell the difference between normal morning dew and a real problem.",
     publishedAt: "2026-11-16",

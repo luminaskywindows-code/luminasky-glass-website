@@ -291,7 +291,7 @@ export function ContactForm() {
             Text me occasional offers and seasonal reminders.
           </span>
         </label>
-        <p className="text-[11px] text-gray-400 leading-relaxed pl-6">
+        <p className="text-[11px] text-gray-500 leading-relaxed pl-6">
           Message frequency varies. Message and data rates may apply. Reply STOP to cancel or HELP for help. Your mobile information will not be sold or shared with third parties.
         </p>
       </div>
@@ -316,10 +316,10 @@ export function ContactForm() {
       </button>
 
       <div className="text-center">
-        <p className="text-xs text-gray-400">
+        <p className="text-xs text-gray-500">
           Quote by visit: $30 &nbsp;|&nbsp; Quote based on photo: No charge
         </p>
-        <p className="text-[10px] text-gray-400 italic mt-0.5">
+        <p className="text-[10px] text-gray-500 italic mt-0.5">
           *The $30 visit fee is credited toward your final payment if you proceed with the work
         </p>
       </div>

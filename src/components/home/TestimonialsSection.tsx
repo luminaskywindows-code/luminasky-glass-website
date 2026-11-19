@@ -36,7 +36,7 @@ export function TestimonialsSection() {
             ))}
           </div>
           <span className="font-semibold text-gray-700">5.0</span>
-          <span className="text-gray-400 text-sm">on Google</span>
+          <span className="text-gray-500 text-sm">on Google</span>
         </a>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -84,7 +84,7 @@ export function TestimonialsSection() {
             <Star className="w-4 h-4 fill-white" aria-hidden="true" />
             Leave a Google Review
           </a>
-          <p className="text-gray-400 text-sm">
+          <p className="text-gray-500 text-sm">
             Join hundreds of satisfied GTA homeowners who chose repair over replacement.
           </p>
         </div>

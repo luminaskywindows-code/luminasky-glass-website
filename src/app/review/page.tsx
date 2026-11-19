@@ -4,6 +4,8 @@ import { COMPANY_NAME, GOOGLE_REVIEW_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Leave a Review",
+  description:
+    "Share your experience with LuminaSky Glass Services. Your feedback helps other homeowners find reliable glass repair in the GTA.",
   robots: { index: false, follow: false },
   alternates: { canonical: "/review" },
 };
