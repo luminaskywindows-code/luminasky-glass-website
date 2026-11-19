@@ -3224,6 +3224,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2026-11-18",
     author: "Dan",
     readingTime: 7,
+    coverImage: "/images/services/window-screens-service.jpg",
     tags: ["Window Screens", "Repair Tips"],
     sections: [
       { id: "common-screen-damage", title: "Common Types of Screen Damage" },
@@ -3351,6 +3352,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2026-11-18",
     author: "Dan",
     readingTime: 8,
+    coverImage: "/images/services/door-before-broken.jpg",
     tags: ["Patio Doors", "Glass Replacement"],
     sections: [
       { id: "signs-you-need-replacement", title: "Signs Your Patio Door Glass Needs Replacing" },
@@ -3445,6 +3447,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2026-11-18",
     author: "Dan",
     readingTime: 6,
+    coverImage: "/images/services/front-door-storm.jpg",
     tags: ["Storm Doors", "Seasonal Tips"],
     sections: [
       { id: "when-to-swap", title: "When to Swap: Glass In, Screen Out (and Vice Versa)" },

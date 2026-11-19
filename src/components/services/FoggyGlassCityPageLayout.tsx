@@ -3,7 +3,7 @@ import { MapPin, Phone, MessageCircle, ChevronRight, Droplets, Thermometer, Eye,
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { LocalCityContent } from "@/components/city/LocalCityContent";
-import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
+import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema, generateHowToSchema } from "@/lib/schema";
 import type { FoggyGlassCityPageData } from "@/lib/foggy-glass-city-data";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
@@ -58,6 +58,17 @@ function generateSchemas(city: FoggyGlassCityPageData) {
       { name: city.city, url: pageUrl },
     ]),
     generateFAQSchema(allFaqs),
+    generateHowToSchema({
+      name: `How Foggy Glass Repair Works in ${city.city}`,
+      description: `Our step-by-step process for replacing foggy sealed glass units in ${city.city}.`,
+      steps: [
+        { name: "Send a Photo", text: "Text or WhatsApp a photo of your foggy window to 437-344-8490. We reply with a written quote range the same day." },
+        { name: "Book a Site Visit", text: "Schedule a convenient time. Our $30 site visit fee is credited toward your repair." },
+        { name: "Measurement and Quote", text: "A technician inspects the failed seal, takes exact measurements, and provides a written quote on the spot." },
+        { name: "Glass Fabrication", text: "Your new sealed glass unit is custom-made to your exact measurements and specifications." },
+        { name: "Installation", text: "We install the new sealed unit into your existing frame, verify the seal, and clean up. Backed by our 5-year seal warranty." },
+      ],
+    }),
   ];
 }
 

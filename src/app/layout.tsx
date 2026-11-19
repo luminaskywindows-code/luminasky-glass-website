@@ -70,6 +70,7 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#1E3A8A" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="alternate" type="application/rss+xml" title="LuminaSky Blog" href="/feed.xml" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.clarity.ms" crossOrigin="anonymous" />
         <script
