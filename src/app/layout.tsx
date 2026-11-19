@@ -90,6 +90,41 @@ export default function RootLayout({
             }),
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SiteNavigationElement",
+              name: [
+                "Foggy Glass Repair",
+                "Glass Replacement",
+                "Window Cranks",
+                "Front Door Glass",
+                "Patio Door Repair",
+                "Skylights",
+                "Window Screens",
+                "Emergency Glass Repair",
+                "Areas We Serve",
+                "Blog",
+                "Contact",
+              ],
+              url: [
+                "https://www.luminasky.com/foggy-windows",
+                "https://www.luminasky.com/glass-replacement",
+                "https://www.luminasky.com/cranks",
+                "https://www.luminasky.com/front-door-glass",
+                "https://www.luminasky.com/patio-door-repair",
+                "https://www.luminasky.com/skylights",
+                "https://www.luminasky.com/window-screens",
+                "https://www.luminasky.com/emergency-glass-repair",
+                "https://www.luminasky.com/areas-we-serve",
+                "https://www.luminasky.com/blog",
+                "https://www.luminasky.com/contact",
+              ],
+            }),
+          }}
+        />
       </head>
       <body className="font-sans antialiased bg-white text-gray-900">
         <ClarityInit />

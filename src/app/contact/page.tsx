@@ -30,6 +30,40 @@ export default function ContactPage() {
   return (
     <>
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Contact", url: "/contact" }]} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "LuminaSky Glass Services",
+            url: "https://www.luminasky.com",
+            telephone: "+1-437-344-8490",
+            email: "service@luminasky.com",
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+              opens: "00:00",
+              closes: "23:59",
+            },
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+1-437-344-8490",
+              contactType: "customer service",
+              email: "service@luminasky.com",
+              areaServed: "CA",
+              availableLanguage: ["English"],
+            },
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Thornhill",
+              addressRegion: "ON",
+              postalCode: "L4J 7W9",
+              addressCountry: "CA",
+            },
+          }),
+        }}
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary via-blue-800 to-primary-700 py-20 px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center">

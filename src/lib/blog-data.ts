@@ -2317,7 +2317,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>If you are not sure what type of glass your windows have, or which type you need for a replacement, we can help. LuminaSky Glass Services handles all types of residential glass across Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. Glass is measured first, custom-made to your exact specifications, then installed. Every sealed unit we install carries a 5-year seal warranty and 2-year workmanship warranty.</p>
 
-<p>Call <a href="tel:+14373448490">437-344-8490</a> or visit our <a href="/contact">contact page</a> to get a written quote on the spot. We are available 24/7. Family-Owned Since 2024. 70+ 5-Star Google Reviews.</p>
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or visit our <a href="/contact">contact page</a> to get a written quote on the spot. We are available 24/7. Family-Owned Since 2024. 76 5-Star Google Reviews.</p>
 `,
   },
   {
@@ -2621,7 +2621,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>If your windows are not broken but are foggy, hazy, or showing condensation between the panes, that is a seal failure, not an insurance matter. Visit our <a href="/foggy-windows">foggy window repair page</a> or our guide to <a href="/blog/exterior-window-condensation-normal">exterior window condensation</a> to learn what is happening and how we fix it.</p>
 
-<p>Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. LuminaSky Glass Services handles residential and <a href="/commercial-glass-repair">commercial glass repairs</a> across Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. Available 24/7. Family-Owned Since 2024. 70+ 5-Star Google Reviews.</p>
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. LuminaSky Glass Services handles residential and <a href="/commercial-glass-repair">commercial glass repairs</a> across Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. Available 24/7. Family-Owned Since 2024. 76 5-Star Google Reviews.</p>
 `,
   },
   {
@@ -2936,7 +2936,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Our warranties: 5-year seal warranty on sealed glass units, 2-year warranty on glass workmanship, and 1-year warranty on hardware repairs. All warranties exclude vandalism, impact damage, and physical breakage.</p>
 
-<p>Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a> to get a written quote on the spot. You can also reach us through our <a href="/contact">contact page</a>. LuminaSky Glass Services is available 24/7, serving Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. 70+ 5-Star Google Reviews. Family-Owned Since 2024.</p>
+<p>Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a> to get a written quote on the spot. You can also reach us through our <a href="/contact">contact page</a>. LuminaSky Glass Services is available 24/7, serving Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. 76 5-Star Google Reviews. Family-Owned Since 2024.</p>
 `,
   },
   {
@@ -3210,7 +3210,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Not sure which type of condensation you are dealing with? Send us a photo or call <a href="tel:+14373448490">437-344-8490</a>. You can also reach us at <a href="mailto:service@luminasky.com">service@luminasky.com</a>. We are available 24/7 and can usually tell from a photo whether you need service or just reassurance.</p>
 
-<p>LuminaSky Glass Services. Family-Owned Since 2024. 70+ 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
+<p>LuminaSky Glass Services. Family-Owned Since 2024. 76 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
 `,
   },
   {
@@ -3338,7 +3338,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>For a full overview of our screen services, including window screens, patio door screens, and storm door screens, visit our <a href="/window-screens">Window Screens</a> page.</p>
 
-<p>LuminaSky Glass Services. Family-Owned Since 2024. 70+ 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
+<p>LuminaSky Glass Services. Family-Owned Since 2024. 76 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
 `,
   },
   {
@@ -3433,7 +3433,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Have questions about your patio door? Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. You can also send us a photo for a quick assessment. Visit our <a href="/patio-door-repair">patio door repair</a> page to see the full range of patio door services we offer.</p>
 
-<p>LuminaSky Glass Services. Family-Owned Since 2024. 70+ 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
+<p>LuminaSky Glass Services. Family-Owned Since 2024. 76 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
 `,
   },
   {
@@ -3524,7 +3524,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Need a storm door glass insert replacement, screen repair, or help with a door that is not cooperating? Call us at <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. We are available 24/7 and serve homeowners across Toronto, Vaughan, Brampton, Mississauga, and the entire GTA.</p>
 
-<p>LuminaSky Glass Services. Family-Owned Since 2024. 70+ 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
+<p>LuminaSky Glass Services. Family-Owned Since 2024. 76 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
 `,
   },
 ];
