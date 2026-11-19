@@ -16,6 +16,179 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "window-wont-close-or-lock",
+    title: "Window Won't Close or Lock? Here Is What to Check",
+    metaTitle: "Window Won't Close or Lock? Causes and Fixes for Toronto Homes",
+    metaDescription:
+      "Common reasons your window won't close or lock, from broken cranks to shifted frames. What you can fix yourself and when to call a technician.",
+    excerpt:
+      "A window that will not close all the way is more than an annoyance. It is a security risk, an energy drain, and an open invitation for insects and rain. The good news: most of the time the problem is a hardware issue that can be repaired on the spot, not a full window replacement.",
+    publishedAt: "2026-11-19",
+    author: "Dan",
+    readingTime: 7,
+    coverImage: "/images/services/window-crank-service.webp",
+    tags: ["Window Repair", "Window Hardware", "Toronto"],
+    sections: [
+      { id: "why-it-matters", title: "Why a Window That Won't Close Matters" },
+      { id: "casement-windows", title: "Casement Windows (Crank-Out)" },
+      { id: "double-hung-windows", title: "Double-Hung Windows (Slide Up and Down)" },
+      { id: "sliding-windows", title: "Sliding Windows and Patio Doors" },
+      { id: "lock-problems", title: "When the Window Closes but Won't Lock" },
+      { id: "hardware-vs-replacement", title: "Hardware Repair vs Window Replacement" },
+      { id: "temporary-fixes", title: "Temporary Fixes While You Wait for Repair" },
+      { id: "when-to-call", title: "When to Call a Technician" },
+      { id: "faq", title: "FAQ" },
+    ],
+    content: `
+<p>A window that will not close all the way is more than an annoyance. It is a security risk, an energy drain, and an open invitation for insects and rain. In winter, even a 3 mm gap lets enough cold air in to make a noticeable difference on your heating bill. In summer, it means conditioned air leaking out.</p>
+
+<p>The good news: most of the time the problem is a hardware issue that can be repaired on the spot, not a full window replacement. The fix depends on what type of window you have and what exactly is preventing it from closing. This guide walks through the most common causes for each window type and tells you what to check before calling anyone.</p>
+
+<h2 id="why-it-matters">Why a Window That Won't Close Matters</h2>
+
+<p>People often put up with a sticky or jammed window for months, propping it shut with a wooden shim or just leaving it. That creates real problems:</p>
+
+<ul>
+  <li><strong>Security.</strong> A window that does not latch is an unlocked entry point. Ground-floor and basement windows are the most common break-in locations in Ontario residential properties. Insurance claims for break-ins can be complicated if the insurer determines the window was not secured.</li>
+  <li><strong>Energy loss.</strong> A window that does not seal properly lets conditioned air escape year-round. Depending on the size of the gap and the number of affected windows, this can add meaningfully to your heating and cooling costs.</li>
+  <li><strong>Water damage.</strong> Rain can enter through a gap you would not expect. Even a small amount of water reaching the sill, the drywall below the window, or the subfloor can cause mould growth and structural damage over time.</li>
+  <li><strong>Insects and pests.</strong> Flies, wasps, and mosquitoes find even small gaps. Mice can fit through an opening as small as 6 mm.</li>
+</ul>
+
+<p>The sooner you address the issue, the less chance there is of secondary damage. Most <a href="/cranks">window hardware repairs</a> are completed on the same day, on the first visit.</p>
+
+<h2 id="casement-windows">Casement Windows (Crank-Out)</h2>
+
+<p>Casement windows swing outward on a hinge and are operated by a crank mechanism at the bottom of the frame. They are the most common window type in Toronto homes built from the 1980s onward. When a casement window will not close, the cause is almost always in the crank or the operator arm.</p>
+
+<h3>Stripped or broken crank operator</h3>
+<p>The crank handle turns but the window does not move. This means the gears inside the operator have stripped. The operator needs to be replaced. This is the single most common casement window problem we see, and we carry the most popular operator sizes on the truck. For a detailed breakdown, see our guide on <a href="/blog/broken-window-crank-what-to-do">what to do when your window crank breaks</a>.</p>
+
+<h3>Bent or disconnected operator arm</h3>
+<p>The operator arm connects the crank mechanism to the sash. If the arm is bent (often from forcing the window closed against an obstruction) or has popped out of its track, the window will not close flush. A bent arm can sometimes be straightened, but a severely damaged one needs to be replaced.</p>
+
+<h3>Swollen or shifted sash</h3>
+<p>If the crank operator works fine but the sash still will not seat into the frame, the sash may have shifted or the frame may have settled. This is more common in older homes where the framing has moved over the years. A technician can assess whether the sash can be adjusted or whether the hinge hardware needs to be repositioned.</p>
+
+<h3>Debris in the hinge track</h3>
+<p>Paint, caulking, dirt, or insect nests in the hinge channel can prevent the sash from closing the last few millimetres. Clean the hinge track with a stiff brush and apply a silicone-based lubricant. Do not use WD-40 on window hardware. It attracts dust and gums up over time.</p>
+
+<h2 id="double-hung-windows">Double-Hung Windows (Slide Up and Down)</h2>
+
+<p>Double-hung windows have two sashes that slide vertically. The lower sash slides up and the upper sash slides down. They are common in older Toronto homes (pre-1980s construction) and in many newer vinyl replacement windows.</p>
+
+<h3>Broken window balance</h3>
+<p>Window balances are the spring-loaded mechanisms inside the frame that hold the sash in position and counterbalance its weight. When a balance breaks, the sash drops or will not stay open. In some cases, a broken balance can also prevent the sash from closing fully because the sash tilts or jams at an angle. Replacing a window balance is a standard hardware repair.</p>
+
+<h3>Sash off track</h3>
+<p>If the sash has been removed for cleaning and not reinstalled correctly, or if the balance shoe has slipped, the sash can sit crooked in the frame. It may close on one side but leave a gap on the other. The sash needs to be removed, the balance reset, and the sash reinstalled properly.</p>
+
+<h3>Paint seal</h3>
+<p>In older homes with painted wood windows, layers of paint can effectively glue the sash to the frame or to the parting bead (the strip between the two sashes). Score the paint line with a utility knife and gently work the sash free. Be careful not to damage the wood.</p>
+
+<h3>Swollen wood</h3>
+<p>Wood sashes absorb moisture and swell, especially in spring and autumn when humidity is high. A sash that closes fine in winter may jam in summer. If the swelling is minor, sanding the contact points and repainting with a moisture-resistant paint can help. If the wood is rotted, the sash or the entire window may need replacement.</p>
+
+<h2 id="sliding-windows">Sliding Windows and Patio Doors</h2>
+
+<p>Sliding windows and <a href="/blog/sliding-patio-door-wont-slide">patio doors</a> move horizontally on a track. The most common reasons they will not close are track-related.</p>
+
+<h3>Dirty or damaged track</h3>
+<p>Dirt, pet hair, leaves, and small stones accumulate in the track over time. A heavily soiled track creates enough friction to prevent the sash or door panel from reaching the closed position. Vacuum the track, clean it with a damp cloth, and apply a silicone spray lubricant.</p>
+
+<h3>Worn rollers</h3>
+<p>Sliding sashes and patio doors ride on small rollers at the bottom. When the rollers wear out, flatten, or break, the panel drags on the track instead of rolling smoothly. It may stop short of the closed position or require so much force to move that it jumps off the track entirely. Roller replacement is a common repair that restores smooth operation.</p>
+
+<h3>Warped or bent track</h3>
+<p>Aluminum tracks can bend if someone steps on them or drops something heavy on them. A bent track creates a physical barrier that stops the panel from sliding past the damaged section. Minor bends can sometimes be straightened with pliers. A severely damaged track needs to be replaced.</p>
+
+<h3>Misaligned latch</h3>
+<p>The latch (the hook or lever that secures the sliding panel to the frame) may be misaligned with the keeper (the strike plate on the frame). If the panel closes but the latch does not engage, the keeper may need to be repositioned, or the latch mechanism itself may be worn and need replacement.</p>
+
+<h2 id="lock-problems">When the Window Closes but Won't Lock</h2>
+
+<p>If your window closes flush against the frame but the lock will not engage, the problem is usually one of these:</p>
+
+<ul>
+  <li><strong>Misaligned lock and keeper.</strong> The lock and the keeper (the piece it hooks into) are no longer lined up. This happens when the sash shifts slightly over time, or when the frame settles. Repositioning the keeper by a few millimetres often solves it.</li>
+  <li><strong>Worn lock mechanism.</strong> The internal spring or cam in the lock has worn out. The lock handle moves but does not grip. The lock needs to be replaced. Window locks are standardized parts and usually available for same-day repair.</li>
+  <li><strong>Sash not fully seated.</strong> The sash looks closed but is actually sitting a millimetre or two proud of the frame. This small gap is enough to prevent the lock from reaching the keeper. Check for debris, a broken balance, or a bent hinge that is holding the sash away from the frame.</li>
+  <li><strong>Painted-over lock.</strong> In older homes, the lock mechanism may be clogged with paint. Scrape the paint off the lock and keeper, then test the mechanism. If it still does not work, replace it.</li>
+</ul>
+
+<h2 id="hardware-vs-replacement">Hardware Repair vs Window Replacement</h2>
+
+<p>Not every window problem means you need a new window. Here is a general guide:</p>
+
+<h3>Hardware repair is enough when:</h3>
+<ul>
+  <li>The frame is structurally sound (no rot, no cracks, no warping)</li>
+  <li>The glass is intact and the sealed unit is not fogged</li>
+  <li>The problem is a broken crank, balance, roller, lock, or hinge</li>
+  <li>The sash is in good condition but not operating correctly</li>
+</ul>
+
+<p>Most hardware problems fall into this category. The repair is completed on site, usually within an hour, and costs a fraction of a full <a href="/window-replacement">window replacement</a>.</p>
+
+<h3>Replacement makes more sense when:</h3>
+<ul>
+  <li>The frame is rotted, warped, or cracked beyond repair</li>
+  <li>The window is single-pane and you want to upgrade to a sealed unit</li>
+  <li>Multiple components have failed at the same time (hardware, seal, and frame)</li>
+  <li>The window no longer meets your needs (too small for egress, poor energy performance, wrong style)</li>
+</ul>
+
+<p>When the frame is sound, we always recommend repairing the hardware rather than replacing the entire window. It saves you money and keeps functional windows out of the landfill. For an honest comparison, see our post on <a href="/blog/replace-vs-repair-windows-toronto">when to repair vs replace your windows</a>.</p>
+
+<h2 id="temporary-fixes">Temporary Fixes While You Wait for Repair</h2>
+
+<p>If you cannot get the window closed right away, here are some temporary measures to secure it until a technician can visit:</p>
+
+<ul>
+  <li><strong>Wedge it shut.</strong> A wooden shim or a folded piece of cardboard wedged between the sash and the frame can hold the window in the closed position. It will not lock, but it will reduce the gap.</li>
+  <li><strong>Use a window security bar.</strong> For sliding windows and patio doors, a cut-to-length wooden dowel or metal bar laid in the track prevents the panel from being opened from the outside.</li>
+  <li><strong>Apply painter's tape.</strong> If the gap is small (under 5 mm), painter's tape across the seam will block drafts and insects temporarily without damaging the paint or finish.</li>
+  <li><strong>Cover with plastic sheeting.</strong> For a window that cannot be closed at all, tape a sheet of heavy plastic over the opening from the inside. This stops air infiltration and keeps rain out until the repair is done.</li>
+</ul>
+
+<p>These are short-term solutions. Do not leave a window unsecured for more than a few days, especially on the ground floor.</p>
+
+<h2 id="when-to-call">When to Call a Technician</h2>
+
+<p>Some problems are straightforward to diagnose and fix yourself (cleaning a dirty track, scoring a paint seal). Others require specific parts, tools, or experience:</p>
+
+<ul>
+  <li>The crank operator has stripped gears (needs a replacement operator matched to your window brand)</li>
+  <li>A window balance has broken (needs to be sized and matched to the sash weight)</li>
+  <li>The sash is off track and you cannot figure out how to reseat it</li>
+  <li>The frame has shifted and the window no longer fits the opening</li>
+  <li>The lock mechanism is broken internally (not just misaligned)</li>
+  <li>You are not sure what the problem is</li>
+</ul>
+
+<p>We carry common replacement parts on the truck and complete most hardware repairs on the same visit. Visit our <a href="/our-process">service process page</a> to see how a typical repair works from first call to completion.</p>
+
+<h2 id="faq">FAQ</h2>
+
+<h3>Can I force a jammed window closed?</h3>
+<p>Do not force it. Forcing a jammed casement window can bend the operator arm, strip the gears, or crack the frame. For sliding windows, forcing the panel past an obstruction can damage the rollers or bend the track. Figure out what is blocking it first, then address the cause.</p>
+
+<h3>My window closed fine yesterday but won't close today. What changed?</h3>
+<p>Temperature and humidity changes cause window materials to expand and contract. A wood sash that closes easily in dry winter air may swell and jam on a humid summer day. Vinyl frames can also expand slightly in direct sunlight. If the problem comes and goes with the weather, the fit is marginal and an adjustment may be needed.</p>
+
+<h3>Is a window that won't lock a security risk even if it looks closed?</h3>
+<p>Yes. A window that sits in the closed position but does not latch can be opened from the outside with minimal effort. Ground-floor and basement windows are the most vulnerable. Get the lock repaired or replaced as soon as possible.</p>
+
+<h3>How much does a window hardware repair cost?</h3>
+<p>It depends on the part and the window type. We charge a $30 site visit fee (credited toward the repair) and provide a written quote on the spot before any work begins. Most hardware repairs are significantly less expensive than a full window replacement.</p>
+
+<h3>Do you repair all window brands?</h3>
+<p>We repair windows from all major manufacturers. Some older or discontinued brands require sourcing specialty parts, which may take a few extra days. The technician will let you know during the assessment if your window needs a non-standard part.</p>
+
+<p>Need a window that won't close or lock looked at? Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a quote online</a>. We serve Toronto, Vaughan, Mississauga, Brampton, and the entire GTA.</p>
+`,
+  },
+  {
     slug: "basement-window-replacement-toronto",
     title: "Basement Window Replacement in Toronto: Glass, Frames, and Egress",
     metaTitle: "Basement Window Replacement Toronto",

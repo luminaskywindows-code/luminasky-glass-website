@@ -143,7 +143,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Patio Door Repair Oakville | Rollers & Glass",
     metaDescription:
-      "Patio door repair in Oakville. We replace rollers, fix tracks, adjust panels and replace glass in sliding patio doors.",
+      "Patio door repair in Oakville. Roller replacement, track repair, lock fixes, panel adjustment and glass for sliding patio doors. Call 437-344-8490.",
     intro:
       "Oakville homes tend to have well-maintained patio doors, but even a well-cared-for door reaches a point where the rollers wear out. Homes in old Oakville near the lake have had their doors exposed to moisture and salt air for decades. Newer builds in Joshua Creek, River Oaks and East Oakville are now hitting the 15- to 20-year mark. We service both.",
     uniqueContent:
@@ -160,7 +160,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Patio Door Repair Burlington | Rollers & Tracks",
     metaDescription:
-      "Sliding patio door repair in Burlington. Roller replacement, track capping, panel adjustment and glass for patio doors.",
+      "Sliding patio door repair in Burlington. Roller replacement, track capping, panel adjustment and glass for patio doors. Call 437-344-8490.",
     intro:
       "Burlington's housing stock spans from 1960s bungalows near the lake to new builds in Alton Village. Patio door problems show up at every age, but the fix is usually the same: worn rollers need replacing, the track needs cleaning or capping, and the panel needs adjusting. We handle it all on-site.",
     uniqueContent:
@@ -177,7 +177,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Hamilton",
     metaTitle: "Patio Door Repair Hamilton | Rollers & Glass",
     metaDescription:
-      "Patio door repair in Hamilton. Roller replacement, track repair, lock fixes and patio door glass. On-site service.",
+      "Patio door repair in Hamilton. Roller replacement, track repair, lock fixes and patio door glass replacement. On-site mobile service. Call 437-344-8490.",
     intro:
       "Hamilton has some of the most varied housing stock in the GTA, from century homes on the Mountain to new builds in Binbrook and Waterdown. Sliding patio doors appear in most of these homes, and they all use the same basic mechanism: rollers on a track. When those rollers wear out, we replace them and get the door moving properly.",
     uniqueContent:

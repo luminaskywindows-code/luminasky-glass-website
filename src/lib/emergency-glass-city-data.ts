@@ -41,7 +41,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Emergency Glass Repair Mississauga | 24/7",
     metaDescription:
-      "Emergency glass repair in Mississauga. 24/7 board-up, storm damage and break-in glass replacement. Call 437-344-8490.",
+      "Emergency glass repair in Mississauga. 24/7 board-up, storm damage and break-in glass replacement. Same-day service available. Call 437-344-8490.",
     intro:
       "A shattered window or smashed patio door in Mississauga needs immediate attention, whether it happened at noon or midnight. LuminaSky responds around the clock to board up the opening, secure your home, and arrange permanent glass replacement. We serve every neighbourhood in Mississauga from Port Credit to Churchill Meadows.",
     uniqueContent:
@@ -109,7 +109,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Emergency Glass Repair Markham | 24/7 Service",
     metaDescription:
-      "Emergency glass repair in Markham. 24/7 board-up, broken window and patio door glass replacement. Call 437-344-8490.",
+      "Emergency glass repair in Markham. 24/7 board-up, broken window and patio door glass replacement. Same-day service available. Call 437-344-8490.",
     intro:
       "When glass breaks in Markham, the priority is securing the opening. LuminaSky responds 24/7 for emergency board-up and glass replacement across Markham, from Unionville to Cornell to the older neighbourhoods around Main Street. We secure the opening first, then measure and order permanent replacement glass.",
     uniqueContent:
@@ -143,7 +143,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Emergency Glass Repair Oakville | 24/7 Response",
     metaDescription:
-      "Emergency glass repair in Oakville. 24/7 board-up service, broken window and door glass replacement. Call 437-344-8490.",
+      "Emergency glass repair in Oakville. 24/7 board-up, broken window and door glass replacement for homes and businesses. Same-day service. Call 437-344-8490.",
     intro:
       "Oakville homes often have large windows, custom glass and premium entry doors that are expensive to leave exposed after a break. LuminaSky provides 24/7 emergency glass repair across Oakville. We board up the opening immediately and then measure for permanent replacement glass.",
     uniqueContent:
@@ -160,7 +160,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Emergency Glass Repair North York | 24/7",
     metaDescription:
-      "Emergency glass repair in North York. 24/7 board-up and glass replacement for homes and businesses. Call 437-344-8490.",
+      "Emergency glass repair in North York. 24/7 board-up and same-day glass replacement for homes and businesses. 5-year warranty. Call 437-344-8490.",
     intro:
       "North York has everything from high-rise condos to detached homes, and glass emergencies can happen in any of them. LuminaSky responds 24/7 across North York for emergency board-up and glass replacement. We secure the opening first, then handle the permanent fix.",
     uniqueContent:
@@ -177,7 +177,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Emergency Glass Repair Scarborough | 24/7",
     metaDescription:
-      "Emergency glass repair in Scarborough. 24/7 board-up, storm damage and break-in glass replacement. Call 437-344-8490.",
+      "Emergency glass repair in Scarborough. 24/7 board-up, storm damage and break-in glass replacement. Same-day service available. Call 437-344-8490.",
     intro:
       "Scarborough stretches from the Bluffs to the Rouge Valley, and glass emergencies happen across the entire area. LuminaSky provides 24/7 emergency glass repair in Scarborough. We board up broken windows and doors immediately and then arrange permanent replacement glass.",
     uniqueContent:
@@ -194,7 +194,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Emergency Glass Repair Etobicoke | 24/7",
     metaDescription:
-      "Emergency glass repair in Etobicoke. 24/7 board-up and glass replacement for homes and businesses. Call 437-344-8490.",
+      "Emergency glass repair in Etobicoke. 24/7 board-up and same-day glass replacement for homes and businesses. 5-year warranty. Call 437-344-8490.",
     intro:
       "Etobicoke homeowners and business owners call LuminaSky when glass breaks unexpectedly. We respond 24/7 across Etobicoke, from the Kingsway to Rexdale. Board-up first, then permanent glass replacement.",
     uniqueContent:
@@ -211,7 +211,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     region: "Hamilton",
     metaTitle: "Emergency Glass Repair Hamilton | 24/7 Service",
     metaDescription:
-      "Emergency glass repair in Hamilton. 24/7 board-up and glass replacement for broken windows. Call 437-344-8490.",
+      "Emergency glass repair in Hamilton. 24/7 board-up and same-day glass replacement for broken windows and doors. 5-year warranty. Call 437-344-8490.",
     intro:
       "Hamilton's weather and older housing stock make glass emergencies more common than you might expect. LuminaSky provides 24/7 emergency glass repair across Hamilton, from the Mountain to Dundas to Stoney Creek. We board up the opening immediately and handle permanent glass replacement.",
     uniqueContent:
@@ -228,7 +228,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Emergency Glass Repair Burlington | 24/7",
     metaDescription:
-      "Emergency glass repair in Burlington. 24/7 board-up, storm damage and broken window replacement. Call 437-344-8490.",
+      "Emergency glass repair in Burlington. 24/7 board-up, storm damage and broken window replacement. Same-day service available. Call 437-344-8490.",
     intro:
       "Burlington sits between the lake and the escarpment, and both create weather patterns that put glass at risk. LuminaSky provides 24/7 emergency glass repair across Burlington. We board up the opening right away and then handle permanent glass replacement.",
     uniqueContent:
@@ -245,7 +245,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Emergency Glass Repair Ajax | 24/7 Board-Up",
     metaDescription:
-      "Emergency glass repair in Ajax. 24/7 board-up and glass replacement for broken windows and doors. Call 437-344-8490.",
+      "Emergency glass repair in Ajax. 24/7 board-up and same-day glass replacement for broken windows and doors. 5-year glass warranty. Call 437-344-8490.",
     intro:
       "Ajax homeowners can call LuminaSky any time for emergency glass repair. We provide 24/7 board-up service across Ajax and handle permanent glass replacement from measurement through installation. No after-hours surcharge.",
     uniqueContent:
@@ -262,7 +262,7 @@ export const EMERGENCY_GLASS_CITY_PAGES: EmergencyGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Emergency Glass Repair Pickering | 24/7",
     metaDescription:
-      "Emergency glass repair in Pickering. 24/7 board-up and glass replacement for broken windows. Call 437-344-8490.",
+      "Emergency glass repair in Pickering. 24/7 board-up and same-day glass replacement for broken windows and doors. 5-year warranty. Call 437-344-8490.",
     intro:
       "Pickering is a growing city with a mix of established neighbourhoods and new developments. LuminaSky provides 24/7 emergency glass repair across Pickering. We board up broken windows and doors immediately and handle permanent glass replacement.",
     uniqueContent:

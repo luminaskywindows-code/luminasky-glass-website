@@ -92,7 +92,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "York Region",
     metaTitle: "Skylight Repair Richmond Hill | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Richmond Hill. Leaks, fogged glass, flashing, seal replacement and emergency service.",
+      "Skylight repair in Richmond Hill. Leak repair, fogged glass replacement, flashing, seal replacement and 24/7 emergency service. Call 437-344-8490.",
     intro:
       "Richmond Hill has a solid mix of 1980s, 1990s and 2000s homes, many with skylights that are now reaching the end of their seal life. From Elgin Mills down to Highway 7, and from Bayview west to Bathurst, we repair leaking and fogged skylights across the city. Emergency tarp-up service is available 24/7 for active leaks.",
     uniqueContent:
@@ -126,7 +126,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Skylight Repair Brampton | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Brampton. Leaks, fogged glass, flashing and seal repair. Emergency skylight service available 24/7.",
+      "Skylight repair in Brampton. Leak repair, fogged glass replacement, flashing and seal repair. Emergency skylight service available 24/7. 5-year warranty.",
     intro:
       "Brampton's rapid growth over the past two decades means a lot of homes have skylights installed during the 2000s and 2010s that are now showing their first signs of seal failure. We also see plenty of 1990s homes in the Bramalea and Heart Lake areas where the skylights are well past their expected seal life. We repair leaks, replace glass, fix flashing and re-seal frames across all of Brampton.",
     uniqueContent:
