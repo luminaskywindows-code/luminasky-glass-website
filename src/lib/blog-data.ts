@@ -16,6 +16,166 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "how-long-do-sealed-units-last",
+    title: "How Long Do Sealed Window Units Last? What Toronto Homeowners Should Know",
+    metaTitle: "How Long Do Sealed Window Units Last?",
+    metaDescription:
+      "Sealed window units typically last 15 to 25 years before the seal fails. Learn what affects their lifespan, signs of failure, and when to replace the glass.",
+    excerpt:
+      "Every double- or triple-pane window in your home contains a sealed unit: two or three panes of glass bonded together with a spacer and an airtight seal. When that seal fails, moisture gets trapped between the panes and your window fogs up. Knowing how long sealed units last helps you plan repairs before the problem spreads.",
+    publishedAt: "2026-11-19",
+    author: "Dan",
+    readingTime: 7,
+    coverImage: "/images/services/foggy-window-real.webp",
+    tags: ["Sealed Units", "Window Maintenance", "Glass Repair"],
+    sections: [
+      { id: "what-is-a-sealed-unit", title: "What Is a Sealed Unit?" },
+      { id: "typical-lifespan", title: "Typical Lifespan: 15 to 25 Years" },
+      { id: "what-shortens-lifespan", title: "What Shortens the Lifespan" },
+      { id: "what-extends-lifespan", title: "What Extends the Lifespan" },
+      { id: "signs-of-seal-failure", title: "Signs of Seal Failure" },
+      { id: "can-a-failed-seal-be-repaired", title: "Can a Failed Seal Be Repaired?" },
+      { id: "replace-the-glass-not-the-window", title: "Replace the Glass, Not the Window" },
+      { id: "how-replacement-works", title: "How Sealed Unit Replacement Works" },
+      { id: "what-about-argon-and-low-e", title: "What About Argon Gas and Low-E Coatings?" },
+      { id: "when-to-act", title: "When to Act" },
+      { id: "faq", title: "FAQ" },
+    ],
+    content: `
+<p>Every double- or triple-pane window in your home contains a sealed unit (also called an insulated glass unit, or IGU). It is made of two or three panes of glass bonded together with a spacer bar around the perimeter and an airtight seal holding it all together. The space between the panes is filled with air or an insulating gas.</p>
+
+<p>When that seal eventually fails, moisture gets trapped between the panes. The result is a foggy, hazy window that no amount of cleaning will fix, because the condensation is on the inside. Knowing how long sealed units last, and what affects their lifespan, helps you plan ahead and avoid overpaying for repairs you do not need yet.</p>
+
+<h2 id="what-is-a-sealed-unit">What Is a Sealed Unit?</h2>
+
+<p>A sealed unit is the glass portion of your window, separate from the frame. It consists of:</p>
+
+<ul>
+  <li><strong>Two or three panes of glass</strong> (tempered, laminated, or annealed depending on the application)</li>
+  <li><strong>A spacer bar</strong> around the perimeter that holds the panes apart and contains a desiccant to absorb residual moisture</li>
+  <li><strong>A primary seal</strong> (typically polyisobutylene) that blocks moisture vapour</li>
+  <li><strong>A secondary seal</strong> (usually polysulfide or silicone) that bonds the panes to the spacer and provides structural strength</li>
+  <li><strong>An insulating fill</strong> between the panes: dry air, argon gas, or krypton gas</li>
+</ul>
+
+<p>The sealed unit sits inside your window frame, held in place by glazing stops or a gasket. When the glass fails, you can replace just the sealed unit and keep the frame, as long as the frame itself is in good condition.</p>
+
+<h2 id="typical-lifespan">Typical Lifespan: 15 to 25 Years</h2>
+
+<p>Most sealed units installed in Canadian homes last between 15 and 25 years before the seal degrades enough to let moisture in. Some last longer, and some fail sooner. The range depends on several factors.</p>
+
+<p><strong>Quality of the original seal</strong> is the biggest factor. Factory-sealed units from reputable glass manufacturers use dual-seal systems (a vapour barrier plus a structural seal) that hold up well over decades. Single-seal units, common in lower-cost windows, tend to fail earlier.</p>
+
+<p><strong>Spacer bar material matters.</strong> Older aluminum spacers conduct heat and cold directly between the panes, creating a temperature differential at the edge that stresses the seal. Warm-edge spacers (made from stainless steel, foam, or composite materials) reduce this stress and help the seal last longer.</p>
+
+<p><strong>Installation quality plays a role too.</strong> A sealed unit that was properly glazed, with the right amount of setting blocks and no pressure points, will outlast one that was installed with uneven pressure on the glass.</p>
+
+<h2 id="what-shortens-lifespan">What Shortens the Lifespan</h2>
+
+<ul>
+  <li><strong>Direct sun exposure:</strong> South- and west-facing windows absorb more heat, which causes the gas between the panes to expand and contract repeatedly. Over years, this pumping action fatigues the seal.</li>
+  <li><strong>Toronto's freeze-thaw cycles:</strong> Ontario winters put extreme thermal stress on window seals. The glass contracts in cold weather and expands on warm days, and each cycle works the seal a little more.</li>
+  <li><strong>Dark-coloured frames:</strong> Dark vinyl or aluminum frames absorb more heat, raising the temperature at the edge seal beyond what the sealant was designed for.</li>
+  <li><strong>High altitude:</strong> Less relevant in Toronto, but homes at higher elevations see more seal stress from the pressure differential between the gas fill and the thinner outside air.</li>
+  <li><strong>Poor drainage in the frame:</strong> If weep holes in the frame are blocked, water sits against the edge seal and accelerates breakdown.</li>
+</ul>
+
+<h2 id="what-extends-lifespan">What Extends the Lifespan</h2>
+
+<ul>
+  <li><strong>Warm-edge spacers:</strong> Reduce thermal stress at the seal.</li>
+  <li><strong>Dual-seal construction:</strong> A vapour seal plus a structural seal gives two layers of protection instead of one.</li>
+  <li><strong>Proper frame drainage:</strong> Clean weep holes let water drain away from the edge seal.</li>
+  <li><strong>Shade from overhangs or trees:</strong> Reducing direct sun exposure lowers the thermal cycling load on south-facing windows.</li>
+  <li><strong>Quality installation:</strong> Correct shimming, insulation around the frame, and proper glazing all reduce stress on the sealed unit.</li>
+</ul>
+
+<h2 id="signs-of-seal-failure">Signs of Seal Failure</h2>
+
+<p>Seal failure does not happen overnight. Here is what to watch for, roughly in order of progression:</p>
+
+<ol>
+  <li><strong>Haze that comes and goes.</strong> On humid days or cold mornings, you notice a faint cloudiness between the panes. It clears when conditions change. This is early-stage seal failure: the seal has a small breach, and moisture enters and exits with temperature and humidity swings.</li>
+  <li><strong>Persistent fog between the panes.</strong> The haze stops clearing. The desiccant in the spacer bar has absorbed all the moisture it can, and condensation now sits permanently between the glass. This is the most common stage at which homeowners notice the problem.</li>
+  <li><strong>Visible moisture droplets or streaks.</strong> Water runs or pools between the panes. The seal has failed enough that liquid water, not just vapour, is entering the unit.</li>
+  <li><strong>White mineral deposits on the inner glass surfaces.</strong> Over time, repeated cycles of condensation and evaporation leave calcium and mineral stains on the inside surfaces of the glass. These deposits cannot be cleaned because they are between the sealed panes.</li>
+</ol>
+
+<p>At any of these stages, the fix is the same: <a href="/foggy-windows">replace the sealed unit</a>. There is no way to reseal the existing unit or remove the moisture from between the panes permanently.</p>
+
+<h2 id="can-a-failed-seal-be-repaired">Can a Failed Seal Be Repaired?</h2>
+
+<p>No. Once the seal has failed, the unit cannot be restored. Some companies advertise "defogging" services that drill a hole into the sealed unit, inject a cleaning agent, and plug the hole. This temporarily removes the visible moisture, but it does not restore the seal or the insulating gas fill. The fog returns, usually within months, and the window's energy performance remains degraded because the insulating gas is gone.</p>
+
+<p>The only permanent fix is a new sealed unit.</p>
+
+<h2 id="replace-the-glass-not-the-window">Replace the Glass, Not the Window</h2>
+
+<p>This is the point most homeowners miss: a failed sealed unit does not mean you need a new window. If the frame is in good shape (no rot, no warping, opens and closes properly), you replace just the glass. The sealed unit slides out of the frame, and a new one goes in.</p>
+
+<p>Sealed unit replacement costs a fraction of full <a href="/window-replacement">window replacement</a>. You keep your existing frame, trim, and interior finish. No construction, no drywall touch-ups, no repainting.</p>
+
+<p>Full window replacement makes sense only when the frame itself has failed: rotted wood, cracked vinyl, warped aluminum, or hardware that can no longer be sourced. For a detailed comparison, see our guide to <a href="/blog/replace-vs-repair-windows-toronto">replacing vs repairing windows in Toronto</a>.</p>
+
+<h2 id="how-replacement-works">How Sealed Unit Replacement Works</h2>
+
+<ol>
+  <li><strong>We measure the existing unit.</strong> A technician visits your home, removes the glazing stops, and measures the exact thickness, width, and height of the sealed unit. We also note the glass type and spacer configuration.</li>
+  <li><strong>Your new unit is custom-made.</strong> Every sealed unit is made to order. Production takes 5 to 15 business days depending on the glass type and size.</li>
+  <li><strong>We install the new unit.</strong> The old glass comes out, the new unit goes in, and the glazing stops are reinstalled. The whole process takes about 20 to 30 minutes per window.</li>
+  <li><strong>Your window is clear again.</strong> No more fog, full insulating performance restored, and a 5-year seal warranty on the new unit.</li>
+</ol>
+
+<p>For more on how the process works from start to finish, see our <a href="/our-process">service process page</a>.</p>
+
+<h2 id="what-about-argon-and-low-e">What About Argon Gas and Low-E Coatings?</h2>
+
+<p>When you replace a sealed unit, you can choose the same glass configuration as the original, or you can upgrade.</p>
+
+<p><strong>Argon gas fill</strong> is denser than air and reduces heat transfer between the panes. It improves the window's insulating value by roughly 10 to 15 percent compared to dry air fill. It is available as an option when ordering the replacement unit.</p>
+
+<p><strong>Low-E (low emissivity) coatings</strong> are thin metallic layers applied to one of the inner glass surfaces. They reflect infrared heat back into your home in winter and block solar heat gain in summer. Low-E coatings make a noticeable difference on south- and west-facing windows. They are also available as an upgrade option.</p>
+
+<p>Neither argon fill nor Low-E coatings are required. They are upgrades that your technician can discuss with you during the measurement visit, with pricing included in your written quote. For a deeper look at glass types, read our guide to <a href="/blog/types-of-window-glass-explained">types of window glass explained</a>.</p>
+
+<h2 id="when-to-act">When to Act</h2>
+
+<p>A foggy window is not an emergency, but it is worth addressing sooner rather than later for three reasons:</p>
+
+<ol>
+  <li><strong>Energy cost.</strong> A failed seal means lost insulating gas and reduced thermal performance. Each foggy window costs you a small but real amount in heating and cooling every month.</li>
+  <li><strong>Mineral staining.</strong> The longer moisture sits between the panes, the more likely it is to leave permanent mineral deposits on the glass. If you wait too long, even a new sealed unit will not make the window look perfect, because the deposits are etched into the glass surfaces that face outward once the old unit is removed. Replacing sooner avoids this.</li>
+  <li><strong>Resale impact.</strong> Foggy windows are one of the first things buyers notice during a showing. Clear glass signals a well-maintained home.</li>
+</ol>
+
+<p>That said, there is no structural risk from a failed seal. Your window will not fall apart. You have time to plan and budget the repair.</p>
+
+<h2 id="faq">FAQ</h2>
+
+<h3>Can I replace just one window's sealed unit, or do I need to do them all at once?</h3>
+
+<p>You can replace them one at a time. Each sealed unit is independent. We recommend starting with the worst ones and doing the rest as budget allows. There is no advantage to replacing units that are still clear and performing well.</p>
+
+<h3>Will the new glass match my other windows?</h3>
+
+<p>Yes. We match the glass type, thickness, and tint of your existing windows. If your other windows have Low-E or tinted glass, we order the same specification so the replacement blends in.</p>
+
+<h3>How do I know if my frame is still good?</h3>
+
+<p>Check for rot (press a screwdriver into the wood: if it sinks in, the wood is soft), cracks in vinyl frames, corrosion on aluminum frames, and whether the window still opens, closes, and locks properly. If the frame passes these checks, sealed unit replacement is all you need. If the frame is compromised, <a href="/window-replacement">full window replacement</a> is the better option.</p>
+
+<h3>My windows are 10 years old and one is foggy. Is that normal?</h3>
+
+<p>It is early but not unusual. South-facing windows, windows with dark frames, or windows from manufacturers that used single-seal construction can fail in under 15 years. It does not mean all your windows will fail at the same time. Replace the one that failed and monitor the rest.</p>
+
+<h3>Does the warranty on my original windows cover seal failure?</h3>
+
+<p>Many window manufacturers offer a 15- or 20-year seal warranty. Check your paperwork or contact the manufacturer. If the warranty is still active, you may get a replacement sealed unit at no cost (though you may still need to pay for installation). If the warranty has expired or you cannot find your paperwork, we provide a new sealed unit with our own <a href="/warranty">5-year seal warranty</a>.</p>
+
+<p>Have a foggy window you need fixed? Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a written quote</a>. We replace sealed units across Toronto, Vaughan, Mississauga, Brampton, Markham, Richmond Hill, and the entire GTA. Most jobs are completed in two visits: one to measure, one to install.</p>
+`,
+  },
+  {
     slug: "window-repair-vs-replacement-toronto",
     title: "Window Repair vs Replacement: Which One Do You Actually Need?",
     metaTitle: "Window Repair vs Replacement in Toronto",

@@ -209,7 +209,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/blog`,
-      lastModified: new Date("2026-11-17"),
+      lastModified: new Date("2026-11-19"),
       changeFrequency: "weekly" as const,
       priority: 0.7,
     },
