@@ -16,6 +16,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "basement-window-replacement-toronto",
+    title: "Basement Window Replacement in Toronto: Glass, Frames, and Egress",
+    metaTitle: "Basement Window Replacement Toronto",
+    metaDescription:
+      "Everything Toronto homeowners need to know about replacing basement windows: glass-only vs full frame, egress requirements, hopper vs slider, and costs.",
+    excerpt:
+      "Basement windows take more abuse than any other window in your home. They sit at ground level, collect splash-back from rain and snow, and face constant moisture from the soil. When they fail, most homeowners assume a full replacement is the only option, but that is not always the case.",
+    publishedAt: "2026-11-19",
+    author: "Dan",
+    readingTime: 8,
+    coverImage: "/images/services/window-replacement-service.webp",
+    tags: ["Basement Windows", "Window Replacement", "Toronto"],
+    sections: [
+      { id: "why-basement-windows-fail", title: "Why Basement Windows Fail Faster" },
+      { id: "glass-only-vs-full-replacement", title: "Glass-Only vs Full Frame Replacement" },
+      { id: "basement-window-types", title: "Basement Window Types" },
+      { id: "egress-requirements-ontario", title: "Egress Requirements in Ontario" },
+      { id: "window-well-and-drainage", title: "Window Wells and Drainage" },
+      { id: "insulation-and-energy", title: "Insulation and Energy Performance" },
+      { id: "how-replacement-works", title: "How Basement Window Replacement Works" },
+      { id: "common-mistakes", title: "Common Mistakes to Avoid" },
+      { id: "faq", title: "FAQ" },
+    ],
+    content: `
+<p>Basement windows take more abuse than any other window in your home. They sit at ground level or below it, collect splash-back from rain and snowmelt, and face constant moisture pressure from the surrounding soil. The frames stay damp longer than upstairs windows, and the glass deals with temperature extremes on both sides: cold earth outside, heated air inside.</p>
+
+<p>When a basement window starts fogging, leaking, or refusing to open, most homeowners assume a full replacement is the only fix. Sometimes it is, but often a <a href="/glass-replacement">glass-only replacement</a> or a hardware repair is all that is needed. This guide helps you figure out which situation you are in.</p>
+
+<h2 id="why-basement-windows-fail">Why Basement Windows Fail Faster</h2>
+
+<p>Basement windows have a shorter effective lifespan than the same window installed on an upper floor. Here is why:</p>
+
+<ul>
+  <li><strong>Ground-level moisture.</strong> Water from rain, irrigation, and snowmelt pools around basement windows. Even with a window well, water sits against the frame and sill longer than it would on a wall-mounted window. This accelerates rot in wood frames and corrosion in steel frames.</li>
+  <li><strong>Splash-back and debris.</strong> Soil, mulch, and gravel get kicked up against the glass and frame. Over time, this erodes caulking and paint, exposing the frame material underneath.</li>
+  <li><strong>Temperature differential.</strong> The soil side of a basement window stays cool year-round, while the interior side is heated in winter. This constant temperature gap stresses the sealed unit and accelerates seal failure, leading to <a href="/foggy-windows">foggy glass</a>.</li>
+  <li><strong>Neglect.</strong> Basement windows are out of sight. Problems develop for months or years before anyone notices. By the time the homeowner sees the issue, the damage is often more advanced than it would be on a main-floor window.</li>
+</ul>
+
+<h2 id="glass-only-vs-full-replacement">Glass-Only vs Full Frame Replacement</h2>
+
+<p>This is the most important decision, and it comes down to the condition of the frame.</p>
+
+<h3>Replace just the glass when:</h3>
+
+<ul>
+  <li>The frame is vinyl or aluminum and structurally sound (no cracks, no warping, no corrosion)</li>
+  <li>The window opens, closes, and locks properly</li>
+  <li>The problem is foggy glass, a cracked pane, or a failed seal</li>
+  <li>The frame fits the opening correctly with no gaps</li>
+</ul>
+
+<p>Glass-only replacement means removing the sealed unit from the existing frame and installing a new one. The frame stays in place. This is faster, less invasive, and costs significantly less than a full replacement. Read more about <a href="/blog/how-long-do-sealed-units-last">how long sealed units last</a> and when they need replacing.</p>
+
+<h3>Replace the full window when:</h3>
+
+<ul>
+  <li>The frame is rotted (wood), cracked (vinyl), or corroded (steel or aluminum)</li>
+  <li>The window no longer opens or closes properly and the hardware cannot be repaired</li>
+  <li>You are upsizing the opening for egress compliance (more on that below)</li>
+  <li>The frame is an old steel or single-pane type with no insulating value</li>
+  <li>Water is leaking around the frame, not through the glass</li>
+</ul>
+
+<p>Full <a href="/window-replacement">window replacement</a> means removing the entire unit (frame and glass) and installing a new one. For basement windows, this sometimes requires cutting the concrete or block wall to resize the opening.</p>
+
+<h2 id="basement-window-types">Basement Window Types</h2>
+
+<p>Not all basement windows are the same. The type you have determines your replacement options.</p>
+
+<h3>Hopper windows</h3>
+<p>Hinged at the bottom, they tilt inward from the top. The most common basement window in Toronto homes built after the 1980s. They provide ventilation and are easy to operate, but the opening size is limited by the tilt angle.</p>
+
+<h3>Slider windows</h3>
+<p>One or both sashes slide horizontally. Common in newer homes and finished basements. They offer a larger opening than hoppers and are a good choice for egress when the opening is wide enough.</p>
+
+<h3>Awning windows</h3>
+<p>Hinged at the top, they push outward from the bottom. Less common in basements but found in some newer builds. They can stay open during light rain because the glass acts as a canopy.</p>
+
+<h3>Fixed windows</h3>
+<p>No moving parts, no ventilation. These are glass-only units set into the frame. They let in light but cannot be opened. Fixed windows do not meet egress requirements.</p>
+
+<h3>Glass block</h3>
+<p>Individual glass blocks mortared into the opening. Common in older Toronto homes, especially in laundry rooms and utility areas. They provide light and privacy but no ventilation or egress. Many homeowners replace glass block with operable windows to gain ventilation or meet egress code.</p>
+
+<h2 id="egress-requirements-ontario">Egress Requirements in Ontario</h2>
+
+<p>If your basement has a bedroom, the Ontario Building Code (OBC Section 9.9.10) requires at least one egress window that a person can climb through in an emergency. The requirements are:</p>
+
+<ul>
+  <li><strong>Minimum opening area:</strong> 0.35 square metres (about 3.77 square feet)</li>
+  <li><strong>Minimum opening dimension:</strong> no side of the opening smaller than 380 mm (about 15 inches)</li>
+  <li><strong>The window must be openable from the inside without tools or special knowledge</strong></li>
+  <li><strong>The window sill must be no more than 1,500 mm (about 59 inches) above the floor</strong></li>
+</ul>
+
+<p>These requirements apply when you are finishing a basement and adding a bedroom, or when you are converting an existing space into a legal bedroom (for example, for a basement apartment). They do not retroactively apply to existing bedrooms that were built under an older code, but they are a smart safety upgrade regardless.</p>
+
+<p>If your current basement window opening is too small for egress, the opening needs to be enlarged. This involves cutting concrete or block, installing a new header or lintel, and fitting a larger window. It also typically requires a larger window well outside. This is a job that involves structural work, and you should work with a contractor who understands the building code requirements.</p>
+
+<h2 id="window-well-and-drainage">Window Wells and Drainage</h2>
+
+<p>A basement window is only as good as the drainage around it. If water pools in the window well, it will eventually find its way inside, no matter how good the window is.</p>
+
+<ul>
+  <li><strong>Window well drains.</strong> A proper window well has a drain at the bottom that connects to the weeping tile or a gravel pit. If the drain is clogged or missing, water sits against the window during every rain.</li>
+  <li><strong>Gravel fill.</strong> The bottom of the window well should have 150 to 200 mm (6 to 8 inches) of clean gravel to allow water to drain away from the window frame.</li>
+  <li><strong>Window well covers.</strong> A clear plastic or polycarbonate cover keeps rain, snow, and debris out of the well while still letting light through. They are inexpensive and make a real difference.</li>
+  <li><strong>Grading.</strong> The soil around the window well should slope away from the house, not toward it. If water flows toward the well, even a good drain will struggle to keep up during heavy rain.</li>
+</ul>
+
+<p>When we replace a basement window, we check the condition of the window well and the caulking around the frame. If the well drainage is a problem, we will let you know what needs to be addressed to protect the new window.</p>
+
+<h2 id="insulation-and-energy">Insulation and Energy Performance</h2>
+
+<p>Older basement windows are often single-pane glass in steel or aluminum frames with no thermal break. These windows have almost no insulating value. In winter, they radiate cold into the basement and can cause condensation on the frame and surrounding wall.</p>
+
+<p>Replacing an old single-pane basement window with a modern double-pane sealed unit makes a noticeable difference in basement comfort and energy bills. The improvement is especially significant if you use your basement as living space.</p>
+
+<p>When ordering a replacement sealed unit or window, you can choose to add argon gas fill or a Low-E coating for additional energy performance. These are options your technician can discuss during the measurement visit. For more on glass options, see our guide to <a href="/blog/types-of-window-glass-explained">types of window glass</a>.</p>
+
+<h2 id="how-replacement-works">How Basement Window Replacement Works</h2>
+
+<h3>Glass-only replacement</h3>
+<ol>
+  <li>We remove the glazing stops and take out the old sealed unit.</li>
+  <li>We measure the opening and order a new sealed unit made to size (5 to 15 business days).</li>
+  <li>We install the new sealed unit, replace the glazing stops, and reseal the perimeter.</li>
+</ol>
+
+<h3>Full window replacement</h3>
+<ol>
+  <li>We measure the existing opening and assess the frame and surrounding wall.</li>
+  <li>We order the new window to the exact size (or to the new size if the opening is being enlarged).</li>
+  <li>On installation day, we remove the old window, prepare the opening, install the new window, insulate the gap between the frame and the wall, and seal the exterior.</li>
+  <li>If the opening needs to be enlarged for egress, the concrete cutting and structural work is done before the window is installed.</li>
+</ol>
+
+<p>For a step-by-step overview of our process from first call to final cleanup, visit our <a href="/our-process">service process page</a>.</p>
+
+<h2 id="common-mistakes">Common Mistakes to Avoid</h2>
+
+<ul>
+  <li><strong>Replacing the whole window when only the glass has failed.</strong> If the frame is sound, you are paying for work you do not need. A glass-only replacement restores the window at a fraction of the cost.</li>
+  <li><strong>Ignoring the window well.</strong> A new window in a flooded well will fail faster than the old one. Address drainage before or during the window replacement.</li>
+  <li><strong>Skipping the caulking.</strong> The joint between the window frame and the foundation wall must be sealed with a flexible, exterior-grade caulk. Rigid caulk cracks with seasonal movement. Spray foam alone is not a substitute for proper exterior caulking.</li>
+  <li><strong>Assuming all basement windows need to be egress.</strong> Egress is required for bedrooms and sleeping areas. Utility rooms, laundry rooms, and storage areas do not require egress windows (though they are still a good idea for safety).</li>
+  <li><strong>Forgetting about permits.</strong> In most Ontario municipalities, replacing a window in an existing opening of the same size does not require a permit. Enlarging the opening does, because it involves structural changes to the foundation wall. Check with your local building department.</li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+
+<h3>Can you replace basement windows in winter?</h3>
+
+<p>Yes. We replace basement windows year-round. The opening is exposed for a short time during installation, and we work efficiently to minimize heat loss. Caulking and sealants are applied using products rated for cold-weather application. For more on this topic, see our post on <a href="/blog/replace-window-glass-in-winter">replacing window glass in winter</a>.</p>
+
+<h3>How long does basement window replacement take?</h3>
+
+<p>A glass-only replacement takes about 20 to 30 minutes per window on installation day. A full window replacement (same-size opening) takes one to two hours per window. If the opening needs to be enlarged, add time for concrete cutting and structural work.</p>
+
+<h3>My basement windows are glass block. Can you replace them with regular windows?</h3>
+
+<p>Yes. We remove the glass block, prepare the opening, and install a standard vinyl or aluminum window. This gives you ventilation, easier cleaning, and (if sized correctly) egress capability that glass block cannot provide.</p>
+
+<h3>Do I need to clear furniture away from the windows before the appointment?</h3>
+
+<p>Yes. We need clear access to the window from inside. Move furniture, storage boxes, and anything else at least one metre (about three feet) back from the window. On the outside, make sure the window well is accessible and not blocked by planters, hoses, or debris.</p>
+
+<h3>Will replacing my basement windows help with moisture and mould?</h3>
+
+<p>It helps, but it may not solve the problem entirely. New sealed units eliminate condensation between the panes, and a proper seal between the frame and the wall stops air and water leaks. But if the moisture source is groundwater seeping through the foundation wall, the solution is waterproofing, not just new windows. We will tell you during the assessment if the problem looks like it goes beyond the window itself.</p>
+
+<p>Need a basement window assessed or replaced? Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a written quote</a>. We handle both glass-only and full window replacement across Toronto, Vaughan, Mississauga, Brampton, and the entire GTA.</p>
+`,
+  },
+  {
     slug: "how-long-do-sealed-units-last",
     title: "How Long Do Sealed Window Units Last? What Toronto Homeowners Should Know",
     metaTitle: "How Long Do Sealed Window Units Last?",
