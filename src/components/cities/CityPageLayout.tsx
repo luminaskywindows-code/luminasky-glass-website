@@ -4,7 +4,7 @@ import { MapPin, Phone, MessageCircle, Star, ChevronRight, Wrench, Clock, Shield
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { LocalCityContent } from "@/components/city/LocalCityContent";
-import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
+import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema, generateHowToSchema } from "@/lib/schema";
 import type { CityPageData } from "@/lib/city-pages-data";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
@@ -37,6 +37,19 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(city.faqs)) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateHowToSchema({
+          name: `How Window and Glass Repair Works in ${city.city}`,
+          description: `Our step-by-step process for repairing windows and glass in ${city.city}.`,
+          steps: [
+            { name: "Send a Photo", text: "Text or WhatsApp a photo of the problem to 437-344-8490. We reply with a written quote range the same day." },
+            { name: "Book a Site Visit", text: "Schedule a convenient time. Our $30 site visit fee is credited toward your repair." },
+            { name: "On-Site Assessment", text: "A technician inspects the damage, takes exact measurements, and provides a written quote on the spot." },
+            { name: "Repair or Replacement", text: "Hardware repairs are typically completed on the first visit. Glass is custom-made to your measurements, then installed on a return visit." },
+          ],
+        })) }}
+      />
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary via-primary to-blue-800 text-white">
