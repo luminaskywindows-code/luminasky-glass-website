@@ -500,6 +500,39 @@ export default function FoggyWindowsPage() {
         </div>
       </section>
 
+      {/* ── Explainer Video ── */}
+      <section
+        className="py-16 px-4 md:px-8 bg-white"
+        aria-labelledby="explainer-heading"
+      >
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-8">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
+              Watch How It Works
+            </span>
+            <h2
+              id="explainer-heading"
+              className="text-3xl font-bold text-gray-900"
+            >
+              Foggy Window? You Don&apos;t Need a New One
+            </h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto leading-relaxed">
+              See why replacing just the sealed glass unit is the smarter fix.
+            </p>
+          </div>
+          <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[9/16] max-w-sm mx-auto">
+            <iframe
+              src="https://www.youtube.com/embed/zMMlR-2ln8c"
+              title="Foggy Window? You Don't Need a New One, Just New Glass"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full border-0"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* ── Before / After Video ── */}
       <section
         className="py-16 px-4 md:px-8 bg-gray-50"
