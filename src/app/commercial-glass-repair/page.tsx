@@ -19,6 +19,7 @@ import {
   generateBreadcrumbSchema,
   generateServiceSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
@@ -189,6 +190,17 @@ export default function CommercialGlassRepairPage() {
               { minPrice: 500, maxPrice: 10000, priceDescription: "Commercial glass projects, quote per project based on scope." }
             ),
             generateFAQSchema(FAQS),
+            generateHowToSchema({
+              name: "How Commercial Glass Repair Works",
+              description: "Our step-by-step process for commercial glass repair and storefront glass replacement across Toronto and the GTA.",
+              steps: [
+                { name: "Emergency Contact", text: "Call 437-344-8490 any time, 24/7. For break-ins or shattered storefronts, we prioritize board-up to secure your property." },
+                { name: "On-Site Assessment", text: "A technician visits your business, measures the damaged glass, and assesses the frame and hardware." },
+                { name: "Written Quote", text: "You receive a detailed written quote covering glass, labour and any hardware needed, before work begins." },
+                { name: "Glass Fabrication", text: "Commercial glass is custom-made to your exact specifications: tempered, laminated or insulated units as required by code." },
+                { name: "Professional Installation", text: "Our team installs the new glass, verifies the seal and ensures your storefront is secure and clean." },
+              ],
+            }),
           ]),
         }}
       />

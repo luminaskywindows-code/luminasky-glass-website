@@ -8,6 +8,7 @@ import {
   generateBreadcrumbSchema,
   generateServiceSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/schema";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 
@@ -83,6 +84,17 @@ export default function PatioDoorRepairPage() {
               { minPrice: 650, maxPrice: 2500, priceDescription: "Patio door glass or roller replacement." }
             ),
             generateFAQSchema(FAQS),
+            generateHowToSchema({
+              name: "How Patio Door Repair Works",
+              description: "Our step-by-step process for repairing sliding patio doors across Toronto and the GTA.",
+              steps: [
+                { name: "Book a Visit", text: "Call or text 437-344-8490 to schedule a convenient time. Our $30 site visit fee is credited toward your repair." },
+                { name: "Diagnose the Problem", text: "A technician inspects your patio door: rollers, track, handle, lock and glass are all checked." },
+                { name: "Written Quote on the Spot", text: "You receive a fixed written quote before any work begins, so there are no surprises." },
+                { name: "Repair or Replace Parts", text: "Rollers, tracks, handles and locks are repaired on the same visit when parts are in stock. Glass is measured, custom-made, then installed on a return visit." },
+                { name: "Final Testing", text: "The door is tested for smooth operation, proper seal and secure locking before we leave." },
+              ],
+            }),
           ]),
         }}
       />

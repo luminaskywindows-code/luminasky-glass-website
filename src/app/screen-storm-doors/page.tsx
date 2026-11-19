@@ -18,6 +18,7 @@ import {
   generateBreadcrumbSchema,
   generateServiceSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
@@ -171,6 +172,17 @@ export default function ScreenStormDoorsPage() {
               "LuminaSky Glass Services supplies and installs screen doors and storm doors across Toronto and the GTA."
             ),
             generateFAQSchema(FAQS),
+            generateHowToSchema({
+              name: "How Screen and Storm Door Installation Works",
+              description: "Our step-by-step process for installing screen doors and storm doors across Toronto and the GTA.",
+              steps: [
+                { name: "Book a Visit", text: "Call or text 437-344-8490 to schedule a convenient time. Our $30 site visit fee is credited toward your installation." },
+                { name: "On-Site Measurement", text: "A technician measures your door frame and discusses style, colour and feature options with you." },
+                { name: "Written Quote on the Spot", text: "You receive a fixed written quote covering the door, hardware and installation before any work begins." },
+                { name: "Door Ordered and Delivered", text: "Your screen door or storm door is ordered to your exact specifications and delivered when ready." },
+                { name: "Professional Installation", text: "We install and adjust the door for smooth operation, check the seal, and clean up the work area." },
+              ],
+            }),
           ]),
         }}
       />

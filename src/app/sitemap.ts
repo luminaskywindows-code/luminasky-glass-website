@@ -179,12 +179,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
-      url: `${SITE_URL}/review`,
-      lastModified: BUILD_DATE,
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    },
-    {
       url: `${SITE_URL}/winter-ready`,
       lastModified: BUILD_DATE,
       changeFrequency: "weekly" as const,

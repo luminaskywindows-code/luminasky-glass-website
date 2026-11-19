@@ -27,7 +27,7 @@ import {
 } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "About LuminaSky | GTA Glass Repair Specialists Since 2024",
+  title: "About LuminaSky | Toronto Glass Repair Specialists Since 2024",
   description:
     "About LuminaSky Glass Services. Licensed glaziers serving the GTA. Honest assessments and repair-first solutions for windows and doors.",
   alternates: { canonical: "/about" },

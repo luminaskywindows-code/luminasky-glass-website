@@ -18,6 +18,7 @@ import {
   generateBreadcrumbSchema,
   generateServiceSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
@@ -143,6 +144,16 @@ export default function WindowScreensPage() {
               { minPrice: 75, maxPrice: 250, priceDescription: "Per screen, standard window sizes." }
             ),
             generateFAQSchema(FAQS),
+            generateHowToSchema({
+              name: "How Window Screen Repair Works",
+              description: "Our step-by-step process for repairing or replacing window and patio door screens across Toronto and the GTA.",
+              steps: [
+                { name: "Book a Visit", text: "Call or text 437-344-8490 to schedule a convenient time. Our $30 site visit fee is credited toward your repair." },
+                { name: "On-Site Assessment", text: "A technician inspects your screens, measures the frames, and provides a written quote on the spot." },
+                { name: "Screen Fabrication", text: "We custom-build your new screens using durable fibreglass or pet-resistant mesh to fit your exact frame dimensions." },
+                { name: "Installation and Cleanup", text: "New screens are installed, tested for proper fit, and the work area is left clean." },
+              ],
+            }),
           ]),
         }}
       />

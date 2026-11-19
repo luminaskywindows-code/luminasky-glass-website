@@ -19,6 +19,7 @@ import {
   generateBreadcrumbSchema,
   generateServiceSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
@@ -151,6 +152,17 @@ export default function WindowReplacementPage() {
               { minPrice: 800, maxPrice: 3000, priceDescription: "Full window replacement including frame." }
             ),
             generateFAQSchema(FAQS),
+            generateHowToSchema({
+              name: "How Full Window Replacement Works",
+              description: "Our step-by-step process for replacing old or failing windows across Toronto and the GTA.",
+              steps: [
+                { name: "Book a Visit", text: "Call or text 437-344-8490 to schedule a convenient time. Our $30 site visit fee is credited toward your project." },
+                { name: "On-Site Assessment", text: "A technician inspects each window, measures the openings, and discusses your options for frame material, glass type and style." },
+                { name: "Written Quote on the Spot", text: "You receive a fixed written quote covering all windows, hardware, installation and cleanup before any work begins." },
+                { name: "Windows Custom-Made", text: "Your new windows are manufactured to your exact measurements and specifications." },
+                { name: "Professional Installation", text: "Our team removes the old windows, installs the new ones, insulates and seals the frames, and cleans up completely." },
+              ],
+            }),
           ]),
         }}
       />
