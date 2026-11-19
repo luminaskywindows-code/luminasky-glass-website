@@ -22,6 +22,7 @@ import {
   CloudRain,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { YouTubeFacade } from "@/components/video/YouTubeFacade";
 import { FOGGY_GLASS_CITY_PAGES } from "@/lib/foggy-glass-city-data";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
@@ -215,6 +216,24 @@ export default function FoggyWindowsPage() {
               ],
             }),
             generateFAQSchema(FAQS),
+            {
+              "@context": "https://schema.org",
+              "@type": "VideoObject",
+              "name": "Foggy Window? You Don't Need a New One, Just New Glass",
+              "description": "See why replacing just the sealed glass unit is the smarter fix for foggy or failed double-pane windows.",
+              "thumbnailUrl": "https://i.ytimg.com/vi/zMMlR-2ln8c/maxresdefault.jpg",
+              "uploadDate": "2024-12-01",
+              "contentUrl": "https://www.youtube.com/watch?v=zMMlR-2ln8c",
+              "embedUrl": "https://www.youtube.com/embed/zMMlR-2ln8c",
+              "publisher": {
+                "@type": "Organization",
+                "name": "LuminaSky Glass Services",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.luminasky.com/images/luminasky-logo.webp",
+                },
+              },
+            },
           ]),
         }}
       />
@@ -521,13 +540,9 @@ export default function FoggyWindowsPage() {
             </p>
           </div>
           <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[9/16] max-w-sm mx-auto">
-            <iframe
-              src="https://www.youtube.com/embed/zMMlR-2ln8c"
+            <YouTubeFacade
+              videoId="zMMlR-2ln8c"
               title="Foggy Window? You Don't Need a New One, Just New Glass"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="absolute inset-0 w-full h-full border-0"
-              loading="lazy"
             />
           </div>
         </div>
