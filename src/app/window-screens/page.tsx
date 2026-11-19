@@ -8,6 +8,7 @@ import {
   Wrench,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { RelatedArticles } from "@/components/shared/RelatedArticles";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
@@ -573,6 +574,8 @@ export default function WindowScreensPage() {
           </p>
         </div>
       </section>
+
+      <RelatedArticles slugs={["window-screen-repair-vs-replacement", "storm-door-glass-screen-insert-swap", "winter-window-checklist-gta"]} />
 
       <CTABanner
         title="Ready to Fix Your Window Screens?"

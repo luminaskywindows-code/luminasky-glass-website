@@ -18,6 +18,7 @@ import {
   Camera,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { RelatedArticles } from "@/components/shared/RelatedArticles";
 import { CRANKS_CITY_PAGES } from "@/lib/cranks-city-data";
 import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, WINTER_READY_ENABLED } from "@/lib/constants";
 import {
@@ -803,6 +804,8 @@ export default function WindowCranksPage() {
           </p>
         </div>
       </section>
+
+      <RelatedArticles slugs={["broken-window-crank-what-to-do", "window-crank-repair-toronto", "sliding-patio-door-wont-slide"]} />
 
       <CTABanner
         title="Ready to Fix Your Window Cranks?"

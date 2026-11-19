@@ -8,6 +8,7 @@ import {
   Wrench,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { RelatedArticles } from "@/components/shared/RelatedArticles";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
@@ -577,6 +578,8 @@ export default function ScreenStormDoorsPage() {
           </p>
         </div>
       </section>
+
+      <RelatedArticles slugs={["storm-door-glass-screen-insert-swap", "front-door-glass-insert-replacement", "winter-window-checklist-gta"]} />
 
       <CTABanner
         title="Ready to Install a Screen or Storm Door?"

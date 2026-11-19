@@ -16,6 +16,7 @@ import {
   Camera,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { RelatedArticles } from "@/components/shared/RelatedArticles";
 import { SKYLIGHT_CITY_PAGES } from "@/lib/skylight-city-data";
 import {
   PHONE_HREF,
@@ -651,6 +652,8 @@ export default function SkylightsPage() {
           </p>
         </div>
       </section>
+
+      <RelatedArticles slugs={["skylights-in-winter-leaks-ice-dams-condensation", "winter-window-checklist-gta", "foggy-window-repair-cost-gta"]} />
 
       {/* Final CTA */}
       <CTABanner

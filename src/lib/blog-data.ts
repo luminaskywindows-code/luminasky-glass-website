@@ -1653,7 +1653,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Look for a company that does <strong>both</strong> repairs and replacements. A company that only sells new windows has no financial incentive to tell you a repair will work. A company that specialises in glass repair will evaluate the frame honestly and recommend replacement only when it is genuinely warranted.</p>
 
-<p>At LuminaSky, we look at each window individually. If the frame is good, we tell you, and we repair just what needs fixing. If the frame is failing, we will say so and explain why. Our assessments come at no charge and no obligation.</p>
+<p>At LuminaSky, we look at each window individually. If the frame is good, we tell you, and we repair just what needs fixing. If the frame is failing, we will say so and explain why. When replacement is the right call, we handle the full job from measurement to cleanup. See our <a href="/window-replacement">window replacement service</a> for details. Our assessments come at no charge and no obligation.</p>
 
 <h2 id="faq">FAQ</h2>
 
@@ -2616,7 +2616,7 @@ export const BLOG_POSTS: BlogPost[] = [
   <li>File a police report if vandalism or a break-in was involved.</li>
   <li>Check your deductible amount and run the math before deciding to file a claim. If the repair cost is less than double your deductible, paying out of pocket is almost always the better financial decision.</li>
   <li>Call your insurance broker to discuss whether filing makes sense for your situation. Ask about first claim forgiveness and your current claims-free discount.</li>
-  <li><a href="/contact">Contact us for a written quote on the spot.</a> Whether you file a claim or pay out of pocket, you will have an itemized quote your insurer can process.</li>
+  <li><a href="/contact">Contact us for a written quote on the spot.</a> Whether you file a claim or pay out of pocket, you will have an itemized quote your insurer can process. See our <a href="/insurance-claims">insurance claims page</a> for details on how we support the process.</li>
 </ol>
 
 <p>If your windows are not broken but are foggy, hazy, or showing condensation between the panes, that is a seal failure, not an insurance matter. Visit our <a href="/foggy-windows">foggy window repair page</a> or our guide to <a href="/blog/exterior-window-condensation-normal">exterior window condensation</a> to learn what is happening and how we fix it.</p>

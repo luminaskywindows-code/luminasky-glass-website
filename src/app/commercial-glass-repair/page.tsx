@@ -8,6 +8,7 @@ import {
   MapPin,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { RelatedArticles } from "@/components/shared/RelatedArticles";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import { COMMERCIAL_GLASS_CITY_PAGES } from "@/lib/commercial-glass-city-data";
 import { ServiceCard } from "@/components/shared/ServiceCard";
@@ -699,6 +700,8 @@ export default function CommercialGlassRepairPage() {
           </div>
         </div>
       </section>
+
+      <RelatedArticles slugs={["commercial-glass-repair-vaughan-guide", "storefront-glass-emergency-board-up", "safety-glass-ontario-building-code"]} />
 
       <CTABanner
         title="Ready for Commercial Glass Repair?"

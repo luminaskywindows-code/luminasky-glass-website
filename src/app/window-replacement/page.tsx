@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import InlineVideoPlayer from "@/components/video/InlineVideoPlayer";
 import { CTABanner } from "@/components/shared/CTABanner";
+import { RelatedArticles } from "@/components/shared/RelatedArticles";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import {
@@ -682,6 +683,8 @@ export default function WindowReplacementPage() {
           </div>
         </section>
       )}
+
+      <RelatedArticles slugs={["replace-vs-repair-windows-toronto", "window-repair-vs-replacement-toronto", "types-of-window-glass-explained"]} />
 
       <CTABanner
         title="Ready to Replace Your Windows?"
