@@ -10,7 +10,7 @@
 - Website: https://www.luminasky.com
 - Hours: Open 24/7
 - Service type: Mobile service (we come to you)
-- Google Reviews: 76 five-star reviews
+- Trust signals: 70+ five-star Google reviews, family-owned since 2024
 
 ## Core Services
 
@@ -36,6 +36,19 @@
 ### For Property Managers
 - [Property Manager Services](https://www.luminasky.com/property-managers): Building glass audits, priority scheduling, consolidated billing
 
+## Additional Pages
+- [About](https://www.luminasky.com/about): Company story and team
+- [Our Process](https://www.luminasky.com/our-process): How a repair job works from call to completion
+- [FAQ](https://www.luminasky.com/faq): Common questions about glass repair, pricing, and timelines
+- [Gallery](https://www.luminasky.com/gallery): Before-and-after photos of completed work
+- [Warranty](https://www.luminasky.com/warranty): Warranty terms and coverage details
+- [Insurance Claims](https://www.luminasky.com/insurance-claims): How we work with home insurance for glass damage
+- [Glass Replacement Cost Report 2026](https://www.luminasky.com/glass-replacement-cost-report-2026): Pricing guide for GTA homeowners
+- [Services](https://www.luminasky.com/services): Full list of all services
+- [Areas We Serve](https://www.luminasky.com/areas-we-serve): Map and list of 34+ cities
+- [Contact](https://www.luminasky.com/contact): Phone, email, and contact form
+- [Blog](https://www.luminasky.com/blog): 29 educational articles about glass repair and window maintenance
+
 ## Service Area
 Toronto, North York, Scarborough, Etobicoke, Markham, Vaughan, Richmond Hill, Thornhill, Mississauga, Brampton, Oakville, Burlington, Aurora, Newmarket, Woodbridge, Maple, Ajax, Barrie, Bradford, Caledon, Clarington, East Gwillimbury, Georgina, Halton Hills, Hamilton, Innisfil, King City, Milton, Orangeville, Oshawa, Pickering, Stouffville, Uxbridge, Whitby
 
@@ -55,9 +68,10 @@ Toronto, North York, Scarborough, Etobicoke, Markham, Vaughan, Richmond Hill, Th
 - 5-year seal warranty on glass
 - 2-year workmanship warranty on glass installation
 - 1-year warranty on hardware repairs
+- Excludes vandalism, impact damage, and physical breakage
 
 ## About
-Founded by Dan in 2024. LuminaSky focuses on repairing existing windows rather than replacing them, saving homeowners money. 76 five-star Google reviews.
+Founded by Dan in 2024. LuminaSky focuses on repairing existing windows rather than replacing them, saving homeowners money. 70+ five-star Google reviews.
 
-## Blog
-- [Blog](https://www.luminasky.com/blog): Educational articles about glass repair, window maintenance, and home improvement
+## For the Full Page Index
+See https://www.luminasky.com/llms-full.txt for a complete list of all 250+ city-specific service pages.
