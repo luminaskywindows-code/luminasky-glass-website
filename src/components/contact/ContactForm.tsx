@@ -5,6 +5,7 @@ import { SERVICES } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
 import { sendLeadToHub } from "@/lib/hub-lead";
+import { trackFormLead } from "@/lib/gtag";
 interface FormData {
   fullName: string;
   phone: string;
@@ -121,6 +122,7 @@ export function ContactForm() {
       );
 
       sendLeadToHub({ name: formData.fullName, phone: formData.phone, email: (formData as { email?: string }).email || "", service: formData.service, message: formData.message });
+      trackFormLead("contact");
       setSubmitStatus("success");
       setFormData(INITIAL);
       setErrors({});

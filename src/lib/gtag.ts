@@ -47,3 +47,12 @@ export function trackPhoneConversion() {
     });
   }
 }
+
+/** A form was sent (contact, quote, popup...): GA4 "generate_lead", marked as a key event in Analytics. */
+export function trackFormLead(form: string) {
+  if (typeof window !== "undefined" && window.gtag) {
+    let src: Record<string, string> = {};
+    try { const sd = getSourceData(); src = { lead_source: sd.source || "unknown", landing_page: sd.landing_page || "" }; } catch { /* no source data */ }
+    window.gtag("event", "generate_lead", { form_name: form, event_label: getPageSlug(), ...src });
+  }
+}

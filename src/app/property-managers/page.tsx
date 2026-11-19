@@ -9,6 +9,7 @@ import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF } from "@/lib/constants";
 import { getSourceData, type SourceData } from "@/lib/source-tracking";
 
 import { sendLeadToHub } from "@/lib/hub-lead";
+import { trackFormLead } from "@/lib/gtag";
 // ─── Video embed URL (paste YouTube/Vimeo embed URL here) ───
 const VIDEO_EMBED_URL = "";
 
@@ -166,6 +167,7 @@ export default function PropertyManagersPage() {
       );
 
       sendLeadToHub({ name: `[Property Manager] ${formData.fullName}`, phone: formData.phone, email: (formData as { email?: string }).email || "", service: "Property Management Inquiry", message: formData.message });
+      trackFormLead("property_managers");
       setSubmitStatus("success");
       setFormData(INITIAL);
       setErrors({});

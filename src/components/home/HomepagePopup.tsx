@@ -6,6 +6,7 @@ import { getSourceData, type SourceData } from "@/lib/source-tracking";
 import { PHONE, PHONE_HREF, WINTER_READY_ENABLED } from "@/lib/constants";
 
 import { sendLeadToHub } from "@/lib/hub-lead";
+import { trackFormLead } from "@/lib/gtag";
 const GENERIC_ISSUE_OPTIONS = [
   "Foggy Glass Repair",
   "Broken Window",
@@ -594,6 +595,7 @@ export function HomepagePopup() {
       );
 
       sendLeadToHub({ name: formData.name, phone: formData.phone, email: (formData as { email?: string }).email || "", service: formData.issue, message: formData.issue });
+      trackFormLead("homepage_popup");
       setSubmitStatus("success");
       storageSet("popup-form-submitted", "true");
       setFormData(INITIAL);

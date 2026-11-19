@@ -7,6 +7,7 @@ import { getSourceData, type SourceData } from "@/lib/source-tracking";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 
 import { sendLeadToHub } from "@/lib/hub-lead";
+import { trackFormLead } from "@/lib/gtag";
 const SERVICE_OPTIONS = [
   "Foggy Glass Repair",
   "Window Crank / Hardware Repair",
@@ -125,6 +126,7 @@ export function HeroLeadForm() {
       );
 
       sendLeadToHub({ name: formData.name, phone: formData.phone, email: (formData as { email?: string }).email || "", service: formData.service, message: formData.description });
+      trackFormLead("hero_form");
       setSubmitStatus("success");
       setFormData(INITIAL);
       setErrors({});
