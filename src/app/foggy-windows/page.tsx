@@ -42,7 +42,7 @@ import {
 /* ── Data ── */
 
 const HERO_IMAGE = {
-  src: "/images/services/foggy-window-real.jpg",
+  src: "/images/services/foggy-window-real.webp",
   alt: "Real foggy window with condensation between panes, failed seal captured on-site",
 };
 

@@ -244,7 +244,7 @@ export default function GlassReplacementPage() {
 
             <div className="relative aspect-[4/3] max-h-[420px] rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="/images/services/window-cleaning-before.jpg"
+                src="/images/services/window-cleaning-before.webp"
                 alt="Cracked window pane with fracture lines running across the glass, photographed from inside an apartment"
                 fill
                 priority

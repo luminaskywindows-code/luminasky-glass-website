@@ -51,11 +51,11 @@ const PROJECTS = [
   },
   {
     before: {
-      src: "/images/services/front-door-glass-before.jpg",
+      src: "/images/services/front-door-glass-before.webp",
       alt: "Cracked front door glass panel before repair",
     },
     after: {
-      src: "/images/services/front-door-glass-after.jpg",
+      src: "/images/services/front-door-glass-after.webp",
       alt: "New clear front door glass panel after replacement",
     },
     title: "Front door glass panel replaced",
@@ -64,11 +64,11 @@ const PROJECTS = [
   },
   {
     before: {
-      src: "/images/services/front-door-scarborough-before.jpg",
+      src: "/images/services/front-door-scarborough-before.webp",
       alt: "Old front door glass with failed seal in Scarborough, before replacement",
     },
     after: {
-      src: "/images/services/front-door-scarborough-after.jpg",
+      src: "/images/services/front-door-scarborough-after.webp",
       alt: "New front door glass installed in Scarborough by LuminaSky",
     },
     title: "Entry door glass replacement",
@@ -78,11 +78,11 @@ const PROJECTS = [
   },
   {
     before: {
-      src: "/images/services/frosted-glass-orangeville-before.jpg",
+      src: "/images/services/frosted-glass-orangeville-before.webp",
       alt: "Old frosted glass door panel in Orangeville, before replacement",
     },
     after: {
-      src: "/images/services/frosted-glass-orangeville-after.jpg",
+      src: "/images/services/frosted-glass-orangeville-after.webp",
       alt: "New frosted privacy glass door panel installed in Orangeville",
     },
     title: "Frosted privacy glass replaced",
@@ -92,11 +92,11 @@ const PROJECTS = [
   },
   {
     before: {
-      src: "/images/services/skylight-richmond-hill-before.jpg",
+      src: "/images/services/skylight-richmond-hill-before.webp",
       alt: "Foggy skylight glass with condensation in Richmond Hill, before replacement",
     },
     after: {
-      src: "/images/services/skylight-richmond-hill-after.jpg",
+      src: "/images/services/skylight-richmond-hill-after.webp",
       alt: "Clear skylight glass after replacement by LuminaSky in Richmond Hill",
     },
     title: "Skylight glass replacement",
@@ -106,11 +106,11 @@ const PROJECTS = [
   },
   {
     before: {
-      src: "/images/services/crank-before.jpg",
+      src: "/images/services/crank-before.webp",
       alt: "Broken window crank operator before repair",
     },
     after: {
-      src: "/images/services/crank-after.jpg",
+      src: "/images/services/crank-after.webp",
       alt: "New window crank operator installed and working smoothly",
     },
     title: "Window crank operator replaced",
@@ -119,11 +119,11 @@ const PROJECTS = [
   },
   {
     before: {
-      src: "/images/services/door-before-broken.jpg",
+      src: "/images/services/door-before-broken.webp",
       alt: "Damaged patio door glass before replacement",
     },
     after: {
-      src: "/images/services/door-after-repaired.jpg",
+      src: "/images/services/door-after-repaired.webp",
       alt: "New patio door glass installed by LuminaSky",
     },
     title: "Patio door glass replaced",

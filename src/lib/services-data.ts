@@ -34,17 +34,17 @@ export const FOGGY_WINDOWS: ServiceData = {
   heroSubtext:
     "Condensation and cloudiness between glass panes means your window seal has failed. We replace just the glass unit, saving you up to 80% vs. full replacement.",
   heroImage: {
-    src: "/images/services/foggy-window-real.jpg",
+    src: "/images/services/foggy-window-real.webp",
     alt: "Real foggy window with condensation between panes - failed seal captured on-site",
   },
   photos: [
     {
-      src: "/images/services/foggy-leaded-glass.jpg",
+      src: "/images/services/foggy-leaded-glass.webp",
       alt: "Double front doors with leaded art deco glass showing haziness and fogging between the panes - seal failure",
       caption: "Foggy/hazy leaded glass doors - the seal has broken and moisture is trapped inside the unit",
     },
     {
-      src: "/images/services/foggy-window-condensation.jpg",
+      src: "/images/services/foggy-window-condensation.webp",
       alt: "Interior view of double-pane windows with heavy condensation and water droplets trapped between panes",
       caption: "Heavy condensation between panes - a clear sign the IGU seal has failed",
     },
@@ -124,17 +124,17 @@ export const FRONT_DOOR_GLASS: ServiceData = {
   heroSubtext:
     "Cracked, foggy, or outdated front door glass? We replace glass inserts and sidelite panels for all door styles - decorative, frosted, clear, and more.",
   heroImage: {
-    src: "/images/services/foggy-leaded-glass.jpg",
+    src: "/images/services/foggy-leaded-glass.webp",
     alt: "Double front doors with decorative iron scrollwork glass inserts installed by LuminaSky Glass Services",
   },
   photos: [
     {
-      src: "/images/services/foggy-leaded-glass.jpg",
+      src: "/images/services/foggy-leaded-glass.webp",
       alt: "Double front doors with decorative wrought iron scrollwork glass inserts installed by LuminaSky Glass Services",
       caption: "Double doors with custom decorative iron scrollwork glass",
     },
     {
-      src: "/images/services/front-door-decorative-2.jpg",
+      src: "/images/services/front-door-decorative-2.webp",
       alt: "Double front doors with art deco leaded glass inserts featuring elegant arched design",
       caption: "Art deco leaded glass inserts - full double door replacement",
     },
@@ -195,14 +195,14 @@ export const FRONT_DOOR_GLASS: ServiceData = {
     title: "Emergency Door Glass Replacement",
     subtitle: "From break-in damage to fully restored security - same-day service available across the GTA.",
     before: {
-      src: "/images/services/door-after-repaired.jpg",
+      src: "/images/services/door-after-repaired.webp",
       alt: "Shattered commercial front door glass after break-in - glass everywhere, security compromised",
       badge: "Before - Emergency Call",
       heading: "Shattered Glass After Break-In",
       caption: "Business called us at night for emergency board-up and glass replacement. Security compromised, glass everywhere, urgent response needed.",
     },
     after: {
-      src: "/images/services/door-before-broken.jpg",
+      src: "/images/services/door-before-broken.webp",
       alt: "Fully restored commercial front door with new tempered glass installed by LuminaSky Glass Services",
       badge: "After - Fully Restored",
       heading: "New Tempered Glass, Security Restored",
@@ -231,12 +231,12 @@ export const WINDOW_CRANKS: ServiceData = {
   heroSubtext:
     "Casement and awning window cranks wear out over time. We repair or replace crank operators, handles, and espagnolette hardware - without replacing the window.",
   heroImage: {
-    src: "/images/services/window-crank-door.jpg",
+    src: "/images/services/window-crank-door.webp",
     alt: "Old worn window crank operator and espagnolette hardware removed for replacement",
   },
   photos: [
     {
-      src: "/images/services/window-crank-door.jpg",
+      src: "/images/services/window-crank-door.webp",
       alt: "Worn casement window crank operator and broken handle alongside old espagnolette bar - all replaced by LuminaSky",
       caption: "Old worn operator, broken handle, and espagnolette bar - we replace all of it",
     },
@@ -307,12 +307,12 @@ export const SCREEN_STORM_DOORS: ServiceData = {
   heroSubtext:
     "Keep bugs out, let fresh air in, and add a layer of weather protection. We supply and install custom-fit screen and storm doors for any entrance.",
   heroImage: {
-    src: "/images/services/storm-door-hardware.jpg",
+    src: "/images/services/storm-door-hardware.webp",
     alt: "White full-view storm door with gold lever handle installed on a brick home in the GTA",
   },
   photos: [
     {
-      src: "/images/services/storm-door-hardware.jpg",
+      src: "/images/services/storm-door-hardware.webp",
       alt: "White aluminum-frame full-view storm door with gold lever handle - installed by LuminaSky Glass Services",
       caption: "Full-view aluminum storm door - protects your entry while keeping natural light",
     },
@@ -389,7 +389,7 @@ export const SKYLIGHTS: ServiceData = {
   heroSubtext:
     "Cracked glass, failed seals, or persistent leaks around your skylight? LuminaSky Glass Services repairs and replaces skylight glass units across the GTA.",
   heroImage: {
-    src: "/images/services/skylight-foggy-before.jpg",
+    src: "/images/services/skylight-foggy-before.webp",
     alt: "Foggy skylight with heavy condensation between panes - failed seal causing fogging and reduced light",
   },
   description: [
@@ -467,7 +467,7 @@ export const WINDOW_SCREENS: ServiceData = {
   heroSubtext:
     "A torn screen is a small problem that ruins a whole summer. Bugs get in, pets push through, and a bent frame stops the door from sliding. We repair and replace screens for windows, sliding patio doors and entry doors across the GTA.\n\nWe measure on site, so the screen fits the opening you actually have, not the one it was supposed to have.",
   heroImage: {
-    src: "/images/services/window-screens-service.jpg",
+    src: "/images/services/window-screens-service.webp",
     alt: "Sliding patio door with screen door. Window and Door Screens service by LuminaSky",
   },
   description: [
@@ -520,7 +520,7 @@ export const WINDOW_REPLACEMENT: ServiceData = {
   heroSubtext:
     "Sometimes glass and hardware are not the answer. If the frame itself is rotted, warped or so old that parts no longer exist, replacing the window is the cheaper decision over the next ten years.\n\nWe are a repair company first, which means we will tell you when a repair is enough. When it is not, we handle the replacement from measurement to cleanup.",
   heroImage: {
-    src: "/images/services/window-replacement-service.jpg",
+    src: "/images/services/window-replacement-service.webp",
     alt: "LuminaSky team member installing new window frame with professional flashing tape during full window replacement",
   },
   heroCTA: {

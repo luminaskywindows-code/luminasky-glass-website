@@ -31,18 +31,18 @@ import {
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
-  src: "/images/services/foggy-leaded-glass.jpg",
+  src: "/images/services/foggy-leaded-glass.webp",
   alt: "Double front doors with decorative iron scrollwork glass inserts installed by LuminaSky Glass Services",
 };
 
 const PHOTOS = [
   {
-    src: "/images/services/foggy-leaded-glass.jpg",
+    src: "/images/services/foggy-leaded-glass.webp",
     alt: "Double front doors with decorative wrought iron scrollwork glass inserts installed by LuminaSky Glass Services",
     caption: "Double doors with custom decorative iron scrollwork glass",
   },
   {
-    src: "/images/services/front-door-decorative-2.jpg",
+    src: "/images/services/front-door-decorative-2.webp",
     alt: "Double front doors with art deco leaded glass inserts featuring elegant arched design",
     caption: "Art deco leaded glass inserts: full double door replacement",
   },
@@ -68,7 +68,7 @@ const BEFORE_AFTER = {
   subtitle:
     "From break-in damage to fully restored security. Serving the entire GTA.",
   before: {
-    src: "/images/services/door-after-repaired.jpg",
+    src: "/images/services/door-after-repaired.webp",
     alt: "Shattered commercial front door glass after break-in: glass everywhere, security compromised",
     badge: "Before: Emergency Call",
     heading: "Shattered Glass After Break-In",
@@ -76,7 +76,7 @@ const BEFORE_AFTER = {
       "Business called us at night for emergency board-up and glass replacement. Security compromised, glass everywhere, urgent response needed.",
   },
   after: {
-    src: "/images/services/door-before-broken.jpg",
+    src: "/images/services/door-before-broken.webp",
     alt: "Fully restored commercial front door with new tempered glass installed by LuminaSky Glass Services",
     badge: "After: Fully Restored",
     heading: "New Tempered Glass, Security Restored",

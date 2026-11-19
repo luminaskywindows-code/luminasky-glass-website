@@ -58,7 +58,7 @@ export const SERVICES = [
     description:
       "Seal failures cause condensation between panes. We replace the glass unit - not the whole window - saving you hundreds.",
     href: "/foggy-windows",
-    imageSrc: "/images/services/foggy-window-real.jpg",
+    imageSrc: "/images/services/foggy-window-real.webp",
   },
   {
     slug: "front-door-glass",
@@ -68,7 +68,7 @@ export const SERVICES = [
     description:
       "Decorative, frosted, or clear glass inserts for all front door and sidelite styles. Boost curb appeal instantly.",
     href: "/front-door-glass",
-    imageSrc: "/images/services/foggy-leaded-glass.jpg",
+    imageSrc: "/images/services/foggy-leaded-glass.webp",
   },
   {
     slug: "window-cranks",
@@ -78,7 +78,7 @@ export const SERVICES = [
     description:
       "Broken casement operators or crank handles repaired or replaced quickly. Restore smooth, effortless operation.",
     href: "/cranks",
-    imageSrc: "/images/services/window-crank-door.jpg",
+    imageSrc: "/images/services/window-crank-door.webp",
   },
   {
     slug: "screen-storm-doors",
@@ -88,7 +88,7 @@ export const SERVICES = [
     description:
       "Custom-fit screen and storm door installation and repair. Keep bugs out and fresh air in all season long.",
     href: "/screen-storm-doors",
-    imageSrc: "/images/services/storm-door-hardware.jpg",
+    imageSrc: "/images/services/storm-door-hardware.webp",
   },
   {
     slug: "skylights",
@@ -108,7 +108,7 @@ export const SERVICES = [
     description:
       "Screen repair and replacement for windows, sliding patio doors and entry doors. Pet-resistant and solar mesh options available.",
     href: "/window-screens",
-    imageSrc: "/images/services/window-screens-service.jpg",
+    imageSrc: "/images/services/window-screens-service.webp",
   },
   {
     slug: "window-replacement",
@@ -118,7 +118,7 @@ export const SERVICES = [
     description:
       "Full window replacement when repair is no longer the answer. Fixed-price quotes, no pressure sales, one crew from measure to cleanup.",
     href: "/window-replacement",
-    imageSrc: "/images/services/window-replacement-service.jpg",
+    imageSrc: "/images/services/window-replacement-service.webp",
   },
   {
     slug: "commercial-glass-repair",
@@ -128,7 +128,7 @@ export const SERVICES = [
     description:
       "24/7 commercial glass repair: storefront glass replacement, commercial door glass, emergency board-up across Toronto and the GTA.",
     href: "/commercial-glass-repair",
-    imageSrc: "/images/services/door-after-repaired.jpg",
+    imageSrc: "/images/services/door-after-repaired.webp",
   },
   {
     slug: "glass-replacement",
@@ -138,7 +138,7 @@ export const SERVICES = [
     description:
       "Cracked or broken window glass? We replace just the pane or sealed unit and keep your frame. Written price before work.",
     href: "/glass-replacement",
-    imageSrc: "/images/services/window-cleaning-before.jpg",
+    imageSrc: "/images/services/window-cleaning-before.webp",
   },
   {
     slug: "emergency-glass-repair",

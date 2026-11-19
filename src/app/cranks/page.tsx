@@ -301,7 +301,7 @@ export default function WindowCranksPage() {
             <div className="hidden lg:block">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
                 <Image
-                  src="/images/services/window-crank-door.jpg"
+                  src="/images/services/window-crank-door.webp"
                   alt="Old worn casement window crank operator and new replacement parts laid out side by side"
                   fill
                   className="object-cover"
@@ -471,7 +471,7 @@ export default function WindowCranksPage() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100">
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
-                  src="/images/services/crank-before.jpg"
+                  src="/images/services/crank-before.webp"
                   alt="Worn and rusty window crank mechanism before professional repair"
                   fill
 
@@ -496,7 +496,7 @@ export default function WindowCranksPage() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100">
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
-                  src="/images/services/crank-after.jpg"
+                  src="/images/services/crank-after.webp"
                   alt="Brand new authentic window crank operator installed by LuminaSky"
                   fill
 

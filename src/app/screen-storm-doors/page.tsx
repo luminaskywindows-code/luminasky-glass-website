@@ -22,13 +22,13 @@ import {
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
-  src: "/images/services/storm-door-hardware.jpg",
+  src: "/images/services/storm-door-hardware.webp",
   alt: "White full-view storm door with gold lever handle installed on a brick home in the GTA",
 };
 
 const PHOTOS = [
   {
-    src: "/images/services/storm-door-hardware.jpg",
+    src: "/images/services/storm-door-hardware.webp",
     alt: "White aluminum-frame full-view storm door with gold lever handle installed by LuminaSky Glass Services",
     caption:
       "Full-view aluminum storm door: protects your entry while keeping natural light",

@@ -202,7 +202,7 @@ export default function WinterReadyPage() {
       <section className="relative bg-gradient-to-br from-primary via-blue-800 to-primary-700 py-16 md:py-24 px-4 md:px-8 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <Image
-            src="/images/services/foggy-window-real.jpg"
+            src="/images/services/foggy-window-real.webp"
             alt="Foggy window showing condensation during winter"
             fill
             className="object-cover"

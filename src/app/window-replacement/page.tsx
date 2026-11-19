@@ -23,7 +23,7 @@ import {
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
-  src: "/images/services/window-replacement-service.jpg",
+  src: "/images/services/window-replacement-service.webp",
   alt: "LuminaSky team member installing new window frame with professional flashing tape during full window replacement",
 };
 

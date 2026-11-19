@@ -29,7 +29,7 @@ import {
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
-  src: "/images/services/skylight-foggy-before.jpg",
+  src: "/images/services/skylight-foggy-before.webp",
   alt: "Foggy skylight with heavy condensation between panes, failed seal causing fogging and reduced light",
 };
 

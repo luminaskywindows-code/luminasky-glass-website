@@ -5,22 +5,22 @@ import { motion, useReducedMotion } from "framer-motion";
 
 const GALLERY_ITEMS = [
   {
-    src: "/images/services/foggy-window-real.jpg",
+    src: "/images/services/foggy-window-real.webp",
     alt: "Casement window with heavy condensation and moisture trapped between the panes from a failed seal",
     label: "Foggy window seal failure",
   },
   {
-    src: "/images/services/window-cleaning-after.jpg",
+    src: "/images/services/window-cleaning-after.webp",
     alt: "Clear apartment window with a sharp city view after sealed glass unit replacement",
     label: "Clear after glass unit replacement",
   },
   {
-    src: "/images/services/front-door-glass-after.jpg",
+    src: "/images/services/front-door-glass-after.webp",
     alt: "Double front doors with modern geometric frosted glass inserts installed by LuminaSky",
     label: "Front door glass replacement",
   },
   {
-    src: "/images/services/foggy-window-condensation.jpg",
+    src: "/images/services/foggy-window-condensation.webp",
     alt: "Close-up of foggy double-pane window showing condensation and white mineral stains between the glass",
     label: "Condensation between panes",
   },
@@ -63,7 +63,7 @@ export function PhotoShowcase() {
             >
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="/images/services/foggy-window-real.jpg"
+                  src="/images/services/foggy-window-real.webp"
                   alt="Casement window with heavy condensation and moisture trapped between the panes from a failed seal"
                   fill
 
@@ -95,7 +95,7 @@ export function PhotoShowcase() {
             >
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="/images/services/window-cleaning-after.jpg"
+                  src="/images/services/window-cleaning-after.webp"
                   alt="Clear apartment window with a sharp city view after sealed glass unit replacement"
                   fill
 

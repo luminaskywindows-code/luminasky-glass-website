@@ -23,13 +23,13 @@ import {
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
-  src: "/images/services/door-after-repaired.jpg",
+  src: "/images/services/door-after-repaired.webp",
   alt: "Shattered commercial front door glass after break-in, emergency glass repair by LuminaSky",
 };
 
 const BEFORE_AFTER = {
   before: {
-    src: "/images/services/door-after-repaired.jpg",
+    src: "/images/services/door-after-repaired.webp",
     alt: "Shattered commercial front door glass after break-in: glass everywhere, security compromised",
     badge: "Before: Emergency Call",
     heading: "Shattered Glass After Break-In",
@@ -37,7 +37,7 @@ const BEFORE_AFTER = {
       "Business called us at night for emergency board-up and glass replacement. Security compromised, glass everywhere, urgent response needed.",
   },
   after: {
-    src: "/images/services/door-before-broken.jpg",
+    src: "/images/services/door-before-broken.webp",
     alt: "Fully restored commercial front door with new tempered glass installed by LuminaSky Glass Services",
     badge: "After: Fully Restored",
     heading: "New Tempered Glass, Security Restored",

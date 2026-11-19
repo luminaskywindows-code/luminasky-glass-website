@@ -33,11 +33,11 @@ export const PROJECTS: Project[] = [
     category: "hardware",
     mediaType: "before-after-slider",
     beforeImage: {
-      src: "/images/services/crank-handle-before.jpg",
+      src: "/images/services/crank-handle-before.webp",
       alt: "Casement window crank with missing handle, only the operator base and scissor arms visible",
     },
     afterImage: {
-      src: "/images/services/crank-handle-after.jpg",
+      src: "/images/services/crank-handle-after.webp",
       alt: "New crank handle installed on the casement window operator, smooth operation restored",
     },
     description:
@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
     title: "Casement Window Glass Replacement",
     category: "windows",
     showcaseImage: {
-      src: "/images/projects/glass-replacement-toronto-before-after.jpg",
+      src: "/images/projects/glass-replacement-toronto-before-after.webp",
       alt: "Casement window glass replacement in Toronto: cracked pane taped up on the left, new sealed glass unit installed on the right",
     },
     description:
@@ -67,7 +67,7 @@ export const PROJECTS: Project[] = [
     mediaType: "multi-image",
     images: [
       {
-        src: "/images/services/skylight-brampton.jpg",
+        src: "/images/services/skylight-brampton.webp",
         alt: "Skylight dome replacement at a Brampton home: deteriorated old dome removed and new clear acrylic dome installed with fresh sealing",
       },
     ],
@@ -127,11 +127,11 @@ export const PROJECTS: Project[] = [
     title: "Skylight Dome Replacement",
     category: "skylights",
     beforeImage: {
-      src: "/images/services/skylight-richmond-hill-before.jpg",
+      src: "/images/services/skylight-richmond-hill-before.webp",
       alt: "Old foggy acrylic skylight dome on a Richmond Hill roof before replacement",
     },
     afterImage: {
-      src: "/images/services/skylight-richmond-hill-after.jpg",
+      src: "/images/services/skylight-richmond-hill-after.webp",
       alt: "New clear acrylic skylight dome installed on a Richmond Hill roof",
     },
     description:
@@ -164,11 +164,11 @@ export const PROJECTS: Project[] = [
     title: "Front Door Replacement in Scarborough",
     category: "doors",
     beforeImage: {
-      src: "/images/services/front-door-scarborough-before.jpg",
+      src: "/images/services/front-door-scarborough-before.webp",
       alt: "Dated cream double front doors with small decorative glass panels before replacement in Scarborough",
     },
     afterImage: {
-      src: "/images/services/front-door-scarborough-after.jpg",
+      src: "/images/services/front-door-scarborough-after.webp",
       alt: "New modern white front door with large decorative leaded glass insert after LuminaSky replacement in Scarborough",
     },
     description:
@@ -182,11 +182,11 @@ export const PROJECTS: Project[] = [
     title: "Frosted Glass Replacement in Orangeville",
     category: "windows",
     beforeImage: {
-      src: "/images/services/frosted-glass-orangeville-before.jpg",
+      src: "/images/services/frosted-glass-orangeville-before.webp",
       alt: "Damaged frosted glass sliding window with visible mark on bottom pane before replacement in Orangeville",
     },
     afterImage: {
-      src: "/images/services/frosted-glass-orangeville-after.jpg",
+      src: "/images/services/frosted-glass-orangeville-after.webp",
       alt: "New clean frosted glass sliding window after LuminaSky replacement in Orangeville",
     },
     description:
@@ -201,7 +201,7 @@ export const PROJECTS: Project[] = [
     category: "windows",
     mediaType: "single-image",
     image: {
-      src: "/images/services/sunroom-caledon.jpg",
+      src: "/images/services/sunroom-caledon.webp",
       alt: "Caledon sunroom after full glass replacement, crystal-clear view of the garden and pool through four newly installed sealed glass units",
     },
     description:
@@ -217,7 +217,7 @@ export const PROJECTS: Project[] = [
     mediaType: "single-video",
     video: {
       src: "/videos/glass-replacement-ajax.mp4",
-      poster: "/images/glass-replacement-ajax-poster.jpg",
+      poster: "/images/glass-replacement-ajax-poster.webp",
       alt: "Glass replacement project in Ajax, walkthrough of completed installation",
     },
     description:
@@ -231,11 +231,11 @@ export const PROJECTS: Project[] = [
     title: "Custom Front Door Glass Replacement",
     category: "doors",
     beforeImage: {
-      src: "/images/services/front-door-glass-before.jpg",
+      src: "/images/services/front-door-glass-before.webp",
       alt: "Double front entry doors with traditional leaded glass inserts before replacement",
     },
     afterImage: {
-      src: "/images/services/front-door-glass-after.jpg",
+      src: "/images/services/front-door-glass-after.webp",
       alt: "Same front doors after upgrade to modern geometric iron glass inserts with frosted privacy glass",
     },
     description:
@@ -250,11 +250,11 @@ export const PROJECTS: Project[] = [
     category: "doors",
     // Note: file names were swapped at copy-time; src values below reflect actual contents
     beforeImage: {
-      src: "/images/services/door-after-repaired.jpg",
+      src: "/images/services/door-after-repaired.webp",
       alt: "Shattered commercial door glass after break-in - nighttime emergency",
     },
     afterImage: {
-      src: "/images/services/door-before-broken.jpg",
+      src: "/images/services/door-before-broken.webp",
       alt: "Fully restored commercial door with new tempered glass installed by LuminaSky Glass Services",
     },
     description:
@@ -269,11 +269,11 @@ export const PROJECTS: Project[] = [
     title: "Casement Window Crank Repair",
     category: "hardware",
     beforeImage: {
-      src: "/images/services/crank-before.jpg",
+      src: "/images/services/crank-before.webp",
       alt: "Old worn-out window crank mechanism - rusted and broken",
     },
     afterImage: {
-      src: "/images/services/crank-after.jpg",
+      src: "/images/services/crank-after.webp",
       alt: "New AmesburyTruth window crank handle installed - smooth operation restored",
     },
     description:
@@ -287,11 +287,11 @@ export const PROJECTS: Project[] = [
     title: "Residential High-Rise Glass Cleaning",
     category: "windows",
     beforeImage: {
-      src: "/images/services/window-cleaning-before.jpg",
+      src: "/images/services/window-cleaning-before.webp",
       alt: "Dirty high-rise window with heavy streaks and grime obscuring the view",
     },
     afterImage: {
-      src: "/images/services/window-cleaning-after.jpg",
+      src: "/images/services/window-cleaning-after.webp",
       alt: "Spotless high-rise window with a crystal-clear view of the city skyline",
     },
     description:

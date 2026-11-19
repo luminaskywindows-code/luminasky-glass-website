@@ -353,7 +353,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedAt: "2026-11-02",
     author: "Dan",
     readingTime: 5,
-    coverImage: "/images/gallery/foggy-window-before.jpg",
+    coverImage: "/images/gallery/foggy-window-before.webp",
     tags: ["winter", "condensation", "foggy glass", "sealed unit", "IGU"],
     sections: [
       { id: "why-windows-sweat", title: "Why Windows Sweat in Winter" },
@@ -482,7 +482,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "replace-window-glass-in-winter",
-    coverImage: "/images/services/foggy-window-real.jpg",
+    coverImage: "/images/services/foggy-window-real.webp",
     title: "Can You Replace Window Glass in Winter? A Guide for GTA Homeowners",
     metaTitle: "Can You Replace Window Glass in Winter?",
     metaDescription:
@@ -638,7 +638,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedAt: "2026-11-02",
     author: "Dan",
     readingTime: 6,
-    coverImage: "/images/services/skylight-foggy-before.jpg",
+    coverImage: "/images/services/skylight-foggy-before.webp",
     tags: ["winter", "skylights", "skylight leak", "ice dams", "condensation"],
     sections: [
       { id: "why-skylights-struggle", title: "Why Skylights Struggle in Winter" },
@@ -806,7 +806,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedAt: "2026-11-02",
     author: "Dan",
     readingTime: 4,
-    coverImage: "/images/services/window-crank-door.jpg",
+    coverImage: "/images/services/window-crank-door.webp",
     tags: ["window crank", "casement window", "hardware", "repair"],
     sections: [
       { id: "what-is-actually-inside-a-casement-window", title: "What Is Actually Inside a Casement Window" },
@@ -870,7 +870,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "condo-window-repair-who-pays-ontario",
-    coverImage: "/images/services/foggy-window-condensation.jpg",
+    coverImage: "/images/services/foggy-window-condensation.webp",
     title: "Who Pays for Window Repairs in a Condo: the Unit Owner or the Corporation?",
     metaTitle: "Who Pays for Condo Window Repairs in Ontario?",
     metaDescription:
@@ -953,7 +953,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedAt: "2026-11-02",
     author: "Dan",
     readingTime: 4,
-    coverImage: "/images/services/foggy-window-condensation.jpg",
+    coverImage: "/images/services/foggy-window-condensation.webp",
     tags: ["foggy glass", "sealed unit", "IGU", "repair"],
     sections: [
       { id: "what-a-modern-window-is-made-of", title: "What a Modern Window Is Made Of" },
@@ -1032,7 +1032,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "storefront-glass-emergency-board-up",
-    coverImage: "/images/services/foggy-leaded-glass.jpg",
+    coverImage: "/images/services/foggy-leaded-glass.webp",
     title: "Your Storefront Glass Broke After Hours. Here Is What to Do Tonight",
     metaTitle: "Storefront Glass Emergency Board-Up Toronto",
     metaDescription:
@@ -1110,7 +1110,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "double-vs-triple-pane-low-e-argon",
-    coverImage: "/images/services/foggy-window-condensation.jpg",
+    coverImage: "/images/services/foggy-window-condensation.webp",
     title: "Double, Triple, Low-E and Argon: What You Are Actually Paying For",
     metaTitle: "Double vs Triple Pane Glass Explained",
     metaDescription:
@@ -1188,7 +1188,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "sliding-patio-door-wont-slide",
-    coverImage: "/images/services/door-before-broken.jpg",
+    coverImage: "/images/services/door-before-broken.webp",
     title: "Patio Door That Will Not Slide: Rollers, Tracks, and What Is Really Wrong",
     metaTitle: "Patio Door Won't Slide: How to Fix It",
     metaDescription:
@@ -1353,7 +1353,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedAt: "2026-11-02",
     author: "Dan",
     readingTime: 4,
-    coverImage: "/images/services/front-door-glass-before.jpg",
+    coverImage: "/images/services/front-door-glass-before.webp",
     tags: ["front door glass", "door insert", "foggy glass", "entry door"],
     sections: [
       { id: "what-a-door-glass-insert-is", title: "What a Door Glass Insert Is" },
@@ -1426,7 +1426,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2026-11-12",
     author: "Dan",
     readingTime: 5,
-    coverImage: "/images/services/foggy-window-real.jpg",
+    coverImage: "/images/services/foggy-window-real.webp",
     tags: ["foggy windows", "sealed unit replacement", "window repair cost", "GTA"],
     sections: [
       { id: "what-affects-the-price", title: "What Affects the Price?" },
@@ -1511,7 +1511,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2026-11-12",
     author: "Dan",
     readingTime: 5,
-    coverImage: "/images/services/crank-before.jpg",
+    coverImage: "/images/services/crank-before.webp",
     tags: ["window crank", "casement window", "window hardware", "crank repair"],
     sections: [
       { id: "identify-the-problem", title: "Step 1: Identify What Is Actually Wrong" },
@@ -1592,7 +1592,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "replace-vs-repair-windows-toronto",
-    coverImage: "/images/services/window-replacement-service.jpg",
+    coverImage: "/images/services/window-replacement-service.webp",
     title: "When to Replace vs. Repair Your Windows: A Toronto Homeowner's Guide",
     metaTitle: "Replace vs. Repair Windows in Toronto",
     metaDescription:
@@ -1681,7 +1681,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2026-11-12",
     author: "Dan",
     readingTime: 5,
-    coverImage: "/images/services/front-door-decorative-1.jpg",
+    coverImage: "/images/services/front-door-decorative-1.webp",
     tags: ["front door glass", "door glass insert", "decorative glass", "home exterior"],
     sections: [
       { id: "glass-types", title: "Glass Types at a Glance" },
@@ -1765,7 +1765,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "emergency-glass-repair-toronto",
-    coverImage: "/images/services/foggy-leaded-glass.jpg",
+    coverImage: "/images/services/foggy-leaded-glass.webp",
     title: "Emergency Glass Repair Toronto: What to Expect at 2 AM",
     metaTitle: "Emergency Glass Repair Toronto: What to Expect",
     metaDescription:
@@ -1854,7 +1854,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "window-repair-vaughan-neighbourhood-guide",
-    coverImage: "/images/services/foggy-window-real.jpg",
+    coverImage: "/images/services/foggy-window-real.webp",
     title: "Window Repair in Vaughan: A Neighbourhood-by-Neighbourhood Guide",
     metaTitle: "Window Repair Vaughan: Guide by Neighbourhood",
     metaDescription:
@@ -1944,7 +1944,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "vaughan-sealed-unit-replacement-winter",
-    coverImage: "/images/gallery/foggy-window-before.jpg",
+    coverImage: "/images/gallery/foggy-window-before.webp",
     title: "Why Vaughan Homes Need Sealed Unit Replacement Before Winter",
     metaTitle: "Sealed Unit Replacement Vaughan: Winter",
     metaDescription:
@@ -2032,7 +2032,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "commercial-glass-repair-vaughan-guide",
-    coverImage: "/images/services/foggy-leaded-glass.jpg",
+    coverImage: "/images/services/foggy-leaded-glass.webp",
     title: "Commercial Glass Repair in Vaughan: Storefronts, Offices and Plazas",
     metaTitle: "Commercial Glass Repair Vaughan",
     metaDescription:
@@ -2112,7 +2112,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "types-of-window-glass-explained",
-    coverImage: "/images/services/window-replacement-service.jpg",
+    coverImage: "/images/services/window-replacement-service.webp",
     title: "Types of Window Glass: What Every Homeowner Should Know",
     metaTitle: "Types of Window Glass Explained for Toronto Homeowners",
     metaDescription:
@@ -2322,7 +2322,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "home-insurance-broken-window-ontario",
-    coverImage: "/images/services/foggy-window-real.jpg",
+    coverImage: "/images/services/foggy-window-real.webp",
     title: "Does Home Insurance Cover a Broken Window in Ontario?",
     metaTitle: "Does Home Insurance Cover Broken Windows in Ontario?",
     metaDescription:
@@ -2626,7 +2626,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "safety-glass-ontario-building-code",
-    coverImage: "/images/services/window-replacement-service.jpg",
+    coverImage: "/images/services/window-replacement-service.webp",
     title: "Safety Glass Requirements Under the Ontario Building Code",
     metaTitle: "Safety Glass Requirements: Ontario Building Code Guide",
     metaDescription:
@@ -3224,7 +3224,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2026-11-18",
     author: "Dan",
     readingTime: 7,
-    coverImage: "/images/services/window-screens-service.jpg",
+    coverImage: "/images/services/window-screens-service.webp",
     tags: ["Window Screens", "Repair Tips"],
     sections: [
       { id: "common-screen-damage", title: "Common Types of Screen Damage" },
@@ -3352,7 +3352,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2026-11-18",
     author: "Dan",
     readingTime: 8,
-    coverImage: "/images/services/door-before-broken.jpg",
+    coverImage: "/images/services/door-before-broken.webp",
     tags: ["Patio Doors", "Glass Replacement"],
     sections: [
       { id: "signs-you-need-replacement", title: "Signs Your Patio Door Glass Needs Replacing" },
@@ -3447,7 +3447,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedAt: "2026-11-18",
     author: "Dan",
     readingTime: 6,
-    coverImage: "/images/services/front-door-storm.jpg",
+    coverImage: "/images/services/front-door-storm.webp",
     tags: ["Storm Doors", "Seasonal Tips"],
     sections: [
       { id: "when-to-swap", title: "When to Swap: Glass In, Screen Out (and Vice Versa)" },

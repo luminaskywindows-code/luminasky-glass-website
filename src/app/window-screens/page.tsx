@@ -22,7 +22,7 @@ import {
 } from "@/lib/schema";
 
 const HERO_IMAGE = {
-  src: "/images/services/window-screens-service.jpg",
+  src: "/images/services/window-screens-service.webp",
   alt: "Sliding patio door with screen door. Window and Door Screens service by LuminaSky",
 };
 
