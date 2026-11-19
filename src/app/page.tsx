@@ -4,10 +4,20 @@ import { HeroSection } from "@/components/home/HeroSection";
 import { ServiceAreaMap } from "@/components/shared/ServiceAreaMap";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { ServicesGrid } from "@/components/home/ServicesGrid";
-import { TrustSection } from "@/components/home/TrustSection";
-import { TestimonialsSection } from "@/components/home/TestimonialsSection";
+const TrustSection = dynamic(
+  () => import("@/components/home/TrustSection").then((m) => m.TrustSection),
+  { ssr: true }
+);
 import { FAQSection } from "@/components/home/FAQSection";
-import { HomepageFAQ } from "@/components/home/HomepageFAQ";
+
+const TestimonialsSection = dynamic(
+  () => import("@/components/home/TestimonialsSection").then((m) => m.TestimonialsSection),
+  { ssr: true }
+);
+const HomepageFAQ = dynamic(
+  () => import("@/components/home/HomepageFAQ").then((m) => m.HomepageFAQ),
+  { ssr: true }
+);
 import { HOMEPAGE_SCHEMA_FAQS } from "@/lib/homepage-faq-data";
 import { WinterBanner } from "@/components/home/WinterBanner";
 import { TrustStrip } from "@/components/home/TrustStrip";

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import {
   CheckCircle2,
@@ -28,8 +29,12 @@ import { CTABanner } from "@/components/shared/CTABanner";
 import { PHONE, PHONE_HREF, SITE_URL } from "@/lib/constants";
 import { generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import { ReportTOC } from "@/components/report/ReportTOC";
-import { AccordionFAQ } from "@/components/report/AccordionFAQ";
 import { ScrollProgress } from "@/components/report/ScrollProgress";
+
+const AccordionFAQ = dynamic(
+  () => import("@/components/report/AccordionFAQ").then((m) => m.AccordionFAQ),
+  { ssr: true }
+);
 
 const BREADCRUMBS = [
   { name: "Home", url: "/" },

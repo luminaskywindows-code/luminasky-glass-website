@@ -1,8 +1,13 @@
 ﻿import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Phone } from "lucide-react";
 import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
-import { ProjectsGallery } from "@/components/projects/ProjectsGallery";
+
+const ProjectsGallery = dynamic(
+  () => import("@/components/projects/ProjectsGallery").then((m) => m.ProjectsGallery),
+  { ssr: true }
+);
 import { PHONE, PHONE_HREF, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
