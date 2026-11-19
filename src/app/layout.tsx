@@ -28,6 +28,11 @@ const WhatsAppClickTracker = dynamic(
   { ssr: false }
 );
 
+const MobileStickyBar = dynamic(
+  () => import("@/components/layout/MobileStickyBar").then((m) => m.MobileStickyBar),
+  { ssr: false }
+);
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
@@ -132,6 +137,7 @@ export default function RootLayout({
         <main id="main-content">{children}</main>
         <Footer />
         <WhatsAppButton />
+        <MobileStickyBar />
         <SourceTracker />
         <GtagInit />
         <PhoneClickTracker />

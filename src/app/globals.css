@@ -72,3 +72,9 @@
     text-wrap: balance;
   }
 }
+
+@media (max-width: 767px) {
+  body {
+    padding-bottom: calc(52px + env(safe-area-inset-bottom, 0px));
+  }
+}
