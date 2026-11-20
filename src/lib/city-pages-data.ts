@@ -1,4 +1,4 @@
-export interface CityProject {
+﻿export interface CityProject {
   title: string;
   description: string;
   beforeImage?: { src: string; alt: string };
@@ -41,9 +41,9 @@ export const CITY_PAGES: CityPageData[] = [
     slug: "vaughan",
     city: "Vaughan",
     region: "York Region",
-    metaTitle: "Window & Glass Repair Vaughan | LuminaSky",
+    metaTitle: "Window Repair Vaughan | Glass, Cranks & Screens",
     metaDescription:
-      "Vaughan's repair-first glass specialists. Foggy sealed units, broken cranks, front door glass across Woodbridge, Maple and Kleinburg. 2-year parts and labour warranty.",
+      "Foggy, cracked or stuck window? We repair it in Woodbridge, Maple and Kleinburg, new glass in your old frame. 5.0 on Google. Written price on the spot.",
     heroHeadline: "Window & Door Repair in Vaughan",
     heroSubtext:
       "Fast, affordable glass and door repair across Woodbridge, Maple, Kleinburg, Concord, and all of Vaughan. Fix it. Don't replace it.",

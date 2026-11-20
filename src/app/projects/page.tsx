@@ -11,7 +11,7 @@ const ProjectsGallery = dynamic(
 import { PHONE, PHONE_HREF, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Our Projects | Before & After Photos | LuminaSky",
+  title: "Our Projects | Before & After Photos",
   description:
     "See real before and after photos of our glass repair and replacement projects across the GTA. Emergency repairs, window restoration, and door glass replacement.",
   alternates: { canonical: "/projects" },
