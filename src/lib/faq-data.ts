@@ -101,15 +101,15 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
       },
       {
         q: "Do you offer warranties on glass repair?",
-        a: "Yes. Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
+        a: "Yes. Sealed glass units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
       },
       {
         q: "Are your sealed glass units certified?",
-        a: "Yes. Our sealed glass units are made by an IGMAC-certified manufacturer to the CGSB 12.8 standard, the Canadian standard for insulating glass. New sealed units come with a 5-year warranty against seal failure and 2 years on workmanship.",
+        a: "Yes. Our sealed glass units are made by an IGMAC-certified manufacturer to the CGSB 12.8 standard, the Canadian standard for insulating glass. New sealed units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself.",
       },
       {
         q: "What does your warranty cover?",
-        a: "Sealed glass units come with a 5-year warranty against seal failure (fogging, condensation between the panes) and 2 years on workmanship. In the first 2 years, parts and labour are included. From year 3 to year 5, the replacement glass is covered and labour is billed. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered under warranty.",
+        a: "Sealed glass units come with 2 years parts and labour against seal failure (fogging, condensation between the panes), then up to 5 years on the glass unit itself. In the first 2 years, parts and labour are included. From year 3 to year 5, the replacement glass is covered and labour is billed. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered under warranty.",
       },
     ],
   },

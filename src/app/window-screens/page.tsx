@@ -115,7 +115,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Window Screen Repair Toronto & Replacement",
   description:
-    "Torn, bent or missing window screens? We repair and replace window and patio door screens across Toronto. Same-day service available. 437-344-8490.",
+    "Torn, bent or missing window screens? We repair and replace window and patio door screens across Toronto. Same-day service available.",
   alternates: { canonical: "/window-screens" },
   openGraph: {
     title: "Window Screen Repair Toronto & Replacement | LuminaSky",

@@ -99,7 +99,7 @@ export const FOGGY_WINDOWS: ServiceData = {
     },
     {
       q: "Do you warranty the repair?",
-      a: "Yes. Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs come with 1 year on parts and labour.",
+      a: "Yes. Sealed glass units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself. Hardware repairs come with 1 year on parts and labour.",
     },
     {
       q: "Can you match my existing glass type (frosted, tinted, etc.)?",
@@ -108,7 +108,7 @@ export const FOGGY_WINDOWS: ServiceData = {
   ],
   metaTitle: "Foggy Glass Repair Toronto",
   metaDescription:
-    "Foggy or cloudy windows? LuminaSky Glass Services repairs failed glass seals across the Greater Toronto Area. Save vs. full replacement. Call 437-344-8490.",
+    "Foggy or cloudy windows? LuminaSky Glass Services repairs failed glass seals across the Greater Toronto Area. Save vs. full replacement.",
   relatedServices: [
     "front-door-glass",
     "window-cranks",
@@ -215,7 +215,7 @@ export const FRONT_DOOR_GLASS: ServiceData = {
   },
   metaTitle: "Front Door Glass Replacement Toronto",
   metaDescription:
-    "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 5-Year Warranty. Call 437-344-8490.",
+    "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 2-year parts and labour warranty.",
   relatedServices: [
     "foggy-windows",
     "window-cranks",
@@ -296,7 +296,7 @@ export const WINDOW_CRANKS: ServiceData = {
   ],
   metaTitle: "Window Crank & Operator Repair Toronto",
   metaDescription:
-    "Broken window crank or casement operator? LuminaSky Glass Services repairs and replaces window cranks across the Greater Toronto Area. Call 437-344-8490.",
+    "Broken window crank or casement operator? LuminaSky Glass Services repairs and replaces window cranks across the Greater Toronto Area.",
   relatedServices: ["foggy-windows", "screen-storm-doors", "skylights"],
 };
 
@@ -372,7 +372,7 @@ export const SCREEN_STORM_DOORS: ServiceData = {
   ],
   metaTitle: "Screen & Storm Door Installation Toronto",
   metaDescription:
-    "Custom screen and storm door supply and installation across the Greater Toronto Area. LuminaSky Glass Services - Call 437-344-8490.",
+    "Custom screen and storm door supply and installation across the Greater Toronto Area. LuminaSky Glass Services -",
   relatedServices: [
     "front-door-glass",
     "window-cranks",
@@ -455,7 +455,7 @@ export const SKYLIGHTS: ServiceData = {
   },
   metaTitle: "Skylight Repair & Replacement Toronto",
   metaDescription:
-    "Foggy or leaking skylight? LuminaSky repairs and replaces skylight glass units across the GTA. All brands serviced. Call 437-344-8490.",
+    "Foggy or leaking skylight? LuminaSky repairs and replaces skylight glass units across the GTA. All brands serviced.",
   relatedServices: ["foggy-windows", "front-door-glass", "screen-storm-doors"],
 };
 
@@ -508,7 +508,7 @@ export const WINDOW_SCREENS: ServiceData = {
   },
   metaTitle: "Window Screen Repair & Replacement Toronto",
   metaDescription:
-    "Torn, bent or missing window screens? LuminaSky repairs and replaces window and patio door screens across the GTA. Call 437-344-8490.",
+    "Torn, bent or missing window screens? LuminaSky repairs and replaces window and patio door screens across the GTA.",
   relatedServices: ["screen-storm-doors", "foggy-windows", "window-cranks"],
 };
 

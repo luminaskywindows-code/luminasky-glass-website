@@ -68,7 +68,7 @@ export function HeroSection() {
               </p>
 
               <p className="text-blue-100 text-base md:text-lg leading-relaxed max-w-xl lg:max-w-none">
-                <strong>LuminaSky Glass Services</strong> repairs windows and glass across 34 cities in the Greater Toronto Area. We serve homeowners and property managers with 24/7 emergency board-up, a 5-year warranty against seal failure on sealed glass units, and same-week measurement appointments.
+                <strong>LuminaSky Glass Services</strong> repairs windows and glass across the Greater Toronto Area, from Mississauga to Markham. We serve homeowners and property managers with 24/7 emergency board-up, 2 years parts and labour on sealed glass units, and same-week measurement appointments.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center lg:items-start gap-4 mt-1">

@@ -64,7 +64,7 @@ const VIDEOS = [
 
 const TRUST_BADGES = [
   { icon: Star, label: "70+ 5-Star Google Reviews" },
-  { icon: ShieldCheck, label: "5-Year Glass Warranty" },
+  { icon: ShieldCheck, label: "2-Year Parts & Labour Warranty" },
   { icon: Users, label: "Family-Owned Since 2024" },
   { icon: MapPin, label: "Serves All GTA" },
   { icon: FileText, label: "Written Quote on the Spot" },
@@ -136,7 +136,7 @@ const FAQS = [
   },
   {
     q: "What does the warranty cover?",
-    a: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. In the first 2 years, parts and labour are included. From year 3 to year 5, the replacement glass is covered and labour is billed. Excludes vandalism, impact damage and physical breakage.",
+    a: "Sealed glass units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself. In the first 2 years, parts and labour are included. From year 3 to year 5, the replacement glass is covered and labour is billed. Excludes vandalism, impact damage and physical breakage.",
   },
   {
     q: "Can you match my existing glass type (frosted, tinted, etc.)?",
@@ -175,12 +175,12 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Foggy Window Repair Toronto | Replace Glass, Keep Frame",
   description:
-    "Foggy or cloudy windows? We replace the sealed glass unit and keep your frame. 5-year seal warranty, 2-year workmanship. Serving the GTA. 437-344-8490.",
+    "Foggy or cloudy windows? We replace the sealed glass unit and keep your frame. 2 years parts and labour on glass. Serving the GTA.",
   alternates: { canonical: "/foggy-windows" },
   openGraph: {
     title: "Foggy Window Repair Toronto | Replace Glass, Keep Frame | LuminaSky",
     description:
-      "Foggy or cloudy windows? We replace the sealed glass unit and keep your frame. 5-year seal warranty, 2-year workmanship. Serving the GTA.",
+      "Foggy or cloudy windows? We replace the sealed glass unit and keep your frame. 2 years parts and labour on glass. Serving the GTA.",
     url: "/foggy-windows",
   },
 };
@@ -212,7 +212,7 @@ export default function FoggyWindowsPage() {
                 { name: "Get a written quote on the spot", text: "You receive the price before we leave. No follow-up calls, no surprises." },
                 { name: "We order your glass", text: "A 50% deposit lets us order custom-made sealed units from our local IGMAC-certified supplier." },
                 { name: "Installation", text: "Glass arrives in 5 to 15 business days. We book the install with you and the balance is paid on installation day." },
-                { name: "Warranty coverage", text: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship." },
+                { name: "Warranty coverage", text: "Sealed glass units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself." },
               ],
             }),
             generateFAQSchema(FAQS),
@@ -286,7 +286,7 @@ export default function FoggyWindowsPage() {
 
               <div className="inline-flex items-center gap-2 bg-[#dcfce7] text-[#166534] font-semibold px-4 py-2.5 rounded-lg mb-3">
                 <Camera className="w-4 h-4" aria-hidden="true" />
-                <span>Photo Quote: FREE <span className="font-normal text-[#166534]/80">: Send a photo, get a price</span></span>
+                <span>Send a photo for a price</span>
               </div>
 
               <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-6 leading-[1.2] md:leading-tight">
@@ -297,7 +297,7 @@ export default function FoggyWindowsPage() {
                 failed sealed unit only, not the whole window, at a fraction of
                 the cost of full replacement. Every job is backed by a{" "}
                 <strong className="text-white">
-                  5-year seal warranty + 2-year workmanship warranty
+                  2 years parts and labour, up to 5 years on glass
                 </strong>
                 .
               </p>
@@ -503,7 +503,7 @@ export default function FoggyWindowsPage() {
                   "A fraction of the cost of full replacement",
                   "No trim removal, no drywall, no mess",
                   "Under one hour per window to install",
-                  "5-year seal warranty + 2-year workmanship warranty",
+                  "2 years parts and labour, up to 5 years on glass",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle2
@@ -645,12 +645,12 @@ export default function FoggyWindowsPage() {
             id="warranty-heading"
             className="text-3xl font-bold text-gray-900 mb-4"
           >
-            5-Year Seal Warranty + 2-Year Workmanship
+            2 Years Parts & Labour, Up to 5 Years on Glass
           </h2>
           <p className="text-gray-600 leading-relaxed mb-6">
             Every foggy window repair is backed by a{" "}
             <strong className="text-primary">
-              5-year warranty against seal failure
+              2 years parts and labour, up to 5 years on glass
             </strong>{" "}
             and{" "}
             <strong className="text-primary">
@@ -942,7 +942,7 @@ export default function FoggyWindowsPage() {
                   You&apos;re covered.
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Sealed glass units come with a 5 year warranty against fogging.
+                  Sealed glass units come with 2 years parts and labour against fogging, then up to 5 years on the glass itself.
                   For the first 2 years, glass and labour are both covered. From
                   year 3 to 5, the glass is covered and labour is billed.
                 </p>

@@ -260,7 +260,7 @@ export default function WindowCranksPage() {
 
               <div className="inline-flex items-center gap-2 bg-[#dcfce7] text-[#166534] font-semibold px-4 py-2.5 rounded-lg mb-3">
                 <Camera className="w-4 h-4" aria-hidden="true" />
-                <span>Photo Quote: FREE <span className="font-normal text-[#166534]/80">: Send a photo, get a price</span></span>
+                <span>Send a photo for a price</span>
               </div>
 
               <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-6 leading-[1.2] md:leading-tight">

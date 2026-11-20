@@ -24,7 +24,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Front Door Glass Replacement in Toronto",
     metaDescription:
-      "Front door glass replacement in Toronto. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Toronto. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Toronto entry doors take a beating. Salt spray off the sidewalk, courier traffic, raccoons testing the glass at 2 a.m. Whether it is a cracked insert on a Victorian rowhouse in the Annex or a foggy sidelite on a detached home in North York, LuminaSky replaces the glass panel without touching the door itself. Your frame, hardware, and paint stay exactly as they are.",
     uniqueContent:
@@ -41,7 +41,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Front Door Glass Replacement in Mississauga",
     metaDescription:
-      "Front door glass replacement in Mississauga. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Mississauga. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Mississauga's subdivisions from Erin Mills to Meadowvale share a common trait: the front door glass insert installed 20 to 30 years ago is now cloudy, cracked, or just plain dated. LuminaSky replaces the glass panel only, keeping your existing door, frame, and lockset intact. New glass, same door.",
     uniqueContent:
@@ -58,7 +58,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Front Door Glass Replacement in Vaughan",
     metaDescription:
-      "Front door glass replacement in Vaughan. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Vaughan. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Vaughan homeowners put serious thought into their front doors. From the ornate wrought-iron inserts in Woodbridge to the minimalist frosted panels in the VMC condos, the glass is the centrepiece of the entrance. When it cracks, fogs, or just looks tired, LuminaSky replaces the glass insert without swapping the whole door.",
     uniqueContent:
@@ -75,7 +75,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Front Door Glass Replacement in Thornhill",
     metaDescription:
-      "Front door glass replacement in Thornhill. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Thornhill. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Thornhill sits at the crossroads of old and new. Brick bungalows along Centre Street have original door glass from the 1960s. Larger homes in Royal Orchard carry decorative inserts that were the height of fashion 25 years ago. LuminaSky replaces the glass in both without touching the door, frame, or hardware.",
     uniqueContent:
@@ -92,7 +92,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Front Door Glass Replacement in Richmond Hill",
     metaDescription:
-      "Front door glass replacement in Richmond Hill. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Richmond Hill. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Richmond Hill homes along the Bayview corridor and up through Oak Ridges often have large entry doors with decorative glass panels that were installed during the building boom of the early 2000s. Those inserts are now hitting the age where seals fail and designs start to look dated. LuminaSky replaces the glass panel and leaves the door.",
     uniqueContent:
@@ -109,7 +109,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Front Door Glass Replacement in Markham",
     metaDescription:
-      "Front door glass replacement in Markham. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Markham. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Markham's entry doors reflect the city's mix of heritage and suburban. Unionville's century homes have wooden doors with character glass that deserves careful handling. Cornell and Cathedraltown have thousands of builder-grade steel doors with inserts that are now fogging up or cracking. LuminaSky replaces the glass in both.",
     uniqueContent:
@@ -126,7 +126,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Front Door Glass Replacement in Brampton",
     metaDescription:
-      "Front door glass replacement in Brampton. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Brampton. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Brampton's housing boom from the late 1990s through the 2010s produced entire neighbourhoods of homes with nearly identical front door glass inserts. Two decades later, those inserts are fogging, cracking, or just looking outdated. LuminaSky replaces them one at a time or in batches for homeowners who want to refresh their entrance.",
     uniqueContent:
@@ -143,7 +143,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Front Door Glass Replacement in Oakville",
     metaDescription:
-      "Front door glass replacement in Oakville. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Oakville. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Oakville's established neighbourhoods along Lakeshore and up through Glen Abbey feature some of the GTA's most impressive front entrances. When the glass in those doors cracks, fogs, or chips, the whole facade suffers. LuminaSky replaces the glass panel and restores the entrance to its original standard.",
     uniqueContent:
@@ -160,7 +160,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Front Door Glass Replacement in Burlington",
     metaDescription:
-      "Front door glass replacement in Burlington. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Burlington. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Burlington's lakeside location means front door glass gets hit with moisture, wind off the lake, and temperature swings that inland cities avoid. Sealed glass inserts in Burlington homes fail faster on the lake-facing side of the house. LuminaSky replaces the glass panel without swapping the door.",
     uniqueContent:
@@ -168,7 +168,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     neighborhoods: getNeighborhoods("burlington"),
     citySpecificFaq: {
       q: "Does the lake climate in Burlington affect how long replacement door glass lasts?",
-      a: "We use sealed units rated for the climate. Properly installed replacement glass with a modern seal performs well in lakeside conditions. Our 5-year warranty covers seal failure.",
+      a: "We use sealed units rated for the climate. Properly installed replacement glass with a modern seal performs well in lakeside conditions. Our warranty covers seal failure: 2 years parts and labour, then up to 5 years on the glass.",
     },
   },
   {
@@ -177,7 +177,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Hamilton",
     metaTitle: "Front Door Glass Replacement in Hamilton",
     metaDescription:
-      "Front door glass replacement in Hamilton. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Hamilton. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Hamilton's housing tells a story of industrial prosperity and waves of growth. Westdale's stone-clad homes, the Locke Street row houses, and the newer builds on the Mountain all have front door glass that eventually needs replacing. LuminaSky handles all of it, from heritage panels on Aberdeen to standard inserts in Stoney Creek.",
     uniqueContent:
@@ -194,7 +194,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Front Door Glass Replacement in Newmarket",
     metaDescription:
-      "Front door glass replacement in Newmarket. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Newmarket. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Newmarket's mix of heritage homes on Main Street South and mid-2000s subdivisions around Upper Canada Mall creates two distinct pools of front door glass work. LuminaSky replaces both: the careful, character-matched panels for older homes and the straightforward insert swaps for newer ones.",
     uniqueContent:
@@ -211,7 +211,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Front Door Glass Replacement in Aurora",
     metaDescription:
-      "Front door glass replacement in Aurora. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Aurora. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Aurora's homes cluster into a few distinct eras: the historic core around Yonge and Wellington, the 1980s and 1990s builds in south Aurora, and the newer developments along St. John's Sideroad. Each era carries its own front door glass, and LuminaSky replaces all of them.",
     uniqueContent:
@@ -228,7 +228,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Front Door Glass Replacement in Pickering",
     metaDescription:
-      "Front door glass replacement in Pickering. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Pickering. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Pickering's residential pockets run from the lakefront homes near Frenchman's Bay to the growing subdivisions around Seaton. Front door glass across the city ranges from original 1970s panels in Bay Ridges to builder-grade inserts in Duffin Heights. LuminaSky replaces all of them without swapping the door.",
     uniqueContent:
@@ -245,7 +245,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Front Door Glass Replacement in Oshawa",
     metaDescription:
-      "Front door glass replacement in Oshawa. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Oshawa. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Oshawa's residential footprint stretches from the older neighbourhoods near downtown and the waterfront up to the newer developments in the north end. Front door glass across the city shows the wear of Ontario winters. LuminaSky replaces cracked, foggy, and outdated door glass inserts without removing the door.",
     uniqueContent:
@@ -262,7 +262,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Front Door Glass Replacement in Scarborough",
     metaDescription:
-      "Front door glass replacement in Scarborough. Decorative, frosted and clear glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Scarborough. Decorative, frosted and clear glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Scarborough's postwar bungalows and split-levels carry some of the oldest front door glass in the GTA. Many homes in Agincourt, Wexford, and Guildwood still have their original door inserts from the 1950s and 1960s. LuminaSky replaces aged, cracked, and foggy door glass across Scarborough without disturbing the door or frame.",
     uniqueContent:
@@ -279,7 +279,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Front Door Glass Replacement in North York",
     metaDescription:
-      "Front door glass replacement in North York. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in North York. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "North York stretches from the Yonge corridor towers to the quiet residential streets of Willowdale, Bayview Village, and Don Mills. The front door glass across these neighbourhoods runs from original 1950s panels in bungalows to modern inserts in newer infill builds. LuminaSky replaces the glass without swapping the door.",
     uniqueContent:
@@ -296,7 +296,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Front Door Glass Replacement in Etobicoke",
     metaDescription:
-      "Front door glass replacement in Etobicoke. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Etobicoke. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Etobicoke's housing spans wartime bungalows in Long Branch, mid-century ranchers in Eatonville, and estate homes in Princess Anne Manor. The front door glass in each era has its own character and its own failure modes. LuminaSky replaces all of them while keeping the door in place.",
     uniqueContent:
@@ -313,7 +313,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Front Door Glass Replacement in Woodbridge",
     metaDescription:
-      "Front door glass replacement in Woodbridge. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Woodbridge. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Woodbridge is known for grand entrances. Double doors with wrought-iron inserts, oversized single doors with ornate glass panels, and custom entries that reflect the homeowner's taste. When that glass cracks or fogs, LuminaSky replaces the panel without disturbing the ironwork or the door itself.",
     uniqueContent:
@@ -330,7 +330,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Front Door Glass Replacement in Maple",
     metaDescription:
-      "Front door glass replacement in Maple. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Maple. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Maple grew rapidly through the 2000s and 2010s, producing block after block of detached homes with builder-grade entry doors. The glass inserts in those doors are now hitting their replacement age. LuminaSky replaces foggy, cracked, and dated front door glass without swapping the door.",
     uniqueContent:
@@ -347,7 +347,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Front Door Glass Replacement in King City",
     metaDescription:
-      "Front door glass replacement in King City. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in King City. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "King City's estate homes and acreage properties often feature custom entry doors with large glass panels. When that glass fogs or cracks, replacing the panel is far more practical than sourcing a new custom door. LuminaSky measures on-site and orders to exact dimensions.",
     uniqueContent:
@@ -364,7 +364,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Front Door Glass Replacement in Milton",
     metaDescription:
-      "Front door glass replacement in Milton. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Milton. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Milton has been one of the fastest-growing towns in Ontario for over a decade. That means thousands of homes built in quick succession, all with builder-grade entry doors whose glass inserts are now reaching the age where seals fail. LuminaSky replaces the glass and keeps the door.",
     uniqueContent:
@@ -381,7 +381,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Front Door Glass Replacement in Ajax",
     metaDescription:
-      "Front door glass replacement in Ajax. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Ajax. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Ajax homes built through the 1980s, 1990s, and 2000s fill the streets from the waterfront up to Rossland Road. The front door glass inserts in these homes are now in the zone where fog and cracks start appearing. LuminaSky replaces the glass panel without swapping the door.",
     uniqueContent:
@@ -398,7 +398,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Front Door Glass Replacement in Caledon",
     metaDescription:
-      "Front door glass replacement in Caledon. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Caledon. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Caledon's rural estates and village homes feature front doors built for presence. Large glass panels, sidelites, and transoms are common on the bigger properties. When the glass fogs or cracks, LuminaSky replaces it without touching the door or its hardware.",
     uniqueContent:
@@ -415,7 +415,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Front Door Glass Replacement in Whitby",
     metaDescription:
-      "Front door glass replacement in Whitby. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Whitby. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Whitby's residential growth from the 1980s through the 2010s has produced a large stock of homes whose front door glass inserts are now showing their age. Fog between the panes, cracked panels, and outdated designs are the most common calls we get. LuminaSky replaces the glass and leaves the door.",
     uniqueContent:
@@ -432,7 +432,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Dufferin County",
     metaTitle: "Front Door Glass Replacement in Orangeville",
     metaDescription:
-      "Front door glass replacement in Orangeville. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Orangeville. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Orangeville sits at the edge of the GTA where the suburban subdivisions meet the rural townships. The town's front door glass ranges from heritage panels in the Broadway core to builder-grade inserts in newer subdivisions. LuminaSky replaces both without swapping the door.",
     uniqueContent:
@@ -449,7 +449,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Front Door Glass Replacement in Georgetown",
     metaDescription:
-      "Front door glass replacement in Georgetown and Halton Hills. Decorative, frosted, clear and privacy inserts. 5-Year Warranty. 437-344-8490.",
+      "Front door glass replacement in Georgetown and Halton Hills. Decorative, frosted, clear and privacy inserts. 2-year parts and labour warranty.",
     intro:
       "Georgetown and Acton form the core of Halton Hills, with a mix of historic village homes and newer subdivision builds. The front door glass across these communities ranges from century-home panels to modern factory inserts. LuminaSky replaces all of them on-site.",
     uniqueContent:
@@ -466,7 +466,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Front Door Glass Replacement in Barrie",
     metaDescription:
-      "Front door glass replacement in Barrie. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Barrie. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Barrie's housing boom over the past two decades has produced subdivisions stretching from the south end near Highway 400 to the growing communities in the northeast. The front door glass in these homes is builder-grade, and it is now reaching the age where seals fail. LuminaSky replaces the glass on-site.",
     uniqueContent:
@@ -483,7 +483,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Front Door Glass Replacement in Innisfil",
     metaDescription:
-      "Front door glass replacement in Innisfil. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Innisfil. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Innisfil has grown from a rural township to a fast-developing residential community. The homes along the Alcona waterfront and in the newer subdivisions around the Friday Harbour area have front door glass that LuminaSky replaces without swapping the door.",
     uniqueContent:
@@ -500,7 +500,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Front Door Glass Replacement in Stouffville",
     metaDescription:
-      "Front door glass replacement in Stouffville. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Stouffville. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Stouffville has grown from a small village into a substantial residential community over the past 15 years. The homes in its newer subdivisions have builder-grade entry doors with glass inserts that are now starting to fog and crack. LuminaSky replaces the glass without touching the door.",
     uniqueContent:
@@ -517,7 +517,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Front Door Glass in East Gwillimbury",
     metaDescription:
-      "Front door glass replacement in East Gwillimbury. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in East Gwillimbury. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "East Gwillimbury's communities of Holland Landing, Sharon, and Queensville are growing steadily. The newer homes have builder-grade entry door glass that will need replacing within the next decade, and the older village homes already do. LuminaSky handles both.",
     uniqueContent:
@@ -534,7 +534,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Front Door Glass Replacement in Keswick",
     metaDescription:
-      "Front door glass replacement in Keswick and Georgina. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Keswick and Georgina. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Georgina's communities along the south shore of Lake Simcoe, including Keswick, Sutton, and Jackson's Point, have a mix of year-round homes and former cottages that have been converted to permanent residences. The front door glass in both styles eventually needs replacement, and LuminaSky handles it on-site.",
     uniqueContent:
@@ -551,7 +551,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Front Door Glass Replacement in Bradford",
     metaDescription:
-      "Front door glass replacement in Bradford. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Bradford. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Bradford has expanded rapidly from its village core into a growing suburban community. The newer homes lining the streets around County Road 88 and Professor Day Drive have builder-grade entry doors with glass inserts now entering their replacement window. LuminaSky replaces the glass on-site.",
     uniqueContent:
@@ -568,7 +568,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Front Door Glass Replacement in Bowmanville",
     metaDescription:
-      "Front door glass replacement in Bowmanville and Clarington. Decorative, frosted, clear and privacy inserts. 5-Year Warranty. 437-344-8490.",
+      "Front door glass replacement in Bowmanville and Clarington. Decorative, frosted, clear and privacy inserts. 2-year parts and labour warranty.",
     intro:
       "Clarington's communities of Bowmanville, Courtice, and Newcastle have grown substantially over the past two decades. The front door glass in these homes is builder-grade and now entering the age where seals fail and styles feel dated. LuminaSky replaces the glass without replacing the door.",
     uniqueContent:
@@ -585,7 +585,7 @@ export const FRONT_DOOR_GLASS_CITY_PAGES: FrontDoorGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Front Door Glass Replacement in Uxbridge",
     metaDescription:
-      "Front door glass replacement in Uxbridge. Decorative, frosted, clear and privacy glass inserts for entry doors. 5-Year Warranty. Call 437-344-8490.",
+      "Front door glass replacement in Uxbridge. Decorative, frosted, clear and privacy glass inserts for entry doors. 2-year parts and labour warranty.",
     intro:
       "Uxbridge's small-town character includes a historic downtown, established residential streets, and newer subdivisions on the town's edges. The front door glass in these homes ranges from heritage panels on Brock Street to standard builder inserts in newer areas. LuminaSky replaces all of them on-site.",
     uniqueContent:

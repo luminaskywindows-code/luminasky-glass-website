@@ -216,7 +216,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 flex flex-col sm:flex-row items-center justify-center gap-2 text-sm text-blue-200">
           <Link href="/warranty" className="flex items-center gap-2 hover:text-white transition-colors">
             <Shield className="w-4 h-4 text-accent-light shrink-0" aria-hidden="true" />
-            <span>5-Year Warranty against seal failure on sealed glass units</span>
+            <span>2 Years Parts & Labour, Up to 5 Years on Glass</span>
           </Link>
         </div>
       </div>

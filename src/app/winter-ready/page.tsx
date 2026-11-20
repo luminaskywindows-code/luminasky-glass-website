@@ -40,12 +40,12 @@ export const metadata: Metadata = {
   title:
     "Winter Ready Window Check",
   description:
-    "Fogged glass, drafts or a window that won't close? Book a Winter Ready Inspection across the GTA. Credited toward your repair. Call 437-344-8490.",
+    "Fogged glass, drafts or a window that won't close? Book a Winter Ready Inspection across the GTA. Credited toward your repair.",
   alternates: { canonical: "/winter-ready" },
   openGraph: {
     title: "Winter Ready Window Check",
     description:
-      "Fogged glass, drafts or a window that won't close? Book a Winter Ready Inspection across the GTA. Credited toward your repair. Call 437-344-8490.",
+      "Fogged glass, drafts or a window that won't close? Book a Winter Ready Inspection across the GTA. Credited toward your repair.",
     url: "/winter-ready",
   },
 };

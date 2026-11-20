@@ -24,7 +24,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Toronto",
     metaTitle: "Window Crank Repair in Toronto",
     metaDescription:
-      "Window crank repair in Toronto. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Toronto. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Casement and awning windows are everywhere in Toronto. They tilt out for ventilation, seal tight when closed, and look clean from the curb. But the crank mechanism inside has a limited lifespan. When the gears strip or the handle snaps, the window is stuck. LuminaSky replaces the operator on-site, usually in a single visit.",
     uniqueContent:
@@ -41,7 +41,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Window Crank Repair in Mississauga",
     metaDescription:
-      "Window crank repair in Mississauga. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Mississauga. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Mississauga's suburban homes from the 1980s through the 2000s are full of casement and awning windows with crank operators. After 20 to 30 years of daily use, those operators wear out. The gears strip, the handle breaks, or the arm disconnects. LuminaSky replaces the mechanism without touching the window frame.",
     uniqueContent:
@@ -58,7 +58,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "York Region",
     metaTitle: "Window Crank Repair in Vaughan",
     metaDescription:
-      "Window crank repair in Vaughan. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Vaughan. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Vaughan's newer homes in Vellore Village and Kleinburg use casement windows almost exclusively on the main and upper floors. The crank operators in these windows are good for 15 to 20 years before the gears give out. LuminaSky replaces them without removing the window from the wall.",
     uniqueContent:
@@ -75,7 +75,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "York Region",
     metaTitle: "Window Crank Repair in Thornhill",
     metaDescription:
-      "Window crank repair in Thornhill. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Thornhill. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Thornhill homes built from the 1980s onward are stocked with casement and awning windows whose crank operators have a finite life. When the handle spins without moving the window, or snaps off entirely, LuminaSky replaces the mechanism on-site.",
     uniqueContent:
@@ -92,7 +92,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "York Region",
     metaTitle: "Window Crank Repair in Richmond Hill",
     metaDescription:
-      "Window crank repair in Richmond Hill. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Richmond Hill. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Richmond Hill homes, especially in the Oak Ridges and Bayview corridor areas, rely heavily on casement windows for ventilation. The crank operators in these windows last about 15 to 20 years before the gears wear out. LuminaSky replaces the mechanism without removing the window.",
     uniqueContent:
@@ -109,7 +109,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "York Region",
     metaTitle: "Window Crank Repair in Markham",
     metaDescription:
-      "Window crank repair in Markham. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Markham. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Markham's subdivisions from Cornell to Berczy Village are packed with vinyl casement windows that are now 10 to 20 years old. The crank operators in these windows are reaching the end of their useful life. LuminaSky replaces them on-site, keeping the window frame and glass untouched.",
     uniqueContent:
@@ -126,7 +126,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Window Crank Repair in Brampton",
     metaDescription:
-      "Window crank repair in Brampton. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Brampton. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Brampton's rapid expansion over the past two decades means thousands of casement windows installed in the same era are now failing at the same time. The crank handle spins, the window stays put. LuminaSky replaces the operator on-site and gets the window working again.",
     uniqueContent:
@@ -143,7 +143,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Window Crank Repair in Oakville",
     metaDescription:
-      "Window crank repair in Oakville. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Oakville. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Oakville homes along Lakeshore and through Glen Abbey use casement windows that give clean sight lines and good ventilation. The crank operators behind them do not last forever. LuminaSky replaces worn and broken operators without removing the window.",
     uniqueContent:
@@ -160,7 +160,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Window Crank Repair in Burlington",
     metaDescription:
-      "Window crank repair in Burlington. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Burlington. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Burlington's residential stretch from the lakeshore up to the escarpment is full of casement and awning windows. The crank mechanisms that drive them wear out after 15 to 25 years. LuminaSky replaces the operator and gets the window turning again.",
     uniqueContent:
@@ -177,7 +177,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Hamilton",
     metaTitle: "Window Crank Repair in Hamilton",
     metaDescription:
-      "Window crank repair in Hamilton. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Hamilton. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Hamilton's housing stretches from pre-war homes in the lower city to newer subdivisions on the Mountain. Casement and awning windows across the city rely on crank operators that eventually wear out. LuminaSky replaces them without removing the window.",
     uniqueContent:
@@ -194,7 +194,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Toronto",
     metaTitle: "Window Crank Repair in North York",
     metaDescription:
-      "Window crank repair in North York. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in North York. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "North York is a patchwork of 1960s bungalows in Willowdale, high-rise condos along Yonge, and newer homes in Downsview Park. Casement and awning windows across all of them use crank operators that wear out with time. LuminaSky replaces them on-site.",
     uniqueContent:
@@ -211,7 +211,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Toronto",
     metaTitle: "Window Crank Repair in Etobicoke",
     metaDescription:
-      "Window crank repair in Etobicoke. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Etobicoke. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Etobicoke's established neighbourhoods from the Kingsway to Islington Village and out to Rexdale are lined with homes that use casement and awning windows. The crank operators in these windows do not last forever. LuminaSky replaces worn and broken mechanisms without removing the window.",
     uniqueContent:
@@ -228,7 +228,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Toronto",
     metaTitle: "Window Crank Repair in Scarborough",
     metaDescription:
-      "Window crank repair in Scarborough. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Scarborough. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Scarborough's sprawling residential areas from the Bluffs to Agincourt are home to decades of casement and awning windows. The crank operators behind them wear out with age. LuminaSky replaces the mechanism on-site, and most window hardware repairs are completed on the same day, on the first visit.",
     uniqueContent:
@@ -245,7 +245,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "York Region",
     metaTitle: "Window Crank Repair in Aurora",
     metaDescription:
-      "Window crank repair in Aurora. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Aurora. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Aurora's established neighbourhoods and newer subdivisions alike rely on casement windows for ventilation and curb appeal. The crank operators that drive them have a limited lifespan. LuminaSky replaces worn operators on-site, and most window hardware repairs are completed on the same day, on the first visit.",
     uniqueContent:
@@ -262,7 +262,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Window Crank Repair in Woodbridge",
     metaDescription:
-      "Window crank repair in Woodbridge. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Woodbridge. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Woodbridge homes are known for their custom builds and oversized windows. Many of those windows are casements with crank operators that carry heavier sashes than standard models. When the gears wear out, LuminaSky replaces the mechanism on-site.",
     uniqueContent:
@@ -279,7 +279,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Window Crank Repair in Maple",
     metaDescription:
-      "Window crank repair in Maple. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Maple. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Maple's rapid residential growth over the past 15 years means a large number of casement windows were installed in a short period. Those crank operators are now starting to fail in waves. LuminaSky replaces the mechanism and gets the window working again.",
     uniqueContent:
@@ -296,7 +296,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "York Region",
     metaTitle: "Window Crank Repair in King City",
     metaDescription:
-      "Window crank repair in King City. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in King City. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "King City and the surrounding King Township are home to estate properties and custom-built homes that frequently use casement windows. The crank operators in these windows wear out over time, and LuminaSky replaces them on-site.",
     uniqueContent:
@@ -313,7 +313,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "York Region",
     metaTitle: "Window Crank Repair in Newmarket",
     metaDescription:
-      "Window crank repair in Newmarket. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Newmarket. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Newmarket's mix of established homes near Main Street and newer developments along Davis Drive means a wide range of casement window ages and operator types. LuminaSky handles them all, replacing worn crank mechanisms on-site.",
     uniqueContent:
@@ -330,7 +330,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Window Crank Repair in Milton",
     metaDescription:
-      "Window crank repair in Milton. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Milton. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Milton grew fast in the 2000s and 2010s, and most of those new homes came with casement windows. The crank operators in these windows are now starting to fail. LuminaSky replaces them without removing the window from the frame.",
     uniqueContent:
@@ -347,7 +347,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window Crank Repair in Ajax",
     metaDescription:
-      "Window crank repair in Ajax. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Ajax. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Ajax's residential growth from the 1990s through the 2010s brought thousands of casement windows into the community. The crank mechanisms inside them are now reaching the end of their useful life. LuminaSky replaces worn operators on-site.",
     uniqueContent:
@@ -364,7 +364,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window Crank Repair in Pickering",
     metaDescription:
-      "Window crank repair in Pickering. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Pickering. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Pickering homes across the city, from the older neighbourhoods near the village core to the newer builds in Seaton and Duffin Heights, rely on casement windows with crank operators. LuminaSky replaces worn mechanisms on-site.",
     uniqueContent:
@@ -381,7 +381,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Window Crank Repair in Caledon",
     metaDescription:
-      "Window crank repair in Caledon. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Caledon. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Caledon's rural estates and the growing subdivisions in Bolton use casement windows that rely on crank operators. When the mechanism wears out, LuminaSky comes to you and replaces it on-site.",
     uniqueContent:
@@ -398,7 +398,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window Crank Repair in Whitby",
     metaDescription:
-      "Window crank repair in Whitby. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Whitby. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Whitby's steady residential growth means casement windows of all ages are in service across the town. The crank operators inside them wear out with time. LuminaSky replaces worn mechanisms on-site, usually in a single visit.",
     uniqueContent:
@@ -415,7 +415,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Dufferin County",
     metaTitle: "Window Crank Repair in Orangeville",
     metaDescription:
-      "Window crank repair in Orangeville. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Orangeville. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Orangeville homes from the 1970s through the 2010s use casement and awning windows with crank operators that wear out over time. LuminaSky travels to Orangeville for crank repairs and gets the job done on-site.",
     uniqueContent:
@@ -432,7 +432,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window Crank Repair in Oshawa",
     metaDescription:
-      "Window crank repair in Oshawa. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Oshawa. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Oshawa's residential areas from the older south-end neighbourhoods to the newer north-end subdivisions are filled with casement and awning windows whose crank operators wear out. LuminaSky replaces them on-site.",
     uniqueContent:
@@ -449,7 +449,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Window Crank Repair in Halton Hills",
     metaDescription:
-      "Window crank repair in Halton Hills and Georgetown. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Halton Hills and Georgetown. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Halton Hills, including Georgetown and Acton, has a range of housing from heritage properties to newer subdivisions. Casement windows across the community rely on crank operators that eventually need replacing. LuminaSky handles the swap on-site.",
     uniqueContent:
@@ -466,7 +466,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Window Crank Repair in Barrie",
     metaDescription:
-      "Window crank repair in Barrie. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Barrie. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Barrie's waterfront homes and its expanding south-end subdivisions all use casement and awning windows with crank operators. When the mechanism wears out, LuminaSky replaces it on-site.",
     uniqueContent:
@@ -483,7 +483,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Window Crank Repair in Innisfil",
     metaDescription:
-      "Window crank repair in Innisfil. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Innisfil. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Innisfil's growing residential areas, from the waterfront communities on Lake Simcoe to the newer subdivisions near the GO station, use casement windows with crank operators that wear out with age. LuminaSky replaces them on-site.",
     uniqueContent:
@@ -500,7 +500,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "York Region",
     metaTitle: "Window Crank Repair in Stouffville",
     metaDescription:
-      "Window crank repair in Stouffville. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Stouffville. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Stouffville's blend of older village homes and newer suburban developments means casement windows of all ages are in service. The crank operators inside them wear out with time. LuminaSky replaces them on-site.",
     uniqueContent:
@@ -517,7 +517,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "York Region",
     metaTitle: "Window Crank Repair in East Gwillimbury",
     metaDescription:
-      "Window crank repair in East Gwillimbury. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in East Gwillimbury. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "East Gwillimbury, including Holland Landing and Sharon, has seen steady residential growth. The casement windows in these homes use crank operators that wear out over time. LuminaSky replaces them on-site.",
     uniqueContent:
@@ -534,7 +534,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "York Region",
     metaTitle: "Window Crank Repair in Georgina",
     metaDescription:
-      "Window crank repair in Georgina and Keswick. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Georgina and Keswick. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Georgina, including Keswick, Sutton, and Jackson's Point, has a mix of year-round homes and converted cottages that use casement windows. The crank operators wear out with age. LuminaSky replaces them on-site.",
     uniqueContent:
@@ -551,7 +551,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Window Crank Repair in Bradford",
     metaDescription:
-      "Window crank repair in Bradford. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Bradford. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Bradford's expanding residential areas are filled with casement and awning windows that use crank operators. When the mechanism wears out, LuminaSky replaces it on-site, and most repairs are done in a single visit.",
     uniqueContent:
@@ -568,7 +568,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window Crank Repair in Clarington",
     metaDescription:
-      "Window crank repair in Clarington and Bowmanville. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Clarington and Bowmanville. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Clarington, including Bowmanville, Courtice, and Newcastle, has a growing number of homes with casement windows whose crank operators are reaching the end of their service life. LuminaSky replaces them on-site.",
     uniqueContent:
@@ -585,7 +585,7 @@ export const CRANKS_CITY_PAGES: CranksCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Window Crank Repair in Uxbridge",
     metaDescription:
-      "Window crank repair in Uxbridge. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back. Call 437-344-8490.",
+      "Window crank repair in Uxbridge. Casement and awning operator replacement. 1-Year Warranty. $30 visit credited back.",
     intro:
       "Uxbridge's small-town residential areas and surrounding rural properties use casement and awning windows with crank operators that wear out over time. LuminaSky replaces the mechanism on-site.",
     uniqueContent:

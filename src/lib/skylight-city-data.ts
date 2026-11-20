@@ -24,7 +24,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Toronto",
     metaTitle: "Skylight Repair Toronto | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Toronto. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Toronto. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Toronto's freeze-thaw cycles put skylights through more stress than most homeowners realize. Ice dams, UV-baked sealant, and decades of thermal expansion crack seals and flashing across every neighbourhood. We repair leaking skylights, replace fogged or cracked glass units, fix flashing and re-seal frames across Toronto, from older homes in the Annex and Riverdale to newer builds in Liberty Village and the waterfront condos.",
     uniqueContent:
@@ -92,7 +92,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "York Region",
     metaTitle: "Skylight Repair Richmond Hill | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Richmond Hill. Leak repair, fogged glass replacement, flashing, seal replacement and 24/7 emergency service. Call 437-344-8490.",
+      "Skylight repair in Richmond Hill. Leak repair, fogged glass replacement, flashing, seal replacement and 24/7 emergency service.",
     intro:
       "Richmond Hill has a solid mix of 1980s, 1990s and 2000s homes, many with skylights that are now reaching the end of their seal life. From Elgin Mills down to Highway 7, and from Bayview west to Bathurst, we repair leaking and fogged skylights across the city. Emergency tarp-up service is available 24/7 for active leaks.",
     uniqueContent:
@@ -126,7 +126,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Skylight Repair Brampton | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Brampton. Leak repair, fogged glass replacement, flashing and seal repair. Emergency skylight service available 24/7. 5-year warranty.",
+      "Skylight repair in Brampton. Leak repair, fogged glass replacement, flashing and seal repair. Emergency skylight service available 24/7. 2-year parts and labour warranty.",
     intro:
       "Brampton's rapid growth over the past two decades means a lot of homes have skylights installed during the 2000s and 2010s that are now showing their first signs of seal failure. We also see plenty of 1990s homes in the Bramalea and Heart Lake areas where the skylights are well past their expected seal life. We repair leaks, replace glass, fix flashing and re-seal frames across all of Brampton.",
     uniqueContent:
@@ -194,7 +194,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Skylight Repair Burlington | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Burlington. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Burlington. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Burlington sits between the Niagara Escarpment and Lake Ontario, and that geography creates specific challenges for skylights. Escarpment-facing homes in Tyandaga and the upper parts of the city deal with heavy wind exposure, while lakeside homes in Roseland and the downtown core get wind-driven rain and salt air. We repair leaking skylights, replace fogged or cracked glass units, fix flashing and re-seal frames across all of Burlington.",
     uniqueContent:
@@ -211,7 +211,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Toronto",
     metaTitle: "Skylight Repair Etobicoke | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Etobicoke. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Etobicoke. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Etobicoke has some of Toronto's most established residential neighbourhoods, and many homes from the 1950s through the 1980s have skylights that were either original or added during renovations decades ago. From The Kingsway and Sunnylea to the lakeshore communities of Mimico and Long Branch, we repair leaking skylights, replace fogged glass units, fix flashing and re-seal frames across all of Etobicoke.",
     uniqueContent:
@@ -228,7 +228,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Toronto",
     metaTitle: "Skylight Repair Scarborough | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Scarborough. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Scarborough. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Scarborough's housing stock spans post-war bungalows in Birch Cliff and Guildwood, 1970s and 1980s side-splits in Bendale and Woburn, and newer builds in Rouge and Highland Creek. Many of these homes have skylights that were installed during original construction or added in renovations, and after decades of Toronto weather, the seals and flashing need attention. We repair leaking skylights, replace fogged glass, fix flashing and re-seal frames across all of Scarborough.",
     uniqueContent:
@@ -245,7 +245,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "York Region",
     metaTitle: "Skylight Repair Aurora | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Aurora. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Aurora. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Aurora grew steadily through the 1990s and 2000s, and many of those homes came with standard kitchen and bathroom skylights that are now reaching the age where seals fail and glass fogs. The older homes near Yonge Street and Wellington have skylights that are even further along. We repair leaking skylights, replace fogged or cracked glass units, fix flashing and re-seal frames across all of Aurora.",
     uniqueContent:
@@ -262,7 +262,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Skylight Repair Woodbridge | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Woodbridge. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Woodbridge. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Woodbridge is one of Vaughan's most established communities, with housing that ranges from custom estate homes along Islington Avenue to family subdivisions in Sonoma Heights and Vellore Village. Many of these homes have skylights that are 20-35 years old, and after decades of freeze-thaw cycles, the seals and flashing are showing their age. We repair leaking skylights, replace fogged glass units, fix flashing and re-seal frames across all of Woodbridge.",
     uniqueContent:
@@ -279,7 +279,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Skylight Repair Maple | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Maple. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Maple. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Maple grew quickly through the late 1990s and 2000s, and the subdivisions north of Major Mackenzie are packed with homes that came with standard skylights from the builder. Those skylights are now 15-25 years old, and the seals are starting to fail. We repair leaking skylights, replace fogged glass, fix flashing and handle venting hardware across all of Maple.",
     uniqueContent:
@@ -296,7 +296,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "York Region",
     metaTitle: "Skylight Repair King City | Leaks & Glass",
     metaDescription:
-      "Skylight repair in King City. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in King City. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "King City and the Township of King are known for large-lot estates, horse properties, and rural acreages with custom-built homes. Many of these properties have oversized skylights, glass towers and architectural glass features that need specialized attention when seals fail or flashing deteriorates. We repair leaking skylights, replace fogged glass, fix flashing and re-seal frames across King City, Nobleton and the surrounding area.",
     uniqueContent:
@@ -313,7 +313,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "York Region",
     metaTitle: "Skylight Repair Newmarket | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Newmarket. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Newmarket. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Newmarket has a broad mix of housing, from heritage homes along Main Street and Bogart to the production subdivisions in Stonehaven, Summerhill Estates and Glenway. Skylights in Newmarket homes from the 1990s and 2000s are now hitting the age where seals break down and condensation appears between the panes. We repair leaking skylights, replace fogged glass, fix flashing and handle hardware across all of Newmarket.",
     uniqueContent:
@@ -330,7 +330,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Skylight Repair Milton | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Milton. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Milton. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Milton has grown rapidly over the past two decades, and the subdivisions that went up during the 2000s and 2010s are now seeing their first round of skylight seal failures. The older parts of Milton near Main Street and the escarpment have homes with skylights that are even further along. We repair leaking skylights, replace fogged glass units, fix flashing and re-seal frames across all of Milton.",
     uniqueContent:
@@ -338,7 +338,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     neighborhoods: getNeighborhoods("milton"),
     citySpecificFaq: {
       q: "My Milton home is only 12 years old. Why is the skylight already fogging?",
-      a: "South-facing skylights absorb more UV and heat than any other glass in the house. In Milton's newer subdivisions, we regularly see skylights fail at 10-15 years on south-facing roofs. The seal breaks down, moisture enters between the panes, and the glass fogs. We replace the sealed unit with a new one that carries a 5-year warranty.",
+      a: "South-facing skylights absorb more UV and heat than any other glass in the house. In Milton's newer subdivisions, we regularly see skylights fail at 10-15 years on south-facing roofs. The seal breaks down, moisture enters between the panes, and the glass fogs. We replace the sealed unit with a new one covered for 2 years parts and labour, then up to 5 years on the glass.",
     },
   },
   {
@@ -347,7 +347,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Skylight Repair Ajax | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Ajax. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Ajax. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Ajax stretches from the Lake Ontario waterfront up through established neighbourhoods and newer subdivisions in the north end. Homes across Applecroft, Central Ajax, Duffin Heights and Pickering Beach all have skylights dealing with Durham Region weather, from lake-effect moisture to freeze-thaw cycles. We repair leaking skylights, replace fogged glass units, fix flashing and re-seal frames across all of Ajax.",
     uniqueContent:
@@ -364,7 +364,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Skylight Repair Pickering | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Pickering. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Pickering. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Pickering homes from the 1970s through the 2010s carry skylights in various stages of life. The older units in Bay Ridges and Pickering Village are well past their expected seal life, while newer installations in Seaton and Duffin Heights are just beginning to show wear. LuminaSky repairs leaking skylights, replaces fogged glass, fixes flashing and re-seals frames across Pickering.",
     uniqueContent:
@@ -381,7 +381,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Skylight Repair Whitby | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Whitby. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Whitby. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Whitby's steady residential growth means skylights of all ages are installed across town. From the older homes near downtown to the newer subdivisions along Taunton Road, LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames throughout Whitby.",
     uniqueContent:
@@ -398,7 +398,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Skylight Repair Oshawa | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Oshawa. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Oshawa. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Oshawa homes from the south-end waterfront neighbourhoods to the north-end subdivisions carry skylights in various condition. The older units near Simcoe Street are long overdue for service, while newer installations along Taunton and Conlin are starting to show wear. LuminaSky repairs leaks, replaces glass, and fixes flashing across Oshawa.",
     uniqueContent:
@@ -415,7 +415,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Skylight Repair Barrie | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Barrie. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Barrie. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Barrie's waterfront homes and south-end subdivisions both carry skylights exposed to Lake Simcoe winds and heavy Simcoe County snowfall. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals frames across Barrie.",
     uniqueContent:
@@ -432,7 +432,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "York Region",
     metaTitle: "Skylight Repair Stouffville | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Stouffville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Stouffville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Stouffville's blend of village homes and newer suburban developments means skylights of various ages are installed across the community. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames throughout Stouffville.",
     uniqueContent:
@@ -449,7 +449,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Skylight Repair Bradford | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Bradford. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Bradford. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Bradford's mix of established homes and newer developments includes skylights at various stages of their lifespan. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across Bradford and the surrounding area.",
     uniqueContent:
@@ -466,7 +466,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Skylight Repair Caledon | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Caledon. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Caledon. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Caledon homes range from rural properties with large skylights to newer subdivision builds in Bolton and Southfields Village. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across all of Caledon.",
     uniqueContent:
@@ -483,7 +483,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Skylight Repair Clarington | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Clarington and Bowmanville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Clarington and Bowmanville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Clarington, including Bowmanville, Courtice, and Newcastle, has a growing housing stock with skylights at various stages of wear. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across all Clarington communities.",
     uniqueContent:
@@ -500,7 +500,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "York Region",
     metaTitle: "Skylight Repair East Gwillimbury",
     metaDescription:
-      "Skylight repair in East Gwillimbury. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in East Gwillimbury. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "East Gwillimbury, including Holland Landing and Sharon, is growing rapidly with new residential development alongside established homes. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across the community.",
     uniqueContent:
@@ -517,7 +517,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "York Region",
     metaTitle: "Skylight Repair Georgina | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Georgina and Keswick. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Georgina and Keswick. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Georgina, including Keswick and Sutton, has homes with skylights that face Lake Simcoe's moisture and York Region's cold winters. Those conditions accelerate seal and flashing wear. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across Georgina.",
     uniqueContent:
@@ -534,7 +534,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Skylight Repair Halton Hills | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Halton Hills and Georgetown. Leak repair, glass replacement, flashing and seals. 24/7 emergency. 5-year warranty.",
+      "Skylight repair in Halton Hills and Georgetown. Leak repair, glass replacement, flashing and seals. 24/7 emergency. 2-year parts and labour warranty.",
     intro:
       "Halton Hills, including Georgetown and Acton, has a solid base of 1990s and 2000s homes with skylights now entering the service window. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across both communities.",
     uniqueContent:
@@ -551,7 +551,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Skylight Repair Innisfil | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Innisfil. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Innisfil. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Innisfil has grown quickly in recent years, with new homes in Alcona and the Friday Harbour area joining the existing housing stock around Stroud and Lefroy. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across all of Innisfil.",
     uniqueContent:
@@ -568,7 +568,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Dufferin County",
     metaTitle: "Skylight Repair Orangeville | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Orangeville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Orangeville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Orangeville homes sit at a higher elevation on the Niagara Escarpment, where colder winters and heavier snow loads put extra stress on skylight seals and flashing. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across Orangeville.",
     uniqueContent:
@@ -585,7 +585,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Skylight Repair Uxbridge | Leaks, Glass & Seals",
     metaDescription:
-      "Skylight repair in Uxbridge. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 5-year warranty on sealed glass.",
+      "Skylight repair in Uxbridge. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
     intro:
       "Uxbridge has a mix of older homes in the town centre and newer builds on the outskirts, many with skylights that add natural light to kitchens, bathrooms, and stairwells. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across Uxbridge.",
     uniqueContent:

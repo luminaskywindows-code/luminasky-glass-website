@@ -59,7 +59,7 @@ const FAQS = [
 export const metadata: Metadata = {
   title: "Patio Door Repair Toronto | Glass, Rollers & Tracks",
   description:
-    "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust panels and replace glass. No new door needed. 437-344-8490.",
+    "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust panels and replace glass. No new door needed.",
   alternates: { canonical: "/patio-door-repair" },
   openGraph: {
     title: "Patio Door Repair Toronto | Glass & Rollers | LuminaSky",
@@ -143,7 +143,7 @@ export default function PatioDoorRepairPage() {
             </div>
             <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
               <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-              5-Year Warranty on sealed glass
+              2-Year Parts & Labour Warranty on Glass
             </Link>
           </div>
         </div>
@@ -210,7 +210,7 @@ export default function PatioDoorRepairPage() {
             Patio Door Glass Replacement
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Building code requires tempered safety glass in patio doors. We measure the panel, have a new tempered sealed unit made (5-15 business days, depending on glass type and size), and install it in your existing panel. You can upgrade to Low-E or argon-filled glass at the same time. Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs come with 1 year on parts and labour.
+            Building code requires tempered safety glass in patio doors. We measure the panel, have a new tempered sealed unit made (5-15 business days, depending on glass type and size), and install it in your existing panel. You can upgrade to Low-E or argon-filled glass at the same time. Sealed glass units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself. Hardware repairs come with 1 year on parts and labour.
           </p>
         </div>
       </section>
@@ -409,8 +409,8 @@ export default function PatioDoorRepairPage() {
                   You&apos;re covered.
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Sealed glass units come with a 5-year warranty against seal
-                  failure and 2 years on workmanship. Hardware repairs come with
+                  Sealed glass units come with 2 years parts and labour against
+                  seal failure, then up to 5 years on the glass unit itself. Hardware repairs come with
                   1 year on parts and labour.
                 </p>
               </div>

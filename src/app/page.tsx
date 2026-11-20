@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     absolute: "Window and Glass Repair Toronto: Fix, Don't Replace | LuminaSky",
   },
   description:
-    "Window and glass repair in Toronto. We fix foggy glass, door glass, cranks and screens without replacing the whole window. Written quote on the spot.",
+    "Foggy glass, broken panes, stuck cranks. We repair first and give a written price on the spot. $30 visit, credited if you go ahead.",
   alternates: { canonical: "/" },
 };
 

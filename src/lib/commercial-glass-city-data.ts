@@ -92,7 +92,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Commercial Glass Repair Brampton",
     metaDescription:
-      "Commercial glass repair in Brampton. Storefront windows, door glass, plaza glass and emergency board-up. 5-year warranty. Call 437-344-8490.",
+      "Commercial glass repair in Brampton. Storefront windows, door glass, plaza glass and emergency board-up. 2-year parts and labour warranty.",
     intro:
       "Brampton's commercial plazas are spread across the city, from Queen Street and Main Street in the core to newer retail along Bovaird, Williams Parkway and Countryside Drive. Break-ins, vandalism and accidental damage keep us busy with storefront and door glass replacements. We board up broken glass on an emergency basis and replace it as soon as the new pane is ready.",
     uniqueContent:
@@ -160,7 +160,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Commercial Glass Repair Scarborough",
     metaDescription:
-      "Commercial glass repair in Scarborough. Storefront windows, commercial doors, office glass and 24/7 emergency board-up. 5-year glass warranty.",
+      "Commercial glass repair in Scarborough. Storefront windows, commercial doors, office glass and 24/7 emergency board-up. 2-year parts and labour warranty.",
     intro:
       "Scarborough's commercial areas along Kingston Road, Lawrence, Eglinton and in the Golden Mile have a steady need for storefront and door glass repairs. Break-ins are the most common reason, followed by accidental damage and seal failures. We board up the same day and replace the glass as soon as it's ready.",
     uniqueContent:
@@ -177,7 +177,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Toronto",
     metaTitle: "Commercial Glass Repair Etobicoke",
     metaDescription:
-      "Commercial glass repair in Etobicoke. Storefront glass, door glass, office partitions and 24/7 emergency board-up service. Call 437-344-8490.",
+      "Commercial glass repair in Etobicoke. Storefront glass, door glass, office partitions and 24/7 emergency board-up service.",
     intro:
       "Etobicoke's commercial corridors along Bloor West, The Queensway, Dundas and in the industrial areas around Dixon Road and the airport need reliable glass service. We repair and replace storefront glass, commercial door glass, office partitions and lobby glass. Emergency board-up is available around the clock.",
     uniqueContent:
@@ -245,7 +245,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Commercial Glass Repair Woodbridge",
     metaDescription:
-      "Commercial glass repair in Woodbridge. Storefront glass, door glass, plaza glass and emergency board-up service. 5-year warranty on glass.",
+      "Commercial glass repair in Woodbridge. Storefront glass, door glass, plaza glass and emergency board-up service. 2-year parts and labour warranty.",
     intro:
       "Woodbridge is one of Vaughan's busiest commercial areas, with retail plazas and restaurants concentrated along Woodbridge Avenue, Islington Avenue and Highway 7. Glass storefronts and entry doors see heavy use, and break-ins or accidental damage are common. We provide same-day board-up and fast glass replacement.",
     uniqueContent:
@@ -262,7 +262,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Commercial Glass Repair Maple",
     metaDescription:
-      "Commercial glass repair in Maple. Storefront glass, commercial doors and emergency board-up. Serving Maple and Vaughan. Call 437-344-8490.",
+      "Commercial glass repair in Maple. Storefront glass, commercial doors and emergency board-up. Serving Maple and Vaughan.",
     intro:
       "Maple's commercial areas along Major Mackenzie Drive and Keele Street include retail plazas, medical offices and restaurants that need glass service. The newer developments in Maple have standard commercial glass configurations, while some older retail strips have non-standard sizes. We handle both, with emergency board-up available 24/7.",
     uniqueContent:
@@ -279,7 +279,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Commercial Glass Repair King City | Storefronts",
     metaDescription:
-      "Commercial glass repair in King City. Storefront glass, door glass, safety glass and emergency board-up for businesses in King. Call 437-344-8490.",
+      "Commercial glass repair in King City. Storefront glass, door glass, safety glass and emergency board-up for businesses in King.",
     intro:
       "King City and the surrounding King Township have a smaller but growing commercial base along King Road and Keele Street. Professional offices, restaurants and retail shops need glass repair service, and the rural setting means response time matters. We serve King City with the same urgency as our urban service areas.",
     uniqueContent:
@@ -296,7 +296,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Commercial Glass Repair Newmarket | Storefronts",
     metaDescription:
-      "Commercial glass repair in Newmarket. Storefront windows, door glass, office glass and 24/7 emergency board-up. 5-year glass warranty included.",
+      "Commercial glass repair in Newmarket. Storefront windows, door glass, office glass and 24/7 emergency board-up. 2-year parts and labour warranty.",
     intro:
       "Newmarket's commercial areas along Davis Drive, Yonge Street and in the historic Main Street area keep a steady demand for storefront and commercial glass repairs. From the Upper Canada Mall area to the professional offices along Leslie Street, we handle all commercial glass needs with emergency board-up available around the clock.",
     uniqueContent:
@@ -313,7 +313,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Commercial Glass Repair Stouffville",
     metaDescription:
-      "Commercial glass repair in Stouffville. Storefront glass, door glass, safety glass and emergency board-up for local businesses. Call 437-344-8490.",
+      "Commercial glass repair in Stouffville. Storefront glass, door glass, safety glass and emergency board-up for local businesses.",
     intro:
       "Stouffville's Main Street and the commercial areas along Highway 48 serve the town's growing population. Local shops, restaurants and professional offices need glass repair when storefronts or doors are damaged. We provide emergency board-up and glass replacement for businesses across Stouffville.",
     uniqueContent:
@@ -347,7 +347,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Commercial Glass Repair Burlington",
     metaDescription:
-      "Commercial glass repair in Burlington. Storefront glass, door glass, office partitions and emergency board-up. 5-year warranty. Call 437-344-8490.",
+      "Commercial glass repair in Burlington. Storefront glass, door glass, office partitions and emergency board-up. 2-year parts and labour warranty.",
     intro:
       "Burlington's commercial areas along Brant Street, Fairview Street and the Appleby Line corridor have a strong mix of retail, office and restaurant space. Storefront glass and commercial door repairs are regular needs, especially after break-ins or accidental damage. We provide emergency board-up 24/7 and replace the glass as soon as the new pane is ready.",
     uniqueContent:
@@ -364,7 +364,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Commercial Glass Repair Milton",
     metaDescription:
-      "Commercial glass repair in Milton. Storefront glass, door glass, safety glass and emergency board-up. Serving all of Milton. Call 437-344-8490.",
+      "Commercial glass repair in Milton. Storefront glass, door glass, safety glass and emergency board-up. Serving all of Milton.",
     intro:
       "Milton has grown rapidly, and the commercial areas along Main Street, Ontario Street and in the newer developments around Derry Road and James Snow Parkway have a steady need for commercial glass service. We handle storefront glass, commercial door glass and emergency board-ups across the entire town.",
     uniqueContent:
@@ -381,7 +381,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Commercial Glass Repair Ajax",
     metaDescription:
-      "Commercial glass repair in Ajax. Storefront glass, commercial door glass, safety glass and emergency board-up. Available 24/7. Call 437-344-8490.",
+      "Commercial glass repair in Ajax. Storefront glass, commercial door glass, safety glass and emergency board-up. Available 24/7.",
     intro:
       "Ajax's commercial areas along Kingston Road, Harwood Avenue and Westney Road have a mix of retail plazas, restaurants and professional offices that need glass service. We handle storefront glass replacements, commercial door glass and emergency board-ups throughout the town.",
     uniqueContent:
@@ -398,7 +398,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Commercial Glass Repair Pickering | Storefronts",
     metaDescription:
-      "Commercial glass repair in Pickering. Storefront glass, door glass, office partitions and 24/7 emergency board-up. 5-year warranty on glass.",
+      "Commercial glass repair in Pickering. Storefront glass, door glass, office partitions and 24/7 emergency board-up. 2-year parts and labour warranty.",
     intro:
       "Pickering's commercial areas around Pickering Town Centre, along Kingston Road and Liverpool Road serve a growing population. Retail plazas, office buildings and restaurants all need glass service for storefronts and commercial doors. We provide emergency board-up 24/7 and replace glass as soon as the new pane is made.",
     uniqueContent:
@@ -432,7 +432,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Commercial Glass Repair Whitby",
     metaDescription:
-      "Commercial glass repair in Whitby. Storefront glass, commercial door glass, safety glass and emergency board-up across Whitby. Call 437-344-8490.",
+      "Commercial glass repair in Whitby. Storefront glass, commercial door glass, safety glass and emergency board-up across Whitby.",
     intro:
       "Whitby's commercial areas along Dundas Street, Brock Street and Thickson Road have retail plazas, office buildings and restaurants that need reliable glass service. We handle storefront glass, commercial door glass and emergency board-ups throughout the town, with same-day response for urgent situations.",
     uniqueContent:
@@ -449,7 +449,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Dufferin County",
     metaTitle: "Commercial Glass Repair Orangeville",
     metaDescription:
-      "Commercial glass repair in Orangeville. Storefront glass, door glass, safety glass and emergency board-up for local businesses. Call 437-344-8490.",
+      "Commercial glass repair in Orangeville. Storefront glass, door glass, safety glass and emergency board-up for local businesses.",
     intro:
       "Orangeville's Broadway and First Street commercial corridors serve as the commercial centre for Dufferin County. Local shops, restaurants and professional offices depend on glass storefronts and entry doors. We provide emergency board-up and glass replacement for businesses across Orangeville.",
     uniqueContent:
@@ -466,7 +466,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Commercial Glass Repair Oshawa",
     metaDescription:
-      "Commercial glass repair in Oshawa. Storefront glass, door glass, office partitions and 24/7 emergency board-up service. 5-year glass warranty.",
+      "Commercial glass repair in Oshawa. Storefront glass, door glass, office partitions and 24/7 emergency board-up service. 2-year parts and labour warranty.",
     intro:
       "Oshawa's commercial areas along King Street, Simcoe Street and in the plazas throughout the city have a steady demand for storefront and commercial glass service. Break-ins and accidental damage are the most common reasons for calls. We board up broken glass the same day and replace it as soon as the new pane is ready.",
     uniqueContent:
@@ -483,7 +483,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Commercial Glass Repair Halton Hills",
     metaDescription:
-      "Commercial glass repair in Halton Hills. Storefront glass, door glass, safety glass and board-up. Serving Georgetown and Acton. Call 437-344-8490.",
+      "Commercial glass repair in Halton Hills. Storefront glass, door glass, safety glass and board-up. Serving Georgetown and Acton.",
     intro:
       "Halton Hills' commercial areas in Georgetown and Acton serve the local community with retail shops, restaurants and professional offices. When storefront or door glass needs replacing, we provide emergency board-up and glass replacement across the municipality.",
     uniqueContent:
@@ -500,7 +500,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Commercial Glass Repair Barrie",
     metaDescription:
-      "Commercial glass repair in Barrie. Storefront glass, door glass, office partitions and emergency board-up. Available 24/7. Call 437-344-8490.",
+      "Commercial glass repair in Barrie. Storefront glass, door glass, office partitions and emergency board-up. Available 24/7.",
     intro:
       "Barrie's downtown core along Dunlop Street, the Bayfield Street corridor and the south-end commercial areas along Mapleview Drive provide a wide range of commercial glass needs. We handle storefront glass, commercial door glass, office partitions and emergency board-ups across the city.",
     uniqueContent:
@@ -534,7 +534,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Commercial Glass Repair Georgina | Storefronts",
     metaDescription:
-      "Commercial glass repair in Georgina. Storefront glass, door glass, safety glass and emergency board-up. Serving Keswick and Sutton. 5-year warranty.",
+      "Commercial glass repair in Georgina. Storefront glass, door glass, safety glass and emergency board-up. Serving Keswick and Sutton. 2-year parts and labour warranty.",
     intro:
       "Georgina's commercial areas in Keswick and Sutton serve the lakeside community with retail shops, restaurants and professional offices. When storefront or door glass breaks, fast service matters in this northern York Region town. We provide emergency board-up and glass replacement across the municipality.",
     uniqueContent:
@@ -551,7 +551,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Commercial Glass Repair Bradford | Storefronts",
     metaDescription:
-      "Commercial glass repair in Bradford. Storefront glass, door glass, safety glass and emergency board-up for local businesses. Call 437-344-8490.",
+      "Commercial glass repair in Bradford. Storefront glass, door glass, safety glass and emergency board-up for local businesses.",
     intro:
       "Bradford West Gwillimbury's commercial areas along Holland Street, Barrie Street and in the newer developments along County Road 88 serve the town's growing population. Local businesses depend on glass storefronts and entry doors, and we provide emergency board-up and glass replacement across the municipality.",
     uniqueContent:
@@ -585,7 +585,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Commercial Glass Repair Uxbridge | Storefronts",
     metaDescription:
-      "Commercial glass repair in Uxbridge. Storefront glass, door glass, safety glass and emergency board-up for local businesses. Call 437-344-8490.",
+      "Commercial glass repair in Uxbridge. Storefront glass, door glass, safety glass and emergency board-up for local businesses.",
     intro:
       "Uxbridge Township's commercial areas along Brock Street and Toronto Street serve the local community with retail shops, restaurants and professional offices. When glass breaks, fast response matters in this northern Durham Region town. We provide emergency board-up and glass replacement across the township.",
     uniqueContent:

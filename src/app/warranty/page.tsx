@@ -7,12 +7,12 @@ import { generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Warranty Coverage",
   description:
-    "5-year seal warranty on glass, 2 years on workmanship. 1-year warranty on hardware repairs. Clear terms, no fine print.",
+    "2 years parts and labour on glass, then up to 5 years on the glass itself. 1-year warranty on hardware repairs. Clear terms, no fine print.",
   alternates: { canonical: "/warranty" },
   openGraph: {
     title: "Warranty Coverage",
     description:
-      "5-year seal warranty on glass, 2 years on workmanship. 1-year warranty on hardware repairs. Clear terms, no fine print.",
+      "2 years parts and labour on glass, then up to 5 years on the glass itself. 1-year warranty on hardware repairs. Clear terms, no fine print.",
     url: "/warranty",
   },
 };
@@ -120,11 +120,11 @@ export default function WarrantyPage() {
                 Sealed Glass Units (IGUs)
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Sealed glass units come with a{" "}
+                Sealed glass units come with{" "}
                 <strong className="text-gray-900">
-                  5-year warranty against seal failure
-                </strong>{" "}
-                and 2 years on workmanship. If the seal fails in the first 2
+                  2 years parts and labour, then up to 5 years on the glass
+                </strong>
+                . If the seal fails in the first 2
                 years (fogging or condensation between the panes), we replace the
                 glass unit at no cost, parts and labour included. From year 3 to
                 year 5, the replacement glass unit is covered and labour is
@@ -140,7 +140,7 @@ export default function WarrantyPage() {
                   aria-hidden="true"
                 />
                 <p className="text-sm font-semibold text-gray-900">
-                  5 Years Against Seal Failure + 2 Years Workmanship
+                  2 Years Parts & Labour, Up to 5 Years on Glass
                 </p>
               </div>
             </div>

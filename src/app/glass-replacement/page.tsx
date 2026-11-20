@@ -78,7 +78,7 @@ const PROCESS_STEPS = [
   {
     step: "5",
     title: "You get a warranty on the invoice",
-    desc: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs come with 1 year on parts and labour.",
+    desc: "Sealed glass units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself. Hardware repairs come with 1 year on parts and labour.",
   },
 ];
 
@@ -86,7 +86,7 @@ const TRUST_POINTS = [
   "Licensed & insured in Ontario",
   "Written price before work",
   "1-year warranty on hardware repairs",
-  "5-Year Warranty on sealed glass units",
+  "2-Year Parts & Labour Warranty on Glass",
 ];
 
 const FAQS = [
@@ -112,7 +112,7 @@ const FAQS = [
   },
   {
     q: "Is the new glass under warranty?",
-    a: "Yes. Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
+    a: "Yes. Sealed glass units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
   },
 ];
 
@@ -144,14 +144,14 @@ const GLASS_PROBLEMS = [
 ];
 
 export const metadata: Metadata = {
-  title: "Glass Replacement Toronto | Broken & Cracked Windows",
+  title: "Window Glass Repair & Replacement Toronto",
   description:
-    "Cracked, broken or failed window glass? We replace the sealed unit and keep your frame. 5-year glass warranty. Serving the GTA. 437-344-8490.",
+    "Cracked, broken or foggy glass? We replace the sealed glass unit and keep your frame. Written price on the spot. 2 years parts and labour on glass.",
   alternates: { canonical: "/glass-replacement" },
   openGraph: {
-    title: "Glass Replacement Toronto | LuminaSky",
+    title: "Window Glass Repair & Replacement Toronto | LuminaSky",
     description:
-      "Cracked or broken window glass? We replace the sealed unit and keep your frame. 5-Year Warranty on glass. Photo quote. Call 437-344-8490.",
+      "Cracked, broken or foggy glass? We replace the sealed glass unit and keep your frame. Written price on the spot. 2 years parts and labour on glass.",
     url: "/glass-replacement",
   },
 };
@@ -210,7 +210,7 @@ export default function GlassReplacementPage() {
                 Broken or Cracked Window Glass Replacement in Toronto
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed mb-8">
-                <strong>Glass replacement at LuminaSky costs a fraction of full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, glass comes with a 5-year seal warranty plus 2 years on glass workmanship. Hardware repairs come with 1 year on parts and labour. We service residential and commercial properties across the GTA. See our <Link href="/glass-replacement-cost-report-2026" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">2026 GTA Cost Report</Link> for market pricing.
+                <strong>Glass replacement at LuminaSky costs a fraction of full window replacement because we keep your existing frame.</strong> We handle sealed units, decorative door glass, tempered and Low-E options, and specialty sizes. Standard turnaround is 5 to 15 days from measurement, glass comes with 2 years parts and labour, then up to 5 years on the glass. Hardware repairs come with 1 year on parts and labour. We service residential and commercial properties across the GTA. See our <Link href="/glass-replacement-cost-report-2026" className="text-accent-light font-semibold hover:text-white underline underline-offset-2">2026 GTA Cost Report</Link> for market pricing.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -238,7 +238,7 @@ export default function GlassReplacementPage() {
               </a>
               <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
                 <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-                5-Year Warranty on sealed glass
+                2-Year Parts & Labour Warranty on Glass
               </Link>
             </div>
 
@@ -390,7 +390,7 @@ export default function GlassReplacementPage() {
           </p>
           <div className="inline-flex items-center gap-2 bg-[#dcfce7] text-[#166534] font-semibold px-4 py-2.5 rounded-lg mb-4">
             <Camera className="w-4 h-4" aria-hidden="true" />
-            <span>Photo Quote: FREE <span className="font-normal text-[#166534]/80">: Send a photo, get a price</span></span>
+            <span>Send a photo for a price</span>
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

@@ -25,12 +25,12 @@ import {
 export const metadata: Metadata = {
   title: "Glass & Window Repair in Vaughan",
   description:
-    "LuminaSky serves all of Vaughan: Woodbridge, Maple, Kleinburg, Concord. Window repair, glass replacement, skylights, patio doors. 24/7 service. 5-year warranty.",
+    "LuminaSky serves all of Vaughan: Woodbridge, Maple, Kleinburg, Concord. Window repair, glass replacement, skylights, patio doors. 24/7 service. 2-year parts and labour warranty.",
   alternates: { canonical: "/vaughan" },
   openGraph: {
     title: "Glass & Window Repair in Vaughan",
     description:
-      "LuminaSky serves all of Vaughan: Woodbridge, Maple, Kleinburg, Concord. Window repair, glass replacement, skylights, patio doors. 24/7 service. 5-year warranty.",
+      "LuminaSky serves all of Vaughan: Woodbridge, Maple, Kleinburg, Concord. Window repair, glass replacement, skylights, patio doors. 24/7 service. 2-year parts and labour warranty.",
     url: "/vaughan",
   },
 };
@@ -116,7 +116,7 @@ const PROCESS_STEPS = [
   {
     icon: Wrench,
     step: "Repair and Warranty",
-    desc: "We complete the work, clean up, and hand you a warranty. Sealed glass units carry a 5-year seal warranty and 2 years on workmanship. Hardware repairs carry 1 year on parts and labour.",
+    desc: "We complete the work, clean up, and hand you a warranty. Sealed glass units carry 2 years parts and labour, then up to 5 years on the glass. Hardware repairs carry 1 year on parts and labour.",
   },
 ];
 
@@ -125,7 +125,7 @@ const TRUST_SIGNALS = [
   { icon: ShieldCheck, text: "Licensed & Insured in Ontario" },
   { icon: Clock, text: "Available 24/7" },
   { icon: FileText, text: "Written Quote on the Spot" },
-  { icon: ShieldCheck, text: "5-Year Seal Warranty" },
+  { icon: ShieldCheck, text: "2-Year Parts & Labour Warranty" },
   { icon: Star, text: "Family-Owned Since 2024" },
 ];
 
@@ -151,7 +151,7 @@ const FAQS = [
   },
   {
     q: "What warranty do you provide on glass and window repairs?",
-    a: "Sealed glass units carry a 5-year warranty against seal failure and 2 years on glass workmanship. Window hardware repairs (cranks, hinges, locks) carry 1 year on parts and labour. All warranties exclude vandalism, impact damage and physical breakage.",
+    a: "Sealed glass units carry 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself. Window hardware repairs (cranks, hinges, locks) carry 1 year on parts and labour. All warranties exclude vandalism, impact damage and physical breakage.",
   },
   {
     q: "How do I get a quote for window or glass repair in Vaughan?",
@@ -213,7 +213,7 @@ export default function VaughanHubPage() {
             className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2"
           >
             <ShieldCheck className="w-4 h-4" aria-hidden="true" />
-            <span>5-Year Seal Warranty + 2-Year Glass Workmanship</span>
+            <span>2 Years Parts & Labour, Up to 5 Years on Glass</span>
           </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">

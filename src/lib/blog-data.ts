@@ -472,7 +472,7 @@ export const BLOG_POSTS: BlogPost[] = [
   <li><strong>We measure the existing unit.</strong> A technician visits your home, removes the glazing stops, and measures the exact thickness, width, and height of the sealed unit. We also note the glass type and spacer configuration.</li>
   <li><strong>Your new unit is custom-made.</strong> Every sealed unit is made to order. Production takes 5 to 15 business days depending on the glass type and size.</li>
   <li><strong>We install the new unit.</strong> The old glass comes out, the new unit goes in, and the glazing stops are reinstalled. The whole process takes about 20 to 30 minutes per window.</li>
-  <li><strong>Your window is clear again.</strong> No more fog, full insulating performance restored, and a 5-year seal warranty on the new unit.</li>
+  <li><strong>Your window is clear again.</strong> No more fog, full insulating performance restored, and 2 years parts and labour on the new unit, then up to 5 years on the glass.</li>
 </ol>
 
 <p>For more on how the process works from start to finish, see our <a href="/our-process">service process page</a>.</p>
@@ -519,7 +519,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h3>Does the warranty on my original windows cover seal failure?</h3>
 
-<p>Many window manufacturers offer a 15- or 20-year seal warranty. Check your paperwork or contact the manufacturer. If the warranty is still active, you may get a replacement sealed unit at no cost (though you may still need to pay for installation). If the warranty has expired or you cannot find your paperwork, we provide a new sealed unit with our own <a href="/warranty">5-year seal warranty</a>.</p>
+<p>Many window manufacturers offer a 15- or 20-year seal warranty. Check your paperwork or contact the manufacturer. If the warranty is still active, you may get a replacement sealed unit at no cost (though you may still need to pay for installation). If the warranty has expired or you cannot find your paperwork, we provide a new sealed unit with our own <a href="/warranty">warranty</a>: 2 years parts and labour, then up to 5 years on the glass.</p>
 
 <p>Have a foggy window you need fixed? Call <a href="tel:+14373448490">437-344-8490</a> or <a href="/contact">request a written quote</a>. We replace sealed units across Toronto, Vaughan, Mississauga, Brampton, Markham, Richmond Hill, and the entire GTA. Most jobs are completed in two visits: one to measure, one to install.</p>
 `,
@@ -1994,7 +1994,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="warranty">Does It Come with a Warranty?</h2>
 
-<p>Every sealed unit replacement from LuminaSky comes with our 5-year seal warranty and 2-year workmanship warranty. Full terms are on our <a href="/warranty">warranty page</a>.</p>
+<p>Every sealed unit replacement from LuminaSky comes with our warranty: 2 years parts and labour, then up to 5 years on the glass. Full terms are on our <a href="/warranty">warranty page</a>.</p>
 
 <h2 id="faq">FAQ</h2>
 
@@ -2437,7 +2437,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2 id="common-problems">The Most Common Problems Across Vaughan</h2>
 
 <ul>
-<li><strong>Foggy or cloudy glass:</strong> failed seals on double-pane units. We replace the sealed glass unit while keeping the frame. Covered by a 5-year seal warranty.</li>
+<li><strong>Foggy or cloudy glass:</strong> failed seals on double-pane units. We replace the sealed glass unit while keeping the frame. Covered for 2 years parts and labour, then up to 5 years on the glass.</li>
 <li><strong>Broken or stiff cranks:</strong> worn gears, bent arms, corroded tracks. Most <a href="/window-crank-repair-vaughan">crank repairs</a> are completed on the same day, on the first visit.</li>
 <li><strong>Patio doors that stick or won't lock:</strong> worn rollers, damaged tracks or misaligned frames.</li>
 <li><strong>Drafts around the sash:</strong> can be caused by failed weatherstripping, a warped sash, or a seal that has pulled away from the frame.</li>
@@ -2526,7 +2526,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <li><strong>Installation:</strong> We remove the failed unit from the frame, install the new glass, reseal the frame and clean up. The frame, trim and hardware all stay in place.</li>
 </ol>
 
-<p>Every new sealed unit carries a 5-year warranty against seal failure and a 2-year warranty on workmanship.</p>
+<p>Every new sealed unit carries 2 years parts and labour, then up to 5 years on the glass.</p>
 
 <h2 id="which-homes-are-most-at-risk">Which Vaughan Homes Are Most at Risk</h2>
 
@@ -2611,7 +2611,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <li><strong>Assessment:</strong> Send photos or call us. For straightforward replacements, we can often quote from photos. For larger or more complex jobs, we visit the site to assess the framing, glass type and access requirements. The site visit fee is $30, credited toward the work.</li>
 <li><strong>Measurement and order:</strong> We measure the exact dimensions and specify the glass type (tempered, laminated, sealed unit, tinted, Low-E). Glass is custom-made to the exact size needed.</li>
 <li><strong>Scheduling:</strong> We schedule installation at a time that works for your business. For retail and restaurants, that often means early morning before opening or after closing.</li>
-<li><strong>Installation and cleanup:</strong> We install the new glass, dispose of the old material, and clean up the work area. Every job carries a warranty: 5 years on sealed glass units, 2 years on workmanship.</li>
+<li><strong>Installation and cleanup:</strong> We install the new glass, dispose of the old material, and clean up the work area. Every job carries a warranty: 2 years parts and labour on sealed glass units, then up to 5 years on the glass.</li>
 </ol>
 
 <h2 id="get-a-quote">Get a Quote</h2>
@@ -2743,7 +2743,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p><strong>When they fail:</strong> the sealant that bonds the panes together breaks down over time due to UV exposure and thermal cycling (the constant expansion and contraction from temperature changes). Once the seal fails, moisture enters the gap and you see <a href="/foggy-windows">fog or condensation trapped between the panes</a>. The insulating gas escapes and the unit loses much of its thermal performance.</p>
 
-<p><strong>Repair:</strong> a failed sealed unit does not mean you need a new window. In most cases, only the glass unit itself needs replacing. The frame stays. Glass is measured first, custom-made to your exact opening dimensions, then installed into the existing frame. This costs a fraction of full window replacement and restores both clarity and insulation. Every sealed unit we install carries a 5-year seal warranty and 2-year workmanship warranty.</p>
+<p><strong>Repair:</strong> a failed sealed unit does not mean you need a new window. In most cases, only the glass unit itself needs replacing. The frame stays. Glass is measured first, custom-made to your exact opening dimensions, then installed into the existing frame. This costs a fraction of full window replacement and restores both clarity and insulation. Every sealed unit we install carries 2 years parts and labour, then up to 5 years on the glass.</p>
 
 <p>Sealed units can incorporate any combination of the glass types above. You can have a sealed unit with one tempered pane and one standard pane, or with Low-E coating on one surface, or with one laminated pane for noise reduction. The sealed unit is the assembly. The panes inside it can be specified to match your needs.</p>
 
@@ -2824,7 +2824,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="get-a-quote">Get a Quote</h2>
 
-<p>If you are not sure what type of glass your windows have, or which type you need for a replacement, we can help. LuminaSky Glass Services handles all types of residential glass across Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. Glass is measured first, custom-made to your exact specifications, then installed. Every sealed unit we install carries a 5-year seal warranty and 2-year workmanship warranty.</p>
+<p>If you are not sure what type of glass your windows have, or which type you need for a replacement, we can help. LuminaSky Glass Services handles all types of residential glass across Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. Glass is measured first, custom-made to your exact specifications, then installed. Every sealed unit we install carries 2 years parts and labour, then up to 5 years on the glass.</p>
 
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or visit our <a href="/contact">contact page</a> to get a written quote on the spot. We are available 24/7. Family-Owned Since 2024. 76 5-Star Google Reviews.</p>
 `,
@@ -3113,7 +3113,7 @@ export const BLOG_POSTS: BlogPost[] = [
   <li><strong>Code-compliant replacement:</strong> Every replacement we install meets current Ontario Building Code requirements. If the broken pane was in a safety glass location, we install the correct tempered or laminated glass and note the code reference on your invoice so the adjuster can see why the specific glass type was required.</li>
 </ul>
 
-<p>Glass is measured first, custom-made to fit your exact opening, then installed. Every sealed unit we install carries a 5-year seal warranty and 2-year workmanship warranty. Hardware repairs carry a 1-year warranty. These warranties cover manufacturing defects and workmanship, not vandalism, impact damage, or physical breakage.</p>
+<p>Glass is measured first, custom-made to fit your exact opening, then installed. Every sealed unit we install carries 2 years parts and labour, then up to 5 years on the glass. Hardware repairs carry a 1-year warranty. These warranties cover manufacturing defects and workmanship, not vandalism, impact damage, or physical breakage.</p>
 
 <h2 id="next-steps">Next Steps</h2>
 
@@ -3443,7 +3443,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>If you have broken or damaged glass in any of the locations listed above, the replacement needs to be done right. We handle safety glass replacements across Toronto and the GTA, including tempered sealed units, laminated panels, <a href="/front-door-glass">door glass inserts</a>, shower enclosures, and balcony guard glass. Glass is measured first, custom-made to your exact specifications, then installed.</p>
 
-<p>Our warranties: 5-year seal warranty on sealed glass units, 2-year warranty on glass workmanship, and 1-year warranty on hardware repairs. All warranties exclude vandalism, impact damage, and physical breakage.</p>
+<p>Our warranties: 2 years parts and labour on sealed glass units, then up to 5 years on the glass, and 1-year warranty on hardware repairs. All warranties exclude vandalism, impact damage, and physical breakage.</p>
 
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a> to get a written quote on the spot. You can also reach us through our <a href="/contact">contact page</a>. LuminaSky Glass Services is available 24/7, serving Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and the wider GTA. 76 5-Star Google Reviews. Family-Owned Since 2024.</p>
 `,
@@ -3715,7 +3715,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>If your windows show exterior condensation on cool mornings, there is nothing to fix. Your glass is insulating properly, and the dew will clear on its own within an hour or two of sunrise. This is especially common after upgrading to Low-E glass or argon-filled sealed units, and it is a sign that your investment in better glass is paying off.</p>
 
-<p>If you are seeing fog between the panes, or persistent moisture on the interior that is causing mould or water damage, that is a different situation entirely. <a href="/foggy-windows">Foggy sealed units</a> can be replaced without removing the frame. We measure on site, order custom glass to your exact dimensions, and install it into your existing frame. The process typically takes two visits: one to measure and one to install. Every sealed unit we install carries a 5-year seal warranty and a 2-year glass workmanship warranty. Hardware repairs carry a 1-year warranty. All warranties exclude vandalism, impact damage, and physical breakage.</p>
+<p>If you are seeing fog between the panes, or persistent moisture on the interior that is causing mould or water damage, that is a different situation entirely. <a href="/foggy-windows">Foggy sealed units</a> can be replaced without removing the frame. We measure on site, order custom glass to your exact dimensions, and install it into your existing frame. The process typically takes two visits: one to measure and one to install. Every sealed unit we install carries 2 years parts and labour, then up to 5 years on the glass. Hardware repairs carry a 1-year warranty. All warranties exclude vandalism, impact damage, and physical breakage.</p>
 
 <p>Not sure which type of condensation you are dealing with? Send us a photo or call <a href="tel:+14373448490">437-344-8490</a>. You can also reach us at <a href="mailto:service@luminasky.com">service@luminasky.com</a>. We are available 24/7 and can usually tell from a photo whether you need service or just reassurance.</p>
 

@@ -157,12 +157,12 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Front Door Glass Replacement Toronto",
   description:
-    "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 5-Year Warranty. Call 437-344-8490.",
+    "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 2-year parts and labour warranty.",
   alternates: { canonical: "/front-door-glass" },
   openGraph: {
     title: "Front Door Glass Replacement Toronto | LuminaSky",
     description:
-      "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 5-year warranty.",
+      "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 2-year parts and labour warranty.",
     url: "/front-door-glass",
   },
 };
@@ -213,7 +213,7 @@ export default function FrontDoorGlassPage() {
                 },
                 {
                   name: "Warranty coverage",
-                  text: "Door glass inserts come with a 5 year warranty against fogging. For the first 2 years, glass and labour are both covered.",
+                  text: "Door glass inserts come with 2 years parts and labour against fogging, then up to 5 years on the glass itself. For the first 2 years, glass and labour are both covered.",
                 },
               ],
             }),
@@ -301,7 +301,7 @@ export default function FrontDoorGlassPage() {
               </a>
               <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
                 <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-                5-Year Warranty on sealed glass
+                2-Year Parts & Labour Warranty on Glass
               </Link>
             </div>
 
@@ -837,7 +837,7 @@ export default function FrontDoorGlassPage() {
           </ul>
           <div className="inline-flex items-center gap-2 bg-[#dcfce7] text-[#166534] font-semibold px-4 py-2.5 rounded-lg mb-3">
             <Camera className="w-4 h-4" aria-hidden="true" />
-            <span>Photo Quote: FREE <span className="font-normal text-[#166534]/80">: Send a photo, get a price</span></span>
+            <span>Send a photo for a price</span>
           </div>
           <p className="text-gray-600 leading-relaxed">
             Send us a photo of your door and we&apos;ll give you a quote,
@@ -1068,7 +1068,7 @@ export default function FrontDoorGlassPage() {
                   You&apos;re covered.
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Door glass inserts come with a 5 year warranty against fogging.
+                  Door glass inserts come with 2 years parts and labour against fogging, then up to 5 years on the glass itself.
                   For the first 2 years, glass and labour are both covered. From
                   year 3 to 5, the glass is covered and labour is billed.
                 </p>

@@ -161,7 +161,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Commercial Glass Repair Toronto | Storefronts & Offices",
   description:
-    "Commercial glass repair in Toronto and the GTA. Storefront glass, commercial doors, partition walls, 24/7 emergency board-up. 437-344-8490.",
+    "Commercial glass repair in Toronto and the GTA. Storefront glass, commercial doors, partition walls, 24/7 emergency board-up.",
   alternates: { canonical: "/commercial-glass-repair" },
   openGraph: {
     title: "Commercial Glass Repair Toronto | Storefronts & Offices | LuminaSky",
@@ -274,7 +274,7 @@ export default function CommercialGlassRepairPage() {
               </div>
               <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
                 <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-                5-Year Warranty on sealed glass
+                2-Year Parts & Labour Warranty on Glass
               </Link>
             </div>
 

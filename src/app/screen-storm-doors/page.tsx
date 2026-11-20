@@ -144,7 +144,7 @@ const BREADCRUMBS = [
 export const metadata: Metadata = {
   title: "Screen & Storm Door Repair Toronto",
   description:
-    "Screen and storm door installation and repair in the GTA. Custom-fit, retractable and sliding options. Written quote on the spot. 437-344-8490.",
+    "Screen and storm door installation and repair in the GTA. Custom-fit, retractable and sliding options. Written quote on the spot.",
   alternates: { canonical: "/screen-storm-doors" },
   openGraph: {
     title: "Screen & Storm Door Repair Toronto | LuminaSky",

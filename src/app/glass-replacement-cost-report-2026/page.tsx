@@ -151,7 +151,7 @@ const COST_TIPS = [
 ];
 
 const LUMINASKY_ADVANTAGES = [
-  { icon: Award, text: "5-Year Warranty on sealed glass units", href: "/warranty", highlight: true },
+  { icon: Award, text: "2-Year Parts & Labour Warranty on Glass", href: "/warranty", highlight: true },
   { icon: Clock, text: "Serving 34 GTA cities with same-week measurement", href: "/areas-we-serve", highlight: false },
   { icon: Shield, text: "24/7 emergency board-up", href: "/emergency-glass-repair", highlight: false },
   { icon: ShieldCheck, text: "$2M liability insurance with certificate available", href: null, highlight: false },
@@ -179,7 +179,7 @@ const FAQS = [
   },
   {
     q: "What warranty does LuminaSky offer on sealed glass?",
-    a: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
+    a: "Sealed glass units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself. Hardware repairs like cranks, hinges and locks come with 1 year on parts and labour. Glass breakage is not covered.",
   },
 ];
 

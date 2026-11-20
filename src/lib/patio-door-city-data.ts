@@ -143,7 +143,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Patio Door Repair Oakville | Rollers & Glass",
     metaDescription:
-      "Patio door repair in Oakville. Roller replacement, track repair, lock fixes, panel adjustment and glass for sliding patio doors. Call 437-344-8490.",
+      "Patio door repair in Oakville. Roller replacement, track repair, lock fixes, panel adjustment and glass for sliding patio doors.",
     intro:
       "Oakville homes tend to have well-maintained patio doors, but even a well-cared-for door reaches a point where the rollers wear out. Homes in old Oakville near the lake have had their doors exposed to moisture and salt air for decades. Newer builds in Joshua Creek, River Oaks and East Oakville are now hitting the 15- to 20-year mark. We service both.",
     uniqueContent:
@@ -160,7 +160,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Patio Door Repair Burlington | Rollers & Tracks",
     metaDescription:
-      "Sliding patio door repair in Burlington. Roller replacement, track capping, panel adjustment and glass for patio doors. Call 437-344-8490.",
+      "Sliding patio door repair in Burlington. Roller replacement, track capping, panel adjustment and glass for patio doors.",
     intro:
       "Burlington's housing stock spans from 1960s bungalows near the lake to new builds in Alton Village. Patio door problems show up at every age, but the fix is usually the same: worn rollers need replacing, the track needs cleaning or capping, and the panel needs adjusting. We handle it all on-site.",
     uniqueContent:
@@ -177,7 +177,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Hamilton",
     metaTitle: "Patio Door Repair Hamilton | Rollers & Glass",
     metaDescription:
-      "Patio door repair in Hamilton. Roller replacement, track repair, lock fixes and patio door glass replacement. On-site mobile service. Call 437-344-8490.",
+      "Patio door repair in Hamilton. Roller replacement, track repair, lock fixes and patio door glass replacement. On-site mobile service.",
     intro:
       "Hamilton has some of the most varied housing stock in the GTA, from century homes on the Mountain to new builds in Binbrook and Waterdown. Sliding patio doors appear in most of these homes, and they all use the same basic mechanism: rollers on a track. When those rollers wear out, we replace them and get the door moving properly.",
     uniqueContent:
@@ -279,7 +279,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Vaughan",
     metaTitle: "Patio Door Repair Woodbridge | Rollers & Tracks",
     metaDescription:
-      "Patio door repair in Woodbridge. Roller replacement, track cleaning, panel adjustment and patio door glass replacement. Call 437-344-8490.",
+      "Patio door repair in Woodbridge. Roller replacement, track cleaning, panel adjustment and patio door glass replacement.",
     intro:
       "Woodbridge homes from the 1990s and 2000s are reaching the point where patio door rollers start to fail. The door drags, the lock misses the keeper, or the panel shakes when you slide it. We swap the worn rollers, clean the track, and adjust the door so it runs smoothly again.",
     uniqueContent:
@@ -313,7 +313,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "York Region",
     metaTitle: "Patio Door Repair King City | Rollers & Tracks",
     metaDescription:
-      "Patio door repair in King City. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+      "Patio door repair in King City. Roller replacement, track cleaning, panel adjustment and patio door glass.",
     intro:
       "King City and King Township have a mix of estate homes and newer subdivision builds, many with large patio door openings. The bigger the panel, the more strain on the rollers. When those rollers wear out, the door drags and the lock stops catching. We replace the rollers on-site and adjust the door for smooth operation.",
     uniqueContent:
@@ -364,7 +364,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Patio Door Repair Pickering | Rollers & Tracks",
     metaDescription:
-      "Patio door repair in Pickering. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+      "Patio door repair in Pickering. Roller replacement, track cleaning, panel adjustment and patio door glass.",
     intro:
       "Pickering homes span from 1960s builds in the south to newer developments in Duffin Heights and Seaton. Patio doors in all of these areas eventually need roller replacement. We handle the repair on-site and carry the common roller types to complete most jobs in a single visit.",
     uniqueContent:
@@ -415,7 +415,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Dufferin County",
     metaTitle: "Patio Door Repair Orangeville | Rollers",
     metaDescription:
-      "Patio door repair in Orangeville. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+      "Patio door repair in Orangeville. Roller replacement, track cleaning, panel adjustment and patio door glass.",
     intro:
       "Orangeville homes from the 1990s and 2000s are now reaching the point where patio door rollers need attention. The cold winters up the escarpment put extra thermal stress on door components, and rollers that might last 20 years further south can wear out closer to 15 in Orangeville. We replace them on-site.",
     uniqueContent:
@@ -449,7 +449,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Halton Region",
     metaTitle: "Patio Door Repair Halton Hills | Rollers",
     metaDescription:
-      "Patio door repair in Halton Hills and Georgetown. Roller replacement, track repair, panel adjustment and glass. Call 437-344-8490.",
+      "Patio door repair in Halton Hills and Georgetown. Roller replacement, track repair, panel adjustment and glass.",
     intro:
       "Halton Hills, including Georgetown and Acton, has a steady base of 1990s and 2000s homes with sliding patio doors that are now due for roller replacement. We service both communities and carry the common roller types to complete most repairs on the first visit.",
     uniqueContent:
@@ -483,7 +483,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Patio Door Repair Innisfil | Rollers & Tracks",
     metaDescription:
-      "Patio door repair in Innisfil. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+      "Patio door repair in Innisfil. Roller replacement, track cleaning, panel adjustment and patio door glass.",
     intro:
       "Innisfil has grown quickly in recent years, with new homes in Alcona, Cookstown, and the Friday Harbour area joining the existing housing stock around Stroud and Lefroy. Patio doors in the older homes are already needing roller replacement, and the newer builds will follow in time. We service all of Innisfil.",
     uniqueContent:
@@ -517,7 +517,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "York Region",
     metaTitle: "Patio Door Repair East Gwillimbury | Rollers",
     metaDescription:
-      "Patio door repair in East Gwillimbury. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+      "Patio door repair in East Gwillimbury. Roller replacement, track cleaning, panel adjustment and patio door glass.",
     intro:
       "East Gwillimbury, including Holland Landing and Sharon, is growing fast with new residential development. Existing homes from the 1990s and 2000s are now at the age where patio door rollers need replacement. We service all communities in East Gwillimbury.",
     uniqueContent:
@@ -551,7 +551,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Simcoe County",
     metaTitle: "Patio Door Repair Bradford | Rollers & Tracks",
     metaDescription:
-      "Patio door repair in Bradford. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+      "Patio door repair in Bradford. Roller replacement, track cleaning, panel adjustment and patio door glass.",
     intro:
       "Bradford has grown significantly with new residential builds along with its established housing stock. Homes from the 1990s and 2000s are now at the point where patio door rollers start to fail. We replace them on-site and adjust the door for smooth operation.",
     uniqueContent:
@@ -585,7 +585,7 @@ export const PATIO_DOOR_CITY_PAGES: PatioDoorCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Patio Door Repair Uxbridge | Rollers & Tracks",
     metaDescription:
-      "Patio door repair in Uxbridge. Roller replacement, track cleaning, panel adjustment and patio door glass. Call 437-344-8490.",
+      "Patio door repair in Uxbridge. Roller replacement, track cleaning, panel adjustment and patio door glass.",
     intro:
       "Uxbridge has a mix of older homes in the town centre and newer builds on the outskirts. Patio doors across both areas use the same roller and track mechanism, and they all need servicing once the rollers wear out. We replace them on-site and carry the common roller types.",
     uniqueContent:

@@ -87,7 +87,7 @@ const SKYLIGHT_TYPES = [
 ];
 
 const PROCESS_STEPS = [
-  { title: "Send photos or call 437-344-8490", desc: "A few photos from inside, and one from outside if safe to take, tell us most of what we need." },
+  { title: "Send photos", desc: "A few photos from inside, and one from outside if safe to take, tell us most of what we need." },
   { title: "Get a written quote", desc: "Photo quotes are at no charge. If an in-person inspection is needed, the visit is $30, credited back if the work goes ahead." },
   { title: "We measure for glass", desc: "If the glass unit needs replacing, we measure the skylight and order a new sealed unit made to size." },
   { title: "New parts or glass delivered", desc: "Custom glass takes 5-15 business days depending on type and size. Leak and flashing repairs are often done sooner." },
@@ -163,7 +163,7 @@ const FAQS = [
   },
   {
     q: "What's the warranty on skylight repair?",
-    a: "Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks and hinges come with 1 year on parts and labour.",
+    a: "Sealed glass units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself. Hardware repairs like cranks and hinges come with 1 year on parts and labour.",
   },
   {
     q: "My skylight is old. Should I repair or replace it?",
@@ -178,14 +178,14 @@ const BREADCRUMBS = [
 ];
 
 export const metadata: Metadata = {
-  title: "Skylight Repair Toronto | Leaks, Glass & Seals",
+  title: "Skylight Glass & Leak Repair Toronto",
   description:
-    "Leaking or cracked skylight? We repair all skylight types across the GTA. Glass replacement, seal repair, hardware fixes. 5-year warranty. 437-344-8490.",
+    "Skylight leaking or foggy? We find where the water gets in and replace the sealed glass inside your existing frame. Written price before any work.",
   alternates: { canonical: "/skylights" },
   openGraph: {
-    title: "Skylight Repair Toronto | Leaks, Glass & Seals | LuminaSky",
+    title: "Skylight Glass & Leak Repair Toronto | LuminaSky",
     description:
-      "Leaking skylight or cracked glass? We repair all skylight types across Toronto and the GTA. Fast response, written price, 5-year glass warranty.",
+      "Skylight leaking or foggy? We find where the water gets in and replace the sealed glass inside your existing frame. Written price before any work.",
     url: "/skylights",
   },
 };
@@ -249,7 +249,7 @@ export default function SkylightsPage() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-[#dcfce7] text-[#166534] font-semibold px-4 py-2.5 rounded-lg mb-3">
               <Camera className="w-4 h-4" aria-hidden="true" />
-              <span>Photo Quote: FREE <span className="font-normal text-[#166534]/80">: Send a photo, get a price</span></span>
+              <span>Send a photo for a price</span>
             </div>
 
             <h1 className="text-[1.75rem] md:text-5xl font-bold text-white mb-3 md:mb-4 leading-[1.2] md:leading-tight">
@@ -265,7 +265,7 @@ export default function SkylightsPage() {
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" aria-hidden="true" />24/7 emergency</span>
               <span className="flex items-center gap-1.5"><ShieldCheck className="w-4 h-4" aria-hidden="true" />Licensed &amp; insured</span>
               <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" aria-hidden="true" />Written price before work</span>
-              <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" aria-hidden="true" />5-year glass warranty</span>
+              <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" aria-hidden="true" />2-year parts and labour warranty</span>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -294,7 +294,7 @@ export default function SkylightsPage() {
             </a>
             <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light text-sm mt-4 hover:text-white transition-colors">
               <svg className="w-4 h-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" /></svg>
-              5-Year Warranty on sealed glass
+              2-Year Parts & Labour Warranty on Glass
             </Link>
           </div>
         </div>
@@ -363,7 +363,7 @@ export default function SkylightsPage() {
               Building code requires tempered safety glass in skylights. We measure the existing unit, order a new tempered sealed unit made to size, and install it once it arrives, typically 5-15 business days depending on glass type and dimensions. You can upgrade to low-E coated or argon-filled glass at the same time for better energy performance.
             </p>
             <p>
-              Sealed glass units come with a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs come with 1 year on parts and labour.{" "}
+              Sealed glass units come with 2 years parts and labour against seal failure, then up to 5 years on the glass unit itself. Hardware repairs come with 1 year on parts and labour.{" "}
               <Link href="/glass-replacement" className="text-primary font-semibold hover:underline">Learn more about glass replacement &rarr;</Link>
             </p>
           </div>
@@ -658,7 +658,7 @@ export default function SkylightsPage() {
       {/* Final CTA */}
       <CTABanner
         title="Get Your Skylight Fixed Before the Next Rain"
-        subtitle="Send a photo for a quote, or call 437-344-8490."
+        subtitle="Send a photo for a quote, or call"
       />
 
       {WINTER_READY_ENABLED && (
