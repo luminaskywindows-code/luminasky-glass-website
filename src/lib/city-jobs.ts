@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Real LuminaSky jobs per city, from the Business Hub. Neighbourhood only: no names, no addresses.
  * tags decide which service pages show the job first.
  */
@@ -13,7 +13,7 @@ export interface CityJob {
 export const CITY_JOBS: Record<string, CityJob[]> = {
   toronto: [
     { where: "Brockton Village", text: "Replaced several sealed glass units, the largest about 28 x 55 inches, in an older semi. The original frames stayed in place.", tags: ["glass", "foggy"] },
-    { where: "Leaside", text: "Swapped a failed 29 x 48 inch sealed unit in a living room window. Same frame, same trim, one install visit.", tags: ["glass", "foggy"] },
+    { where: "Leaside", text: "Swapped a failed 29 x 48 inch sealed unit in a living room window. Same frame, same trim.", tags: ["glass", "foggy"] },
     { where: "North Toronto", text: "Replaced two skylights, one large at about 50 x 73 inches and one smaller, and resealed both openings.", tags: ["skylight"] },
     { where: "Glen Park", text: "Replaced a foggy 24 x 66 inch unit and a smaller pane in a detached home.", tags: ["foggy", "glass"] },
   ],
@@ -37,7 +37,7 @@ export const CITY_JOBS: Record<string, CityJob[]> = {
     { where: "Mississauga", text: "Replaced a crank and a lock plate and fitted new glass in a 26 x 55 inch casement.", tags: ["crank", "glass"] },
   ],
   brampton: [
-    { where: "Brampton", text: "Replaced a cracked 23 x 43 inch sealed glass unit in a casement window. Same frame, same grilles, one install visit.", tags: ["glass"] },
+    { where: "Brampton", text: "Replaced a cracked 23 x 43 inch sealed glass unit in a casement window. Same frame, same grilles.", tags: ["glass"] },
     { where: "Brampton", text: "Replaced three skylights of different sizes and a screen in one project.", tags: ["skylight"] },
     { where: "Heart Lake", text: "Replaced a 28 x 52 inch skylight and sealed it to the roof.", tags: ["skylight"] },
     { where: "Brampton", text: "Fitted new glass and clips in a small window and repaired a screen door.", tags: ["glass", "storm"] },
@@ -78,7 +78,7 @@ export const CITY_JOBS: Record<string, CityJob[]> = {
   whitby: [
     { where: "Whitby", text: "Replaced two sealed units, about 23 x 46 inches.", tags: ["glass", "foggy"] },
     { where: "Whitby", text: "Replaced glass in a 22 x 50 inch window plus a crank and rail.", tags: ["glass", "crank"] },
-    { where: "Whitby", text: "Replaced cranks, a lock and a small sealed unit in one visit.", tags: ["crank", "glass"] },
+    { where: "Whitby", text: "Replaced cranks, a lock and a small sealed unit.", tags: ["crank", "glass"] },
   ],
   orangeville: [
     { where: "Orangeville", text: "Replaced a large 59 x 62 inch window unit.", tags: ["glass"] },

@@ -41,7 +41,7 @@ export const PROJECTS: Project[] = [
       alt: "Same Brampton casement window with a new clear sealed glass unit installed in the original frame",
     },
     description:
-      "A long crack ran across the sealed glass in this 23 x 43 inch casement window in Brampton. We measured the unit, had a new sealed glass unit made to size with matching grilles, and installed it in the existing frame. The frame and trim stayed in place, and the install took one visit.",
+      "A long crack ran across the sealed glass in this 23 x 43 inch casement window in Brampton. We measured the unit, had a new sealed glass unit made to size with matching grilles, and replaced the cracked unit in the existing frame. The frame and trim stayed in place.",
     location: "Brampton",
     serviceType: "Glass Replacement",
     tags: [],
