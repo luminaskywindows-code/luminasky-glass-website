@@ -56,6 +56,7 @@ export function generateOrganizationSchema() {
     sameAs: [
       "https://www.facebook.com/LuminaSkyGlassServices",
       "https://www.instagram.com/luminasky_glass_services/",
+      "https://www.tiktok.com/@luminaskyglassservices",
       "https://www.bbb.org/ca/on/vaughan/profile/window-repair/luminasky-glass-services-0107-1422165",
       "https://maps.google.com/?cid=11308652498566906926",
       "https://homestars.com/companies/luminasky-glass-services",
