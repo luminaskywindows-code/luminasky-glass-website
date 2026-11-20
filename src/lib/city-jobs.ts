@@ -37,6 +37,7 @@ export const CITY_JOBS: Record<string, CityJob[]> = {
     { where: "Mississauga", text: "Replaced a crank and a lock plate and fitted new glass in a 26 x 55 inch casement.", tags: ["crank", "glass"] },
   ],
   brampton: [
+    { where: "Brampton", text: "Replaced a cracked 23 x 43 inch sealed glass unit in a casement window. Same frame, same grilles, one install visit.", tags: ["glass"] },
     { where: "Brampton", text: "Replaced three skylights of different sizes and a screen in one project.", tags: ["skylight"] },
     { where: "Heart Lake", text: "Replaced a 28 x 52 inch skylight and sealed it to the roof.", tags: ["skylight"] },
     { where: "Brampton", text: "Fitted new glass and clips in a small window and repaired a screen door.", tags: ["glass", "storm"] },

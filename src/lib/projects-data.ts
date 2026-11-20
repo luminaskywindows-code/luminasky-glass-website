@@ -28,6 +28,25 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    id: "cracked-glass-replacement-brampton",
+    title: "Cracked Window Glass Replacement",
+    category: "windows",
+    mediaType: "before-after-slider",
+    beforeImage: {
+      src: "/images/services/cracked-glass-brampton-before.webp",
+      alt: "Casement window in a Brampton home with a long crack running across the sealed glass unit",
+    },
+    afterImage: {
+      src: "/images/services/cracked-glass-brampton-after.webp",
+      alt: "Same Brampton casement window with a new clear sealed glass unit installed in the original frame",
+    },
+    description:
+      "A long crack ran across the sealed glass in this 23 x 43 inch casement window in Brampton. We measured the unit, had a new sealed glass unit made to size with matching grilles, and installed it in the existing frame. The frame and trim stayed in place, and the install took one visit.",
+    location: "Brampton",
+    serviceType: "Glass Replacement",
+    tags: [],
+  },
+  {
     id: "crank-handle-replacement-highrise",
     title: "Window Crank Handle Replacement",
     category: "hardware",
