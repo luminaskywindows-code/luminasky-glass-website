@@ -64,11 +64,11 @@ export function HeroSection() {
               </h1>
 
               <p className="text-accent-light text-xl md:text-2xl font-semibold">
-                Fix Don&apos;t Replace
+                Fix it. Don&apos;t replace it.
               </p>
 
               <p className="text-blue-100 text-base md:text-lg leading-relaxed max-w-xl lg:max-w-none">
-                <strong>LuminaSky Glass Services</strong> repairs windows and glass across the Greater Toronto Area, from Mississauga to Markham. We serve homeowners and property managers with 24/7 emergency board-up, 2 years parts and labour on sealed glass units, and same-week measurement appointments.
+                Foggy glass, cracked panes, stuck cranks, worn patio doors. We replace the part that failed and keep your window. Written price on the spot, and the $30 visit is credited if you go ahead.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center lg:items-start gap-4 mt-1">
