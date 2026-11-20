@@ -1,4 +1,4 @@
-export interface BlogPost {
+﻿export interface BlogPost {
   slug: string;
   title: string;
   metaTitle: string;
@@ -15,6 +15,310 @@ export interface BlogPost {
 }
 
 export const BLOG_POSTS: BlogPost[] = [
+  {
+    slug: "window-glass-cracked-by-itself",
+    title: "Why Did My Window Glass Crack by Itself?",
+    metaTitle: "Window Glass Cracked by Itself? Thermal Stress Cracks Explained",
+    metaDescription:
+      "Nobody hit it, but there's a long crack in your window. Here's how thermal stress cracks happen in winter, how to spot one, and what to do next.",
+    excerpt:
+      "You walk past the window and there it is: a long, wandering crack that wasn't there yesterday. Nobody threw anything. Nothing hit it. In most cases this is a thermal stress crack, and it's more common in GTA winters than most people think.",
+    publishedAt: "2026-11-20",
+    author: "Dan",
+    readingTime: 6,
+    coverImage: "/images/services/cracked-glass-brampton-before.webp",
+    tags: ["Glass Replacement", "Cracked Glass", "Winter"],
+    sections: [
+      { id: "what-happened", title: "What Usually Happened" },
+      { id: "how-to-tell", title: "How to Tell a Stress Crack From an Impact" },
+      { id: "why-winter", title: "Why It Happens More in Winter" },
+      { id: "what-to-do-now", title: "What to Do Right Now" },
+      { id: "can-it-be-repaired", title: "Can a Cracked Sealed Unit Be Repaired?" },
+      { id: "real-job", title: "A Recent Job: Cracked Casement Glass" },
+      { id: "preventing-it", title: "Lowering the Odds of It Happening Again" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>You walk past the window and there it is: a long, wandering crack that wasn't there yesterday. Nobody threw anything. No ball, no bird, no branch. It just appeared.</p>
+
+<p>In most cases like this, the glass cracked from heat stress. It sounds strange, but it's one of the most common reasons we replace glass in GTA homes during the colder months. Here's what's going on, how to check your own window, and what your options are.</p>
+
+<h2 id="what-happened">What Usually Happened</h2>
+
+<p>Glass expands when it warms up and shrinks when it cools down. That's normal. The trouble starts when one part of the pane is much warmer than another part at the same time.</p>
+
+<p>The edges of a pane sit inside the frame, hidden and cold. The middle of the pane is out in the open, warmed by the sun or by the heat in your room. If the difference gets big enough, the warm centre pulls against the cold edge until the glass gives. The crack almost always starts at the edge, where the glass is weakest, and then runs across the pane.</p>
+
+<p>This is called a thermal stress crack. It isn't a sign that someone did something wrong, and it isn't always a sign of bad glass. It's physics.</p>
+
+<h2 id="how-to-tell">How to Tell a Stress Crack From an Impact</h2>
+
+<p>You can usually tell the two apart in a few seconds.</p>
+
+<ul>
+  <li><strong>Stress crack:</strong> starts at the edge of the glass, often leaving the frame at close to a right angle. Then it wanders, curves or splits into a long line across the pane. There's no impact point.</li>
+  <li><strong>Impact crack:</strong> has a clear starting point somewhere in the glass, often a small chip or crater, with cracks spreading out from it like a star or a spider web.</li>
+</ul>
+
+<p>If you see one long line that begins at the frame and meanders, it's very likely heat stress. If you see a spot where cracks meet, something hit it.</p>
+
+<h2 id="why-winter">Why It Happens More in Winter</h2>
+
+<p>Winter gives glass the biggest temperature swings. A few common setups make it worse:</p>
+
+<ul>
+  <li><strong>Low winter sun.</strong> Sun hits the middle of the glass while the edges stay in the shadow of the frame.</li>
+  <li><strong>Blinds or shutters close to the glass.</strong> They trap heat between the covering and the pane, so the glass gets hotter than it would on its own.</li>
+  <li><strong>Heat blowing on the window.</strong> A floor vent or baseboard heater right under the glass warms one area fast.</li>
+  <li><strong>Partial shade.</strong> A tree, overhang or neighbouring wall that shades only part of the pane.</li>
+  <li><strong>Large panes.</strong> Bigger glass has more room for the centre and edge to drift apart in temperature.</li>
+</ul>
+
+<p>A small chip on the edge, often from when the glass was first installed, also makes a crack more likely, because the stress has somewhere to start.</p>
+
+<h2 id="what-to-do-now">What to Do Right Now</h2>
+
+<ol>
+  <li><strong>Don't press on it.</strong> A cracked pane can keep spreading, especially when the temperature changes again tonight.</li>
+  <li><strong>Check which pane is cracked.</strong> Most windows in Ontario homes are sealed units with two or three panes. If you can feel the crack from inside, it's the inside pane. If the inside is smooth, it's the outside one.</li>
+  <li><strong>Tape it if it's spreading.</strong> Clear packing tape along the crack on the cracked side helps hold it while you wait for a replacement.</li>
+  <li><strong>Move heat sources and coverings back.</strong> Open the blinds a few inches from the glass and point vents away from the window until it's replaced.</li>
+  <li><strong>Take a photo.</strong> A photo of the whole window and a close-up of the crack is enough for a first price.</li>
+</ol>
+
+<p>If the glass is broken through and the opening isn't secure, that's a different situation. See our page on <a href="/emergency-glass-repair">emergency glass repair</a>.</p>
+
+<h2 id="can-it-be-repaired">Can a Cracked Sealed Unit Be Repaired?</h2>
+
+<p>Not the crack itself. In a sealed unit, the panes are bonded together with a spacer and sealant, and the space between them is sealed shut. Once one pane cracks, the seal is no longer reliable and the unit will usually fog over time.</p>
+
+<p>What we replace is the sealed glass unit, not the window. We measure the opening, have a new unit made to size (with matching grilles if your window has them), and install it in the existing frame. The frame, trim and hardware stay where they are. For most homes, that costs a fraction of a new window. Our <a href="/glass-replacement">glass replacement</a> page explains how it works.</p>
+
+<h2 id="real-job">A Recent Job: Cracked Casement Glass</h2>
+
+<p>We recently replaced the glass in a 23 x 43 inch casement window in Brampton. The crack started at the top edge of the frame and wandered down through several grille sections, a textbook stress crack. There was no impact point and nothing had hit the window.</p>
+
+<p>We measured the unit, ordered a new sealed unit with matching grilles, and swapped it into the original frame. You can see the before and after on our <a href="/projects">projects page</a>.</p>
+
+<h2 id="preventing-it">Lowering the Odds of It Happening Again</h2>
+
+<p>You can't control the weather, but you can take away some of the things that push glass over the edge:</p>
+
+<ul>
+  <li>Keep blinds, shutters and heavy curtains a few inches off the glass, or leave them partly open on sunny winter days.</li>
+  <li>Don't aim heaters or vent deflectors straight at the window.</li>
+  <li>Avoid putting stickers, film or dark objects against the glass that soak up heat in one spot.</li>
+  <li>If your glass has a chipped edge, mention it when you get the window looked at.</li>
+</ul>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Is a stress crack covered by warranty?</h3>
+<p>Glass breakage is usually not covered by window or glass warranties, ours included. Warranties on sealed units cover seal failure, which is when the unit fogs up between the panes. It's worth checking your own window warranty in case the terms are different.</p>
+
+<h3>Will home insurance pay for it?</h3>
+<p>It depends on your policy and your deductible. For a single pane, the replacement often costs less than the deductible. Our guide on <a href="/blog/home-insurance-broken-window-ontario">home insurance and broken windows in Ontario</a> goes through it.</p>
+
+<h3>Can I leave it until spring?</h3>
+<p>If the crack is small, the window still closes and nothing is loose, many people wait a short time. Keep in mind the crack can spread with each cold night, and a cracked unit will eventually fog. Glass can be replaced in winter, so there's no need to wait for warm weather. See <a href="/blog/replace-window-glass-in-winter">replacing window glass in winter</a>.</p>
+
+<h3>How long does it take to get new glass?</h3>
+<p>The sealed unit is made to measure, so there's a wait between the measuring visit and the install. We give you the timeline with the written price.</p>
+
+<p>Found a crack like this? Send us a photo or book a visit, and we'll tell you what it needs and what it costs before any work starts.</p>
+`,
+  },
+  {
+    slug: "draft-coming-from-skylight",
+    title: "Why Is There a Draft Coming From My Skylight?",
+    metaTitle: "Draft Coming From Your Skylight? What Causes It and How to Fix It",
+    metaDescription:
+      "Cold air falling from your skylight in winter? It may be a failed seal, worn weatherstripping or simple physics. How to check and what fixes it.",
+    excerpt:
+      "You can feel it standing under the skylight: a cold breath of air coming down from above. Before you assume the skylight is broken, it helps to know there are a few very different causes, and only some of them mean a leak.",
+    publishedAt: "2026-11-20",
+    author: "Dan",
+    readingTime: 6,
+    coverImage: "/images/services/skylight-hero-clean.webp",
+    tags: ["Skylights", "Winter", "Drafts"],
+    sections: [
+      { id: "not-always-a-leak", title: "A Draft Is Not Always a Leak" },
+      { id: "cold-glass", title: "Cause 1: Cold Glass Pulling Air Down" },
+      { id: "failed-seal", title: "Cause 2: A Failed Sealed Unit" },
+      { id: "venting-skylight", title: "Cause 3: A Venting Skylight That Doesn't Close Tight" },
+      { id: "around-the-frame", title: "Cause 4: Air Getting In Around the Frame" },
+      { id: "how-to-check", title: "How to Check It Yourself" },
+      { id: "what-fixes-it", title: "What Fixes Each One" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>You can feel it standing under the skylight: a cold breath of air coming down from above. It might be faint, or it might be enough to make that corner of the room the one nobody sits in.</p>
+
+<p>A homeowner described it to us recently as "a draft from the skylight window" and asked for someone to come look at it. That's a good way to put it, because a draft is something you feel, and the cause isn't always obvious from below. There are a few very different reasons a skylight feels drafty, and only some of them mean air is actually getting in.</p>
+
+<h2 id="not-always-a-leak">A Draft Is Not Always a Leak</h2>
+
+<p>Before anything else: if you feel cold air but see no water stains, no drips and no frost around the frame, the skylight may not be letting any outside air in at all. It may just be cold. That matters, because the fix for a cold skylight is very different from the fix for a leaky one.</p>
+
+<p>For water leaks, ice dams and condensation, we have a separate guide: <a href="/blog/skylights-in-winter-leaks-ice-dams-condensation">skylights in winter</a>. This one is about the cold air.</p>
+
+<h2 id="cold-glass">Cause 1: Cold Glass Pulling Air Down</h2>
+
+<p>Warm air rises and collects up in the skylight shaft. When it touches the cold glass, it cools, gets heavier and sinks back down into the room. That falling stream of cool air feels exactly like a draft, even when the skylight is perfectly sealed.</p>
+
+<p>The colder the glass, the stronger the effect. That's why older skylights with a single layer of acrylic, or glass with no Low-E coating, feel much draftier than newer ones. It's also why the draft gets worse on the coldest nights.</p>
+
+<h2 id="failed-seal">Cause 2: A Failed Sealed Unit</h2>
+
+<p>Most glass skylights use a sealed unit: two panes with an insulating gap between them. When the seal fails, moist air gets into that gap and the insulating gas leaks out. The inside pane gets colder, so the falling-air effect above gets stronger.</p>
+
+<p>The giveaway is fog, haze or water droplets between the two panes that you can't wipe off from either side. If you see that, the sealed unit has failed. Our article on <a href="/blog/why-windows-fog-between-panes">why glass fogs between the panes</a> explains what's happening inside.</p>
+
+<h2 id="venting-skylight">Cause 3: A Venting Skylight That Doesn't Close Tight</h2>
+
+<p>If your skylight opens, with a crank, a pole or a motor, it has weatherstripping and a latch like any window. Over time the weatherstripping flattens, cracks or comes loose, and the sash may not pull in all the way. That leaves a gap where real outside air gets in.</p>
+
+<p>You'll usually feel this one along one edge rather than across the whole skylight. Sometimes you can hear a faint whistle on windy days.</p>
+
+<h2 id="around-the-frame">Cause 4: Air Getting In Around the Frame</h2>
+
+<p>The skylight sits in an opening cut through the roof, with a shaft running down to your ceiling. If there are gaps between the skylight frame and the roof opening, or the shaft walls aren't properly sealed and insulated, cold attic air can find its way in around the frame.</p>
+
+<p>Signs of this include cold spots along the shaft walls rather than at the glass, and dust lines or discoloured paint near the corners where air has been moving.</p>
+
+<h2 id="how-to-check">How to Check It Yourself</h2>
+
+<ol>
+  <li><strong>Look at the glass.</strong> Fog between the panes points to a failed seal.</li>
+  <li><strong>Feel where it's coming from.</strong> On a cold day, hold the back of your hand near the centre of the glass, then along each edge, then along the shaft corners. Cold everywhere at the glass suggests cold glass. Cold at one edge suggests weatherstripping. Cold at the shaft corners suggests gaps around the frame.</li>
+  <li><strong>Try a tissue.</strong> Hold a tissue near the edges. If it flutters toward the room, outside air is moving in. If it just hangs, there's no real air leak and you're feeling the falling-cold-air effect.</li>
+  <li><strong>Check for water.</strong> Stains, drips or frost mean something more than a draft is going on.</li>
+</ol>
+
+<h2 id="what-fixes-it">What Fixes Each One</h2>
+
+<ul>
+  <li><strong>Cold glass or a failed seal:</strong> replacing the glass with a new insulated sealed unit, often with Low-E glass, makes the inside pane much warmer and calms the falling air. In most cases the frame stays in place. See <a href="/skylights">skylight glass and repair</a>.</li>
+  <li><strong>Venting skylight not closing:</strong> new weatherstripping, an adjusted or replaced latch, or a new operator.</li>
+  <li><strong>Gaps around the frame:</strong> resealing the frame, and in some homes, sealing and insulating the shaft. We'll tell you plainly if part of the job is roof or insulation work rather than glass.</li>
+</ul>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Is a drafty skylight costing me money on heating?</h3>
+<p>A failed seal or a real air gap does let heat escape. Cold glass on its own mostly affects comfort near the skylight. Either way, fixing the cause usually makes that part of the room usable again in winter.</p>
+
+<h3>Do I need a whole new skylight?</h3>
+<p>Not usually. If the frame is solid and not leaking water, replacing the glass or the weatherstripping fixes most drafts. A full replacement makes sense when the frame itself is damaged or rotting.</p>
+
+<h3>Can it be fixed in winter?</h3>
+<p>Glass and weatherstripping can be replaced in winter on most skylights. Roof-side work depends on the weather and access.</p>
+
+<p>Feeling cold air from your skylight? Send us a photo of the glass and the area around it, or book a visit, and we'll tell you which of these it is before any work starts.</p>
+`,
+  },
+  {
+    slug: "will-glass-company-sell-me-new-windows",
+    title: "Will a Glass Company Try to Sell Me New Windows?",
+    metaTitle: "Do You Really Need New Windows? How to Spot an Upsell",
+    metaDescription:
+      "Foggy glass or a broken crank rarely means new windows. How to tell what your window actually needs, red flags in a quote, and questions to ask.",
+    excerpt:
+      "You call about one foggy window and end up with a quote for the whole house. It's the worry we hear most from homeowners. Here's how to tell what your window really needs, and how to read a quote without getting talked into more.",
+    publishedAt: "2026-11-20",
+    author: "Dan",
+    readingTime: 7,
+    coverImage: "/images/services/toronto-foggy-glass-replacement-after.webp",
+    tags: ["Window Repair", "Repair vs Replacement", "Homeowner Tips"],
+    sections: [
+      { id: "the-worry", title: "The Worry Is Real" },
+      { id: "what-can-be-fixed", title: "Problems That Almost Never Need a New Window" },
+      { id: "when-new-makes-sense", title: "When a New Window Really Makes Sense" },
+      { id: "red-flags", title: "Red Flags in a Quote" },
+      { id: "questions-to-ask", title: "Questions to Ask Before You Agree to Anything" },
+      { id: "how-we-handle-it", title: "How We Handle It" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>You call about one foggy window and end up with a quote for every window in the house. Or someone knocks on your door, looks at your frames from the driveway and tells you they all need to go.</p>
+
+<p>It's the worry we hear most from homeowners: "Are you going to try to sell me new windows?" It's a fair question. Prices for the same problem can range from a couple of hundred dollars to several thousand, depending on who you ask and what they sell. Here's how to tell what your window actually needs, so you can judge any quote, ours included.</p>
+
+<h2 id="the-worry">The Worry Is Real</h2>
+
+<p>Full window replacement is a big-ticket sale. A company that only installs new windows has no product to offer you for a stripped crank or a single foggy pane, so the answer to almost every problem becomes "replace it." That doesn't make them dishonest. It does mean the advice you get depends on what the person in front of you sells.</p>
+
+<p>The good news is that most window problems fall into a few clear groups, and you can usually tell which group yours is in.</p>
+
+<h2 id="what-can-be-fixed">Problems That Almost Never Need a New Window</h2>
+
+<ul>
+  <li><strong>Fog or haze between the panes.</strong> The seal on the glass unit failed. The fix is a new sealed glass unit in your existing frame. See <a href="/foggy-windows">foggy window repair</a>.</li>
+  <li><strong>Cracked or broken glass.</strong> Same fix: a new sealed unit, made to size.</li>
+  <li><strong>A crank that spins or won't turn.</strong> The operator is worn out. It gets replaced, usually on the spot. See <a href="/cranks">window crank repair</a>.</li>
+  <li><strong>A window that won't close or lock.</strong> Usually hinges, the operator arm or the lock. Our guide on <a href="/blog/window-wont-close-or-lock">windows that won't close or lock</a> covers it.</li>
+  <li><strong>A patio door that's hard to slide.</strong> Usually worn rollers or a dirty track, not the door. See <a href="/blog/sliding-patio-door-wont-slide">patio doors that won't slide</a>.</li>
+  <li><strong>Torn screens and worn weatherstripping.</strong> Small, cheap parts.</li>
+</ul>
+
+<p>If your frame is solid and square, any of these can be fixed while the window stays in the wall.</p>
+
+<h2 id="when-new-makes-sense">When a New Window Really Makes Sense</h2>
+
+<p>Replacement is the right call sometimes, and a good tradesperson will tell you so. Signs the frame itself is the problem:</p>
+
+<ul>
+  <li>Soft, rotting or crumbling wood in the frame or sill.</li>
+  <li>Vinyl that's cracked at the corners, warped or pulling apart at the welds.</li>
+  <li>A frame that's no longer square, so the sash can't close evenly no matter what hardware you put on.</li>
+  <li>Water getting in around the frame itself, not just through the glass.</li>
+  <li>Very old single-pane or aluminum windows where you want a big jump in comfort and energy use.</li>
+</ul>
+
+<p>If none of these apply, ask why replacement is being recommended. Our longer guide on <a href="/blog/window-repair-vs-replacement-toronto">repair vs replacement</a> goes into more detail.</p>
+
+<h2 id="red-flags">Red Flags in a Quote</h2>
+
+<ul>
+  <li><strong>Only one option.</strong> You asked about one window and got a price for the whole house, with no repair option at all.</li>
+  <li><strong>No one looked at the hardware.</strong> They quoted replacement without opening the window, checking the crank or looking at the frame up close.</li>
+  <li><strong>Pressure to sign today.</strong> "This price is only good if you sign now" is a sales tactic, not a property of glass.</li>
+  <li><strong>No written price.</strong> A verbal number that changes later, or a quote with no breakdown of what's included.</li>
+  <li><strong>Age as the only reason.</strong> "They're 15 years old, so they're done" isn't a diagnosis. Plenty of 15 to 25 year old frames are in good shape with failed glass or worn hardware.</li>
+</ul>
+
+<h2 id="questions-to-ask">Questions to Ask Before You Agree to Anything</h2>
+
+<ol>
+  <li>What exactly is broken, and can you show me?</li>
+  <li>Can this part be replaced on its own, keeping my frame?</li>
+  <li>What does the repair cost compared with a new window?</li>
+  <li>What's covered by the warranty, for how long, and on which parts?</li>
+  <li>Can I have the price in writing before any work starts?</li>
+</ol>
+
+<p>A company that's confident in its advice will answer all five without hesitating.</p>
+
+<h2 id="how-we-handle-it">How We Handle It</h2>
+
+<p>We're a repair-first glass company. That means we look at the part that failed and try to fix that first. We replace the whole window only when the frame itself is done, and we'll show you why.</p>
+
+<p>On a visit, the technician checks the window, explains what's wrong and gives you a written price on the spot. The visit is $30, credited toward the job if you go ahead. If something else in the house needs attention, we'll mention it, but there's no package and no pressure. You can also <a href="/contact">send us a photo</a> first and we'll tell you what it likely needs.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Is replacing just the glass really cheaper?</h3>
+<p>In most cases, yes, by a wide margin, because you keep the frame, trim and interior finish. Our <a href="/blog/foggy-window-repair-cost-gta">foggy window repair cost guide</a> shows what affects the price.</p>
+
+<h3>Will new glass match my other windows?</h3>
+<p>The new sealed unit is made to the size of your existing one, with grilles to match if your window has them. From the inside and outside, it looks like the rest of the window.</p>
+
+<h3>What if my frame turns out to be the problem?</h3>
+<p>Then we'll tell you, show you what we found and give you the options. Sometimes it's one window, not the whole house.</p>
+
+<p>Not sure what your window needs? Book a visit or send a photo, and get a straight answer with the price in writing.</p>
+`,
+  },
   {
     slug: "window-wont-close-or-lock",
     title: "Window Won't Close or Lock? Here Is What to Check",
