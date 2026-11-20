@@ -6,6 +6,8 @@ import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
+import { CityAreaSection } from "@/components/city/CityAreaSection";
+import { cityFaqs, cityProcess, cityProblems, cityCta, oneFor } from "@/lib/city-variety";
 import type { SkylightCityPageData } from "@/lib/skylight-city-data";
 
 const VALID_SLUGS = new Set([
@@ -26,43 +28,11 @@ const COMMON_PROBLEMS = [
   { text: "Failed flashing, worn sealant, or hardware that won't open or close", icon: Wrench },
 ];
 
-const PROCESS_STEPS = [
-  {
-    step: "Send Photos",
-    desc: "A few photos from inside and one from outside (if safe to take) tell us most of what we need. We quote from photos at no charge.",
-  },
-  {
-    step: "Written Quote",
-    desc: "You get a written price covering glass, labour, materials and warranty. If an in-person look is needed, the visit is $30, credited back if the work goes ahead.",
-  },
-  {
-    step: "Measure and Order",
-    desc: "We measure the skylight and order a new sealed glass unit made to size. Standard sizes are often in stock; custom glass takes 5-15 business days.",
-  },
-  {
-    step: "Install and Leak-Test",
-    desc: "We install the glass or complete the repair, leak-test the skylight from the roof, and clean up. Every job carries a warranty on your invoice.",
-  },
-];
 
-const UNIVERSAL_FAQS = [
-  {
-    q: "Can you fix a skylight without replacing the whole unit?",
-    a: "In most cases, yes. If the frame is sound, we replace only the sealed glass unit or fix the flashing and seals. Full skylight replacement is only needed when the frame is rotted or structurally damaged.",
-  },
-  {
-    q: "What does skylight repair cost?",
-    a: "It depends on the problem, the size and type of skylight, and how accessible the roof is. Sealant and flashing repairs cost less than glass replacement, and glass replacement costs far less than replacing the entire skylight. We quote per job from photos.",
-  },
-  {
-    q: "What warranty do you offer on skylight repair?",
-    a: "New sealed glass units carry a 5-year warranty against seal failure and 2 years on workmanship. Hardware repairs like cranks and hinges come with 1 year on parts and labour.",
-  },
-];
 
 function generateSchemas(city: SkylightCityPageData) {
   const pageUrl = `/skylight-repair-${city.slug}`;
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("skylight", city.slug), city.citySpecificFaq];
 
   return [
     generateCityServiceSchema({
@@ -83,7 +53,7 @@ function generateSchemas(city: SkylightCityPageData) {
 }
 
 export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData }) {
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("skylight", city.slug), city.citySpecificFaq];
   const nearby = (NEARBY_CITIES[city.slug] ?? []).filter(n => VALID_SLUGS.has(n.slug));
 
   return (
@@ -112,7 +82,7 @@ export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData })
 
           <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2">
             <ShieldCheck className="w-4 h-4" aria-hidden="true" />
-            <span>5-Year Seal Warranty + 2-Year Glass Workmanship</span>
+            <span>2 Years Parts &amp; Labour, Up to 5 Years on Glass</span>
           </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">
@@ -149,6 +119,8 @@ export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData })
       {/* Local City Content */}
       <LocalCityContent citySlug={city.slug} type="skylights" />
 
+      <CityAreaSection citySlug={city.slug} city={city.city} service="skylight" />
+
       {/* City-Specific Content */}
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
@@ -165,7 +137,7 @@ export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData })
           Common Skylight Problems
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {COMMON_PROBLEMS.map((item) => (
+          {cityProblems("skylight", city.slug).map((text, i) => ({ text, icon: COMMON_PROBLEMS[i % COMMON_PROBLEMS.length].icon })).map((item) => (
             <div
               key={item.text}
               className="flex items-start gap-3 bg-white rounded-xl border border-gray-100 p-5"
@@ -186,7 +158,7 @@ export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData })
             How Skylight Repair Works
           </h2>
           <div className="space-y-6">
-            {PROCESS_STEPS.map((item, i) => (
+            {cityProcess("skylight", city.slug).map((item, i) => (
               <div key={item.step} className="flex gap-4">
                 <div className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">
                   {i + 1}
@@ -208,7 +180,7 @@ export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData })
             Areas We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            We serve all neighbourhoods listed below and the surrounding areas:
+            {oneFor(["We cover every neighbourhood below and the streets around them.", "These are the neighbourhoods we visit most, plus everything in between.", "Our crews work across all of these areas and the surrounding streets.", "If your street is near one of these, we cover it."], `serve:${city.slug}`)}
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (
@@ -249,7 +221,7 @@ export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData })
         </div>
       </section>
 
-      <ServiceTestimonials service="skylights" />
+      <ServiceTestimonials service="skylights" seed={city.slug} />
 
       {/* FAQ */}
       <section className="py-12 md:py-16">
@@ -304,7 +276,7 @@ export function SkylightCityPageLayout({ city }: { city: SkylightCityPageData })
             Need Skylight Repair in {city.city}?
           </h2>
           <p className="text-blue-100 text-lg mb-8 leading-relaxed">
-            Send us a few photos and we&#39;ll quote the job, usually the same day. For active leaks, call us 24/7.
+            {cityCta("skylight", city.slug, city.city, city.neighborhoods)}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

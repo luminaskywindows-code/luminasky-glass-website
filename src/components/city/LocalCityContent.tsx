@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { getLocalCityContent } from "@/lib/local-city-content";
+import { oneFor } from "@/lib/city-variety";
 
 interface LocalCityContentProps {
   citySlug: string;
-  type: "window-repair" | "foggy-windows" | "front-door-glass" | "cranks" | "patio-door-repair" | "commercial-glass-repair" | "skylights";
+  type: "window-repair" | "foggy-windows" | "front-door-glass" | "cranks" | "patio-door-repair" | "commercial-glass-repair" | "skylights" | "emergency-glass-repair";
 }
 
 export function LocalCityContent({ citySlug, type }: LocalCityContentProps) {
@@ -19,6 +20,7 @@ export function LocalCityContent({ citySlug, type }: LocalCityContentProps) {
     "patio-door-repair": "Patio Door Repair: Local Guide",
     "commercial-glass-repair": "Commercial Glass Repair: Local Guide",
     "skylights": "Skylight Repair: Local Guide",
+    "emergency-glass-repair": "Emergency Glass: Local Guide",
   };
   const heading = headingMap[type] || "Glass Services: Local Guide";
 
@@ -32,14 +34,14 @@ export function LocalCityContent({ citySlug, type }: LocalCityContentProps) {
         <div className="space-y-8">
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Building Permits and Regulations
+              {oneFor(["Building Permits and Regulations", "Do You Need a Permit?", "Permits and Local Rules"], `h:Buildi:${type}:${citySlug}`)}
             </h3>
             <p className="text-gray-600 leading-relaxed">{sections.permits}</p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Common Window Issues in Local Homes
+              {oneFor(["Common Window Issues in Local Homes", "What Local Homes Are Built With", "The Housing Stock Here"], `h:Common:${type}:${citySlug}`)}
             </h3>
             <p className="text-gray-600 leading-relaxed">
               {sections.housingStock}
@@ -48,14 +50,21 @@ export function LocalCityContent({ citySlug, type }: LocalCityContentProps) {
 
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Climate and Weather Impact
+              {oneFor(["Climate and Weather Impact", "How the Weather Affects Glass Here", "Local Weather and Your Windows"], `h:Climat:${type}:${citySlug}`)}
             </h3>
             <p className="text-gray-600 leading-relaxed">{sections.climate}</p>
           </div>
 
+          {sections.neighborhoods && (
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Where We Work</h3>
+              <p className="text-gray-600 leading-relaxed">{sections.neighborhoods}</p>
+            </div>
+          )}
+
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Response Time and Scheduling
+              {oneFor(["Response Time and Scheduling", "How Fast We Get There", "Travel Time and Booking"], `h:Respon:${type}:${citySlug}`)}
             </h3>
             <p className="text-gray-600 leading-relaxed">
               {sections.responseTime}
@@ -64,27 +73,17 @@ export function LocalCityContent({ citySlug, type }: LocalCityContentProps) {
 
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Pricing and Warranty
+              {oneFor(["Pricing and Warranty", "What It Costs and What Is Covered", "Price and Warranty"], `h:Pricin:${type}:${citySlug}`)}
             </h3>
-            <p className="text-gray-600 leading-relaxed mb-3">
-              {sections.pricingWarranty}
-            </p>
             <p className="text-gray-600 leading-relaxed">
-              For a full pricing breakdown, see our{" "}
+              {oneFor(["For a full pricing breakdown, see our", "Typical prices by size and glass type are in our", "You can compare prices for common sizes in our"], `lc:${type}:${citySlug}`)}{" "}
               <Link
                 href="/glass-replacement-cost-report-2026"
                 className="text-primary font-semibold hover:underline"
               >
                 glass replacement cost guide
               </Link>
-              . Call{" "}
-              <a
-                href="tel:+14373448490"
-                className="text-primary font-semibold hover:underline"
-              >
-                437-344-8490
-              </a>{" "}
-              for a quote specific to your address.
+              .
             </p>
           </div>
         </div>

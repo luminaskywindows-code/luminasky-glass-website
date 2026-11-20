@@ -7,6 +7,8 @@ import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema 
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import type { FrontDoorGlassCityPageData } from "@/lib/front-door-glass-city-data";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
+import { CityAreaSection } from "@/components/city/CityAreaSection";
+import { cityFaqs, cityProcess, cityProblems, cityCta, oneFor } from "@/lib/city-variety";
 
 const VALID_SLUGS = new Set([
   "toronto", "mississauga", "vaughan", "thornhill", "richmond-hill",
@@ -22,43 +24,11 @@ const SIGNS_YOU_NEED_REPLACEMENT = [
   { text: "An outdated design you want to refresh", icon: Paintbrush },
 ];
 
-const PROCESS_STEPS = [
-  {
-    step: "Photo Quote",
-    desc: "Send us a photo of your front door glass. We quote most jobs from photos alone, usually the same day.",
-  },
-  {
-    step: "On-Site Measurement",
-    desc: "We measure the glass opening at your door. No need to remove the door from the frame.",
-  },
-  {
-    step: "Glass Ordered to Size",
-    desc: "Your replacement glass is custom-ordered to fit your exact opening. Decorative, frosted, clear, or privacy options available.",
-  },
-  {
-    step: "Installation",
-    desc: "We remove the old insert and fit the new glass panel. The door stays on its hinges. Sealed for a weather-tight fit.",
-  },
-];
 
-const UNIVERSAL_FAQS = [
-  {
-    q: "Is replacing the glass cheaper than replacing the whole door?",
-    a: "Yes, in most cases. You keep your door, frame, and hardware. Only the glass panel is replaced.",
-  },
-  {
-    q: "Can you match my existing decorative glass pattern?",
-    a: "Yes. Send a photo of your current glass and we will match the design and dimensions.",
-  },
-  {
-    q: "How long does front door glass replacement take?",
-    a: "Installation is typically done in a single visit. Custom or decorative glass needs to be ordered to size, and the lead time depends on the design. We give you a clear timeline with your quote.",
-  },
-];
 
 function generateSchemas(city: FrontDoorGlassCityPageData) {
   const pageUrl = `/front-door-glass-${city.slug}`;
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("front-door", city.slug), city.citySpecificFaq];
 
   return [
     generateCityServiceSchema({
@@ -79,7 +49,7 @@ function generateSchemas(city: FrontDoorGlassCityPageData) {
 }
 
 export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCityPageData }) {
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("front-door", city.slug), city.citySpecificFaq];
   const nearby = (NEARBY_CITIES[city.slug] ?? []).filter(n => VALID_SLUGS.has(n.slug));
 
   return (
@@ -109,7 +79,7 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
 
           <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2">
             <Shield className="w-4 h-4" aria-hidden="true" />
-            <span>Backed by our <strong>5-Year Warranty</strong> on sealed glass units</span>
+            <span>Glass backed by <strong>2 years parts and labour</strong>, up to 5 years on the glass</span>
           </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">
@@ -146,6 +116,8 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
       {/* Local City Content */}
       <LocalCityContent citySlug={city.slug} type="front-door-glass" />
 
+      <CityAreaSection citySlug={city.slug} city={city.city} service="front-door" />
+
       {/* City-Specific Content */}
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
@@ -162,7 +134,7 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
           Signs Your Door Glass Needs Replacing
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {SIGNS_YOU_NEED_REPLACEMENT.map((sign) => (
+          {cityProblems("front-door", city.slug).map((text, i) => ({ text, icon: SIGNS_YOU_NEED_REPLACEMENT[i % SIGNS_YOU_NEED_REPLACEMENT.length].icon })).map((sign) => (
             <div
               key={sign.text}
               className="flex items-start gap-3 bg-white rounded-xl border border-gray-100 p-5"
@@ -183,7 +155,7 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
             How We Replace Front Door Glass
           </h2>
           <div className="space-y-6">
-            {PROCESS_STEPS.map((item, i) => (
+            {cityProcess("front-door", city.slug).map((item, i) => (
               <div key={item.step} className="flex gap-4">
                 <div className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">
                   {i + 1}
@@ -205,7 +177,7 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
             Areas We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            We serve all neighbourhoods listed below and the surrounding areas:
+            {oneFor(["We cover every neighbourhood below and the streets around them.", "These are the neighbourhoods we visit most, plus everything in between.", "Our crews work across all of these areas and the surrounding streets.", "If your street is near one of these, we cover it."], `serve:${city.slug}`)}
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (
@@ -246,7 +218,7 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
         </div>
       </section>
 
-      <ServiceTestimonials service="front-door-glass" />
+      <ServiceTestimonials service="front-door-glass" seed={city.slug} />
 
       {/* FAQ */}
       <section className="py-12 md:py-16">
@@ -301,9 +273,9 @@ export function FrontDoorGlassCityPageLayout({ city }: { city: FrontDoorGlassCit
             Get a Quote for Front Door Glass in {city.city}
           </h2>
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">
-            Send us a photo of your door glass and rough measurements. We quote most jobs from photos alone. No visit required, no obligation.
+            {cityCta("front-door", city.slug, city.city, city.neighborhoods)}
           </p>
-          <p className="text-blue-300 text-xs mb-8">5-year seal warranty on glass units, 2 years on workmanship.</p>
+          <p className="text-blue-300 text-xs mb-8">Glass: 2 years parts and labour, then up to 5 years on the glass.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}

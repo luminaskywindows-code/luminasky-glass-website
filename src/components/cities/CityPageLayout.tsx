@@ -1,13 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin, Phone, MessageCircle, Star, ChevronRight, Wrench, Clock, Shield, Truck } from "lucide-react";
+import { MapPin, Phone, MessageCircle, Star, ChevronRight, Wrench, Shield } from "lucide-react";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { LocalCityContent } from "@/components/city/LocalCityContent";
+import { CityAreaSection } from "@/components/city/CityAreaSection";
+import { cityProcess, oneFor, pickFor } from "@/lib/city-variety";
+import { REVIEWS } from "@/components/shared/ServiceTestimonials";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema, generateHowToSchema } from "@/lib/schema";
 import type { CityPageData } from "@/lib/city-pages-data";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
-import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
 
 export function CityPageLayout({ city }: { city: CityPageData }) {
   const nearby = NEARBY_CITIES[city.slug] ?? [];
@@ -70,7 +72,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
 
           <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mb-8">
             <Shield className="w-4 h-4" aria-hidden="true" />
-            <span>Backed by our <strong>5-Year Warranty</strong> on sealed glass units</span>
+            <span>Glass backed by <strong>2 years parts and labour</strong>, up to 5 years on the glass</span>
           </Link>
 
           <div className="flex flex-wrap gap-4">
@@ -110,6 +112,8 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
       {/* Local City Content */}
       <LocalCityContent citySlug={city.slug} type="window-repair" />
 
+      <CityAreaSection citySlug={city.slug} city={city.city} service="window-repair" />
+
       {/* Services */}
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
@@ -140,29 +144,6 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-          Why Homeowners Choose Us
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            { icon: Clock, title: "Fast Response", desc: "Same-day or next-day appointments. Emergency calls answered 24/7." },
-            { icon: Wrench, title: "Repair, Not Replace", desc: "We fix the broken part (the glass, the crank, the seal) without tearing out your whole window or door." },
-            { icon: Shield, title: "5-Year Warranty", desc: "Sealed glass units backed by our 5-year seal warranty plus 2 years on workmanship. Hardware repairs covered under a separate 1-year warranty." },
-            { icon: Truck, title: "We Come to You", desc: "Fully mobile service. We bring everything we need to your door. No trips to a shop required." },
-          ].map((item) => (
-            <div key={item.title} className="text-center">
-              <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
-                <item.icon className="w-6 h-6 text-primary" aria-hidden="true" />
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-1">{item.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* How It Works */}
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
@@ -170,12 +151,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
             How It Works
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { step: "1", title: "Send a Photo", desc: "Text or WhatsApp a photo of the problem to 437-344-8490. It takes 30 seconds." },
-              { step: "2", title: "Get a Quote Range", desc: "We reply with a written quote range the same day, no charge and no obligation." },
-              { step: "3", title: "We Measure On Site", desc: "$30 site visit fee, credited toward your repair. We take exact measurements for custom glass." },
-              { step: "4", title: "Glass Ordered and Installed", desc: "Your glass is custom-made and installed, usually within a week. Hardware repairs are typically done on the first visit." },
-            ].map((item) => (
+            {cityProcess("window-repair", city.slug).map((p, idx) => ({ step: String(idx + 1), title: p.step, desc: p.desc })).map((item) => (
               <div key={item.step} className="relative bg-white rounded-xl border border-gray-200 p-6">
                 <span className="absolute -top-3 left-4 bg-primary text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center">
                   {item.step}
@@ -277,7 +253,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
       )}
 
       {/* Review */}
-      {city.review && (
+      {(() => { const rv = pickFor(REVIEWS, `wr:review:${city.slug}`, 1)[0]; return rv && (
       <section className="bg-blue-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8 text-center">
           <div className="flex items-center justify-center gap-1 mb-4">
@@ -286,13 +262,13 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
             ))}
           </div>
           <blockquote className="text-gray-700 text-lg md:text-xl leading-relaxed italic mb-4">
-            &ldquo;{city.review.text}&rdquo;
+            &ldquo;{rv.text}&rdquo;
           </blockquote>
-          <p className="font-semibold text-gray-900">{city.review.name}</p>
-          <p className="text-gray-500 text-sm">{city.review.service} · Google Review</p>
+          <p className="font-semibold text-gray-900">{rv.name}</p>
+          <p className="text-gray-500 text-sm">Google Review</p>
         </div>
       </section>
-      )}
+      ); })()}
 
       {/* Neighborhoods */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
@@ -300,7 +276,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
           Areas We Cover in {city.city}
         </h2>
         <p className="text-gray-500 mb-6 max-w-2xl">
-          We serve all neighbourhoods listed below and the surrounding areas:
+          {oneFor(["We cover every neighbourhood below and the streets around them.", "These are the neighbourhoods we visit most, plus everything in between.", "Our crews work across all of these areas and the surrounding streets.", "If your street is near one of these, we cover it."], `serve:${city.slug}`)}
         </p>
         <div className="flex flex-wrap gap-2">
           {city.neighborhoods.map((n) => (
@@ -315,7 +291,6 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
         </div>
       </section>
 
-      <ServiceTestimonials service="glass-replacement" />
 
       {/* FAQ */}
       {city.faqs.length > 0 && (
@@ -346,8 +321,8 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <div className="bg-gray-50 rounded-xl border border-gray-200 p-6 flex flex-col sm:flex-row items-center gap-4">
           <div className="flex-1">
-            <p className="font-semibold text-gray-900">Want to know what affects repair pricing?</p>
-            <p className="text-gray-500 text-sm mt-1">Our guide covers the factors that determine your quote: glass type, size, accessibility and more.</p>
+            <p className="font-semibold text-gray-900">{oneFor(["Want to know what affects repair pricing?", "Curious what a repair usually costs?", "See typical prices before you book"], `pq:${city.slug}`)}</p>
+            <p className="text-gray-500 text-sm mt-1">{oneFor(["Glass type, size and how easy the window is to reach all change the price. The guide explains each one.", "Our cost guide lists common sizes and glass types with typical price ranges.", "Real price ranges for the jobs we do most, and what pushes a price up or down."], `pg:${city.slug}`)}</p>
           </div>
           <Link href="/window-repair-cost" className="shrink-0 inline-flex items-center gap-1 text-primary font-semibold text-sm hover:underline">
             Window repair cost guide <ChevronRight className="w-4 h-4" aria-hidden="true" />
@@ -383,7 +358,7 @@ export function CityPageLayout({ city }: { city: CityPageData }) {
             Get a Quote in {city.city}
           </h2>
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">{city.closingCTA}</p>
-          <p className="text-blue-300 text-xs mb-8">5-year seal warranty on glass units, 2 years on workmanship. 1-year warranty on hardware repairs (parts and labour).</p>
+          <p className="text-blue-300 text-xs mb-8">Glass: 2 years parts and labour, then up to 5 years on the glass. 1-year warranty on hardware repairs (parts and labour).</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}

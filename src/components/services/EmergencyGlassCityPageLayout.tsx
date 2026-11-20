@@ -5,6 +5,9 @@ import { WhatsAppLink } from "@/components/layout/WhatsAppLink";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
+import { LocalCityContent } from "@/components/city/LocalCityContent";
+import { CityAreaSection } from "@/components/city/CityAreaSection";
+import { cityFaqs, cityProcess, cityProblems, cityCta, oneFor } from "@/lib/city-variety";
 import type { EmergencyGlassCityPageData } from "@/lib/emergency-glass-city-data";
 
 const VALID_SLUGS = new Set([
@@ -20,43 +23,11 @@ const COMMON_EMERGENCIES = [
   { text: "Cracked skylight or window leaking after impact damage", icon: Clock },
 ];
 
-const PROCESS_STEPS = [
-  {
-    step: "Call Us Any Time",
-    desc: "Call 437-344-8490 around the clock. Describe what happened and we will arrange an emergency visit.",
-  },
-  {
-    step: "Board-Up and Secure",
-    desc: "We board up the opening with plywood or polycarbonate sheeting to secure your home and keep the weather out. We clean up broken glass inside and out.",
-  },
-  {
-    step: "Measure for Replacement Glass",
-    desc: "Once the opening is secure, we measure for permanent replacement glass. Glass is custom-made to fit your specific window or door.",
-  },
-  {
-    step: "Install Permanent Glass",
-    desc: "When the new sealed unit is ready, we remove the board-up and install the permanent glass. Standard sizes may be available within days. Custom glass takes 5 to 15 business days.",
-  },
-];
 
-const UNIVERSAL_FAQS = [
-  {
-    q: "Is there an extra charge for after-hours emergency glass repair?",
-    a: "No. There is no after-hours surcharge. The same rates apply at 2 AM as at 2 PM. We are available 24/7.",
-  },
-  {
-    q: "How long does the board-up last?",
-    a: "The board-up is weather-tight and secure. It stays in place until the permanent replacement glass is ready, which is typically a few days for standard sizes or 5 to 15 business days for custom glass.",
-  },
-  {
-    q: "What warranty do you offer on emergency glass replacement?",
-    a: "New sealed glass units carry a 5-year warranty against seal failure and 2 years on glass workmanship. The board-up itself is a temporary measure included in the service.",
-  },
-];
 
 function generateSchemas(city: EmergencyGlassCityPageData) {
   const pageUrl = `/emergency-glass-repair-${city.slug}`;
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("emergency", city.slug), city.citySpecificFaq];
 
   return [
     generateCityServiceSchema({
@@ -77,7 +48,7 @@ function generateSchemas(city: EmergencyGlassCityPageData) {
 }
 
 export function EmergencyGlassCityPageLayout({ city }: { city: EmergencyGlassCityPageData }) {
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("emergency", city.slug), city.citySpecificFaq];
   const nearby = (NEARBY_CITIES[city.slug] ?? []).filter(n => VALID_SLUGS.has(n.slug));
 
   return (
@@ -110,7 +81,7 @@ export function EmergencyGlassCityPageLayout({ city }: { city: EmergencyGlassCit
 
           <Link href="/warranty" className="inline-flex items-center gap-2 text-red-200 hover:text-white transition-colors text-sm mt-2">
             <ShieldCheck className="w-4 h-4" aria-hidden="true" />
-            <span>5-Year Seal Warranty + 2-Year Glass Workmanship</span>
+            <span>2 Years Parts &amp; Labour, Up to 5 Years on Glass</span>
           </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">
@@ -144,6 +115,10 @@ export function EmergencyGlassCityPageLayout({ city }: { city: EmergencyGlassCit
         </div>
       </section>
 
+      <CityAreaSection citySlug={city.slug} city={city.city} service="emergency" />
+
+      <LocalCityContent citySlug={city.slug} type="emergency-glass-repair" />
+
       {/* City-Specific Content */}
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
@@ -160,7 +135,7 @@ export function EmergencyGlassCityPageLayout({ city }: { city: EmergencyGlassCit
           Common Glass Emergencies
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {COMMON_EMERGENCIES.map((item) => (
+          {cityProblems("emergency", city.slug).map((text, i) => ({ text, icon: COMMON_EMERGENCIES[i % COMMON_EMERGENCIES.length].icon })).map((item) => (
             <div
               key={item.text}
               className="flex items-start gap-3 bg-white rounded-xl border border-gray-100 p-5"
@@ -181,7 +156,7 @@ export function EmergencyGlassCityPageLayout({ city }: { city: EmergencyGlassCit
             How Emergency Glass Repair Works
           </h2>
           <div className="space-y-6">
-            {PROCESS_STEPS.map((item, i) => (
+            {cityProcess("emergency", city.slug).map((item, i) => (
               <div key={item.step} className="flex gap-4">
                 <div className="w-8 h-8 bg-red-700 text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">
                   {i + 1}
@@ -203,7 +178,7 @@ export function EmergencyGlassCityPageLayout({ city }: { city: EmergencyGlassCit
             Areas We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            We respond to emergency glass calls in all neighbourhoods listed below and the surrounding areas:
+            {oneFor(["We take emergency calls from every neighbourhood below and the streets around them.", "Broken glass in any of these areas? We come out the same day.", "These are the areas we reach most often after hours, plus everything in between."], `serve:${city.slug}`)}
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (
@@ -244,7 +219,7 @@ export function EmergencyGlassCityPageLayout({ city }: { city: EmergencyGlassCit
         </div>
       </section>
 
-      <ServiceTestimonials service="emergency-glass-repair" />
+      <ServiceTestimonials service="emergency-glass-repair" seed={city.slug} />
 
       {/* FAQ */}
       <section className="py-12 md:py-16">
@@ -299,7 +274,7 @@ export function EmergencyGlassCityPageLayout({ city }: { city: EmergencyGlassCit
             Broken Glass in {city.city}? Call Now.
           </h2>
           <p className="text-red-100 text-lg mb-8 leading-relaxed">
-            We respond 24/7 for emergency board-up and glass replacement. No after-hours surcharge. Your home secured tonight, permanent glass installed as soon as it is ready.
+            {cityCta("emergency", city.slug, city.city, city.neighborhoods)}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

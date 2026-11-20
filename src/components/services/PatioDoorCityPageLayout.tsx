@@ -6,6 +6,8 @@ import { LocalCityContent } from "@/components/city/LocalCityContent";
 import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
+import { CityAreaSection } from "@/components/city/CityAreaSection";
+import { cityFaqs, cityProcess, cityProblems, cityCta, oneFor } from "@/lib/city-variety";
 import type { PatioDoorCityPageData } from "@/lib/patio-door-city-data";
 
 const VALID_SLUGS = new Set([
@@ -27,43 +29,11 @@ const COMMON_PROBLEMS = [
   { text: "Drafts or water getting in at the bottom rail", icon: Wind },
 ];
 
-const PROCESS_STEPS = [
-  {
-    step: "Send a Photo or Video",
-    desc: "A short video of the door sliding tells us most of what we need. Text or WhatsApp it over.",
-  },
-  {
-    step: "$30 Visit with Written Quote",
-    desc: "Our technician inspects the rollers, track and hardware, then gives you a written quote on the spot.",
-  },
-  {
-    step: "$30 Credited Back",
-    desc: "The visit fee is applied to the repair cost. If you go ahead, the visit is on us.",
-  },
-  {
-    step: "Repair on Site",
-    desc: "Roller, track and hardware repairs are done on the same visit. Glass replacements are measured and installed on a second visit once the glass is ready.",
-  },
-];
 
-const UNIVERSAL_FAQS = [
-  {
-    q: "Can a sliding patio door be fixed without replacing the whole door?",
-    a: "Almost always. The glass and frame outlast the moving parts by decades. Worn rollers, damaged tracks and misaligned panels are all repairable. Full replacement is rarely needed.",
-  },
-  {
-    q: "How much does patio door repair cost?",
-    a: "It depends on the roller type, track condition and panel size. We quote per job on-site. Patio door repair is typically a fraction of what a new door costs. Send a photo or video for an initial assessment.",
-  },
-  {
-    q: "Can you replace patio door glass?",
-    a: "Yes. We replace the sealed glass unit in your existing panel with tempered safety glass made to size. The glass takes 5 to 15 business days depending on size and type.",
-  },
-];
 
 function generateSchemas(city: PatioDoorCityPageData) {
   const pageUrl = `/patio-door-repair-${city.slug}`;
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("patio", city.slug), city.citySpecificFaq];
 
   return [
     generateCityServiceSchema({
@@ -84,7 +54,7 @@ function generateSchemas(city: PatioDoorCityPageData) {
 }
 
 export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData }) {
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("patio", city.slug), city.citySpecificFaq];
   const nearby = (NEARBY_CITIES[city.slug] ?? []).filter(n => VALID_SLUGS.has(n.slug));
 
   return (
@@ -113,7 +83,7 @@ export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData 
 
           <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2">
             <ShieldCheck className="w-4 h-4" aria-hidden="true" />
-            <span>5-Year Seal Warranty + 2-Year Glass Workmanship</span>
+            <span>2 Years Parts &amp; Labour, Up to 5 Years on Glass</span>
           </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">
@@ -150,6 +120,8 @@ export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData 
       {/* Local City Content */}
       <LocalCityContent citySlug={city.slug} type="patio-door-repair" />
 
+      <CityAreaSection citySlug={city.slug} city={city.city} service="patio" />
+
       {/* City-Specific Content */}
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
@@ -166,7 +138,7 @@ export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData 
           Common Patio Door Problems
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {COMMON_PROBLEMS.map((problem) => (
+          {cityProblems("patio", city.slug).map((text, i) => ({ text, icon: COMMON_PROBLEMS[i % COMMON_PROBLEMS.length].icon })).map((problem) => (
             <div
               key={problem.text}
               className="flex items-start gap-3 bg-white rounded-xl border border-gray-100 p-5"
@@ -187,7 +159,7 @@ export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData 
             How Patio Door Repair Works
           </h2>
           <div className="space-y-6">
-            {PROCESS_STEPS.map((item, i) => (
+            {cityProcess("patio", city.slug).map((item, i) => (
               <div key={item.step} className="flex gap-4">
                 <div className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">
                   {i + 1}
@@ -209,7 +181,7 @@ export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData 
             Areas We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            We serve all neighbourhoods listed below and the surrounding areas:
+            {oneFor(["We cover every neighbourhood below and the streets around them.", "These are the neighbourhoods we visit most, plus everything in between.", "Our crews work across all of these areas and the surrounding streets.", "If your street is near one of these, we cover it."], `serve:${city.slug}`)}
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (
@@ -250,7 +222,7 @@ export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData 
         </div>
       </section>
 
-      <ServiceTestimonials service="patio-door-repair" />
+      <ServiceTestimonials service="patio-door-repair" seed={city.slug} />
 
       {/* FAQ */}
       <section className="py-12 md:py-16">
@@ -305,9 +277,9 @@ export function PatioDoorCityPageLayout({ city }: { city: PatioDoorCityPageData 
             Get Your {city.city} Patio Door Sliding Again
           </h2>
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">
-            Send us a photo or a short video of the door. We can usually tell what it needs from that alone. $30 visit fee credited back when you proceed.
+            {cityCta("patio", city.slug, city.city, city.neighborhoods)}
           </p>
-          <p className="text-blue-300 text-xs mb-8">5-year seal warranty on glass units, 2 years on workmanship. 1-year warranty on hardware repairs.</p>
+          <p className="text-blue-300 text-xs mb-8">Glass: 2 years parts and labour, then up to 5 years on the glass. 1-year warranty on hardware repairs.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}

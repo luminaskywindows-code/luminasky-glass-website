@@ -7,11 +7,25 @@ import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema,
 import type { FoggyGlassCityPageData } from "@/lib/foggy-glass-city-data";
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
+import { CityAreaSection } from "@/components/city/CityAreaSection";
+import { cityFaqs, cityProblems, cityCta, oneFor, pickFor } from "@/lib/city-variety";
 
-const SEAL_FAILURE_EXPLANATION = [
-  "A sealed glass unit (the industry calls it an IGU, insulated glass unit) is two or three panes of glass separated by a spacer bar and sealed at the perimeter. The space between is filled with argon or krypton gas and desiccant beads that absorb moisture.",
-  "When that seal breaks down: argon gas escapes, outside air seeps in bringing moisture, and the desiccant saturates. Once saturated, condensation forms between the panes: the familiar 'foggy window' look. From that point, the fog will never clear on its own.",
-  "The frame, sash, and hardware are usually still fine. Only the sealed glass unit needs replacing. That's why we can restore a foggy window at a fraction of the cost of full window replacement.",
+const SEAL_FAILURE_EXPLANATION: string[][] = [
+  [
+    "A sealed glass unit is two or three panes held apart by a spacer around the edge and sealed shut. The gap is filled with dry air or argon, and a desiccant inside the spacer soaks up any moisture left from manufacturing.",
+    "Heat and cold make the panes expand and shrink every day, and over the years that movement wears out the edge seal. Moist air gets in, the desiccant fills up, and condensation forms between the panes. From then on the fog will not clear by itself.",
+    "The frame, sash and hardware are usually still fine. Only the sealed unit needs replacing, which costs a fraction of a new window.",
+  ],
+  [
+    "Most sealed units last 10 to 25 years. South-facing windows get the most sun and heat, so they often fail sooner, sometimes in under 12 years.",
+    "Argon, the gas used in most units, conducts heat about a third less than air. When the seal fails, the argon leaks out and damp air replaces it, so the window loses insulating value as well as clarity.",
+    "Drilling and venting a foggy unit can clear it for a while, but it does not restore the seal or the gas. Replacing the unit in the existing frame is the fix that lasts.",
+  ],
+  [
+    "The edge of a sealed unit holds everything together: the spacer, the sealant and the desiccant. Older units often used aluminum spacers, which conduct cold and can leave water or ice along the bottom of the glass.",
+    "Once moisture gets past the seal and the desiccant is full, you see haze, droplets or white streaks between the panes. Wiping either side of the glass will not touch it.",
+    "Newer units use warm-edge spacers and Low-E coatings, so a replacement often performs better than the original, in the same frame.",
+  ],
 ];
 
 const SEAL_FAILURE_SIGNS = [
@@ -22,26 +36,26 @@ const SEAL_FAILURE_SIGNS = [
   { text: "The window feels colder to the touch in winter than nearby windows", icon: Thermometer },
 ];
 
-const COST_CONTENT = [
-  "Every window is different, so we quote from photos. Send us a photo and we'll give you a price, usually the same day.",
-  "Every quote we give is all-in: measurement, glass, installation, cleanup, and warranty. No $99 bait pricing that balloons on the invoice.",
-  "Send us a few photos and rough dimensions. No visit required for most quotes.",
+const COST_CONTENT: string[][] = [
+  [
+    "The price depends on the size of the unit, the glass type and how easy the window is to reach. From a clear photo we can usually give you a range.",
+    "On the $30 visit we measure and give you the exact price in writing, covering the glass, installation, clean-up and warranty. The $30 is credited back when you go ahead.",
+  ],
+  [
+    "Small units cost less than large picture windows, and Low-E, tinted or grilled glass adds a little. Upper-floor windows can add access time.",
+    "You get one written price after we measure, with nothing added later. The visit fee comes off the bill if you proceed.",
+  ],
+  [
+    "Replacing the glass costs far less than a new window, because the frame, trim and walls stay as they are.",
+    "Send a photo for a rough range, then we measure on site and put the exact price in writing before ordering anything.",
+  ],
 ];
 
-const UNIVERSAL_FAQS = [
-  {
-    q: "Can foggy windows be fixed without replacing the whole window?",
-    a: "Yes. In most cases we replace only the sealed glass unit while keeping your existing frame, sash, and hardware. It's faster and less invasive than a full window replacement.",
-  },
-  {
-    q: "How long does foggy glass repair take?",
-    a: "The on-site work is usually quick. Far less disruption than a full window replacement. After measurements are confirmed, the replacement glass unit needs to be ordered. We'll give you a clear timeline based on your specific glass once we've assessed it.",
-  },
-];
+
 
 function generateSchemas(city: FoggyGlassCityPageData) {
   const pageUrl = `/foggy-glass-repair-${city.slug}`;
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("foggy", city.slug), city.citySpecificFaq];
 
   return [
     generateCityServiceSchema({
@@ -66,14 +80,14 @@ function generateSchemas(city: FoggyGlassCityPageData) {
         { name: "Book a Site Visit", text: "Schedule a convenient time. Our $30 site visit fee is credited toward your repair." },
         { name: "Measurement and Quote", text: "A technician inspects the failed seal, takes exact measurements, and provides a written quote on the spot." },
         { name: "Glass Fabrication", text: "Your new sealed glass unit is custom-made to your exact measurements and specifications." },
-        { name: "Installation", text: "We install the new sealed unit into your existing frame, verify the seal, and clean up. Backed by our 5-year seal warranty." },
+        { name: "Installation", text: "We install the new sealed unit into your existing frame, verify the seal, and clean up. Covered 2 years on parts and labour, then up to 5 years on the glass." },
       ],
     }),
   ];
 }
 
 export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageData }) {
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("foggy", city.slug), city.citySpecificFaq];
   const nearby = NEARBY_CITIES[city.slug] ?? [];
 
   return (
@@ -103,7 +117,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
 
           <Link href="/warranty" className="inline-flex items-center gap-2 text-accent-light hover:text-white transition-colors text-sm mt-2">
             <Shield className="w-4 h-4" aria-hidden="true" />
-            <span>Backed by our <strong>5-Year Warranty</strong> on sealed glass units</span>
+            <span>Glass backed by <strong>2 years parts and labour</strong>, up to 5 years on the glass</span>
           </Link>
 
           <div className="flex flex-wrap gap-4 mt-8">
@@ -140,6 +154,8 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
       {/* Local City Content */}
       <LocalCityContent citySlug={city.slug} type="foggy-windows" />
 
+      <CityAreaSection citySlug={city.slug} city={city.city} service="foggy" />
+
       {/* City-Specific Content */}
       {city.uniqueContent && (
         <section className="bg-gray-50 py-12 md:py-16">
@@ -158,7 +174,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
             How Sealed Glass Unit Failure Works
           </h2>
-          {SEAL_FAILURE_EXPLANATION.map((p, i) => (
+          {pickFor(SEAL_FAILURE_EXPLANATION.flat(), `foggy:why:${city.slug}`, 2).map((p, i) => (
             <p key={i} className="text-gray-600 text-lg leading-relaxed mb-4 last:mb-0">
               {p}
             </p>
@@ -172,7 +188,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
           Signs Your Window Seal Has Failed
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {SEAL_FAILURE_SIGNS.map((sign) => (
+          {cityProblems("foggy", city.slug).map((text, i) => ({ text, icon: SEAL_FAILURE_SIGNS[i % SEAL_FAILURE_SIGNS.length].icon })).map((sign) => (
             <div
               key={sign.text}
               className="flex items-start gap-3 bg-white rounded-xl border border-gray-100 p-5"
@@ -193,7 +209,7 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
             Areas We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            We serve all neighbourhoods listed below and the surrounding areas:
+            {oneFor(["We cover every neighbourhood below and the streets around them.", "These are the neighbourhoods we visit most, plus everything in between.", "Our crews work across all of these areas and the surrounding streets.", "If your street is near one of these, we cover it."], `serve:${city.slug}`)}
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (
@@ -238,19 +254,19 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
             Foggy Glass Repair Cost
           </h2>
-          {COST_CONTENT.map((p, i) => (
+          {pickFor(COST_CONTENT.flat(), `foggy:cost:${city.slug}`, 1).map((p, i) => (
             <p key={i} className="text-gray-600 text-lg leading-relaxed mb-4 last:mb-0">
               {p}
             </p>
           ))}
           <p className="text-gray-600 text-lg leading-relaxed mt-4">
-            For a full breakdown of what drives repair pricing, see our{" "}
+            {oneFor(["For a full breakdown of what drives repair pricing, see our", "Typical prices for common window sizes are in our", "To compare prices by size and glass type, check our"], `fcost:${city.slug}`)}{" "}
             <Link href="/window-repair-cost" className="text-primary font-semibold hover:underline">window repair cost guide</Link>.
           </p>
         </div>
       </section>
 
-      <ServiceTestimonials service="foggy-windows" />
+      <ServiceTestimonials service="foggy-windows" seed={city.slug} />
 
       {/* Section 5: FAQ */}
       <section className="bg-gray-50 py-12 md:py-16">
@@ -303,9 +319,9 @@ export function FoggyGlassCityPageLayout({ city }: { city: FoggyGlassCityPageDat
             Get a Quote for Foggy Glass Repair in {city.city}
           </h2>
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">
-            Send us a few photos and rough measurements. We quote most jobs from photos alone. No visit required, no obligation, no pressure.
+            {cityCta("foggy", city.slug, city.city, city.neighborhoods)}
           </p>
-          <p className="text-blue-300 text-xs mb-8">5-year seal warranty on glass units, 2 years on workmanship.</p>
+          <p className="text-blue-300 text-xs mb-8">Glass: 2 years parts and labour, then up to 5 years on the glass.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PHONE_HREF}

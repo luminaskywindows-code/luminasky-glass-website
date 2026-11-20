@@ -1,14 +1,15 @@
+import { pickFor } from "@/lib/city-variety";
 import { Star } from "lucide-react";
 import { GOOGLE_REVIEW_URL } from "@/lib/constants";
 
-interface Review {
+export interface Review {
   name: string;
   location: string;
   rating: number;
   text: string;
 }
 
-const REVIEWS: Review[] = [
+export const REVIEWS: Review[] = [
   {
     name: "Rick David",
     location: "Local Guide · Google Review",
@@ -49,9 +50,11 @@ const SERVICE_REVIEW_MAP: Record<string, number[]> = {
   "patio-door-repair": [1, 3],
 };
 
-export function ServiceTestimonials({ service }: { service: string }) {
-  const indices = SERVICE_REVIEW_MAP[service] ?? [1, 3];
-  const picks = indices.map((i) => REVIEWS[i]);
+export function ServiceTestimonials({ service, seed }: { service: string; seed?: string }) {
+  // On city pages (seed = city) each city shows its own pair of real reviews
+  const picks = seed
+    ? pickFor(REVIEWS, `${service}:reviews:${seed}`, 1)
+    : (SERVICE_REVIEW_MAP[service] ?? [1, 3]).map((i) => REVIEWS[i]);
 
   return (
     <section className="py-16 px-4 md:px-8 bg-gray-50" aria-labelledby="reviews-heading">

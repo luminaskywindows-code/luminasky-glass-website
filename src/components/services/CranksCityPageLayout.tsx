@@ -7,6 +7,8 @@ import { generateCityServiceSchema, generateBreadcrumbSchema, generateFAQSchema 
 import { NEARBY_CITIES } from "@/lib/nearby-cities";
 import type { CranksCityPageData } from "@/lib/cranks-city-data";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";
+import { CityAreaSection } from "@/components/city/CityAreaSection";
+import { cityFaqs, cityProcess, cityProblems, cityCta, oneFor } from "@/lib/city-variety";
 
 const VALID_SLUGS = new Set([
   "toronto", "mississauga", "vaughan", "thornhill", "richmond-hill",
@@ -27,43 +29,11 @@ const COMMON_PROBLEMS = [
   { text: "Gears grinding or making noise", icon: Wrench },
 ];
 
-const PROCESS_STEPS = [
-  {
-    step: "Send a Photo",
-    desc: "Snap a photo of the broken crank and send it by text or WhatsApp. We identify the part and let you know what to expect.",
-  },
-  {
-    step: "$30 Visit with Written Quote",
-    desc: "Our technician visits, inspects the hardware on the spot, and gives you a written quote before starting any work.",
-  },
-  {
-    step: "$30 Credited Back",
-    desc: "The visit fee is applied directly to the cost of your repair. If you go ahead, the visit is on us.",
-  },
-  {
-    step: "Repair on the Spot",
-    desc: "Most crank repairs are completed during the same visit. We carry common operators and handles on our truck.",
-  },
-];
 
-const UNIVERSAL_FAQS = [
-  {
-    q: "How much does a window crank repair cost?",
-    a: "It depends on the operator type and how many windows need repair. We give you a written quote on-site before starting any work. The $30 visit fee is credited back if you proceed.",
-  },
-  {
-    q: "Can you fix a crank if the handle broke off?",
-    a: "Usually, yes. If the operator gears are still sound, a new handle is all you need. If the gears are stripped, we replace the full mechanism.",
-  },
-  {
-    q: "Do you repair both casement and awning window cranks?",
-    a: "Yes. We carry operators for both casement and awning windows. They use different mechanisms, and we stock both types.",
-  },
-];
 
 function generateSchemas(city: CranksCityPageData) {
   const pageUrl = `/window-crank-repair-${city.slug}`;
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("cranks", city.slug), city.citySpecificFaq];
 
   return [
     generateCityServiceSchema({
@@ -84,7 +54,7 @@ function generateSchemas(city: CranksCityPageData) {
 }
 
 export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
-  const allFaqs = [...UNIVERSAL_FAQS, city.citySpecificFaq];
+  const allFaqs = [...cityFaqs("cranks", city.slug), city.citySpecificFaq];
   const nearby = (NEARBY_CITIES[city.slug] ?? []).filter(n => VALID_SLUGS.has(n.slug));
 
   return (
@@ -150,6 +120,8 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
       {/* Local City Content */}
       <LocalCityContent citySlug={city.slug} type="cranks" />
 
+      <CityAreaSection citySlug={city.slug} city={city.city} service="cranks" />
+
       {/* City-Specific Content */}
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
@@ -166,7 +138,7 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
           Common Crank Problems
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {COMMON_PROBLEMS.map((problem) => (
+          {cityProblems("cranks", city.slug).map((text, i) => ({ text, icon: COMMON_PROBLEMS[i % COMMON_PROBLEMS.length].icon })).map((problem) => (
             <div
               key={problem.text}
               className="flex items-start gap-3 bg-white rounded-xl border border-gray-100 p-5"
@@ -187,7 +159,7 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
             How Crank Repair Works
           </h2>
           <div className="space-y-6">
-            {PROCESS_STEPS.map((item, i) => (
+            {cityProcess("cranks", city.slug).map((item, i) => (
               <div key={item.step} className="flex gap-4">
                 <div className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">
                   {i + 1}
@@ -209,7 +181,7 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
             Areas We Serve in {city.city}
           </h2>
           <p className="text-gray-500 mb-6 max-w-2xl">
-            We serve all neighbourhoods listed below and the surrounding areas:
+            {oneFor(["We cover every neighbourhood below and the streets around them.", "These are the neighbourhoods we visit most, plus everything in between.", "Our crews work across all of these areas and the surrounding streets.", "If your street is near one of these, we cover it."], `serve:${city.slug}`)}
           </p>
           <div className="flex flex-wrap gap-2">
             {city.neighborhoods.map((n) => (
@@ -250,7 +222,7 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
         </div>
       </section>
 
-      <ServiceTestimonials service="cranks" />
+      <ServiceTestimonials service="cranks" seed={city.slug} />
 
       {/* FAQ */}
       <section className="py-12 md:py-16">
@@ -305,7 +277,7 @@ export function CranksCityPageLayout({ city }: { city: CranksCityPageData }) {
             Get Your {city.city} Window Cranks Fixed
           </h2>
           <p className="text-blue-100 text-lg mb-4 leading-relaxed">
-            Send us a photo of the broken crank. We identify the part and give you a clear price. $30 visit fee credited back when you proceed.
+            {cityCta("cranks", city.slug, city.city, city.neighborhoods)}
           </p>
           <p className="text-blue-300 text-xs mb-8">1-year warranty on all crank repairs.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
