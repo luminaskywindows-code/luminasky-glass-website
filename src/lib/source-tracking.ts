@@ -18,8 +18,12 @@ export interface SourceData {
 interface StoredSource {
   first: SourceData;
   last: SourceData;
+  /** the latest visit that came from a paid ad, if any (an ad visit after a direct one used to be lost) */
+  paid?: SourceData;
   expires: number;
 }
+
+const isPaid = (d: SourceData) => !!(d.gclid || d.fbclid || /^(cpc|ppc|paid)/i.test(d.utm_medium));
 
 function deriveSource(data: Omit<SourceData, "source">): string {
   if (data.gclid) return data.utm_campaign ? `Google Ads / ${data.utm_campaign}` : "Google Ads";
@@ -74,11 +78,12 @@ export function initSourceTracking(): void {
       const stored: StoredSource = JSON.parse(existing);
       if (stored.expires > Date.now()) {
         stored.last = current;
+        if (isPaid(current)) stored.paid = current;
         localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
         return;
       }
     }
-    const fresh: StoredSource = { first: current, last: current, expires };
+    const fresh: StoredSource = { first: current, last: current, paid: isPaid(current) ? current : undefined, expires };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(fresh));
   } catch {
     // localStorage unavailable, tracking degrades gracefully
@@ -107,7 +112,11 @@ export function getSourceData(): SourceData {
     if (!raw) return fallback;
     const stored: StoredSource = JSON.parse(raw);
     if (stored.expires < Date.now()) return fallback;
-    return stored.first;
+    // Paid ad click in the last 90 days wins (that's what the ad budget needs to know).
+    // Otherwise the first visit, unless it told us nothing (Direct) and a later visit did.
+    let pick = stored.paid || stored.first;
+    if (!stored.paid && stored.first.source === "Direct" && stored.last && stored.last.source !== "Direct") pick = stored.last;
+    return { ...pick, first_visit_at: stored.first.first_visit_at, landing_page: pick.landing_page || stored.first.landing_page };
   } catch {
     return fallback;
   }
