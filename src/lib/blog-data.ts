@@ -16,6 +16,473 @@
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "vinyl-window-glass-replacement",
+    title: "Replacing the Glass in a Vinyl Window: How It Works and What It Costs",
+    metaTitle: "Vinyl Window Glass Replacement: How It Works and What Affects the Price",
+    metaDescription:
+      "Your vinyl window frame is fine but the glass is foggy or cracked. Here's how glass-only replacement works, how long it takes, and what drives the price.",
+    excerpt:
+      "Most vinyl windows in GTA homes are built so the glass can come out without touching the frame. If the frame is solid and only the glass failed, you usually don't need a new window at all.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Glass Replacement", "Vinyl Windows", "Foggy Glass"],
+    sections: [
+      { id: "can-it-be-done", title: "Can You Replace Just the Glass?" },
+      { id: "how-vinyl-holds-glass", title: "How a Vinyl Window Holds Its Glass" },
+      { id: "when-glass-only", title: "When Glass-Only Makes Sense" },
+      { id: "when-not", title: "When It Doesn't" },
+      { id: "how-it-works", title: "How the Job Goes, Step by Step" },
+      { id: "price", title: "What Affects the Price" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>A lot of people assume that when the glass in a vinyl window fogs up or cracks, the whole window has to go. Usually it doesn't. The glass in most vinyl windows is a separate part that sits inside the frame, and it can be swapped on its own.</p>
+
+<p>Here's how that works, when it's the right call, and what changes the price.</p>
+
+<h2 id="can-it-be-done">Can You Replace Just the Glass?</h2>
+
+<p>In most cases, yes. What looks like "the glass" is really a sealed unit: two or three panes held apart by a spacer and sealed around the edge. That unit is made to a size, and a new one can be made to the same size and fitted into your existing frame.</p>
+
+<p>The frame, the trim inside and out, the caulking around the house and the hardware all stay where they are. Nothing gets torn out of the wall.</p>
+
+<h2 id="how-vinyl-holds-glass">How a Vinyl Window Holds Its Glass</h2>
+
+<p>Vinyl windows hold the sealed unit in place with thin strips called glazing stops (or glazing beads). They snap into a channel around the glass. On most windows they're on the inside, on some they're outside.</p>
+
+<p>To change the glass, the technician pops the stops out, lifts out the old unit, sets the new one on small blocks so it sits level, and snaps the stops back in. On a casement or awning window, the glass is in the sash that opens. On a sliding window, the sash usually lifts out first. On a fixed picture window, the unit comes out of the main frame.</p>
+
+<h2 id="when-glass-only">When Glass-Only Makes Sense</h2>
+
+<ul>
+  <li><strong>Fog or moisture between the panes.</strong> The seal failed. The frame is almost never the problem. Our page on <a href="/foggy-windows">foggy windows</a> explains why cleaning won't fix it.</li>
+  <li><strong>A cracked pane.</strong> Whether something hit it or it cracked from heat stress, the frame is usually fine.</li>
+  <li><strong>You want different glass.</strong> Low-E, tinted, frosted for a bathroom, or tempered for safety, in the same frame.</li>
+  <li><strong>The window opens, closes and locks properly.</strong> If the frame and hardware work, there's no reason to pay for them again.</li>
+</ul>
+
+<h2 id="when-not">When It Doesn't</h2>
+
+<p>Glass-only isn't the answer every time. A new window can make more sense when:</p>
+
+<ul>
+  <li>The vinyl frame is cracked, warped or brittle, or the corners have split.</li>
+  <li>Water is getting in around the frame itself, not through the glass.</li>
+  <li>Several windows in the house are failing at once and the frames are near the end of their life too.</li>
+  <li>The window is a style that's hard to make glass for, like some older units with an unusual profile.</li>
+</ul>
+
+<p>A technician can usually tell within a few minutes which one you're dealing with. We'd rather fix a window than sell you one, and we'll tell you plainly if a repair isn't worth it. More on that in <a href="/blog/will-glass-company-sell-me-new-windows">will a glass company try to sell me new windows</a>.</p>
+
+<h2 id="how-it-works">How the Job Goes, Step by Step</h2>
+
+<ol>
+  <li><strong>Visit and measure.</strong> The technician checks the frame, measures the glass to the eighth of an inch, notes the thickness and any grilles, and gives you a written price on the spot.</li>
+  <li><strong>The unit is made.</strong> Sealed units are built to order, so there's a wait between measuring and install. You get the timeline with the price.</li>
+  <li><strong>Install.</strong> The old unit comes out, the new one goes in, the stops go back. For a typical window it's a short visit, and the opening is only exposed for a few minutes.</li>
+</ol>
+
+<h2 id="price">What Affects the Price</h2>
+
+<p>We don't quote an exact number over the phone, because the price depends on things we need to see. The main ones:</p>
+
+<ul>
+  <li><strong>Size.</strong> Bigger glass costs more to make and is harder to handle.</li>
+  <li><strong>Double or triple pane.</strong> Triple costs more.</li>
+  <li><strong>Glass type.</strong> Low-E, argon, tempered, laminated, frosted or tinted all change the cost.</li>
+  <li><strong>Grilles.</strong> Grilles between the panes have to be matched and built into the new unit.</li>
+  <li><strong>Access.</strong> A second-floor window or one that needs the sash taken out adds time.</li>
+</ul>
+
+<p>For real price ranges from GTA jobs, see our <a href="/glass-replacement-cost-report-2026">glass replacement cost report</a>. The visit is $30, and it's credited to the job if you go ahead.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Will the new glass match my other windows?</h3>
+<p>We match the thickness, grilles and look of the original as closely as we can. Clear glass looks the same. If your old glass has a coating that's faded over the years, the new unit can look slightly brighter at first.</p>
+
+<h3>Is there a warranty on the new glass?</h3>
+<p>Yes. New sealed units are covered for 2 years on parts and labour, then up to 5 years on the glass itself. The details are on our <a href="/warranty">warranty page</a>.</p>
+
+<h3>Can it be done in winter?</h3>
+<p>Yes. The window is only open for a few minutes during the swap. See <a href="/blog/replace-window-glass-in-winter">replacing window glass in winter</a>.</p>
+
+<h3>Do I need to be home?</h3>
+<p>For the measuring visit, yes. For the install, someone needs to let the technician in.</p>
+
+<p>If your vinyl window has foggy or cracked glass, send us a photo or book a visit and we'll tell you whether the glass alone will do it.</p>
+`,
+  },
+  {
+    slug: "casement-window-repair-hinges-cranks-locks",
+    title: "Casement Window Repair: Hinges, Cranks and Locks Explained",
+    metaTitle: "Casement Window Repair: Fixing Hinges, Cranks and Locks",
+    metaDescription:
+      "Casement window sagging, hard to crank or not locking? Here's which part usually failed, how to check it yourself, and what the repair involves.",
+    excerpt:
+      "A casement window has three parts that do most of the work: the hinges, the crank and the lock. When one of them goes, the window sags, sticks or won't close tight. Each one can be replaced without touching the glass or the frame.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Window Hardware", "Window Cranks", "Casement Windows"],
+    sections: [
+      { id: "three-parts", title: "The Three Parts That Wear Out" },
+      { id: "hinges", title: "Hinges: When the Window Sags or Drags" },
+      { id: "crank", title: "The Crank: When It Spins or Grinds" },
+      { id: "locks", title: "Locks: When It Won't Close Tight" },
+      { id: "check-yourself", title: "A Two-Minute Check You Can Do" },
+      { id: "repair-or-replace", title: "Repair or a New Window?" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Casement windows are the ones that crank open from the side, like a door. They seal tightly and they're common in GTA homes built in the last 30 years. They also have more moving parts than a sliding window, and those parts wear out.</p>
+
+<p>The good news is that almost every casement problem comes down to one of three pieces of hardware, and each one can be replaced on its own.</p>
+
+<h2 id="three-parts">The Three Parts That Wear Out</h2>
+
+<ul>
+  <li><strong>The hinges</strong> (also called arms or tracks), at the top and bottom of the sash. They carry the weight of the glass.</li>
+  <li><strong>The crank</strong> (the operator), the gearbox and handle that push the window open and pull it closed.</li>
+  <li><strong>The locks</strong>, the lever or handle that pulls the sash tight against the frame when it's closed.</li>
+</ul>
+
+<h2 id="hinges">Hinges: When the Window Sags or Drags</h2>
+
+<p>The hinges hold the full weight of the sash every time it opens. Over the years the rivets loosen, the sliding shoe wears down, or the arm bends. Signs it's the hinges:</p>
+
+<ul>
+  <li>The bottom corner of the sash drags on the frame when you close it.</li>
+  <li>There's a visible gap at the top or bottom when the window is shut.</li>
+  <li>The window opens crooked or wobbles when it's open.</li>
+  <li>You hear a scrape or a click from the top or bottom track.</li>
+</ul>
+
+<p>A worn hinge also puts extra strain on the crank, which is why the two often fail together. Hinges come in many lengths and styles, so the technician matches the old one before replacing it.</p>
+
+<h2 id="crank">The Crank: When It Spins or Grinds</h2>
+
+<p>The crank has small gears inside. When they strip, you get a handle that turns but doesn't move the window, or one that grinds and jumps. Our guide on <a href="/blog/window-crank-repair-toronto">why window cranks break</a> goes deeper, but the short version:</p>
+
+<ul>
+  <li><strong>Handle spins freely:</strong> the handle itself may be stripped, which is a cheap fix. Or the gears inside the operator are gone.</li>
+  <li><strong>Grinds or jumps:</strong> worn gears, usually from forcing the window when it was stuck or frozen.</li>
+  <li><strong>Window opens partway and stops:</strong> often the arm has come off its track on the sash.</li>
+</ul>
+
+<p>See <a href="/cranks">our crank repair page</a> for how we match operators to your window brand.</p>
+
+<h2 id="locks">Locks: When It Won't Close Tight</h2>
+
+<p>On most casements, closing the crank isn't enough. The lock pulls the sash in the last little bit so the weatherstripping seals. If the lock is worn or out of line, you'll notice:</p>
+
+<ul>
+  <li>A draft or whistle around the window even when it's shut.</li>
+  <li>The lock handle won't move, or moves but doesn't pull anything.</li>
+  <li>Frost or water on the inside edge of the frame in winter.</li>
+</ul>
+
+<p>Sometimes the lock is fine and the sash is sagging, so the lock's hooks miss the keepers on the sash. That's a hinge problem showing up as a lock problem.</p>
+
+<h2 id="check-yourself">A Two-Minute Check You Can Do</h2>
+
+<ol>
+  <li>Open the window fully and look at the top and bottom tracks. Are any rivets loose, any arms bent, any pieces cracked?</li>
+  <li>Close it slowly. Watch where it touches the frame first.</li>
+  <li>With it closed, check for daylight around the edges.</li>
+  <li>Work the lock. Does it pull the sash in, or just flop?</li>
+  <li>Take a photo of the crank, the tracks and the lock. That's usually enough for us to tell you what it needs.</li>
+</ol>
+
+<p>Don't force a stuck casement in winter. If it's frozen shut, wait for it to thaw. Forcing it is one of the most common ways cranks get stripped.</p>
+
+<h2 id="repair-or-replace">Repair or a New Window?</h2>
+
+<p>If the glass is clear and the frame is solid, a hardware repair is almost always the better deal. New hinges, a new crank or new locks bring the window back to working like it should, for a small part of the cost of a new window.</p>
+
+<p>A new window is worth thinking about when the frame itself is rotted, cracked or bent, so new hardware has nothing solid to screw into. Our article on <a href="/blog/window-repair-vs-replacement-toronto">window repair vs replacement</a> covers that decision.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Do I need the exact same brand of parts?</h3>
+<p>Not always, but the part has to match the size and mounting of the old one. Many window brands share hardware, and there are universal replacements for most of them. The technician checks before installing.</p>
+
+<h3>Is there a warranty on hardware repairs?</h3>
+<p>Yes, hardware repairs come with a 1-year warranty on parts and labour. See our <a href="/warranty">warranty page</a>.</p>
+
+<h3>Can you fix just one window?</h3>
+<p>Yes. One crank or one set of hinges is a normal job for us.</p>
+
+<h3>Should I oil the hinges?</h3>
+<p>A dry silicone spray on the tracks once a year helps. Avoid heavy grease, which collects dirt.</p>
+
+<p>If your casement sags, sticks or won't lock, send us a photo of the hardware or book a visit, and we'll tell you which part failed.</p>
+`,
+  },
+  {
+    slug: "cost-to-fix-condensation-double-glazed-windows",
+    title: "How Much Does It Cost to Fix Condensation in Double Glazed Windows?",
+    metaTitle: "Cost to Fix Condensation Between Double Glazed Window Panes",
+    metaDescription:
+      "Moisture between the panes of a double glazed window means the seal failed. Here's what the fix actually is, what changes the price, and what to skip.",
+    excerpt:
+      "If the fog is between the two panes, wiping won't touch it. The seal has failed, and the fix is a new sealed unit in your existing frame. Here's what that involves and what makes the price go up or down.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 5,
+    tags: ["Foggy Glass", "Pricing", "Sealed Units"],
+    sections: [
+      { id: "where-is-it", title: "First: Where Is the Condensation?" },
+      { id: "what-the-fix-is", title: "What the Fix Actually Is" },
+      { id: "defogging", title: "What About Defogging Services?" },
+      { id: "what-changes-price", title: "What Changes the Price" },
+      { id: "keep-cost-down", title: "Ways to Keep the Cost Down" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>It's one of the most common questions we get. The window looks cloudy or has droplets you can't reach, and you want to know what it'll cost before you call anyone.</p>
+
+<p>The honest answer is that it depends on the size and type of glass. But we can tell you exactly what the fix is and what moves the price, so you know what you're paying for.</p>
+
+<h2 id="where-is-it">First: Where Is the Condensation?</h2>
+
+<p>Run your hand over the glass on both sides.</p>
+
+<ul>
+  <li><strong>Wet on the inside of the room:</strong> that's humidity in your house meeting cold glass. It's not a failed window. Lowering humidity usually fixes it. See <a href="/blog/window-condensation-in-winter">window condensation in winter</a>.</li>
+  <li><strong>Wet on the outside:</strong> that's normal on cool mornings and actually a sign of good glass. See <a href="/blog/exterior-window-condensation-normal">condensation on the outside of your windows</a>.</li>
+  <li><strong>Can't wipe it from either side:</strong> the moisture is between the panes. The seal has failed. This is the one that needs a fix.</li>
+</ul>
+
+<h2 id="what-the-fix-is">What the Fix Actually Is</h2>
+
+<p>A double glazed window is two panes sealed together with a spacer and a dry, sealed space in between. When the seal breaks down, humid air gets in and condenses on the inner surfaces. Once that happens, the seal can't be restored.</p>
+
+<p>The fix is to replace the sealed glass unit. The frame, trim and hardware stay. We measure the glass, have a new unit made to size, and swap it into your existing frame. You're paying for the glass unit and the labour, not for a new window. Our <a href="/blog/why-windows-fog-between-panes">guide on why windows fog between the panes</a> explains the cause in more detail.</p>
+
+<h2 id="defogging">What About Defogging Services?</h2>
+
+<p>Some companies drill small holes in the glass, clean the inside and seal the holes. It can make the glass look clearer for a while. It doesn't restore the seal or the insulating gas, so the window doesn't insulate like it did, and the fog often comes back. We don't offer it, because we don't think it's money well spent.</p>
+
+<h2 id="what-changes-price">What Changes the Price</h2>
+
+<ul>
+  <li><strong>Size of the glass.</strong> The biggest factor by far.</li>
+  <li><strong>Double or triple pane.</strong></li>
+  <li><strong>Glass options.</strong> Low-E, argon, tempered (required by code near doors and floors), laminated, frosted.</li>
+  <li><strong>Grilles between the panes</strong>, which have to be matched.</li>
+  <li><strong>Shape.</strong> Arches and half-moons cost more than rectangles.</li>
+  <li><strong>Access.</strong> Upper floors and windows that need the sash removed take longer.</li>
+</ul>
+
+<p>For price ranges from real GTA jobs, see our <a href="/blog/foggy-window-repair-cost-gta">foggy window repair cost guide</a> and the <a href="/glass-replacement-cost-report-2026">2026 cost report</a>.</p>
+
+<h2 id="keep-cost-down">Ways to Keep the Cost Down</h2>
+
+<ul>
+  <li><strong>Do several windows in one visit.</strong> One trip, one order, so the price per window usually comes down.</li>
+  <li><strong>Don't replace the whole window for a glass problem.</strong> If the frame is good, a new sealed unit is a fraction of the cost.</li>
+  <li><strong>Send a clear photo first.</strong> A photo of the whole window and a tape measure across the glass gets you a rough range before anyone comes out.</li>
+  <li><strong>Check your warranty.</strong> If the windows are newer, the original manufacturer may still cover seal failure.</li>
+</ul>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Is it urgent?</h3>
+<p>Not usually. A foggy unit insulates less and looks bad, but it isn't dangerous. Over time the moisture can leave permanent marks inside the glass, so it's better not to leave it for years.</p>
+
+<h3>Can it be done in winter?</h3>
+<p>Yes. The opening is only exposed for a few minutes during the swap.</p>
+
+<h3>What warranty comes with the new unit?</h3>
+<p>2 years on parts and labour, then up to 5 years on the glass. See the <a href="/warranty">warranty page</a>.</p>
+
+<p>If you have moisture between the panes, send us a photo or book a visit. The visit is $30, and it's credited to the job if you go ahead.</p>
+`,
+  },
+  {
+    slug: "is-it-worth-replacing-20-year-old-windows",
+    title: "Is It Worth Replacing 20 Year Old Windows?",
+    metaTitle: "Is It Worth Replacing 20 Year Old Windows? An Honest Answer",
+    metaDescription:
+      "Twenty years is when windows start showing their age, but age alone isn't a reason to replace them. Here's how to tell what your windows actually need.",
+    excerpt:
+      "A 20 year old window isn't automatically a dead window. Most of what fails at that age is the glass seal and the hardware, and both can be replaced without tearing out the frame.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Window Repair", "Window Replacement", "Homeowner Guide"],
+    sections: [
+      { id: "age-isnt-the-test", title: "Age Isn't the Test" },
+      { id: "what-fails-at-20", title: "What Usually Fails Around 20 Years" },
+      { id: "fixable", title: "Problems That Are Usually Fixable" },
+      { id: "replace", title: "Signs It Really Is Time" },
+      { id: "energy", title: "What About Energy Savings?" },
+      { id: "how-to-decide", title: "How to Decide, Window by Window" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Twenty years is about when windows start acting their age. A few units fog up, a crank strips, there's a draft in the corner of the living room. That's usually when someone knocks on the door with a quote for a full set of new windows.</p>
+
+<p>Sometimes that's the right move. Often it isn't. Here's how to tell.</p>
+
+<h2 id="age-isnt-the-test">Age Isn't the Test</h2>
+
+<p>A window is a frame, a sash, some hardware and a sealed glass unit. Those parts wear out at different rates. A good vinyl or wood frame can last far longer than 20 years. The glass seal and the moving hardware usually go first, and both are replaceable parts.</p>
+
+<p>So the useful question isn't "how old are my windows," it's "which part is failing."</p>
+
+<h2 id="what-fails-at-20">What Usually Fails Around 20 Years</h2>
+
+<ul>
+  <li><strong>Sealed units.</strong> Most last somewhere between 15 and 25 years before the seal lets go and they fog. See <a href="/blog/how-long-do-sealed-units-last">how long sealed units last</a>.</li>
+  <li><strong>Cranks and hinges</strong> on casement windows.</li>
+  <li><strong>Rollers</strong> on sliding windows and patio doors.</li>
+  <li><strong>Weatherstripping</strong>, which flattens and lets drafts in.</li>
+  <li><strong>Exterior caulking</strong> around the frame, which dries and cracks.</li>
+</ul>
+
+<h2 id="fixable">Problems That Are Usually Fixable</h2>
+
+<ul>
+  <li><strong>Fog between the panes:</strong> new sealed unit in the same frame. More on <a href="/foggy-windows">foggy windows</a>.</li>
+  <li><strong>Cracked glass:</strong> new sealed unit.</li>
+  <li><strong>Window won't open, close or lock:</strong> new crank, hinges or lock.</li>
+  <li><strong>Draft around a closed window:</strong> often weatherstripping or a sagging sash, not the window itself.</li>
+  <li><strong>Water or drafts around the outside of the frame:</strong> often old caulking.</li>
+</ul>
+
+<p>Fixing these brings the window back to working properly for a small part of the price of replacement.</p>
+
+<h2 id="replace">Signs It Really Is Time</h2>
+
+<p>A new window is the better spend when the frame itself is the problem:</p>
+
+<ul>
+  <li>Soft or rotted wood that a screwdriver sinks into.</li>
+  <li>Cracked, warped or split vinyl, especially at the corners.</li>
+  <li>Water coming in through the frame, not around it.</li>
+  <li>Single-pane glass in a heated room, if comfort matters to you.</li>
+  <li>Most windows in the house failing at the same time, so repairs would add up close to replacement anyway.</li>
+</ul>
+
+<h2 id="energy">What About Energy Savings?</h2>
+
+<p>New windows are more efficient, but the savings on heating are often smaller than people expect, and they take a long time to pay back the cost. A lot of the comfort you lose with old windows comes from failed seals and drafts, which repairs fix. If energy is your main reason, replacing foggy units with Low-E argon glass gets you much of the benefit in the frames you already have. Our guide on <a href="/blog/double-vs-triple-pane-low-e-argon">double, triple, Low-E and argon</a> explains the options.</p>
+
+<h2 id="how-to-decide">How to Decide, Window by Window</h2>
+
+<ol>
+  <li>Walk the house and make a list: which windows fog, which stick, which are drafty.</li>
+  <li>Check each frame: solid, or soft and cracked?</li>
+  <li>Get a price to repair the failing parts and compare it with the price of new windows for the same openings.</li>
+  <li>Fix what's fixable now. Plan replacement for frames that are actually done.</li>
+</ol>
+
+<p>You don't have to do the whole house at once. Mixing repaired windows and a few new ones is completely normal. More on this in <a href="/blog/window-repair-vs-replacement-toronto">window repair vs replacement</a>.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Will repaired windows hurt my home's resale?</h3>
+<p>Not if they work. Buyers and inspectors look for fog, drafts and broken hardware. Windows that open, lock and have clear glass read as fine.</p>
+
+<h3>Can you do just a few windows?</h3>
+<p>Yes. One window or ten, same process.</p>
+
+<h3>Do repairs come with a warranty?</h3>
+<p>New sealed units: 2 years parts and labour, then up to 5 years on the glass. Hardware repairs: 1 year. See the <a href="/warranty">warranty page</a>.</p>
+
+<p>If your windows are around 20 years old and starting to give you trouble, book a visit. We'll go through them with you and tell you which ones need a repair and which ones don't need anything.</p>
+`,
+  },
+  {
+    slug: "window-insert-replacement-vs-new-window",
+    title: "Window Insert Replacement vs a New Window: What's the Difference?",
+    metaTitle: "Window Insert Replacement vs New Window: Which Do You Need?",
+    metaDescription:
+      "Glass insert, sealed unit, thermopane, insert window: the words get mixed up. Here's what each one means and which fix fits your window.",
+    excerpt:
+      "When someone says they need a new window insert, they might mean new glass in the old frame, or a whole new window slid into the old opening. Those are very different jobs with very different prices.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 5,
+    tags: ["Glass Replacement", "Window Replacement", "Homeowner Guide"],
+    sections: [
+      { id: "words", title: "The Words Get Mixed Up" },
+      { id: "glass-insert", title: "Option 1: New Glass Insert, Same Frame" },
+      { id: "insert-window", title: "Option 2: Insert Window in the Old Opening" },
+      { id: "full-frame", title: "Option 3: Full-Frame Replacement" },
+      { id: "which-one", title: "Which One Do You Need?" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>"Window insert" is one of those terms that means different things depending on who's talking. Before you compare quotes, it's worth knowing which job is actually being priced.</p>
+
+<h2 id="words">The Words Get Mixed Up</h2>
+
+<p>You'll hear all of these used for the glass part of a window: sealed unit, insulated glass unit (IGU), thermopane, glass insert, double pane. They mean roughly the same thing: the panes and spacer that sit inside the sash or frame.</p>
+
+<p>But "insert window" or "insert replacement" in the window replacement world usually means a whole new window, frame and all, slid into the old frame. Same word, completely different job.</p>
+
+<h2 id="glass-insert">Option 1: New Glass Insert, Same Frame</h2>
+
+<p>Only the sealed glass unit is replaced. Your existing frame, sash, hardware, trim and outside caulking all stay.</p>
+
+<ul>
+  <li><strong>Fixes:</strong> fog between the panes, cracked or broken glass, changing to Low-E, tempered or frosted glass.</li>
+  <li><strong>Doesn't fix:</strong> a rotted or cracked frame, broken hardware (that's a separate repair).</li>
+  <li><strong>Disruption:</strong> minimal. Nothing inside or outside the wall is touched.</li>
+  <li><strong>Cost:</strong> the lowest of the three by a wide margin.</li>
+</ul>
+
+<p>This is most of what we do. See <a href="/glass-replacement">glass replacement</a>.</p>
+
+<h2 id="insert-window">Option 2: Insert Window in the Old Opening</h2>
+
+<p>The old sash and moving parts come out, and a complete new window, with its own frame, is fitted inside the old frame. The old outer frame stays in the wall and gets covered with trim.</p>
+
+<ul>
+  <li><strong>Fixes:</strong> worn-out sashes and hardware, single-pane windows you want to upgrade, frames that are tired but not rotted.</li>
+  <li><strong>Trade-off:</strong> the glass area gets a little smaller, because a new frame sits inside the old one.</li>
+  <li><strong>Cost:</strong> much more than new glass, less than full-frame replacement.</li>
+</ul>
+
+<h2 id="full-frame">Option 3: Full-Frame Replacement</h2>
+
+<p>Everything comes out down to the rough opening in the wall, and a brand new window is installed, with new trim and caulking.</p>
+
+<ul>
+  <li><strong>Fixes:</strong> rot, water damage in the frame or wall, changing the window size or style.</li>
+  <li><strong>Cost and disruption:</strong> the highest of the three.</li>
+</ul>
+
+<h2 id="which-one">Which One Do You Need?</h2>
+
+<ul>
+  <li><strong>Frame is solid, glass is foggy or cracked:</strong> new glass insert (Option 1).</li>
+  <li><strong>Frame is solid, hardware is broken:</strong> hardware repair, no new window needed. See <a href="/cranks">crank and hardware repair</a>.</li>
+  <li><strong>Sash is worn out or the window is single pane, frame is sound:</strong> an insert window may make sense.</li>
+  <li><strong>Frame is rotted or leaking:</strong> full-frame replacement.</li>
+</ul>
+
+<p>If you're comparing quotes, ask each company in writing which of these they're pricing. A glass-only price and a new-window price aren't comparable. Our article on <a href="/blog/will-glass-company-sell-me-new-windows">red flags in a window quote</a> has more questions worth asking.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Is a thermopane the same as a sealed unit?</h3>
+<p>Yes. Thermopane started as a brand name and became a general word for double pane sealed glass.</p>
+
+<h3>Can you put new glass in an old wood window?</h3>
+<p>Often yes, if the wood is solid. The technician checks the sash for rot before measuring.</p>
+
+<h3>How do I know if my frame is solid?</h3>
+<p>Press a screwdriver into the wood at the bottom corners. If it sinks in easily, the frame has rot. For vinyl, look for cracks at the corners.</p>
+
+<p>Not sure which one your window needs? Send us a photo or book a visit, and we'll tell you before anything gets ordered.</p>
+`,
+  },
+  {
     slug: "window-glass-cracked-by-itself",
     title: "Why Did My Window Glass Crack by Itself?",
     metaTitle: "Window Glass Cracked by Itself? Thermal Stress Cracks Explained",
