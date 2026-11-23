@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     absolute: "Window and Glass Repair Toronto: Fix, Don't Replace | LuminaSky",
   },
   description:
-    "Foggy glass, broken panes, stuck cranks. We repair first and give a written price on the spot. $30 visit, credited if you go ahead.",
+    "LuminaSky repairs foggy glass, broken panes and stuck cranks across the GTA. We fix first and give a written price on the spot. $30 visit, credited if you go ahead.",
   alternates: { canonical: "/" },
 };
 
