@@ -179,12 +179,10 @@ export default function AboutPage() {
                   replace only when necessary.
                 </p>
                 <p>
-                  LuminaSky is a family business. The repairs are done by
-                  David and his son Ronel, the same two people on every job,
-                  not a rotating crew. Dan, David&apos;s other son, answers the
-                  phone and handles quotes and scheduling. We&apos;re proud to
-                  be your honest second opinion when it comes to glass and
-                  window repair.
+                  Today, our team of licensed glaziers serves homes and
+                  businesses throughout the GTA, and we&apos;re proud to be
+                  your honest second opinion when it comes to glass and window
+                  repair.
                 </p>
               </div>
             </div>
