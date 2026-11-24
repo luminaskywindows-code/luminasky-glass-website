@@ -534,7 +534,7 @@ export const COMMERCIAL_GLASS_CITY_PAGES: CommercialGlassCityPageData[] = [
     region: "York Region",
     metaTitle: "Commercial Glass Repair Georgina | Storefronts",
     metaDescription:
-      "Commercial glass repair in Georgina. Storefront glass, door glass, safety glass and emergency board-up. Serving Keswick and Sutton. 2-year parts and labour warranty.",
+      "Commercial glass repair in Georgina. Storefront glass, door glass, safety glass and emergency board-up. Serving Keswick and Sutton. 2-year warranty.",
     intro:
       "Georgina's commercial areas in Keswick and Sutton serve the lakeside community with retail shops, restaurants and professional offices. When storefront or door glass breaks, fast service matters in this northern York Region town. We provide emergency board-up and glass replacement across the municipality.",
     uniqueContent:

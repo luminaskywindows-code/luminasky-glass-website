@@ -126,7 +126,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Peel Region",
     metaTitle: "Skylight Repair Brampton | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Brampton. Leak repair, fogged glass replacement, flashing and seal repair. Emergency skylight service available 24/7. 2-year parts and labour warranty.",
+      "Skylight repair in Brampton. Leak repair, fogged glass replacement, flashing and seal repair. Emergency service available 24/7. 2-year warranty.",
     intro:
       "Brampton's rapid growth over the past two decades means a lot of homes have skylights installed during the 2000s and 2010s that are now showing their first signs of seal failure. We also see plenty of 1990s homes in the Bramalea and Heart Lake areas where the skylights are well past their expected seal life. We repair leaks, replace glass, fix flashing and re-seal frames across all of Brampton.",
     uniqueContent:
@@ -483,7 +483,7 @@ export const SKYLIGHT_CITY_PAGES: SkylightCityPageData[] = [
     region: "Durham Region",
     metaTitle: "Skylight Repair Clarington | Leaks & Glass",
     metaDescription:
-      "Skylight repair in Clarington and Bowmanville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year parts and labour warranty.",
+      "Skylight repair in Clarington and Bowmanville. Leak repair, glass replacement, flashing and seal work. 24/7 emergency response. 2-year warranty.",
     intro:
       "Clarington, including Bowmanville, Courtice, and Newcastle, has a growing housing stock with skylights at various stages of wear. LuminaSky repairs leaks, replaces fogged glass, fixes flashing and re-seals skylight frames across all Clarington communities.",
     uniqueContent:

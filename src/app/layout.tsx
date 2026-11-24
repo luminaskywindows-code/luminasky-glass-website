@@ -76,7 +76,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#1E3A8A" />
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem("theme");if(t==="dark"||(t!=="light"&&matchMedia("(prefers-color-scheme:dark)").matches)){document.documentElement.classList.add("dark")}}catch(e){}})()`,
+            __html: `(function(){try{if(localStorage.getItem("theme")==="dark"){document.documentElement.classList.add("dark")}}catch(e){}})()`,
           }}
         />
         <link rel="manifest" href="/manifest.json" />
@@ -137,6 +137,12 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased">
         <ClarityInit />
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg"
+        >
+          Skip to main content
+        </a>
         <Navbar />
         <main id="main-content">{children}</main>
         <Footer />
