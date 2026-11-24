@@ -1,4 +1,4 @@
-﻿export interface BlogPost {
+export interface BlogPost {
   slug: string;
   title: string;
   metaTitle: string;
@@ -15,6 +15,841 @@
 }
 
 export const BLOG_POSTS: BlogPost[] = [
+  {
+    slug: "skylight-condensation-causes-fixes",
+    title: "Skylight Condensation: Why It Happens and What You Can Do About It",
+    metaTitle: "Skylight Condensation: Causes, Fixes, and When to Worry",
+    metaDescription:
+      "Moisture on your skylight isn't always a problem. Learn what causes skylight condensation, when it signals a real issue, and what repairs are available.",
+    excerpt:
+      "Some skylight condensation is normal in a Toronto winter. But if water is dripping or the glass is always foggy, something needs attention. Here is how to tell the difference.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Skylights", "Condensation", "Winter", "Home Maintenance"],
+    sections: [
+      { id: "why-skylights-condensate", title: "Why Skylights Get More Condensation" },
+      { id: "normal-vs-problem", title: "Normal vs Problem Condensation" },
+      { id: "interior-condensation", title: "Condensation on the Inside" },
+      { id: "between-panes", title: "Condensation Between the Panes" },
+      { id: "exterior-condensation", title: "Condensation on the Outside" },
+      { id: "reducing-condensation", title: "How to Reduce Skylight Condensation" },
+      { id: "when-to-replace", title: "When the Skylight Needs Repair or Replacement" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Skylights sit at the highest point of your ceiling, right where warm, moist air collects. That makes them more prone to condensation than vertical windows. In a GTA winter, some moisture on a skylight is expected. But there is a line between normal and problematic, and knowing where it is saves you from either ignoring a real issue or worrying about nothing.</p>
+
+<h2 id="why-skylights-condensate">Why Skylights Get More Condensation</h2>
+
+<p>Warm air rises. In any room, the warmest and most humid air ends up at ceiling height. A skylight sits in that warm, moist layer and its glass is cooled by outside air. When the glass surface temperature drops below the dew point of the indoor air, moisture condenses on it.</p>
+
+<p>Vertical windows get this too, but skylights get it more because:</p>
+<ul>
+  <li>They're at the highest point, where the warmest air sits</li>
+  <li>They're angled, so cold air pools against the glass more effectively</li>
+  <li>They often have less airflow around them than wall-mounted windows</li>
+</ul>
+
+<h2 id="normal-vs-problem">Normal vs Problem Condensation</h2>
+
+<p><strong>Normal:</strong> A light film of moisture on the inside of the glass on cold mornings, especially after cooking or showering. It clears as the room warms up or humidity drops.</p>
+
+<p><strong>Problem:</strong> Water dripping from the skylight frame. Persistent fog between the panes that never clears. Staining or mould on the ceiling around the frame. Ice forming on the inside of the glass.</p>
+
+<p>If moisture appears only on cold mornings and dries by midday, that's physics, not a defect. If it's constant, dripping, or between the panes, something needs fixing.</p>
+
+<h2 id="interior-condensation">Condensation on the Inside</h2>
+
+<p>Interior condensation means the humidity in your home is higher than the glass can handle at the current outdoor temperature. This is common in newer, tightly sealed homes that don't have much natural air exchange.</p>
+
+<p>Common causes:</p>
+<ul>
+  <li>Cooking, showering, or running a humidifier without ventilation</li>
+  <li>A bathroom or kitchen exhaust fan that vents into the attic instead of outside</li>
+  <li>Drying laundry indoors</li>
+  <li>A large number of houseplants in the room</li>
+</ul>
+
+<p>The fix is usually ventilation, not new glass. Run exhaust fans during and after cooking or showering. Make sure bathroom fans vent to the outdoors, not into the attic space above the skylight.</p>
+
+<h2 id="between-panes">Condensation Between the Panes</h2>
+
+<p>If the fog is between the two panes of glass and you can't wipe it off from either side, the sealed unit has failed. The seal that holds the gas fill between the panes has broken down, letting moisture in.</p>
+
+<p>This won't fix itself and will get worse over time. The glass needs replacing. On a skylight, this is a <a href="/skylights">skylight glass replacement</a>, which involves removing the old sealed unit and installing a new one in the existing frame.</p>
+
+<p>The process is similar to <a href="/foggy-windows">foggy window repair</a> on a vertical window, but skylights require working at height and ensuring the flashing and seals are watertight.</p>
+
+<h2 id="exterior-condensation">Condensation on the Outside</h2>
+
+<p>Moisture on the outside of the glass, usually on cool mornings, is actually a sign that your skylight is working well. It means the outer pane is staying cool because the insulating gas fill is preventing heat from escaping. This is normal and nothing to worry about.</p>
+
+<h2 id="reducing-condensation">How to Reduce Skylight Condensation</h2>
+
+<ol>
+  <li><strong>Lower indoor humidity.</strong> Aim for 30 to 40% relative humidity in winter. A hygrometer from a hardware store costs under $20.</li>
+  <li><strong>Improve ventilation.</strong> Run exhaust fans when cooking or bathing. Open a window briefly on dry days.</li>
+  <li><strong>Check exhaust fan routing.</strong> Fans should vent to the outside, not into the attic. Attic-vented fans push moisture right to where the skylight sits.</li>
+  <li><strong>Improve air circulation.</strong> A ceiling fan on low, running in reverse (pushing air up), helps move warm air away from the skylight surface.</li>
+  <li><strong>Check the skylight frame.</strong> If the frame feels cold to the touch or has visible gaps, the insulation around it may be inadequate.</li>
+</ol>
+
+<h2 id="when-to-replace">When the Skylight Needs Repair or Replacement</h2>
+
+<p>Call a professional if:</p>
+<ul>
+  <li>Water is dripping from the frame onto your ceiling</li>
+  <li>The fog is between the panes (sealed unit failure)</li>
+  <li>You see mould or staining around the skylight frame</li>
+  <li>Ice forms on the inside of the glass regularly</li>
+  <li>The flashing around the skylight on the roof shows signs of deterioration</li>
+</ul>
+
+<p>A site visit covers the inspection. The $30 fee is credited toward the repair if you go ahead. The technician can tell you whether it's a glass replacement, a flashing repair, or a ventilation issue. See our page on <a href="/skylights">skylight repair</a> for more detail.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I fix skylight condensation with a dehumidifier?</h3>
+<p>A dehumidifier helps if the whole room is humid. But if the problem is localized to the skylight (poor insulation around the frame or failed seals), a dehumidifier treats the symptom, not the cause.</p>
+
+<h3>Is skylight condensation covered by warranty?</h3>
+<p>Interior condensation caused by indoor humidity is not a defect and isn't covered. Condensation between the panes from a failed seal is a defect and is covered under our 5-year seal warranty. See the <a href="/warranty">warranty page</a> for details.</p>
+
+<h3>Should I add a skylight blind or shade?</h3>
+<p>A blind can reduce condensation slightly by creating an air buffer between the room and the glass. But it can also trap moisture against the glass and make it worse. If you're adding a blind for light control, that's fine. If you're adding it specifically to fix condensation, address the humidity first.</p>
+`,
+  },
+  {
+    slug: "casement-window-seal-failure",
+    title: "Casement Window Seal Failure: Signs, Causes, and What to Do",
+    metaTitle: "Casement Window Seal Failure: How to Spot It and Fix It",
+    metaDescription:
+      "Casement windows rely on compression seals to stay airtight. Here is how to tell when those seals have failed and what your repair options are.",
+    excerpt:
+      "Casement windows seal differently from sliders or double-hungs. When their seals fail, you get drafts, fog, and water leaks. Here is what to check and how the repair works.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Casement Windows", "Window Seals", "Window Repair", "Drafts"],
+    sections: [
+      { id: "how-casements-seal", title: "How Casement Windows Seal" },
+      { id: "signs-of-failure", title: "Signs the Seal Has Failed" },
+      { id: "glass-seal-vs-frame-seal", title: "Glass Seal vs Frame Seal" },
+      { id: "causes", title: "What Causes Seal Failure" },
+      { id: "repair-options", title: "Repair Options" },
+      { id: "can-you-diy", title: "Can You Fix It Yourself?" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Casement windows open outward on a hinge and lock by pulling the sash tight against the frame with a crank or lever mechanism. When closed, the sash compresses a gasket or weatherstrip that runs around the entire frame. That compression is what makes casement windows one of the most airtight window types. It's also why seal failure is noticeable: when the seal breaks down, the advantage disappears.</p>
+
+<h2 id="how-casements-seal">How Casement Windows Seal</h2>
+
+<p>A casement window has two separate sealing systems:</p>
+
+<p><strong>The frame seal (weatherstripping):</strong> A rubber or silicone gasket runs around the perimeter of the frame. When the sash closes and the lock engages, the sash presses against this gasket, creating an airtight seal. This is what keeps air and water out.</p>
+
+<p><strong>The glass seal:</strong> The sealed glass unit (the double or triple pane insert) has its own perimeter seal that holds the panes together and keeps the insulating gas between them. This is what prevents fogging between the panes.</p>
+
+<p>Either seal can fail independently. The symptoms are different and so are the fixes.</p>
+
+<h2 id="signs-of-failure">Signs the Seal Has Failed</h2>
+
+<h3>Frame seal failure</h3>
+<ul>
+  <li><strong>Drafts around the edges when closed and locked.</strong> You can feel cold air coming in around the sash perimeter.</li>
+  <li><strong>Water leaks during rain.</strong> Water gets past the gasket and runs down the inside of the frame.</li>
+  <li><strong>Increased street noise.</strong> A broken air seal lets sound through.</li>
+  <li><strong>Difficulty locking.</strong> If the gasket is swollen or deformed, the lock may not engage properly.</li>
+  <li><strong>Visible damage to the gasket.</strong> Cracks, flattening, or sections that have pulled away from the frame.</li>
+</ul>
+
+<h3>Glass seal failure</h3>
+<ul>
+  <li><strong>Fog or haze between the panes.</strong> You can't wipe it off from inside or outside.</li>
+  <li><strong>Mineral deposits between the panes.</strong> White or cloudy residue that appears over time as moisture evaporates and re-condenses.</li>
+  <li><strong>Reduced insulation.</strong> The room near the window feels colder, even without a draft.</li>
+</ul>
+
+<p>If you have fog between the panes, see our detailed post on <a href="/blog/why-windows-fog-between-panes">why windows fog</a>.</p>
+
+<h2 id="glass-seal-vs-frame-seal">Glass Seal vs Frame Seal</h2>
+
+<p>This is an important distinction because the repair is completely different:</p>
+
+<ul>
+  <li><strong>Frame seal (weatherstripping) failure</strong> means replacing the gasket around the frame. This is a hardware repair. Most casement window weatherstripping replacements are completed on the same day, on the first visit.</li>
+  <li><strong>Glass seal failure</strong> means replacing the sealed glass unit. Glass is measured first, custom-made, then installed on a return visit. The frame stays in place. This is a <a href="/glass-replacement">glass replacement</a>, not a window replacement.</li>
+</ul>
+
+<h2 id="causes">What Causes Seal Failure</h2>
+
+<p><strong>Age.</strong> Rubber and silicone gaskets degrade over time, especially with UV exposure. Most frame seals last 10 to 20 years. Glass seals typically last 15 to 25 years.</p>
+
+<p><strong>Hardware wear.</strong> If the <a href="/cranks">crank mechanism</a> is worn, the sash may not pull tight enough to compress the gasket fully. The seal looks fine but doesn't do its job because there isn't enough pressure.</p>
+
+<p><strong>Frame warping.</strong> Vinyl frames can warp with extreme temperature cycles over many years. A warped frame creates uneven gaps that the gasket can't fill.</p>
+
+<p><strong>Paint or debris.</strong> If the gasket channel is clogged with paint, caulking, or dirt, the gasket can't seat properly.</p>
+
+<p><strong>Improper closing.</strong> Forcing the crank past its stop or slamming the window shut can damage the gasket or misalign the sash over time.</p>
+
+<h2 id="repair-options">Repair Options</h2>
+
+<p><strong>Replace the weatherstripping.</strong> If the gasket is cracked, flat, or missing sections, a new gasket restores the seal. The technician removes the old material, cleans the channel, and installs a matching replacement. This is a straightforward repair that usually takes under an hour per window.</p>
+
+<p><strong>Adjust or replace the hardware.</strong> If the crank or lock isn't pulling the sash tight enough, the hardware may need adjusting or replacing. Sometimes a simple adjustment to the lock strike is all it takes. Other times the crank operator needs replacing. See our page on <a href="/cranks">window crank repair</a>.</p>
+
+<p><strong>Replace the sealed glass unit.</strong> If the glass seal has failed (fog between panes), the glass unit is replaced. The frame and hardware stay. This is the most common casement window repair we do.</p>
+
+<p><strong>Replace the window.</strong> If the frame is warped or damaged beyond what weatherstripping can fix, a <a href="/window-replacement">full window replacement</a> may be the better option. A technician can tell you which path makes sense for your situation.</p>
+
+<h2 id="can-you-diy">Can You Fix It Yourself?</h2>
+
+<p>Casement window weatherstripping is harder to replace yourself than on a sliding or double-hung window. The gasket is usually a specific profile that fits into a routed channel in the frame, and it needs to be the right size and shape to compress properly when the window closes.</p>
+
+<p>If you can identify the exact gasket profile and source a replacement, it's doable. But if the gasket is a proprietary shape or the channel is damaged, a technician with the right parts and experience is the safer choice.</p>
+
+<p>The $30 site visit fee covers the inspection and is credited toward the repair if you go ahead.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>How do I know if it's the seal or the crank?</h3>
+<p>Close the window and engage the lock. Run your hand around the perimeter. If you feel a draft only on one side, the crank may not be pulling the sash evenly. If the draft is all the way around, the gasket is likely the problem. If you see the sash sitting crooked in the frame, the hardware needs attention first.</p>
+
+<h3>Can I use caulking as a temporary fix?</h3>
+<p>No. Caulking the sash to the frame will seal the draft but will also glue the window shut. You won't be able to open it, and you'll damage the frame when you try to remove the caulking later.</p>
+
+<h3>Is it worth repairing a 20-year-old casement window?</h3>
+<p>Usually yes. Casement frames last 30 to 40 years if they're not warped. Replacing the glass and weatherstripping is usually a fraction of the cost of a new window and gives you another 15 to 20 years.</p>
+`,
+  },
+  {
+    slug: "window-glass-types-for-toronto-climate",
+    title: "Window Glass Types for Toronto's Climate: What Works Best",
+    metaTitle: "Window Glass Types for Toronto: Choosing the Right Glass for Cold Winters",
+    metaDescription:
+      "Choosing replacement glass in Toronto? Learn how double pane, triple pane, Low-E coatings, and gas fills perform in cold Canadian winters.",
+    excerpt:
+      "Not all window glass performs the same in a Toronto winter. Here is a plain-language breakdown of the glass types available and which ones are worth the upgrade.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Glass Types", "Energy Efficiency", "Toronto", "Glass Replacement"],
+    sections: [
+      { id: "why-glass-type-matters", title: "Why Glass Type Matters in Toronto" },
+      { id: "single-vs-double-vs-triple", title: "Single, Double, and Triple Pane" },
+      { id: "low-e-coatings", title: "Low-E Coatings" },
+      { id: "gas-fills", title: "Argon and Krypton Gas Fills" },
+      { id: "laminated-tempered", title: "Laminated and Tempered Glass" },
+      { id: "best-choices", title: "Best Choices by Situation" },
+      { id: "what-to-ask", title: "What to Ask When Getting a Quote" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>When a sealed unit fails or you're upgrading your windows, you have choices about what glass goes in. The right choice depends on where the window faces, how much noise you deal with, and what you want to spend. Here's what each option actually does and whether it's worth it in a GTA home.</p>
+
+<h2 id="why-glass-type-matters">Why Glass Type Matters in Toronto</h2>
+
+<p>Toronto winters are cold. Temperatures drop to -15C or lower, and the heating season runs from October through April. Windows are the thinnest part of your building envelope, and the glass makes up most of the window surface. The type of glass you choose affects how much heat you lose, how much condensation forms, how much noise gets through, and how comfortable the room feels near the window.</p>
+
+<h2 id="single-vs-double-vs-triple">Single, Double, and Triple Pane</h2>
+
+<p><strong>Single pane</strong> is one sheet of glass with no insulating air space. It's found in very old homes and some basement windows. Single pane provides almost no insulation and will condensate heavily in winter. If you still have single-pane windows, upgrading to double pane is one of the most cost-effective improvements you can make.</p>
+
+<p><strong>Double pane (insulated glass unit / IGU)</strong> is the standard in Canadian homes built after the 1980s. Two panes of glass are separated by a spacer and sealed with an air or gas fill in between. The trapped air space provides insulation. Most replacement glass is double pane.</p>
+
+<p><strong>Triple pane</strong> adds a third pane and a second air space. This provides better insulation and noise reduction but costs more and weighs more. Triple pane is worth considering for north-facing windows, bedrooms facing busy roads, or if you're replacing windows on the main floor of a home with high heating costs. Our post on <a href="/blog/double-vs-triple-pane-low-e-argon">double vs triple pane</a> compares the two in detail.</p>
+
+<h2 id="low-e-coatings">Low-E Coatings</h2>
+
+<p>Low-E (low emissivity) is a microscopic metallic coating applied to the glass surface. It reflects heat radiation back toward its source. In winter, it reflects your indoor heat back into the room instead of letting it escape through the glass. In summer, it reflects some solar heat away from the house.</p>
+
+<p>There are different types of Low-E coatings:</p>
+<ul>
+  <li><strong>Hard-coat (pyrolytic) Low-E:</strong> Applied during manufacturing. Durable, slightly less efficient. Common on older units.</li>
+  <li><strong>Soft-coat (sputtered) Low-E:</strong> Applied in a vacuum chamber. More efficient but must be inside the sealed unit (not exposed to air). This is the standard in modern sealed units.</li>
+</ul>
+
+<p>Low-E coatings are available as an upgrade when ordering a new sealed unit. They're not something that can be added to existing glass. Ask your technician whether a Low-E option makes sense for your window's orientation and your budget.</p>
+
+<h2 id="gas-fills">Argon and Krypton Gas Fills</h2>
+
+<p>The space between the panes can be filled with air, argon, or krypton. These gases are denser than air and transfer less heat.</p>
+
+<ul>
+  <li><strong>Air:</strong> The baseline. Adequate insulation in a double-pane unit.</li>
+  <li><strong>Argon:</strong> About 30% less conductive than air. The most common upgrade because it's affordable and effective.</li>
+  <li><strong>Krypton:</strong> About 40% less conductive than air. More expensive than argon and mainly used in triple-pane units where the air gap is narrower.</li>
+</ul>
+
+<p>Gas fills lose effectiveness slowly over time as small amounts of gas escape through the seal. This is normal and happens over 15 to 20 years. It's one reason sealed units eventually need replacing.</p>
+
+<h2 id="laminated-tempered">Laminated and Tempered Glass</h2>
+
+<p><strong>Tempered glass</strong> is heat-treated to be about four times stronger than regular glass. When it breaks, it shatters into small, blunt pieces instead of large shards. Ontario building code requires tempered glass in certain locations: within 60 cm of a door, in bathrooms, and in overhead applications. It's also a good choice for ground-floor windows for safety.</p>
+
+<p><strong>Laminated glass</strong> has a plastic interlayer (PVB) bonded between two sheets of glass. When it breaks, the pieces stick to the plastic instead of falling out. Laminated glass also provides significantly better noise reduction than standard glass. See our post on <a href="/blog/noise-reduction-windows-toronto">noise reduction windows</a> for more on that.</p>
+
+<p>Both are available as options when ordering a replacement sealed unit. The <a href="/blog/safety-glass-ontario-building-code">Ontario building code requirements</a> for safety glass are worth reviewing if you're replacing glass in a bathroom or near a door.</p>
+
+<h2 id="best-choices">Best Choices by Situation</h2>
+
+<p><strong>Standard replacement (most windows):</strong> Double pane with soft-coat Low-E and argon fill. This is the most common setup in modern GTA homes and provides a good balance of performance and cost.</p>
+
+<p><strong>North-facing or high-heat-loss windows:</strong> Triple pane with Low-E and argon or krypton. The extra pane makes the biggest difference on windows that get no solar gain.</p>
+
+<p><strong>Bedrooms facing a busy road:</strong> Double pane with laminated outer pane. The noise reduction from laminated glass is more noticeable than the extra pane of a triple unit in most cases.</p>
+
+<p><strong>Bathroom or near-door locations:</strong> Double pane with tempered glass where code requires it.</p>
+
+<p><strong>Budget-conscious:</strong> Double pane with air fill. Still a major improvement over single pane, and thousands of GTA homes use this setup without issues.</p>
+
+<h2 id="what-to-ask">What to Ask When Getting a Quote</h2>
+
+<ol>
+  <li>What glass type are you quoting (double or triple pane)?</li>
+  <li>Does the quote include Low-E coating? If so, which type?</li>
+  <li>What gas fill is included (air, argon, or krypton)?</li>
+  <li>Is tempered glass required for this window's location?</li>
+  <li>What's the price difference for an upgrade (such as adding laminated or going to triple pane)?</li>
+</ol>
+
+<p>A good technician will explain these options during the site visit and help you choose based on your window's orientation, your priorities, and your budget. The $30 site visit fee is credited toward the job. See our <a href="/our-process">process page</a> for how a typical job works.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I upgrade my glass without replacing the window frame?</h3>
+<p>Yes. If the frame and hardware are in good condition, we can measure and order a new sealed unit with better glass and install it in the existing frame. This is a <a href="/glass-replacement">glass replacement</a>, and it's usually much less expensive than a full window replacement.</p>
+
+<h3>Is Low-E glass worth it?</h3>
+<p>In Toronto's climate, Low-E provides meaningful energy savings on most windows, especially large ones and those facing north or west. The payback period depends on the size of the window and your heating costs, but for most homeowners it's a sensible upgrade when you're already replacing the glass.</p>
+
+<h3>Does the glass type affect condensation?</h3>
+<p>Yes. Better-insulating glass (Low-E, argon, triple pane) keeps the inner pane warmer, which reduces interior condensation. If condensation is a problem, upgrading the glass type can help. See our post on <a href="/blog/window-condensation-in-winter">winter window condensation</a> for more.</p>
+`,
+  },
+  {
+    slug: "when-to-replace-patio-door-rollers",
+    title: "When to Replace Patio Door Rollers: Signs, Causes, and What to Expect",
+    metaTitle: "Patio Door Roller Replacement: Signs It's Time and How It Works",
+    metaDescription:
+      "If your sliding patio door is hard to open, jumps off the track, or scrapes along the bottom, the rollers probably need replacing. Here is what to expect.",
+    excerpt:
+      "Patio door rollers wear out after years of use. When they do, the door gets heavy, noisy, and hard to slide. Here is how to tell if it's the rollers and what a replacement involves.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Patio Doors", "Door Repair", "Rollers", "Home Maintenance"],
+    sections: [
+      { id: "what-rollers-do", title: "What Patio Door Rollers Do" },
+      { id: "signs-of-worn-rollers", title: "Signs the Rollers Are Worn" },
+      { id: "causes", title: "What Wears Rollers Out" },
+      { id: "adjustment-vs-replacement", title: "Adjustment vs Replacement" },
+      { id: "how-replacement-works", title: "How Roller Replacement Works" },
+      { id: "other-patio-door-issues", title: "Other Issues That Mimic Bad Rollers" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>A sliding patio door sits on two rollers at the bottom of the panel. These small wheels carry the full weight of the door, which can be 40 to 80 kg depending on the size and glass type. After 10 to 15 years of daily use, the rollers wear down, and the door starts to drag, stick, or jump off the track.</p>
+
+<p>Roller replacement is one of the most common patio door repairs. It's usually faster and far less expensive than replacing the entire door.</p>
+
+<h2 id="what-rollers-do">What Patio Door Rollers Do</h2>
+
+<p>Each roller assembly sits in a housing at the bottom corners of the sliding panel. The wheels ride along a metal track in the door frame. An adjustment screw raises or lowers the door to control the gap between the door and the frame.</p>
+
+<p>When the rollers are working properly, a heavy patio door glides with one finger. When they're not, it takes real effort to move it.</p>
+
+<h2 id="signs-of-worn-rollers">Signs the Rollers Are Worn</h2>
+
+<ul>
+  <li><strong>The door is hard to slide.</strong> You have to push or pull with both hands. This is the most common sign.</li>
+  <li><strong>The door scrapes or grinds.</strong> Metal-on-metal sound means the wheels are no longer rolling smoothly.</li>
+  <li><strong>The door jumps off the track.</strong> Worn or flat-spotted wheels can't stay in the rail. The door tips or pops out when you open it.</li>
+  <li><strong>Uneven gap at the top.</strong> If one roller is more worn than the other, the door tilts. You'll see a wider gap on one side at the top.</li>
+  <li><strong>The lock doesn't align.</strong> When the door sits lower because of worn rollers, the lock and strike plate no longer line up. You have to lift the door to engage the lock.</li>
+  <li><strong>Visible damage to the track.</strong> When rollers fail, the door drags directly on the track, gouging and bending it.</li>
+</ul>
+
+<p>If your door won't slide at all, see our post on <a href="/blog/sliding-patio-door-wont-slide">sliding patio doors that won't slide</a> for a fuller troubleshooting guide.</p>
+
+<h2 id="causes">What Wears Rollers Out</h2>
+
+<p><strong>Age and use.</strong> Rollers are made of nylon, steel, or stainless steel. Nylon wheels flat-spot over time under the weight of the door. Steel wheels corrode. Even stainless steel wears eventually.</p>
+
+<p><strong>Dirt and debris in the track.</strong> Sand, pet hair, and grit get into the track and grind against the wheels. Regular track cleaning extends roller life significantly.</p>
+
+<p><strong>Moisture.</strong> GTA homes with patio doors facing a yard or pool see more moisture in the track. Rust on steel rollers or the adjustment mechanism is common.</p>
+
+<p><strong>Forcing the door.</strong> When a door starts to stick, forcing it accelerates the damage. The rollers take the stress, and the track gets gouged.</p>
+
+<h2 id="adjustment-vs-replacement">Adjustment vs Replacement</h2>
+
+<p>Before replacing rollers, a technician checks whether a simple adjustment will solve the problem. Each roller has a screw (usually accessed through a hole in the door frame at the bottom edge) that raises or lowers the wheel. If the wheels are still round and rolling freely, an adjustment can restore smooth operation.</p>
+
+<p>Adjustment works when:</p>
+<ul>
+  <li>The door has settled slightly over time</li>
+  <li>The lock is slightly misaligned</li>
+  <li>The door was recently installed and needs fine-tuning</li>
+</ul>
+
+<p>Replacement is needed when:</p>
+<ul>
+  <li>The wheels are flat-spotted, cracked, or seized</li>
+  <li>The roller housing is bent or broken</li>
+  <li>The adjustment screw is stripped or corroded</li>
+  <li>Adjustment doesn't improve the sliding</li>
+</ul>
+
+<h2 id="how-replacement-works">How Roller Replacement Works</h2>
+
+<ol>
+  <li><strong>Remove the door.</strong> The technician lifts the sliding panel off the track. This usually requires two people for heavy glass doors.</li>
+  <li><strong>Remove the old rollers.</strong> The roller assemblies are screwed into the bottom of the door. The old ones come out.</li>
+  <li><strong>Match and install new rollers.</strong> Patio door rollers aren't universal. The wheel diameter, housing width, and mounting pattern need to match the door. The technician brings common sizes or orders exact matches for less common doors.</li>
+  <li><strong>Clean the track.</strong> With the door off, the track gets cleaned and inspected. If it's badly gouged, a track cap or track replacement may be needed.</li>
+  <li><strong>Reinstall and adjust.</strong> The door goes back on the track, and the adjustment screws are set so the door rides at the correct height with even gaps.</li>
+  <li><strong>Test the lock.</strong> The lock and strike plate alignment are checked and adjusted if needed.</li>
+</ol>
+
+<p>Most roller replacements are completed on the same day, on the first visit, as long as the right rollers are available. This is a <a href="/patio-door-repair">patio door repair</a>, not a replacement.</p>
+
+<h2 id="other-patio-door-issues">Other Issues That Mimic Bad Rollers</h2>
+
+<p><strong>Dirty track.</strong> Sometimes the rollers are fine but the track is full of debris. A thorough cleaning solves it.</p>
+
+<p><strong>Bent track.</strong> If something heavy hit the bottom track or the house has settled unevenly, the track itself may be bent. Rollers can't glide on a warped rail.</p>
+
+<p><strong>Broken lock or latch.</strong> If the door slides fine but won't lock, the problem is the lock mechanism, not the rollers.</p>
+
+<p><strong>Weatherstripping drag.</strong> Old, swollen weatherstripping along the top or sides of the door can create friction that feels like a roller problem.</p>
+
+<p>A technician can sort out which issue you have during a site visit. The $30 fee is credited toward any repair.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>How long do patio door rollers last?</h3>
+<p>Nylon rollers: 8 to 12 years. Steel rollers: 10 to 15 years. Stainless steel: 15 to 20 years. How often you use the door and whether the track stays clean make a big difference.</p>
+
+<h3>Can I replace rollers myself?</h3>
+<p>If you can lift the door off the track safely (it's heavy) and you can find the exact matching rollers, it's doable. The challenge is matching the roller type. There are hundreds of variations and the wrong one won't fit or won't ride properly.</p>
+
+<h3>Is it cheaper to replace the rollers or the whole door?</h3>
+<p>Roller replacement is usually a small fraction of a new patio door. If the frame, glass, and track are in good shape, rollers are the clear choice. A new patio door makes sense only when the frame is warped, the glass has failed, and the track is damaged, all at once.</p>
+
+<h3>What about the track?</h3>
+<p>If the track has minor scratches, cleaning and lubrication is enough. If it's deeply gouged or bent, a track cap (a metal cover that creates a new riding surface) or track replacement may be needed alongside the roller work.</p>
+`,
+  },
+  {
+    slug: "window-balance-replacement-double-hung",
+    title: "Double-Hung Window Balance Replacement: Why Your Window Falls Down",
+    metaTitle: "Window Balance Replacement: Fix a Double-Hung That Won't Stay Up",
+    metaDescription:
+      "Your double-hung window slides down on its own because the balances have failed. Learn how balances work, what breaks, and how replacement works in Toronto homes.",
+    excerpt:
+      "If your double-hung window won't stay open or slams shut the moment you let go, the balances have likely failed. Here is how the system works and what a repair looks like.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Window Hardware", "Double-Hung Windows", "Window Repair"],
+    sections: [
+      { id: "what-are-balances", title: "What Are Window Balances?" },
+      { id: "how-they-work", title: "How They Work" },
+      { id: "signs-of-failure", title: "Signs the Balances Have Failed" },
+      { id: "types", title: "Types of Balance Systems" },
+      { id: "replacement-process", title: "How Replacement Works" },
+      { id: "diy-vs-pro", title: "Can You Do It Yourself?" },
+      { id: "when-to-replace-window", title: "When the Whole Window Needs Replacing" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>A double-hung window has two sashes that slide up and down. When you raise the bottom sash it should stay where you put it. If it slowly drifts down, or drops the moment you let go, the balances are the problem.</p>
+
+<p>Balances are the mechanism inside the frame that counterweights the sash. They wear out over time, and when they do, the fix is usually straightforward.</p>
+
+<h2 id="what-are-balances">What Are Window Balances?</h2>
+
+<p>Window balances are spring-loaded devices hidden inside the frame tracks. Their job is to hold the sash at whatever height you set it. They work like a counterweight: the spring tension matches the weight of the glass and frame so the sash stays put without a lock or prop.</p>
+
+<p>Every double-hung window has two balances, one on each side.</p>
+
+<h2 id="how-they-work">How They Work</h2>
+
+<p>Most modern double-hung windows use one of two systems. Channel balances have a coiled spring inside a metal channel that sits in the frame track. Block-and-tackle balances use a pulley and cord arrangement with a spring. Older homes sometimes have spiral balances, which use a twisted metal rod under tension.</p>
+
+<p>All three do the same thing: apply upward force that matches the sash weight so the window holds its position.</p>
+
+<h2 id="signs-of-failure">Signs the Balances Have Failed</h2>
+
+<ul>
+  <li><strong>The sash drops on its own.</strong> This is the most common sign. You raise the window and it slowly slides back down.</li>
+  <li><strong>The window is hard to open.</strong> A broken balance on one side makes the sash tilt and bind in the track.</li>
+  <li><strong>You hear a snap or bang.</strong> A spring breaking often makes a sharp noise inside the frame.</li>
+  <li><strong>The sash tilts to one side.</strong> One balance has failed while the other still works, pulling the sash crooked.</li>
+  <li><strong>You're using a stick or book to prop it open.</strong> That's a failed balance.</li>
+</ul>
+
+<h2 id="types">Types of Balance Systems</h2>
+
+<p><strong>Channel balances</strong> are the most common in vinyl windows built after the mid-1990s. The spring is inside a metal channel about 40 cm long. They clip into the frame track and attach to the bottom of the sash with a pivot shoe or cam lock.</p>
+
+<p><strong>Block-and-tackle balances</strong> use a cord, pulley and spring inside a housing. These are common in wood and aluminum windows. They tend to last longer than channel balances because the cord distributes wear.</p>
+
+<p><strong>Spiral balances</strong> have a twisted rod inside a tube. You'll find these in older aluminum and some vinyl windows. They adjust with a tensioning tool.</p>
+
+<p>The type, length and weight rating have to match the original. A balance that's too weak won't hold the sash. One that's too strong makes the window hard to close.</p>
+
+<h2 id="replacement-process">How Replacement Works</h2>
+
+<ol>
+  <li><strong>Identify the balance.</strong> The technician tilts the sash in and reads the stamp on the old balance. It shows the type, length and weight rating.</li>
+  <li><strong>Remove the sash.</strong> On most double-hung windows both sashes tilt inward for removal. No tools needed from the outside.</li>
+  <li><strong>Swap the balances.</strong> The old ones unclip or unscrew from the frame track. New ones go in the same way.</li>
+  <li><strong>Reinstall and test.</strong> The sash goes back in and the technician checks that it holds at every position.</li>
+</ol>
+
+<p>Most balance replacements are completed on the first visit, the same day. The job usually takes 15 to 30 minutes per window. It's a <a href="/cranks">window hardware repair</a>, so the approach is similar to crank and hinge work.</p>
+
+<h2 id="diy-vs-pro">Can You Do It Yourself?</h2>
+
+<p>If you can identify the exact balance type, length and weight rating, and you can order the right part, it's a manageable project. The tricky part is getting the match right. Balances aren't universal. A balance that's 2 cm too short or rated for the wrong weight won't work properly.</p>
+
+<p>If you're not sure what you're looking at, a technician can identify it in a few minutes during a site visit. The $30 visit fee is credited toward the repair if you go ahead.</p>
+
+<h2 id="when-to-replace-window">When the Whole Window Needs Replacing</h2>
+
+<p>Balance failure alone almost never means you need a new window. But if the frame is warped, the tracks are worn smooth, or the sash itself is cracked, a <a href="/window-replacement">full window replacement</a> might make more sense. A technician can tell you which option is worth the money.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>How long do window balances last?</h3>
+<p>Typically 15 to 25 years, depending on how often the window is opened and the quality of the original parts.</p>
+
+<h3>Can I replace just one balance?</h3>
+<p>You can, but we recommend replacing both at the same time. If one has failed, the other is usually close behind.</p>
+
+<h3>Do you carry the parts or order them?</h3>
+<p>We carry the most common sizes. Unusual sizes or older types may need to be ordered, which adds a few days.</p>
+
+<h3>Is there a warranty?</h3>
+<p>Yes. Hardware repairs carry a 1-year warranty on parts and labour. Details are on our <a href="/warranty">warranty page</a>.</p>
+`,
+  },
+  {
+    slug: "noise-reduction-windows-toronto",
+    title: "How Windows Reduce Noise: A Toronto Homeowner's Guide to Quieter Rooms",
+    metaTitle: "Noise Reduction Windows: How to Make Your Toronto Home Quieter",
+    metaDescription:
+      "Street noise keeping you up? Learn how window glass type, thickness, and seals affect sound reduction. Practical options for Toronto homeowners.",
+    excerpt:
+      "If traffic, construction or neighbour noise is getting through your windows, the glass and seals are usually the weak point. Here is what actually works to reduce it.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Glass Replacement", "Noise Reduction", "Home Improvement", "Toronto"],
+    sections: [
+      { id: "how-sound-gets-in", title: "How Sound Gets Through a Window" },
+      { id: "stc-ratings", title: "STC Ratings Explained" },
+      { id: "glass-options", title: "Glass Options for Noise Reduction" },
+      { id: "seals-matter", title: "Why Seals and Weatherstripping Matter" },
+      { id: "what-helps-most", title: "What Helps Most for the Money" },
+      { id: "what-doesnt-help", title: "What Doesn't Help Much" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Living near a busy road in Toronto, Mississauga or anywhere in the GTA means dealing with noise. If you can hear traffic clearly when the windows are closed, the windows are the weakest link in the wall. Here's what you can do about it, starting with the options that give you the most improvement.</p>
+
+<h2 id="how-sound-gets-in">How Sound Gets Through a Window</h2>
+
+<p>Sound is vibration. It hits the outer pane, the pane vibrates, and the vibration transfers through the air gap to the inner pane and into your room. Thinner glass vibrates more easily. A smaller air gap transfers more energy. And any gap in the seal lets sound bypass the glass entirely.</p>
+
+<p>Three things control how much noise a window blocks:</p>
+<ul>
+  <li><strong>Glass thickness and type.</strong> Thicker and denser glass vibrates less.</li>
+  <li><strong>Air space between panes.</strong> A wider gap reduces sound transfer.</li>
+  <li><strong>Seal integrity.</strong> Any air leak is a noise leak.</li>
+</ul>
+
+<h2 id="stc-ratings">STC Ratings Explained</h2>
+
+<p>Sound Transmission Class (STC) is the standard rating for how much sound a barrier blocks. Higher is better. For context:</p>
+
+<ul>
+  <li>A single pane of glass: STC 26 to 28</li>
+  <li>A standard double-pane sealed unit: STC 28 to 32</li>
+  <li>A double-pane unit with laminated glass: STC 34 to 38</li>
+  <li>A triple-pane unit with laminated glass: STC 38 to 42</li>
+  <li>An insulated wall without windows: STC 45 to 50</li>
+</ul>
+
+<p>Every 3-point increase in STC roughly cuts the perceived loudness in half. Going from STC 28 to STC 34 is a noticeable difference.</p>
+
+<h2 id="glass-options">Glass Options for Noise Reduction</h2>
+
+<p><strong>Laminated glass</strong> is the single biggest upgrade for noise. It has a layer of plastic (PVB) bonded between two sheets of glass. That plastic layer dampens vibration the way a shock absorber dampens bumps. Laminated glass on the outer pane of a sealed unit can raise the STC by 4 to 6 points over standard glass of the same thickness.</p>
+
+<p><strong>Thicker glass</strong> helps too. A 5 mm outer pane blocks more sound than a 3 mm pane. Using different thicknesses on the inner and outer pane (for example, 5 mm outside and 3 mm inside) also helps because the two panes vibrate at different frequencies, reducing resonance.</p>
+
+<p><strong>Triple pane</strong> adds another barrier. The extra pane and air gap give you a few more STC points, plus better insulation. The trade-off is weight and cost.</p>
+
+<p>If your current sealed unit has failed (fog between the panes), replacing it with a laminated option is a good opportunity to upgrade. See our page on <a href="/foggy-windows">foggy window repair</a> for how that process works.</p>
+
+<h2 id="seals-matter">Why Seals and Weatherstripping Matter</h2>
+
+<p>Even the best glass won't help if sound is leaking around the edges. Worn weatherstripping, cracked caulking, or a sash that doesn't close tightly can let in as much noise as an open window.</p>
+
+<p>Before upgrading the glass, check whether your windows close firmly and whether you can feel a draft around the frame. Fixing the seal is cheaper than replacing the glass and sometimes solves the problem on its own.</p>
+
+<h2 id="what-helps-most">What Helps Most for the Money</h2>
+
+<ol>
+  <li><strong>Fix air leaks first.</strong> Weatherstripping and caulking cost the least and can make a surprising difference.</li>
+  <li><strong>Upgrade to laminated glass.</strong> When your sealed unit needs replacing anyway, choosing laminated on the outer pane adds noise reduction at a modest extra cost. This is a <a href="/glass-replacement">glass replacement</a> job, not a full window replacement.</li>
+  <li><strong>Consider asymmetric pane thickness.</strong> Ask about different thicknesses on inner and outer panes when ordering a new sealed unit.</li>
+  <li><strong>Triple pane if the budget allows.</strong> Best performance, but the biggest investment. Our post on <a href="/blog/double-vs-triple-pane-low-e-argon">double vs triple pane</a> compares the trade-offs.</li>
+</ol>
+
+<h2 id="what-doesnt-help">What Doesn't Help Much</h2>
+
+<ul>
+  <li><strong>Window film.</strong> Plastic film kits add almost no mass and don't meaningfully reduce noise.</li>
+  <li><strong>Argon or krypton gas.</strong> These improve insulation but have minimal effect on sound transmission.</li>
+  <li><strong>Curtains alone.</strong> Heavy curtains can soften high-frequency sound slightly, but they don't block traffic rumble.</li>
+</ul>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can you replace just the glass with a quieter option?</h3>
+<p>Yes. If your frame and hardware are in good shape, we can measure and order a new sealed unit with laminated or thicker glass and install it in the existing frame.</p>
+
+<h3>How much quieter will it be?</h3>
+<p>Going from standard double-pane to laminated double-pane typically drops perceived noise by about half. The exact result depends on the noise source and the rest of the wall.</p>
+
+<h3>Is it worth it for a bedroom?</h3>
+<p>Bedrooms facing a road are where most people notice the biggest improvement. Even a moderate STC gain makes it easier to sleep with the window closed.</p>
+
+<h3>What does a site visit involve?</h3>
+<p>The technician checks your current glass type, frame condition, and seal integrity, then recommends the best option for your situation. The $30 visit fee is credited toward the job if you go ahead.</p>
+`,
+  },
+  {
+    slug: "how-to-choose-glass-repair-company-toronto",
+    title: "How to Choose a Glass Repair Company in Toronto: What to Look For",
+    metaTitle: "Choosing a Glass Repair Company in Toronto: What to Look For",
+    metaDescription:
+      "Not sure which glass repair company to call? Here are the signs of a reliable operator and the red flags to watch for in the Toronto area.",
+    excerpt:
+      "There are plenty of glass companies in the GTA. Some are great, some aren't. Here is how to tell the difference before you book, based on what matters most.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Glass Repair", "Toronto", "Hiring Tips"],
+    sections: [
+      { id: "why-it-matters", title: "Why the Company Matters as Much as the Price" },
+      { id: "licensing-insurance", title: "Licensing and Insurance" },
+      { id: "written-quotes", title: "Written Quotes Before Work Starts" },
+      { id: "warranty", title: "Warranty That's in Writing" },
+      { id: "red-flags", title: "Red Flags to Watch For" },
+      { id: "good-signs", title: "Signs You've Found a Good One" },
+      { id: "questions-to-ask", title: "Questions to Ask Before You Book" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>When a window breaks or fogs up, most people search online and call the first company that shows up. That works out sometimes, but not always. A little homework up front saves you from a bad job, a surprise bill, or a warranty that doesn't exist.</p>
+
+<p>Here's what to check before you let someone work on your windows.</p>
+
+<h2 id="why-it-matters">Why the Company Matters as Much as the Price</h2>
+
+<p>Glass repair isn't complicated, but it has to be done right. A sealed unit that's the wrong size, poorly shimmed, or installed with damaged seals will fail again within a year or two. A crank or hinge installed with the wrong screws will strip out. And if something goes wrong, you want a company that will come back and fix it.</p>
+
+<p>The cheapest quote isn't always the best value. What matters is getting the job done correctly the first time, with a clear price and a real warranty behind it.</p>
+
+<h2 id="licensing-insurance">Licensing and Insurance</h2>
+
+<p>In Ontario, glass repair companies should carry general liability insurance. This protects you if something is damaged during the work. Ask for proof of insurance before the job starts. A reputable company will provide it without hesitation.</p>
+
+<p>Check whether the company has a registered business in Ontario. A quick search on the Ontario Business Registry can confirm this.</p>
+
+<h2 id="written-quotes">Written Quotes Before Work Starts</h2>
+
+<p>A trustworthy company gives you a written quote before any work begins. That means a fixed price on paper (or on screen), not a verbal estimate that changes once the work is underway.</p>
+
+<p>The quote should include:</p>
+<ul>
+  <li>Exactly what work will be done</li>
+  <li>The type and size of glass or parts being used</li>
+  <li>The total price, including labour</li>
+  <li>The timeline for completion</li>
+  <li>Warranty terms</li>
+</ul>
+
+<p>If a company won't put the price in writing before starting, that's a reason to call someone else. You can see how our quoting works on the <a href="/our-process">our process page</a>.</p>
+
+<h2 id="warranty">Warranty That's in Writing</h2>
+
+<p>Ask what the warranty covers, how long it lasts, and whether it's written down. A verbal promise isn't a warranty.</p>
+
+<p>A reasonable warranty for glass work covers:</p>
+<ul>
+  <li>The seal on the new glass unit (look for at least 2 years, ideally longer)</li>
+  <li>Workmanship on the installation</li>
+  <li>Hardware repairs for at least a year</li>
+</ul>
+
+<p>Exclusions are normal. No warranty covers vandalism or impact damage, because those aren't defects. But the coverage and exclusions should be spelled out. Check our <a href="/warranty">warranty page</a> for an example of what clear terms look like.</p>
+
+<h2 id="red-flags">Red Flags to Watch For</h2>
+
+<ul>
+  <li><strong>No written quote.</strong> Verbal estimates that change after work starts are the most common complaint.</li>
+  <li><strong>Pressure to replace the whole window.</strong> If only the glass or hardware is the problem, a good company should offer a repair option first.</li>
+  <li><strong>No physical address or business registration.</strong> This makes it hard to follow up if something goes wrong.</li>
+  <li><strong>Cash-only payment.</strong> Legitimate businesses accept card or e-transfer and provide receipts.</li>
+  <li><strong>Vague warranty.</strong> "We stand behind our work" isn't a warranty. Specific terms and durations are.</li>
+  <li><strong>They want payment before the work is done.</strong> A deposit for materials is reasonable for large jobs. Full payment up front is not standard.</li>
+</ul>
+
+<h2 id="good-signs">Signs You've Found a Good One</h2>
+
+<ul>
+  <li><strong>They answer the phone or reply quickly.</strong> Responsiveness before the job usually predicts responsiveness after.</li>
+  <li><strong>They explain what's wrong and what the options are.</strong> A good technician teaches you, not just sells to you.</li>
+  <li><strong>They have real Google reviews from local customers.</strong> Read the recent ones. Look for specific details about the work, not generic praise.</li>
+  <li><strong>They tell you when a repair isn't worth it.</strong> A company that sometimes recommends against their own service is being honest.</li>
+  <li><strong>The quote comes on the spot.</strong> After measuring, you should know the price before the technician leaves.</li>
+</ul>
+
+<h2 id="questions-to-ask">Questions to Ask Before You Book</h2>
+
+<ol>
+  <li>Are you insured? Can you provide proof?</li>
+  <li>Will I get a written quote before work starts?</li>
+  <li>What's included in the price?</li>
+  <li>What's the warranty, and is it written?</li>
+  <li>Do you repair the glass or will you try to sell me a new window?</li>
+  <li>What's the timeline from measurement to installation?</li>
+  <li>Is there a site visit fee, and is it credited toward the work?</li>
+</ol>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Should I get multiple quotes?</h3>
+<p>It's reasonable to get two or three. But compare the scope of work, not just the bottom number. A lower quote that skips necessary steps costs more in the long run.</p>
+
+<h3>How do I check Google reviews?</h3>
+<p>Search the company name on Google Maps. Look at the total number of reviews, the average rating, and read 5 or 6 of the most recent ones. Pay attention to how the company responds to any negative reviews.</p>
+
+<h3>What if I'm not sure whether I need repair or replacement?</h3>
+<p>A good company will tell you honestly. If a technician pushes replacement without explaining why repair won't work, get a second opinion.</p>
+`,
+  },
+  {
+    slug: "window-weatherstripping-replacement-guide",
+    title: "Window Weatherstripping Replacement: When and How to Fix Drafty Windows",
+    metaTitle: "Window Weatherstripping Replacement: Fix Drafts and Save Energy",
+    metaDescription:
+      "Drafty windows waste energy and let in noise. Learn how to tell if your weatherstripping needs replacing, the types used in GTA homes, and when to call a pro.",
+    excerpt:
+      "If you feel cold air around closed windows in winter, the weatherstripping is probably worn out. Here is how to check, what the options are, and when it means a bigger problem.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Window Repair", "Weatherstripping", "Energy Efficiency", "Drafts"],
+    sections: [
+      { id: "what-is-it", title: "What Weatherstripping Does" },
+      { id: "signs-of-failure", title: "Signs It Needs Replacing" },
+      { id: "types", title: "Types of Window Weatherstripping" },
+      { id: "diy", title: "DIY Replacement" },
+      { id: "when-to-call-pro", title: "When to Call a Professional" },
+      { id: "when-window-is-done", title: "When the Window Itself Is the Problem" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Weatherstripping is the flexible material around the edges of your window sash that seals the gap when the window is closed. It keeps cold air out in winter, hot air out in summer, and reduces dust and noise year-round. When it wears out, you feel it.</p>
+
+<h2 id="what-is-it">What Weatherstripping Does</h2>
+
+<p>Every window has a small gap between the moving sash and the fixed frame. Without weatherstripping, air flows through that gap freely. The stripping compresses when the window closes and springs back when it opens, creating a seal that blocks air movement.</p>
+
+<p>Good weatherstripping also keeps out water, insects, and street noise. It's one of those parts you never think about until it stops working.</p>
+
+<h2 id="signs-of-failure">Signs It Needs Replacing</h2>
+
+<ul>
+  <li><strong>You feel a draft near closed windows.</strong> Hold a lighter or thin piece of tissue near the window edges on a windy day. If it flickers or moves, air is getting through.</li>
+  <li><strong>You can see daylight around the sash.</strong> Close the window and look at the edges from inside with the lights off during the day.</li>
+  <li><strong>The stripping is cracked, flattened, or missing pieces.</strong> Open the window and look at the strips along the sash and frame. If they're hard, crumbly, or compressed flat, they're done.</li>
+  <li><strong>Your heating bills have gone up.</strong> Drafty windows make your furnace work harder. In a GTA winter, the difference is noticeable.</li>
+  <li><strong>You hear more outside noise than you used to.</strong> Worn seals let sound in just like they let air in.</li>
+  <li><strong>Condensation on the inside of the glass.</strong> When warm indoor air meets cold glass near a draft, moisture forms. If you're seeing condensation that wasn't there before, check the seals. Our post on <a href="/blog/window-condensation-in-winter">winter condensation</a> explains the full picture.</li>
+</ul>
+
+<h2 id="types">Types of Window Weatherstripping</h2>
+
+<p><strong>Pile weatherstripping</strong> (also called fin seal) is a strip of dense fibres, often with a plastic fin in the centre. It's common on sliding windows and double-hung windows in the track channels. It wears out fastest because the sash slides against it every time you open the window.</p>
+
+<p><strong>Compression strips</strong> are foam or rubber strips that compress when the window closes. They're common on casement and awning windows. They last longer than pile strips because they're compressed and released rather than rubbed.</p>
+
+<p><strong>Bulb seals</strong> are tubular rubber or silicone strips. They're found on higher-end windows and provide a tight seal with less force needed to close the window.</p>
+
+<p><strong>V-strip (tension strip)</strong> is a folded metal or plastic strip that springs open to fill a gap. It's durable and common as an aftermarket fix on older windows.</p>
+
+<h2 id="diy">DIY Replacement</h2>
+
+<p>Some types of weatherstripping are straightforward to replace yourself:</p>
+
+<ol>
+  <li><strong>Identify the type.</strong> Take a close-up photo or pull off a small piece to match at the hardware store.</li>
+  <li><strong>Measure the length.</strong> Measure each side where the stripping runs. Buy 10% extra.</li>
+  <li><strong>Remove the old material.</strong> Pull it out of the channel or peel it off. Clean any residue.</li>
+  <li><strong>Install the new stripping.</strong> Press it into the channel or apply the adhesive backing. Cut to length with scissors or a utility knife.</li>
+  <li><strong>Test the window.</strong> Close it and check that it seals firmly without being too tight to operate.</li>
+</ol>
+
+<p>Adhesive-backed foam tape from a hardware store works for a temporary fix but typically lasts only one or two seasons. For a longer-lasting repair, match the original type.</p>
+
+<h2 id="when-to-call-pro">When to Call a Professional</h2>
+
+<p>Some weatherstripping is built into the sash or frame and can't be replaced without disassembling the window. If the stripping is inside a groove in the sash rail, or if the window uses a proprietary seal design, a technician with the right parts is the safer route.</p>
+
+<p>It's also worth calling a pro if:</p>
+<ul>
+  <li>You can't identify the type or find a match</li>
+  <li>The sash doesn't close properly even with new stripping (the frame may be warped)</li>
+  <li>Several windows need attention at once</li>
+  <li>You want it done once and done right</li>
+</ul>
+
+<p>A site visit covers the inspection. The $30 fee is credited toward the repair if you go ahead.</p>
+
+<h2 id="when-window-is-done">When the Window Itself Is the Problem</h2>
+
+<p>Sometimes the draft isn't about the weatherstripping at all. If the frame is warped, the sash doesn't sit square in the opening anymore, and no amount of new stripping will seal it. This happens with older wood windows that have absorbed moisture over the years, or vinyl windows that have been in direct sun for decades.</p>
+
+<p>If the glass is also foggy between the panes, that's a separate issue: the sealed unit has failed. That's a <a href="/foggy-windows">foggy glass repair</a>, which replaces the glass without touching the frame.</p>
+
+<p>If the frame is warped and the glass has failed, a <a href="/window-replacement">full window replacement</a> is usually the most practical option. A technician can tell you which situation you're in.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>How long does weatherstripping last?</h3>
+<p>Pile stripping on sliding windows: 5 to 10 years. Compression strips on casement windows: 10 to 15 years. Bulb seals: 15 to 20 years. Sun exposure and frequency of use shorten the lifespan.</p>
+
+<h3>Does weatherstripping help with noise?</h3>
+<p>Yes. A tight seal blocks airborne sound. If you can fix the draft, you'll usually notice less street noise too. For more on that topic, see our post on <a href="/blog/noise-reduction-windows-toronto">noise reduction windows</a>.</p>
+
+<h3>Can I add weatherstripping to windows that don't have it?</h3>
+<p>You can add adhesive V-strip or foam tape to most windows. It won't perform as well as factory-installed stripping, but it's better than nothing.</p>
+
+<h3>Is this covered by warranty?</h3>
+<p>Weatherstripping is a wear item and isn't typically covered by window warranties. Our hardware repair warranty covers our workmanship for 1 year. See the <a href="/warranty">warranty page</a> for details.</p>
+`,
+  },
   {
     slug: "vinyl-window-glass-replacement",
     title: "Replacing the Glass in a Vinyl Window: How It Works and What It Costs",
@@ -4819,7 +5654,438 @@ export function getAllBlogSlugs(): string[] {
 
 export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
   const current = BLOG_POSTS.find((p) => p.slug === slug);
-  if (!current) return [];
+  if (!current) return [{
+    slug: "spring-window-inspection-checklist",
+    title: "Spring Window Inspection Checklist for Toronto Homeowners",
+    metaTitle: "Spring Window Inspection Checklist: What to Check After Winter",
+    metaDescription:
+      "Check your windows after winter for seal failures, condensation, hardware problems and screen damage. A simple spring checklist for GTA homeowners.",
+    excerpt:
+      "Winter is hard on windows. A quick spring inspection catches seal failures, hardware problems and screen damage before they get worse or cost more to fix.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Window Maintenance", "Seasonal", "Foggy Glass", "Window Hardware"],
+    sections: [
+      { id: "why-spring", title: "Why Spring Is the Right Time" },
+      { id: "check-seals", title: "Check for Seal Failures" },
+      { id: "check-condensation", title: "Look for Condensation Clues" },
+      { id: "check-hardware", title: "Test the Hardware" },
+      { id: "check-screens", title: "Inspect Screens" },
+      { id: "check-caulking", title: "Check Exterior Caulking" },
+      { id: "what-to-do", title: "What to Do with What You Find" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Winter puts real stress on windows. Freezing temperatures, ice buildup, moisture cycling and wind all take a toll. Most of the damage is gradual, and you won't notice it until spring when you start opening windows again.</p>
+
+<p>A simple walk-through in April or May can catch problems early, before a small seal failure turns into a foggy window or a stiff crank breaks entirely.</p>
+
+<h2 id="why-spring">Why Spring Is the Right Time</h2>
+
+<p>During winter, windows stay closed and you're less likely to notice a draft, a stiff handle or a cracked seal. Spring is when you'll open things up, swap storm inserts for screens and actually look at each window closely for the first time in months.</p>
+
+<p>Catching a problem in spring also means you can get it fixed before summer, when schedules are busiest. A seal that failed over winter won't get better on its own.</p>
+
+<h2 id="check-seals">Check for Seal Failures</h2>
+
+<p>Stand inside and look at every window from an angle. If you see haze, fog or moisture between the two panes of glass, the seal on that unit has failed. The moisture is trapped inside the sealed unit and won't go away with cleaning.</p>
+
+<p>Mark every window that shows this. Seal failures are the most common issue we see after winter, and <a href="/foggy-windows">foggy glass repair</a> is straightforward: the glass unit gets replaced, not the whole window.</p>
+
+<ul>
+  <li>Check in the morning when temperature differences make condensation more visible.</li>
+  <li>Look at all sides of the house. South-facing windows cycle through more heat and cold, so they fail more often.</li>
+  <li>A window that looked fine last fall but fogs now almost certainly failed during the freeze-thaw cycles.</li>
+</ul>
+
+<h2 id="check-condensation">Look for Condensation Clues</h2>
+
+<p>Not all condensation means a broken seal. Condensation on the inside surface of the glass is a humidity issue in the house, not a window problem. Condensation on the outside surface on cool mornings is completely normal and actually means the window is insulating well.</p>
+
+<p>The problem is condensation <em>between</em> the panes. That's the sign the sealed unit has failed. Our post on <a href="/blog/exterior-window-condensation-normal">exterior condensation</a> explains the difference in detail.</p>
+
+<h2 id="check-hardware">Test the Hardware</h2>
+
+<p>Open and close every window. You're checking for:</p>
+
+<ul>
+  <li><strong>Stiff or grinding cranks.</strong> Casement and awning windows use a crank operator. If it's hard to turn, the gears may be worn or the arm may be bent. Don't force it. See our page on <a href="/cranks">window crank repair</a>.</li>
+  <li><strong>Locks that don't engage.</strong> If a lock won't line up with its keeper, the sash may have shifted or the hardware is worn.</li>
+  <li><strong>Double-hung windows that won't stay up.</strong> The balance springs inside the frame may have broken. The window slides down on its own because there's nothing holding it.</li>
+  <li><strong>Sliding windows that stick or jump off track.</strong> Dirt in the track is common after winter, but if cleaning doesn't fix it, the rollers may need replacing.</li>
+</ul>
+
+<p>Most <a href="/cranks">window hardware repairs</a> are completed on the same day, on the first visit.</p>
+
+<h2 id="check-screens">Inspect Screens</h2>
+
+<p>Pull out each screen and look it over. Winter storage, handling and pets are the usual causes of damage.</p>
+
+<ul>
+  <li>Small holes or tears let insects in. A patch may work, but a re-screen is often cleaner.</li>
+  <li>Bent frames won't sit flush and leave gaps.</li>
+  <li>Missing or broken clips and springs mean the screen won't stay in place.</li>
+</ul>
+
+<p>If screens need work, our <a href="/window-screens">window screen service</a> covers repair, re-screening and custom replacements.</p>
+
+<h2 id="check-caulking">Check Exterior Caulking</h2>
+
+<p>Walk around the outside of the house and look at the caulking around each window frame. You're looking for:</p>
+
+<ul>
+  <li>Gaps where the caulk has pulled away from the frame or the siding.</li>
+  <li>Cracks running along the bead.</li>
+  <li>Missing sections where old caulk has fallen out.</li>
+</ul>
+
+<p>Failed caulking lets water behind the frame, which can cause rot in the rough opening and water damage to the wall below. Recaulking is something most homeowners can do themselves with a tube of exterior silicone, but if the frame itself is damaged, that's a different conversation.</p>
+
+<h2 id="what-to-do">What to Do with What You Find</h2>
+
+<p>Sort what you found into three categories:</p>
+
+<ol>
+  <li><strong>DIY fixes:</strong> Recaulking, cleaning tracks, tightening loose screws on handles.</li>
+  <li><strong>Professional repairs:</strong> Foggy sealed units, broken cranks, failed balances, damaged screens. Send us a photo or <a href="/contact">book a visit</a> and we'll give you a written quote on the spot.</li>
+  <li><strong>Watch list:</strong> Windows that are borderline. Mark them and check again in fall.</li>
+</ol>
+
+<p>Addressing problems in spring is almost always cheaper than waiting. A seal failure won't reverse itself, and a stiff crank will only get harder to turn.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>How long does the inspection take?</h3>
+<p>Most homeowners can walk through every window in an hour or less. Focus on looking and testing, not fixing. Make notes and take photos of anything you want to come back to.</p>
+
+<h3>Should I hire someone to inspect my windows?</h3>
+<p>You don't need to, but if you'd rather have a professional look, our $30 site visit covers a full assessment and the fee is credited toward any repair you go ahead with.</p>
+
+<h3>What if several windows have problems?</h3>
+<p>That's common, especially in houses where all the windows were installed at the same time. We can quote multiple windows in one visit and often offer better pricing when several units are done together.</p>
+`,
+  },
+  {
+    slug: "argon-gas-windows-what-you-need-to-know",
+    title: "Argon Gas in Windows: What It Does and What Happens When It Leaks",
+    metaTitle: "Argon Gas in Windows: What It Does and When It Matters",
+    metaDescription:
+      "Argon gas fills the gap between window panes for better insulation. Here is what it does, whether it can be refilled, and what to do when it leaks out.",
+    excerpt:
+      "Most double and triple pane windows are filled with argon gas. It improves insulation, but it doesn't last forever. Here is what actually happens when it leaks and what your options are.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Window Glass", "Energy Efficiency", "Foggy Glass", "Glass Replacement"],
+    sections: [
+      { id: "what-is-argon", title: "What Is Argon Gas in Windows?" },
+      { id: "how-it-helps", title: "How It Improves Insulation" },
+      { id: "does-it-leak", title: "Does Argon Leak Out Over Time?" },
+      { id: "can-you-refill", title: "Can You Refill the Gas?" },
+      { id: "when-it-matters", title: "When Argon Loss Actually Matters" },
+      { id: "myths", title: "Common Myths" },
+      { id: "faq", title: "Questions We Hear Often" },
+    ],
+    content: `
+<p>If your windows were made in the last 20 years, they almost certainly have argon gas between the panes. It's one of the most common upgrades in modern sealed units, and there's a lot of confusion about what it does, whether it matters, and what to do when it's gone.</p>
+
+<h2 id="what-is-argon">What Is Argon Gas in Windows?</h2>
+
+<p>Argon is an inert, colourless, odourless gas. It makes up about 1% of the air we breathe. In windows, it fills the space between the two (or three) panes of glass inside a sealed unit.</p>
+
+<p>It's used because it's denser than regular air. That density slows down the transfer of heat through the gap, which makes the window a better insulator. It's not toxic, not flammable, and not harmful if it leaks into your home.</p>
+
+<h2 id="how-it-helps">How It Improves Insulation</h2>
+
+<p>Heat moves through windows in three ways: conduction through the glass, convection in the air gap, and radiation. Argon addresses the convection part. Because argon molecules are heavier than nitrogen and oxygen, they move more slowly, which reduces the convective loop inside the sealed unit.</p>
+
+<p>In practical terms, argon-filled windows are roughly 5% to 15% more energy efficient than the same window filled with dry air. It's a real improvement, but it's not dramatic. The Low-E coating on the glass does more for efficiency than the gas fill does.</p>
+
+<h2 id="does-it-leak">Does Argon Leak Out Over Time?</h2>
+
+<p>Yes. All sealed units lose some gas over time. Industry studies show a typical loss rate of about 1% per year through the seal. After 20 years, a unit might have lost 15% to 20% of its original argon fill. That's considered normal.</p>
+
+<p>When the seal fails completely, the gas escapes much faster. A broken seal is obvious because moisture gets in and you see <a href="/foggy-windows">fog between the panes</a>. At that point, the argon is gone and won't come back.</p>
+
+<h2 id="can-you-refill">Can You Refill the Gas?</h2>
+
+<p>No. This is one of the most common questions we get, and the answer is straightforward. You cannot refill argon in an existing sealed unit.</p>
+
+<p>The sealed unit is factory-made. The gas is pumped in during manufacturing before the unit is sealed shut. There's no port, valve or way to inject gas back in after the fact. Any company that claims they can "recharge" your argon is not being honest about how sealed units work.</p>
+
+<p>If the seal has failed and the gas is gone, the fix is to <a href="/glass-replacement">replace the sealed unit</a>. The new unit comes filled with fresh gas from the factory.</p>
+
+<h2 id="when-it-matters">When Argon Loss Actually Matters</h2>
+
+<p>Here's where it gets practical. If your window still has an intact seal (no fog, no moisture between panes) but has slowly lost some argon over 15 or 20 years, the energy impact is very small. You might be down from 90% argon to 75%, and the insulation difference is barely measurable.</p>
+
+<p>Argon loss matters when:</p>
+
+<ul>
+  <li><strong>The seal has failed.</strong> Fog between the panes means the seal is broken and the gas is gone. The bigger issue is the moisture, which blocks your view and can etch the glass over time.</li>
+  <li><strong>You're replacing the glass anyway.</strong> The new unit will come with a fresh gas fill as part of the standard manufacturing process.</li>
+  <li><strong>You're comparing new windows.</strong> Argon fill is worth having in a new unit. It costs very little extra and does provide a measurable insulation boost.</li>
+</ul>
+
+<p>Argon loss on its own, without a seal failure, is almost never a reason to replace a window.</p>
+
+<h2 id="myths">Common Myths</h2>
+
+<h3>Myth: You can tell if argon is gone by touching the glass</h3>
+<p>No. The temperature difference between an argon-filled and air-filled unit is too small to feel by hand. If your window feels very cold in winter, the issue is more likely the glass type (single pane, old double pane without Low-E) than the gas fill.</p>
+
+<h3>Myth: Argon leaks are dangerous</h3>
+<p>Argon is completely safe. It's already in the air you breathe. Even if an entire sealed unit released all its argon into a room, the amount is tiny and would have zero health effect.</p>
+
+<h3>Myth: Windows without argon are worthless</h3>
+<p>A double-pane window filled with dry air is still a good window. Argon adds a modest efficiency boost, but the glass itself, the Low-E coating and the seal are doing most of the work.</p>
+
+<h2 id="faq">Questions We Hear Often</h2>
+
+<h3>How do I know if my windows have argon?</h3>
+<p>Check the spacer bar between the panes. Many manufacturers print gas fill information there. You can also check the original window sticker or documentation. If the window was made after about 2005, there's a good chance it has argon.</p>
+
+<h3>Should I pay extra for argon in new sealed units?</h3>
+<p>Yes, but don't overpay. It's a standard part of modern sealed unit manufacturing and shouldn't add much to the cost. Our <a href="/glass-replacement-cost-report-2026">cost report</a> gives you an idea of what sealed units cost in the GTA, gas fill included.</p>
+
+<h3>My window is foggy. Is that the argon?</h3>
+<p>The fog is moisture, not argon. Argon is invisible. The fog means the seal has broken and humid air has gotten in. The argon is gone too, but the visible problem is the moisture. See <a href="/blog/why-windows-fog-between-panes">why windows fog between panes</a> for the full explanation.</p>
+`,
+  },
+  {
+    slug: "window-glass-for-bathrooms-kitchens-privacy",
+    title: "Privacy Glass Options for Bathrooms, Kitchens and Entryways",
+    metaTitle: "Privacy Glass for Bathrooms and Kitchens: Your Options Explained",
+    metaDescription:
+      "Frosted, obscure, patterned and tinted glass give you privacy without curtains. Here are the options for bathrooms, kitchens and entryways in Toronto homes.",
+    excerpt:
+      "You don't need curtains or blinds to get privacy. Frosted, obscure, patterned and tinted glass options let light in while keeping the view out. Here is what works for each room.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Glass Replacement", "Privacy Glass", "Bathroom", "Front Door Glass"],
+    sections: [
+      { id: "why-privacy-glass", title: "Why Privacy Glass?" },
+      { id: "types", title: "Types of Privacy Glass" },
+      { id: "bathrooms", title: "Best Options for Bathrooms" },
+      { id: "kitchens", title: "Options for Kitchens" },
+      { id: "entryways", title: "Front Doors and Sidelites" },
+      { id: "tempered", title: "When Tempered Glass Is Required" },
+      { id: "how-it-works", title: "How Replacement Works" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Bathrooms, kitchens and entryways all have windows where you want light but not a clear view in. Most people solve this with curtains or blinds, but those collect moisture, block airflow and need cleaning. Privacy glass solves the problem at the source.</p>
+
+<p>You don't need a new window to get privacy glass. In most cases, the glass unit can be replaced inside your existing frame with a frosted, obscure or patterned option.</p>
+
+<h2 id="why-privacy-glass">Why Privacy Glass?</h2>
+
+<p>The main reasons homeowners switch to privacy glass:</p>
+
+<ul>
+  <li><strong>No curtains needed.</strong> Especially useful in wet rooms where fabric collects mould.</li>
+  <li><strong>Light still comes through.</strong> Privacy glass diffuses light rather than blocking it. Rooms stay bright.</li>
+  <li><strong>Lower maintenance.</strong> No blinds to dust, no curtains to wash.</li>
+  <li><strong>Better appearance.</strong> Especially on front doors and sidelites, where decorative glass looks intentional rather than covered up.</li>
+</ul>
+
+<h2 id="types">Types of Privacy Glass</h2>
+
+<h3>Frosted (acid-etched)</h3>
+<p>The most common choice. One surface of the glass is chemically etched to create a smooth, uniform blur. You can see light and colour through it, but not shapes or detail. It looks clean and modern.</p>
+
+<h3>Obscure (textured)</h3>
+<p>The glass has a physical texture rolled into it during manufacturing. Common patterns include rain, reed, narrow reed, delta and cross-reed. Each pattern offers a different level of privacy and light diffusion. Obscure glass tends to have more visual character than plain frosted.</p>
+
+<h3>Patterned or decorative</h3>
+<p>Glass with a bolder design, like glue-chip (which looks like frost on a window) or flemish (a wavy distortion). These are popular in front door inserts and sidelites where you want the glass to be a design feature.</p>
+
+<h3>Tinted</h3>
+<p>Grey, bronze or green tinted glass reduces visibility from outside, especially during the day. It doesn't offer full privacy at night when interior lights are on. Tinted glass also cuts glare and heat gain.</p>
+
+<h3>Laminated with a frosted interlayer</h3>
+<p>Two panes bonded with a frosted film between them. This gives you privacy and the safety benefits of laminated glass (it holds together if broken). A good choice where building code requires safety glass.</p>
+
+<h2 id="bathrooms">Best Options for Bathrooms</h2>
+
+<p>Bathrooms are the most common room for privacy glass. The usual picks:</p>
+
+<ul>
+  <li><strong>Frosted</strong> for a clean, minimal look. Works in any style of bathroom.</li>
+  <li><strong>Narrow reed or rain pattern</strong> for more visual texture while still blocking the view completely.</li>
+  <li><strong>Tempered frosted</strong> for shower enclosures or windows near the tub (building code requires tempered glass in wet areas).</li>
+</ul>
+
+<p>Bathroom windows are also often smaller, which keeps the cost down. A single frosted sealed unit is one of the most affordable glass upgrades you can make.</p>
+
+<h2 id="kitchens">Options for Kitchens</h2>
+
+<p>Kitchen windows usually face a neighbour's house or a walkway. Full privacy isn't always needed, just enough to feel comfortable.</p>
+
+<ul>
+  <li><strong>Light frosted or satin</strong> gives partial privacy while keeping more light and some visual connection to the outside.</li>
+  <li><strong>Frosted on the bottom half only.</strong> Some homeowners replace just the lower pane of a double-hung window with frosted glass, leaving the upper pane clear for the view and sky.</li>
+  <li><strong>Tinted</strong> works well for kitchens that get strong afternoon sun. It cuts glare on countertops while reducing visibility from outside.</li>
+</ul>
+
+<h2 id="entryways">Front Doors and Sidelites</h2>
+
+<p>Front door glass is the most visible privacy glass in the house. It faces the street and sets the tone for the entrance.</p>
+
+<ul>
+  <li><strong>Decorative patterns</strong> like glue-chip, flemish or cross-reed are popular because they look designed, not just covered up.</li>
+  <li><strong>Frosted with a clear border</strong> gives privacy while keeping a finished, framed look.</li>
+  <li><strong>Textured glass in sidelites</strong> blocks the view through the panels beside the door while still lighting the hallway.</li>
+</ul>
+
+<p>Our <a href="/front-door-glass">front door glass page</a> shows the styles we install most often. We can match the pattern of your existing panels if only one needs replacing.</p>
+
+<h2 id="tempered">When Tempered Glass Is Required</h2>
+
+<p>Ontario building code requires <a href="/blog/safety-glass-ontario-building-code">safety glass</a> (tempered or laminated) in certain locations:</p>
+
+<ul>
+  <li>Glass in or beside doors (within 600mm of the door)</li>
+  <li>Glass in wet areas (showers, tubs)</li>
+  <li>Glass below 450mm from the floor</li>
+  <li>Glass near stairs or landings</li>
+</ul>
+
+<p>All of the privacy glass types above are available in tempered versions. We check code requirements during the measuring visit and include the right glass type in your quote.</p>
+
+<h2 id="how-it-works">How Replacement Works</h2>
+
+<p>In most cases, you don't need a new window. The process:</p>
+
+<ol>
+  <li><strong>We measure the existing glass.</strong> Size, thickness, frame type and any grilles are recorded during a site visit.</li>
+  <li><strong>The new unit is made.</strong> The sealed unit is built to your exact measurements with the privacy glass type you chose. Glass is custom-made, then installed on a return visit.</li>
+  <li><strong>Installation.</strong> The old glass comes out, the new unit goes in. The frame, trim and hardware stay as they are. A typical swap takes under an hour per window.</li>
+</ol>
+
+<p>The $30 site visit fee covers the measurement and quote, and it's credited toward the job if you go ahead. See our <a href="/glass-replacement">glass replacement page</a> for more on how the process works.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I see through frosted glass at night?</h3>
+<p>Frosted glass blocks detail in both directions, day and night. You may see the glow of a light on the other side, but not shapes or movement. It's more private than tinted glass, which loses its advantage after dark.</p>
+
+<h3>Can I get privacy glass in a sealed unit with argon?</h3>
+<p>Yes. Privacy glass is available as part of a standard double or triple pane sealed unit with argon fill and Low-E coating. You don't give up any insulation by choosing frosted or textured glass.</p>
+
+<h3>What if I change my mind later?</h3>
+<p>You can always replace the glass again. Switching from frosted back to clear, or from one pattern to another, is the same process: measure, make, install. The frame stays.</p>
+
+<h3>How much does it cost?</h3>
+<p>Privacy glass adds a modest amount to the cost of a standard clear sealed unit. The exact amount depends on the glass type and size. Our <a href="/glass-replacement-cost-report-2026">cost report</a> covers typical ranges for GTA homes.</p>
+`,
+  },
+  {
+    slug: "when-to-call-a-pro-vs-diy-window-repair",
+    title: "Window Repairs You Can Do Yourself and When to Call a Pro",
+    metaTitle: "DIY Window Repair vs Calling a Pro: What You Can Fix Yourself",
+    metaDescription:
+      "Some window repairs are safe to do yourself: caulking, screens, weatherstripping. Others need a pro. Here is how to tell the difference.",
+    excerpt:
+      "Some window problems are easy to fix yourself. Others will get worse if you try. Here is a clear breakdown of what you can handle and what needs a professional.",
+    publishedAt: "2026-11-23",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Window Maintenance", "Window Repair", "DIY", "Window Hardware"],
+    sections: [
+      { id: "why-it-matters", title: "Why the Distinction Matters" },
+      { id: "diy-safe", title: "Repairs You Can Do Yourself" },
+      { id: "call-a-pro", title: "When to Call a Professional" },
+      { id: "grey-area", title: "The Grey Area" },
+      { id: "mistakes", title: "Common DIY Mistakes That Cost More" },
+      { id: "how-we-work", title: "How We Handle Repairs" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Not every window problem needs a service call. Some things are straightforward to fix yourself with basic tools and an hour of your time. Others are genuinely risky to attempt without the right parts, the right tools and the experience to know what you're looking at.</p>
+
+<p>Here's how to tell the difference.</p>
+
+<h2 id="why-it-matters">Why the Distinction Matters</h2>
+
+<p>The wrong DIY repair can turn a small problem into a bigger one. Forcing a stuck crank can strip the gears and break the operator. Prying out a sealed unit without knowing the glazing method can crack the frame. Using the wrong sealant on a window can void your warranty or trap moisture where it shouldn't be.</p>
+
+<p>On the other hand, paying for a service call to recaulk a window you could have done yourself in ten minutes isn't a great use of money either.</p>
+
+<h2 id="diy-safe">Repairs You Can Do Yourself</h2>
+
+<h3>Recaulking the exterior</h3>
+<p>If the caulk around your window frame has cracked or pulled away, you can remove the old bead with a utility knife, clean the gap and apply a new bead of exterior silicone caulk. Use a caulking gun, cut the tip at a 45-degree angle and work in one continuous line. This is one of the most effective maintenance tasks you can do, and it prevents water damage behind the frame.</p>
+
+<h3>Replacing weatherstripping</h3>
+<p>Most weatherstripping on windows and doors is a friction-fit or adhesive-backed strip that you can pull off and replace. Measure the old piece, buy the same profile from a hardware store and press the new one in. This fixes drafts and improves the seal without touching the window itself.</p>
+
+<h3>Cleaning and lubricating tracks</h3>
+<p>Sliding windows and patio doors run on tracks that collect dirt, pet hair and grit over the winter. Vacuum the track, wipe it down and apply a silicone-based lubricant (not WD-40, which attracts dust). This alone can fix a window or door that's been sticking.</p>
+
+<h3>Re-screening</h3>
+<p>If you have a screen frame that's in good shape but the mesh is torn, you can re-screen it yourself. You need new mesh, a spline roller and new spline (the rubber cord that holds the mesh in the groove). It takes about 15 minutes per screen once you've done one. Our <a href="/window-screens">screen page</a> explains the process.</p>
+
+<h3>Tightening loose hardware</h3>
+<p>Loose screws on handles, locks and hinges are common. A screwdriver fixes most of them. If a screw hole is stripped (the screw spins but won't tighten), fill the hole with a wooden toothpick and glue, let it dry, then re-drive the screw.</p>
+
+<h2 id="call-a-pro">When to Call a Professional</h2>
+
+<h3>Foggy or broken sealed units</h3>
+<p>If there's moisture or fog between the panes, the sealed unit needs to be replaced. This isn't a cleaning job or a sealant job. The unit has to be measured, ordered from a manufacturer and installed correctly. Getting the wrong size, thickness or glass type means doing it twice. See <a href="/foggy-windows">foggy glass repair</a>.</p>
+
+<h3>Broken window cranks and operators</h3>
+<p>Casement and awning window operators are precision hardware. The gears, arms and tracks are specific to the window brand and model. Ordering the wrong part means the window won't open or close properly, and forcing the wrong operator in can damage the frame. Our <a href="/cranks">crank repair page</a> explains what's involved. Most hardware repairs are completed on the same day, on the first visit.</p>
+
+<h3>Failed window balances</h3>
+<p>If a double-hung window won't stay up, the balance springs inside the frame have broken. Replacing them requires removing the sash, which means getting it out of the frame without damaging the vinyl tracks or the glass. The balance type and weight rating have to match your window, and there are dozens of types.</p>
+
+<h3>Glass near doors, stairs or wet areas</h3>
+<p>Building code requires tempered or laminated safety glass in certain locations. Putting the wrong glass type in a code-required location is a code violation and a safety risk. A professional knows when safety glass is required and orders the right type.</p>
+
+<h3>Any repair involving removing the glass</h3>
+<p>Sealed glass units are heavy, fragile and have sharp edges. Dropping one can break the glass and damage the frame. Getting the new unit in crooked can stress the seal and cause it to fail early. This is not a job for a first-timer.</p>
+
+<h2 id="grey-area">The Grey Area</h2>
+
+<p>Some jobs are technically possible to DIY but risky if you haven't done them before:</p>
+
+<ul>
+  <li><strong>Adjusting a patio door on its track.</strong> The roller adjustment screws are accessible, but over-adjusting can derail the door panel, which weighs 40 to 80 kg. If you're comfortable and careful, it's doable. If not, it's worth a service call.</li>
+  <li><strong>Replacing a window lock.</strong> Straightforward if you can find the exact replacement. The challenge is identifying the brand and model.</li>
+  <li><strong>Storm door glass and screen inserts.</strong> Swapping the panels is designed to be done by the homeowner. Replacing the glass inside a panel is a pro job.</li>
+</ul>
+
+<h2 id="mistakes">Common DIY Mistakes That Cost More</h2>
+
+<ul>
+  <li><strong>Forcing a stuck crank.</strong> The gears strip and now you need a new operator instead of just lubrication or a minor adjustment.</li>
+  <li><strong>Using silicone sealant on a failed sealed unit.</strong> Sealing around the outside of a foggy window traps the moisture inside permanently. It won't fix the fog and it makes the eventual glass replacement harder.</li>
+  <li><strong>Ordering glass online.</strong> If the measurements are off by even a few millimetres, the unit won't fit. Sealed units are custom-made and non-returnable.</li>
+  <li><strong>Removing the wrong glazing stops.</strong> Some windows have stops on the outside that look removable but are part of the frame. Prying them breaks the frame.</li>
+</ul>
+
+<h2 id="how-we-work">How We Handle Repairs</h2>
+
+<p>If you're not sure whether something is a DIY job, send us a photo. We'll tell you honestly whether it's something you can fix yourself or whether it needs a visit. If it does need a visit, our $30 assessment fee covers the inspection and you get a written quote on the spot. The fee is credited toward the repair if you go ahead.</p>
+
+<p>We'd rather help you fix something small yourself than charge for a visit you didn't need. That's how we've earned <a href="/about">70+ five-star Google reviews</a>.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I buy the parts myself and have you install them?</h3>
+<p>For hardware, it's usually better to let us source the parts. Window hardware is brand-specific and model-specific. We carry common parts and can identify and order the right one on the first visit. If you bring the wrong part, it means a second visit.</p>
+
+<h3>How do I send a photo for advice?</h3>
+<p>Text or WhatsApp a photo to us. Include a shot of the problem and, if you can, one of the full window so we can see the frame type. We reply the same day.</p>
+
+<h3>What if I started a repair and made it worse?</h3>
+<p>It happens. Call us and explain what you did. We've fixed plenty of half-finished DIY jobs. No judgement. The sooner you call, the less likely it is that the problem has compounded.</p>
+`,
+  },
+];
 
   const scored = BLOG_POSTS.filter((p) => p.slug !== slug).map((p) => {
     const shared = p.tags.filter((t) => current.tags.includes(t)).length;
