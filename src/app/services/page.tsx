@@ -12,6 +12,20 @@ export const metadata: Metadata = {
   description:
     "All LuminaSky services: foggy glass, front door glass, window cranks, screen doors, skylights, screens and more across the GTA.",
   alternates: { canonical: "/services" },
+  openGraph: {
+    title: "All Services | LuminaSky Glass Services",
+    description:
+      "All LuminaSky services: foggy glass, front door glass, window cranks, screen doors, skylights, screens and more across the GTA.",
+    url: "/services",
+    images: [
+      {
+        url: "/api/og?title=Our+Services&subtitle=Window+and+Glass+Repair+Across+the+GTA",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services",
+      },
+    ],
+  },
 };
 
 export default function ServicesPage() {
@@ -59,7 +73,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 md:px-8 bg-white" aria-label="Services listing">
+      <section className="py-20 px-4 md:px-8 bg-white dark:bg-gray-950" aria-label="Services listing">
         <div className="max-w-7xl mx-auto">
           <SectionHeading
             eyebrow="What We Do"

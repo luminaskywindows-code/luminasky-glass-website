@@ -38,6 +38,14 @@ export const metadata: Metadata = {
     description:
       "Window repair tips, homeowner guides, and expert advice from LuminaSky Glass Services. Learn when to repair, when to replace, and how to maintain your windows.",
     url: "/blog",
+    images: [
+      {
+        url: "/api/og?title=Window%20%26%20Glass%20Repair%20Blog&subtitle=Tips%2C%20Guides%20and%20Expert%20Advice",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Blog",
+      },
+    ],
   },
 };
 

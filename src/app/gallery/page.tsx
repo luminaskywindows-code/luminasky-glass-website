@@ -18,6 +18,20 @@ export const metadata: Metadata = {
   description:
     "Real before and after photos of window and glass repairs by LuminaSky. Foggy glass, front door glass, skylights, cranks and more across the GTA.",
   alternates: { canonical: "/gallery" },
+  openGraph: {
+    title: "Before & After Gallery | LuminaSky",
+    description:
+      "Real before and after photos of window and glass repairs by LuminaSky. Foggy glass, front door glass, skylights, cranks and more across the GTA.",
+    url: "/gallery",
+    images: [
+      {
+        url: "/api/og?title=Before+%26+After+Gallery&subtitle=Real+Window+and+Glass+Repair+Results",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Before and After Gallery",
+      },
+    ],
+  },
 };
 
 const PROJECTS = [

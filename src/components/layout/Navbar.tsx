@@ -9,6 +9,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { PHONE, PHONE_HREF, EMAIL, EMAIL_HREF, SERVICES, COMPANY_NAME, WINTER_READY_ENABLED } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { SocialLinks } from "@/components/shared/SocialLinks";
+import { ThemeToggle } from "@/components/shared/ThemeToggle";
 
 const BASE_NAV_LINKS = [
   { href: "/", label: "Home" },
@@ -51,7 +52,7 @@ export function Navbar() {
       {/* Skip to content */}
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 z-[200] bg-white text-primary font-semibold px-4 py-2 rounded-lg shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 z-[200] bg-white dark:bg-gray-900 text-primary dark:text-accent-light font-semibold px-4 py-2 rounded-lg shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
       >
         Skip to main content
       </a>
@@ -106,7 +107,7 @@ export function Navbar() {
       {/* Main navbar */}
       <header
         className={cn(
-          "sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 transition-shadow duration-300",
+          "sticky top-0 z-50 bg-white/95 dark:bg-gray-950/95 backdrop-blur-sm border-b border-gray-100 dark:border-gray-800 transition-shadow duration-300",
           scrolled && "shadow-md"
         )}
       >
@@ -141,8 +142,8 @@ export function Navbar() {
                   link.href === "/winter-ready"
                     ? "text-accent font-semibold bg-accent/10 hover:bg-accent/20"
                     : pathname === link.href
-                      ? "text-primary bg-primary-50 font-semibold"
-                      : "text-gray-600 hover:text-primary hover:bg-gray-50"
+                      ? "text-primary dark:text-accent-light bg-primary-50 dark:bg-gray-800 font-semibold"
+                      : "text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-accent-light hover:bg-gray-50 dark:hover:bg-gray-800"
                 )}
               >
                 {link.label}
@@ -160,8 +161,8 @@ export function Navbar() {
                 className={cn(
                   "flex items-center gap-1 px-3 py-2 rounded-lg text-[13px] font-medium whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
                   pathname.startsWith("/services")
-                    ? "text-primary bg-primary-50 font-semibold"
-                    : "text-gray-600 hover:text-primary hover:bg-gray-50"
+                    ? "text-primary dark:text-accent-light bg-primary-50 dark:bg-gray-800 font-semibold"
+                    : "text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-accent-light hover:bg-gray-50 dark:hover:bg-gray-800"
                 )}
                 aria-expanded={servicesOpen}
                 aria-haspopup="true"
@@ -180,7 +181,7 @@ export function Navbar() {
 
               <div
                 className={cn(
-                  "absolute top-full left-0 mt-1 w-64 bg-white rounded-xl shadow-xl border border-gray-100 py-2 z-50 transition-all duration-200",
+                  "absolute top-full left-0 mt-1 w-64 bg-white dark:bg-gray-900 rounded-xl shadow-xl border border-gray-100 dark:border-gray-700 py-2 z-50 transition-all duration-200",
                   servicesOpen
                     ? "opacity-100 visible translate-y-0"
                     : "opacity-0 invisible -translate-y-1 pointer-events-none"
@@ -188,17 +189,17 @@ export function Navbar() {
               >
                 <Link
                   href="/services"
-                  className="block px-4 py-2 text-sm font-semibold text-primary hover:bg-gray-50 transition-colors"
+                  className="block px-4 py-2 text-sm font-semibold text-primary dark:text-accent-light hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
                   onClick={() => setServicesOpen(false)}
                 >
                   All Services
                 </Link>
-                <div className="h-px bg-gray-100 my-1" />
+                <div className="h-px bg-gray-100 dark:bg-gray-700 my-1" />
                 {SERVICES.map((service) => (
                   <Link
                     key={service.slug}
                     href={service.href}
-                    className="block px-4 py-2 text-sm text-gray-700 hover:text-primary hover:bg-gray-50 transition-colors"
+                    className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-accent-light hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
                     onClick={() => setServicesOpen(false)}
                   >
                     {service.shortTitle}
@@ -210,9 +211,10 @@ export function Navbar() {
 
           {/* Desktop CTAs */}
           <div className="hidden lg:flex items-center gap-2 shrink-0">
+            <ThemeToggle />
             <a
               href={PHONE_HREF}
-              className="flex items-center gap-2 text-[13px] font-semibold text-gray-700 hover:text-primary whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-1 rounded"
+              className="flex items-center gap-2 text-[13px] font-semibold text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-accent-light whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-1 rounded"
               aria-label={`Call us at ${PHONE}`}
             >
               <Phone className="w-4 h-4 shrink-0" aria-hidden="true" />
@@ -228,14 +230,17 @@ export function Navbar() {
 
           {/* Mobile menu */}
           <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
-            <SheetTrigger
-              className="lg:hidden p-2 rounded-lg text-gray-600 hover:text-primary hover:bg-gray-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-              aria-label="Open navigation menu"
-            >
-              <Menu className="w-6 h-6" aria-hidden="true" />
-            </SheetTrigger>
-            <SheetContent side="right" className="w-80 p-0 overflow-y-auto">
-              <div className="flex items-center justify-between p-4 border-b border-gray-100">
+            <div className="flex items-center gap-1 lg:hidden">
+              <ThemeToggle />
+              <SheetTrigger
+                className="p-2 rounded-lg text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-accent-light hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                aria-label="Open navigation menu"
+              >
+                <Menu className="w-6 h-6" aria-hidden="true" />
+              </SheetTrigger>
+            </div>
+            <SheetContent side="right" className="w-80 p-0 overflow-y-auto bg-white dark:bg-gray-950">
+              <div className="flex items-center justify-between p-4 border-b border-gray-100 dark:border-gray-800">
                 <Link
                   href="/"
                   className="flex items-center"
@@ -251,7 +256,7 @@ export function Navbar() {
                 </Link>
                 <button
                   onClick={() => setSheetOpen(false)}
-                  className="p-1 rounded-lg text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
+                  className="p-1 rounded-lg text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
                   aria-label="Close navigation menu"
                 >
                   <X className="w-5 h-5" aria-hidden="true" />
@@ -269,8 +274,8 @@ export function Navbar() {
                       link.href === "/winter-ready"
                         ? "text-accent font-semibold bg-accent/10"
                         : pathname === link.href
-                          ? "text-primary bg-primary-50 font-semibold"
-                          : "text-gray-700 hover:text-primary hover:bg-gray-50"
+                          ? "text-primary dark:text-accent-light bg-primary-50 dark:bg-gray-800 font-semibold"
+                          : "text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-accent-light hover:bg-gray-50 dark:hover:bg-gray-800"
                     )}
                   >
                     {link.label}
@@ -286,15 +291,15 @@ export function Navbar() {
                       className={cn(
                         "flex-1 px-4 py-3 rounded-lg text-sm font-medium transition-colors",
                         pathname.startsWith("/services")
-                          ? "text-primary font-semibold"
-                          : "text-gray-700 hover:text-primary hover:bg-gray-50"
+                          ? "text-primary dark:text-accent-light font-semibold"
+                          : "text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-accent-light hover:bg-gray-50 dark:hover:bg-gray-800"
                       )}
                     >
                       Services
                     </Link>
                     <button
                       onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                      className="p-3 text-gray-500 hover:text-primary transition-colors"
+                      className="p-3 text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-accent-light transition-colors"
                       aria-expanded={mobileServicesOpen}
                       aria-label="Expand services list"
                     >
@@ -314,7 +319,7 @@ export function Navbar() {
                     <Link
                       href="/services"
                       onClick={() => setSheetOpen(false)}
-                      className="block px-4 py-2 text-sm font-semibold text-primary hover:bg-gray-50 rounded-lg transition-colors"
+                      className="block px-4 py-2 text-sm font-semibold text-primary dark:text-accent-light hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-colors"
                     >
                       All Services
                     </Link>
@@ -323,7 +328,7 @@ export function Navbar() {
                         key={service.slug}
                         href={service.href}
                         onClick={() => setSheetOpen(false)}
-                        className="block px-4 py-2 text-sm text-gray-600 hover:text-primary hover:bg-gray-50 rounded-lg transition-colors"
+                        className="block px-4 py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent-light hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-colors"
                       >
                         {service.shortTitle}
                       </Link>
@@ -331,7 +336,7 @@ export function Navbar() {
                   </div>
                 </div>
 
-                <div className="pt-4 border-t border-gray-100 flex flex-col gap-3">
+                <div className="pt-4 border-t border-gray-100 dark:border-gray-800 flex flex-col gap-3">
                   <a
                     href={PHONE_HREF}
                     className="flex items-center justify-center gap-2 bg-primary text-white font-semibold px-4 py-3 rounded-md hover:bg-primary-700 transition-colors"

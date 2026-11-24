@@ -39,9 +39,9 @@ export function ServiceCard({
 
   return (
     <Link href={href} className={cn("group block h-full", className)}>
-      <div className="h-full bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg hover:border-accent/30 transition-all duration-300 overflow-hidden">
+      <div className="h-full bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-lg hover:border-accent/30 transition-all duration-300 overflow-hidden">
         {imageSrc && (
-          <div className="relative h-48 overflow-hidden bg-gray-100">
+          <div className="relative h-48 overflow-hidden bg-gray-100 dark:bg-gray-800">
             <Image
               src={imageSrc}
               alt={`${title} - LuminaSky Glass Services`}
@@ -57,8 +57,8 @@ export function ServiceCard({
               <IconComponent className="w-6 h-6 text-accent" aria-hidden="true" />
             </div>
           )}
-          <h3 className="text-lg font-semibold text-gray-900 mb-2">{title}</h3>
-          <p className="text-gray-500 text-sm leading-relaxed">{description}</p>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">{title}</h3>
+          <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">{description}</p>
           <div className="mt-4 flex items-center text-accent font-medium text-sm gap-1 group-hover:gap-2 transition-all duration-200">
             Learn More <ArrowRight className="w-4 h-4" aria-hidden="true" />
           </div>

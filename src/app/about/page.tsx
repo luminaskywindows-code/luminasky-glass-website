@@ -31,6 +31,20 @@ export const metadata: Metadata = {
   description:
     "About LuminaSky Glass Services. Licensed glaziers serving the GTA. Honest assessments and repair-first solutions for windows and doors.",
   alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About LuminaSky | Toronto Glass Repair Specialists Since 2024",
+    description:
+      "About LuminaSky Glass Services. Licensed glaziers serving the GTA. Honest assessments and repair-first solutions for windows and doors.",
+    url: "/about",
+    images: [
+      {
+        url: "/api/og?title=About+LuminaSky&subtitle=Licensed+Glaziers+Serving+Toronto+Since+2024",
+        width: 1200,
+        height: 630,
+        alt: "About LuminaSky Glass Services",
+      },
+    ],
+  },
 };
 
 const CREDENTIALS = [

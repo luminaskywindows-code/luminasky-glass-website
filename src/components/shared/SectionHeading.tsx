@@ -41,7 +41,7 @@ export function SectionHeading({
         id={id}
         className={cn(
           "text-3xl md:text-4xl font-bold leading-tight",
-          light ? "text-white" : "text-gray-900"
+          light ? "text-white" : "text-gray-900 dark:text-gray-100"
         )}
       >
         {title}
@@ -51,7 +51,7 @@ export function SectionHeading({
           className={cn(
             "mt-4 text-lg max-w-2xl leading-relaxed",
             align === "center" ? "mx-auto" : "",
-            light ? "text-blue-100" : "text-gray-500"
+            light ? "text-blue-100" : "text-gray-500 dark:text-gray-400"
           )}
         >
           {subtitle}

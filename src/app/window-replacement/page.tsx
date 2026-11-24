@@ -130,6 +130,14 @@ export const metadata: Metadata = {
     description:
       "Full window replacement for Toronto and Vaughan homes. We replace old, drafty and failing windows. Written quote on the spot. Licensed.",
     url: "/window-replacement",
+    images: [
+      {
+        url: "/api/og?title=Window%20Replacement%20Toronto&subtitle=Full%20Frame%20Replacement",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Window Replacement Toronto",
+      },
+    ],
   },
 };
 

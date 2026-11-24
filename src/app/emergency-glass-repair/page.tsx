@@ -111,6 +111,14 @@ export const metadata: Metadata = {
     description:
       "Broken window or storefront glass? We respond fast, 24/7, across the GTA and board up the opening, with no after-hours surcharge.",
     url: "/emergency-glass-repair",
+    images: [
+      {
+        url: "/api/og?title=Emergency%20Glass%20Repair&subtitle=24%2F7%20Board-Up%20and%20Same-Day%20Service",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Emergency Glass Repair",
+      },
+    ],
   },
 };
 

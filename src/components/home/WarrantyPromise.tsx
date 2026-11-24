@@ -9,25 +9,25 @@ const POINTS = [
 
 export function WarrantyPromise() {
   return (
-    <section className="py-16 px-4 md:px-8 bg-white">
+    <section className="py-16 px-4 md:px-8 bg-white dark:bg-gray-950">
       <div className="max-w-4xl mx-auto text-center">
         <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
           Our Promise
         </span>
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-10">
           Glass That&apos;s Covered
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
           {POINTS.map((point) => (
             <div
               key={point}
-              className="flex flex-col items-center gap-3 bg-gray-50 border border-gray-100 rounded-xl p-6"
+              className="flex flex-col items-center gap-3 bg-gray-50 dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-xl p-6"
             >
               <CheckCircle2
                 className="w-6 h-6 text-accent shrink-0"
                 aria-hidden="true"
               />
-              <p className="text-gray-700 text-sm font-medium leading-relaxed">
+              <p className="text-gray-700 dark:text-gray-300 text-sm font-medium leading-relaxed">
                 {point}
               </p>
             </div>

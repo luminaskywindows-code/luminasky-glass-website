@@ -182,6 +182,14 @@ export const metadata: Metadata = {
     description:
       "Foggy or cloudy windows? We replace the sealed glass unit and keep your frame. 2 years parts and labour on glass. Serving the GTA.",
     url: "/foggy-windows",
+    images: [
+      {
+        url: "/api/og?title=Foggy%20Window%20Repair%20Toronto&subtitle=Replace%20Glass%2C%20Keep%20Your%20Frame",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Foggy Window Repair",
+      },
+    ],
   },
 };
 
@@ -1102,30 +1110,6 @@ export default function FoggyWindowsPage() {
         </section>
       )}
 
-      {/* Cities We Serve */}
-      <section className="py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-4 md:px-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Foggy Glass Repair Across the GTA
-          </h2>
-          <p className="text-gray-500 mb-6 max-w-2xl">
-            We replace foggy sealed units across {FOGGY_GLASS_CITY_PAGES.length} cities in the Greater Toronto Area:
-          </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-            {FOGGY_GLASS_CITY_PAGES.map((city) => (
-              <Link
-                key={city.slug}
-                href={`/foggy-glass-repair-${city.slug}`}
-                className="flex items-center gap-2 bg-white rounded-lg border border-gray-200 px-4 py-3 text-sm font-medium text-gray-700 hover:text-primary hover:border-primary/30 hover:shadow-sm transition-all"
-              >
-                <MapPin className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />
-                {city.city}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <CTABanner
         title="Foggy Windows? We Fix Them."
         subtitle="Same-week measurement appointments available across the GTA."
@@ -1151,53 +1135,6 @@ export default function FoggyWindowsPage() {
           </div>
         </section>
       )}
-
-      {/* ── Service Areas ── */}
-      <section className="py-12 px-4 md:px-8 bg-gray-50">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            Foggy Window Repair Across the GTA
-          </h2>
-          <p className="text-gray-600 leading-relaxed mb-8">
-            We replace sealed glass units in{" "}
-            <Link
-              href="/foggy-glass-repair-toronto"
-              className="text-primary font-semibold hover:underline"
-            >
-              Toronto
-            </Link>
-            ,{" "}
-            <Link
-              href="/foggy-glass-repair-vaughan"
-              className="text-primary font-semibold hover:underline"
-            >
-              Vaughan
-            </Link>
-            ,{" "}
-            <Link
-              href="/foggy-glass-repair-mississauga"
-              className="text-primary font-semibold hover:underline"
-            >
-              Mississauga
-            </Link>
-            ,{" "}
-            <Link
-              href="/foggy-glass-repair-thornhill"
-              className="text-primary font-semibold hover:underline"
-            >
-              Thornhill
-            </Link>{" "}
-            and across the Greater Toronto Area. Glass is measured first,
-            custom-made, then installed.{" "}
-            <Link
-              href="/areas-we-serve"
-              className="text-primary font-semibold hover:underline"
-            >
-              See all areas we serve &rarr;
-            </Link>
-          </p>
-        </div>
-      </section>
 
       {/* ── Foggy Glass Repair by City ── */}
       <section className="bg-white border-t border-gray-200 py-12 md:py-16">

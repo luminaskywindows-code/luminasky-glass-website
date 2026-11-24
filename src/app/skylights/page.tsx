@@ -187,6 +187,14 @@ export const metadata: Metadata = {
     description:
       "Skylight leaking or foggy? We find where the water gets in and replace the sealed glass inside your existing frame. Written price before any work.",
     url: "/skylights",
+    images: [
+      {
+        url: "/api/og?title=Skylight%20Repair%20Toronto&subtitle=Glass%20Replacement%20and%20Leak%20Repair",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Skylight Repair",
+      },
+    ],
   },
 };
 

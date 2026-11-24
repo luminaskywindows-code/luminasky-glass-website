@@ -164,6 +164,14 @@ export const metadata: Metadata = {
     description:
       "Replace cracked or foggy front door glass inserts across the GTA. Decorative, frosted and clear glass. 2-year parts and labour warranty.",
     url: "/front-door-glass",
+    images: [
+      {
+        url: "/api/og?title=Front%20Door%20Glass%20Replacement&subtitle=Decorative%2C%20Frosted%20and%20Clear%20Inserts",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Front Door Glass Replacement",
+      },
+    ],
   },
 };
 

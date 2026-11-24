@@ -69,6 +69,14 @@ export const metadata: Metadata = {
     description:
       "Filing an insurance claim for broken glass? We repair the damage and give you the itemized invoice, photos and measurements you need for your claim.",
     url: "/insurance-claims",
+    images: [
+      {
+        url: "/api/og?title=Insurance%20Claims&subtitle=Glass%20Damage%20Claims%20Made%20Simple",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Insurance Claims",
+      },
+    ],
   },
 };
 

@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         {
           url: post.coverImage
             ? `${SITE_URL}${post.coverImage}`
-            : `${SITE_URL}/og-image.jpg`,
+            : `${SITE_URL}/api/og?title=${encodeURIComponent(post.title)}&subtitle=${encodeURIComponent("LuminaSky Glass Services Blog")}`,
           width: 1200,
           height: 630,
           alt: post.title,

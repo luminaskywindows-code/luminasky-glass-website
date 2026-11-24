@@ -16,6 +16,14 @@ export const metadata: Metadata = {
     description:
       "Common questions about foggy glass repair, window cranks, patio doors, emergency service and glass repair across the GTA. Answers from LuminaSky.",
     url: "/faq",
+    images: [
+      {
+        url: "/api/og?title=Frequently%20Asked%20Questions&subtitle=Glass%20Repair%20and%20Window%20Service",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - FAQ",
+      },
+    ],
   },
 };
 

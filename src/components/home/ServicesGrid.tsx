@@ -10,7 +10,7 @@ export function ServicesGrid() {
 
   return (
     <section
-      className="py-20 px-4 md:px-8 bg-gray-50"
+      className="py-20 px-4 md:px-8 bg-gray-50 dark:bg-gray-950"
       aria-labelledby="services-heading"
       style={{ contentVisibility: "auto", containIntrinsicSize: "auto 600px" }}
     >
@@ -48,7 +48,7 @@ export function ServicesGrid() {
           ))}
         </div>
 
-        <p className="text-center mt-10 text-gray-500 text-sm">
+        <p className="text-center mt-10 text-gray-500 dark:text-gray-400 text-sm">
           Need something not listed?{" "}
           <a
             href={PHONE_HREF}

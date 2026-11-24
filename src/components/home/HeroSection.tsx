@@ -111,7 +111,7 @@ export function HeroSection() {
           >
             <path
               d="M0 48 C360 0 1080 0 1440 48 L1440 48 L0 48 Z"
-              fill="#F8FAFC"
+              className="fill-[#F8FAFC] dark:fill-gray-950"
             />
           </svg>
         </div>
@@ -119,23 +119,23 @@ export function HeroSection() {
 
       {/* ── Stats Strip ── */}
       <section
-        className="bg-[#F8FAFC] border-b border-gray-200"
+        className="bg-[#F8FAFC] dark:bg-gray-950 border-b border-gray-200 dark:border-gray-800"
         aria-label="Company statistics"
       >
         <div className="max-w-5xl mx-auto px-4 md:px-8 py-8">
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-0 lg:divide-x lg:divide-gray-200">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-0 lg:divide-x lg:divide-gray-200 dark:lg:divide-gray-700">
             {STATS.map(({ value, label, href, external }) => {
               const inner = (
                 <>
                   <span className="text-2xl md:text-3xl font-bold text-primary leading-tight">
                     {value}
                   </span>
-                  <span className="text-sm text-gray-500 mt-1 leading-snug">
+                  <span className="text-sm text-gray-500 dark:text-gray-400 mt-1 leading-snug">
                     {label}
                   </span>
                 </>
               );
-              const cls = "flex flex-col items-center text-center px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors";
+              const cls = "flex flex-col items-center text-center px-4 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors";
               return external ? (
                 <a key={label} href={href} target="_blank" rel="noopener noreferrer" className={cls}>
                   {inner}

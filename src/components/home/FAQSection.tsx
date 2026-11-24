@@ -6,7 +6,7 @@ import { HOMEPAGE_FAQS } from "@/lib/faq-data";
 export function FAQSection() {
   return (
     <section
-      className="py-20 px-4 md:px-8 bg-gray-50"
+      className="py-20 px-4 md:px-8 bg-gray-50 dark:bg-gray-950"
       aria-labelledby="faq-heading"
     >
       <div className="max-w-3xl mx-auto">
@@ -21,12 +21,12 @@ export function FAQSection() {
           {HOMEPAGE_FAQS.map((faq) => (
             <div
               key={faq.q}
-              className="bg-white rounded-xl p-5 md:p-6 shadow-sm border border-gray-100"
+              className="bg-white dark:bg-gray-900 rounded-xl p-5 md:p-6 shadow-sm border border-gray-100 dark:border-gray-800"
             >
-              <h3 className="text-base md:text-lg font-semibold text-gray-900 mb-2">
+              <h3 className="text-base md:text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">
                 {faq.q}
               </h3>
-              <p className="text-gray-600 text-sm md:text-base leading-relaxed">
+              <p className="text-gray-600 dark:text-gray-400 text-sm md:text-base leading-relaxed">
                 {faq.a}
               </p>
             </div>

@@ -17,6 +17,14 @@ export const metadata: Metadata = {
     description:
       "Window and glass repair across 34 GTA cities. Toronto, Vaughan, Mississauga, Markham and more. 2-year parts and labour warranty.",
     url: "/areas-we-serve",
+    images: [
+      {
+        url: "/api/og?title=Areas%20We%20Serve&subtitle=34%2B%20Cities%20Across%20the%20GTA",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Areas We Serve",
+      },
+    ],
   },
 };
 

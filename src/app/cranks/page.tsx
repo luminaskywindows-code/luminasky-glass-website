@@ -38,6 +38,14 @@ export const metadata: Metadata = {
     description:
       "Broken window crank? We repair and replace casement cranks, operators and handles across the GTA. Most repairs same day. 1-year warranty.",
     url: "/cranks",
+    images: [
+      {
+        url: "/api/og?title=Window%20Crank%20Repair%20Toronto&subtitle=Casement%20and%20Awning%20Hardware",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Window Crank Repair",
+      },
+    ],
   },
 };
 

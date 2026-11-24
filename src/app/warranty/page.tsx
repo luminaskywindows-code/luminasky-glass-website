@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     description:
       "2 years parts and labour on glass, then up to 5 years on the glass itself. 1-year warranty on hardware repairs. Clear terms, no fine print.",
     url: "/warranty",
+    images: [
+      {
+        url: "/api/og?title=Warranty%20Information&subtitle=Coverage%20and%20Terms",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Warranty",
+      },
+    ],
   },
 };
 

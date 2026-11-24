@@ -53,23 +53,23 @@ export default function HomePage() {
       <FAQSection />
 
       {/* Social strip */}
-      <section className="py-10 px-4 bg-white border-t border-gray-100">
+      <section className="py-10 px-4 bg-white dark:bg-gray-950 border-t border-gray-100 dark:border-gray-800">
         <div className="max-w-xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-4 text-center sm:text-left">
           <a
             href="https://www.google.com/search?sca_esv=50e2bf8f38455036&sxsrf=ANbL-n7wSLiGxC2fDL8T78exI1FufMDcqA:1777236681407&kgmid=/g/11ylg1yw71&q=Lumina+Sky+Glass+Services&shem=dlvs1,rimspwouoe&shndl=30&source=sh/x/loc/uni/m1/1&kgs=de8e7fb04e2ff6dd&utm_source=dlvs1,rimspwouoe,sh/x/loc/uni/m1/1#mpd=~7335244370390807247/customers/reviews?p%3DCg51cGRhdGV0aW1lZGVzYxIDYWxs"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-sm text-gray-500 shrink-0 rounded-md px-2 py-1 hover:bg-gray-100 transition-colors"
+            className="flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400 shrink-0 rounded-md px-2 py-1 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           >
             <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" aria-hidden="true" />
-            <span className="font-semibold text-gray-700">5.0★ on Google</span>
+            <span className="font-semibold text-gray-700 dark:text-gray-300">5.0★ on Google</span>
             <span className="hidden sm:inline">·</span>
           </a>
-          <span className="text-sm text-gray-500">Find us on:</span>
+          <span className="text-sm text-gray-500 dark:text-gray-400">Find us on:</span>
           <SocialLinks
             size={22}
             containerClassName="flex items-center gap-4"
-            linkClassName="text-gray-500 hover:text-accent transition-colors duration-150"
+            linkClassName="text-gray-500 dark:text-gray-400 hover:text-accent transition-colors duration-150"
           />
         </div>
       </section>

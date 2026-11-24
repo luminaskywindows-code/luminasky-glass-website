@@ -66,6 +66,14 @@ export const metadata: Metadata = {
     description:
       "Sliding patio door sticking or won’t lock? We replace rollers, fix tracks, adjust the panel and replace glass, with no new door needed. Photo quote.",
     url: "/patio-door-repair",
+    images: [
+      {
+        url: "/api/og?title=Patio%20Door%20Repair%20Toronto&subtitle=Rollers%2C%20Tracks%2C%20Locks%20and%20Glass",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Patio Door Repair",
+      },
+    ],
   },
 };
 

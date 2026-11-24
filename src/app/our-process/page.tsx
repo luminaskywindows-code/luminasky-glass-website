@@ -22,6 +22,14 @@ export const metadata: Metadata = {
     description:
       "Transparent pricing, written quotes before work starts, and a repair-first approach. See how LuminaSky Glass Services keeps every job honest and stress-free.",
     url: "/our-process",
+    images: [
+      {
+        url: "/api/og?title=Our%20Process&subtitle=From%20Call%20to%20Completion",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Our Process",
+      },
+    ],
   },
 };
 

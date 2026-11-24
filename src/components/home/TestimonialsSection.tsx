@@ -11,7 +11,7 @@ export function TestimonialsSection() {
 
   return (
     <section
-      className="py-20 px-4 md:px-8 bg-gray-50"
+      className="py-20 px-4 md:px-8 bg-gray-50 dark:bg-gray-950"
       aria-labelledby="testimonials-heading"
       style={{ contentVisibility: "auto", containIntrinsicSize: "auto 500px" }}
     >
@@ -28,15 +28,15 @@ export function TestimonialsSection() {
           href="https://www.google.com/search?sca_esv=50e2bf8f38455036&sxsrf=ANbL-n7wSLiGxC2fDL8T78exI1FufMDcqA:1777236681407&kgmid=/g/11ylg1yw71&q=Lumina+Sky+Glass+Services&shem=dlvs1,rimspwouoe&shndl=30&source=sh/x/loc/uni/m1/1&kgs=de8e7fb04e2ff6dd&utm_source=dlvs1,rimspwouoe,sh/x/loc/uni/m1/1#mpd=~7335244370390807247/customers/reviews?p%3DCg51cGRhdGV0aW1lZGVzYxIDYWxs"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-3 mb-10 -mt-4 rounded-lg px-4 py-2 hover:bg-gray-100 transition-colors"
+          className="flex items-center justify-center gap-3 mb-10 -mt-4 rounded-lg px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
         >
           <div className="flex gap-0.5" aria-label="5.0 out of 5 stars">
             {Array.from({ length: 5 }).map((_, i) => (
               <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" aria-hidden="true" />
             ))}
           </div>
-          <span className="font-semibold text-gray-700">5.0</span>
-          <span className="text-gray-500 text-sm">on Google</span>
+          <span className="font-semibold text-gray-700 dark:text-gray-300">5.0</span>
+          <span className="text-gray-500 dark:text-gray-400 text-sm">on Google</span>
         </a>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -84,7 +84,7 @@ export function TestimonialsSection() {
             <Star className="w-4 h-4 fill-white" aria-hidden="true" />
             Leave a Google Review
           </a>
-          <p className="text-gray-500 text-sm">
+          <p className="text-gray-500 dark:text-gray-400 text-sm">
             Join hundreds of satisfied GTA homeowners who chose repair over replacement.
           </p>
         </div>

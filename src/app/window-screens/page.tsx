@@ -122,6 +122,14 @@ export const metadata: Metadata = {
     description:
       "Torn, bent or missing window screens? We repair and replace window and patio door screens across Toronto. Same-day service available.",
     url: "/window-screens",
+    images: [
+      {
+        url: "/api/og?title=Window%20and%20Door%20Screens&subtitle=Custom%20Screen%20Building%20and%20Repair",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Window and Door Screens",
+      },
+    ],
   },
 };
 

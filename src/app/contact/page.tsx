@@ -23,6 +23,14 @@ export const metadata: Metadata = {
     description:
       "Contact LuminaSky Glass Services for a window or door glass repair quote. Call 437-344-8490 or send a message. Proudly serving the Greater Toronto Area.",
     url: "/contact",
+    images: [
+      {
+        url: "/api/og?title=Contact%20Us&subtitle=Call%2C%20Text%20or%20Email%20Anytime",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Contact Us",
+      },
+    ],
   },
 };
 

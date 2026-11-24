@@ -153,6 +153,14 @@ export const metadata: Metadata = {
     description:
       "Cracked, broken or foggy glass? We replace the sealed glass unit and keep your frame. Written price on the spot. 2 years parts and labour on glass.",
     url: "/glass-replacement",
+    images: [
+      {
+        url: "/api/og?title=Window%20Glass%20Replacement&subtitle=Cracked%2C%20Broken%20or%20Foggy%20Glass",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Window Glass Replacement",
+      },
+    ],
   },
 };
 

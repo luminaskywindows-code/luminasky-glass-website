@@ -168,6 +168,14 @@ export const metadata: Metadata = {
     description:
       "Commercial glass repair in Toronto and the GTA. Storefront glass, commercial doors, partition walls, 24/7 emergency board-up.",
     url: "/commercial-glass-repair",
+    images: [
+      {
+        url: "/api/og?title=Commercial%20Glass%20Repair&subtitle=Storefronts%2C%20Offices%2C%2024%2F7%20Service",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Commercial Glass Repair",
+      },
+    ],
   },
 };
 

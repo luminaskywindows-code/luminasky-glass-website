@@ -12,10 +12,10 @@ export default function Error({
     <main className="min-h-[60vh] flex items-center justify-center px-4 py-24">
       <div className="max-w-lg text-center">
         <p className="text-5xl font-bold text-red-500 mb-4">Oops</p>
-        <h1 className="text-2xl font-bold text-gray-900 mb-3">
+        <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-3">
           Something Went Wrong
         </h1>
-        <p className="text-gray-600 mb-8">
+        <p className="text-gray-600 dark:text-gray-400 mb-8">
           We hit an unexpected error. You can try again, or call us directly and
           we will help you right away.
         </p>
@@ -28,7 +28,7 @@ export default function Error({
           </button>
           <a
             href={PHONE_HREF}
-            className="inline-flex items-center justify-center px-6 py-3 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-colors"
+            className="inline-flex items-center justify-center px-6 py-3 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-semibold rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
           >
             Call {PHONE}
           </a>

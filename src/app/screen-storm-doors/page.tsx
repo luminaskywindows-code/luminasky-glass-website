@@ -151,6 +151,14 @@ export const metadata: Metadata = {
     description:
       "Screen and storm door installation and repair in the GTA. Custom-fit, retractable and sliding options. Written quote on the spot.",
     url: "/screen-storm-doors",
+    images: [
+      {
+        url: "/api/og?title=Screen%20and%20Storm%20Doors&subtitle=Installation%20and%20Repair",
+        width: 1200,
+        height: 630,
+        alt: "LuminaSky Glass Services - Screen and Storm Doors",
+      },
+    ],
   },
 };
 

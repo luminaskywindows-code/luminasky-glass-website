@@ -5,7 +5,7 @@ export function ServiceAreaMap() {
   return (
     <section
       aria-labelledby="service-areas-heading"
-      className="py-16 px-4 md:px-8 bg-white"
+      className="py-16 px-4 md:px-8 bg-white dark:bg-gray-950"
     >
       <div className="max-w-5xl mx-auto text-center">
         <span className="inline-block text-sm font-semibold uppercase tracking-widest text-accent mb-3">
@@ -13,44 +13,44 @@ export function ServiceAreaMap() {
         </span>
         <h2
           id="service-areas-heading"
-          className="text-3xl font-bold text-gray-900 mb-4"
+          className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4"
         >
           Proudly Serving the Greater Toronto Area
         </h2>
-        <p className="text-gray-500 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-gray-500 dark:text-gray-400 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
           Wherever you are in the GTA, we can come to you - typically same-day
           or next-day. Available 24/7, any day of the week.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
-          <div className="flex flex-col items-center gap-3 p-6 bg-blue-50 rounded-2xl border border-blue-100">
+          <div className="flex flex-col items-center gap-3 p-6 bg-blue-50 dark:bg-gray-900 rounded-2xl border border-blue-100 dark:border-gray-800">
             <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
               <MapPin className="w-6 h-6 text-white" aria-hidden="true" />
             </div>
-            <h3 className="font-bold text-gray-900">GTA-Wide Coverage</h3>
-            <p className="text-sm text-gray-500 leading-relaxed">
+            <h3 className="font-bold text-gray-900 dark:text-gray-100">GTA-Wide Coverage</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">
               We cover the full Greater Toronto Area - residential and commercial.
             </p>
           </div>
-          <div className="flex flex-col items-center gap-3 p-6 bg-blue-50 rounded-2xl border border-blue-100">
+          <div className="flex flex-col items-center gap-3 p-6 bg-blue-50 dark:bg-gray-900 rounded-2xl border border-blue-100 dark:border-gray-800">
             <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
               <Clock className="w-6 h-6 text-white" aria-hidden="true" />
             </div>
-            <h3 className="font-bold text-gray-900">Same-Day Available</h3>
-            <p className="text-sm text-gray-500 leading-relaxed">
+            <h3 className="font-bold text-gray-900 dark:text-gray-100">Same-Day Available</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">
               Call before noon for same-day service. 24/7 emergency response.
             </p>
           </div>
           <a
             href={PHONE_HREF}
-            className="flex flex-col items-center gap-3 p-6 bg-blue-50 rounded-2xl border border-blue-100 hover:bg-blue-100 hover:border-blue-200 transition-colors"
+            className="flex flex-col items-center gap-3 p-6 bg-blue-50 dark:bg-gray-900 rounded-2xl border border-blue-100 dark:border-gray-800 hover:bg-blue-100 dark:hover:bg-gray-800 hover:border-blue-200 dark:hover:border-gray-700 transition-colors"
             aria-label={`Call us at ${PHONE}`}
           >
             <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
               <Phone className="w-6 h-6 text-white" aria-hidden="true" />
             </div>
-            <h3 className="font-bold text-gray-900">Not Sure? Just Call</h3>
-            <p className="text-sm text-gray-500 leading-relaxed">
+            <h3 className="font-bold text-gray-900 dark:text-gray-100">Not Sure? Just Call</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">
               If you&apos;re in or near the GTA, we likely cover your area. Call to confirm.
             </p>
           </a>
