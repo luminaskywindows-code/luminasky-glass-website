@@ -205,6 +205,19 @@ export default function PropertyManagersPage() {
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_minmax(0,420px)] gap-8 lg:gap-8 items-start">
             {/* Left: Copy + How it works */}
             <div className="lg:py-4">
+              <nav aria-label="Breadcrumb" className="mb-4">
+                <ol className="flex items-center gap-2 text-sm text-blue-200">
+                  <li>
+                    <Link href="/" className="hover:text-white transition-colors">
+                      Home
+                    </Link>
+                  </li>
+                  <li aria-hidden="true">/</li>
+                  <li className="text-white font-medium" aria-current="page">
+                    Property Managers
+                  </li>
+                </ol>
+              </nav>
               <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold leading-[1.15] mb-4 tracking-tight">
                 One Vendor for All Your{" "}
                 <span className="text-accent-light">Glass and Window Repairs</span>

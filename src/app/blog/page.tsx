@@ -59,6 +59,19 @@ export default function BlogIndexPage() {
       />
       <section className="bg-primary text-white py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
+          <nav aria-label="Breadcrumb" className="mb-6">
+            <ol className="flex items-center gap-2 text-sm text-blue-200">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li aria-hidden="true">/</li>
+              <li className="text-white font-medium" aria-current="page">
+                Blog
+              </li>
+            </ol>
+          </nav>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Window &amp; Glass Guides
           </h1>

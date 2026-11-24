@@ -205,6 +205,7 @@ export default function WinterReadyPage() {
             src="/images/services/foggy-window-real.webp"
             alt="Foggy window showing condensation during winter"
             fill
+            sizes="100vw"
             className="object-cover"
             priority
           />

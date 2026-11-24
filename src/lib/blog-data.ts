@@ -442,6 +442,8 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h3>What about the track?</h3>
 <p>If the track has minor scratches, cleaning and lubrication is enough. If it's deeply gouged or bent, a track cap (a metal cover that creates a new riding surface) or track replacement may be needed alongside the roller work.</p>
+
+<p>Related reading: <a href="/blog/patio-door-glass-replacement-guide" class="text-accent hover:underline font-medium">Patio Door Glass Replacement Guide</a> covers what to do when the glass itself needs attention, and <a href="/blog/when-to-call-a-pro-vs-diy-window-repair" class="text-accent hover:underline font-medium">When to Call a Pro vs. DIY Window Repair</a> helps you decide whether to tackle this yourself.</p>
 `,
   },
   {
@@ -537,6 +539,8 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h3>Is there a warranty?</h3>
 <p>Yes. Hardware repairs carry a 1-year warranty on parts and labour. Details are on our <a href="/warranty">warranty page</a>.</p>
+
+<p>Related reading: <a href="/blog/casement-window-repair-hinges-cranks-locks" class="text-accent hover:underline font-medium">Casement Window Repair: Hinges, Cranks and Locks</a> covers similar hardware issues on casement windows, and our <a href="/blog/when-to-call-a-pro-vs-diy-window-repair" class="text-accent hover:underline font-medium">DIY vs pro guide</a> can help you decide whether to tackle this one yourself.</p>
 `,
   },
   {
@@ -745,7 +749,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Search the company name on Google Maps. Look at the total number of reviews, the average rating, and read 5 or 6 of the most recent ones. Pay attention to how the company responds to any negative reviews.</p>
 
 <h3>What if I'm not sure whether I need repair or replacement?</h3>
-<p>A good company will tell you honestly. If a technician pushes replacement without explaining why repair won't work, get a second opinion.</p>
+<p>A good company will tell you honestly. If a technician pushes replacement without explaining why repair won't work, get a second opinion. Our guide on <a href="/blog/replace-vs-repair-windows-toronto" class="text-accent hover:underline font-medium">repair vs replacement in Toronto</a> breaks down when each option makes sense, and <a href="/blog/will-glass-company-sell-me-new-windows" class="text-accent hover:underline font-medium">will a glass company try to sell me new windows?</a> tackles this exact concern.</p>
 `,
   },
   {
@@ -1517,6 +1521,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Glass and weatherstripping can be replaced in winter on most skylights. Roof-side work depends on the weather and access.</p>
 
 <p>Feeling cold air from your skylight? Send us a photo of the glass and the area around it, or book a visit, and we'll tell you which of these it is before any work starts.</p>
+
+<p>Related reading: <a href="/blog/why-windows-fog-between-panes" class="text-accent hover:underline font-medium">Why Windows Fog Between Panes</a> explains the seal failure that causes cold glass, and <a href="/blog/foggy-window-repair-cost-gta" class="text-accent hover:underline font-medium">How Much Does Foggy Window Repair Cost in the GTA?</a> covers what sealed unit replacement typically runs.</p>
 `,
   },
   {
@@ -3051,7 +3057,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2 id="if-it-turns-out-to-be-yours">If It Turns Out to Be Yours</h2>
 
-<p>If responsibility lands with you as the owner, the repair is usually smaller than you expect. A <a href="/foggy-windows">fogged sealed unit is replaced without touching the frame</a>. A failed crank is a part, not a window.</p>
+<p>If responsibility lands with you as the owner, the repair is usually smaller than you expect. A <a href="/foggy-windows">fogged sealed unit is replaced without touching the frame</a>. A failed crank is a part, not a window. Our post on <a href="/blog/foggy-window-repair-cost-gta" class="text-accent hover:underline font-medium">foggy window repair costs</a> gives you a realistic idea of what to budget, and <a href="/blog/window-repair-vs-replacement-toronto" class="text-accent hover:underline font-medium">repair vs replacement</a> helps you decide whether the glass or the whole window needs attention.</p>
 
 <p>Send us a photo on WhatsApp and we will tell you what you are dealing with. Call <a href="tel:+14373448490">437-344-8490</a>.</p>
 `,
@@ -3132,7 +3138,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Replacing just the glass is the wrong call if the frame is rotted, warped, or no longer square; if the window is a very old single pane with no sealed unit to replace; if you are already planning to renovate that wall; or if you want a different window altogether, a different size or a different opening style.</p>
 
-<p>In those cases you are better off replacing the window, and glass alone would be money spent twice.</p>
+<p>In those cases you are better off with a full <a href="/glass-replacement">glass replacement</a> or a new window, and replacing just the sealed unit would be money spent twice.</p>
 
 <h2 id="how-to-check-your-own-house-this-week">How to Check Your Own House This Week</h2>
 
@@ -3606,11 +3612,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h3>Can I just repair the seal instead of replacing the glass?</h3>
 
-<p>Once the seal has failed and moisture has entered, the only lasting fix is to replace the sealed glass unit. "Defogging" services drill holes and try to remove moisture, but the insulating gas is already gone and the fog almost always returns. A new sealed unit restores both clarity and insulation.</p>
+<p>Once the seal has failed and moisture has entered, the only lasting fix is to replace the sealed glass unit. "Defogging" services drill holes and try to remove moisture, but the insulating gas is already gone and the fog almost always returns. A new sealed unit restores both clarity and insulation. For a deeper look at <a href="/blog/why-windows-fog-between-panes" class="text-accent hover:underline font-medium">why windows fog between panes</a>, see our detailed guide.</p>
 
 <h3>How do I know if my foggy window needs the glass replaced or the whole window?</h3>
 
-<p>Check the frame. If the wood or vinyl frame is solid, no rot, no warping, and the hardware works fine, you only need the glass unit replaced. If the frame is crumbling, cracked, or pulling away from the wall, a full replacement may make more sense. A technician can confirm during a no-obligation assessment.</p>
+<p>Check the frame. If the wood or vinyl frame is solid, no rot, no warping, and the hardware works fine, you only need the glass unit replaced. If the frame is crumbling, cracked, or pulling away from the wall, a full replacement may make more sense. A technician can confirm during a no-obligation assessment. Our post on <a href="/blog/replace-vs-repair-windows-toronto" class="text-accent hover:underline font-medium">repair vs replacement</a> walks through the decision in detail.</p>
 
 <p>Ready to find out what your foggy windows will cost? We serve the entire GTA, including <a href="/foggy-glass-repair-vaughan">Vaughan</a>, <a href="/foggy-glass-repair-toronto">Toronto</a>, <a href="/foggy-glass-repair-mississauga">Mississauga</a>, and <a href="/foggy-glass-repair-markham">Markham</a>. <a href="/contact">Request a quote</a> or call <a href="tel:+14373448490">437-344-8490</a>.</p>
 `,
@@ -3962,7 +3968,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h3>Does home insurance cover emergency glass repair?</h3>
 
-<p>In most cases, yes, if the damage was caused by a covered peril like a storm, vandalism, or attempted break-in. Contact your insurer and provide photos, a police report number (for break-ins), and the repair receipt. Your deductible still applies. Accidental damage from inside (a ball hitting the window, furniture falling into it) is often covered too, depending on your policy.</p>
+<p>In most cases, yes, if the damage was caused by a covered peril like a storm, vandalism, or attempted break-in. Contact your insurer and provide photos, a police report number (for break-ins), and the repair receipt. Your deductible still applies. Accidental damage from inside (a ball hitting the window, furniture falling into it) is often covered too, depending on your policy. Our <a href="/blog/home-insurance-broken-window-ontario" class="text-accent hover:underline font-medium">insurance claims guide</a> walks through the process step by step.</p>
+
+<p>For more on glass types that resist impact, see our post on <a href="/blog/safety-glass-ontario-building-code" class="text-accent hover:underline font-medium">safety glass and the Ontario Building Code</a>. If your business was affected, our <a href="/blog/storefront-glass-emergency-board-up" class="text-accent hover:underline font-medium">storefront board-up guide</a> covers what to expect for <a href="/commercial-glass-repair" class="text-accent hover:underline font-medium">commercial properties</a>.</p>
 
 <p>Glass emergency? Call <a href="tel:+14373448490">437-344-8490</a> any time, day or night. We respond to emergencies across the Greater Toronto Area.</p>
 `,
@@ -4055,6 +4063,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Send us a few photos of the problem and we will tell you what is going on and what it will take to fix it. No charge for the photo assessment. If we need to come out, the visit is $30, credited toward the repair if you go ahead.</p>
 
 <p>Call <a href="tel:+14373448490">437-344-8490</a> or visit our <a href="/window-repair-vaughan">Vaughan window repair</a> page for more details. We are available 24/7 and serve every neighbourhood in Vaughan.</p>
+
+<p>Related reading: <a href="/blog/vaughan-sealed-unit-replacement-winter" class="text-accent hover:underline font-medium">Why Vaughan Homes Need Sealed Unit Replacement Before Winter</a> covers fall timing, and <a href="/blog/foggy-window-repair-cost-gta" class="text-accent hover:underline font-medium">How Much Does Foggy Window Repair Cost in the GTA?</a> breaks down pricing.</p>
 `,
   },
   {
@@ -4143,6 +4153,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2 id="get-a-quote">Get a Quote</h2>
 
 <p>Send us photos of your fogged or failed windows and we will get back to you with a quote. No obligation, no pressure. Visit our <a href="/foggy-glass-repair-vaughan">Vaughan foggy glass repair</a> page or call <a href="tel:+14373448490">437-344-8490</a>. We also handle <a href="/glass-replacement">full glass replacement</a> and <a href="/window-repair-vaughan">general window repair</a> across every neighbourhood in Vaughan.</p>
+
+<p>Related reading: <a href="/blog/why-windows-fog-between-panes" class="text-accent hover:underline font-medium">Why Windows Fog Between Panes</a> explains the science behind seal failure, and <a href="/blog/replace-window-glass-in-winter" class="text-accent hover:underline font-medium">Can You Replace Window Glass in Winter?</a> answers the most common scheduling question we get during cold months.</p>
 `,
   },
   {
@@ -4223,6 +4235,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2 id="get-a-quote">Get a Quote</h2>
 
 <p>Whether you have one cracked panel or a full storefront that needs replacing, send us photos and we will get you a written quote. Visit our <a href="/commercial-glass-repair-vaughan">Vaughan commercial glass repair</a> page or call <a href="tel:+14373448490">437-344-8490</a>. For after-hours emergencies, the same number reaches us around the clock.</p>
+
+<p>Related reading: <a href="/blog/emergency-glass-repair-toronto" class="text-accent hover:underline font-medium">Emergency Glass Repair in Toronto</a> covers our board-up and same-day service, and <a href="/blog/home-insurance-broken-window-ontario" class="text-accent hover:underline font-medium">Does Home Insurance Cover a Broken Window?</a> explains the claims process for commercial policies as well.</p>
 `,
   },
   {
@@ -5445,13 +5459,13 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>If you know your screens need attention, booking in late winter or early spring means shorter wait times. That said, we handle screen work through autumn and into winter as well. If you need a screen fixed before mosquito season, the earlier you call, the better.</p>
 
-<p>One tip: take a walk around your home in early spring and check every screen. Open each window, inspect the mesh for tears or sag, and test sliding screens for smooth operation. Catching a small problem now prevents a bigger headache in July when you actually need the airflow. For window hardware that is sticking or grinding when you open the window itself, that is a separate issue covered on our <a href="/cranks">window crank repair</a> page.</p>
+<p>One tip: take a walk around your home in early spring and check every screen. Open each window, inspect the mesh for tears or sag, and test sliding screens for smooth operation. Our <a href="/blog/spring-window-inspection-checklist" class="text-accent hover:underline font-medium">spring window inspection checklist</a> covers screens along with every other component to check. For window hardware that is sticking or grinding when you open the window itself, that is a separate issue covered on our <a href="/cranks">window crank repair</a> page.</p>
 
 <h2 id="what-to-do-next">What to Do Next</h2>
 
 <p>If you have a torn, sagging, or damaged screen, send us a photo and we can usually tell you right away whether it needs a repair or a replacement. Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. We are available 24/7.</p>
 
-<p>For a full overview of our screen services, including window screens, patio door screens, and storm door screens, visit our <a href="/window-screens">Window Screens</a> page.</p>
+<p>For a full overview of our screen services, including window screens, patio door screens, and storm door screens, visit our <a href="/window-screens">Window Screens</a> page. If your patio door screen tracks are part of a larger sliding door issue, our <a href="/blog/sliding-patio-door-wont-slide" class="text-accent hover:underline font-medium">patio door troubleshooting guide</a> covers the full range of roller and track problems.</p>
 
 <p>LuminaSky Glass Services. Family-Owned Since 2024. 76 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
 `,
@@ -5546,7 +5560,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>If your patio door glass is cracked and you are concerned about security or weather exposure while waiting for the replacement unit, we can install a temporary board-up on the same day.</p>
 
-<p>Have questions about your patio door? Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. You can also send us a photo for a quick assessment. Visit our <a href="/patio-door-repair">patio door repair</a> page to see the full range of patio door services we offer.</p>
+<p>Have questions about your patio door? Call <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. You can also send us a photo for a quick assessment. Visit our <a href="/patio-door-repair">patio door repair</a> page to see the full range of patio door services we offer, including <a href="/blog/sliding-patio-door-wont-slide" class="text-accent hover:underline font-medium">roller and track repairs</a>.</p>
+
+<p>Related reading: <a href="/blog/when-to-replace-patio-door-rollers" class="text-accent hover:underline font-medium">When to Replace Patio Door Rollers</a> and <a href="/blog/safety-glass-ontario-building-code" class="text-accent hover:underline font-medium">Safety Glass and the Ontario Building Code</a>.</p>
 
 <p>LuminaSky Glass Services. Family-Owned Since 2024. 76 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
 `,
@@ -5638,6 +5654,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Wash glass inserts before storing.</strong> Dirt left on the glass for months can etch the surface. A quick wipe with glass cleaner before you put it away keeps it clear for next season.</p>
 
 <p>Need a storm door glass insert replacement, screen repair, or help with a door that is not cooperating? Call us at <a href="tel:+14373448490">437-344-8490</a> or email <a href="mailto:service@luminasky.com">service@luminasky.com</a>. We are available 24/7 and serve homeowners across Toronto, Vaughan, Brampton, Mississauga, and the entire GTA.</p>
+
+<p>Related reading: <a href="/blog/window-screen-repair-vs-replacement" class="text-accent hover:underline font-medium">Window Screen Repair vs Replacement</a> covers the same repair-or-replace decision for window screens, and our <a href="/blog/front-door-glass-styles-guide" class="text-accent hover:underline font-medium">front door glass styles guide</a> explores options if your entry door glass also needs attention.</p>
 
 <p>LuminaSky Glass Services. Family-Owned Since 2024. 76 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
 `,
@@ -5764,6 +5782,8 @@ export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
 
 <h3>What if several windows have problems?</h3>
 <p>That's common, especially in houses where all the windows were installed at the same time. We can quote multiple windows in one visit and often offer better pricing when several units are done together.</p>
+
+<p>Related reading: <a href="/blog/foggy-window-repair-cost-gta" class="text-accent hover:underline font-medium">How Much Does Foggy Window Repair Cost in the GTA?</a> covers pricing for the most common finding, and <a href="/blog/window-repair-vs-replacement-toronto" class="text-accent hover:underline font-medium">Window Repair vs. Replacement</a> helps you decide which route makes sense for each window on your list.</p>
 `,
   },
   {
@@ -5851,6 +5871,8 @@ export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
 
 <h3>My window is foggy. Is that the argon?</h3>
 <p>The fog is moisture, not argon. Argon is invisible. The fog means the seal has broken and humid air has gotten in. The argon is gone too, but the visible problem is the moisture. See <a href="/blog/why-windows-fog-between-panes">why windows fog between panes</a> for the full explanation.</p>
+
+<p>For a broader look at glass specs, read <a href="/blog/double-vs-triple-pane-low-e-argon" class="text-accent hover:underline font-medium">Double vs. Triple Pane, Low-E and Argon</a>, which compares every common combination you will see in a quote.</p>
 `,
   },
   {
@@ -5980,6 +6002,8 @@ export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
 
 <h3>How much does it cost?</h3>
 <p>Privacy glass adds a modest amount to the cost of a standard clear sealed unit. The exact amount depends on the glass type and size. Our <a href="/glass-replacement-cost-report-2026">cost report</a> covers typical ranges for GTA homes.</p>
+
+<p>For more on how glass types compare, read <a href="/blog/types-of-window-glass-explained" class="text-accent hover:underline font-medium">Types of Window Glass Explained</a>, which covers tempered, laminated, Low-E and obscure glass in detail.</p>
 `,
   },
   {
@@ -6083,6 +6107,8 @@ export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
 
 <h3>What if I started a repair and made it worse?</h3>
 <p>It happens. Call us and explain what you did. We've fixed plenty of half-finished DIY jobs. No judgement. The sooner you call, the less likely it is that the problem has compounded.</p>
+
+<p>Related reading: <a href="/blog/broken-window-crank-what-to-do" class="text-accent hover:underline font-medium">Broken Window Crank? What to Do</a> covers the most common hardware failure, and our <a href="/blog/spring-window-inspection-checklist" class="text-accent hover:underline font-medium">spring window inspection checklist</a> helps you catch problems early before they need any repair at all.</p>
 `,
   },
 ];
