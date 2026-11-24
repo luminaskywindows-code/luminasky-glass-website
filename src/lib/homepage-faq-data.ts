@@ -25,7 +25,7 @@ export const HOMEPAGE_SCHEMA_FAQS = [
   },
   {
     q: "Who comes to my house?",
-    a: "LuminaSky is a family business. The repairs are done by David and his son Ronel, the same two people on every job, not a rotating crew of subcontractors. Dan, David's other son, answers the phone and handles quotes and scheduling. You deal with the family from the first call to the last screw.",
+    a: "LuminaSky is a family business. The repairs are done by members of the family, the same people on every job, not a rotating crew of subcontractors. You deal with the family from the first call to the last screw.",
   },
   {
     q: "Do you only do glass, or also cranks, hinges and patio door rollers?",
