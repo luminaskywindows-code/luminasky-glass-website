@@ -698,7 +698,7 @@ export default function CommercialGlassRepairPage() {
             {COMMERCIAL_GLASS_CITY_PAGES.map((city) => (
               <Link
                 key={city.slug}
-                href={`/commercial-glass-${city.slug}`}
+                href={`/commercial-glass-repair-${city.slug}`}
                 className="flex items-center gap-2 bg-white rounded-lg border border-gray-200 px-4 py-3 text-sm font-medium text-gray-700 hover:text-primary hover:border-primary/30 hover:shadow-sm transition-all"
               >
                 <MapPin className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />
