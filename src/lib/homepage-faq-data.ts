@@ -20,6 +20,18 @@ export const HOMEPAGE_SCHEMA_FAQS = [
     a: "No. Phone quotes are at no charge. Send us a photo of the damaged glass by text or WhatsApp at 437-344-8490 and we will give you a quote range within one business day.",
   },
   {
+    q: "Is there a fee for the visit?",
+    a: "The visit is $30, and it's credited back in full if you go ahead with the repair. The technician checks the window and gives you a written quote on the spot. If you'd rather know the ballpark first, send us a photo of the glass or the crank on WhatsApp and we'll reply with a price range before anyone comes out.",
+  },
+  {
+    q: "Who comes to my house?",
+    a: "LuminaSky is a family business. The repairs are done by David and his son Ronel, the same two people on every job, not a rotating crew of subcontractors. Dan, David's other son, answers the phone and handles quotes and scheduling. You deal with the family from the first call to the last screw.",
+  },
+  {
+    q: "Do you only do glass, or also cranks, hinges and patio door rollers?",
+    a: "Both. Window cranks, hinges, locks, patio door rollers and windows that won't close properly are a big part of what we do every week. We repair first and only replace a part or a window when it can't be fixed. Hardware repairs come with 1 year on parts and labour.",
+  },
+  {
     q: "Is replacing just the glass cheaper than replacing the whole window?",
     a: "Yes. Glass-only replacement is a fraction of the cost of a full window replacement because the frame, hardware, and structure stay in place. For most GTA homes, this means savings in the hundreds to thousands of dollars per window.",
   },
