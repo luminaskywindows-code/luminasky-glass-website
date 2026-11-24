@@ -5660,19 +5660,1286 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>LuminaSky Glass Services. Family-Owned Since 2024. 76 5-Star Google Reviews. <a href="/contact">Get a Written Quote on the Spot</a>.</p>
 `,
   },
-];
+  {
+    slug: "window-pane-replacement-guide",
+    title: "Window Pane Replacement: When You Only Need New Glass",
+    metaTitle: "Window Pane Replacement: When You Only Need New Glass",
+    metaDescription:
+      "Not every foggy or cracked window needs a full replacement. Learn when a pane-only swap saves money and how the sealed unit process works in Ontario.",
+    excerpt:
+      "A cracked or foggy pane does not always mean you need a new window. In most cases the glass can be replaced on its own, keeping your existing frame. Here is how the process works and what affects the cost.",
+    publishedAt: "2026-11-05",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Glass Replacement", "Sealed Units", "Homeowner Guide", "Window Repair"],
+    sections: [
+      { id: "pane-vs-full-window", title: "Pane Replacement vs Full Window Replacement" },
+      { id: "when-glass-only", title: "When Glass-Only Replacement Makes Sense" },
+      { id: "how-sealed-units-work", title: "How Sealed Units Are Made" },
+      { id: "cost-factors", title: "What Affects the Cost" },
+      { id: "the-process", title: "The Replacement Process" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>When a window cracks, fogs up between the panes, or just stops insulating properly, the first thought is often: do I need a whole new window? In most cases the answer is no. If the frame is structurally sound and operates correctly, only the glass pane, the sealed unit, needs to be swapped out. This is what's called window pane replacement, and it's a fraction of the cost of a full window replacement.</p>
 
-export function getBlogPost(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((p) => p.slug === slug);
-}
+<h2 id="pane-vs-full-window">Pane Replacement vs Full Window Replacement</h2>
 
-export function getAllBlogSlugs(): string[] {
-  return BLOG_POSTS.map((p) => p.slug);
-}
+<p>A full window replacement means removing the entire window, frame included, and installing a new one. This is major work: cutting into the wall opening, adjusting the rough opening, re-insulating, re-trimming, and often repainting. It costs several times more than a glass-only swap and usually takes a full day per window.</p>
 
-export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
-  const current = BLOG_POSTS.find((p) => p.slug === slug);
-  if (!current) return [{
+<p>Window pane replacement, by contrast, keeps the existing frame in place. The old glass sealed unit is removed and a new one is set into the same frame. The window looks and functions exactly as it did, with fresh, properly sealed glass.</p>
+
+<p>When should you consider a full replacement instead? Only when the frame itself is the problem: rotting wood, cracked vinyl that no longer holds its shape, or hardware that is discontinued and cannot be sourced. If the frame is solid and the hardware works, <a href="/glass-replacement" class="text-accent hover:underline font-medium">glass replacement</a> is almost always the better option.</p>
+
+<h2 id="when-glass-only">When Glass-Only Replacement Makes Sense</h2>
+
+<ul>
+  <li><strong>Foggy glass.</strong> Condensation trapped between the panes means the seal has failed. The gas fill is gone and the glass no longer insulates properly. A new sealed unit restores full insulation. See our detailed guide on <a href="/foggy-windows" class="text-accent hover:underline font-medium">foggy window repair</a>.</li>
+  <li><strong>Cracked or chipped glass.</strong> A single crack in one pane of a double-pane unit compromises the seal. The entire sealed unit needs replacing, but the frame is fine.</li>
+  <li><strong>Upgrading glass performance.</strong> If you want to improve insulation or noise reduction, you can swap the existing sealed unit for one with Low-E coatings, argon gas, or thicker glass without replacing the frame.</li>
+  <li><strong>Storm or impact damage.</strong> A broken pane from a stray ball or fallen branch rarely damages the frame. The glass comes out, a new unit goes in.</li>
+</ul>
+
+<h2 id="how-sealed-units-work">How Sealed Units Are Made</h2>
+
+<p>A sealed unit (also called an IGU, insulated glass unit) is two or three panes of glass held apart by a spacer bar and bonded together with sealant around the entire perimeter. The gap between the panes is filled with an insulating gas, usually argon, which slows heat transfer better than air.</p>
+
+<p>Each sealed unit is custom-made to the exact measurements of the frame. There is no universal size. This is why <a href="/glass-replacement" class="text-accent hover:underline font-medium">glass replacement</a> involves two visits: a measurement visit and an installation visit. The glass is measured first, custom-made at the factory, then installed once it arrives.</p>
+
+<p>The spacer bar can be aluminium or a "warm-edge" composite material. Warm-edge spacers reduce heat loss at the edge of the glass and lower the chance of condensation forming around the perimeter.</p>
+
+<h2 id="cost-factors">What Affects the Cost</h2>
+
+<p>Several factors determine what a pane replacement will cost:</p>
+
+<ul>
+  <li><strong>Size of the glass.</strong> A small bathroom window and a large living room picture window use very different amounts of glass. Larger units cost more.</li>
+  <li><strong>Number of panes.</strong> A triple-pane sealed unit costs more than a double-pane one.</li>
+  <li><strong>Glass coatings.</strong> Low-E coatings, tinted glass, or laminated safety glass add to the unit cost.</li>
+  <li><strong>Shape.</strong> Rectangular units are standard. Arched, circular, or custom-shaped units cost more because they require special tooling.</li>
+  <li><strong>Accessibility.</strong> A ground-floor window is straightforward. A second-storey window that requires a ladder, or a skylight that requires roof access, adds to the labour.</li>
+  <li><strong>Window type.</strong> Casement, slider, and picture windows have different removal procedures. Some take more time than others.</li>
+</ul>
+
+<p>As a rough guide, most residential pane replacements in Ontario fall between $200 and $600 per unit for standard double-pane glass. Triple-pane, oversized, or specialty glass can run higher. The best way to get an exact number is a site visit: the technician measures the glass, checks the frame condition, and gives you a written quote on the spot.</p>
+
+<h2 id="the-process">The Replacement Process</h2>
+
+<ol>
+  <li><strong>Site visit and measurement.</strong> A technician inspects the window, confirms that the frame is in good condition, and takes precise measurements of the sealed unit. You receive a written quote on the spot. The $30 site visit fee is credited toward the repair if you go ahead.</li>
+  <li><strong>Manufacturing.</strong> The new sealed unit is custom-made to your measurements. This typically takes 5 to 10 business days depending on the glass type.</li>
+  <li><strong>Installation.</strong> The technician removes the old sealed unit, cleans the frame channel, sets the new glass, and re-secures the glazing stops. The window is tested for proper operation and sealed.</li>
+</ol>
+
+<p>The installation itself usually takes 20 to 45 minutes per window, depending on the type and size. There is no drywall work, no painting, and no mess.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I replace just one pane of a double-pane window?</h3>
+<p>No. A double-pane window uses a sealed unit where both panes are bonded together with a gas fill between them. If one pane is damaged, the entire sealed unit is replaced. You cannot swap a single pane without breaking the seal.</p>
+
+<h3>How long does a new sealed unit last?</h3>
+<p>A properly manufactured sealed unit typically lasts 15 to 25 years before the seal degrades. We provide a 5-year seal warranty on all sealed unit replacements.</p>
+
+<h3>Will the new glass match my other windows?</h3>
+<p>Yes. The new sealed unit is built to the same specifications as the original: same thickness, same spacer width, same glass type. If you want to upgrade (for example, adding Low-E when the original didn't have it), the appearance change is minimal since Low-E coatings are nearly invisible.</p>
+
+<h3>Do I need to be home for the measurement visit?</h3>
+<p>Someone needs to be home to give the technician access to the windows. The measurement visit is quick, usually 15 to 30 minutes depending on how many windows need measuring.</p>
+`,
+  },
+  {
+    slug: "glass-inserts-for-front-doors",
+    title: "Glass Inserts for Front Doors: Styles, Sizes, and Replacement",
+    metaTitle: "Glass Inserts for Front Doors: Styles, Sizes, and Replacement",
+    metaDescription:
+      "Thinking about replacing or upgrading the glass insert in your front door? Here are the styles, standard sizes, and how the replacement process works.",
+    excerpt:
+      "Front door glass inserts come in dozens of styles, from clear to decorative to frosted. When one cracks or fogs, replacement is straightforward. Here is what to know about sizes, styles, and the process.",
+    publishedAt: "2026-11-08",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Front Door Glass", "Door Glass Insert", "Decorative Glass", "Glass Replacement"],
+    sections: [
+      { id: "types-of-inserts", title: "Types of Door Glass Inserts" },
+      { id: "standard-sizes", title: "Standard Sizes and Custom Options" },
+      { id: "when-to-replace", title: "When to Replace a Door Glass Insert" },
+      { id: "how-replacement-works", title: "How the Replacement Works" },
+      { id: "choosing-a-style", title: "Choosing the Right Style" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>The glass insert in your front door does a lot of work. It lets natural light into the entryway, adds curb appeal, and sets the tone for the whole front of the house. When it cracks, fogs, or just looks dated, replacing the insert is far simpler and cheaper than replacing the entire door. Most <a href="/front-door-glass" class="text-accent hover:underline font-medium">front door glass</a> replacements keep the existing door and frame, swapping only the glass panel.</p>
+
+<h2 id="types-of-inserts">Types of Door Glass Inserts</h2>
+
+<h3>Clear glass</h3>
+<p>Plain clear glass, usually in a double-pane sealed unit. Maximises light and visibility. Common in modern and minimalist door designs. The downside is zero privacy: anyone at your doorstep can see inside.</p>
+
+<h3>Frosted or obscure glass</h3>
+<p>Textured or acid-etched glass that lets light through while blocking a clear view. Popular choices include rain glass (vertical streaks), reed glass (narrow vertical lines), and satin etch (uniform haze). These give you natural light without sacrificing privacy.</p>
+
+<h3>Decorative glass</h3>
+<p>Patterned inserts with lead or zinc caming (the metal strips that hold decorative glass pieces together). These range from simple geometric designs to elaborate floral or stained-glass patterns. Decorative inserts are typically made as a full assembly: the decorative panel sandwiched between two panes of clear glass in a sealed unit.</p>
+
+<h3>Low-E coated glass</h3>
+<p>Clear or lightly tinted glass with a microscopically thin metallic coating that reflects heat. In winter it keeps warmth inside. In summer it keeps solar heat out. Available in any of the styles above.</p>
+
+<h3>Textured privacy glass</h3>
+<p>Glass with a pattern rolled into it during manufacturing: glue chip, flemish, baroque, or delta. Each creates a different level of distortion. These are single-pane textures that are then incorporated into a sealed unit.</p>
+
+<h2 id="standard-sizes">Standard Sizes and Custom Options</h2>
+
+<p>Door glass inserts come in several standard configurations:</p>
+
+<ul>
+  <li><strong>Half lite:</strong> Glass occupies the top half of the door. The most common configuration in Canadian entry doors.</li>
+  <li><strong>Three-quarter lite:</strong> Glass covers roughly 75% of the door height, with a solid panel at the bottom.</li>
+  <li><strong>Full lite:</strong> Glass runs nearly the full height of the door. Maximum light, minimum privacy without frosting.</li>
+  <li><strong>Sidelite:</strong> The narrow glass panels on one or both sides of the door. Typically 8 to 14 inches wide.</li>
+  <li><strong>Transom:</strong> The glass panel above the door. Can be rectangular, arched, or fan-shaped.</li>
+</ul>
+
+<p>Within each configuration, the exact dimensions vary by door manufacturer and model. There is no truly universal size. That is why every door glass replacement starts with a measurement visit: the technician measures the cutout in the door, notes the frame depth, and orders the glass to fit.</p>
+
+<h2 id="when-to-replace">When to Replace a Door Glass Insert</h2>
+
+<ul>
+  <li><strong>Cracked glass.</strong> Impact damage from a package delivery, a storm, or just an unlucky knock. Even a small crack compromises the seal and the security of the door.</li>
+  <li><strong>Foggy glass.</strong> Condensation between the panes means the sealed unit has failed. The glass no longer insulates properly and the fog will get worse over time.</li>
+  <li><strong>Outdated decorative pattern.</strong> Styles change. If your door has a brass-camed floral insert from the 1990s and you want something cleaner, a glass swap updates the look without replacing the door.</li>
+  <li><strong>Privacy upgrade.</strong> Switching from clear to frosted glass for a street-facing door.</li>
+  <li><strong>Energy upgrade.</strong> Replacing an old single-pane or non-coated unit with a modern Low-E sealed unit.</li>
+</ul>
+
+<h2 id="how-replacement-works">How the Replacement Works</h2>
+
+<p>Door glass replacement follows the same two-visit process as window glass:</p>
+
+<ol>
+  <li><strong>Measurement visit.</strong> The technician removes the interior trim or retaining frame around the glass insert, measures the glass precisely, and records the frame depth and any special requirements (decorative caming, tempered glass for safety code compliance, etc.). You get a written quote on the spot. The $30 site visit fee is credited toward the job if you proceed.</li>
+  <li><strong>Installation visit.</strong> Once the new sealed unit arrives (typically 5 to 10 business days), the technician removes the old insert, cleans the channel, sets the new glass, re-secures the trim, and checks the seal.</li>
+</ol>
+
+<p>The installation itself usually takes 30 to 60 minutes per insert. For sidelites and transoms, each panel is measured and replaced individually.</p>
+
+<p>Glass is measured first, custom-made, then installed. This ensures a precise fit with no gaps or pressure points that could cause premature seal failure.</p>
+
+<h2 id="choosing-a-style">Choosing the Right Style</h2>
+
+<p>A few practical considerations when picking a new insert:</p>
+
+<ul>
+  <li><strong>Privacy vs light.</strong> Frosted glass lets in about 80 to 90% of the light that clear glass does, while blocking visibility. If your door faces the street, frosted or textured glass is usually worth the slight reduction in brightness.</li>
+  <li><strong>Decorative inserts and resale.</strong> Simple, clean patterns tend to appeal to more buyers than ornate designs. If you are planning to sell in the next few years, consider a subtle pattern or plain frosted glass.</li>
+  <li><strong>Matching sidelites.</strong> If your door has sidelites, the glass style should match the door insert. Replacing just the door glass and leaving mismatched sidelites looks unfinished.</li>
+  <li><strong>Building code.</strong> In Ontario, glass in doors and sidelites must be tempered or laminated safety glass. Any reputable supplier will handle this automatically, but verify if you are sourcing your own glass.</li>
+  <li><strong>Wrought iron inserts.</strong> Some decorative inserts use wrought iron between the glass panes instead of traditional caming. These are durable and give a modern look, but they cost more and are heavier. The door must be able to support the weight.</li>
+</ul>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I change the style of my door glass insert?</h3>
+<p>Yes. As long as the cutout dimensions stay the same, you can switch from decorative to clear, clear to frosted, or any other combination. The new glass is made to fit the existing opening.</p>
+
+<h3>Is door glass tempered?</h3>
+<p>By code in Ontario, yes. All glass in doors, sidelites, and any glass within 600 mm of a door must be safety glass (tempered or laminated). Your replacement glass will meet this requirement.</p>
+
+<h3>Can I add glass to a solid door?</h3>
+<p>Only if the door was designed for a glass insert. Cutting a new opening in a solid door weakens the structure and voids most door warranties. If you want a door with glass, it is better to replace the door entirely.</p>
+
+<h3>How do I maintain my door glass insert?</h3>
+<p>Clean it with glass cleaner and a soft cloth. For decorative inserts with caming, avoid abrasive cleaners that could scratch the metal. Check the perimeter seal once a year for any gaps or cracks, especially after a harsh winter.</p>
+`,
+  },
+  {
+    slug: "window-crank-handle-not-working",
+    title: "Window Crank Handle Not Working? Here Is What to Check",
+    metaTitle: "Window Crank Handle Not Working? Causes and Fixes",
+    metaDescription:
+      "A window crank that spins freely, sticks, or won't open the sash usually has a fixable cause. Here is what to check before calling for a repair.",
+    excerpt:
+      "If your window crank spins without opening the window, feels stiff, or has snapped off, the cause is usually a worn operator or stripped gears. Here is how to diagnose the problem and what the repair involves.",
+    publishedAt: "2026-11-12",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Window Hardware", "Window Cranks", "Casement Windows", "Repair"],
+    sections: [
+      { id: "how-cranks-work", title: "How a Window Crank Mechanism Works" },
+      { id: "common-problems", title: "Common Crank Problems" },
+      { id: "casement-vs-awning", title: "Casement vs Awning Cranks" },
+      { id: "diy-checks", title: "What You Can Check Yourself" },
+      { id: "when-to-call", title: "When to Call for a Repair" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>A window crank that does not work properly is one of the most common hardware issues on casement and awning windows. The handle might spin freely without moving the sash. It might feel stiff or jammed. It might have snapped off entirely. Each symptom points to a different part of the mechanism, and most of these repairs are straightforward once you know what has failed.</p>
+
+<h2 id="how-cranks-work">How a Window Crank Mechanism Works</h2>
+
+<p>When you turn a crank handle on a casement or awning window, the handle connects to an operator mechanism mounted inside the frame. The operator converts the rotational motion of the handle into a push-pull motion through a crank arm (also called an operator arm). That arm connects to a track or bracket on the sash and pushes the window open or pulls it closed.</p>
+
+<p>The key components are:</p>
+<ul>
+  <li><strong>The handle:</strong> The part you grip and turn. Usually plastic, metal, or a combination.</li>
+  <li><strong>The operator:</strong> A gearbox mounted in the window frame. Contains worm gears that multiply your turning force into enough push to move the sash.</li>
+  <li><strong>The crank arm:</strong> A metal arm that extends from the operator to the sash.</li>
+  <li><strong>The track or shoe:</strong> A channel on the sash where the crank arm's tip slides as the window opens and closes.</li>
+</ul>
+
+<p>Failure at any of these points stops the window from operating. The good news is that each part can be replaced individually. You almost never need to replace the entire window because of a crank problem.</p>
+
+<h2 id="common-problems">Common Crank Problems</h2>
+
+<h3>Handle spins freely</h3>
+<p>This is the most common complaint. You turn the handle and it rotates without resistance, but the window does not move. The usual cause is stripped gears inside the operator. The worm gear teeth have worn down to the point where they no longer engage. The operator needs replacing.</p>
+
+<p>Less commonly, the handle's spline (the star-shaped connector that fits into the operator shaft) has stripped. In this case, only the handle needs replacing.</p>
+
+<h3>Handle is stiff or hard to turn</h3>
+<p>If the handle turns but requires excessive force, the causes include:</p>
+<ul>
+  <li><strong>Dried-out lubrication.</strong> The gears inside the operator need periodic lubrication. Years without it causes friction and stiffness.</li>
+  <li><strong>Corroded operator.</strong> Moisture getting into the operator housing causes internal corrosion, especially in kitchens and bathrooms.</li>
+  <li><strong>Bent crank arm.</strong> If the arm has been bent (from forcing the window or accidental impact), it binds as it moves through its arc.</li>
+  <li><strong>Sash misalignment.</strong> If the window frame has settled or the sash has sagged, the crank has to push against friction. This puts strain on the whole mechanism.</li>
+  <li><strong>Paint or debris in the track.</strong> The shoe that slides along the sash track can jam if paint, caulking, or dirt has built up in the channel.</li>
+</ul>
+
+<h3>Handle has broken off</h3>
+<p>Plastic handles become brittle over time, especially with sun exposure. A snapped handle is a simple replacement if the operator shaft underneath is intact. If the shaft has broken too, the operator needs replacing.</p>
+
+<h3>Window won't close fully</h3>
+<p>If the crank gets the window most of the way closed but it won't pull tight against the frame, the operator may be worn enough that it has lost travel distance, or the <a href="/cranks" class="text-accent hover:underline font-medium">crank arm</a> track has become obstructed. In some cases the lock mechanism is preventing full closure.</p>
+
+<h2 id="casement-vs-awning">Casement vs Awning Cranks</h2>
+
+<p>Casement and awning windows both use crank operators, but they are not interchangeable:</p>
+
+<ul>
+  <li><strong>Casement windows</strong> open outward on a side hinge, like a door. The crank arm pushes the bottom of the sash away from the frame.</li>
+  <li><strong>Awning windows</strong> open outward from a top hinge. The crank arm pushes the bottom edge out while the top edge stays fixed.</li>
+</ul>
+
+<p>The operator geometry is different for each type. A casement operator will not work on an awning window and vice versa. When ordering a replacement, the window type matters.</p>
+
+<p>The brand also matters. While the basic function is the same, operator dimensions, mounting holes, and arm lengths vary between manufacturers. The technician identifies the correct replacement by examining the existing operator.</p>
+
+<h2 id="diy-checks">What You Can Check Yourself</h2>
+
+<ol>
+  <li><strong>Try lubricating first.</strong> Apply a silicone-based lubricant (not WD-40, which dries out quickly) to the operator gears and the crank arm pivot points. If stiffness is the only issue, this sometimes resolves it.</li>
+  <li><strong>Inspect the handle.</strong> Remove the handle (usually one screw on the underside) and check if the spline is stripped. If it is rounded off, try a new handle before replacing the whole operator.</li>
+  <li><strong>Check the track.</strong> Open the window manually (from outside if the crank is not working) and look at the track where the crank arm shoe slides. Clear any paint, caulking, or debris.</li>
+  <li><strong>Look for visible damage.</strong> A bent crank arm is usually obvious. If the arm is bent, do not try to straighten it. Bent arms are weaker and will fail again.</li>
+</ol>
+
+<h2 id="when-to-call">When to Call for a Repair</h2>
+
+<p>If lubrication and a handle swap do not fix the problem, the operator itself likely needs replacing. This is a job for a technician because:</p>
+
+<ul>
+  <li>The operator must be correctly identified by brand, model, and type (casement vs awning, left vs right hinge).</li>
+  <li>Removal involves disconnecting the crank arm from the sash without damaging the track or the sash itself.</li>
+  <li>Incorrect installation can leave the window unable to seal properly, causing drafts and water leaks.</li>
+</ul>
+
+<p>Most <a href="/cranks" class="text-accent hover:underline font-medium">window crank repairs</a> are completed on the same day, on the first visit. The technician carries common operator models and handles. If a specific operator needs to be ordered, the parts typically arrive within a few business days.</p>
+
+<p>The $30 site visit fee covers the inspection and is credited toward the repair if you go ahead.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I leave a casement window open if the crank is broken?</h3>
+<p>Not safely. Without a working operator, the window has no way to lock closed. Wind can swing it open or slam it shut, risking damage to the glass or the hinges. If the crank fails while the window is open, prop it in place with a piece of wood and arrange a repair promptly.</p>
+
+<h3>Are replacement cranks universal?</h3>
+<p>No. Operators vary by manufacturer, window type (casement vs awning), hinge side (left vs right), and arm length. Using the wrong operator can damage the window or fail to seal properly.</p>
+
+<h3>How long does a crank operator last?</h3>
+<p>Most operators last 15 to 25 years with normal use. Heavy use (opening and closing daily), exposure to moisture, and lack of lubrication shorten the lifespan.</p>
+
+<h3>Can I convert my crank windows to push-out?</h3>
+<p>Some casement windows can be retrofitted with a push-out hinge system that eliminates the crank entirely. This depends on the window brand and the frame design. It is not an option for every window. Ask during the site visit if you are interested.</p>
+`,
+  },
+  {
+    slug: "window-replacement-cost-ontario",
+    title: "How Much Does Window Replacement Cost in Ontario?",
+    metaTitle: "Window Replacement Cost in Ontario: 2026 Price Guide",
+    metaDescription:
+      "Window replacement in Ontario ranges widely. Here are realistic price ranges by window type, the factors that drive cost, and when repair is the smarter choice.",
+    excerpt:
+      "Window replacement costs in Ontario depend on the window type, size, glass options, and installation complexity. Here is a realistic breakdown to help you budget and decide between repair and replacement.",
+    publishedAt: "2026-11-15",
+    author: "Dan",
+    readingTime: 8,
+    tags: ["Window Replacement", "Pricing", "Ontario", "Homeowner Guide"],
+    sections: [
+      { id: "price-ranges", title: "Price Ranges by Window Type" },
+      { id: "what-drives-cost", title: "What Drives the Cost Up or Down" },
+      { id: "glass-only-vs-full", title: "Glass-Only Replacement vs Full Window" },
+      { id: "repair-vs-replace", title: "When Repair Is the Better Option" },
+      { id: "getting-quotes", title: "Getting Quotes: What to Expect" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Replacing windows is one of the bigger home improvement expenses. A single window can cost anywhere from $400 to over $2,000 installed, and a whole-house project can run into five figures quickly. The range is wide because window type, size, glass options, and installation complexity all affect the final number. This guide breaks down realistic Ontario pricing so you can budget properly and decide whether full replacement is even necessary.</p>
+
+<h2 id="price-ranges">Price Ranges by Window Type</h2>
+
+<p>These ranges are for supply and installation of a standard-sized window in a straightforward replacement (existing opening, no structural changes):</p>
+
+<ul>
+  <li><strong>Single-hung or double-hung:</strong> $500 to $1,200 per window. The most common type in Ontario homes. Price varies with size and glass options.</li>
+  <li><strong>Casement:</strong> $600 to $1,400 per window. The crank mechanism and hardware add cost compared to sliding types.</li>
+  <li><strong>Slider:</strong> $450 to $1,100 per window. Simpler hardware keeps the cost down. Common in basements and bedrooms.</li>
+  <li><strong>Awning:</strong> $550 to $1,200 per window. Similar to casement pricing. Often used in basements or above kitchen counters.</li>
+  <li><strong>Picture (fixed):</strong> $400 to $1,500 per window. No operating hardware, so the cost is mostly about size and glass type. Large picture windows can be expensive because of the glass area.</li>
+  <li><strong>Bay or bow:</strong> $2,000 to $5,000 or more. These are complex assemblies with multiple panels, structural support, and sometimes a roof section above them.</li>
+</ul>
+
+<p>These are ballpark figures for mid-range vinyl windows. High-end products (fiberglass frames, European tilt-and-turn hardware, or premium brands) cost more. Builder-grade economy products cost less but may not last as long.</p>
+
+<h2 id="what-drives-cost">What Drives the Cost Up or Down</h2>
+
+<h3>Size</h3>
+<p>Bigger windows use more glass and larger frames. A small bathroom window and a 6-foot living room slider are priced very differently, even if they are the same type.</p>
+
+<h3>Glass options</h3>
+<p>Double-pane is standard. Triple-pane adds 20 to 40% to the glass cost but improves insulation and noise reduction. Low-E coatings, argon or krypton gas fills, and laminated glass all add to the per-unit price.</p>
+
+<h3>Frame material</h3>
+<p>Vinyl is the most affordable and most common in Ontario. Fiberglass is more durable and handles temperature extremes better but costs 30 to 50% more. Wood and aluminium-clad wood are at the top of the price range.</p>
+
+<h3>Installation complexity</h3>
+<p>A straightforward "insert" or "retrofit" installation, where the new window fits into the existing frame opening, is the simplest and least expensive. A "full-frame" installation, where the entire frame including the nailing fin is removed and replaced, costs more but is necessary when the existing frame is damaged or you want to change the window size.</p>
+
+<h3>Accessibility</h3>
+<p>Ground-floor windows are easy to reach. Second and third-storey windows may require ladders, scaffolding, or interior work to access. This adds labour cost.</p>
+
+<h3>Number of windows</h3>
+<p>Contractors typically offer a lower per-window price when you are replacing multiple windows at once. The setup and travel costs are spread across more units.</p>
+
+<h3>Permits and code requirements</h3>
+<p>In most Ontario municipalities, a standard same-size window replacement does not require a building permit. Changing the size or location of a window opening does. If a permit is needed, add $200 to $500 for the permit and any required inspections.</p>
+
+<h2 id="glass-only-vs-full">Glass-Only Replacement vs Full Window</h2>
+
+<p>This is where cost differences become dramatic. If the window frame is in good condition, works properly, and just has foggy or cracked glass, you can replace the sealed glass unit alone. This is <a href="/glass-replacement" class="text-accent hover:underline font-medium">glass replacement</a>, not window replacement.</p>
+
+<p>Glass-only replacement typically costs $200 to $600 per unit for standard double-pane residential glass. Compare that to $500 to $1,400 for a full window replacement and the savings are clear.</p>
+
+<p>The glass-only approach also avoids the mess and disruption of removing and re-installing an entire window frame: no trim work, no caulking the exterior, no repainting.</p>
+
+<h2 id="repair-vs-replace">When Repair Is the Better Option</h2>
+
+<p>Not every window problem needs a full replacement. Here is a quick guide:</p>
+
+<ul>
+  <li><strong>Foggy glass (failed seal):</strong> Replace the glass, not the window. See <a href="/foggy-windows" class="text-accent hover:underline font-medium">foggy window repair</a>.</li>
+  <li><strong>Cracked or broken glass:</strong> Replace the sealed unit. The frame is almost certainly fine.</li>
+  <li><strong>Drafty around the edges:</strong> Often a weatherstripping issue, not a glass or frame problem. A <a href="/cranks" class="text-accent hover:underline font-medium">hardware repair</a> or weatherstrip replacement is much cheaper than a new window.</li>
+  <li><strong>Crank not working:</strong> The operator mechanism can be replaced without touching the glass or frame.</li>
+  <li><strong>Difficult to open or close:</strong> Usually a hardware, track, or balance issue. Repairable in most cases.</li>
+</ul>
+
+<p>Full replacement makes sense when the frame itself is rotting, warped beyond repair, or you want to change the window type or size entirely.</p>
+
+<h2 id="getting-quotes">Getting Quotes: What to Expect</h2>
+
+<p>When getting quotes for window work in Ontario, keep these points in mind:</p>
+
+<ul>
+  <li><strong>Get at least two quotes.</strong> Pricing varies between companies. Make sure each quote specifies the same window type, glass options, and installation method so you are comparing like for like.</li>
+  <li><strong>Ask what is included.</strong> Does the quote cover removal of the old window? Interior and exterior trim? Caulking and insulation? Disposal? Screen replacement?</li>
+  <li><strong>Ask about warranty.</strong> What is covered and for how long? A lower price with a shorter warranty may cost more in the long run.</li>
+  <li><strong>Be cautious of very low quotes.</strong> If one quote is dramatically lower than the others, ask what is different. It may be a different grade of product, a shortcut in installation, or missing items.</li>
+  <li><strong>Consider glass-only first.</strong> If the quote is for full window replacement, ask the installer whether glass-only replacement would solve the problem at lower cost. Not all companies offer glass-only service, so they may default to recommending full replacement even when it is not necessary.</li>
+</ul>
+
+<p>For glass-only replacements, we provide a written quote on the spot during the site visit. The $30 visit fee is credited toward the repair if you proceed.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Is it worth replacing windows to save on heating?</h3>
+<p>Windows account for roughly 25 to 30% of a home's heat loss. Upgrading from old single-pane to modern double or triple-pane windows can reduce heating costs noticeably. But the payback period is long, often 10 to 20 years. If your frames are fine and only the glass is failing, a glass-only replacement gives you the insulation benefit at a fraction of the cost.</p>
+
+<h3>Should I replace all windows at once or do them gradually?</h3>
+<p>Doing them all at once typically gets a better per-window price and ensures consistent appearance. But if the budget does not allow it, start with the worst-performing windows: typically north-facing, oldest, or most drafty. Many homeowners replace in phases over two to three years.</p>
+
+<h3>Do new windows increase home value?</h3>
+<p>Yes, but the return varies. Industry estimates suggest you recover 60 to 75% of the cost at resale for vinyl windows. The bigger benefit is often in marketability: homes with new windows sell faster because buyers see them as one less thing to deal with.</p>
+
+<h3>What about Ontario rebate programmes?</h3>
+<p>Several programmes offer rebates for energy-efficient window upgrades. See our post on <a href="/blog/ontario-window-rebates-energy-programs-2026" class="text-accent hover:underline font-medium">Ontario window rebates</a> for current programme details and eligibility.</p>
+`,
+  },
+  {
+    slug: "ontario-window-rebates-energy-programs-2026",
+    title: "Ontario Window Rebates and Energy Efficiency Programs in 2026",
+    metaTitle: "Ontario Window Rebates and Energy Programs: 2026 Guide",
+    metaDescription:
+      "Ontario homeowners can access rebates for energy-efficient window upgrades. Here are the programmes available in 2026, eligibility rules, and how to apply.",
+    excerpt:
+      "Several federal and provincial programmes help Ontario homeowners offset the cost of energy-efficient window upgrades. Here is what is available in 2026, who qualifies, and how the application process works.",
+    publishedAt: "2026-11-18",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Energy Efficiency", "Ontario", "Rebates", "Window Replacement", "Homeowner Guide"],
+    sections: [
+      { id: "available-programs", title: "Available Programmes in 2026" },
+      { id: "canada-greener-homes", title: "Canada Greener Homes Grant" },
+      { id: "home-efficiency-rebate", title: "Home Efficiency Rebate Plus" },
+      { id: "toronto-home-energy-loan", title: "Toronto Home Energy Loan Program" },
+      { id: "glass-only-eligibility", title: "Does Glass-Only Replacement Qualify?" },
+      { id: "how-to-apply", title: "How to Apply" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Replacing windows or upgrading glass is a significant investment, but several government programmes can help offset the cost. Ontario homeowners have access to both federal and municipal incentives for energy-efficient upgrades. The programmes change periodically, so here is what is available as of 2026 and how to take advantage of them.</p>
+
+<h2 id="available-programs">Available Programmes in 2026</h2>
+
+<p>Three main programmes are relevant for Ontario homeowners looking at window upgrades:</p>
+
+<ol>
+  <li><strong>Canada Greener Homes Grant</strong> (federal): rebates for energy retrofits including windows.</li>
+  <li><strong>Home Efficiency Rebate Plus</strong> (Ontario): provincial top-up rebates for qualifying upgrades.</li>
+  <li><strong>Toronto Home Energy Loan Program (HELP)</strong> (municipal, Toronto only): low-interest financing for energy improvements.</li>
+</ol>
+
+<p>Each programme has its own eligibility rules, application process, and rebate amounts. You can often combine federal and provincial incentives on the same project.</p>
+
+<h2 id="canada-greener-homes">Canada Greener Homes Grant</h2>
+
+<p>The federal Greener Homes programme provides rebates to homeowners who make energy-efficient improvements to their primary residence. Windows and doors are among the eligible upgrades.</p>
+
+<p><strong>Key details:</strong></p>
+<ul>
+  <li>Rebates of up to $250 per window or door, depending on the product's energy performance rating.</li>
+  <li>Maximum total grant of $5,000 per household for all eligible upgrades combined.</li>
+  <li>Requires a pre-retrofit EnerGuide evaluation (home energy audit) before work begins, and a post-retrofit evaluation after.</li>
+  <li>The home must be your primary residence.</li>
+  <li>New construction does not qualify.</li>
+  <li>Products must meet minimum ENERGY STAR performance levels.</li>
+</ul>
+
+<p>The EnerGuide evaluations cost $300 to $600 total (pre and post combined), but some are partially subsidized. The evaluator assesses your home's current energy performance and identifies which upgrades will make the biggest impact.</p>
+
+<h2 id="home-efficiency-rebate">Home Efficiency Rebate Plus</h2>
+
+<p>Ontario's Home Efficiency Rebate Plus programme provides additional provincial rebates on top of the federal programme. It is administered through Enbridge Gas and is available to Enbridge customers.</p>
+
+<p><strong>Key details:</strong></p>
+<ul>
+  <li>Rebates for windows, insulation, air sealing, and heating system upgrades.</li>
+  <li>Window rebates vary based on the number of windows and the improvement in energy performance.</li>
+  <li>Can be stacked with the federal Greener Homes grant for a combined rebate.</li>
+  <li>Requires the same EnerGuide evaluation as the federal programme (one evaluation covers both).</li>
+  <li>Must be an Enbridge Gas customer in an eligible area.</li>
+</ul>
+
+<p>By combining the federal and provincial programmes, some homeowners have received $5,000 to $10,000 in total rebates on whole-house window replacement projects.</p>
+
+<h2 id="toronto-home-energy-loan">Toronto Home Energy Loan Program</h2>
+
+<p>The City of Toronto's Home Energy Loan Program (HELP) is not a rebate but a low-interest financing option. It allows Toronto homeowners to borrow up to $125,000 for energy-efficient home improvements, including windows, with the loan attached to the property tax bill.</p>
+
+<p><strong>Key details:</strong></p>
+<ul>
+  <li>Interest rates are typically lower than standard home improvement loans or lines of credit.</li>
+  <li>The loan is repaid through your property tax bill over up to 20 years.</li>
+  <li>If you sell the home, the remaining loan balance transfers to the new owner (it stays with the property, not the person).</li>
+  <li>Must own a residential property in Toronto.</li>
+  <li>Requires a home energy audit to identify eligible upgrades.</li>
+</ul>
+
+<p>HELP is particularly useful for homeowners who want to do a complete window upgrade but do not want to pay the full cost upfront. The monthly property tax increase is often comparable to or less than the energy savings from the new windows.</p>
+
+<h2 id="glass-only-eligibility">Does Glass-Only Replacement Qualify?</h2>
+
+<p>This is an important question because <a href="/glass-replacement" class="text-accent hover:underline font-medium">glass-only replacement</a> costs significantly less than full window replacement.</p>
+
+<p>The short answer: it depends on the programme and the specifics of the upgrade.</p>
+
+<ul>
+  <li>The federal and provincial rebate programmes are structured around measurable energy improvements. If replacing your glass sealed units results in a documented improvement in the EnerGuide rating of your home (measured by the pre and post evaluations), the upgrade may qualify.</li>
+  <li>Replacing a failed sealed unit with a new one of the same specification does not typically qualify, because the energy performance on paper has not changed, even though the actual performance has improved (a failed seal performs worse than its rated spec).</li>
+  <li>Upgrading from standard double-pane to triple-pane, or from non-coated to Low-E glass, within existing frames is more likely to qualify because it represents a measurable performance improvement.</li>
+</ul>
+
+<p>The EnerGuide evaluator can tell you which upgrades will produce enough improvement to qualify. It is worth asking before you commit to either glass-only or full window replacement.</p>
+
+<h2 id="how-to-apply">How to Apply</h2>
+
+<ol>
+  <li><strong>Book a pre-retrofit EnerGuide evaluation.</strong> This must happen before any work begins. The evaluator tests your home's current energy performance and gives you a report showing which upgrades will have the most impact.</li>
+  <li><strong>Register with the programme.</strong> For the federal grant, register through Natural Resources Canada. For the Ontario programme, register through Enbridge. For HELP, apply through the City of Toronto.</li>
+  <li><strong>Get quotes and do the work.</strong> Hire a qualified installer, complete the upgrades, and keep all receipts and product specification sheets.</li>
+  <li><strong>Book a post-retrofit EnerGuide evaluation.</strong> The evaluator returns to measure the improvement. The difference between pre and post ratings determines your rebate amount.</li>
+  <li><strong>Submit your claim.</strong> Provide the evaluation reports, receipts, and product details. Rebates are typically paid by direct deposit within 8 to 12 weeks.</li>
+</ol>
+
+<p>The most common mistake is doing the work before the pre-retrofit evaluation. If the evaluator has not documented your starting point, you cannot prove the improvement and the claim will be denied.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I apply for rebates after the work is already done?</h3>
+<p>No. All current programmes require a pre-retrofit evaluation before work begins. If you have already replaced your windows without a pre-evaluation, you are not eligible for the current round of rebates.</p>
+
+<h3>Do rental properties qualify?</h3>
+<p>The federal Greener Homes grant is for primary residences only. Rental properties and investment properties do not qualify. Some municipal programmes have different rules, so check with your local municipality.</p>
+
+<h3>How long does the whole process take?</h3>
+<p>From initial evaluation to receiving the rebate cheque, expect 3 to 6 months. The evaluation bookings, window manufacturing, installation, post-evaluation, and claim processing each take time. Plan ahead, especially if you want to have the work done before winter.</p>
+
+<h3>Are there income-tested programmes?</h3>
+<p>Yes. The federal government offers enhanced grants for lower-income households, covering a larger portion of the evaluation and upgrade costs. Check the Natural Resources Canada website for current income thresholds and enhanced grant amounts.</p>
+
+<h3>Can I combine rebates with the Toronto HELP loan?</h3>
+<p>Yes. You can use HELP financing to pay for the work and still claim federal and provincial rebates. The rebate reduces your effective cost, and the loan covers the upfront payment. Many Toronto homeowners use this combination.</p>
+`,
+  },
+  {
+    slug: "window-seal-failure-signs",
+    title: "How to Tell If Your Window Seal Has Failed: 5 Signs",
+    metaTitle: "5 Signs Your Window Seal Has Failed | Toronto Window Repair",
+    metaDescription:
+      "Foggy glass, drafts, and rising energy bills can all point to a failed window seal. Learn the 5 signs and what to do about it.",
+    excerpt:
+      "A failed window seal lets moisture between the panes and cold air into your home. Here are five ways to tell if your window seal has broken down, and what your repair options are.",
+    publishedAt: "2026-11-18",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Window Seals", "Foggy Windows", "Energy Efficiency", "Home Maintenance"],
+    sections: [
+      { id: "what-is-a-window-seal", title: "What Is a Window Seal?" },
+      { id: "five-signs", title: "5 Signs of a Failed Window Seal" },
+      { id: "condensation-surface-vs-between", title: "Surface Condensation vs Seal Failure" },
+      { id: "defogging-kits", title: "Why Defogging Kits Don't Work" },
+      { id: "when-to-call", title: "When to Call a Professional" },
+    ],
+    content: `
+<p>Every sealed glass unit in your home relies on a perimeter seal to hold two or three panes together with insulating gas between them. That seal is what keeps your windows clear, quiet, and energy-efficient. When it breaks down, the problems show up gradually, and many homeowners don't connect the dots until the issue is obvious.</p>
+
+<p>Here are five signs that one or more of your window seals has failed.</p>
+
+<h2 id="what-is-a-window-seal">What Is a Window Seal?</h2>
+
+<p>A sealed glass unit (sometimes called a thermal pane or insulated glass unit) consists of two or three panes of glass separated by a spacer bar. The space between the panes is filled with argon or air, and the entire unit is sealed around the edges with a moisture-resistant compound.</p>
+
+<p>That edge seal does two things: it keeps the insulating gas in and keeps moisture out. When the seal breaks, both fail. Moisture enters the gap, the gas escapes, and the window loses its insulating ability.</p>
+
+<h2 id="five-signs">5 Signs of a Failed Window Seal</h2>
+
+<h3>1. Fog or haze between the panes</h3>
+<p>This is the most recognizable sign. If you see condensation or a milky haze between the glass that you cannot wipe off from either side, the seal has failed and moisture has entered the cavity. It may come and go with temperature changes, but it will get worse over time. This is exactly what happens with <a href="/foggy-windows" class="text-accent hover:underline font-medium">foggy windows</a>, and the fix is replacing the sealed glass unit.</p>
+
+<h3>2. Distorted or warped reflections</h3>
+<p>When the seal breaks and the insulating gas escapes, the air pressure between the panes changes. The panes can bow inward slightly, causing reflections to look wavy or bent. If your windows reflect a straight fence line as a curve, that's a sign the gas fill is gone.</p>
+
+<h3>3. Drafts near closed windows</h3>
+<p>A sealed unit that has lost its gas fill insulates poorly. You may feel cold air radiating from the glass surface even though the window is closed and locked. This is different from a draft around the frame (which is a weatherstripping issue). The cold comes from the glass itself because the insulating layer is gone.</p>
+
+<h3>4. Rising energy bills without an obvious cause</h3>
+<p>Windows with failed seals lose significantly more heat in winter and let more heat in during summer. If your heating or cooling costs have crept up and you have not changed your thermostat habits, failed seals could be a factor, especially in a home with many large windows.</p>
+
+<h3>5. Visible moisture stains or mineral deposits</h3>
+<p>Over time, moisture that cycles in and out of the sealed unit leaves mineral deposits on the inside surface of the glass. These look like white or chalky streaks that never clean off. By this stage, the seal has been broken for a while.</p>
+
+<h2 id="condensation-surface-vs-between">Surface Condensation vs Seal Failure</h2>
+
+<p>Not all window condensation means a failed seal. It matters where the moisture is.</p>
+
+<p><strong>Inside surface of the glass:</strong> Condensation on the room-facing side of the window is a humidity issue, not a seal issue. It's common on cold Toronto mornings, especially in kitchens and bathrooms. Lowering indoor humidity or improving ventilation usually solves it.</p>
+
+<p><strong>Outside surface of the glass:</strong> Dew on the exterior of the glass on cool mornings is normal and actually means the window is insulating well. The outer pane stays cool because heat is not escaping through it.</p>
+
+<p><strong>Between the panes:</strong> This is the one that means the seal has failed. You cannot reach it to wipe it, and it will not go away on its own.</p>
+
+<h2 id="defogging-kits">Why Defogging Kits Don't Work</h2>
+
+<p>Some companies offer to drill a small hole in the glass, inject a drying agent, and reseal the hole. This temporarily removes the visible moisture, but it does not fix the underlying problem.</p>
+
+<p>The seal is still broken. Moisture will re-enter. The insulating gas is gone and cannot be replaced through a drill hole. And the hole itself creates another weak point.</p>
+
+<p>The only lasting fix is replacing the sealed glass unit. The glass is measured, a new unit is custom-made, and it is installed in your existing frame. The frame stays. Only the glass changes. We cover this in detail on our <a href="/glass-replacement" class="text-accent hover:underline font-medium">glass replacement</a> page.</p>
+
+<h2 id="when-to-call">When to Call a Professional</h2>
+
+<p>If you see fog between the panes, mineral deposits on the inner glass surface, or distorted reflections, it is worth having the window assessed. A technician can confirm whether the seal has failed and measure for a replacement unit on the same visit.</p>
+
+<p>At LuminaSky, the site visit is $30 and that fee is credited toward the repair if you go ahead. Glass is measured first, custom-made, then installed, usually within a few business days. All sealed units carry a 5-year seal warranty.</p>
+
+<p>If you are not sure whether your issue is condensation or seal failure, <a href="/contact" class="text-accent hover:underline font-medium">get in touch</a> and we can help you figure it out. Call us at 437-344-8490 or send a message any time. We are open 24/7.</p>
+`,
+  },
+  {
+    slug: "security-glass-windows-toronto",
+    title: "Security Glass Options for Toronto Homes",
+    metaTitle: "Security Glass for Toronto Homes: Laminated, Tempered, and Film",
+    metaDescription:
+      "Thinking about security glass for your Toronto home? Compare laminated, tempered, and film options, plus Ontario Building Code requirements for safety glass.",
+    excerpt:
+      "Ground-floor windows and glass doors are common entry points for break-ins. Here is what security glass actually does, which types are available, and what the Ontario Building Code requires.",
+    publishedAt: "2026-11-17",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Security Glass", "Laminated Glass", "Tempered Glass", "Home Security", "Toronto"],
+    sections: [
+      { id: "what-is-security-glass", title: "What Security Glass Actually Does" },
+      { id: "laminated-vs-tempered", title: "Laminated vs Tempered Glass" },
+      { id: "security-film", title: "Security Film: Does It Work?" },
+      { id: "building-code", title: "Ontario Building Code Requirements" },
+      { id: "where-to-upgrade", title: "Where to Upgrade First" },
+      { id: "getting-started", title: "Getting Started" },
+    ],
+    content: `
+<p>Standard window glass breaks easily and cleanly, which is exactly what makes it a weak point for home security. Security glass is designed to resist impact, stay in one piece when broken, or both. For Toronto homeowners concerned about break-ins, the right glass upgrade can make a real difference, especially on ground-floor windows and entry doors.</p>
+
+<h2 id="what-is-security-glass">What Security Glass Actually Does</h2>
+
+<p>The goal of security glass is not to be unbreakable. It is to make entry through the window slow, loud, and difficult enough that an intruder gives up or is noticed. Standard glass shatters into large shards with one hit, leaving an open hole. Security glass either holds together (laminated) or breaks into small, dull pieces (tempered) that make climbing through painful and time-consuming.</p>
+
+<h2 id="laminated-vs-tempered">Laminated vs Tempered Glass</h2>
+
+<h3>Laminated glass</h3>
+<p>Laminated glass is two panes bonded to a plastic interlayer (usually polyvinyl butyral, or PVB). When struck, the glass cracks but the pieces stick to the interlayer. The window stays in the frame as a cracked but intact sheet. An intruder would need to strike it repeatedly and peel away the layers to create an opening large enough to climb through.</p>
+
+<p>Laminated glass is the better choice for security. It also blocks UV rays and reduces noise, making it a good option for <a href="/glass-replacement" class="text-accent hover:underline font-medium">window glass replacement</a> even when security is not the primary concern.</p>
+
+<h3>Tempered glass</h3>
+<p>Tempered glass is heat-treated to be about four times stronger than standard glass. When it does break, it shatters into small, rounded pieces rather than sharp shards. This makes it a safety glass (it reduces injury risk), but not a great security glass on its own, because once broken, the opening is clear.</p>
+
+<p>Tempered glass is required by the Ontario Building Code in certain locations (more on that below), but for security purposes, laminated is the stronger option.</p>
+
+<h3>Laminated and tempered combined</h3>
+<p>For maximum security, you can get laminated tempered glass. Each pane in the laminate is tempered, so the unit is both impact-resistant and holds together when cracked. This is typically used in commercial settings or high-risk residential applications.</p>
+
+<h2 id="security-film">Security Film: Does It Work?</h2>
+
+<p>Security film is a thick, clear adhesive film applied to the interior surface of existing glass. It holds the glass together when struck, similar to the interlayer in laminated glass.</p>
+
+<p><strong>Pros:</strong> Less expensive than replacing the glass. Can be applied to existing windows without removing them.</p>
+
+<p><strong>Cons:</strong> Not as strong as laminated glass. Film can peel over time, especially on south-facing windows exposed to heat. It does not improve the structural strength of the glass itself. And if the film is not anchored to the frame (many installations are not), the whole sheet of filmed glass can be pushed inward.</p>
+
+<p>Film is a reasonable option if replacing the glass is not in the budget right now, but it is a temporary measure, not a permanent upgrade.</p>
+
+<h2 id="building-code">Ontario Building Code Requirements</h2>
+
+<p>The Ontario Building Code (OBC) requires safety glass (tempered or laminated) in specific locations:</p>
+
+<ul>
+  <li>Glass in doors and sidelights</li>
+  <li>Glass within 500mm of a door</li>
+  <li>Glass in shower enclosures and bathtub surrounds</li>
+  <li>Glass in railings and guards</li>
+  <li>Glass in areas where someone could fall into it (near stairs, landings, or floor-level windows)</li>
+</ul>
+
+<p>If you are replacing glass in any of these locations, the new glass must meet the code requirement. Standard annealed glass is not permitted. When we do a <a href="/front-door-glass" class="text-accent hover:underline font-medium">front door glass</a> replacement, for example, the new unit is always safety-rated because the OBC requires it for door glass.</p>
+
+<h2 id="where-to-upgrade">Where to Upgrade First</h2>
+
+<p>If you are considering security glass for your home, focus on the most vulnerable entry points first:</p>
+
+<ol>
+  <li><strong>Ground-floor windows at the back or side of the house.</strong> These are the most common break-in entry points because they are not visible from the street.</li>
+  <li><strong>Basement windows.</strong> Often single-pane, older glass that is easy to break. Upgrading to laminated sealed units improves both security and energy efficiency.</li>
+  <li><strong>Patio doors.</strong> Large glass panels that are both a visual target and physically accessible. <a href="/patio-door-repair" class="text-accent hover:underline font-medium">Patio door glass replacement</a> with laminated glass is one of the most impactful upgrades.</li>
+  <li><strong>Front door sidelights.</strong> Narrow glass panels beside the front door. Breaking a sidelight gives access to the door lock. Laminated glass stops that.</li>
+</ol>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>Upgrading to security glass does not mean replacing your entire window. In most cases, only the sealed glass unit changes. The frame stays in place. Glass is measured on the first visit, custom-made to fit, then installed. All sealed units come with a 5-year seal warranty and 2-year workmanship warranty.</p>
+
+<p>If you want to know what options make sense for your home, <a href="/contact" class="text-accent hover:underline font-medium">reach out for a quote</a>. We provide a written quote on the spot during the site visit. Call 437-344-8490 or message us any time. We are open 24/7.</p>
+`,
+  },
+  {
+    slug: "heritage-window-repair-toronto",
+    title: "Heritage Window Repair in Toronto: Rules, Permits, and Options",
+    metaTitle: "Heritage Window Repair Toronto: Permits, Rules, and Glass Options",
+    metaDescription:
+      "Repairing or replacing glass in a Toronto heritage home? Learn what permits you need, what the heritage rules require, and how to keep your windows authentic.",
+    excerpt:
+      "Heritage homes in Toronto come with rules about what you can and cannot change. Windows are one of the most regulated elements. Here is what you need to know before repairing or replacing heritage window glass.",
+    publishedAt: "2026-11-16",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Heritage Homes", "Window Repair", "Toronto", "Permits", "Historic Preservation"],
+    sections: [
+      { id: "heritage-designation", title: "What Heritage Designation Means for Windows" },
+      { id: "permits-needed", title: "What Repairs Need a Permit" },
+      { id: "matching-glass", title: "Matching Period-Accurate Glass Styles" },
+      { id: "energy-efficiency", title: "Energy Efficiency in Heritage Homes" },
+      { id: "working-with-consultants", title: "Working with Heritage Consultants" },
+      { id: "how-we-help", title: "How We Can Help" },
+    ],
+    content: `
+<p>Toronto has thousands of homes under heritage designation or in heritage conservation districts. If your home is one of them, any work on the exterior, including windows, may need approval from the city before you start. The rules exist to preserve the neighbourhood's character, and windows are one of the most visible elements of a home's facade.</p>
+
+<p>The good news: most glass repairs and replacements can be done within heritage rules, as long as you understand what is and isn't permitted.</p>
+
+<h2 id="heritage-designation">What Heritage Designation Means for Windows</h2>
+
+<p>In Toronto, heritage properties fall into two main categories:</p>
+
+<p><strong>Individually designated (Part IV of the Ontario Heritage Act):</strong> The property itself is on the heritage register. Alterations to heritage attributes (usually the front facade and sometimes all exterior faces) require a Heritage Permit from the city. Windows are almost always listed as a heritage attribute.</p>
+
+<p><strong>Heritage Conservation District (Part V):</strong> The property is in a designated district. A Heritage Permit is required for exterior alterations based on the district's plan. The plan specifies what is considered a contributing property and what changes are permitted.</p>
+
+<p>If you are unsure whether your property is designated, you can check the <a href="https://www.toronto.ca/city-government/planning-development/heritage-conservation/" class="text-accent hover:underline font-medium" target="_blank" rel="noopener noreferrer">City of Toronto Heritage Register</a> or call 311.</p>
+
+<h2 id="permits-needed">What Repairs Need a Permit</h2>
+
+<p><strong>Usually does not need a Heritage Permit:</strong></p>
+<ul>
+  <li>Replacing a broken pane of glass with the same type and size</li>
+  <li>Replacing a failed sealed unit with one that matches the original appearance</li>
+  <li>Repairing or replacing window hardware (cranks, hinges, locks, balances)</li>
+  <li>Re-glazing (replacing the putty around glass in a single-pane wood frame)</li>
+  <li>Weatherstripping and draught-proofing</li>
+</ul>
+
+<p><strong>Usually needs a Heritage Permit:</strong></p>
+<ul>
+  <li>Changing the window style (e.g., replacing a double-hung with a casement)</li>
+  <li>Changing the frame material (e.g., replacing wood with vinyl)</li>
+  <li>Changing the muntin pattern (the grid dividing the glass)</li>
+  <li>Adding or removing windows</li>
+  <li>Replacing an entire window unit</li>
+</ul>
+
+<p>The key principle is: like-for-like repairs to existing windows are generally fine. Changes to style, material, or configuration need city approval. If you are only replacing the glass, not the frame or the design, you are usually in the clear.</p>
+
+<h2 id="matching-glass">Matching Period-Accurate Glass Styles</h2>
+
+<p>Heritage review panels look at the visual character of the window. The glass plays a part in that. Here are common requirements:</p>
+
+<p><strong>Wavy or textured glass:</strong> Some heritage homes originally had hand-drawn glass with slight distortions. Modern float glass is perfectly flat, which can look noticeably different. Restoration glass (sometimes called cylinder glass) is available to match the original appearance.</p>
+
+<p><strong>Muntin profiles:</strong> If the original window had true divided lites (individual panes separated by wood muntins), replacing it with a single pane and snap-in grids may not be accepted. Simulated divided lites with an internal spacer bar are often an acceptable compromise.</p>
+
+<p><strong>Colour and reflectivity:</strong> Modern Low-E coatings can give glass a different tint or reflectivity than the original. Some heritage plans restrict coatings that change the appearance of the glass from the street.</p>
+
+<p>When we work on heritage properties, we pay attention to these details during the measurement visit so the replacement glass matches as closely as possible.</p>
+
+<h2 id="energy-efficiency">Energy Efficiency in Heritage Homes</h2>
+
+<p>One of the biggest challenges with heritage windows is balancing preservation with performance. Original single-pane glass is drafty and inefficient. But ripping out the original windows and installing modern replacements may not be permitted.</p>
+
+<p>Options that typically comply with heritage rules:</p>
+
+<ul>
+  <li><strong>Interior storm windows:</strong> A second, removable pane installed on the inside of the existing window. It improves insulation without altering the exterior appearance. No Heritage Permit needed in most cases.</li>
+  <li><strong>Re-glazing with improved glass:</strong> If the existing frame accepts a sealed unit, you can upgrade from single-pane to a slim double-pane unit that fits the original rebate depth.</li>
+  <li><strong>Weatherstripping and draught-proofing:</strong> Improving the seal between the sash and frame makes a noticeable difference in comfort and energy loss. This is maintenance, not alteration, so it rarely needs a permit.</li>
+  <li><strong>Exterior storm windows:</strong> Common on Victorian-era homes. Period-appropriate storm windows can be added seasonally. Some heritage plans specifically permit these.</li>
+</ul>
+
+<p>These approaches can cut heat loss significantly without triggering a Heritage Permit application or changing the look of the building.</p>
+
+<h2 id="working-with-consultants">Working with Heritage Consultants</h2>
+
+<p>For larger projects (replacing multiple windows, changing frame material, or adding new openings), you may need to work with a heritage consultant. They prepare the Heritage Permit application and present the case to the city.</p>
+
+<p>Your contractor should be part of that conversation. A consultant who understands what glass and hardware options are available can propose solutions that satisfy the city's requirements while actually improving the window's performance.</p>
+
+<p>If you are early in the planning stage, it is worth having the glass assessed first. A technician can tell you what can be repaired in place vs what needs replacing, which helps the consultant scope the permit application accurately.</p>
+
+<h2 id="how-we-help">How We Can Help</h2>
+
+<p>We work on heritage properties regularly, including homes in Cabbagetown, the Annex, Rosedale, and other Toronto heritage conservation districts. Most of the work we do, replacing sealed glass units, repairing <a href="/cranks" class="text-accent hover:underline font-medium">window cranks and hardware</a>, and fixing <a href="/foggy-windows" class="text-accent hover:underline font-medium">foggy windows</a>, falls under routine maintenance that does not require a Heritage Permit.</p>
+
+<p>When the work does require approval, we provide measurements, specifications, and photos to support the permit application. Glass is measured first, custom-made to match the existing configuration, then installed once the permit is in place.</p>
+
+<p>Call us at 437-344-8490 or <a href="/contact" class="text-accent hover:underline font-medium">send a message</a> to book a site visit. The $30 visit fee is credited toward the repair. We are open 24/7.</p>
+`,
+  },
+  {
+    slug: "sunroom-glass-repair-replacement",
+    title: "Sunroom Glass Repair and Replacement for Toronto Homeowners",
+    metaTitle: "Sunroom Glass Repair and Replacement in Toronto",
+    metaDescription:
+      "Cracked, foggy, or single-pane sunroom glass? Learn about common sunroom glass problems, upgrade options, and what the repair process looks like.",
+    excerpt:
+      "Sunrooms take more punishment from the weather than any other room in the house. Here is what goes wrong with sunroom glass, when to repair vs replace, and how upgrading saves energy.",
+    publishedAt: "2026-11-15",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Sunrooms", "Glass Replacement", "Energy Efficiency", "Toronto"],
+    sections: [
+      { id: "common-problems", title: "Common Sunroom Glass Problems" },
+      { id: "single-vs-sealed", title: "Single Pane vs Sealed Unit Upgrade" },
+      { id: "roof-vs-wall", title: "Roof Glass vs Wall Glass" },
+      { id: "energy-savings", title: "Energy Savings from Upgrading" },
+      { id: "repair-process", title: "How the Repair Process Works" },
+    ],
+    content: `
+<p>A sunroom is essentially a glass box attached to your house. It gets direct sun in summer, cold exposure in winter, and often more temperature swings in a single day than any other room. That stress shows up in the glass over time: failed seals, cracked panes, condensation, and energy loss are all common.</p>
+
+<p>The good news is that most sunroom glass problems are repairable without replacing the entire structure. Here is what to look for and what your options are.</p>
+
+<h2 id="common-problems">Common Sunroom Glass Problems</h2>
+
+<h3>Foggy or hazy panels</h3>
+<p>If your sunroom has sealed (double-pane) glass and you see fog or haze between the panes that you cannot wipe off, the seal has failed. Moisture has entered the cavity and the insulating gas has leaked out. This is the same issue as <a href="/foggy-windows" class="text-accent hover:underline font-medium">foggy windows</a> elsewhere in the house, and the fix is the same: replacing the sealed glass unit.</p>
+
+<p>Sunrooms often have many glass panels, and seal failures tend to cluster. If one panel has failed, check the others. Units installed at the same time often fail around the same time.</p>
+
+<h3>Cracked or chipped glass</h3>
+<p>Thermal stress cracks are common in sunroom glass, especially on south-facing or west-facing panels that absorb intense afternoon sun. The glass heats unevenly (the centre warms faster than the edges held by the frame), and the resulting stress can crack it. These cracks usually start at the edge and run inward in a curved line.</p>
+
+<p>Impact cracks from hail, fallen branches, or stray objects are also more likely on a sunroom because there is simply more exposed glass surface.</p>
+
+<h3>Single-pane glass</h3>
+<p>Many older sunrooms were built with single-pane glass. This was fine when the sunroom was used only in warm weather, but if you heat or cool the space, single-pane glass is a major source of energy loss. It offers almost no insulation and allows condensation to form freely in cold weather.</p>
+
+<h3>Leaking at the frame or flashing</h3>
+<p>Water getting in around the glass, especially at roof panels, is often a sealant or flashing issue rather than a glass issue. But it can accelerate seal failure in the glass and cause water damage to the frame structure below.</p>
+
+<h2 id="single-vs-sealed">Single Pane vs Sealed Unit Upgrade</h2>
+
+<p>If your sunroom has single-pane glass and you use the room year-round, upgrading to sealed (double-pane) units is one of the most impactful improvements you can make.</p>
+
+<p><strong>Single pane:</strong> No insulating layer. Heat passes through freely. Interior surface gets very cold in winter (heavy condensation) and very hot in summer. No UV protection unless film is applied.</p>
+
+<p><strong>Sealed double pane:</strong> Two panes with an insulating gas fill. Significantly reduces heat transfer. Interior surface stays closer to room temperature. Available with Low-E coatings for additional solar control.</p>
+
+<p>The upgrade does not require replacing the entire frame in most cases. If the existing frame has enough depth to accept a sealed unit, the glass can be swapped. If the frame is too shallow, a slim-profile sealed unit may fit, or the glazing stop can be modified. This is something a technician assesses during the measurement visit.</p>
+
+<h2 id="roof-vs-wall">Roof Glass vs Wall Glass</h2>
+
+<p>Sunrooms typically have both vertical wall panels and angled or horizontal roof panels. These are different jobs with different considerations.</p>
+
+<p><strong>Wall glass</strong> is handled the same way as standard <a href="/glass-replacement" class="text-accent hover:underline font-medium">window glass replacement</a>. The sealed unit is removed from the frame, a new one is measured and ordered, and it is installed when ready. Straightforward.</p>
+
+<p><strong>Roof glass</strong> is more involved:</p>
+<ul>
+  <li>The glass is structural in some designs, meaning it carries snow load</li>
+  <li>Removal and installation require working overhead</li>
+  <li>The seal between the glass and the frame must be watertight, not just airtight</li>
+  <li>Flashing and drainage channels around roof panels need to be intact</li>
+  <li>Safety glass (tempered or laminated) is required by the Ontario Building Code for overhead glazing</li>
+</ul>
+
+<p>If your sunroom has a solid (non-glass) roof, only the wall panels need attention. If it has a glass roof, the roof panels are typically the first to show problems because they take the most direct weather exposure.</p>
+
+<h2 id="energy-savings">Energy Savings from Upgrading</h2>
+
+<p>Upgrading sunroom glass from single-pane to sealed double-pane units reduces heat loss through the glass by roughly 50%. For a sunroom with a large glass surface area, that translates to a noticeable drop in heating costs in winter and cooling costs in summer.</p>
+
+<p>Additional benefits:</p>
+<ul>
+  <li><strong>Less condensation:</strong> The interior surface of a sealed unit stays warmer, so moisture from the room is less likely to condense on it.</li>
+  <li><strong>Reduced UV fading:</strong> Low-E coated sealed units block a significant portion of UV radiation, protecting furniture and flooring from fading.</li>
+  <li><strong>Better sound insulation:</strong> Two panes with a gas fill reduce outside noise more than a single pane.</li>
+  <li><strong>More usable space:</strong> A sunroom that holds a comfortable temperature year-round is a room you actually use, rather than one you avoid from November to April.</li>
+</ul>
+
+<h2 id="repair-process">How the Repair Process Works</h2>
+
+<p>Sunroom glass repair follows the same process as other glass work:</p>
+
+<ol>
+  <li><strong>Site visit and assessment.</strong> A technician inspects all panels, identifies which ones have failed seals, cracks, or other issues, and measures for replacements. The $30 visit fee is credited toward the work.</li>
+  <li><strong>Glass is custom-made.</strong> Each panel is made to the exact measurements of your frames. For roof panels, the glass type (tempered, laminated, or both) is specified based on building code requirements and the panel's location.</li>
+  <li><strong>Installation.</strong> Old glass is removed, new sealed units are installed, and sealant is applied. For roof panels, flashing and drainage are checked during installation.</li>
+</ol>
+
+<p>You do not need to replace every panel at once. Many homeowners start with the panels that have visible seal failures or cracks, then upgrade the remaining single-pane panels over time.</p>
+
+<p>All sealed glass units carry a 5-year seal warranty and 2-year workmanship warranty. <a href="/contact" class="text-accent hover:underline font-medium">Contact us</a> to book a sunroom assessment. Call 437-344-8490 or message us any time. We are open 24/7.</p>
+`,
+  },
+  {
+    slug: "window-glass-scratches-repair-or-replace",
+    title: "Window Glass Scratches: Can They Be Repaired?",
+    metaTitle: "Window Glass Scratches: Repair or Replace?",
+    metaDescription:
+      "Not every scratch means new glass. Learn how to assess window glass scratches, when polishing works, and when you need a replacement.",
+    excerpt:
+      "A scratch on your window glass is annoying, but it does not always mean the glass needs replacing. The depth and type of glass determine whether a repair is possible.",
+    publishedAt: "2026-11-18",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Window Glass", "Glass Repair", "Home Maintenance"],
+    sections: [
+      { id: "how-deep", title: "How Deep Is the Scratch?" },
+      { id: "fingernail-test", title: "The Fingernail Test" },
+      { id: "polishing-light-scratches", title: "Polishing Light Scratches" },
+      { id: "when-replacement-needed", title: "When Replacement Is Needed" },
+      { id: "special-glass-types", title: "Scratches on Tempered and Low-E Glass" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>You notice a scratch running across your window and wonder whether it can be buffed out or if you need new glass. The answer depends on a few things: how deep the scratch is, what type of glass you have, and where the scratch is located.</p>
+
+<h2 id="how-deep">How Deep Is the Scratch?</h2>
+
+<p>Window glass scratches fall into two categories:</p>
+<ul>
+  <li><strong>Surface scratches:</strong> Light marks that sit on the outer layer of the glass. These are caused by cleaning with abrasive pads, dragged furniture, or grit caught between a cloth and the glass.</li>
+  <li><strong>Deep scratches:</strong> Grooves you can feel with your finger. These are caused by harder contact: metal tools, rocks thrown by lawnmowers, or attempted break-ins. Deep scratches weaken the glass structurally.</li>
+</ul>
+
+<h2 id="fingernail-test">The Fingernail Test</h2>
+
+<p>Run your fingernail across the scratch. If your nail glides over it without catching, it is a surface scratch. If your nail catches in the groove, it is a deep scratch.</p>
+
+<p>This test is simple but reliable. Surface scratches can often be polished. Deep scratches usually mean the glass needs replacing, because polishing removes material from the surface and creates a visible distortion where the glass is thinner.</p>
+
+<h2 id="polishing-light-scratches">Polishing Light Scratches</h2>
+
+<p>Light surface scratches on standard float glass can sometimes be polished out using cerium oxide, a compound used by glass professionals. The process involves:</p>
+<ol>
+  <li>Cleaning the glass thoroughly</li>
+  <li>Applying a cerium oxide slurry to the scratched area</li>
+  <li>Using a felt polishing pad on a low-speed drill or rotary tool</li>
+  <li>Working the compound in small circular motions</li>
+  <li>Cleaning and inspecting the area</li>
+</ol>
+
+<p>Cerium oxide polishing works well on shallow scratches. It removes a thin layer of glass to bring the surface level with the bottom of the scratch. On larger or deeper scratches, the polished area can create a lens effect where the glass is now slightly thinner, bending light differently from the surrounding surface.</p>
+
+<p>For a single small scratch, polishing is worth trying. For multiple scratches across a large area, <a href="/glass-replacement" class="text-accent hover:underline font-medium">glass replacement</a> is usually more practical.</p>
+
+<h2 id="when-replacement-needed">When Replacement Is Needed</h2>
+
+<p>The glass should be replaced rather than polished when:</p>
+<ul>
+  <li>The scratch is deep enough to catch your fingernail</li>
+  <li>The scratch runs across the centre of the glass where distortion would be noticeable</li>
+  <li>There are many scratches covering a large area</li>
+  <li>The glass is part of a sealed unit (double or triple pane) and the scratch is on an interior surface you cannot reach</li>
+  <li>The scratch has created a stress point and you can see small cracks forming at either end</li>
+</ul>
+
+<p>Replacement glass is measured first, custom-made to fit, then installed. The existing frame stays in place. This is a glass-only replacement, not a full window swap. See our <a href="/glass-replacement" class="text-accent hover:underline font-medium">glass replacement page</a> for how the process works.</p>
+
+<h2 id="special-glass-types">Scratches on Tempered and Low-E Glass</h2>
+
+<p><strong>Tempered glass</strong> cannot be polished safely. Tempered glass has a compressed surface layer that gives it strength. Polishing removes material from that layer, weakening the glass and potentially causing it to shatter. Any scratch on tempered glass that is deep enough to be a concern means replacement.</p>
+
+<p><strong>Low-E coated glass</strong> has a thin metallic coating on one surface that reflects heat. Scratches on the coated side damage that coating permanently. The coating cannot be reapplied, and polishing would remove more of it. If the Low-E layer is damaged, the glass needs replacing to restore its energy performance.</p>
+
+<p>If you are not sure what type of glass your window has, a technician can check during a site visit.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I use toothpaste to remove a window scratch?</h3>
+<p>Toothpaste is a very mild abrasive. It may reduce the appearance of a barely visible scratch, but it will not remove anything you can actually feel. For anything beyond the lightest surface mark, you need cerium oxide or new glass.</p>
+
+<h3>Does a scratch affect the window seal?</h3>
+<p>A surface scratch does not affect the seal. A deep scratch on the outer pane of a sealed unit does not affect the seal either, since the seal is between the panes, not on the outer surface. But a deep scratch weakens the glass and could lead to cracking later, especially in cold weather. If you notice fog between the panes along with the scratch, that is a separate issue. See our guide on <a href="/foggy-windows" class="text-accent hover:underline font-medium">foggy window repair</a>.</p>
+
+<h3>How much does it cost to replace scratched glass?</h3>
+<p>It depends on the size of the glass, the type, and whether it is a single pane or sealed unit. A technician can give you a written quote on the spot during a site visit. The $30 visit fee is credited toward the repair if you go ahead.</p>
+`,
+  },
+  {
+    slug: "condo-window-replacement-preparation",
+    title: "How to Prepare Your Condo for a Window Replacement Project",
+    metaTitle: "Condo Window Replacement Preparation: What You Need to Know",
+    metaDescription:
+      "Replacing windows in a condo involves approvals, coordination, and logistics that houses don't. Here is how to prepare for a smooth project.",
+    excerpt:
+      "Window replacement in a condo is not the same as in a house. You may need board approval, a Section 98 agreement, and coordination with your property manager. Here is how to get it done right.",
+    publishedAt: "2026-11-17",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Condo", "Window Replacement", "Property Management", "Planning"],
+    sections: [
+      { id: "condo-vs-house", title: "Why Condos Are Different" },
+      { id: "common-element-or-unit", title: "Common Element or Unit Component?" },
+      { id: "section-98", title: "Section 98 Agreements in Ontario" },
+      { id: "coordinating-access", title: "Coordinating Access and Logistics" },
+      { id: "what-to-expect", title: "What to Expect During Installation" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>If your condo windows are foggy, drafty, or damaged, you are probably thinking about replacement. The glass work itself is straightforward. The logistics in a condo building are what take planning. Between condo board approvals, building rules, and elevator bookings, the preparation matters as much as the installation.</p>
+
+<h2 id="condo-vs-house">Why Condos Are Different</h2>
+
+<p>In a house, you own everything. You decide what gets replaced and when. In a condo, windows usually sit on the boundary between your unit and the building's common elements. That boundary line determines who is responsible for what, and who needs to approve the work.</p>
+
+<p>Most condo declarations classify windows as common elements, meaning the condo corporation is responsible for maintaining them. But many buildings have modified this arrangement through their declaration or rules, shifting some or all of the cost to individual owners.</p>
+
+<p>Before you start planning, check your condo's declaration and bylaws. Your property manager can point you to the relevant sections.</p>
+
+<h2 id="common-element-or-unit">Common Element or Unit Component?</h2>
+
+<p><strong>If windows are common elements:</strong> The condo corporation is responsible for replacement. You cannot change them on your own without approval. If the corporation has a window replacement plan in its reserve fund study, your windows may already be scheduled. Check with your property manager.</p>
+
+<p><strong>If windows are your responsibility:</strong> You still need approval before changing anything visible from the outside of the building. The condo corporation has an interest in maintaining a uniform appearance. You will likely need to match the existing window style, colour, and profile.</p>
+
+<p>Some condos handle this through a blanket policy that specifies approved window types. Others require individual approval for each unit. Either way, start with your property manager.</p>
+
+<h2 id="section-98">Section 98 Agreements in Ontario</h2>
+
+<p>Ontario's Condominium Act, 1998 includes Section 98, which covers modifications to common elements by individual owners. If your windows are common elements and you want to replace them at your own expense (rather than waiting for the corporation's schedule), you will likely need a Section 98 agreement.</p>
+
+<p>This agreement:</p>
+<ul>
+  <li>Requires board approval</li>
+  <li>Specifies who pays for the work</li>
+  <li>Sets out who is responsible for future maintenance of the new windows</li>
+  <li>Runs with the unit, meaning it transfers to future owners</li>
+  <li>Must be registered on title</li>
+</ul>
+
+<p>The process typically takes a few weeks to a couple of months. Your property manager can initiate it, or you can request it through the board. Some boards have a standard template for window replacements, which speeds things up.</p>
+
+<h2 id="coordinating-access">Coordinating Access and Logistics</h2>
+
+<p>Once you have approval, the practical logistics come next:</p>
+
+<p><strong>Elevator booking:</strong> Most condo buildings require a service elevator booking for any trades bringing in materials. Glass panels are large and heavy. Book the elevator well in advance, as slots fill up, especially in busy buildings.</p>
+
+<p><strong>Building access for contractors:</strong> Your contractor will need building access, which usually means registering them with the front desk or concierge in advance. Some buildings require proof of insurance from the contractor.</p>
+
+<p><strong>Noise and work hours:</strong> Most buildings restrict construction noise to specific hours, typically 9 AM to 5 PM on weekdays. Check your building's rules. The installation itself is not particularly loud, but removing old sealant and fitting new glass involves some noise.</p>
+
+<p><strong>Parking and loading:</strong> If your contractor needs to bring a van close to the building, check whether there is a loading dock or designated parking for trades.</p>
+
+<p><strong>Neighbouring units:</strong> It is good practice to let your immediate neighbours know about the work. The building may require a notice posted in common areas.</p>
+
+<h2 id="what-to-expect">What to Expect During Installation</h2>
+
+<p>For a sealed unit replacement (the glass only, not the full frame), the process is:</p>
+<ol>
+  <li>The technician measures the existing glass to confirm the order specifications</li>
+  <li>Glass is custom-made to fit the existing frame</li>
+  <li>On installation day, the old sealed unit is removed from the frame</li>
+  <li>The new unit is set, shimmed, and sealed</li>
+  <li>The area is cleaned up</li>
+</ol>
+
+<p>For a typical condo unit with two to four windows, installation takes part of a day. You do not need to leave your unit during the work, but you should clear the area around each window: move furniture, plants, and anything breakable at least a metre back.</p>
+
+<p>See our <a href="/window-replacement" class="text-accent hover:underline font-medium">window replacement page</a> for details on the glass replacement process itself, or our <a href="/foggy-windows" class="text-accent hover:underline font-medium">foggy window repair page</a> if the main issue is condensation between panes.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I replace just the glass without replacing the frame?</h3>
+<p>In most cases, yes. If the frame is in good condition, only the sealed glass unit needs replacing. This is faster, less disruptive, and more affordable than a full window replacement. It also avoids the complexity of changing the frame profile, which is often a concern in condos where uniformity matters.</p>
+
+<h3>How long does the whole process take from start to finish?</h3>
+<p>Allow two to four weeks for board approval (or longer if a Section 98 agreement is needed), one to two weeks for glass fabrication after measurements, and part of a day for installation. The total timeline is usually four to eight weeks.</p>
+
+<h3>What if other units in my building need windows too?</h3>
+<p>Group projects often make sense in condos. If several units need glass replaced, coordinating the work reduces costs (one mobilization, one elevator booking) and may make it easier to get board approval. Talk to your property manager about whether a building-wide assessment makes sense. For multi-unit projects, see our <a href="/property-managers" class="text-accent hover:underline font-medium">property manager services</a>.</p>
+`,
+  },
+  {
+    slug: "window-cracked-cold-weather-causes",
+    title: "What Causes Window Glass to Crack in Cold Weather?",
+    metaTitle: "Why Window Glass Cracks in Cold Weather: Causes and Solutions",
+    metaDescription:
+      "Your window cracked by itself in winter? Thermal stress, edge damage, and nickel sulfide are the most common causes. Here is what happened and what to do next.",
+    excerpt:
+      "A window that cracks on its own during a cold snap is alarming but not unusual. Thermal stress is the most common cause, and it is usually fixable with a glass replacement.",
+    publishedAt: "2026-11-16",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Window Repair", "Winter", "Thermal Stress", "Glass Replacement"],
+    sections: [
+      { id: "thermal-stress-cracks", title: "Thermal Stress Cracks" },
+      { id: "how-thermal-stress-works", title: "How Thermal Stress Works" },
+      { id: "edge-damage", title: "Edge Damage from Installation" },
+      { id: "nickel-sulfide", title: "Nickel Sulfide Inclusions in Tempered Glass" },
+      { id: "insurance-coverage", title: "Insurance Coverage for Stress Cracks" },
+      { id: "what-to-do", title: "What to Do When It Happens" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>You wake up on a cold January morning and notice a crack running across your window. Nobody hit it. Nothing fell on it. It just cracked on its own. This is more common than you might think, especially in Ontario winters where temperatures can swing dramatically in a single day.</p>
+
+<h2 id="thermal-stress-cracks">Thermal Stress Cracks</h2>
+
+<p>The most common cause of a window cracking by itself in cold weather is thermal stress. When different parts of a glass pane are at different temperatures, the glass expands or contracts unevenly. If the stress exceeds what the glass can handle, it cracks.</p>
+
+<p>Thermal stress cracks have a distinctive look. They typically:</p>
+<ul>
+  <li>Start at or near the edge of the glass</li>
+  <li>Run in a roughly straight line, often perpendicular to the edge</li>
+  <li>Have a clean, smooth break line (not jagged or branching like an impact crack)</li>
+</ul>
+
+<p>If the crack starts from the middle of the glass and radiates outward in a starburst pattern, that is an impact crack, not thermal stress.</p>
+
+<h2 id="how-thermal-stress-works">How Thermal Stress Works</h2>
+
+<p>Glass expands when heated and contracts when cooled. On a cold morning, the centre of a window might be warmed by indoor heating while the edges, which sit inside the frame, stay cold. This temperature difference creates internal stress.</p>
+
+<p>Common scenarios that increase thermal stress:</p>
+<ul>
+  <li><strong>Direct morning sun on a cold window:</strong> The sun heats the exposed glass quickly while the frame-covered edges stay cold. This is the classic cause.</li>
+  <li><strong>Dark curtains or blinds against the glass:</strong> Heat builds up between the covering and the glass, increasing the temperature difference.</li>
+  <li><strong>Heating vents aimed at the window:</strong> Hot air hitting one part of the glass while the rest stays cold.</li>
+  <li><strong>Sudden temperature drops:</strong> A rapid overnight drop from mild to extreme cold can stress glass that was already warm on the inside.</li>
+</ul>
+
+<h2 id="edge-damage">Edge Damage from Installation</h2>
+
+<p>When glass is cut, the edges have tiny imperfections: chips, nicks, and micro-cracks. In a properly manufactured sealed unit, these edges are hidden inside the spacer bar and sealant. But if the glass was not handled carefully during manufacturing or installation, edge damage can be more severe.</p>
+
+<p>These small edge flaws act as starting points for thermal stress cracks. A pane with clean edges can handle a larger temperature difference before cracking. A pane with chipped edges will crack under less stress.</p>
+
+<p>This is one reason why quality manufacturing and careful installation matter. Cheap or poorly handled glass is more likely to crack in its first winter.</p>
+
+<h2 id="nickel-sulfide">Nickel Sulfide Inclusions in Tempered Glass</h2>
+
+<p>If your window uses tempered (safety) glass, there is another possible cause: nickel sulfide inclusions. During manufacturing, tiny particles of nickel sulfide can become trapped inside the glass. Over time, these particles change their crystalline structure and expand slightly.</p>
+
+<p>In tempered glass, which is under constant internal tension, even a small expansion from a nickel sulfide particle can trigger spontaneous breakage. When this happens, the glass shatters into small, relatively safe pieces rather than forming a single crack.</p>
+
+<p>Nickel sulfide failure is rare but not preventable. It can happen years after installation and is unrelated to temperature, though cold weather can be a contributing trigger. If your tempered glass shattered without impact, this is a likely cause.</p>
+
+<h2 id="insurance-coverage">Insurance Coverage for Stress Cracks</h2>
+
+<p>Whether your home insurance covers a thermal stress crack depends on your policy. Many standard policies in Ontario do cover sudden and accidental glass breakage, which includes thermal stress cracks. Some policies exclude stress cracks specifically.</p>
+
+<p>Check your policy or call your insurer. If the crack is covered, you will typically need:</p>
+<ul>
+  <li>Photos of the crack</li>
+  <li>A description of when you noticed it</li>
+  <li>A quote for the replacement</li>
+</ul>
+
+<p>The deductible may be close to or higher than the cost of a single glass replacement, so compare before filing a claim.</p>
+
+<h2 id="what-to-do">What to Do When It Happens</h2>
+
+<p>A cracked window is not an emergency unless the glass is broken through completely and your home is exposed to the elements. For a stress crack where the glass is still in one piece:</p>
+<ol>
+  <li>Do not try to tape or glue the crack. It will not hold, and adhesive residue makes the eventual replacement messier.</li>
+  <li>If the crack is on the outer pane of a sealed unit, the inner pane is still intact and providing some insulation.</li>
+  <li>Book a <a href="/glass-replacement" class="text-accent hover:underline font-medium">glass replacement</a>. The glass is measured, custom-made, and then installed in the existing frame.</li>
+  <li>If the glass is fully broken and your home is exposed, that is an <a href="/emergency-glass-repair" class="text-accent hover:underline font-medium">emergency glass repair</a> situation. We respond 24/7.</li>
+</ol>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can a stress crack spread?</h3>
+<p>Yes. Temperature changes will continue to stress the glass, and the crack is likely to grow over time. It won't seal itself. Replacing the glass sooner prevents the crack from reaching a point where the pane fails completely.</p>
+
+<h3>Is a thermal stress crack dangerous?</h3>
+<p>Standard annealed glass with a stress crack will stay in the frame. The crack line is clean, and the pieces stay connected. It is not an immediate safety risk, but it should be replaced before it worsens. If the glass is tempered and shatters, the small pieces are designed to be less dangerous than large shards, but the window will need immediate boarding or replacement.</p>
+
+<h3>Can I prevent thermal stress cracks?</h3>
+<p>You can reduce the risk by not aiming heating vents directly at windows, pulling curtains or blinds back slightly to allow air circulation between the covering and the glass, and choosing sealed units with clean, properly processed edges. If your window faces direct morning sun and has a history of cracking, talk to us about whether a different glass type would be more resistant.</p>
+`,
+  },
+  {
+    slug: "garage-door-window-glass-replacement",
+    title: "Garage Door Window Glass Replacement: Styles and Options",
+    metaTitle: "Garage Door Window Glass Replacement: Styles, Types, and Options",
+    metaDescription:
+      "Broken or dated garage door window glass? Learn about glass types, sizing, and when to upgrade from single pane to insulated for better energy performance.",
+    excerpt:
+      "Garage door windows take a beating from weather and stray balls. Replacing the glass is simpler than you might think, and it is a good opportunity to upgrade to insulated or decorative options.",
+    publishedAt: "2026-11-15",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Garage Door", "Glass Replacement", "Home Improvement", "Insulated Glass"],
+    sections: [
+      { id: "common-glass-types", title: "Common Glass Types for Garage Doors" },
+      { id: "standard-vs-custom", title: "Standard vs Custom Sizing" },
+      { id: "diy-vs-professional", title: "DIY Snap-In vs Professional Installation" },
+      { id: "upgrading-insulated", title: "Upgrading to Insulated Glass" },
+      { id: "choosing-style", title: "Choosing a Style" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Garage door windows let natural light into what is usually the darkest room in the house. When they crack, cloud over, or just look dated, replacing the glass is a straightforward project. You can match what you had, or take the opportunity to upgrade to something better.</p>
+
+<h2 id="common-glass-types">Common Glass Types for Garage Doors</h2>
+
+<p>Garage door windows come in several glass types, each with different characteristics:</p>
+
+<p><strong>Clear glass:</strong> Standard transparent glass. Lets in the most light but offers no privacy. Common in detached garages that don't face the street.</p>
+
+<p><strong>Frosted or obscured glass:</strong> Lets in light while blocking the view. Good for street-facing garages where you don't want people seeing your tools, vehicles, or storage. Available in several patterns and opacity levels.</p>
+
+<p><strong>Decorative glass:</strong> Patterned, tinted, or textured glass that adds visual interest to the garage door. Styles range from colonial grids to contemporary frosted panels. Decorative glass can transform the curb appeal of an older garage door without replacing the entire door.</p>
+
+<p><strong>Insulated glass (sealed units):</strong> Double-pane glass with an air or gas fill between the panes. Provides better thermal insulation than single pane, which matters if your garage is attached to the house or if you use the space as a workshop.</p>
+
+<p><strong>Tempered glass:</strong> Safety glass that breaks into small granular pieces instead of sharp shards. Building codes may require tempered glass in garage doors depending on the size and placement of the panels.</p>
+
+<h2 id="standard-vs-custom">Standard vs Custom Sizing</h2>
+
+<p>Many garage door manufacturers use standardized window panel sizes. If your door is from a major manufacturer, replacement glass in the standard sizes may be available off the shelf.</p>
+
+<p>Older doors, custom doors, or doors from smaller manufacturers may need custom-cut glass. This is not a problem. It just means the glass needs measuring and fabrication before installation, which adds a few days to the timeline.</p>
+
+<p>When measuring, the important dimensions are the visible glass area and the channel depth (how far the glass sits into the frame). Getting these right ensures a proper fit and seal.</p>
+
+<h2 id="diy-vs-professional">DIY Snap-In vs Professional Installation</h2>
+
+<p>Some garage door window systems use snap-in frames where the glass panel lifts out from the inside. If your door has this style, replacing a single pane of clear glass is a task some homeowners handle themselves.</p>
+
+<p>Professional installation makes more sense when:</p>
+<ul>
+  <li>The glass is a sealed insulated unit (heavier and requires proper shimming and sealing)</li>
+  <li>The window frame is part of the door panel rather than a snap-in insert</li>
+  <li>You are replacing multiple panels at once</li>
+  <li>You are upgrading from single pane to insulated, which may need a different frame depth</li>
+  <li>The existing frame or rubber gaskets are damaged and need replacing along with the glass</li>
+</ul>
+
+<p>Improper installation leads to leaks, rattling, and premature failure of the seal on insulated units. If you are spending money on upgraded glass, professional installation protects that investment.</p>
+
+<h2 id="upgrading-insulated">Upgrading to Insulated Glass</h2>
+
+<p>If your garage is attached to the house, upgrading from single-pane to insulated glass in the garage door is one of the most cost-effective energy improvements you can make. Single-pane glass in a garage door is a significant source of heat loss in winter.</p>
+
+<p>Benefits of insulated garage door glass:</p>
+<ul>
+  <li>Reduced heat loss from the garage into attached living spaces</li>
+  <li>More comfortable working temperature if you use the garage as a workshop</li>
+  <li>Less condensation on the inside of the glass in cold weather</li>
+  <li>Reduced outside noise</li>
+</ul>
+
+<p>The main consideration is whether the existing window frames in your garage door can accommodate the thicker profile of a sealed unit. Single-pane glass is about 3mm thick. A standard sealed unit is 15 to 22mm thick. Some frame systems can handle the thicker glass with an adapter. Others need a frame upgrade.</p>
+
+<p>A technician can assess your specific door during a site visit and let you know what is possible without replacing the entire door. For more on sealed glass units, see our <a href="/glass-replacement" class="text-accent hover:underline font-medium">glass replacement page</a>.</p>
+
+<h2 id="choosing-style">Choosing a Style</h2>
+
+<p>If you are replacing garage door glass anyway, it is worth considering whether a different style would improve your home's appearance. Garage doors are one of the most visible parts of a home's exterior.</p>
+
+<p>Some options:</p>
+<ul>
+  <li><strong>Matching the front door:</strong> If your <a href="/front-door-glass" class="text-accent hover:underline font-medium">front door has decorative glass</a>, matching that style on the garage door creates a cohesive look.</li>
+  <li><strong>Privacy upgrade:</strong> Switching from clear to frosted glass is a simple change that improves security without losing light.</li>
+  <li><strong>Modern look:</strong> Full-view garage doors with large glass panels are popular in modern home designs. If you have a traditional door and want to update the look, larger glass panels can be a dramatic improvement.</li>
+  <li><strong>Period-appropriate:</strong> For older homes, colonial-style divided light panels maintain the character of the house.</li>
+</ul>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I replace just the glass in my garage door, or do I need a new door?</h3>
+<p>In most cases, just the glass. If the door panels, frame, and hardware are in good condition, there is no reason to replace the entire door. Glass replacement is significantly less expensive and can be done in a single visit.</p>
+
+<h3>How long does garage door glass replacement take?</h3>
+<p>For standard-size panels that are in stock, same-day installation is possible. Custom glass or sealed units need to be fabricated first, which typically takes a few days after measurements are taken.</p>
+
+<h3>Will new glass panels change how my garage door operates?</h3>
+<p>If you are upgrading from single pane to insulated glass, the panels will be heavier. In most cases, the difference is small enough that the door opener handles it without adjustment. For doors with many large glass panels, the spring tension may need a slight adjustment, which any garage door technician can handle. The glass installation itself does not affect the door's mechanical operation.</p>
+
+<h3>Is the garage door glass covered by warranty?</h3>
+<p>Glass installed by LuminaSky comes with a 5-year seal warranty on sealed units and a 2-year warranty on workmanship. The warranty does not cover impact damage, vandalism, or physical breakage. <a href="/contact" class="text-accent hover:underline font-medium">Contact us</a> for a written quote on the spot.</p>
+`,
+  },
+  {
     slug: "spring-window-inspection-checklist",
     title: "Spring Window Inspection Checklist for Toronto Homeowners",
     metaTitle: "Spring Window Inspection Checklist: What to Check After Winter",
@@ -6112,6 +7379,18 @@ export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
 `,
   },
 ];
+
+export function getBlogPost(slug: string): BlogPost | undefined {
+  return BLOG_POSTS.find((p) => p.slug === slug);
+}
+
+export function getAllBlogSlugs(): string[] {
+  return BLOG_POSTS.map((p) => p.slug);
+}
+
+export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
+  const current = BLOG_POSTS.find((p) => p.slug === slug);
+  if (!current) return [];
 
   const scored = BLOG_POSTS.filter((p) => p.slug !== slug).map((p) => {
     const shared = p.tags.filter((t) => current.tags.includes(t)).length;
