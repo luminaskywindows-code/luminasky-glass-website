@@ -7,7 +7,12 @@ import {
   ChevronRight,
   Wrench,
 } from "lucide-react";
-import InlineVideoPlayer from "@/components/video/InlineVideoPlayer";
+import dynamic from "next/dynamic";
+
+const InlineVideoPlayer = dynamic(
+  () => import("@/components/video/InlineVideoPlayer"),
+  { ssr: true }
+);
 import { CTABanner } from "@/components/shared/CTABanner";
 import { RelatedArticles } from "@/components/shared/RelatedArticles";
 import { ServiceTestimonials } from "@/components/shared/ServiceTestimonials";

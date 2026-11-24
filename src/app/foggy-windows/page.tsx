@@ -22,7 +22,12 @@ import {
   CloudRain,
 } from "lucide-react";
 import { CTABanner } from "@/components/shared/CTABanner";
-import { YouTubeFacade } from "@/components/video/YouTubeFacade";
+import dynamic from "next/dynamic";
+
+const YouTubeFacade = dynamic(
+  () => import("@/components/video/YouTubeFacade").then((m) => m.YouTubeFacade),
+  { ssr: true }
+);
 import { FOGGY_GLASS_CITY_PAGES } from "@/lib/foggy-glass-city-data";
 import { ServiceCard } from "@/components/shared/ServiceCard";
 import {

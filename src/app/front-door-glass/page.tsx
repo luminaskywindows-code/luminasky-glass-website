@@ -15,7 +15,12 @@ import {
   MessageCircle,
   Camera,
 } from "lucide-react";
-import InlineVideoPlayer from "@/components/video/InlineVideoPlayer";
+import dynamic from "next/dynamic";
+
+const InlineVideoPlayer = dynamic(
+  () => import("@/components/video/InlineVideoPlayer"),
+  { ssr: true }
+);
 import { CTABanner } from "@/components/shared/CTABanner";
 import { FRONT_DOOR_GLASS_CITY_PAGES } from "@/lib/front-door-glass-city-data";
 import { ServiceCard } from "@/components/shared/ServiceCard";
