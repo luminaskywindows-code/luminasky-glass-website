@@ -200,6 +200,20 @@ export default function FrontDoorGlassPage() {
               { minPrice: 450, maxPrice: 1200, priceDescription: "Front door glass insert replacement, decorative or clear." }
             ),
             generateFAQSchema(FAQS),
+            {
+              "@type": "VideoObject",
+              "name": "Front Door Glass Replacement in Toronto",
+              "description": "Watch LuminaSky replace a front door glass insert in a Toronto home. See the full process from removal to finished installation.",
+              "thumbnailUrl": "https://img.youtube.com/vi/zjcjoSpsz3A/maxresdefault.jpg",
+              "uploadDate": "2024-06-01",
+              "contentUrl": "https://youtube.com/shorts/zjcjoSpsz3A",
+              "embedUrl": "https://www.youtube.com/embed/zjcjoSpsz3A",
+              "publisher": {
+                "@type": "Organization",
+                "name": "LuminaSky Glass Services",
+                "url": "https://www.luminasky.com"
+              }
+            },
             generateHowToSchema({
               name: "How to Get Your Front Door Glass Replaced",
               description:

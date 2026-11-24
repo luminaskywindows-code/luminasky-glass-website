@@ -166,6 +166,20 @@ export default function WindowReplacementPage() {
               { minPrice: 800, maxPrice: 3000, priceDescription: "Full window replacement including frame." }
             ),
             generateFAQSchema(FAQS),
+            {
+              "@type": "VideoObject",
+              "name": "Full Window Replacement in Toronto",
+              "description": "Watch LuminaSky remove an old window and install a brand new one in a Toronto home. See the complete replacement process from start to finish.",
+              "thumbnailUrl": "https://img.youtube.com/vi/3d920rntHYw/maxresdefault.jpg",
+              "uploadDate": "2024-06-01",
+              "contentUrl": "https://youtube.com/shorts/3d920rntHYw",
+              "embedUrl": "https://www.youtube.com/embed/3d920rntHYw",
+              "publisher": {
+                "@type": "Organization",
+                "name": "LuminaSky Glass Services",
+                "url": "https://www.luminasky.com"
+              }
+            },
             generateHowToSchema({
               name: "How Full Window Replacement Works",
               description: "Our step-by-step process for replacing old or failing windows across Toronto and the GTA.",
