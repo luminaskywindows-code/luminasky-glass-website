@@ -28,6 +28,25 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    id: "foggy-patio-door-glass-woodbridge",
+    title: "Foggy Patio Door Glass Replacement",
+    category: "doors",
+    mediaType: "before-after-slider",
+    beforeImage: {
+      src: "/images/services/patio-door-foggy-woodbridge-before.webp",
+      alt: "Sliding patio door in a Woodbridge home with moisture streaks trapped inside the sealed glass unit",
+    },
+    afterImage: {
+      src: "/images/services/patio-door-foggy-woodbridge-after.webp",
+      alt: "Same Woodbridge patio door with a new clear sealed glass unit installed in the original frame",
+    },
+    description:
+      "The seal on this sliding patio door had failed, so moisture got between the panes and left streaks across the glass. We replaced only the sealed glass unit and kept the existing door frame and track. The view to the backyard is clear again.",
+    location: "Woodbridge",
+    serviceType: "Glass Replacement",
+    tags: [],
+  },
+  {
     id: "cracked-glass-replacement-brampton",
     title: "Cracked Window Glass Replacement",
     category: "windows",
