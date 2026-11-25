@@ -27,6 +27,22 @@ export const SOCIALS = [
   },
 ];
 
+/** Shown only where a page asks for it (the footer), so the header row stays short. */
+export const YOUTUBE = {
+  key: "youtube",
+  label: "Watch our videos on YouTube",
+  href: "https://www.youtube.com/@luminaskyglass",
+  Icon: YouTubeIcon,
+};
+
+function YouTubeIcon({ size }: { size: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+    </svg>
+  );
+}
+
 function TikTokIcon({ size }: { size: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -65,16 +81,20 @@ interface SocialLinksProps {
   size?: number;
   containerClassName?: string;
   linkClassName?: string;
+  /** Add the YouTube icon at the end of the row. */
+  withYoutube?: boolean;
 }
 
 export function SocialLinks({
   size = 24,
   containerClassName = "flex items-center gap-4",
   linkClassName = "text-gray-500 hover:text-accent transition-colors duration-150 hover:scale-110 transform",
+  withYoutube = false,
 }: SocialLinksProps) {
+  const items = withYoutube ? [...SOCIALS, YOUTUBE] : SOCIALS;
   return (
     <div className={containerClassName}>
-      {SOCIALS.map(({ key, label, href, Icon }) => (
+      {items.map(({ key, label, href, Icon }) => (
         <a
           key={key}
           href={href}

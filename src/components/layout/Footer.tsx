@@ -180,15 +180,34 @@ export function Footer() {
                 size={22}
                 containerClassName="flex items-center gap-3"
                 linkClassName="text-blue-300 hover:text-white transition-colors duration-150"
+                withYoutube
               />
-              <a
-                href="https://www.bbb.org/ca/on/vaughan/profile/window-repair/luminasky-glass-services-0107-1422165"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-3 inline-flex items-center gap-1.5 text-xs text-blue-200 hover:text-white transition-colors"
-              >
-                BBB Profile
-              </a>
+              <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1">
+                <a
+                  href="https://www.bbb.org/ca/on/vaughan/profile/window-repair/luminasky-glass-services-0107-1422165"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-blue-200 hover:text-white transition-colors"
+                >
+                  BBB Profile
+                </a>
+                <a
+                  href="https://www.homestars.com/profile/luminasky-glass-services"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-blue-200 hover:text-white transition-colors"
+                >
+                  HomeStars
+                </a>
+                <a
+                  href="https://www.yelp.ca/biz/luminasky-glass-services-vaughan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-blue-200 hover:text-white transition-colors"
+                >
+                  Yelp
+                </a>
+              </div>
               <a
                 href="https://www.google.com/search?sca_esv=50e2bf8f38455036&sxsrf=ANbL-n7wSLiGxC2fDL8T78exI1FufMDcqA:1777236681407&kgmid=/g/11ylg1yw71&q=Lumina+Sky+Glass+Services&shem=dlvs1,rimspwouoe&shndl=30&source=sh/x/loc/uni/m1/1&kgs=de8e7fb04e2ff6dd&utm_source=dlvs1,rimspwouoe,sh/x/loc/uni/m1/1#mpd=~7335244370390807247/customers/reviews?p%3DCg51cGRhdGV0aW1lZGVzYxIDYWxs"
                 target="_blank"

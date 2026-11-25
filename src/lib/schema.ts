@@ -59,7 +59,9 @@ export function generateOrganizationSchema() {
       "https://www.tiktok.com/@luminaskyglassservices",
       "https://www.bbb.org/ca/on/vaughan/profile/window-repair/luminasky-glass-services-0107-1422165",
       "https://maps.google.com/?cid=11308652498566906926",
-      "https://homestars.com/companies/luminasky-glass-services",
+      "https://www.homestars.com/profile/luminasky-glass-services",
+      "https://www.yelp.ca/biz/luminasky-glass-services-vaughan",
+      "https://www.youtube.com/@luminaskyglass",
     ],
     founder: {
       "@type": "Person",
