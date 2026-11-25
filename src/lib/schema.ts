@@ -62,6 +62,7 @@ export function generateOrganizationSchema() {
       "https://www.homestars.com/profile/luminasky-glass-services",
       "https://www.yelp.ca/biz/luminasky-glass-services-vaughan",
       "https://www.youtube.com/@luminaskyglass",
+      "https://trustedpros.ca/company/luminasky-glass-services",
     ],
     founder: {
       "@type": "Person",
