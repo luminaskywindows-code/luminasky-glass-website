@@ -16,6 +16,88 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "water-coming-in-through-window",
+    title: "Water Coming In Through Your Window? Here's What's Causing It",
+    metaTitle: "Water Leaking Through a Window: Causes and Fixes | LuminaSky",
+    metaDescription:
+      "Water on the sill after rain? The most common causes of a leaking window, what you can check yourself, and when it needs a repair (usually not a new window).",
+    excerpt:
+      "Water on the sill after a storm usually comes from one of five places. Most of them are repairs, not a new window. Here is how to narrow it down.",
+    publishedAt: "2026-11-26",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Water Leaks", "Window Repair", "Caulking", "Window Maintenance"],
+    sections: [
+      { id: "first-check", title: "Leak or Condensation?" },
+      { id: "causes", title: "The Most Common Causes" },
+      { id: "what-you-can-check", title: "What You Can Check Yourself" },
+      { id: "when-to-call", title: "When to Call Us" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Water on the sill after a rainstorm is one of those problems that's easy to ignore the first time. You wipe it up and forget about it. Then it happens again, and you notice the paint under the window is starting to bubble.</p>
+
+<p>Water coming in around a window almost always has one of a handful of causes. Most of them are repairs, not a new window. Here is how to narrow it down.</p>
+
+<h2 id="first-check">First, Is It a Leak or Condensation?</h2>
+
+<p>Before anything else, rule out condensation. Water that forms on the inside of the glass on cold mornings and runs down to the sill is moisture from the air in your house, not rain coming in. It shows up in winter, on cold days, and often on several windows at once.</p>
+
+<p>A leak shows up during or right after rain, usually at one window, and often at a corner or along the bottom of the frame. If you're not sure, our guide to <a href="/blog/window-condensation-in-winter">window condensation in winter</a> explains the difference.</p>
+
+<h2 id="causes">The Most Common Causes</h2>
+
+<h3>1. Failed exterior caulking</h3>
+<p>The bead of sealant between the window frame and the wall is the first line of defence against rain. When it cracks or pulls away from the brick or siding, water runs straight into the gap and finds its way inside. This is the most common cause we see, and the easiest to fix. See our post on <a href="/blog/window-caulking-inside-outside-around-glass">window caulking inside, outside and around the glass</a>.</p>
+
+<h3>2. Blocked drain holes</h3>
+<p>Most vinyl and aluminum windows have small weep holes along the bottom of the frame on the outside. Water that gets into the frame is supposed to drain out through them. When they fill with dirt, bugs or old paint, the water backs up and spills over the inside edge of the sill instead. A blocked weep hole is often the reason a window leaks only in heavy rain.</p>
+
+<h3>3. Worn seals around the glass</h3>
+<p>The gasket or glazing seal where the glass sits in the frame dries out and shrinks over the years. Once there's a gap, rain running down the glass gets behind the seal and into the sash. You'll often see water at the bottom corners of the glass.</p>
+
+<h3>4. Weatherstripping on sliding windows and patio doors</h3>
+<p>On sliders and patio doors, worn weatherstripping and a dirty track can let water blow in during a windy storm. A track full of debris also stops water from draining out properly.</p>
+
+<h3>5. Problems above the window</h3>
+<p>Sometimes the window isn't the problem at all. Missing flashing above the window, a clogged gutter overflowing down the wall, or cracked brick above the frame can send water down into the opening. The window just happens to be where it shows up.</p>
+
+<h2 id="what-you-can-check">What You Can Check Yourself</h2>
+
+<ul>
+<li><strong>Look at the outside caulking.</strong> Cracks, gaps or pieces missing are a clear sign.</li>
+<li><strong>Find the weep holes</strong> on the outside bottom edge of the frame and make sure they're open. A thin wire or a pipe cleaner clears most of them.</li>
+<li><strong>Vacuum the tracks</strong> on sliding windows and patio doors.</li>
+<li><strong>Check the gutters</strong> above the window after the next rain.</li>
+<li><strong>Note when it leaks.</strong> Only in heavy rain, only with wind from one side, or every time it rains. That pattern tells us a lot.</li>
+</ul>
+
+<h2 id="when-to-call">When to Call Us</h2>
+
+<p>If water keeps coming in after you've cleared the drain holes, or you see stains on the drywall, soft wood under the sill or bubbling paint, it's time to have it looked at. Water that sits inside a wall for a season can cause damage that costs far more than the window repair.</p>
+
+<p>On a visit, the technician checks the caulking, the drain holes, the glass seals and the frame, and works out where the water is actually getting in before quoting anything. Most leaks are fixed with recaulking, new seals or clearing the drainage. A full replacement only makes sense when the frame itself is cracked or rotted.</p>
+
+<p>After a leak repair, we call a couple of days later to check that the window has stayed dry. A leak isn't really fixed until it gets through the next rain.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Do I need a new window if it leaks?</h3>
+<p>Usually not. Most leaks come from caulking, drainage or seals, and all of those can be repaired. Replacement makes sense when the frame is cracked, rotted or warped.</p>
+
+<h3>Why does my window only leak in heavy rain?</h3>
+<p>That usually points to blocked drain holes or a small gap in the exterior caulking. Light rain drains away. Heavy rain fills the frame faster than it can empty.</p>
+
+<h3>Can a leak be fixed in winter?</h3>
+<p>Most of it, yes. Seals, drainage and interior work can be done any time. Exterior caulking needs a dry day above freezing, so we book it on a mild day or seal it temporarily until spring.</p>
+
+<h3>Will my home insurance cover water damage from a leaking window?</h3>
+<p>It depends on your policy. Sudden damage is often covered, while slow leaks from wear are often not. Our post on <a href="/blog/home-insurance-broken-window-ontario">home insurance and broken windows in Ontario</a> covers what to check.</p>
+
+<p>If water is getting in around one of your windows, <a href="/contact">book a visit</a>. The technician finds the source and gives you a written price on the spot.</p>
+`,
+  },
+  {
     slug: "window-caulking-inside-outside-around-glass",
     title: "Window Caulking: Inside, Outside, or Around the Glass?",
     metaTitle: "Window Caulking Inside vs Outside vs Around the Glass | LuminaSky",
