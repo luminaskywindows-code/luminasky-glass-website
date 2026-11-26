@@ -16,6 +16,115 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "window-caulking-inside-outside-around-glass",
+    title: "Window Caulking: Inside, Outside, or Around the Glass?",
+    metaTitle: "Window Caulking Inside vs Outside vs Around the Glass | LuminaSky",
+    metaDescription:
+      "Do you need window caulking inside, outside, or around the glass? What each one does, signs it has failed, how it's done properly, and what affects the price.",
+    excerpt:
+      "Inside, outside, or around the glass? Each caulking joint on a window does a different job. Here is how to tell which one you need, and why the old caulking has to come out first.",
+    publishedAt: "2026-11-26",
+    author: "Dan",
+    readingTime: 7,
+    tags: ["Caulking", "Window Maintenance", "Drafts", "Water Leaks"],
+    sections: [
+      { id: "what-caulking-does", title: "What Window Caulking Actually Does" },
+      { id: "outside", title: "Exterior Caulking" },
+      { id: "inside", title: "Interior Caulking" },
+      { id: "around-the-glass", title: "Caulking Around the Glass" },
+      { id: "which-option", title: "Which Option Do You Need?" },
+      { id: "how-we-do-it", title: "How We Do the Job" },
+      { id: "cost", title: "What It Costs" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>Most people only think about the caulking around their windows when something goes wrong: a draft near the frame, a stain on the drywall under the sill, or a gap you can see daylight through. By then the old caulking has usually been failing for a while.</p>
+
+<p>This is the question we get on almost every caulking call: do I need it inside, outside, or both? And what about around the glass? Here is how we explain it to homeowners.</p>
+
+<h2 id="what-caulking-does">What Window Caulking Actually Does</h2>
+
+<p>Caulking fills the joints where two materials meet and don't move together. On a window there are three of those joints, and each one has a different job.</p>
+
+<ul>
+<li><strong>Outside, between the frame and the wall.</strong> This is the one that keeps rain and melting snow out of the wall cavity.</li>
+<li><strong>Inside, between the frame and the trim or drywall.</strong> This one stops drafts and gives a clean finished edge.</li>
+<li><strong>Around the glass, where the glass meets the sash.</strong> On many windows this joint is sealed with a glazing bead or gasket. When that seal dries out or shrinks, air and water can get in right at the glass.</li>
+</ul>
+
+<p>The caulking itself doesn't make a window energy efficient. The glass and the frame do that. What caulking does is stop air and water from going around the window instead of through it.</p>
+
+<h2 id="outside">Exterior Caulking</h2>
+
+<p>The outside bead takes the most abuse. Sun, rain and Toronto freeze-thaw cycles all work on it, and the frame and the wall expand and shrink at different rates every season. Even a good exterior sealant usually needs to be redone every 8 to 12 years. Cheaper caulking can crack in 3 or 4.</p>
+
+<p>Signs the exterior caulking has failed:</p>
+<ul>
+<li>Cracks, gaps or pieces missing along the frame</li>
+<li>Caulking that has pulled away from the brick or siding on one side</li>
+<li>Water stains on the inside wall or sill after rain</li>
+<li>Soft or swollen wood trim below the window</li>
+</ul>
+
+<p>If water is already getting in, exterior caulking is the first thing we check. Our post on <a href="/blog/window-seal-failure-signs">window seal failure signs</a> covers the difference between a failed caulking joint and a failed sealed unit, because they look similar from inside.</p>
+
+<h2 id="inside">Interior Caulking</h2>
+
+<p>Inside, the caulking sits between the window frame and the trim or drywall. It doesn't fight the weather, so it lasts longer, but it does shrink and crack as the house settles and the heating dries the air out in winter.</p>
+
+<p>Interior caulking is mostly about drafts and appearance. If you can feel cold air along the edge of the trim on a windy day, or the old bead has yellowed and split, it's time. It's also the part that makes the window look finished after any repair or glass replacement.</p>
+
+<h2 id="around-the-glass">Caulking Around the Glass</h2>
+
+<p>This is the option people don't usually know to ask about. On older windows, and on many patio doors and fixed units, the seal where the glass sits in the sash dries out over time. You might see a gap between the glass and the frame, or rubber gaskets that have shrunk back from the corners.</p>
+
+<p>Sealing that joint helps in two ways. It stops drafts at the glass edge, and it keeps water from sitting in the bottom of the sash, which is one of the things that shortens the life of a sealed glass unit. If the glass is already foggy between the panes, caulking won't fix that. The unit has to be replaced. See <a href="/foggy-windows">foggy glass repair</a> for how that works.</p>
+
+<h2 id="which-option">Which Option Do You Need?</h2>
+
+<p>A simple way to think about it:</p>
+<ul>
+<li><strong>Water getting in, or caulking visibly cracked outside:</strong> exterior at minimum.</li>
+<li><strong>Drafts, cold edges, old yellowed bead inside:</strong> interior.</li>
+<li><strong>Older windows, gaps at the glass, or you want the whole window sealed once and done:</strong> inside, outside and around the glass.</li>
+</ul>
+
+<p>On a recent job in Alliston with 11 openings, including a sliding door, the homeowner asked us to price both ways: inside and outside, or inside, outside and around the glass. Most people choose the full option when the windows are more than 15 years old, because the glass seals tend to be going at the same time as the frame caulking.</p>
+
+<h2 id="how-we-do-it">How We Do the Job</h2>
+
+<ol>
+<li><strong>Remove the old caulking.</strong> New caulking over old, cracked caulking doesn't bond and fails fast. We cut out the old bead completely.</li>
+<li><strong>Clean and prep the joint.</strong> Dust, old sealant and moisture are what make caulking peel. The joint has to be clean and dry.</li>
+<li><strong>Backer rod where the gap is deep.</strong> Wide gaps get a foam backer rod first so the sealant is the right depth and can flex.</li>
+<li><strong>The right sealant for each joint.</strong> Exterior-grade sealant outside, paintable caulking inside, and a glazing-rated sealant at the glass.</li>
+<li><strong>Clean finish.</strong> One continuous, smooth bead, and we clean up before we leave.</li>
+</ol>
+
+<p>Exterior caulking needs a dry day and temperatures above freezing for the sealant to cure properly. In late fall we watch the forecast and book exterior work on mild days. Interior caulking can be done any time of year.</p>
+
+<h2 id="cost">What It Costs</h2>
+
+<p>Caulking is priced per opening, and the price depends on the size of the windows, how much old caulking has to come out, the height (ladder work on a second floor takes longer), and whether you add the glass seal. A full house is usually much better value per window than doing one or two at a time, because most of the cost is setup and prep.</p>
+
+<p>If you send us a few photos of the windows and tell us how many openings there are, we can give you a price for each option. For bigger or more complicated jobs, the technician confirms everything at a <a href="/contact">$30 visit</a>, and the $30 comes off the job if you go ahead.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can I just caulk over the old caulking?</h3>
+<p>It's tempting, but it rarely lasts. New caulking doesn't stick well to old, dried-out sealant, so the new bead cracks along the same line within a season or two. The old bead has to come out first.</p>
+
+<h3>Is caulking enough if my window is leaking?</h3>
+<p>Sometimes. If the leak is at the frame joint, yes. If water is coming in because the drain holes in the frame are blocked, the flashing above the window is missing, or the sealed unit has failed, caulking alone won't stop it. We check where the water is actually coming from before we quote.</p>
+
+<h3>Can caulking be done in winter?</h3>
+<p>Interior caulking, yes. Exterior caulking needs a dry day above freezing, so in winter we wait for a mild stretch or plan it for spring.</p>
+
+<h3>How long does it take?</h3>
+<p>A typical house with 8 to 12 openings is usually a half day to a full day, depending on how much old caulking has to come out and how high the windows are.</p>
+`,
+  },
+  {
     slug: "skylight-condensation-causes-fixes",
     title: "Skylight Condensation: Why It Happens and What You Can Do About It",
     metaTitle: "Skylight Condensation: Causes, Fixes, and When to Worry",
