@@ -16,6 +16,93 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "foggy-bay-window-replace-panels",
+    title: "Foggy Bay Window? You Can Replace Just the Panels",
+    metaTitle: "Foggy Bay Window Glass: Replace Only the Panels | LuminaSky",
+    metaDescription:
+      "A foggy bay window rarely needs to come out. Each panel is its own sealed unit, so you can replace only the cloudy ones and keep the frame and trim.",
+    excerpt:
+      "Each panel in a bay window is its own sealed unit. When one or two go cloudy, you replace those panels and keep the frame, trim and seat exactly as they are.",
+    publishedAt: "2026-11-26",
+    author: "Dan",
+    readingTime: 6,
+    tags: ["Foggy Glass", "Bay Windows", "Sealed Units", "Glass Replacement"],
+    sections: [
+      { id: "why-they-fog", title: "Why Bay Window Panels Fog Up" },
+      { id: "replace-panels", title: "Replacing Just the Foggy Panels" },
+      { id: "all-at-once", title: "Should You Replace All the Panels at Once?" },
+      { id: "what-changes", title: "Upgrades While You're at It" },
+      { id: "how-it-works", title: "How It Works With Us" },
+      { id: "faq", title: "Common Questions" },
+    ],
+    content: `
+<p>A bay window is usually the nicest window in the house, which is why it's so frustrating when one or two of its panels go cloudy. A lot of homeowners assume the whole bay has to come out. In most cases it doesn't.</p>
+
+<p>A bay window is really a group of separate windows set into one frame. Each glass panel is its own sealed unit. When one fogs up, you can replace that panel and leave the rest of the bay, the frame and the trim exactly where they are.</p>
+
+<h2 id="why-they-fog">Why Bay Window Panels Fog Up</h2>
+
+<p>Each panel is two (or three) panes of glass with a sealed space between them. When the seal around the edge fails, moist air gets into that space and condenses on the inside of the glass. That's the cloudy film or streaks you see, and it can't be wiped off from either side. Our post on <a href="/blog/why-windows-fog-between-panes">why windows fog between the panes</a> explains the details.</p>
+
+<p>Bay windows tend to fail a little sooner than flat windows for two reasons. They stick out from the house, so the panels take more sun and more temperature swings. And the bottom of the bay often collects water if the drainage or caulking underneath isn't in good shape.</p>
+
+<h2 id="replace-panels">Replacing Just the Foggy Panels</h2>
+
+<p>This is the part most people don't expect. If two panels out of five are foggy, we replace those two sealed units and nothing else. The technician measures each panel, we order new units made to size, and on install day the old glass comes out of the frame and the new glass goes in. The frame, the trim, the seat board and the inside finish stay as they are.</p>
+
+<p>That's very different from replacing a bay window, which means removing the whole unit from the wall, reframing the opening and refinishing inside and out. Panel replacement is a fraction of the cost and usually takes a few hours on site.</p>
+
+<h2 id="all-at-once">Should You Replace All the Panels at Once?</h2>
+
+<p>Not always. If only one or two panels are foggy and the others look clear, replacing just the failed ones is a reasonable choice. The others may last years longer.</p>
+
+<p>There are times when doing all of them makes sense:</p>
+<ul>
+<li><strong>Most of them are already going.</strong> If three of five are cloudy, the other two are often not far behind, and doing them together saves a second visit.</li>
+<li><strong>You want them to match.</strong> New glass can look slightly clearer than 20-year-old glass beside it. Most people don't notice, but some do.</li>
+<li><strong>Price per panel.</strong> More units on the same job means a better price for each one, because the visit and setup are shared.</li>
+</ul>
+
+<p>We had a homeowner reach out recently about an 8-foot bay with five panels, three of them foggy. Her neighbour had the same problem in the same complex. When neighbours book together, we can do both homes on one trip, and the price per panel comes down for both.</p>
+
+<h2 id="what-changes">Upgrades While You're at It</h2>
+
+<p>Since the glass is being made new anyway, it's a good moment to choose what goes in:</p>
+<ul>
+<li><strong>Low-E coating and argon gas</strong> for better insulation, which matters on a bay window because of all the glass area. See <a href="/blog/double-vs-triple-pane-low-e-argon">double vs triple pane, Low-E and argon</a>.</li>
+<li><strong>Tempered glass</strong> where it's required, for example when the bottom of the glass is close to the floor or a seat.</li>
+<li><strong>Grilles between the glass</strong> if you want to match the style of the other windows.</li>
+</ul>
+
+<h2 id="how-it-works">How It Works With Us</h2>
+
+<ol>
+<li><strong>Send a photo</strong> of the bay and the approximate size of the panels. That's enough for us to give you a price range.</li>
+<li><strong>A technician visits</strong> to measure each panel exactly and gives you a written quote on the spot.</li>
+<li><strong>The new units are made</strong> by our glass supplier, usually within a couple of weeks.</li>
+<li><strong>Installation</strong> takes a few hours. The old glass is removed and taken away, and the new units are sealed in.</li>
+</ol>
+
+<p>Sealed glass units we install come with a <a href="/warranty">5-year warranty against seal failure</a>.</p>
+
+<h2 id="faq">Common Questions</h2>
+
+<h3>Can foggy bay window glass be cleaned or defogged?</h3>
+<p>Not in a way that lasts. The moisture is inside the sealed unit. Some services drill and dry the glass, but the seal is still broken and the insulating gas is gone, so the fog comes back. Replacing the unit is the real fix.</p>
+
+<h3>Do I have to replace the whole bay window?</h3>
+<p>Only if the frame itself is rotted, cracked or the bay is sagging away from the house. If the frame is sound, the panels can be replaced on their own.</p>
+
+<h3>What does it cost?</h3>
+<p>It depends on the size of each panel, the glass type and how many you're replacing. Our <a href="/blog/foggy-window-repair-cost-gta">foggy window repair cost guide</a> has current ranges, and we can give you a range from a photo.</p>
+
+<h3>Is it OK to leave a foggy panel for a while?</h3>
+<p>Usually, yes. A foggy panel doesn't leak into the house. It insulates less and looks bad, and over time the haze can etch the glass. If there's a crack or water at the bottom of the bay, have it checked sooner.</p>
+
+<p>If your bay window has gone cloudy, send us a photo or <a href="/contact">book a visit</a> and we'll tell you which panels need replacing.</p>
+`,
+  },
+  {
     slug: "water-coming-in-through-window",
     title: "Water Coming In Through Your Window? Here's What's Causing It",
     metaTitle: "Water Leaking Through a Window: Causes and Fixes | LuminaSky",
